@@ -29033,7 +29033,7 @@ msgstr "Wemp"
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.FEMALE.MS
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.FEMALE.MS"
 msgid "Ms."
-msgstr "Nti."
+msgstr "Neiti"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.FEMALE.OL_WOMAN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.FEMALE.OL_WOMAN"
@@ -29058,7 +29058,7 @@ msgstr "Kuningas"
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.MALE.MR
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.MALE.MR"
 msgid "Mr."
-msgstr "Hra."
+msgstr "Herra"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.MALE.OL_MAN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.MALE.OL_MAN"
@@ -29088,7 +29088,7 @@ msgstr "Eversti"
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.DR
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.DR"
 msgid "Dr."
-msgstr "Tri."
+msgstr "Tohtori"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.EVIL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.EVIL"
@@ -29103,7 +29103,7 @@ msgstr "Wanha Kunno'"
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.MX
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.MX"
 msgid "Mx."
-msgstr "Mx."
+msgstr "Arvon"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.OLD
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.OLD"
@@ -29148,7 +29148,7 @@ msgstr "\"Jäbä\""
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.JR
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.JR"
 msgid "Jr."
-msgstr "Nri."
+msgstr "Junnu"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.MCCOOL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.MCCOOL"
@@ -29158,7 +29158,7 @@ msgstr "McSiisti"
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.SR
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.SR"
 msgid "Sr."
-msgstr "Vnh."
+msgstr "Vanha"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.STRONG
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.STRONG"
@@ -36886,6 +36886,8 @@ msgid ""
 "<b>Disconnected</b>\n"
 "This port is not connected to an automation grid"
 msgstr ""
+"<b>Ei yhdistetty</b>\n"
+"Tätä porttia ei ole yhdistetty automaatioverkkoon"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.INPUT"
@@ -36893,6 +36895,8 @@ msgid ""
 "<b>Input Port</b>\n"
 "Receives a signal from an automation grid"
 msgstr ""
+"<b>Sisäänottoportti</b>\n"
+"Vastaanottaa signaalin automaatioverkosta"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ONE
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ONE"
@@ -36900,6 +36904,8 @@ msgid ""
 "<b>Active</b>\n"
 "This port is currently active"
 msgstr ""
+"<b>Aktiivinen</b>\n"
+"Tämä portti on aktiivinen"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.OUTPUT"
@@ -36907,6 +36913,8 @@ msgid ""
 "<b>Output Port</b>\n"
 "Sends a signal out to an automation grid"
 msgstr ""
+"<b>Ulosvientiportti</b>\n"
+"Lähettää signaalin automaatioverkkoon"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RESET_UPDATE
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RESET_UPDATE"
@@ -36914,11 +36922,13 @@ msgid ""
 "<b>Refresh Port</b>\n"
 "Resets or updates a building when activated"
 msgstr ""
+"<b>Uusintoportti</b>\n"
+"Resetoi tai päivittää rakennuksen aktivoituessaan"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO"
 msgid "<b>Standby</b>This port is currently on standby"
-msgstr ""
+msgstr "<b>Valmiustilassa</b>Tämä portti on valmiustilassa"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
@@ -36939,6 +36949,11 @@ msgid ""
 "<b>+0.5 dB</b> to the total signal.\n"
 "Anything more than 10 dB quieter will be inaudible."
 msgstr ""
+"Kaksi saman dB-arvon omaavaa <link=\"SOUND\">Ääntä</link> summautuvat <b>+3 "
+"dB</b> korotuksella.\n"
+"<link=\"SOUND\">Ääni</link>, joka on 10 dB vaimeampi, lisää noin <b>+0.5 dB</"
+"b> yhteenlaskettuun signaaliin.\n"
+"Mikä tahansa yli 10 dB vaimeampi ei ole kuultavissa."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.HOVERTITLE
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.HOVERTITLE"
@@ -37011,6 +37026,13 @@ msgid ""
 "Duplicant foot traffic, generators, and powered buildings can create high "
 "noise levels."
 msgstr ""
+"[>{0} dB]\n"
+"------------------\n"
+"Kakofoninen melu aiheuttaa huomattavaa Ahdistusta ja estää Jäljennäisiä "
+"nukkumasta tai tutkimasta.\n"
+"\n"
+"Jäljennäisten jalankulku, generaattorit ja sähköistetyt rakennukset voivat "
+"aiheuttaa korkeita melutasoja."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.EXTREME
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.EXTREME"
@@ -37023,6 +37045,13 @@ msgid ""
 "Duplicant foot traffic, generators, and powered buildings can create high "
 "noise levels."
 msgstr ""
+"[>{0} dB]\n"
+"------------------\n"
+"Kivuliaat melutasot ovat Jäljennäisille äärimmäisen Ahdistavia ja tuottavat "
+"heille fyysistä kipua.\n"
+"\n"
+"Jäljennäisten jalankulku, generaattorit ja sähköistetyt rakennukset voivat "
+"aiheuttaa korkeita melutasoja."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.HIGH_NOISE_POLLUTION
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.HIGH_NOISE_POLLUTION"
@@ -37032,6 +37061,11 @@ msgid ""
 "------------------\n"
 "High Duplicant traffic and powered buildings can create noisy areas"
 msgstr ""
+"Altistuminen kovaääniselle melulle aiheuttaa Jäljennäsissä ajan myötä "
+"Ahdistusta ja tekee heidän nukkumisen tai keskittymisen vaikeaksi\n"
+"------------------\n"
+"Tiheä Jäljennäisten liikenne ja sähköistetyt rakennukset voivat tehdä "
+"alueista meluisia"
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.LOW_NOISE_POLLUTION
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.LOW_NOISE_POLLUTION"
@@ -37042,6 +37076,11 @@ msgid ""
 "Soundproofed rooms and areas free of buildings and critters will generally "
 "be quieter."
 msgstr ""
+"Hiljaiset alueet lievittävät Ahdistusta ja takaavat Jäljennäisille "
+"laadukkaan unen sekä auttavat heitä keskittymään\n"
+"------------------\n"
+"Äänieristetyt huoneet sekä rakennuksettomat ja otuksettomat alueet ovat "
+"yleisesti ottaen hiljaisempia."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.PASSIVE
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.PASSIVE"
@@ -37054,6 +37093,13 @@ msgid ""
 "Duplicant foot traffic, generators, and powered buildings can create high "
 "noise levels."
 msgstr ""
+"[>{0} dB]\n"
+"------------------\n"
+"Kovaääniset alueet haittaavat Jäljennäisten Oppimiskykyjä ja aiheuttavat "
+"lievää ahdistusta.\n"
+"\n"
+"Jäljennäisten jalankulku, generaattorit ja sähköistetyt rakennukset voivat "
+"aiheuttaa korkeita melutasoja."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.PEACEFUL
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.PEACEFUL"
@@ -37065,6 +37111,12 @@ msgid ""
 "Soundproofed rooms and areas free of buildings and critters will generally "
 "be quieter."
 msgstr ""
+"[{0} dB]\n"
+"------------------\n"
+"Rauhalliset alueet parantavat Jäljennäisten unenlaatua ja Oppimiskykyä.\n"
+"\n"
+"Äänieristetyt huoneet sekä rakennuksettomat ja otuksettomat alueet ovat "
+"yleisesti ottaen hiljaisempia."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.QUIET
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.QUIET"
@@ -37076,6 +37128,12 @@ msgid ""
 "Soundproofed rooms and areas free of buildings and critters will generally "
 "be quieter."
 msgstr ""
+"[>{0} dB]\n"
+"------------------\n"
+"Hiljaiset alueet ovat välttämättömiä Jäljennäisten nukahtamisen kannalta.\n"
+"\n"
+"Äänieristetyt huoneet sekä rakennuksettomat ja otuksettomat alueet ovat "
+"yleisesti ottaen hiljaisempia."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.TOSSANDTURN
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.TOSSANDTURN"
@@ -37087,6 +37145,13 @@ msgid ""
 "Soundproofed rooms and areas free of buildings and critters will generally "
 "be quieter."
 msgstr ""
+"[>{0} dB]\n"
+"------------------\n"
+"Jäljennäiset tuntevat itsensä huonosti nukkuneiksi, jos heidän on pakko "
+"nukkua Kohtalaisessa melussa.\n"
+"\n"
+"Äänieristetyt huoneet sekä rakennuksettomat ja otuksettomat alueet ovat "
+"yleisesti ottaen hiljaisempia."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.WAKEUP
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOOLTIPS.WAKEUP"
@@ -37099,6 +37164,13 @@ msgid ""
 "Duplicant foot traffic, generators, and powered buildings can create high "
 "noise levels."
 msgstr ""
+"[>{0} dB]\n"
+"------------------\n"
+"Meluisat alueet herättävät Jäljennäiset keskellä yötä, mutta he sietävät "
+"niitä päivisin.\n"
+"\n"
+"Jäljennäisten jalankulku, generaattorit ja sähköistetyt rakennukset voivat "
+"aiheuttaa korkeita melutasoja."
 
 #. STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOTAL
 msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOTAL"
@@ -37156,6 +37228,8 @@ msgid ""
 "<b>Very Breathable</b>\n"
 "High oxygen concentrations"
 msgstr ""
+"<b>Hyvin Hengitettävä</b>\n"
+"Korkea happipitoisuus"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND2
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND2"
@@ -37163,6 +37237,8 @@ msgid ""
 "<b>Breathable</b>\n"
 "Sufficient oxygen concentrations"
 msgstr ""
+"<b>Hengitettävä</b>\n"
+"Riittävä happipitoisuus"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND3
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND3"
@@ -37170,6 +37246,8 @@ msgid ""
 "<b>Barely Breathable</b>\n"
 "Low oxygen concentrations"
 msgstr ""
+"<b>Niukasti Hengitettävä</b>\n"
+"Alhainen happipitoisuus"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND4
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND4"
@@ -37179,6 +37257,10 @@ msgid ""
 "------------------\n"
 "Duplicants will suffocate if trapped in these areas"
 msgstr ""
+"<b>Hengityskelvoton</b>\n"
+"Erittäin alhainen tai olematon happipitoisuus\n"
+"------------------\n"
+"Jäljennäiset tukehtuvat, jos joutuvat näille alueille jumiin"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND5
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND5"
@@ -37186,6 +37268,8 @@ msgid ""
 "<b>Slightly Toxic</b>\n"
 "Harmful gas concentration"
 msgstr ""
+"<b>Hieman Myrkyllinen</b>\n"
+"Haitallinen kaasupitoisuus"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND6
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND6"
@@ -37193,6 +37277,8 @@ msgid ""
 "<b>Very Toxic</b>\n"
 "Lethal gas concentration"
 msgstr ""
+"<b>Erittäin Myrkyllinen</b>\n"
+"Tappava kaasupitoisuus"
 
 #. STRINGS.UI.OVERLAYS.POWER.WATTS_CONSUMED
 msgctxt "STRINGS.UI.OVERLAYS.POWER.WATTS_CONSUMED"
@@ -37365,6 +37451,8 @@ msgid ""
 "<b>Exosuit</b>\n"
 "Highlights the current location of equippable exosuits"
 msgstr ""
+"<b>Eksopuku</b>\n"
+"Korostaa päälle puettavien eksopukujen sijainnin"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.BUTTON"
@@ -39685,37 +39773,37 @@ msgstr "Vallitseva ilmanpaine on {pressure}"
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL"
 msgid "This plant is not housed in an operational farm plot"
-msgstr ""
+msgstr "Tätä kasvia ei ole istutettu toiminnalliselle viljelyalustalle"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_OPERATIONAL
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_OPERATIONAL"
 msgid "This plant is housed in an operational farm plot"
-msgstr ""
+msgstr "Tämä kasvi on istutettu toiminnalliselle viljelyalustalle"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_SUBMERGED_FALSE
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_SUBMERGED_FALSE"
 msgid "This plant must be submerged in liquid"
-msgstr ""
+msgstr "Tämä kasvi täytyy olla upotettuna nesteeseen"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_SUBMERGED_TRUE
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_SUBMERGED_TRUE"
 msgid "This plant is fully submerged in liquid"
-msgstr ""
+msgstr "Kasvi on upotettuna nesteeseen"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_TEMPERATURE
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_TEMPERATURE"
 msgid "This plant's internal temperature is {temperature}"
-msgstr ""
+msgstr "Rämän kasvin sisälämpötila on {temperature}"
 
 #. STRINGS.UI.TOOLTIPS.VITALSPANEL
 msgctxt "STRINGS.UI.TOOLTIPS.VITALSPANEL"
 msgid "The Vitals Panel monitors the status and well being of your Duplicant"
-msgstr ""
+msgstr "Elintoiminnot-paneeli tarkkailee Jäljennäisesi tilaa ja terveyttä"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.DOOR_DEFAULT
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.DOOR_DEFAULT"
 msgid "Default"
-msgstr ""
+msgstr "Oletus"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_DOWN_DISABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_DOWN_DISABLED"
@@ -39724,6 +39812,9 @@ msgid ""
 "\n"
 "Click to grant permission"
 msgstr ""
+"Kulku Alaspäin tästä ovesta ei ole sallittu\n"
+"\n"
+"Klikkaa myöntääksesi pääsy"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_DOWN_ENABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_DOWN_ENABLED"
@@ -39732,6 +39823,9 @@ msgid ""
 "\n"
 "Click to revoke permission"
 msgstr ""
+"Kulku Alaspäin tästä ovesta on sallittu\n"
+"\n"
+"Klikkaa evätäksesi pääsy"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_LEFT_DISABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_LEFT_DISABLED"
@@ -39740,6 +39834,9 @@ msgid ""
 "\n"
 "Click to grant permission"
 msgstr ""
+"Kulku Vasemmalle tästä ovesta ei ole sallittu\n"
+"\n"
+"Klikkaa myöntääksesi pääsy"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_LEFT_ENABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_LEFT_ENABLED"
@@ -39748,6 +39845,9 @@ msgid ""
 "\n"
 "Click to revoke permission"
 msgstr ""
+"Kulku Vasemmalle tästä ovesta on sallittu\n"
+"\n"
+"Klikkaa peruaksesi pääsy"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_RIGHT_DISABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_RIGHT_DISABLED"
@@ -39756,6 +39856,9 @@ msgid ""
 "\n"
 "Click to grant permission"
 msgstr ""
+"Kulku Oikealle tästä ovesta ei ole sallittu\n"
+"\n"
+"Klikkaa myöntääksesi pääsy"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_RIGHT_ENABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_RIGHT_ENABLED"
@@ -39764,6 +39867,9 @@ msgid ""
 "\n"
 "Click to revoke permission"
 msgstr ""
+"Kulku Oikealle tästä ovesta on sallittu\n"
+"\n"
+"Klikkaa evätäksesi pääsy"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_UP_DISABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_UP_DISABLED"
@@ -39772,6 +39878,9 @@ msgid ""
 "\n"
 "Click to grant permission"
 msgstr ""
+"Kulku Ylöspäin tästä ovesta ei ole sallittu\n"
+"\n"
+"Klikkaa myöntääksesi pääsy"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_UP_ENABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.GO_UP_ENABLED"
@@ -39780,86 +39889,89 @@ msgid ""
 "\n"
 "Click to revoke permission"
 msgstr ""
+"Kulku Ylöspäin tästä ovesta on sallittu\n"
+"\n"
+"Klikkaa evätäksesi pääsy"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.MINION_ACCESS
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.MINION_ACCESS"
 msgid "Duplicant Access Permissions"
-msgstr ""
+msgstr "Jäljennäisen Kulkuoikeudet"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.SET_TO_CUSTOM
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.SET_TO_CUSTOM"
 msgid "Click to assign custom permissions"
-msgstr ""
+msgstr "Klikkaa asettaaksesi omat kulkuoikeudet"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.SET_TO_DEFAULT
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.SET_TO_DEFAULT"
 msgid "Click to clear custom permissions"
-msgstr ""
+msgstr "Klikkaa tyhjentääksesi omat kulkuoikeudet"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.TITLE"
 msgid "Door Access Control"
-msgstr ""
+msgstr "Oven Pääsyasetukset"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.USING_CUSTOM
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.USING_CUSTOM"
 msgid "Custom Access"
-msgstr ""
+msgstr "Oma Pääsy"
 
 #. STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.USING_DEFAULT
 msgctxt "STRINGS.UI.UISIDESCREENS.ACCESS_CONTROL_SIDE_SCREEN.USING_DEFAULT"
 msgid "Default Access"
-msgstr ""
+msgstr "Oletuspääsy"
 
 #. STRINGS.UI.UISIDESCREENS.ACTIVATION_RANGE_SIDE_SCREEN.ACTIVATE
 msgctxt "STRINGS.UI.UISIDESCREENS.ACTIVATION_RANGE_SIDE_SCREEN.ACTIVATE"
 msgid "Break starts at:"
-msgstr ""
+msgstr "Tauko alkaa:"
 
 #. STRINGS.UI.UISIDESCREENS.ACTIVATION_RANGE_SIDE_SCREEN.DEACTIVATE
 msgctxt "STRINGS.UI.UISIDESCREENS.ACTIVATION_RANGE_SIDE_SCREEN.DEACTIVATE"
 msgid "Break ends at:"
-msgstr ""
+msgstr "Tauko päättyy:"
 
 #. STRINGS.UI.UISIDESCREENS.ACTIVATION_RANGE_SIDE_SCREEN.NAME
 msgctxt "STRINGS.UI.UISIDESCREENS.ACTIVATION_RANGE_SIDE_SCREEN.NAME"
 msgid "Breaktime Policy"
-msgstr ""
+msgstr "Taukokäytäntö"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.ASSIGN_TO_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.ASSIGN_TO_TOOLTIP"
 msgid "Assign to {0}"
-msgstr ""
+msgstr "Nimeä:"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.ASSIGNED
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.ASSIGNED"
 msgid "Assigned"
-msgstr ""
+msgstr "Nimetty"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.DISABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.DISABLED"
 msgid "Ineligible"
-msgstr ""
+msgstr "Sopimaton"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.DISABLED_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.DISABLED_TOOLTIP"
 msgid "{0} is ineligible for this job assignment"
-msgstr ""
+msgstr "{0} ei ole sopiva tähän työtehtävään"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.PUBLIC
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.PUBLIC"
 msgid "Public"
-msgstr ""
+msgstr "Julkinen"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.SORT_BY_ASSIGNMENT
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.SORT_BY_ASSIGNMENT"
 msgid "Assignment"
-msgstr ""
+msgstr "Työtehtävä"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.SORT_BY_DUPLICANT
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.SORT_BY_DUPLICANT"
 msgid "Duplicant"
-msgstr ""
+msgstr "Jäljennäinen"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.TITLE"
@@ -39885,27 +39997,27 @@ msgstr "Salli Käsikäyttö"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.ALLOWMANUALBUTTONTOOLTIP"
 msgid "Allow Duplicants to manually manage these storage materials"
-msgstr ""
+msgstr "Anna Jäljennäisten itse hallita näitä varastomateriaaleja"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.TITLE"
 msgid "Automatable Storage"
-msgstr ""
+msgstr "Automatisoitu Varastointi"
 
 #. STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.MAX_LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.MAX_LABEL"
 msgid "Max:"
-msgstr ""
+msgstr "Maksimi:"
 
 #. STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.TITLE"
 msgid "Automated Storage Capacity"
-msgstr ""
+msgstr "Automatisoitu Varastokapasiteetti"
 
 #. STRINGS.UI.UISIDESCREENS.CAPACITY_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_SIDE_SCREEN.TOOLTIP"
 msgid "Adjust the maximum amount that can be stored here"
-msgstr ""
+msgstr "Säädä tähän varastoon suurinta varastoitavaa määrää"
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT"
@@ -39925,6 +40037,9 @@ msgid ""
 "All Duplicants are permitted to use this door until <link=\"POWER\">Power</"
 "link> is restored."
 msgstr ""
+"Hätäkulkuluvat:\n"
+"Kaikki Jäljennäiset päästetään tästä ovesta, kunnes <link=\"POWER\">Sähköt</"
+"link> palautuvat."
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.AUTO
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.AUTO"
@@ -39934,7 +40049,7 @@ msgstr "Ovi on automaattinen."
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.AUTO_PENDING
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.AUTO_PENDING"
 msgid "Awaiting Duplicant to automate door."
-msgstr ""
+msgstr "Odottaa Jäljennäistä automatisoimaan oven"
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.CLOSE
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.CLOSE"
@@ -39944,7 +40059,7 @@ msgstr "Ovi on lukittu."
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.CLOSE_PENDING
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.CLOSE_PENDING"
 msgid "Awaiting Duplicant to lock door."
-msgstr ""
+msgstr "Odottaa Jäljennäistä lukitsemaan oven."
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.OPEN
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.OPEN"
@@ -39954,7 +40069,7 @@ msgstr "Ovi on auki."
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.OPEN_PENDING
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.OPEN_PENDING"
 msgid "Awaiting Duplicant to open door."
-msgstr ""
+msgstr "Odottaa Jäljennäistä avaamaan oven."
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.PENDING_FORMAT
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.PENDING_FORMAT"
@@ -39964,7 +40079,7 @@ msgstr "{0} {1}"
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.POI_INTERNAL
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.POI_INTERNAL"
 msgid "This door cannot be manually controlled."
-msgstr ""
+msgstr "Tätä ovea ei voida ohjata käsikäyttöisesti."
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.TITLE"
@@ -40039,7 +40154,7 @@ msgstr "YRITÄ DEKRYPTAUSTA"
 #. STRINGS.UI.UISIDESCREENS.ENCRYPTEDLORESIDESCREEN.LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.ENCRYPTEDLORESIDESCREEN.LABEL"
 msgid "This computer contains encrypted files."
-msgstr ""
+msgstr "Tämä tietokone sisältää kryptattuja tiedostoja."
 
 #. STRINGS.UI.UISIDESCREENS.ENCRYPTEDLORESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.ENCRYPTEDLORESIDESCREEN.TITLE"
@@ -40164,7 +40279,7 @@ msgstr "Ei löydettyjä reseptejä"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED_BODY
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED_BODY"
 msgid "Discover new ingredients in the world to unlock some recipes."
-msgstr ""
+msgstr "Löydä maailmasta uusia aineita avataksesi joitakin reseptejä."
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPESELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPESELECTED"
@@ -40234,7 +40349,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS."
 "RECIPERQUIREMENT_SUFFICIENT"
 msgid "This recipe consumes {1} of an available {2} of {0}"
-msgstr ""
+msgstr "Tämä resepti käyttää {1} saatavilla olevasta {2} ainetta {0}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.UNITS_AND_CALS
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.UNITS_AND_CALS"
@@ -40247,6 +40362,8 @@ msgid ""
 "Filtered Gas Output:\n"
 "{0}"
 msgstr ""
+"Suodatettu Kaasun Ulosvienti:\n"
+"{0}"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.FILTEREDELEMENT.LIQUID
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.FILTEREDELEMENT.LIQUID"
@@ -40254,6 +40371,8 @@ msgid ""
 "Filtered Liquid Output:\n"
 "{0}"
 msgstr ""
+"Suodatettu Nesteen Ulosvienti:\n"
+"{0}"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.NOELEMENTSELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.NOELEMENTSELECTED"
@@ -40268,7 +40387,7 @@ msgstr "Valitse aine"
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.TITLE"
 msgid "Filter Outputs"
-msgstr ""
+msgstr "Suodatetut Ulosviennit"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.GAS
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.GAS"
@@ -40276,6 +40395,8 @@ msgid ""
 "Gas Output:\n"
 "All"
 msgstr ""
+"Kaasun Ulosvienti:\n"
+"Kaikki"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.LIQUID
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.LIQUID"
@@ -40283,36 +40404,38 @@ msgid ""
 "Liquid Output:\n"
 "All"
 msgstr ""
+"Nesteen Ulosvienti:\n"
+"Kaikki"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON"
 msgid "Complete Neural Process"
-msgstr ""
+msgstr "Viimeistele Neuraaliprosessi"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.COMPLETE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.COMPLETE"
 msgid "Something feels different."
-msgstr ""
+msgstr "Jokin tuntuu erilaiselta."
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED"
 msgid "There are no charges left in this Vacillator."
-msgstr ""
+msgstr "Tässä Vaihtelijassa ei ole latauksia jäljellä."
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE"
 msgid "Neural Vacillator"
-msgstr ""
+msgstr "Hermovaihtelija"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.UNDERWAY
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.UNDERWAY"
 msgid "Neural Vacillation in progress."
-msgstr ""
+msgstr "Hermovaihtelu käynnissä."
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TITLE"
 msgid "Active Buffer Time"
-msgstr ""
+msgstr "Aktiivinen Puskuriaika"
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TOOLTIP"

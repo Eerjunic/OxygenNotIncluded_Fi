@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.0.8\n"
 "Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: fi\n"
@@ -1354,7 +1354,7 @@ msgstr "Tämä rakennus ei saa kaasua"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.NAME"
 msgid "No Gas Output"
-msgstr "Ei Kaasun Ulosmenoa"
+msgstr "Ei Kaasun Ulosvientia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.TOOLTIP"
@@ -1374,7 +1374,7 @@ msgstr "Tämä rakennus ei saa  nestettä"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME"
 msgid "No Liquid Output"
-msgstr "Ei Nesteen Ulosmenoa"
+msgstr "Ei Nesteen Ulosvientia"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.TOOLTIP"
@@ -2294,7 +2294,7 @@ msgstr "Tukkeutunut Sisääntulo estää tätä turbiinia toimimasta"
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.NAME"
 msgid "Output Blocked"
-msgstr "Ulosmeno Tukkeutunut"
+msgstr "Ulosvienti Tukkeutunut"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP"
@@ -3845,7 +3845,7 @@ msgid ""
 "Can be run through tiles."
 msgstr ""
 "Kuljettaa <link=\"ELEMENTSGAS\">Kaasua</link> <link=\"GASPIPING"
-"\">Ulostulojen</link> ja <link=\"GASPIPING\">Sisäänmenojen</link> välillä.\n"
+"\">Ulosvientien</link> ja <link=\"GASPIPING\">Sisäänottojen</link> välillä.\n"
 "\n"
 "Voidaan rakentaa laattojen lävitse."
 
@@ -3955,8 +3955,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT"
 msgid ""
 "Has a secondary output which is only used when the primary output is blocked."
 msgstr ""
-"Sisältää toisioulostulon, jota käytetään ainoastaan ensiöulostulon ollessa "
-"tukossa."
+"Sisältää toisioulosviennin, jota käytetään ainoastaan ensiöulosviennin "
+"ollessa tukossa."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME"
@@ -3983,8 +3983,8 @@ msgid ""
 "Has a secondary input which is only drawn from when the primary input is "
 "empty."
 msgstr ""
-"Sisältää toisiosisääntulon, josta otetaan ainoastaan ensiösisääntulon "
-"ollessa tyhjä."
+"Sisältää toisiosisäänoton, josta otetaan ainoastaan ensiösisäänoton ollessa "
+"tyhjä."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME"
@@ -4165,7 +4165,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC"
 msgid ""
 "Piping a pump's intake to another building's output will send gas to that "
 "building."
-msgstr "Yhdistämällä pumpun ulostulon toisen rakennuksen."
+msgstr "Yhdistämällä pumpun ulosviennin toisen rakennuksen."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT"
@@ -4677,7 +4677,7 @@ msgid ""
 "Can be run through tiles."
 msgstr ""
 "Kuljettaa <link=\"ELEMENTSLIQUID\">Nestettä</link> <link=\"LIQUIDPIPING"
-"\">Ulostulojen</link> ja <link=\"LIQUIDPIPING\">Sisäänmenojen</link> "
+"\">Ulosvientien</link> ja <link=\"LIQUIDPIPING\">Sisäänottojen</link> "
 "välillä.\n"
 "\n"
 "Voidaan rakentaa laattojen sisään."
@@ -4789,8 +4789,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.EFFECT"
 msgid ""
 "Has a secondary output which is only used when the primary output is blocked."
 msgstr ""
-"Sisältää toisioulostulon, jota käytetään ainoastaan ensiöulostulon ollessa "
-"tukossa."
+"Sisältää toisioulosviennin, jota käytetään ainoastaan ensiöulosviennin "
+"ollessa tukossa."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.NAME"
@@ -4817,8 +4817,8 @@ msgid ""
 "Has a secondary input which is only drawn from when the primary input is "
 "empty."
 msgstr ""
-"Sisältää toisiosisääntulon, josta otetaan ainoastaan ensiösisääntulon "
-"ollessa tyhjä."
+"Sisältää toisiosisäänoton, josta otetaan ainoastaan ensiösisäänoton ollessa "
+"tyhjä."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.NAME"
@@ -5012,7 +5012,7 @@ msgid ""
 "Piping a pump's intake to another building's output will send liquid to that "
 "building."
 msgstr ""
-"Yhdistämällä yhden rakennuksen sisääntulon toisen rakennuksen ulostuloon "
+"Yhdistämällä yhden rakennuksen sisäänoton toisen rakennuksen ulostuloon "
 "putkilla siirtää nestettä siihen rakennukseen."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.EFFECT
@@ -25605,6 +25605,15 @@ msgid ""
 "Dangerously contaminated food can be sent to compost by clicking the <link="
 "\"MISC\">Compost</link> button on the selected item."
 msgstr ""
+"Jäljennäistesi kokkaama <link=\"FOOD\">Ruoka</link> on vain niin puhdasta "
+"kuin sen valmistukseen käytetyt aineet. Säilömällä ruuat steriileissä tai "
+"<link=\"REFRIGERATOR\">Viileissä</link> ympäristöissä ruuat pysyvät vapaina "
+"<link=\"DISEASE\">Bakteereista</link>, ja harkiten asetetut hygienia-asemat, "
+"kuten <link=\"WASHBASIN\">Pesualtaat</link> tai <link=\"SHOWER\">Suihkut</"
+"link> estävät kokkejasi tartuttamasta ruokia käsitellessään niitä.\n"
+"\n"
+"Vaarallisen kontaminoituneet ruuat voidaan lähettää kompostiin klikkaamalla "
+"valitun kohteen <link=\"MISC\">Kompostoi</link>-nappulaa."
 
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.NAME"
@@ -25666,6 +25675,13 @@ msgid ""
 "into bottles. Duplicants will then automatically deliver the bottled liquids "
 "where they need to go."
 msgstr ""
+"Voidakseen kantaa <link=\"LIQUIDS\">nesteitä</link> paikasta toiseen, "
+"Jäljennäisten täytyy ensin pullottaa ne kuljetusta varten.\n"
+"\n"
+"Rakenna Pumppukaivoja nestealtaiden ylle <link=\"MISC\">Rakennusvalikon</"
+"link> <link=\"MISC\">Putkistovälilehdestä</link> pumpataksesi nesteet "
+"pulloihin. Jäljennäiset toimittavat automaattisesti nesteet sinne, missä "
+"niitä tarvitaan."
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME"
@@ -25977,6 +25993,16 @@ msgid ""
 "where to wash up. If you keep your base clean and your Duplicants hygienic, "
 "their <link=\"IMMUNE SYSTEM\">Immunity</link> will handle the rest."
 msgstr ""
+"<link=\"DISEASE\">Bakteerit</link> ovat näkymätön vitsaus, joka aiheuttaa "
+"<link=\"DISEASE\">Sairauksia</link> Jäljennäisissäsi. <link=\"MISC"
+"\">Bakteerinäkymän</link> <color=#F44A47><b>[F9]</b></color> avulla näet "
+"kaikki bakteerikeskittymät siirtokunnassasi ja niitä synnyttävät lähteet.\n"
+"\n"
+"Pesualtaita voidaan rakentaa likaisille alueille <link=\"MISC"
+"\">Lääkintävälilehdestä</link> <color=#F44A47><b>[8]</b></color> "
+"ilmoittamaan Jäljennäisillesi, missä peseytyä. Jos pidät tukikohtasi "
+"puhtaana ja Jäljennäisesi hygienisinä, heidän<link=\"IMMUNE SYSTEM"
+"\">Vastustuskykynsä</link> hoitaa loput."
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME"
@@ -26011,6 +26037,15 @@ msgid ""
 "link> out Duplicants that come into contact with it, so it is best removed "
 "quickly for your colony's safety."
 msgstr ""
+"<link=\"DIRTYWATER\">Saastunut Vesi</link> tuottaa <link=\"CONTAMINATEDOXYGEN"
+"\">Saastunutta Happea</link> ja voi nopeuttaa <link=\"DISEASE\">Bakteerien</"
+"link> leviämistä tukikohdassasi.\n"
+"\n"
+"Pienet vahingot voidaan siivota klikkaamalla ja vetämällä <link=\"MISC"
+"\">Moppaustyökalua</link> <color=#F44A47><b>[M]</b></color>, kun taas "
+"suuremmat nestemäärät kannattaa suodattaa. Lisäksi saastunut vesi myös <link="
+"\"STRESS\">ahdistaa</link> sen kanssa kosketuksiin joutuvia Jäljennäisiä, "
+"eli siirtokunnan turvallisuuden kannalta se kannattaa poistaa nopeasti."
 
 #. STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.NAME"
@@ -26186,7 +26221,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.NAME"
 msgid "Output blocked"
-msgstr "Ulosmeno Tukkeutunut"
+msgstr "Ulosvienti Tukkeutunut"
 
 #. STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP"
@@ -26202,6 +26237,11 @@ msgid ""
 "then use the Sub-Priorities buttons under the tool menu. Many buildings also "
 "let you change their Sub-Priority level on selection."
 msgstr ""
+"Jäljennäiset valitsevat tekemänsä työt asettamiesi prioriteettien "
+"perusteella. Asettaaksesi prioriteetit, avaa Prioriteetit-valikko "
+"hallitaksesi pääprioriteettejä, minkä jälkeen käytä työkaluvalikon "
+"Aliprioriteetit-nappuloita. Monet rakennukset antavat myös valita niiden "
+"Aliprioriteettitason."
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME"
@@ -26295,6 +26335,12 @@ msgid ""
 "<color=#F44A47><b>[U]</b></color> to adjust your colony's agenda and plan "
 "how your Duplicants should utilize their day."
 msgstr ""
+"Jäljennäiset halajavat rakennetta ja he syövät, nukkuvat, työskentelevät tai "
+"kylpevät ainoastaan niinä aikoina kun se on sallittua.\n"
+"\n"
+"Käyttääksesi aikasi tehokkaimmin, avaa AIKATAULUT-VÄLILEHTI "
+"<color=#F44A47><b>[U]</b></color> säätääksesi siirtokuntasi työjärjestystä "
+"ja suunnitellaksesi, kuinka Jäljennäistensä tulisi päivänsä kuluttaa."
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.NAME"
@@ -26318,6 +26364,15 @@ msgid ""
 "INFORMATION TAB to view their individual <link=\"STRESS\">Stress</link> "
 "factors."
 msgstr ""
+"Jäljennäiset ovat herkkiä olentoja ja heidät täytyy pitää henkisesti "
+"terveinä, jotta he kykenevät toimimaan. Huonot olosuhteet kasvattavat "
+"Jäljennäisten <link=\"STRESS\">Ahdistusta</link>, kun taas hyvä olosuhteet "
+"lievittävät sitä. Liian suuri <link=\"STRESS\">Ahdistus</link>, johtaa "
+"Jäljennäisillä hermoromahdukseen.\n"
+"\n"
+"Valitse Jäljennäinen ja siirrä kursori hänen TIETOJA-VÄLILEHDESSÄ olevan "
+"<link=\"STRESS\">Ahdistuksen</link> yläpuolelle, nähdäksesi heidän "
+"henkilökohtaiset <link=\"STRESS\">Ahdistus</link>tekijänsä."
 
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.NAME"
@@ -26418,6 +26473,13 @@ msgid ""
 "you to view all areas where Duplicants cannot regulate their temperature and "
 "will become uncomfortable."
 msgstr ""
+"Äärimmäisen <link=\"HEAT\">Kuumat</link> ja <link=\"HEAT\">Kylmät</link> "
+"ympäristöt vaikuttavat Jäljennäistesi sisäiseen kehon lämpötilaan ja "
+"aihuttavat <link=\"STRESS\">Ahdistusta</link>.\n"
+"\n"
+"TERMINEN MUKAVUUS -NÄKYMÄLLÄ <color=#F44A47><b>[F4]</b></color> voit nähdä "
+"alueet, joissa Jäljennäiset eivät pysty sääntelemään lämpötilaansa ja, jotka "
+"ovat heille epämukavia."
 
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME"
@@ -26849,6 +26911,10 @@ msgid ""
 "------------------\n"
 "Only Duplicants trained as Ranchers can catch critters without traps"
 msgstr ""
+"Odottaa Jäljennäistä nappaamaan tämän otuksen\n"
+"------------------\n"
+"Ainoastaan Paimeniksi koulutetut Jäljennäiset voivat napata otuksia ilman "
+"ansoja"
 
 #. STRINGS.MISC.STATUSITEMS.OREMASS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OREMASS.NAME"
@@ -30783,7 +30849,7 @@ msgstr "<link=\"POWER\">Sähkö</link>kapasiteetti: {0}"
 #. STRINGS.UI.BUILDINGEFFECTS.BATTERYLEAK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.BATTERYLEAK"
 msgid "<link=\"POWER\">Power</link> runoff: {0}"
-msgstr ""
+msgstr "<link=\"POWER\">Sähkö</link>hukka: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LURE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LURE"
@@ -30838,12 +30904,12 @@ msgstr "    • Ulostaminen: {Items}"
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_PRODUCED_ITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DIET_PRODUCED_ITEM"
 msgid "{Item}: {Percent} of consumed mass"
-msgstr ""
+msgstr "{Item}: {Percent} kulutettua massaa"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DISEASECONSUMEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DISEASECONSUMEDPERUSE"
 msgid "All Diseases: -{0} per use"
-msgstr ""
+msgstr "Kaikki Sairaudet: -{0} per kättökerta"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DISEASEEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DISEASEEMITTEDPERUSE"
@@ -30883,17 +30949,17 @@ msgstr "{0}: {1} joka käyttökerralla"
 #. STRINGS.UI.BUILDINGEFFECTS.ENABLESDOMESTICGROWTH
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ENABLESDOMESTICGROWTH"
 msgid "Enables <link=\"PLANTS\">Plant Domestication</link>"
-msgstr ""
+msgstr "Mahdollistaa <link=\"PLANTS\">Kasvinjalostuksen</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ENERGYCONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ENERGYCONSUMED"
 msgid "<link=\"POWER\">Power</link> consumed: {0}"
-msgstr ""
+msgstr "<link=\"POWER\">Sähköä</link> kulutettu: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ENERGYGENERATED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ENERGYGENERATED"
 msgid "<link=\"POWER\">Power</link>: +{0}"
-msgstr ""
+msgstr "<link=\"POWER\">Sähköä</link>: +{0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.FABRICATEDITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.FABRICATEDITEM"
@@ -30908,7 +30974,7 @@ msgstr "Valmistaa"
 #. STRINGS.UI.BUILDINGEFFECTS.GASCOOLING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GASCOOLING"
 msgid "<link=\"HEAT\">Cooling factor</link>: {0}"
-msgstr ""
+msgstr "<link=\"HEAT\">Jäähtymiskerroin</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_DISEASE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_DISEASE"
@@ -30918,7 +30984,7 @@ msgstr "Bakteereja: {0}"
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_PERIOD
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_PERIOD"
 msgid "Eruption Period: {0} every {1}"
-msgstr ""
+msgstr "Purkautumisjakso: {0} joka {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_PRODUCTION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_PRODUCTION"
@@ -30928,47 +30994,47 @@ msgstr "{0}: {1} lämpötilassa {2}"
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_NEXT_ACTIVE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_NEXT_ACTIVE"
 msgid "Next Activity: {0}"
-msgstr ""
+msgstr "Seuraava aktiivisuus: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_NEXT_DORMANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_NEXT_DORMANT"
 msgid "Next Dormancy: {0}"
-msgstr ""
+msgstr "Seuraava lepotila: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_PERIOD
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_PERIOD"
 msgid "Active Period: {0} every {1}"
-msgstr ""
+msgstr "Aktiivinen Jakso: {0} joka {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_UNSTUDIED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_UNSTUDIED"
 msgid "Active Period: (Requires Analysis)"
-msgstr ""
+msgstr "Aktiivinen Jakso: (Vaatii Analysointia)"
 
 #. STRINGS.UI.BUILDINGEFFECTS.HEATCONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATCONSUMED"
 msgid "<link=\"HEAT\">Heat</link>: -{0}"
-msgstr ""
+msgstr "<link=\"HEAT\">Lämpöä</link>: -{0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED"
 msgid "<link=\"HEAT\">Heat</link>: +{0}"
-msgstr ""
+msgstr "<link=\"HEAT\">Lämpöä</link>: +{0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED_AIRCONDITIONER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED_AIRCONDITIONER"
 msgid "<link=\"HEAT\">Heat</link>: +{0} (Approximate Value)"
-msgstr ""
+msgstr "<link=\"HEAT\">Lämpöä</link>: +{0} (Arvio)"
 
 #. STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED_LIQUIDCONDITIONER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.HEATGENERATED_LIQUIDCONDITIONER"
 msgid "<link=\"HEAT\">Heat</link>: +{0} (Approximate Value)"
-msgstr ""
+msgstr "<link=\"HEAT\">Lämpöä</link>: +{0} (Arvio)"
 
 #. STRINGS.UI.BUILDINGEFFECTS.HIT_POINTS_PER_CYCLE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.HIT_POINTS_PER_CYCLE"
 msgid "<link=\"HEALTH\">Health</link> per cycle: {0}"
-msgstr ""
+msgstr "<link=\"HEALTH\">Terveys</link> kiertoa kohti: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.IMPROVED_BUILDINGS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.IMPROVED_BUILDINGS"
@@ -31153,12 +31219,12 @@ msgstr "{0}: {1} jokaista <link=\"RESEARCH\">Tutkimuys</link>pistettä kohden"
 #. STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH"
 msgid "Shearable {Item}: {Amount} per {Time}"
-msgstr ""
+msgstr "Kerittävä {Item}: {Amount} joka {Time}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH_ATMO
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH_ATMO"
 msgid "Shearable {Item}: {Amount} per {Time} ({Atmosphere})"
-msgstr ""
+msgstr "Kerittävä {Item}: {Amount} joka {Time} ({Atmosphere})"
 
 #. STRINGS.UI.BUILDINGEFFECTS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.STORAGECAPACITY"
@@ -31178,6 +31244,10 @@ msgid ""
 "{0}\n"
 "{1}"
 msgstr ""
+"Toimiva vaikutus:\n"
+"\n"
+"{0}\n"
+"{1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ALLOWS_FERTILIZER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ALLOWS_FERTILIZER"
@@ -31209,16 +31279,18 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYLEAK"
 msgid ""
 "Imperfect buildings materials mean {0} battery charge will be lost as heat"
 msgstr ""
+"Epätäydelliset rakennusmateriaalit tarkoittavat, että {0} akun varauksesta "
+"hukataan lämpönä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_LURE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_LURE"
 msgid "This critter can be moved using a Critter Lure"
-msgstr ""
+msgstr "Tätä otusta voidaan liikuttaa Otushoukutinta"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_TRAP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_TRAP"
 msgid "This critter can be captured using a Critter Trap"
-msgstr ""
+msgstr "Tämä otus voidaan napata käyttämällä Otusansaa"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_WRANGLE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_WRANGLE"
@@ -31227,6 +31299,10 @@ msgid ""
 "------------------\n"
 "Mark critters for capture using the Wrangle Tool <color=#F44A47>(N)</color>"
 msgstr ""
+"Paimen voi napata tämän otuksen\n"
+"------------------\n"
+"Merkitse tämä otus napattavaksi käyttämällä Nappaustyökalua "
+"<color=#F44A47>(N)</color>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT"
@@ -31237,16 +31313,21 @@ msgid ""
 "Coolant temperature increase is variable and dictated by the amount of "
 "energy needed to cool the produced item"
 msgstr ""
+"{1] ainetta {0} tarvitaan tämän rakennuksen tuottaman esineen "
+"jäähdyttämiseksi\n"
+"------------------\n"
+"Jäähdytysaineen lämpötilannousu vaihtelee ja sen määrää esineen "
+"jäähdyttämiseksi tarvittava energia"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORDECREASED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORDECREASED"
 msgid "Decreases Decor values by {0} in a {1} tile radius"
-msgstr ""
+msgstr "Laskee Koristusarvoa {0} verran {1} ruudun säteellä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORPROVIDED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORPROVIDED"
 msgid "Improves Decor values by {0} in a {1} tile radius"
-msgstr ""
+msgstr "Parantaa Koristusarvoa {0} verran {1} ruudun säteellä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_CONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_CONSUMED"
@@ -31255,11 +31336,15 @@ msgid ""
 "\n"
 "{Foodlist}"
 msgstr ""
+"Tämä otus pystyy tyypillisesti kuluttamaan näitä materiaaleja seuraavissa "
+"määrin:\n"
+"\n"
+"{Foodlist}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_HEADER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_HEADER"
 msgid "Creatures will eat and digest only specific materials."
-msgstr ""
+msgstr "Olennot syövät ja sulattavat ainoastaan tiettyjä materiaaleja."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_PRODUCED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_PRODUCED"
@@ -31268,16 +31353,19 @@ msgid ""
 "\n"
 "{Items}"
 msgstr ""
+"Tämä otus \"tuottaa\" seuraavia materiaaleja:\n"
+"\n"
+"{Items}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASECONSUMEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASECONSUMEDPERUSE"
 msgid "Removes {0} of any disease per use"
-msgstr ""
+msgstr "Poistaa {0} mitä tahansa sairautta joka käyttökerralla"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASEEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASEEMITTEDPERUSE"
 msgid "Produces {1} of {0} per use"
-msgstr ""
+msgstr "Tuottaa {1} ainetta {0} joka käyttökerralla"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DOCTORING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DOCTORING"
@@ -31285,11 +31373,13 @@ msgid ""
 "Doctoring increases existing health benefits and can allow treatment of "
 "otherwise stubborn diseases"
 msgstr ""
+"Tohtorointi kasvattaa terveyshyötyjä ja mahdollistaa muutoin sitkeiden "
+"sairauksien hoitamisen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DUPLICANTMOVEMENTBOOST
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DUPLICANTMOVEMENTBOOST"
 msgid "Duplicants walk {0} faster on this tile"
-msgstr ""
+msgstr "Jäljennäiset kävelevät {0} nopeammin tällä laatalla"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMED"
@@ -31304,47 +31394,47 @@ msgstr "Kuluttaa {1} ainetta {0} jokaisella käyttökerralla"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED"
 msgid "Produces {1} of {0} when in use"
-msgstr ""
+msgstr "Tuottaa {1} ainetta {0} ollessaan käytössä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTEDPERUSE"
 msgid "Produces {1} of {0} per use"
-msgstr ""
+msgstr "Tuottaa {1} ainetta {0} joka käyttökerralla"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENABLESDOMESTICGROWTH
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENABLESDOMESTICGROWTH"
 msgid "Accelerates plant growth and maturation"
-msgstr ""
+msgstr "Nopeuttaa kasvien kasvamista ja kypsymistä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENERGYCONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENERGYCONSUMED"
 msgid "Draws {0} from the power grid it's connected to"
-msgstr ""
+msgstr "Ottaa {0} sähköverkosta, johon se on yhdistettynä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENERGYGENERATED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENERGYGENERATED"
 msgid "Produces {0} for the power grid it's connected to"
-msgstr ""
+msgstr "Tuottaa {0} sähköverkkoon, johon se on yhdistettynä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.FABRICATES
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.FABRICATES"
 msgid "Fabrication is the production of items and equipment"
-msgstr ""
+msgstr "Valmistus on tavaroiden ja varusteiden tuottamista"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GASCOOLING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GASCOOLING"
 msgid "Reduces the temperature of piped gases by {0}"
-msgstr ""
+msgstr "Alentaa putkessa olevien kaasujen lämpötilaa {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_DISEASE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_DISEASE"
 msgid "{0} germs are present in the output of this geyser."
-msgstr ""
+msgstr "Tämä geissiirin suuaukolla on {0} bakeeria."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PERIOD
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PERIOD"
 msgid "This geyser will produce for {0} of every {1}"
-msgstr ""
+msgstr "Tämä geissiiri tuottaa {0} joka {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION"
@@ -31352,29 +31442,36 @@ msgid ""
 "While erupting, this geyser will produce {0} at a rate of {1}, and at a "
 "temperature of {2}."
 msgstr ""
+"Purkautuessaan, tämä geissiiri tuottaa ainetta {0} nopeudella {1}, {2} "
+"lämpötilassa."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_ACTIVE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_ACTIVE"
 msgid "This geyser will become active in {0}."
-msgstr ""
+msgstr "Tämä geissiiri muuttuu aktiiviseksi {0} kuluttua."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_DORMANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_DORMANT"
 msgid "This geyser will become dormant in {0}."
-msgstr ""
+msgstr "Tämä geissiiri menee lepotilaan {0} kuluttua."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_PERIOD
+#, fuzzy
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_PERIOD"
 msgid ""
 "This geyser will be active for {0} out of every {1}. It will be dormant the "
 "rest of the time."
 msgstr ""
+"Tämä geissiiri on aktiivinen {0} ajan ajasta {1}. Se on lepotilassa muun "
+"osan ajasta."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_UNSTUDIED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_UNSTUDIED"
 msgid ""
 "A researcher must analyze this geyser to determine its geoactive period."
 msgstr ""
+"Tutkijan täytyy analysoida tämä geissiiri määrittääkseen sen geoaktiivisen "
+"jakson."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATCONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATCONSUMED"
@@ -31389,6 +31486,15 @@ msgid ""
 "    • insulation thickness\n"
 "    • thermal conductivity"
 msgstr ""
+"Haihduttaa {0} joka sekunti\n"
+"\n"
+"Yhteenlaskettuun lämpötilanmuutokseen voi vaikuttaa jäähdyttävän materiaalin "
+"ominaisuudet:\n"
+"    • massa\n"
+"    • ominaislämpökapasiteetti\n"
+"    • pinnan ala\n"
+"    • eristeen paksuus\n"
+"    • lämmönjohtokyky"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED"
@@ -31403,6 +31509,15 @@ msgid ""
 "    • insulation thickness\n"
 "    • thermal conductivity"
 msgstr ""
+"Tuottaa {0} joka sekunti\n"
+"\n"
+"Yhteenlaskettuun lämpötilanmuutokseen vaikuttaa jäähdyttävän materiaalin "
+"ominaisuudet:\n"
+"    • massa\n"
+"    • ominaislämpökapasiteetti\n"
+"    • pinnan ala\n"
+"    • eristeen paksuus\n"
+"    • lämmönjohtokyky"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_AIRCONDITIONER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_AIRCONDITIONER"
@@ -31412,6 +31527,10 @@ msgid ""
 "------------------\n"
 "Cooling 1 Kg of room temperature oxygen will output {0} per second"
 msgstr ""
+"Tuottaa lämpöä pumpatun kaasun tilavuuden, lämpötilan ja "
+"ominaislämpökapasiteetin mukaan\n"
+"------------------\n"
+"Jäähdyttämällä 1 kg huoneen lämpöistä happea, syntyy {0} joka sekunti"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDCONDITIONER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDCONDITIONER"
@@ -31421,11 +31540,15 @@ msgid ""
 "------------------\n"
 "Cooling 1 Kg of room temperature water will output {0} per second"
 msgstr ""
+"Tuottaa lämpöä pumpatun nesteen tilavuuden, lämpötilan ja "
+"ominaislämpökapasiteetin mukaan\n"
+"------------------\n"
+"Jäähdyttämällä 1 kg huoneen lämpöistä vettä, syntyy {0} joka sekunti"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS"
 msgid "Tune Ups will improve these buildings:"
-msgstr ""
+msgstr "Viritykset parantavat seuraavia rakennuksia:"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM"
@@ -31435,12 +31558,12 @@ msgstr "{0}"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ITEM_TEMPERATURE_ADJUST
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ITEM_TEMPERATURE_ADJUST"
 msgid "Stored items will reach a temperature of {0} over time"
-msgstr ""
+msgstr "Varastoidut esineet saavuttavat ajan myötä {0} lämpötilan"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDCOOLING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDCOOLING"
 msgid "Reduces the temperature of piped liquids by {0}"
-msgstr ""
+msgstr "Alentaa putkessa olevien nesteiden lämpötilaa {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE"
@@ -31448,78 +31571,81 @@ msgid ""
 "Drawing more than the maximum allowed power can result in damage to the "
 "circuit"
 msgstr ""
+"Ottamalla enemmän kuin enimmän sallitun määrän virtaa saattaa johtaa piirin "
+"vahingoittumiseen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MINIMUM_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MINIMUM_TEMP"
 msgid "Ceases to function when temperatures fall below {0}"
-msgstr ""
+msgstr "Lakkaa toimimasta, kun lämpötilat putoavat alle {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MOVEMENT_BONUS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MOVEMENT_BONUS"
 msgid "Increases the Runspeed of Duplicants"
-msgstr ""
+msgstr "Parantaa Jäljennäisten Juoksunopeutta"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.NOISE_POLLUTION_DECREASE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.NOISE_POLLUTION_DECREASE"
 msgid "Dampens noise at {0} dB in a {1} tile radius"
-msgstr ""
+msgstr "Vaimentaa melua {0} dB verran {1] ruudun säteellä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.NOISE_POLLUTION_INCREASE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.NOISE_POLLUTION_INCREASE"
 msgid "Produces noise at {0} dB in a {1} tile radius"
-msgstr ""
+msgstr "Tuottaa melua {0} dB verran {1} ruudun säteellä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OPERATIONEFFECTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OPERATIONEFFECTS"
 msgid "The building will produce these effects when its requirements are met"
 msgstr ""
+"Tämä rakennus tuottaa seuraavia vaikutuksia kun sen vaatimukset täytetään"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OPERATIONREQUIREMENTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OPERATIONREQUIREMENTS"
 msgid "All requirements must be met in order for this building to operate"
-msgstr ""
+msgstr "Kaikki vaatimukset on täytyttävä rakennuksen toimimiseksi"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVER_PRESSURE_MASS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVER_PRESSURE_MASS"
 msgid "Ceases to function when the surrounding mass is above {0}"
-msgstr ""
+msgstr "Lakkaa toimimasta, kun ympäröivä massa on enemmän kuin {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVERHEAT_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVERHEAT_TEMP"
 msgid "Begins overheating at {0} and melts down at {1}"
-msgstr ""
+msgstr "Alkaa ylikuumeta lämpötilassa {0} ja sulaa {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PLANTERBOX_PENTALTY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PLANTERBOX_PENTALTY"
 msgid "Plants grow more slowly when contained within boxes"
-msgstr ""
+msgstr "Kasvit kasvavat hitaammin laatikoissa"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM"
 msgid ""
 "This building gains additional effects or functionality when built inside a "
 "{0}"
-msgstr ""
+msgstr "Tämä rakennus tuottaa lisävaikutuksia kohteen {0} sisälle rakennettuna"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM"
 msgid "Refining this material produces {0}"
-msgstr ""
+msgstr "Tämän materiaalin jalostaminen tuottaa ainetta {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSES
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSES"
 msgid "This building processes raw materials into refined materials"
-msgstr ""
+msgstr "Tämä rakennus prosessoi raakamateriaaleja jalostetuiksi materiaaleiksi"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PRODUCES_RESEARCH_POINTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PRODUCES_RESEARCH_POINTS"
 msgid "Produces {0} research"
-msgstr ""
+msgstr "Tuottaa {0} tutkimusta"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFILLOXYGENTANK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFILLOXYGENTANK"
 msgid "Refills Exosuit Oxygen Tanks with oxygen for reuse"
-msgstr ""
+msgstr "Täyttää Eksopukujen happisäiliöt hapella uutta käyttöä varten"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_HAS_COOLANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_HAS_COOLANT"
@@ -31529,6 +31655,10 @@ msgid ""
 "This will raise the temperature of the contained {1} by {2}, and heat the "
 "containing building"
 msgstr ""
+"{0} verran lämpöä tuotetaan valmistetun esineen jäähdyttämiseksi\n"
+"\n"
+"Tämä nostaa sisällä olevan {1} lämpötilaa {2} verran ja lämmittää sen "
+"sisältävää rakennusta"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_NO_COOLANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_NO_COOLANT"
@@ -31538,6 +31668,10 @@ msgid ""
 "If {1} is used for coolant, its temperature will be raised by {2}, and will "
 "heat the containing building"
 msgstr ""
+"{0} verran lämpöä tuotetaan valmistetun esineen jäähdyttämiseksi\n"
+"\n"
+"Jos jäähdytysaineena käytetään ainetta {1], sen lämpötila nousee {2} verran "
+"ja se lämmittää sen sisältävää rakennusta"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVEDEFFECT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVEDEFFECT"
@@ -31547,67 +31681,70 @@ msgstr "{0}"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVES_DISEASE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVES_DISEASE"
 msgid "Cooking pasteurizes ingredients and removes their disease risk"
-msgstr ""
+msgstr "Kokkaaminen pastöroi raaka-aineet ja poistaa niistä sairastumisriskin"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVESEFFECTSUBTITLE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVESEFFECTSUBTITLE"
 msgid "Use of this building will remove the listed effects"
-msgstr ""
+msgstr "Tämän rakennuksen käyttö poistaa listatut vaikutukset"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESCREATIVITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESCREATIVITY"
 msgid "A Duplicant must work on this object to create art"
-msgstr ""
+msgstr "Jäljennäisen on työstettävä tätä kohdetta luodakseen taidetta"
 
+# Kuulostaa tökeröltä
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESELEMENT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESELEMENT"
 msgid "Must receive deliveries of {0} to function"
-msgstr ""
+msgstr "Täytyy vastaanottaa {0}toimituksia toimiakseen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESGASINPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESGASINPUT"
 msgid "Must receive gas from a gas pipe system"
-msgstr ""
+msgstr "Täytyy vastaanottaa kaasua kaasuputkistosta"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESGASOUTPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESGASOUTPUT"
 msgid "Must expel gas through a gas pipe system"
-msgstr ""
+msgstr "Täytyy poistaa kaasua kaasuputkistoon"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESGASOUTPUTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESGASOUTPUTS"
 msgid "Must expel gas through a gas pipe system"
-msgstr ""
+msgstr "Täytyy poistaa kaasua kaasuputkistoon"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESLIQUIDINPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESLIQUIDINPUT"
 msgid "Must receive liquid from a liquid pipe system"
-msgstr ""
+msgstr "Täytyy vastaanottaa nestettä nesteputkistosta"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESLIQUIDOUTPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESLIQUIDOUTPUT"
 msgid "Must expel liquid through a liquid pipe system"
-msgstr ""
+msgstr "Täytyy poistaa nestettä nesteputkistoon"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESLIQUIDOUTPUTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESLIQUIDOUTPUTS"
 msgid "Must expel liquid through a liquid pipe system"
-msgstr ""
+msgstr "Täytyy poistaa nestettä nesteputkistoon"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESMANUALOPERATION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESMANUALOPERATION"
 msgid "A Duplicant must be present to run this building"
-msgstr ""
+msgstr "Jäljennäisen täytyy olla läsnä, jotta tämä rakennus toimisi"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESPOWER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESPOWER"
 msgid "Must be connected to a power grid with at least -{0} of available power"
 msgstr ""
+"Täytyy olla kytkettynä sähköverkkoon, jossa on vähintään -{0} saatavilla "
+"olevaa sähköä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESPOWERGENERATOR
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESPOWERGENERATOR"
 msgid "Must be connected to a power producing generator to function"
-msgstr ""
+msgstr "Täytyy olla kytkettynä sähköä tuottavaan generaattoriin toimiakseen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESROOM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESROOM"
@@ -31616,22 +31753,27 @@ msgid ""
 "------------------\n"
 "Room will become a {0} after construction"
 msgstr ""
+"Täytyy rakentaa sille Osoitettuun Huoneeseen\n"
+"------------------\n"
+"Huoneesta tulee {0} rakentamisen jälkeen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESSEED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESSEED"
 msgid "Must receive a plant seed"
-msgstr ""
+msgstr "Täytyy vastaanottaa kasvin siemen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.RESEARCH_MATERIALS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.RESEARCH_MATERIALS"
 msgid ""
 "This research station consumes {1} of {0} for each research point produced"
 msgstr ""
+"Tämä tutkimustyöpiste kuluttaa {1} ainetta {0} jokaista tuotettua "
+"tutkimuspistettä varten"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH"
 msgid "This critter can be sheared every {Time} to produce {Amount} {Item}"
-msgstr ""
+msgstr "Tämä otus voidaan keriä {Time} välein tuottaen {Amount} {Item}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO"
@@ -31640,16 +31782,21 @@ msgid ""
 "\n"
 "An atmosphere of {Atmosphere} is required to stimulate growth"
 msgstr ""
+"This critter can be sheared every {Time} to produce {Amount} {Item}\n"
+"\n"
+"{Atmosphere} suuruinen ilmanpaine vaaditaan kasvun nopeuttamiseksi"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY"
 msgid "Holds up to {0} of material"
-msgstr ""
+msgstr "Pystyy varastoimaan {0} materiaalia"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STRESSREDUCEDPERMINUTE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STRESSREDUCEDPERMINUTE"
 msgid "Removes {0} of Duplicants' Stress for every uninterrupted minute of use"
 msgstr ""
+"Lievittää Jäljennäisten ahdistustas {0} verran jokaisella keskyttämättömällä "
+"käyttöminuutilla"
 
 #. STRINGS.UI.CALCULATING
 msgctxt "STRINGS.UI.CALCULATING"
@@ -32004,6 +32151,8 @@ msgid ""
 "<b>New Duplicants</b> are <color=#B87194FF>not allowed</color> to eat \n"
 "<b>{0}</b> by default"
 msgstr ""
+"<b>Uudet Jäljennäiset</b> <color=#B87194FF>eivät saa</color> syödä \n"
+"<b>{0}</b> oletusarvoisesti"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.NEW_MINIONS_FOOD_PERMISSION_ON
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.NEW_MINIONS_FOOD_PERMISSION_ON"
@@ -32011,11 +32160,13 @@ msgid ""
 "<b>New Duplicants</b> are <color=#B87194FF>allowed</color> to eat \n"
 "<b>{0}</b> by default"
 msgstr ""
+"<b>Uudet Jäljennäiset</b> <color=#B87194FF>saavat</color> syödä \n"
+"<b>{0}</b> oletusarvoisesti"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.NEW_MINIONS_TOOLTIP_TOGGLE_ROW
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.NEW_MINIONS_TOOLTIP_TOGGLE_ROW"
 msgid "Toggle all food permissions for <b>New Duplicants</b>"
-msgstr ""
+msgstr "Valitse kaikkien ruokien salliminen <b>Uusille Jäljennäisille</b>"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.STRESS
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.STRESS"
@@ -32046,12 +32197,12 @@ msgstr "Valitse jokaisen ruuan salliminen siirtokunnassa"
 #. STRINGS.UI.CONSUMABLESSCREEN.TOOLTIP_TOGGLE_COLUMN
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.TOOLTIP_TOGGLE_COLUMN"
 msgid "Toggle colonywide <b>{0}</b> permission"
-msgstr ""
+msgstr "Valitse siirtokunnan kattava <b>{0}</b> lupa"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.TOOLTIP_TOGGLE_ROW
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.TOOLTIP_TOGGLE_ROW"
 msgid "Toggle all food permissions for <b>{0}</b>"
-msgstr ""
+msgstr "Valitse kaikkien ruokien salliminen <b>{0}</b> varten"
 
 #. STRINGS.UI.COPIED_SETTINGS
 msgctxt "STRINGS.UI.COPIED_SETTINGS"
@@ -32151,6 +32302,8 @@ msgid ""
 "FMOD Sound System\n"
 "Copyright Firelight Technologies"
 msgstr ""
+"FMOD Sound System\n"
+"Copyright Firelight Technologies"
 
 #. STRINGS.UI.CREDITSSCREEN.TITLE
 msgctxt "STRINGS.UI.CREDITSSCREEN.TITLE"
@@ -32639,17 +32792,17 @@ msgstr ""
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.TOOLTIP"
 msgid "These conditions are contributing to the multiplication of germs"
-msgstr ""
+msgstr "Seuraavat olosuhteet vaikuttavat bakteerien lisääntymiseen"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FORMAT
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FORMAT"
 msgid "{0} spawned/cycle"
-msgstr ""
+msgstr "{0} syntynyt/kierto"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FORMAT_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FORMAT_TOOLTIP"
 msgid "Germ count is being increased by {0}/cycle"
-msgstr ""
+msgstr "Bakteerien määrä lisääntyy {0}/kierto"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.NEUTRAL_FORMAT
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.NEUTRAL_FORMAT"
@@ -32684,7 +32837,7 @@ msgstr "SAIRAUDEN TIEDOT: {0}"
 #. STRINGS.UI.DETAILTABS.DISEASE.DISEASE_INFO_POPUP_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DISEASE_INFO_POPUP_TOOLTIP"
 msgid "View detailed germ and infection info for {0}"
-msgstr ""
+msgstr "Näytä yksityiskohtainen bakteeri- ja tartuntatieto kohteelle {0}"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DISEASE_SOURCE
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DISEASE_SOURCE"
@@ -32699,7 +32852,7 @@ msgstr "BAKTEERIN ELINKAARI"
 #. STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_FACTORS.IMMUNE_ATTACK_RATE
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_FACTORS.IMMUNE_ATTACK_RATE"
 msgid "    • -{0} immunity per {1}"
-msgstr ""
+msgstr "    • -{0} vastustuskykyä per {1}"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_FACTORS.IMMUNE_ATTACK_RATE_TOOLTIP
 msgctxt ""
@@ -32711,7 +32864,7 @@ msgstr ""
 #. STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_FACTORS.IMMUNE_ATTACK_RATE2
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_FACTORS.IMMUNE_ATTACK_RATE2"
 msgid "    • Immune System: {0}"
-msgstr ""
+msgstr "    • Immuunijärjestelmä: {0}"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_FACTORS.IMMUNE_ATTACK_RATE2_TOOLTIP
 msgctxt ""
@@ -36392,11 +36545,16 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <link=\"GASPIPING\">Intake</link>"
 msgstr ""
+"<b>Ulosvientiputki</b>\n"
+"Ulosvientit siirtävät kaasun putkiin\n"
+"------------------\n"
+"Täytyy olla samassa verkossa vähintään yhden <link=\"GASPIPING"
+"\">Sisääntulon</link> kanssa"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED"
 msgid "Not connected to a <link=\"GASPIPING\">Gas Pipe</link>"
-msgstr ""
+msgstr "Ei yhdistettynä <link=\"GASPIPING\">Kaasuputkeen</link>"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.FILTERED"
@@ -36406,6 +36564,11 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <link=\"GASPIPING\">Intake</link>"
 msgstr ""
+"<b>Suodatettu Ulosvientiputki</b>\n"
+"Suodatetut ulosmenot siirtävät kaasun putkiin\n"
+"------------------\n"
+"Täytyy olla samassa verkossa vähintään yhden <link=\"GASPIPING"
+"\">Sisääntulon</link> kanssa"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.NETWORK
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.NETWORK"
@@ -36420,6 +36583,11 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <link=\"GASPIPING\">Output</link>"
 msgstr ""
+"<b>Rakennuksen Sisääntulo</b>\n"
+"Sisääntulot siirtävät kaasun rakennuksiin\n"
+"------------------\n"
+"Täytyy olla samassa verkossa vähintään yhden <link=\"GASPIPING"
+"\">Ulosvientin</link> kanssa"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON"
@@ -36460,6 +36628,11 @@ msgid ""
 "Duplicants lose more heat in these areas than they can absorb\n"
 "* Warm Sweaters help Duplicants retain body heat"
 msgstr ""
+"<b>Ruumiin Lämpöhäviö</b>\n"
+"Epämukavan kylmä\n"
+"------------------\n"
+"Jäljennäiset menettävät enemmän ruumiinlämpöä kuin sitovat\n"
+"* Lämpimät Puserot auttavat Jäljennäisiä pitämään ruuminlämpönsä"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.HEATING
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.HEATING"
@@ -36470,6 +36643,12 @@ msgid ""
 "Duplicants absorb more heat in these areas than they can release\n"
 "* Cool Vests help Duplicants shed excess body heat"
 msgstr ""
+"<b>Ruumiin Lämmön Kertyminen</b>\n"
+"Epämukavan lämmin\n"
+"------------------\n"
+"Jäljennäiset sitovat enemmän lämpöä kuin pystyvät vapauttamaan\n"
+"* Viileät Liivit auttavat Jäljennäisiä pääsemään eroon ylimääräisestä "
+"ruumiinlämmöstä"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.NEUTRAL
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.NEUTRAL"
@@ -36479,6 +36658,10 @@ msgid ""
 "------------------\n"
 "Duplicants can regulate their internal temperatures in these areas"
 msgstr ""
+"<b>Mukavuusalue</b>\n"
+"Mukava alue\n"
+"------------------\n"
+"Jäljennäiset kykenevät sääntelemään sisäistä lämpötilaansa näillä alueilla"
 
 #. STRINGS.UI.OVERLAYS.JOULES.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.JOULES.BUTTON"
@@ -36521,6 +36704,8 @@ msgid ""
 "<b>Unlit Area</b>\n"
 "Duplicants cannot see in these areas"
 msgstr ""
+"<b>Valaisematon Alue</b>\n"
+"Jäljennäiset eivät näe näillä alueilla"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.LITAREA
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.LITAREA"
@@ -36528,6 +36713,8 @@ msgid ""
 "<b>Lit Area</b>\n"
 "Duplicants have adequate lighting in these areas"
 msgstr ""
+"<b>Valaistu Alue</b>\n"
+"Jäljennäisillä on riittävä valaistus näillä alueilla"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.NAME
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.NAME"
@@ -36585,11 +36772,14 @@ msgid "Building Intake"
 msgstr "Rakennuksen Sisäänotto"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED
+#, fuzzy
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED"
 msgid ""
 "Connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>\">Liquid "
 "Pipe</link>"
 msgstr ""
+"Yhdistettynä <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
+"\">Nesteputkeen</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER"
@@ -36600,6 +36790,11 @@ msgid ""
 "Must be on the same network as at least one <link=\"LIQUIDPIPING\">Intake</"
 "link>"
 msgstr ""
+"<b>Ulosvientiputki</b>\n"
+"Ulosviennit siirtävät nesteen putkeen\n"
+"------------------\n"
+"Täytyy olla samassa verkossa vähintään yhden <link=\"LIQUIDPIPING"
+"\">Sisäänoton</link> kanssa"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
@@ -36607,6 +36802,8 @@ msgid ""
 "Not connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
 "\">Liquid Pipe</link>"
 msgstr ""
+"Ei yhdistettynä <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
+"\">Nesteputkeen</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED"
@@ -36617,6 +36814,11 @@ msgid ""
 "Must be on the same network as at least one <link=\"LIQUIDPIPING"
 "\">LiquidDestination</link>"
 msgstr ""
+"<b>Suodatettu Ulosvientiputki</b>\n"
+"Suodatetut Ulosvientit siirtävät nesteen putkeen\n"
+"------------------\n"
+"Täytyy olla samassa verkossa vähintään yhden <link=\"LIQUIDPIPING\">Nesteen "
+"Määränpään</link> kanssa"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.NETWORK
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.NETWORK"
@@ -36632,6 +36834,11 @@ msgid ""
 "Must be on the same network as at least one <link=\"LIQUIDPIPING\">Output</"
 "link>"
 msgstr ""
+"<b>Rakennuksen sisäänotto</b>\n"
+"Sisäänotot siirtävät nesteen rakennuksiin\n"
+"------------------\n"
+"Täytyy olla samassa verkossa vähintään yhden <link=\"LIQUIDPIPING"
+"\">Ulosviennin</link> kanssa"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.BUTTON"
@@ -36651,7 +36858,7 @@ msgstr "EI YHDISTETTY"
 #. STRINGS.UI.OVERLAYS.LOGIC.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.INPUT"
 msgid "Input Port"
-msgstr "Sisääntuloportti"
+msgstr "Sisäänottoportti"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.NAME
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.NAME"
@@ -36666,7 +36873,7 @@ msgstr "Aktiivinen"
 #. STRINGS.UI.OVERLAYS.LOGIC.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.OUTPUT"
 msgid "Output Port"
-msgstr "Ulostuloportti"
+msgstr "Ulosvientiportti"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.RESET_UPDATE
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RESET_UPDATE"
@@ -40117,7 +40324,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS"
 msgid "Attract {1}s"
-msgstr "Houkuttelee:"
+msgstr "Houkuttelee: {1}"
 
 #. STRINGS.UI.UISIDESCREENS.LURE.AWAITINGDELIVERY
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.AWAITINGDELIVERY"
@@ -40236,7 +40443,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.PLANTEFFECTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.PLANTEFFECTS"
 msgid "<b>Effects</b>:"
-msgstr "<b>Vaikutukset:</b>"
+msgstr "<b>Vaikutukset:</b>:"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.PLANTREQUIREMENTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.PLANTREQUIREMENTS"
@@ -40412,7 +40619,7 @@ msgstr "ANNA BIOSKANNAUS"
 #. STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.LABEL"
 msgid "This door requires a sample to unlock."
-msgstr "Tämä ovi tarvitsee näytteen avautuakseen"
+msgstr "Tämä ovi tarvitsee näytteen avautuakseen."
 
 #. STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.TITLE"

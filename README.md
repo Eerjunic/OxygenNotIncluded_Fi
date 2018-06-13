@@ -3,4 +3,4 @@ Oxygen Not Included, suomen kielen käännösprojekti
 
 Tämän projektin tarkoitus on kääntää Oxygen Not Included -pelin tekstit selvälle ja hyvälle suomen kielelle. Ohjeet käätämiseen (englanniksi) löytyy osoitteesta https://forums.kleientertainment.com/topic/74765-creatingusing-translation-files-updated-august-22nd-2017/.
 
-Edistyminen 12.6.2018: 91 %
+Edistyminen 13.6.2018: 93 %

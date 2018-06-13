@@ -31993,6 +31993,17 @@ msgid ""
 "    • Dormancy duration \n"
 "    • Disease emitted"
 msgstr ""
+"Geissiirit ja Fumarolit päästävät aineita vaihtelevin aikavälein. Ne "
+"tarjoavat kestävän, joskin yleensä matalapitoisen materiaalilähteen.\n"
+"\n"
+"Geissiirin muttujatekijät ovat:\n"
+"\n"
+"    • Päästöaine \n"
+"    • Päästölämpötila \n"
+"    • Päästön massa \n"
+"    • Syklin pituus \n"
+"    • Lepotila-aika \n"
+"    • Taudinpäästö"
 
 #. STRINGS.UI.CODEX.MANAGEMENT_BUTTON
 msgctxt "STRINGS.UI.CODEX.MANAGEMENT_BUTTON"
@@ -32860,6 +32871,8 @@ msgctxt ""
 msgid ""
 "This Duplicant must expend {0} of their immunity to fight {1} of this disease"
 msgstr ""
+"Tämän Jäljennäisen täytyy kuluttaa {0} heidän vastustuskyvystään tuhotakseen "
+"{1} tästä sairaudesta"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_FACTORS.IMMUNE_ATTACK_RATE2
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_FACTORS.IMMUNE_ATTACK_RATE2"
@@ -32873,6 +32886,8 @@ msgid ""
 "This Duplicant's immune system is being strained at a rate of {0} by the {1} "
 "present on their body"
 msgstr ""
+"Tämän Jäljennäisen kehossa oleva {1} kuormittaa hänen immuunijärjestelmää "
+"{0} teholla"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_FACTORS.INTERNAL_GERMS
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_FACTORS.INTERNAL_GERMS"
@@ -32886,6 +32901,9 @@ msgid ""
 "------------------\n"
 "Their body is host to {1}"
 msgstr ""
+"Tämä Jäljennäinen taistelee {0}tulehdusta vastaan\n"
+"------------------\n"
+"Heidän kehonsa kantaa sairautta {1}"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_SYSTEM
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.IMMUNE_SYSTEM"
@@ -32903,16 +32921,19 @@ msgid ""
 "These symptoms are eliminated while a Duplicant is in a Med-Bed receiving "
 "medical care"
 msgstr ""
+"Nämä oireet poistuvat kun Jäljennäinen makaa Sairaalasängyssä saaden "
+"lääkinnällistä hoitoa"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DISCLAIMER
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DISCLAIMER"
 msgid "Contracting this illness will have these effects on a Duplicant:\n"
-msgstr ""
+msgstr "Tämän sairauden saamisella on seuraavia vaikutuksia Jäljennäiseen:\n"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DISCLAIMER_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DISCLAIMER_TOOLTIP"
 msgid "A Duplicant's immune system must be overwhelmed to contract an illness"
 msgstr ""
+"Jäljennäisen immuunijärjestelmän täytyy ylikuormittua, jotta tauti tarttuisi"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DURATION
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DURATION"
@@ -32931,6 +32952,9 @@ msgid ""
 "------------------\n"
 "Without medical care, they will be infected indefinitely"
 msgstr ""
+"Hoidetut Jäljennäiset toipuvat tästä sairaudesta {0} kuluttua\n"
+"------------------\n"
+"Ilman lääkinnällistä hoitoa, tartunta tapahtuu välittömästi"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DURATION_NORMAL
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DURATION_NORMAL"
@@ -32948,6 +32972,7 @@ msgid ""
 "Duration is the amount of time it takes a Duplicant to fight off this "
 "infection"
 msgstr ""
+"Kesto kertoo, kuinka kauan Jäljennäisellä kestää taistella tämä tartunta pois"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.SOURCE_SUFFIX
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.SOURCE_SUFFIX"
@@ -32963,6 +32988,11 @@ msgid ""
 "------------------\n"
 "They may infect other Duplicants as a result"
 msgstr ""
+"\n"
+"\n"
+"Tämä oire saa Jäljennäiset erittämään bakteereja kehostaan\n"
+"------------------\n"
+"He saattavat tartuttaa muita Jäljennäisiä sen seurauksena"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION.SYMPTOMS
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.SYMPTOMS"
@@ -32974,6 +33004,8 @@ msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.SYMPTOMS_TOOLTIP"
 msgid ""
 "These symptoms must run their course and cannot be alleviated by medical care"
 msgstr ""
+"Näiden oireiden on laannuttava itsestään, eikä niitä voi lievittää "
+"lääkinnällisin keinoin"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.INFECTION_INFO
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION_INFO"
@@ -33008,11 +33040,15 @@ msgid ""
 "Probability is increased if the creature:\n"
 "{2}"
 msgstr ""
+"Tällä otuksella on {1} todennäköisyys munia {0}.\n"
+"\n"
+"Todennäköisyys kasvaa, jos otus:\n"
+"{2}"
 
 #. STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_FORMAT_TOOLTIP_NOMOD
 msgctxt "STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_FORMAT_TOOLTIP_NOMOD"
 msgid "This critter has a {1} chance of laying a {0}."
-msgstr ""
+msgstr "Tällä otuksella on {1} todennäköisyys munia {0}."
 
 #. STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_MOD_FORMAT
 msgctxt "STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_MOD_FORMAT"
@@ -33110,11 +33146,13 @@ msgid ""
 "The total amount of power that can be used by this circuit if all connected "
 "buildings are active"
 msgstr ""
+"Tämän piirin suurin yhteenlaskettu sähkönkulutus, mikäli kaikki kytketyt "
+"rakennukset ovat päällä"
 
 #. STRINGS.UI.DETAILTABS.ENERGYGENERATOR.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.ENERGYGENERATOR.TOOLTIP"
 msgid "Monitor the power this building is generating"
-msgstr ""
+msgstr "Tarkkaile tämän rakennuksen sähköntuottoa"
 
 #. STRINGS.UI.DETAILTABS.ENERGYGENERATOR.WATTAGE_CONSUMED
 msgctxt "STRINGS.UI.DETAILTABS.ENERGYGENERATOR.WATTAGE_CONSUMED"
@@ -33215,7 +33253,7 @@ msgstr "Ei mitään"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.NO_ASSIGNABLES_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.NO_ASSIGNABLES_TOOLTIP"
 msgid "{0} has not been assigned any buildings of their own"
-msgstr ""
+msgstr "Jäljennäiselle {0} ei ole nimetty omia rakennuksia"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.NOEQUIPMENT
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.NOEQUIPMENT"
@@ -33225,7 +33263,7 @@ msgstr "Ei mitään"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.NOEQUIPMENT_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.NOEQUIPMENT_TOOLTIP"
 msgid "{0}'s wearing their Printday Suit and nothing more"
-msgstr ""
+msgstr "Jäljennäisellä {0} on yllään Tulostuspäivänsä Puku eikä mitään muuta"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.UNASSIGNED
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.UNASSIGNED"
@@ -33270,7 +33308,7 @@ msgstr "<size=13><b>Nykyinen Työ:</b> {0}</size>"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.NOJOB_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.NOJOB_TOOLTIP"
 msgid "This {0} is... \"between jobs\" at present"
-msgstr ""
+msgstr "Tämä {0} on... \"etsimässä uusia haasteita\""
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.TOOLTIP"
@@ -33285,7 +33323,7 @@ msgstr "{0} hankki tämän taidon työskennellessään virassa {1}"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.MASTERED_ROLES
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.MASTERED_ROLES"
 msgid "<b><size=13>Mastered Jobs:</size></b>"
-msgstr ""
+msgstr "<b><size=13>Hallitut työt:</size></b>"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.MASTERED_ROLES_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.MASTERED_ROLES_TOOLTIP"
@@ -33295,6 +33333,10 @@ msgid ""
 "------------------\n"
 "Switching jobs will not remove these traits."
 msgstr ""
+"Kaikki piirteet ja odotukset, jotka Jäljennäinen oppii työssään muuttuvat "
+"pysyviksi, kun kyseinen työ on hallussa.\n"
+"------------------\n"
+"Työpaikkojen vaihtaminen ei poista näitä piirteitä."
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_ROLES.NAME
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_ROLES.NAME"
@@ -33304,22 +33346,22 @@ msgstr "Ei mitään"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_ROLES.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_ROLES.TOOLTIP"
 msgid "{0} has not mastered any jobs yet"
-msgstr ""
+msgstr "{0} ei hallitse vielä yhtäkään työtä"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.PERKS.NAME
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.PERKS.NAME"
 msgid "<b><size=13>Job Training:</size></b>"
-msgstr ""
+msgstr "<b><size=13>Työkoulutus:</size></b>"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.PERKS.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.PERKS.TOOLTIP"
 msgid "These are permanent skills {0} gained from previous jobs"
-msgstr ""
+msgstr "Nämä ovat pysyviä taitoja, jotka {0} oppi edellisessä työssään"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.TOOLTIP"
 msgid "View this Duplicant's personality, resume, and amenities"
-msgstr ""
+msgstr "Näytä tämän Jäljennäisen persoonallisuus, ansioluettelo ja mukavuudet"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_CONDITION
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_CONDITION"
@@ -33684,16 +33726,21 @@ msgid ""
 "Between two objects, the rate of heat transfer will be determined by the "
 "object with the lowest Thermal Conductivity"
 msgstr ""
+"Tämä kohde pystyy siirtämään lämpöä muihin materiaaleihin {0} W nopeudella "
+"jokaista {0} K muutosta kohden\n"
+"\n"
+"Kahden kappaleen välillä lämmönsiirtonopeuden määrittää kappale, jolla on "
+"alhaisin Lämmönsiirtokyky"
 
 #. STRINGS.UI.ELEMENTAL.UNITS.NAME
 msgctxt "STRINGS.UI.ELEMENTAL.UNITS.NAME"
 msgid "Stack Units: {0}"
-msgstr ""
+msgstr "Pinoyksiköitä: {0}"
 
 #. STRINGS.UI.ELEMENTAL.UNITS.TOOLTIP
 msgctxt "STRINGS.UI.ELEMENTAL.UNITS.TOOLTIP"
 msgid "This stack contains {0} units of {1}"
-msgstr ""
+msgstr "Tämä pino sisältää {0} yksikköä materiaalia {1}"
 
 #. STRINGS.UI.ELEMENTAL.VAPOURIZATIONPOINT.NAME
 msgctxt "STRINGS.UI.ELEMENTAL.VAPOURIZATIONPOINT.NAME"
@@ -33713,43 +33760,43 @@ msgstr "Lisätty"
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NAME"
 msgid "Calorie Generation:"
-msgstr ""
+msgstr "Kalorien Tuotto:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP"
 msgid ""
 "Your colony consumed {0} of <link=\"FOOD\">Food</link> over the course of "
 "the day"
-msgstr ""
+msgstr "Siirtokuntasi kulutti {0} <link=\"FOOD\">Ruokaa</link> päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP"
 msgid ""
 "Your colony produced {0} of <link=\"FOOD\">Food</link> over the course of "
 "the day"
-msgstr ""
+msgstr "Siirtokuntasi tuotti {0} <link=\"FOOD\">Ruokaa</link> päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME"
 msgid "<link=\"POLLUTEDOXYGEN\">Flatulence</link> Generation:"
-msgstr ""
+msgstr "<link=\"POLLUTEDOXYGEN\">Ilmavaivojen</link> Tuotto:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
 msgid "Your colony consumed {0} of Polluted Oxygen over the course of the day"
-msgstr ""
+msgstr "Siirtokuntasi kulutti {0} Saastunutta Happea päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP"
 msgid "Your colony generated {0} of Polluted Oxygen over the course of the day"
-msgstr ""
+msgstr "Siirtokuntasi tuotti {0} Saastunutta Happea päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
 msgid "<link=\"POLLUTED OXYGEN\">Sublimation</link>:"
-msgstr ""
+msgstr "<link=\"POLLUTED OXYGEN\">Sublimaatio</link>:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP
 msgctxt ""
@@ -33758,6 +33805,8 @@ msgid ""
 "Your colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
 "link> over the course of the day"
 msgstr ""
+"Siirtokuntasi kulutti {0} <link=\"CONTAMINATEDOXYGEN\">Saastunutta Happea</"
+"link> päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP
 msgctxt ""
@@ -33766,11 +33815,13 @@ msgid ""
 "Your colony generated {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
 "link> over the course of the day"
 msgstr ""
+"Siirtokuntasi tuotti {0} <link=\"CONTAMINATEDOXYGEN\">Saastunutta Happea</"
+"link> päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
 msgid "<link=\"POLLUTED OXYGEN\">Toilet Emissions: </link>"
-msgstr ""
+msgstr "<link=\"POLLUTED OXYGEN\">Vessapäästöt: </link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
@@ -33778,6 +33829,8 @@ msgid ""
 "Your colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
 "link> over the course of the day"
 msgstr ""
+"Siirtokuntasi kulutti {0} <link=\"CONTAMINATEDOXYGEN\">Saastunutta Happea</"
+"link> päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP"
@@ -33785,6 +33838,8 @@ msgid ""
 "Your colony generated {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
 "link> over the course of the day"
 msgstr ""
+"Siirtokuntasi tuotti {0} <link=\"CONTAMINATEDOXYGEN\">Saastunutta Happea</"
+"link> päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE"
@@ -33804,51 +33859,51 @@ msgstr "Kierto {0} - Eilen"
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NAME"
 msgid "<link=\"DISEASE\">Diseases</link> Contracted:"
-msgstr ""
+msgstr "<link=\"DISEASE\">Tauteja</link> Tarttunut:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NEGATIVE_TOOLTIP"
 msgid "{0} Duplicant(s) were cured of a <link=\"DISEASE\">Disease</link>"
-msgstr ""
+msgstr "{0} Jäljennäisen <link=\"DISEASE\">Sairaus</link> parannettiin"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.POSITIVE_TOOLTIP"
 msgid "{0} Duplicant(s) contracted a <link=\"DISEASE\">Disease</link>"
-msgstr ""
+msgstr "{0} Jäljennäiseen tarttui <link=\"DISEASE\">Sairaus</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.NAME"
 msgid "Disease Status:"
-msgstr ""
+msgstr "Sairaustilanne:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP"
 msgid "Your Duplicants are covered in {0}"
-msgstr ""
+msgstr "Jäljennäisesi ovat {0} peittämiä"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NAME"
 msgid "<link=\"POWER\">Power</link> Usage:"
-msgstr ""
+msgstr "<link=\"POWER\">Sähkön</link> Käyttö:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP"
 msgid ""
 "Your colony consumed {0} of <link=\"POWER\">Power</link> over the course of "
 "the day"
-msgstr ""
+msgstr "Siirtokuntasi kulutti {0} <link=\"POWER\">Sähköä</link> päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
 msgid ""
 "Your colony created {0} of <link=\"POWER\">Power</link> over the course of "
 "the day"
-msgstr ""
+msgstr "Siirtokuntasi tuotti {0} <link=\"POWER\">Sähköä</link> päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME"
 msgid "<link=\"POWER\">Power</link> Wasted:"
-msgstr ""
+msgstr "<link=\"POWER\">Sähköä</link> Hukattu:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP"
@@ -33856,6 +33911,8 @@ msgid ""
 "Your colony lost {0} of <link=\"POWER\">Power</link> today due to "
 "overproduction and battery loss"
 msgstr ""
+"Siirtokuntasi menetti {0} <link=\"POWER\">Sähköä</link> tänään, johtuen "
+"ylituotannosta ja akkuhävikistä"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.POSITIVE_TOOLTIP
 #, fuzzy
@@ -33876,22 +33933,22 @@ msgstr ""
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME"
 msgid "Idle Time:"
-msgstr ""
+msgstr "Joutenoloaika:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP"
 msgid "Your Duplicants spent a total of {0} idling over the course of the day"
-msgstr ""
+msgstr "Jäljennäisesi olivat päivän aikana {0} jouten"
 
 #. STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME"
 msgid "Skill Increases:"
-msgstr ""
+msgstr "Taidonnousuja:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP"
 msgid "Your Duplicants gained a total of {0} skill levels today"
-msgstr ""
+msgstr "Jäljennäisesi korottivat tänään yhteensä {0} taitotasoa"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NET
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NET"
@@ -33906,12 +33963,12 @@ msgstr "Seuraava"
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.BUTCHERED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.BUTCHERED"
 msgid "Butchered for {0}"
-msgstr ""
+msgstr "Teurastettiin {0} varten"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.BUTCHERED_CONTEXT
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.BUTCHERED_CONTEXT"
 msgid "Butchered"
-msgstr ""
+msgstr "Teurastettu"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.CRAFTED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.CRAFTED"
@@ -33936,17 +33993,17 @@ msgstr "{0} syöty"
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS"
 msgid "On {0}"
-msgstr ""
+msgstr "{0} pinnalla"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.HARVESTED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.HARVESTED"
 msgid "Harvested {0}"
-msgstr ""
+msgstr "Satoa Korjattu {0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.HARVESTED_CONTEXT
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.HARVESTED_CONTEXT"
 msgid "Harvested"
-msgstr ""
+msgstr "Satoa Korjattu"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.NOTE_ENTRY_LINE_ITEM
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.NOTE_ENTRY_LINE_ITEM"
@@ -33954,6 +34011,8 @@ msgid ""
 "{0}\n"
 "{1}: {2}"
 msgstr ""
+"{0}\n"
+"{1}: {2}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.ROTTED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.ROTTED"
@@ -33978,26 +34037,26 @@ msgstr "Kierron {0} raportti valmis"
 #. STRINGS.UI.ENDOFDAYREPORT.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTIFICATION_TOOLTIP"
 msgid "View the end of day report for Cycle {0}"
-msgstr ""
+msgstr "Näytä päivän loppuraportti Kierrolle {0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME"
 msgid "<link=\"OXYGEN\">Oxygen</link> Generation:"
-msgstr ""
+msgstr "<link=\"OXYGEN\">Hapen</link>tuotanto:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP"
 msgid ""
 "Your colony consumed {0} of <link=\"OXYGEN\">Oxygen</link> over the course "
 "of the day"
-msgstr ""
+msgstr "Siirtokuntasi kulutti päivän aikana {0} <link=\"OXYGEN\">Happea</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.POSITIVE_TOOLTIP"
 msgid ""
 "Your colony generated {0} of <link=\"OXYGEN\">Oxygen</link> over the course "
 "of the day"
-msgstr ""
+msgstr "Siirtokuntasi tuotti päivän aikana {0} <link=\"OXYGEN\">Happea</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.PREV
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PREV"
@@ -34017,17 +34076,19 @@ msgstr "PÄIVITTÄISKATSAUKSET"
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NAME"
 msgid "<link=\"STRESS\">Stress</link> Change:"
-msgstr ""
+msgstr "<link=\"STRESS\">Ahdistuksen</link> muutos:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NEGATIVE_TOOLTIP"
 msgid "Your colony's total <link=\"STRESS\">Stress</link> has decreased by {0}"
 msgstr ""
+"Siirtokuntasi yhteenlaskettu <link=\"STRESS\">Ahdistus</link> laski {0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.POSITIVE_TOOLTIP"
 msgid "Your colony's total <link=\"STRESS\">Stress</link> has increased by {0}"
 msgstr ""
+"Siirtokuntasi yhteenlaskettu <link=\"STRESS\">Ahdistus</link> nousi {0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME"
@@ -34043,12 +34104,12 @@ msgstr ""
 #. STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME"
 msgid "Restroom Accidents:"
-msgstr ""
+msgstr "Vessavahinkoja:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.TOOLTIP"
 msgid "{0} Duplicants didn't quite reach the toilet in time today"
-msgstr ""
+msgstr "{0} Jäljennäistä ei ihan ehtinyt vessaan ajoissa"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.NAME"
@@ -34059,7 +34120,7 @@ msgstr "Matkustusaika:"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP"
 msgid ""
 "Your Duplicants spent a total of {0} traveling over the course of the day"
-msgstr ""
+msgstr "Jäljennäisesi käyttivät päivän aikana yhteensä {0} kulkemiseen"
 
 #. STRINGS.UI.EQUIPMENTTAB_HELD
 msgctxt "STRINGS.UI.EQUIPMENTTAB_HELD"
@@ -34128,6 +34189,7 @@ msgid ""
 "If enabled, automation sound effects will play even when outside of the "
 "Automation Overlay"
 msgstr ""
+"Jos päällä, automaatioääniefektit soivat myös Automaationäkymän ulkopuolella"
 
 #. STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.DONE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.DONE_BUTTON"
@@ -34228,14 +34290,14 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "STRONG.TOOLTIP"
 msgid "Duplicants have increased immune recovery"
-msgstr ""
+msgstr "Jäljennäisillä on kohonnut vastustuskyvyn palautuminen"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.ATTRIBUTE_MODIFIER_NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "WEAK.ATTRIBUTE_MODIFIER_NAME"
 msgid "Weak Immune System"
-msgstr ""
+msgstr "Heikko Immuunijärjestelmä"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.NAME
 msgctxt ""
@@ -34249,7 +34311,7 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "WEAK.TOOLTIP"
 msgid "Duplicants have reduced immune recovery"
-msgstr ""
+msgstr "Jäljennäisillä on alentunut vastustuskyvyn palautuminen"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.NAME
 msgctxt ""
@@ -34262,6 +34324,8 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.TOOLTIP"
 msgid "Affects how resistant your Duplicants are to disease"
 msgstr ""
+"Vaikuttaa siihen, kuinka vastustuskykyisiä Jäljennäiset ovat sairauksia "
+"vastaan"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.DISABLED.NAME
 msgctxt ""
@@ -34275,7 +34339,7 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS."
 "DISABLED.TOOLTIP"
 msgid "Click to enable Sandbox mode"
-msgstr ""
+msgstr "Klikkaa laittaaksesi Hiekkalaatikkotila päälle"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.ENABLED.NAME
 msgctxt ""
@@ -34289,7 +34353,7 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS."
 "ENABLED.TOOLTIP"
 msgid "Click to disable Sandbox mode"
-msgstr ""
+msgstr "Klikkaa laittaaksesi Hiekkalaatikkotila pois"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.NAME
 msgctxt ""
@@ -34304,6 +34368,8 @@ msgid ""
 "Allows the simulation to be manipulated with tools that ignore the regular "
 "constraints of the game"
 msgstr ""
+"Mahdollistaa simulaation manipulaation pelin normaalit rajoitteet "
+"ohittavilla työkaluilla"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DEFAULT.NAME
 msgctxt ""
@@ -34317,14 +34383,14 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DEFAULT."
 "TOOLTIP"
 msgid "Duplicants gain and lose stress normally"
-msgstr ""
+msgstr "Jäljennäisten ahdistus kasvaa ja laskee normaalisti"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DOOMED.ATTRIBUTE_MODIFIER_NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DOOMED."
 "ATTRIBUTE_MODIFIER_NAME"
 msgid "Fatalistic"
-msgstr ""
+msgstr "Kohtalokas"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DOOMED.NAME
 msgctxt ""
@@ -34338,14 +34404,14 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DOOMED."
 "TOOLTIP"
 msgid "Duplicants stress out at an extremely accelerated rate"
-msgstr ""
+msgstr "Jäljennäiset ahdistuvat äärimmäisen kiihtyvällä nopeudella"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.INDOMITABLE.ATTRIBUTE_MODIFIER_NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS."
 "INDOMITABLE.ATTRIBUTE_MODIFIER_NAME"
 msgid "Unflappable"
-msgstr ""
+msgstr "Järkkymätön"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.INDOMITABLE.NAME
 msgctxt ""
@@ -34366,7 +34432,7 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS."
 "OPTIMISTIC.ATTRIBUTE_MODIFIER_NAME"
 msgid "Optimistic"
-msgstr ""
+msgstr "Optimistinen"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.OPTIMISTIC.NAME
 msgctxt ""
@@ -34380,14 +34446,14 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS."
 "OPTIMISTIC.TOOLTIP"
 msgid "Duplicants are harder to stress out"
-msgstr ""
+msgstr "Jäljennäisiä on vaikeampi ahdistaa"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.PESSIMISTIC.ATTRIBUTE_MODIFIER_NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS."
 "PESSIMISTIC.ATTRIBUTE_MODIFIER_NAME"
 msgid "Pessimistic"
-msgstr ""
+msgstr "Pessimistinen"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.PESSIMISTIC.NAME
 msgctxt ""
@@ -34401,7 +34467,7 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS."
 "PESSIMISTIC.TOOLTIP"
 msgid "Duplicants stress out easily"
-msgstr ""
+msgstr "Jäljennäiset ahdistuvat helposti"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.NAME"
@@ -34411,7 +34477,7 @@ msgstr "Jäljennäisen Mieliala"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.TOOLTIP"
 msgid "Affects how well your Duplicants deal with stress"
-msgstr ""
+msgstr "Vaikuttaa siihen, kuinka hyvin Jäljennäiset käsittelevät ahdistusta"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DEFAULT.NAME
 msgctxt ""
@@ -34426,6 +34492,7 @@ msgctxt ""
 "DEFAULT.TOOLTIP"
 msgid "Duplicants will act out when they reach 100% stress"
 msgstr ""
+"Jäljennäiset alkavat saamaan kohtauksia saavutettuaan 100 % ahdistustilan"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS.DISABLED.NAME
 msgctxt ""
@@ -34439,7 +34506,7 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.LEVELS."
 "DISABLED.TOOLTIP"
 msgid "Duplicants will not act out at maximum stress"
-msgstr ""
+msgstr "Jäljennäiset eivät saa kohtauksia täydellä ahdistustasolla"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.NAME
 msgctxt ""
@@ -34633,6 +34700,8 @@ msgid ""
 "<b><color=#ff0000>Could not load file {0}. File is using build {1}. This "
 "build is {2}.</color></b>"
 msgstr ""
+"<b><color=#ff0000>Ei voitu ladata tiedostoa {0}. Tiedosto käyttää vedosta "
+"{1}. Tämä vedos on {2}.</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVEDETAILS
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVEDETAILS"
@@ -34646,6 +34715,14 @@ msgid ""
 "<b>Duplicants Alive:</b> {3}\n"
 "<b>Cycle(s) Survived:</b> {4}"
 msgstr ""
+"<b>Tiedosto:</b> {0}\n"
+"\n"
+"<b>Tallennuspäivä:</b>\n"
+"{1}\n"
+"\n"
+"<b>Paikan Nimi:</b> {2}\n"
+"<b>Jäljennäisiä Elossa:</b> {3}\n"
+"<b>Kiertoja Selvitty:</b> {4}"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.TITLE"
@@ -34663,6 +34740,8 @@ msgid ""
 "<b><color=#ff0000>This save file is from a previous version of the game and "
 "is no longer supported.</color></b>"
 msgstr ""
+"<b><color=#ff0000>Tämä tallennustiedosto on pelin edellisestä versiosta, "
+"eikä sitä enää tueta.</color></b>"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DESKTOPQUITCONFIRM
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DESKTOPQUITCONFIRM"
@@ -34741,6 +34820,12 @@ msgid ""
 "For more details on our privacy policy and how we use the data we collect, "
 "please visit our <color=blue><u><b>privacy policy</u></b></color>."
 msgstr ""
+"Meidän on kerättävä käyttäjädataa pelin toimintojen parantamisen apuna. "
+"Pelaajat, jotka jättäytyvät pois datankeräyksestä, eivät enää lähetä "
+"kaatumisraportteja tai käyttäjädataa pelin tekijätiimille.\n"
+"\n"
+"Lisätietoja tietosuojakäytännöstämme ja siitä, kuinka käytämme keräämämme "
+"dataa, löytyy <color=blue><u><b>tietosuojakäytännöstämmeu></b></color>."
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DONE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DONE_BUTTON"
@@ -34905,14 +34990,14 @@ msgstr "Hiekkalaatikkotila Päälle"
 msgctxt ""
 "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CONFIRM_SAVE_BACKUP"
 msgid "Enable sandbox mode, but save a backup first"
-msgstr ""
+msgstr "Laita hiekkalaatikkotila päälle, mutta tallenna ensin varmuuskopio"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.UNLOCK_SANDBOX_WARNING
 msgctxt ""
 "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN."
 "UNLOCK_SANDBOX_WARNING"
 msgid "Sandbox mode will be enabled for this save file"
-msgstr ""
+msgstr "Hiekkalaatikkotila kytketään päälle tähän tallennustiedostoon"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.UNITS
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.UNITS"
@@ -35039,6 +35124,10 @@ msgid ""
 "\n"
 "{0}"
 msgstr ""
+"Peliäsi tallentaessa tapahtui virhe. Varmista, että sinulla on riittävästi "
+"levytilaa.\n"
+"\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.SAVESCREEN.NEWSAVEBUTTON
 msgctxt "STRINGS.UI.FRONTEND.SAVESCREEN.NEWSAVEBUTTON"
@@ -35076,6 +35165,12 @@ msgid ""
 "Please visit your audio device manufacturer's website to download the latest "
 "drivers."
 msgstr ""
+"Äänilaitettasi käynnistäessä tapahtui virhe.\n"
+"Pahoittelut siitä.\n"
+"\n"
+"Tämä johtuu yleensä vanhentuneista ääniajureista.\n"
+"\n"
+"Käy äänilaitteesi valmistajan verkkosivuilla ja lataa viimeisimmät ajurit."
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.DUPLICATE_KEY_BINDINGS
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.DUPLICATE_KEY_BINDINGS"
@@ -35087,6 +35182,12 @@ msgid ""
 "like them.</b>\n"
 "{0}"
 msgstr ""
+"<b>Kaksinkertaisia näppäinkomentoja havaittiin.\n"
+"Tämä saattaa johtua siitä, että omat näppäinkomentosi ovat ristiriidassa "
+"uusien ominaisuuksien oletusnäppäimien kanssa.\n"
+"Käy ohjainasetusruudussa varmistamassa, että näppäinkomentosi ovat kuten "
+"haluat niiden olevan.</b>\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_INSUFFICIENT_SPACE
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_INSUFFICIENT_SPACE"
@@ -35096,6 +35197,11 @@ msgid ""
 "Please free at least 15 MB to give your saves some room to breathe.\n"
 "{0}"
 msgstr ""
+"Levyllä ei ole riittävästi tilaa, jotta tallennuskansioosi voitaisiin "
+"tallentaa.\n"
+"\n"
+"Vapauta vähintään 15 MB antaaksesi tallennuksillesi tilaa hengittää.\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_READ_ONLY
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_READ_ONLY"
@@ -35107,6 +35213,12 @@ msgid ""
 "launch the game.\n"
 "{0}"
 msgstr ""
+"Tallennuskansioosi pääsyssä tapahtui virhe.\n"
+"Tämä saattaa johtua siitä, että kansiosi on vain-luku tilassa.\n"
+"\n"
+"Varmista, että tallennuskansiosi on luettavissa ja kirjoitettavissa ja "
+"käynnistä peli uudelleen.\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.WORLD_GEN_FILES
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.WORLD_GEN_FILES"
@@ -35118,6 +35230,11 @@ msgid ""
 "\n"
 "{0}"
 msgstr ""
+"Uuden pelin aloittamiseen tarvittavien tiedostojen pääsyssä ilmeni ongelma.\n"
+"\n"
+"Varmisat, että voit muokata näitä tiedostoja ja käynnisttä peli uudestaan:\n"
+"\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.ARE_YOU_SURE
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.ARE_YOU_SURE"
@@ -35321,52 +35438,52 @@ msgstr "+{0}"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.COLDBREATHER
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.COLDBREATHER"
 msgid "<link=\"HEAT\">Cooling Effect</link>"
-msgstr ""
+msgstr "<link=\"HEAT\">Jäähdytysvaikutus</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.CIRCUIT_OVERLOADED
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.CIRCUIT_OVERLOADED"
 msgid "Overload Damage"
-msgstr ""
+msgstr "Ylikuormavaurio"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.CONDUIT_CONTENTS_BOILED
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.CONDUIT_CONTENTS_BOILED"
 msgid "Heat Damage"
-msgstr ""
+msgstr "Lämpövaurio"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.CONDUIT_CONTENTS_FROZE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.CONDUIT_CONTENTS_FROZE"
 msgid "Cold Damage"
-msgstr ""
+msgstr "Kylmävaurio"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.LIQUID_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.LIQUID_PRESSURE"
 msgid "Pressure Damage"
-msgstr ""
+msgstr "Painevaurio"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.MINION_DESTRUCTION
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.MINION_DESTRUCTION"
 msgid "Anger Damage"
-msgstr ""
+msgstr "Kiukkuvaurio"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.OVERHEAT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.OVERHEAT"
 msgid "Overheat Damage"
-msgstr ""
+msgstr "Ylikuumenemisvaurio"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.WRONG_ELEMENT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.WRONG_ELEMENT"
 msgid "Wrong Element Damage"
-msgstr ""
+msgstr "Väärän Aineen Vaurio"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DARKNESS
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DARKNESS"
 msgid "Darkness"
-msgstr ""
+msgstr "Pimeys"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.EMITS_LIGHT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.EMITS_LIGHT"
 msgid "<link=\"LIGHT\">Light Range</link>: {0} tiles"
-msgstr ""
+msgstr "<link=\"LIGHT\">Valon Etäisyys</link>: {0} ruutua"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.EQUIPMENT_MODS
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.EQUIPMENT_MODS"
@@ -35376,17 +35493,17 @@ msgstr "{Attribute} {Value}"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_EFFECTS
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_EFFECTS"
 msgid "Effects:"
-msgstr ""
+msgstr "Vaikutukset:"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_QUALITY
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_QUALITY"
 msgid "Quality: {0}"
-msgstr ""
+msgstr "Laatu: {0}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.FORGAVEATTACKER
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.FORGAVEATTACKER"
 msgid "Forgiveness"
-msgstr ""
+msgstr "Anteeksiantaminen"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.GROWTHTIME
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.GROWTHTIME"
@@ -35411,17 +35528,17 @@ msgstr "{0}: {1}"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.IDEAL_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.IDEAL_PRESSURE"
 msgid "<link=\"ATMOSPHERE\">Air</link> Pressure: {0}"
-msgstr ""
+msgstr "<link=\"ATMOSPHERE\">Ilman</link>paine: {0}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.IDEAL_TEMPERATURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.IDEAL_TEMPERATURE"
 msgid "<link=\"HEAT\">Temperature</link>: {0} to {1}"
-msgstr ""
+msgstr "<link=\"HEAT\">Lämpötila</link>: {0} - {1}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.INITIALGROWTHTIME
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.INITIALGROWTHTIME"
 msgid "Initial Growth: {0}"
-msgstr ""
+msgstr "Ensisijainen Kasvu: {0}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.LIFECYCLETITLE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.LIFECYCLETITLE"
@@ -35436,52 +35553,52 @@ msgstr "Valo"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.PLANT_DO_NOT_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.PLANT_DO_NOT_HARVEST"
 msgid "Autoharvest Disabled"
-msgstr ""
+msgstr "Automaattikorjuu Pois"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.PLANT_MARK_FOR_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.PLANT_MARK_FOR_HARVEST"
 msgid "Autoharvest Enabled"
-msgstr ""
+msgstr "Automaattikorjuu Päällä"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REGROWTHTIME
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REGROWTHTIME"
 msgid "Regrowth: {0}"
-msgstr ""
+msgstr "Uudelleenkasvu: {0}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_ATMOSPHERE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_ATMOSPHERE"
 msgid "<link=\"ATMOSPHERE\">Atmosphere</link>:{0}"
-msgstr ""
+msgstr "<link=\"ATMOSPHERE\">Ilmasto</link>:{0}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_DARKNESS
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_DARKNESS"
 msgid "<link=\"LIGHT\">Darkness</link>"
-msgstr ""
+msgstr "<link=\"LIGHT\">Pimeys</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_LIGHT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_LIGHT"
 msgid "<link=\"LIGHT\">Light</link>"
-msgstr ""
+msgstr "<link=\"LIGHT\">Valo</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_PRESSURE"
 msgid "<link=\"ATMOSPHERE\">Air</link> Pressure: {0} minimum"
-msgstr ""
+msgstr "<link=\"ATMOSPHERE\">Ilman</link>paine: {0} minimi"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_RECEPTACLE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_RECEPTACLE"
 msgid "Farm Plot"
-msgstr ""
+msgstr "Viljelytilkku"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_SUBMERSION
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_SUBMERSION"
 msgid "<link=\"ELEMENTSLIQUID\">Liquid</link> Submersion"
-msgstr ""
+msgstr "<link=\"ELEMENTSLIQUID\">Nesteeseen</link> Upotus"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_TEMPERATURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_TEMPERATURE"
 msgid "<link=\"HEAT\">Temperature</link>: {0} to {1}"
-msgstr ""
+msgstr "<link=\"HEAT\">Lämpötila</link>: {0} - {1}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRESFERTILIZER
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRESFERTILIZER"
@@ -35496,12 +35613,12 @@ msgstr "Mätä"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_DIG_ONLY
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_DIG_ONLY"
 msgid "Consumes 1 <link=\"PLANTS\">Seed</link>"
-msgstr ""
+msgstr "Kuluttaa 1 kpl <link=\"PLANTS\">Siemeniä</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FINAL_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FINAL_HARVEST"
 msgid "Final harvest yields <link=\"PLANTS\">seed</link>"
-msgstr ""
+msgstr "Viimeinen sadonkorjuu tuottaa <link=\"PLANTS\">siemenen</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FRUIT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FRUIT"
@@ -40049,7 +40166,7 @@ msgstr "Ovi on automaattinen."
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.AUTO_PENDING
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.AUTO_PENDING"
 msgid "Awaiting Duplicant to automate door."
-msgstr "Odottaa Jäljennäistä automatisoimaan oven"
+msgstr "Odottaa Jäljennäistä automatisoimaan oven."
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.CLOSE
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.CLOSE"
@@ -41586,6 +41703,9 @@ msgid ""
 "------------------\n"
 "Disabled buildings consume no energy or resources"
 msgstr ""
+"Pysäytä tämän rakennuksen käyttö\n"
+"------------------\n"
+"Poiskytketyt rakennukset eivät kuluta energiaa tai resursseja"
 
 #. STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP_OFF"
@@ -41704,12 +41824,12 @@ msgstr ""
 #. STRINGS.UI.USERMENUACTIONS.QUARANTINE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.QUARANTINE.NAME"
 msgid "Quarantine"
-msgstr ""
+msgstr "Aseta Karanteeniin"
 
 #. STRINGS.UI.USERMENUACTIONS.QUARANTINE.NAME_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.QUARANTINE.NAME_OFF"
 msgid "Cancel Quarantine"
-msgstr ""
+msgstr "Peru Karanteeni"
 
 #. STRINGS.UI.USERMENUACTIONS.QUARANTINE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.QUARANTINE.TOOLTIP"
@@ -41717,21 +41837,23 @@ msgid ""
 "Isolate this Duplicant\n"
 "The Duplicant will return to their assigned Cot"
 msgstr ""
+"Eristä tämä Jäljennäinen\n"
+"Jäljennäinen palaa nimettyyn Vuoteeseensa"
 
 #. STRINGS.UI.USERMENUACTIONS.QUARANTINE.TOOLTIP_DISABLED
 msgctxt "STRINGS.UI.USERMENUACTIONS.QUARANTINE.TOOLTIP_DISABLED"
 msgid "No quarantine zone assigned"
-msgstr ""
+msgstr "Karanteenialuetta ei ole asetettu"
 
 #. STRINGS.UI.USERMENUACTIONS.QUARANTINE.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.QUARANTINE.TOOLTIP_OFF"
 msgid "Cancel this quarantine order"
-msgstr ""
+msgstr "Peru tämä karanteenimääräys"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.NAME"
 msgid "Inspect"
-msgstr ""
+msgstr "Tarkastele"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP"
@@ -41814,82 +41936,84 @@ msgstr ""
 #. STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME"
 msgid "Filter Settings"
-msgstr ""
+msgstr "Suodatusasetukset"
 
 #. STRINGS.UI.USERMENUACTIONS.TAGFILTER.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.TAGFILTER.TOOLTIP"
 msgid "Assign materials to storage"
-msgstr ""
+msgstr "Nimeä materiaaleja varastoon"
 
 #. STRINGS.UI.USERMENUACTIONS.UNEQUIP.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.UNEQUIP.NAME"
 msgid "Unequip {0}"
-msgstr ""
+msgstr "Poista varuste {0}"
 
 #. STRINGS.UI.USERMENUACTIONS.UNEQUIP.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.UNEQUIP.TOOLTIP"
 msgid "Take off and drop this equipment"
-msgstr ""
+msgstr "Ota pois päältä ja pudota tämä varuste"
 
 #. STRINGS.UI.USERMENUACTIONS.UPROOT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.UPROOT.NAME"
 msgid "Uproot"
-msgstr ""
+msgstr "Kitke"
 
 #. STRINGS.UI.USERMENUACTIONS.UPROOT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.UPROOT.TOOLTIP"
 msgid "Convert this plant into a seed"
-msgstr ""
+msgstr "Muuta tämä kasvi siemeneksi"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME"
 msgid " Set Direction: Both"
-msgstr ""
+msgstr " Aseta Suunta: Molemmat"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.TOOLTIP"
 msgid "Select to make Duplicants wash when passing by in either direction"
 msgstr ""
+"Valitse pakottaaksesi Jäljennäiset peseytymään ohittaessaan kummasta tahansa "
+"suunnasta"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.NAME"
 msgid "Set Direction: Left"
-msgstr ""
+msgstr "Aseta Suunta: Vasemmalta"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.TOOLTIP"
 msgid "Select to make Duplicants wash when passing by from right to left"
-msgstr ""
+msgstr "Valitse pakottaaksesi Jäljennäiset peseytymään ohittaessaan vasemmalta"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.NAME"
 msgid "Set Direction: Right"
-msgstr ""
+msgstr "Aseta Suunta: Oikealta"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.TOOLTIP"
 msgid "Select to make Duplicants wash when passing by from left to right"
-msgstr ""
+msgstr "Valitse pakottaaksesi Jäljennäiset peseytymään ohittaessaan oikealta"
 
 #. STRINGS.UI.VIEWDUPLICANTS
 msgctxt "STRINGS.UI.VIEWDUPLICANTS"
 msgid "Choose a Duplicant"
-msgstr ""
+msgstr "Valitse Jäljennäinen"
 
 #. STRINGS.UI.VITALS
 msgctxt "STRINGS.UI.VITALS"
 msgid "VITALS"
-msgstr ""
+msgstr "ELINTOIMINNOT"
 
 #. STRINGS.UI.VITALSSCREEN.ATMOSPHERE_CONDITION
 msgctxt "STRINGS.UI.VITALSSCREEN.ATMOSPHERE_CONDITION"
 msgid "Atmosphere:"
-msgstr ""
+msgstr "Ilmasto:"
 
 #. STRINGS.UI.VITALSSCREEN.CALORIES
 msgctxt "STRINGS.UI.VITALSSCREEN.CALORIES"
 msgid "Fullness"
-msgstr ""
+msgstr "Kylläisyys"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.BASE
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.BASE"
@@ -41936,7 +42060,7 @@ msgstr "Koristeellisuusodotus"
 #. STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP"
 msgid "This Duplicant desires decor that is {0} or higher"
-msgstr ""
+msgstr "Tämä jäljennäinen haluaa koristusta, jonka taso on {0} tai parempi"
 
 #. STRINGS.UI.VITALSSCREEN.EATEN_TODAY
 msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY"
@@ -41950,6 +42074,9 @@ msgid ""
 "------------------\n"
 "Consumed {0} of food this cycle"
 msgstr ""
+"Syönyt Tänään\n"
+"------------------\n"
+"{0} ruokaa kulutettu tällä kierrolla"
 
 #. STRINGS.UI.VITALSSCREEN.EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.EXPECTATIONS"

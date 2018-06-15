@@ -13996,7 +13996,7 @@ msgstr "Ei käytössä"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_OVERRIDE_TARGET_NULL_OR_ME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_OVERRIDE_TARGET_NULL_OR_ME"
 msgid "DebugIsOverrideTargetNullOrMe"
-msgstr ""
+msgstr "DebugIsOverrideTargetNullOrMe"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_PERMITTED
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_PERMITTED"
@@ -14044,7 +14044,7 @@ msgstr "Epäkelpo"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_CHORE_CREATOR
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_CHORE_CREATOR"
 msgid "DebugNotChoreCreator"
-msgstr ""
+msgstr "DebugNotChoreCreator"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_IN_TUBE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_IN_TUBE"
@@ -25290,6 +25290,18 @@ msgid ""
 "We thank you for your consideration.\n"
 "-The Gravitas Facility"
 msgstr ""
+"VASTAANOTTAJA: KAIKKI\n"
+"LÄHETTÄJÄ: ADMIN@GRAVITASFACILITY.NOVA\n"
+"AIHE: Unohdetut Viljelmät\n"
+"\n"
+"Laitoksessa työskentelevien tovereidenne terveyden ja turvallisuuden vuoksi, "
+"olkaa hyvä, älkääkä säilökö merkitsemättömiä bakteeriviljelmiä kahvion "
+"jääkaapissa.\n"
+"Aiheeseen liittyen, huomatkaa, että kahvion astianpesukone ei ole "
+"suunniteltu pesemään petrimaljoja, vaikka ne astioita teknisesti ovatkin.\n"
+"\n"
+"Kiitämme huomaavaisuudstanne.\n"
+"- Gravitas Facility"
 
 #. STRINGS.LORE.BUILDINGS.VendingMachine.HEADER
 msgctxt "STRINGS.LORE.BUILDINGS.VendingMachine.HEADER"
@@ -26428,6 +26440,16 @@ msgid ""
 "chosen direction, and will unequip their suit when walking back the opposite "
 "way."
 msgstr ""
+"<link=\"EXOSUIT\">Eksopukuja</link> voidaan käyttää suojaamaan "
+"Jäljennäisiäsi ympäristön vaaroilta, kuten äärimmäiseltä <link=\"HEAT"
+"\">Lämmöltä</link>, ilmassa leviäviltä <link=\"DISEASE\">Bakteereilta</"
+"link>, tai hengityskelvottomilta <link=\"ELEMENTSGAS\">Kaasuilta</link>. "
+"Käyttääksesi näitä pukuja, sinun on kytkettävä Eksopukutelakka "
+"Pukutarkistuspisteeseen, ja säilöttävä yksi puvuistasi sinne.\n"
+"\n"
+"Jäljennäiset pukevat eksopuvun ylleen, kun he kulkevat Tarkistuspisteen ohi "
+"valitusta suunnasta ja riisuvat sen, kun kävelevät takaisin päinvastaisesta "
+"suunnasta."
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.NAME"
@@ -26450,6 +26472,14 @@ msgid ""
 "Duplicants may perform, or specialize skilled Duplicants for specific types "
 "of work."
 msgstr ""
+"Jäljennäiset suorittavat odottavat tehtävät kiireellisimmästä vähiten "
+"kiireellisempään. Esimerkiksi, Jäljennäiset korjaavat aina <link=\"FOOD"
+"\">Ruoka</link>sadon ennen kuin rakentavat, ja rakentavat aina ennen kuin "
+"louhivat.\n"
+"\n"
+"Avaa TEHTÄVÄT-VÄLILEHTI <color=#F44A47><b>[J]</b></color> asettaaksesi, mitä "
+"tehtäviä Jäljennäiset saavat tehdä, tai erikoista taitavat Jäljennäiset "
+"tietyn tyyppisiin töihin."
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME"
@@ -31455,7 +31485,6 @@ msgid "This geyser will become dormant in {0}."
 msgstr "Tämä geissiiri menee lepotilaan {0} kuluttua."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_PERIOD
-#, fuzzy
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_PERIOD"
 msgid ""
 "This geyser will be active for {0} out of every {1}. It will be dormant the "
@@ -32145,6 +32174,9 @@ msgid ""
 "This food type {0} {1}'s quality expectations\n"
 "[{2} Quality / {3} Expectation]"
 msgstr ""
+"------------------\n"
+"Tämän tyyppinen ruoka {0} Jäljennäisen {1}'s laatuodotukset\n"
+"[{2} Laatu / {3} Odotus]"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_REFUSE
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_REFUSE"
@@ -32295,6 +32327,12 @@ msgid ""
 "If you use the box below to submit a crash report to us, we can use this "
 "information to get the issue sorted out."
 msgstr ""
+"Hupsis! Olemme pahoillamme, mutta vaikuttaa siltä, että pelisi on kohdannut "
+"virheen.\n"
+"Ei se mitään tosin - Näiden virheiden avulla löydämme ja korjaamme ongelmat "
+"tehdäksemme pelistämme hauskemman kaikille.\n"
+"Jos lähetät meille kaatumisraportin alla olevalla ruudulla, voimme käyttää "
+"tätä tietoa selvittääksemme asian."
 
 #. STRINGS.UI.CRASHSCREEN.UPLOADINFO
 msgctxt "STRINGS.UI.CRASHSCREEN.UPLOADINFO"
@@ -36146,6 +36184,25 @@ msgid ""
 "This mode is ideal for large bases and for players who have heavily "
 "customized Duplicant Priorities."
 msgstr ""
+"<b>Normaali Tila</b> (ei rastittu):\n"
+"\n"
+"Jäljennäiset valitsevat ensin tehtävän heidän Prioriteetteihin perustuen, "
+"sen jälkeen vasta Aliprioriteetteihin. Jos saman prioriteetin omaavia "
+"tehtäviä on saatavilla enemmän kuin yksi, sitten he valitsevat piilotetun "
+"prioriteetin mukaan, mikä auttaa tukikohtia toimimaan sulavammin.\n"
+"\n"
+"Tämä tila on ihanteellinen uusille pelaajille ja pienemmille tukikohdille.\n"
+"\n"
+"<b>Kehittynyt Tila</b> (rastittu):\n"
+"\n"
+"Jäljennäiset valitsevat ensin tehtävän heidän Prioriteetteihin perustuen, "
+"sen jälkeen vasta Aliprioriteetteihin. Piilotettu prioriteetti poistetaan "
+"käytöstä, eli pattitilanteessa Jäljennäinen valitsee lähimmän tehtävän. Tämä "
+"auttaa heitä pysymään siirtokunnassa saman alueen lähellä, kunhan kaikki työ "
+"on heidän kokeinta prioriteettiä.\n"
+"\n"
+"Tämä tila on ihanteellinen suuremmille tukikohdille ja pelaajille, joiden "
+"Jäljennäisten Prioriteetteja on muokattu paljon."
 
 #. STRINGS.UI.JOBSSCREEN.TOOLTIP_TOGGLE_ALL
 msgctxt "STRINGS.UI.JOBSSCREEN.TOOLTIP_TOGGLE_ALL"
@@ -38151,6 +38208,8 @@ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION"
 msgid ""
 "Duplicants employed in this Tier desire a decent increase in colony decor"
 msgstr ""
+"Tässä Sarjassa työskentelevät Jäljennäiset haluavat kohtuullisen parannuksen "
+"siirtokunnan koristukseen"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.NAME"
@@ -38162,6 +38221,8 @@ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.DESCRIPTION"
 msgid ""
 "Duplicants employed in this Tier desire reasonably improved colony decor"
 msgstr ""
+"Tässä Sarjassa työskentelevät Jäljennäiset haluavat järkevästi korkeamman "
+"parannuksen siirtokunnan koristukseen"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.NAME"
@@ -38172,6 +38233,8 @@ msgstr "Keskitason Koristus"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire slightly improved colony decor"
 msgstr ""
+"Tässä Sarjassa työskentelevät Jäljennäiset haluavat hieman parannellun "
+"siirtokunnan koristuksen"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.NAME"
@@ -38184,6 +38247,8 @@ msgid ""
 "Duplicants employed in this Tier desire unrealistically luxurious "
 "improvements to decor"
 msgstr ""
+"Tässä Sarjassa työskentelevät Jäljennäiset haluavat epärealistisen ylellisiä "
+"parannuksia koristukseen"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.NAME"
@@ -38194,6 +38259,8 @@ msgstr "Rappiollinen Koristus"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire majorly improved colony decor"
 msgstr ""
+"Tässä Sarjassa työskentelevät Jäljennäiset haluavat suuresti parannellun "
+"siirtokunnan koristuksen"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.NAME"
@@ -38205,6 +38272,7 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.DESCRIPTION"
 msgid "Duplicants employed in this Tier expect only the best cuisine"
 msgstr ""
+"Tässä Sarjassa työskentelvät Jäljennäiset halauvat vain parasta herkkua"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.NAME"
@@ -38215,6 +38283,8 @@ msgstr "Taivaallinen Koristus"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire better than average food"
 msgstr ""
+"Tässä Sarjassa työskentelevät Jäljennäiset haluavat keskivertoa parempaa "
+"ruokaa"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.NAME"
@@ -38225,6 +38295,8 @@ msgstr "Erinomaista Ruokaa"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.DESCRIPTION"
 msgid "Duplicants employed in this Tier desire decent food for their efforts"
 msgstr ""
+"Tässä Sarjassa Työskentelevät Jäljennäiset haluavat kohtuullista ruokaa "
+"vaivanpalkaksi"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.NAME"
@@ -38237,6 +38309,8 @@ msgid ""
 "Duplicants employed in this Tier desire food that meets basic living "
 "standards"
 msgstr ""
+"Tässä Sarjassa työskentelevät Jäljennäiset haluavat ruokaa, joka sopii "
+"peruselämisen tarpeille"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.NAME"
@@ -38248,6 +38322,8 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.DESCRIPTION"
 msgid "Duplicants employed in this Tier have a refined taste for food"
 msgstr ""
+"Tässä Sarjassa työskentelevillä Jäljennäisillä on kehittynyt maku ruuan "
+"suhteen"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.NAME"
@@ -38257,12 +38333,14 @@ msgstr "Mahtavaa Ruokaa"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.NO_EXPECTATIONS
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.NO_EXPECTATIONS"
 msgid "No additional provisions are required to perform this job"
-msgstr ""
+msgstr "Tämän työn suorittamiseksi ei vaadita lisäjärjestelyitä"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.PRIVATE_ROOM.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.PRIVATE_ROOM.DESCRIPTION"
 msgid "Duplicants in this job would appreciate their own place to unwind"
 msgstr ""
+"Tässä työssä työskentelevät Jäljennäiset arvostaisivat omaa paikkaa, jossa "
+"hengähtää"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.PRIVATE_ROOM.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.PRIVATE_ROOM.NAME"
@@ -38272,7 +38350,7 @@ msgstr "Yksityinen Makuuhuone"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.TITLE
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.TITLE"
 msgid "Special Provisions Request"
-msgstr ""
+msgstr "Eritysjärjestelypyyntö"
 
 #. STRINGS.UI.ROLES_SCREEN.HIGHEST_EXPECTATIONS_TIER
 msgctxt "STRINGS.UI.ROLES_SCREEN.HIGHEST_EXPECTATIONS_TIER"
@@ -38297,22 +38375,22 @@ msgstr "Piirre: <link=\"SUPER COMPUTER\">Tutkimus</link>"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_NEARLY_IMPENETRABLE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_NEARLY_IMPENETRABLE.DESCRIPTION"
 msgid "Trait: <link=\"HARDNESS\">Abyssalite</link> Mining"
-msgstr ""
+msgstr "Piirre: <link=\"HARDNESS\">Abyssaliitin</link> Louhinta"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_VERY_FIRM.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_VERY_FIRM.DESCRIPTION"
 msgid "Trait: <link=\"HARDNESS\">Very Firm Material</link> Mining"
-msgstr ""
+msgstr "Piirre: <link=\"HARDNESS\">Erittäin Lujan Materiaalin</link> Louhinta"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION"
 msgid "Trait: Plumbing"
-msgstr ""
+msgstr "Piirre: Putkityöt"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ELECTRIC_GRILL.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ELECTRIC_GRILL.DESCRIPTION"
 msgid "Trait: <link=\"ELECTRIC GRILL\">Electric Grill</link> Cooking"
-msgstr ""
+msgstr "Piirre: <link=\"ELECTRIC GRILL\">Sähkögrillillä</link> Kokkaus"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_FARM_TINKER.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_FARM_TINKER.DESCRIPTION"
@@ -38320,11 +38398,13 @@ msgid ""
 "Trait: <link=\"PLANTS\">Crop Tending</link>\n"
 "    • Trait: <link=\"MISC\">Micronutrient fertilizer</link> Crafting"
 msgstr ""
+"Piirre: <link=\"PLANTS\">Sadon hoito</link>\n"
+"    • Trait: <link=\"MISC\">Mikroravinnelannoitteen</link> Valmistus"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PAINT.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PAINT.DESCRIPTION"
 msgid "Trait: <link=\"DECOR\">Canvas Painting</link>"
-msgstr ""
+msgstr "Piirre: <link=\"DECOR\">Taulujen Maalaus</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION"
@@ -38332,36 +38412,40 @@ msgid ""
 "Trait: <link=\"POWER\">Generator Tuning</link> \n"
 "    • Trait: <link=\"MICROCHIP\">Microchip</link> Crafting"
 msgstr ""
+"Piirre: <link=\"POWER\">Generaattorin Virittäminen</link> \n"
+"    • Piirre: <link=\"MICROCHIP\">Mikrosirun</link> Valmistus"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_SCULPT.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_SCULPT.DESCRIPTION"
 msgid "Trait: <link=\"DECOR\">Block Sculpting</link>"
-msgstr ""
+msgstr "Piirre: <link=\"DECOR\">Kiven Veistäminen</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_STUDY_WORLD_OBJECTS.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_STUDY_WORLD_OBJECTS.DESCRIPTION"
 msgid "Trait: Geographical Feature <link=\"ANALYSIS\">Analysis</link>"
 msgstr ""
+"Piirre: Maantieteellisen Ominaisuuden <link=\"ANALYSIS\">Analyysi</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_RANCH_STATION.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_RANCH_STATION.DESCRIPTION"
 msgid "Trait: Grooming Station Training"
-msgstr ""
+msgstr "Piirre: Siistimistyöpistekoulutus"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_WRANGLE_CREATURES.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_WRANGLE_CREATURES.DESCRIPTION"
 msgid "Trait: Critter Wrangling"
-msgstr ""
+msgstr "Piirre: Otusten Nappaaminen"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION"
 msgid "Trait: <link=\"CONVEYOR RAIL\">Conveyor Rail System</link> Construction"
 msgstr ""
+"Piirre: <link=\"CONVEYOR RAIL\">Raidekuljettinjärjestelmän</link> Rakennus"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION"
 msgid "Trait: <link=\"EXOSUIT\">Exosuit</link> Sprinting"
-msgstr ""
+msgstr "Piirre: <link=\"EXOSUIT\">Eksopuvussa</link> Juokseminen"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.INCREASE_BOTANIST.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.INCREASE_BOTANIST.DESCRIPTION"
@@ -38436,42 +38520,42 @@ msgstr "Työahdistus"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.NO_PERKS
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.NO_PERKS"
 msgid "This job comes with no training"
-msgstr ""
+msgstr "Tämä työ ei tarjoa koulutusta"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_BASICTRAINING
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_BASICTRAINING"
 msgid "Basic Job Training"
-msgstr ""
+msgstr "Perustyökoulutus"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_MORETRAINING
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_MORETRAINING"
 msgid "Additional Job Training"
-msgstr ""
+msgstr "Lisätyökoulutus"
 
 #. STRINGS.UI.ROLES_SCREEN.PRIORITY.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PRIORITY.DESCRIPTION"
 msgid "{0}s prioritize these work errands: "
-msgstr ""
+msgstr "{0}työtä tekevät priorisoivat nämä työtehtävät: "
 
 #. STRINGS.UI.ROLES_SCREEN.PRIORITY.NO_EFFECT
 msgctxt "STRINGS.UI.ROLES_SCREEN.PRIORITY.NO_EFFECT"
 msgid "This job does not affect errand prioritization"
-msgstr ""
+msgstr "Tämä työ ei vaikuta tehtävien priorisointiin"
 
 #. STRINGS.UI.ROLES_SCREEN.PRIORITY.TITLE
 msgctxt "STRINGS.UI.ROLES_SCREEN.PRIORITY.TITLE"
 msgid "Job Priorities"
-msgstr ""
+msgstr "Työprioriteetit"
 
 #. STRINGS.UI.ROLES_SCREEN.RESUME.NO_SELECTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.RESUME.NO_SELECTION"
 msgid "No Duplicant selected"
-msgstr ""
+msgstr "Jäljennäistä ei valittu"
 
 #. STRINGS.UI.ROLES_SCREEN.RESUME.PREVIOUS_ROLES
 msgctxt "STRINGS.UI.ROLES_SCREEN.RESUME.PREVIOUS_ROLES"
 msgid "PREVIOUS DUTIES"
-msgstr ""
+msgstr "EDELLISET VELVOLLISUUDET"
 
 #. STRINGS.UI.ROLES_SCREEN.RESUME.TITLE
 msgctxt "STRINGS.UI.ROLES_SCREEN.RESUME.TITLE"
@@ -38490,21 +38574,24 @@ msgid ""
 "Duplicants can become eligible for specialized jobs by maxing their current "
 "job experience"
 msgstr ""
+"<b>Työkokemus: {0}/{1}</b>\n"
+"Jäljennäiset voivat tulla päteviksi erityistöihin maksimoimalla nykyisen "
+"työnsä kokemuksen"
 
 #. STRINGS.UI.ROLES_SCREEN.SIDEBAR.ASSIGNED_DUPLICANTS
 msgctxt "STRINGS.UI.ROLES_SCREEN.SIDEBAR.ASSIGNED_DUPLICANTS"
 msgid "Assigned Duplicants"
-msgstr ""
+msgstr "Nimetyt Jäljennäiset"
 
 #. STRINGS.UI.ROLES_SCREEN.SIDEBAR.UNASSIGN
 msgctxt "STRINGS.UI.ROLES_SCREEN.SIDEBAR.UNASSIGN"
 msgid "Unassign job"
-msgstr ""
+msgstr "Poista työn nimitys"
 
 #. STRINGS.UI.ROLES_SCREEN.SIDEBAR.UNASSIGNED_DUPLICANTS
 msgctxt "STRINGS.UI.ROLES_SCREEN.SIDEBAR.UNASSIGNED_DUPLICANTS"
 msgid "Unassigned Duplicants"
-msgstr ""
+msgstr "Nimeämättömät Jäljennäiset"
 
 #. STRINGS.UI.ROLES_SCREEN.SLOTS.ASSIGNMENT_PENDING
 msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.ASSIGNMENT_PENDING"
@@ -39032,7 +39119,6 @@ msgid "Double-click to go to <b>{0}</b>"
 msgstr "Kaksoisklikkaa siirtyäksesi kohtaan <b>{0}</b>"
 
 #. STRINGS.UI.TABLESCREENS.SELECT_DUPLICANT_BUTTON
-#, fuzzy
 msgctxt "STRINGS.UI.TABLESCREENS.SELECT_DUPLICANT_BUTTON"
 msgid "Click to select <b>{0}</b>"
 msgstr "Klikkaa valitaksesi <b>{0}</b>"
@@ -39663,7 +39749,7 @@ msgstr ""
 #. STRINGS.UI.TOOLTIPS.JOBSSCREEN_CANNOTPERFORMTASK
 msgctxt "STRINGS.UI.TOOLTIPS.JOBSSCREEN_CANNOTPERFORMTASK"
 msgid "{0} cannot perform this errand."
-msgstr "{0} ei voi suorittaa tätä tehtävää"
+msgstr "{0} ei voi suorittaa tätä tehtävää."
 
 #. STRINGS.UI.TOOLTIPS.JOBSSCREEN_PRIORITY
 msgctxt "STRINGS.UI.TOOLTIPS.JOBSSCREEN_PRIORITY"
@@ -42132,7 +42218,7 @@ msgctxt ""
 "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE."
 "NAME"
 msgid "Clearance: Vacancy"
-msgstr ""
+msgstr "Pääsy: Kun Vapaana"
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.TOOLTIP
 msgctxt ""
@@ -42142,6 +42228,8 @@ msgid ""
 "Suited Duplicants may pass only if there is room in an Exosuit Dock to store "
 "their suit"
 msgstr ""
+"Pukuun pukeutuneet Jäljennäiset pääsevät läpi vain jos Eksopukutelakalla on "
+"tilaa heidän pukunsa varastoimiseksi"
 
 #. STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME"
@@ -42231,12 +42319,14 @@ msgid ""
 "<b>Additional Domestic Growth\n"
 "[Lifecycle: {0}]</b>"
 msgstr ""
+"<b>Viljelykasvatuksen Lisä\n"
+"[Elinkaari: {0}]</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.TOOLTIP
 msgctxt ""
 "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.TOOLTIP"
 msgid "This plant will take {0} to grow domestically"
-msgstr ""
+msgstr "Tällä kasvilla kestää {0} kasvaa viljeltynä"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.BASE
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.BASE"
@@ -42244,11 +42334,13 @@ msgid ""
 "<b>Domestic Growth\n"
 "[Lifecycle: {0}]</b>"
 msgstr ""
+"<b>Viljelykasvatus\n"
+"[Elinkaari: {0}]</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.TOOLTIP"
 msgid "This plant will take {0} to grow domestically"
-msgstr ""
+msgstr "Tällä kasvilla kestää {0} kasvaa viljeltynä"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.BASE
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.BASE"
@@ -42256,11 +42348,13 @@ msgid ""
 "<b>Wild Growth\n"
 "[Lifecycle: {0}]</b>"
 msgstr ""
+"<b>Villi Kasvu\n"
+"[Elinkaari: {0}]</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.TOOLTIP"
 msgid "This plant will take {0} to grow in the wild"
-msgstr ""
+msgstr "Tällä kasvilla kestää {0} kasvaa villinä"
 
 #. STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS"

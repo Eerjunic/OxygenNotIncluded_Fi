@@ -82,7 +82,7 @@ msgstr "Rasittunut Jäljennäinen vahingoittaa tätä rakennusta"
 #. STRINGS.BUILDING.STATUSITEMS.ASSIGNEDPUBLIC.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ASSIGNEDPUBLIC.NAME"
 msgid "Assigned to: Public"
-msgstr "Nimetty: Yleinen"
+msgstr "Nimetty: Julkinen"
 
 #. STRINGS.BUILDING.STATUSITEMS.ASSIGNEDPUBLIC.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ASSIGNEDPUBLIC.TOOLTIP"
@@ -236,7 +236,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.NAME"
 msgid "Building Disabled"
-msgstr "Rakennus ei toiminnassa"
+msgstr "Rakennus Pois Toiminnasta"
 
 #. STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BUILDINGDISABLED.TOOLTIP"
@@ -246,7 +246,7 @@ msgstr "Paina<color=#F44A47>[ENTER]</color> jatkaaksesi toimintaa"
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME"
 msgid "Consuming Fuel: {0}"
-msgstr "Kuluttaa polttoainetta: {0}"
+msgstr "Kuluttaa Polttoainetta: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP"
@@ -580,7 +580,7 @@ msgid ""
 "    • Interference from nearby heavy machinery\n"
 "    • Rock or tiles obstructing a wide view of the sky"
 msgstr ""
-"Tämä havaitsinantenni skannaa tällä hetkellä {Quality} tehokkuudella.\n"
+"Tämä ilmaisinantenni skannaa tällä hetkellä {Quality} tehokkuudella.\n"
 "\n"
 "Alhainen laatu voi johtua:\n"
 "    • Lähellä olevan raskaan koneiston aiheuttamasta häirinnästä\n"
@@ -595,7 +595,7 @@ msgstr "Skannaa"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.TOOLTIP"
 msgid ""
 "This detector is currently peering in to the sky to find objects of interest."
-msgstr "Tämä havaitsin tiirailee taivaalle löytääkseen kiinnostavia kohteita."
+msgstr "Tämä ilmaisin tiirailee taivaalle löytääkseen kiinnostavia kohteita."
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME"
@@ -730,7 +730,7 @@ msgstr "Tuottaa ainetta {Element} nopeudella {FlowRate}"
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.NAME"
 msgid "Emitting Light"
-msgstr "Säteilee valoa"
+msgstr "Säteilee Valoa"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.TOOLTIP"
@@ -960,7 +960,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.NAME"
 msgid "Generator Idle"
-msgstr "Generaattori toimeton"
+msgstr "Generaattori Toimeton"
 
 #. STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.TOOLTIP"
@@ -1121,7 +1121,7 @@ msgstr "{JoulesAvailable} varastoitua sähkötehoa käytettävissä"
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.NAME"
 msgid "Empty Pipe"
-msgstr "Tyhjä putki"
+msgstr "Tyhjä Putki"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.TOOLTIP"
@@ -1141,7 +1141,7 @@ msgstr "Tämä pumppu ei ole toiminnassa"
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.NAME"
 msgid "Liquid Vent Obstructed"
-msgstr "Nesteaukko tukossa"
+msgstr "Nesteaukko Tukossa"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.TOOLTIP"
@@ -1244,7 +1244,7 @@ msgstr "Tämä generaattori tuottaa sähköä virrankuluttajille"
 #. STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.NAME"
 msgid "Manually Controlled"
-msgstr "Käsin ohjattu"
+msgstr "Käsinohjattu"
 
 #. STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.TOOLTIP"
@@ -1935,7 +1935,7 @@ msgstr "Odottaa Jäljennäistä kitkemään"
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.NAME"
 msgid "Errand Assigned"
-msgstr "Työ Määrätty"
+msgstr "Tehtävä Määrätty"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP"
@@ -2451,7 +2451,7 @@ msgstr "Tätä rakennusta ollaan paraikaa rakentamassa"
 #. STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.NAME"
 msgid "Construction Errand Assigned"
-msgstr "Rakennustyö Määrätty"
+msgstr "Rakennustehtävä Määrätty"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.TOOLTIP"
@@ -12645,7 +12645,7 @@ msgstr "Kertoo Jäljennäisen kaivamisnopeuden."
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.NAME"
 msgid "Digging"
-msgstr "Kaivaa"
+msgstr "Kaivaminen"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.SPEEDMODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.SPEEDMODIFIER"
@@ -13099,7 +13099,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.STRESSDELTA.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STRESSDELTA.NAME"
 msgid "Stress Change"
-msgstr "Ahdistuksenmuutosnopeus"
+msgstr "Ahdistuksenmuutos"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.THERMALCONDUCTIVITYBARRIER.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.THERMALCONDUCTIVITYBARRIER.NAME"
@@ -13178,8 +13178,6 @@ msgid "{0}: {1}"
 msgstr "{0}: {1}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.VIABILITYDELTA.DESC
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VIABILITYDELTA.DESC"
 msgid ""
 msgstr ""
@@ -14001,7 +13999,8 @@ msgstr "Toimeton"
 #. STRINGS.DUPLICANTS.CHORES.IDLE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.IDLE.TOOLTIP"
 msgid "This Duplicant cannot reach any pending errands"
-msgstr "Tällä Jäljennäisellä ei ole pääsyä yhdellekkään keskeneräiselle työlle"
+msgstr ""
+"Tällä Jäljennäisellä ei ole pääsyä yhdellekkään keskeneräiselle tehtävälle"
 
 #. STRINGS.DUPLICANTS.CHORES.LIQUIDCOOLEDFAN.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.LIQUIDCOOLEDFAN.NAME"
@@ -19033,12 +19032,13 @@ msgstr "Toimeton"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLE.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants cannot reach any pending errands:"
 msgstr ""
-"Näillä Jäljennäisillä ei ole pääsyä yhdellekkään keskeneräiselle työlle:"
+"Näillä Jäljennäisillä ei ole pääsyä yhdellekkään keskeneräiselle tehtävälle:"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.IDLE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLE.TOOLTIP"
 msgid "This Duplicant cannot reach any pending errands"
-msgstr "Tällä Jäljennäisellä ei ole pääsyä yhdellekkään keskeneräiselle työlle"
+msgstr ""
+"Tällä Jäljennäisellä ei ole pääsyä yhdellekään keskeneräiselle tehtävälle"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.INCAPACITATED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.INCAPACITATED.NAME"
@@ -19827,7 +19827,7 @@ msgctxt ""
 msgid ""
 "This Duplicant is delivering materials to a {Target} construction errand"
 msgstr ""
-"Tämä Jäljennäinen toimittaa materiaaleja kohteeseen {Target} rakentamiseksi"
+"Tämä Jäljennäinen toimittaa materiaaleja kohteen {Target} rakentamiseksi"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STOREPRIORITYDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREPRIORITYDELIVERSTATUS.NAME"
@@ -20299,7 +20299,7 @@ msgid ""
 "• Cannot perform errand: {0}"
 msgstr ""
 "\n"
-"• Ei voi suorittaa tehtävää: {0}"
+"• Ei voi tehdä työtä: {0}"
 
 #. STRINGS.DUPLICANTS.TRAITS.CANTBUILD.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTBUILD.DESC"
@@ -27146,7 +27146,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME"
 msgid "TIP: Errand Priorities"
-msgstr "VINKKI: Tehtävien tärkeys"
+msgstr "VINKKI: Tehtävien Tärkeydet"
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.TOOLTIP"
@@ -30600,9 +30600,10 @@ msgid "The ultimate solution to ugly things? Make them transparent."
 msgstr "Lopullinen ratkaisu rumiin asioihin? Tee niistä läpinäkyviä."
 
 #. STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.NAME
+#, fuzzy
 msgctxt "STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.NAME"
 msgid "<link=\"REFRACTIVEDECOR\">Refractive Decor</link>"
-msgstr "<link=\"REFRACTIVEDECOR\">Valoa Tattava Koristus</link>"
+msgstr "<link=\"REFRACTIVEDECOR\">Valoa Taittava Koristus</link>"
 
 #. STRINGS.RESEARCH.TECHS.RENEWABLEENERGY.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.RENEWABLEENERGY.DESC"
@@ -31405,6 +31406,16 @@ msgctxt "STRINGS.SETITEMS.FACILITY_LAMP.NAME"
 msgid "Lamp"
 msgstr "Lamppu"
 
+#. STRINGS.SETITEMS.FACILITY_TABLE.DESC
+msgctxt "STRINGS.SETITEMS.FACILITY_TABLE.DESC"
+msgid "A table"
+msgstr "Pöytä"
+
+#. STRINGS.SETITEMS.FACILITY_TABLE.NAME
+msgctxt "STRINGS.SETITEMS.FACILITY_TABLE.NAME"
+msgid "Table"
+msgstr "Pöytä"
+
 #. STRINGS.SETITEMS.FACILITY_TALLPLANT.DESC
 msgctxt "STRINGS.SETITEMS.FACILITY_TALLPLANT.DESC"
 msgid "A plant"
@@ -31546,8 +31557,8 @@ msgstr "Hieno Tutkintotodistus"
 
 #. STRINGS.SETITEMS.WALL_PAINTING.DESC
 msgctxt "STRINGS.SETITEMS.WALL_PAINTING.DESC"
-msgid "A painting of an expensive thing which belongs to an expensive person"
-msgstr "Maalaus kalliista jutusta, joka kuuluu kalliille henkilölle"
+msgid "A painting of a landscape"
+msgstr "Maisemamaalaus"
 
 #. STRINGS.SETITEMS.WALL_PAINTING.NAME
 msgctxt "STRINGS.SETITEMS.WALL_PAINTING.NAME"
@@ -33271,7 +33282,7 @@ msgstr ""
 
 #. STRINGS.UI.DEBUG_TOOLS.INVALID_LOCATION
 msgctxt "STRINGS.UI.DEBUG_TOOLS.INVALID_LOCATION"
-msgid "Invalid Locaton"
+msgid "Invalid Location"
 msgstr "Epäkelpo Rakennuskohta"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ADD_FOW_MASK
@@ -34708,7 +34719,7 @@ msgstr "Valittu kohde haihtuu kaasuksi lämpötilassa {0}"
 #. STRINGS.UI.ENDOFDAYREPORT.ADDED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ADDED"
 msgid "Added"
-msgstr "Lisätty"
+msgstr "Lisääntynyt"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NAME"
@@ -35019,7 +35030,7 @@ msgstr "Edellinen"
 #. STRINGS.UI.ENDOFDAYREPORT.REMOVED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.REMOVED"
 msgid "Removed"
-msgstr "Poistettu"
+msgstr "Poistunut"
 
 #. STRINGS.UI.ENDOFDAYREPORT.REPORT_TITLE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.REPORT_TITLE"
@@ -44037,6 +44048,11 @@ msgstr "Kylvetään hiekkaa..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Kylvetään hiekkaa..."
+
+#~ msgctxt "STRINGS.SETITEMS.WALL_PAINTING.DESC"
+#~ msgid ""
+#~ "A painting of an expensive thing which belongs to an expensive person"
+#~ msgstr "Maalaus kalliista jutusta, joka kuuluu kalliille henkilölle"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP"
 #~ msgid "A new colony member is ready to be printed"

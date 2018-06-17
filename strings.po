@@ -56,7 +56,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NAME"
 msgid "Damage: Tantrum"
-msgstr "Vahinko: Kiukkupuuska"
+msgstr "Vaurio: Kiukkupuuska"
 
 #. STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION"
@@ -999,7 +999,7 @@ msgstr "Tyhjä"
 #. STRINGS.BUILDING.STATUSITEMS.GRAVEEMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GRAVEEMPTY.TOOLTIP"
 msgid "This memorial honors no one."
-msgstr "Tämä muistomerkki ei kuulu kenellekään."
+msgstr "Tämä muistomerkki ei kunnioita kenenkään muistoa."
 
 #. STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HABITATNEEDSEMPTYING.NAME"
@@ -1435,7 +1435,7 @@ msgstr "Kitke villejä kasveja saadaksesi siemeniä"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.NAME"
 msgid "No Power"
-msgstr "Ei virtaa"
+msgstr "Ei Virtaa"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.TOOLTIP"
@@ -1562,7 +1562,7 @@ msgstr "Olen valmis tulostamaan uuden jäsenen siirtokuntaan"
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NAME"
 msgid "Inapplicable Research"
-msgstr "Soveltumaton tutkimus"
+msgstr "Soveltumaton Tutkimus"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_NAME
 msgctxt ""
@@ -7817,8 +7817,7 @@ msgstr "Maailman ilmiöiden tutkiminen"
 #. STRINGS.CODEX.ANALYSIS.TITLE
 msgctxt "STRINGS.CODEX.ANALYSIS.TITLE"
 msgid "<link=\"ANALYSIS\">Geographical Feature Analysis</link>"
-msgstr ""
-" <link=\"ANALYSIS\">Maantieteellisten Ominaisuuksien Analysointi</link>"
+msgstr "<link=\"ANALYSIS\">Maantieteellisten Ominaisuuksien Analysointi</link>"
 
 #. STRINGS.CODEX.ATMOSPHERE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.ATMOSPHERE.BODY.CONTAINER1"
@@ -9182,7 +9181,7 @@ msgstr "Tämä otus on erittäin iloinen siitä, että sen tarpeet tyydytetään
 #. STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.NAME"
 msgid "Expecting"
-msgstr "Raskaana"
+msgstr "Tiineenä"
 
 #. STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.TOOLTIP"
@@ -9438,14 +9437,14 @@ msgid ""
 "\n"
 "In time it will mature into a fully grown <link=\"DRECKO\">Drecko</link>."
 msgstr ""
-"Pieni, mulkosilmäinen <link=\"DRECKO\">Drekkonen</link>.\n"
+"Pieni, mulkosilmäinen <link=\"DRECKO\">Drekon Poikanen</link>.\n"
 "\n"
-"Ajallaan siitä kasvaa aikuinen <link=\"DRECKO\">Drecko</link>."
+"Ajallaan siitä kasvaa aikuinen <link=\"DRECKO\">Drekko</link>."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME"
 msgid "<link=\"DRECKO\">Drecklet</link>"
-msgstr "<link=\"DRECKO\">Drekkonen</link>"
+msgstr "<link=\"DRECKO\">Drekon Poikanen</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.DESC"
@@ -9465,7 +9464,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME"
 msgid "<link=\"DRECKO\">Drecklet Egg</link>"
-msgstr "<link=\"DRECKO\">Drekkosen Muna</link>"
+msgstr "<link=\"DRECKO\">Drekon Poikasen Muna</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.NAME"
@@ -9479,14 +9478,14 @@ msgid ""
 "\n"
 "This one is a Glossy morph."
 msgstr ""
-"Pieni, mulkosilmäinen <link=\"DRECKO\">Drekkonen</link>.\n"
+"Pieni, mulkosilmäinen <link=\"DRECKO\">Drekon Poikanen</link>.\n"
 "\n"
 "Tämä yksilö on Kiiltävää muodonmuutosta."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
 msgid "<link=\"DRECKOPLASTIC\">Glossy Drecklet</link>"
-msgstr "<link=\"DRECKOPLASTIC\">Kiiltävä Drekkonen</link>"
+msgstr "<link=\"DRECKOPLASTIC\">Kiiltävä Drekon Poikanen</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC"
@@ -9506,7 +9505,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME"
 msgid "<link=\"DRECKOPLASTIC\">Glossy Drecklet Egg</link>"
-msgstr "<link=\"DRECKOPLASTIC\">Kiiltävän Drekkosen Muna</link>"
+msgstr "<link=\"DRECKOPLASTIC\">Kiiltävän Drekon Poikasen Muna</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME"
@@ -13554,7 +13553,7 @@ msgstr "Tämä Jäljennäinen on viemässä orgaanista ainesta kompostiin"
 #. STRINGS.DUPLICANTS.CHORES.COOK.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOK.NAME"
 msgid "Cook"
-msgstr "Kokkaa"
+msgstr "Kokkaus"
 
 #. STRINGS.DUPLICANTS.CHORES.COOK.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOK.STATUS"
@@ -13584,7 +13583,7 @@ msgstr "Tällä Jäljennäisellä on kuuma ja se on menossa vilvoittelemaan"
 #. STRINGS.DUPLICANTS.CHORES.COUGH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.COUGH.NAME"
 msgid "Cough"
-msgstr "Yski"
+msgstr "Yskä"
 
 #. STRINGS.DUPLICANTS.CHORES.COUGH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.COUGH.STATUS"
@@ -28162,7 +28161,7 @@ msgstr "Ruokapöytä"
 #. STRINGS.MISC.TAGS.METAL
 msgctxt "STRINGS.MISC.TAGS.METAL"
 msgid "Raw Metal"
-msgstr "Raaka Metalli"
+msgstr "Raakametalli"
 
 #. STRINGS.MISC.TAGS.MIXTURE
 msgctxt "STRINGS.MISC.TAGS.MIXTURE"
@@ -30385,7 +30384,7 @@ msgstr ""
 #. STRINGS.RESEARCH.TECHS.IMPROVEDLIQUIDPIPING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.IMPROVEDLIQUIDPIPING.NAME"
 msgid "<link=\"IMPROVEDLIQUIDPIPING\">Improved Plumbing</link>"
-msgstr "<link=\"IMPROVEDLIQUIDPIPING\">Paranneltu Putkitus</link>"
+msgstr "<link=\"IMPROVEDLIQUIDPIPING\">Paranneltu Putkistointi</link>"
 
 #. STRINGS.RESEARCH.TECHS.IMPROVEDOXYGEN.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.IMPROVEDOXYGEN.DESC"
@@ -30713,7 +30712,7 @@ msgstr "Pienempiä, tehokkaampia pumppuja alhaisen läpimenon tilanteisiin."
 #. STRINGS.RESEARCH.TECHS.VALVEMINIATURIZATION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.VALVEMINIATURIZATION.NAME"
 msgid "<link=\"VALVEMINIATURIZATION\">Valve Minaturization</link>"
-msgstr "<link=\"VALVEMINIATURIZATION\">Venttiilien miniatyrisointi</link>"
+msgstr "<link=\"VALVEMINIATURIZATION\">Venttiilien Miniatyrisointi</link>"
 
 #. STRINGS.RESEARCH.TYPES.ALPHA.DESC
 msgctxt "STRINGS.RESEARCH.TYPES.ALPHA.DESC"
@@ -32984,7 +32983,7 @@ msgstr "Kaikki Jäljennäiset ovat kuolleita tai toimintakyvyttömiä."
 #. STRINGS.UI.COLONYLOSTSCREEN.DISMISSBUTTON
 msgctxt "STRINGS.UI.COLONYLOSTSCREEN.DISMISSBUTTON"
 msgid "DISMISS"
-msgstr "POISTUTA"
+msgstr "OHITA"
 
 #. STRINGS.UI.COLONYLOSTSCREEN.QUITBUTTON
 msgctxt "STRINGS.UI.COLONYLOSTSCREEN.QUITBUTTON"
@@ -34942,7 +34941,7 @@ msgstr "Valmisti esineen {0}"
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.CRAFTED_CONTEXT
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.CRAFTED_CONTEXT"
 msgid "Crafted"
-msgstr "Valmisti esineen"
+msgstr "Valmistettu"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.CRAFTED_USED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.CRAFTED_USED"
@@ -35063,7 +35062,8 @@ msgstr "Ajan Jakautuminen:"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.POSITIVE_TOOLTIP"
 msgid ""
 "My Duplicants spent a total of {0} doing errands over the course of the day"
-msgstr "Jäljennäiseni käyttivät yhteensä {0} tehden tehtäviä päivän aikana"
+msgstr ""
+"Jäljennäiseni käyttivät yhteensä {0} tehtävien tekemiseen päivän aikana"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME"
@@ -38905,7 +38905,7 @@ msgstr "Tarvitsee {0}: {1}"
 #. STRINGS.UI.PRODUCTINFO_REQUIRESRESEARCHDESC
 msgctxt "STRINGS.UI.PRODUCTINFO_REQUIRESRESEARCHDESC"
 msgid "Requires {0} Research"
-msgstr "Tarvitsee {0} Tutkimusta"
+msgstr "Tarvitsee Kohteen {0} Tutkimista"
 
 #. STRINGS.UI.PRODUCTINFO_RESEARCHREQUIRED
 msgctxt "STRINGS.UI.PRODUCTINFO_RESEARCHREQUIRED"
@@ -38959,7 +38959,7 @@ msgid ""
 "({1} of {2} allocated to pending errands)"
 msgstr ""
 "Saatavilla: {0}\n"
-"({1}/{2} osoitettu odottaville tehtäville)"
+"({1}/{2} varattu odottaville tehtäville)"
 
 #. STRINGS.UI.RESOURCESCREEN.CATEGORY_TOOLTIP
 msgctxt "STRINGS.UI.RESOURCESCREEN.CATEGORY_TOOLTIP"
@@ -38997,7 +38997,7 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.CHOREGROUP_ENABLED."
 "DESCRIPTION"
 msgid "Capable of performing <b>{0}</b> jobs"
-msgstr "Kynenevä tekemään <b>{0}</b> töitä"
+msgstr "Kynenevä tekemään <b>{0}</b>töitä"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.CHOREGROUP_ENABLED.NAME
 msgctxt ""
@@ -39329,7 +39329,7 @@ msgstr "Yksityinen Makuuhuone"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.TITLE
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.TITLE"
 msgid "Special Provisions Request"
-msgstr "Eritysjärjestelypyyntö"
+msgstr "Erityisjärjestelypyyntö"
 
 #. STRINGS.UI.ROLES_SCREEN.HIGHEST_EXPECTATIONS_TIER
 msgctxt "STRINGS.UI.ROLES_SCREEN.HIGHEST_EXPECTATIONS_TIER"
@@ -40662,7 +40662,7 @@ msgstr "Täytyy rakentaa maahan"
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_GASPORTS_OBSTRUCTED
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_GASPORTS_OBSTRUCTED"
 msgid "Gas ports are obstructed"
-msgstr "Kaasuaukkoja estetään"
+msgstr "Kaasuaukkoja on tukossa"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_INSIDEGROUND
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_INSIDEGROUND"
@@ -40677,12 +40677,12 @@ msgstr "Epäkelpo Kenno"
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OBSTRUCTED
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OBSTRUCTED"
 msgid "Liquid ports are obstructed"
-msgstr "Nesteaukkoja estetään"
+msgstr "Nesteaukkoja on tukossa"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LOGIC_PORTS_OBSTRUCTED
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LOGIC_PORTS_OBSTRUCTED"
 msgid "Automation ports are obstructed"
-msgstr "Automaatioportteja estetään"
+msgstr "Automaatioportteja on tukossa"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES"
@@ -40697,7 +40697,7 @@ msgstr "Täytyy rakentaa käyttämättömään tilaan"
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED"
 msgid "Solid ports are obstructed"
-msgstr "Kiinteitä aukkoja estetään"
+msgstr "Kiinteiden aukkoja on tukossa"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SPACE
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SPACE"
@@ -40707,7 +40707,7 @@ msgstr "Täytyy rakentaa asteroidin pinnalle"
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION"
 msgid "Obstructed by wire"
-msgstr "Johdon"
+msgstr "Johdon tukkima"
 
 #. STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM"
@@ -40936,9 +40936,10 @@ msgid "Pause"
 msgstr "Pysäytä"
 
 #. STRINGS.UI.TOOLTIPS.PLAYBUTTON
+#, fuzzy
 msgctxt "STRINGS.UI.TOOLTIPS.PLAYBUTTON"
 msgid "Start"
-msgstr "Aloita"
+msgstr "Jatka"
 
 #. STRINGS.UI.TOOLTIPS.POWEROVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.POWEROVERLAYSTRING"
@@ -40989,7 +40990,7 @@ msgstr "Näyttää alueet, joihin Jäljennäiset pääsevät"
 #. STRINGS.UI.TOOLTIPS.RECIPE_QUEUE
 msgctxt "STRINGS.UI.TOOLTIPS.RECIPE_QUEUE"
 msgid "Queue 1 {0} for fabrication"
-msgstr "Jono 1 {0} valmistettavaksi"
+msgstr "Lisää jonoon 1 {0} valmistettavaksi"
 
 #. STRINGS.UI.TOOLTIPS.RECIPE_QUEUE_INFINITE
 msgctxt "STRINGS.UI.TOOLTIPS.RECIPE_QUEUE_INFINITE"
@@ -42716,7 +42717,7 @@ msgstr "Hyökkää tämän otuksen kimppuun"
 #. STRINGS.UI.USERMENUACTIONS.CANCEL_HARVEST_WHEN_READY.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCEL_HARVEST_WHEN_READY.NAME"
 msgid "Disable Autoharvest"
-msgstr "Poista Automaattinen Sadonkorjuu Käytöstä"
+msgstr "Automaattikorjuu Pois"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCEL_HARVEST_WHEN_READY.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCEL_HARVEST_WHEN_READY.TOOLTIP"

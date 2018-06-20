@@ -6780,7 +6780,7 @@ msgid ""
 "Employment can permanently improve Duplicants' skills and teach them unique "
 "traits."
 msgstr ""
-"Työpaikat voivat pysyvästi parantaa Jäljenteiden taitoja ja opettaa heille "
+"Työpaikat voivat parantaa pysyvästi Jäljenteiden taitoja ja opettaa heille "
 "ainutlaatuisia piirteitä."
 
 #. STRINGS.BUILDINGS.PREFABS.ROLESTATION.EFFECT
@@ -8252,11 +8252,11 @@ msgid ""
 "The Muckroot reproduces wildly when kept in precise conditions, but it is "
 "wholly incapable of reproducing without direct, natural sunlight."
 msgstr ""
-"Törkyjuuri on aggressiivisesti valtaava joskin äärimmäisen herkkä "
+"Liejujuuri on aggressiivisesti valtaava joskin äärimmäisen herkkä "
 "juurikasvi, joka tunnetaan sen maanläheisestä mausta ja epätavallisesta "
 "ulkomuodosta.\n"
 "\n"
-"Törkyjuuri lisääntyy villisti tarkoissa olosuhteissa, mutta on täysin "
+"Liejujuuri lisääntyy villisti tarkoissa olosuhteissa, mutta on täysin "
 "lisääntymiskyvytön ilman suoraa, luonnollista auringonvaloa."
 
 #. STRINGS.CODEX.MUCKROOT.SUBTITLE
@@ -8267,7 +8267,7 @@ msgstr "Syötävä Kasvi"
 #. STRINGS.CODEX.MUCKROOT.TITLE
 msgctxt "STRINGS.CODEX.MUCKROOT.TITLE"
 msgid "Muckroot"
-msgstr "Törkyjuuri"
+msgstr "Liejujuuri"
 
 #. STRINGS.CODEX.NEGA.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.NEGA.BODY.CONTAINER1"
@@ -9042,13 +9042,13 @@ msgid ""
 "Muckroots are incapable of propagating but can be harvested for a single "
 "<link=\"FOOD\">Food</link> serving."
 msgstr ""
-"Törkyjuurikkaat ovat lisääntymiskyvyttömiä, mutta niitä voidaan poimia yhden "
+"Liejujuurikkaat ovat lisääntymiskyvyttömiä, mutta niitä voidaan poimia yhden "
 "<link=\"FOOD\">Ruoka</link>-annoksen saamiseksi."
 
 #. STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.NAME"
 msgid "<link=\"BASICFORAGEPLANTPLANTED\">Buried Muckroot</link>"
-msgstr "<link=\"BASICFORAGEPLANTPLANTED\">Hautautunut Törkyjuurikas</link>"
+msgstr "<link=\"BASICFORAGEPLANTPLANTED\">Hautautunut Liejujuurikas</link>"
 
 #. STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DESC"
@@ -12321,7 +12321,7 @@ msgstr "Kertoo Jäljennäisen kaivamisnopeuden."
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.NAME"
 msgid "Digging"
-msgstr "Kaivaminen"
+msgstr "Kaivuu"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.SPEEDMODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.SPEEDMODIFIER"
@@ -12521,7 +12521,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.NAME"
 msgid "Learning"
-msgstr "Oppiminen"
+msgstr "Opettelu"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.RESEARCHSPEED
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.RESEARCHSPEED"
@@ -12645,7 +12645,7 @@ msgstr "Kertoo kuinka nopeasti ja tehokkaasti Jäljennäinen kasvattaa otuksia."
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.NAME"
 msgid "Ranching"
-msgstr "Paimentaminen"
+msgstr "Paimennus"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC"
@@ -12859,7 +12859,7 @@ msgstr "Lakaise, moppaa ja desinfioi siirtokunnan esineitä."
 #. STRINGS.DUPLICANTS.CHOREGROUPS.BASEKEEPING.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.BASEKEEPING.NAME"
 msgid "Tidy"
-msgstr "Siivoaminen"
+msgstr "Siivous"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.DESC"
@@ -12869,7 +12869,7 @@ msgstr "Rakenna uusia rakennuksia."
 #. STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.NAME"
 msgid "Build"
-msgstr "Rakentaminen"
+msgstr "Rakennus"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.COMBAT.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.COMBAT.DESC"
@@ -12899,7 +12899,7 @@ msgstr "Louhi raakaresursseja."
 #. STRINGS.DUPLICANTS.CHOREGROUPS.DIG.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.DIG.NAME"
 msgid "Dig"
-msgstr "Kaivaminen"
+msgstr "Kaivuu"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.FARMING.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.FARMING.DESC"
@@ -12964,7 +12964,7 @@ msgstr "Hoida sairaita ja loukkaantuneita Jäljennäisiä."
 #. STRINGS.DUPLICANTS.CHOREGROUPS.MEDICALAID.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.MEDICALAID.NAME"
 msgid "Care"
-msgstr "Huolehtiminen"
+msgstr "Huolenpito"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC"
@@ -12974,7 +12974,7 @@ msgstr "Hoida kesytettyjä otuksia."
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.NAME"
 msgid "Ranch"
-msgstr "Paimentaminen"
+msgstr "Paimennus"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.REPAIR.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.REPAIR.DESC"
@@ -12984,7 +12984,7 @@ msgstr "Korjaa vahingoittuneita rakennuksia."
 #. STRINGS.DUPLICANTS.CHOREGROUPS.REPAIR.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.REPAIR.NAME"
 msgid "Repair"
-msgstr "Korjaaminen"
+msgstr "Korjaus"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.DESC"
@@ -12994,7 +12994,7 @@ msgstr "Käytä tutkimustyöpisteitä avataksesi uusia teknologioita."
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.NAME"
 msgid "Research"
-msgstr "Tutkiminen"
+msgstr "Tutkimus"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC"
@@ -13014,7 +13014,7 @@ msgstr "Viritä koneita ja aseta tai käännä kytkimiä ja tunnistimia."
 #. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME"
 msgid "Toggle"
-msgstr "Vaihtaminen"
+msgstr "Vaihto"
 
 #. STRINGS.DUPLICANTS.CHORES.ART.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.ART.NAME"
@@ -13295,8 +13295,7 @@ msgstr "Menossa ilmastamaan kaivoa"
 #. STRINGS.DUPLICANTS.CHORES.DEPRESSURIZE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.DEPRESSURIZE.TOOLTIP"
 msgid "Oil Wells need to be periodically depressurized to function"
-msgstr ""
-"Öljykaivot täytyy säännöllisesti ilmastaa, jotta ne pysyvät toiminnassa"
+msgstr "Öljykaivot täytyy säännöllisesti ilmata, jotta ne pysyvät toiminnassa"
 
 #. STRINGS.DUPLICANTS.CHORES.DIE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DIE.NAME"
@@ -17471,7 +17470,8 @@ msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION"
 msgid ""
 "This Duplicant enjoys performing {0} jobs and will master them {1}% faster"
 msgstr ""
-"Tämä Jäljennäinen nauttii tehdä työtä {0} ja hallitsee sen {1}% nopeammin"
+"Tämä Jäljennäinen nauttii {0}töiden tekemisestä ja hallitsee ne {1}% "
+"nopeammin"
 
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION"
@@ -17565,7 +17565,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME"
 msgid "<link=\"JUNIORMINER\">Apprentice Miner</link>"
-msgstr "<link=\"JUNIORMINER\">Kaivotyöläisoppilas</link>"
+msgstr "<link=\"JUNIORMINER\">Kaivostyöoppilas</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.DESCRIPTION"
@@ -21836,7 +21836,7 @@ msgstr ""
 #. STRINGS.ELEMENTS.OXYROCK.NAME
 msgctxt "STRINGS.ELEMENTS.OXYROCK.NAME"
 msgid "<link=\"OXYROCK\">Oxylite</link>"
-msgstr "<link=\"OXYROCK\">Oxyliitti</link>"
+msgstr "<link=\"OXYROCK\">Oksyliitti</link>"
 
 #. STRINGS.ELEMENTS.PETROLEUM.DESC
 msgctxt "STRINGS.ELEMENTS.PETROLEUM.DESC"
@@ -23711,12 +23711,12 @@ msgstr ""
 "\n"
 "Ei voida uudelleenistuttaa.\n"
 "\n"
-"Hautautuneita Esineitä ylös kaivamalla voidaan löytää Törkyjuurikas."
+"Hautautuneita Esineitä ylös kaivamalla voidaan löytää Liejujuurikas."
 
 #. STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.NAME"
 msgid "<link=\"BASICFORAGEPLANT\">Muckroot</link>"
-msgstr "<link=\"BASICFORAGEPLANT\">Törkyjuurikas</link>"
+msgstr "<link=\"BASICFORAGEPLANT\">Liejujuurikas</link>"
 
 #. STRINGS.ITEMS.FOOD.BASICPLANTBAR.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTBAR.DESC"
@@ -26378,7 +26378,7 @@ msgid ""
 "This <link=\"OXYROCK\">Oxylite</link> deposit is not exposed to air and "
 "cannot emit <link=\"OXYGEN\">Oxygen</link>"
 msgstr ""
-"Tämä <link=\"OXYROCK\">Oxyliitti</link>esiintymä ei ole kosketuksissa ilman "
+"Tämä <link=\"OXYROCK\">Oksyliitti</link>esiintymä ei ole kosketuksissa ilman "
 "kanssa, eikä voi vapauttaa <link=\"OXYGEN\">Happea</link>"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.NAME
@@ -26393,7 +26393,7 @@ msgid ""
 "link> deposit to emit <link=\"OXYGEN\">Oxygen</link>"
 msgstr ""
 "Ympäristön ilmanpaine on liian korkea, jotta tämä <link=\"OXYROCK"
-"\">Oxyliitti</link>esiintymä pystyisi vapauttamaan <link=\"OXYGEN\">Happea</"
+"\">Oksyliitti</link>esiintymä pystyisi vapauttamaan <link=\"OXYGEN\">Happea</"
 "link>"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.NAME
@@ -26407,7 +26407,7 @@ msgid ""
 "This <link=\"OXYROCK\">Oxylite</link> deposit has no room to emit <link="
 "\"OXYGEN\">Oxygen</link>"
 msgstr ""
-"Tällä <link=\"OXYROCK\">Oxyliitti</link>esiintymällä ei ole tarpeeksi tilaa "
+"Tällä <link=\"OXYROCK\">Oksyliitti</link>esiintymällä ei ole tarpeeksi tilaa "
 "päästää <link=\"OXYGEN\">Happea</link>"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.NAME
@@ -26432,7 +26432,7 @@ msgid ""
 "link> deposit to emit <link=\"OXYGEN\">Oxygen</link>"
 msgstr ""
 "Ympäristön ilmanpaine on liian korkea, jotta tämä <link=\"OXYROCK"
-"\">Oxyliitti</link>esiintymä pystyisi vapauttamaan <link=\"OXYGEN\">Happea</"
+"\">Oksyliitti</link>esiintymä pystyisi vapauttamaan <link=\"OXYGEN\">Happea</"
 "link>"
 
 #. STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.NAME
@@ -29325,13 +29325,12 @@ msgstr "<link=\"RANCHING\">Paimentaminen</link>"
 #. STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.DESC"
 msgid "Using simple materials to improve base function."
-msgstr ""
-"Käyttäen yksinkertaisia materiaaleja tukikohdan toimien parantamiseksi."
+msgstr "Tukikohdan toimintojen parantaminen yksinkertaisin materiaalein."
 
 #. STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.NAME"
 msgid "<link=\"REFINEDOBJECTS\">Refined Objects</link>"
-msgstr "<link=\"REFINEDOBJECTS\">Jalostettuja Esineitä</link>"
+msgstr "<link=\"REFINEDOBJECTS\">Jalostetut Esineet</link>"
 
 #. STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.DESC"
@@ -29467,7 +29466,7 @@ msgstr ""
 #. STRINGS.RESEARCH.TYPES.ALPHA.NAME
 msgctxt "STRINGS.RESEARCH.TYPES.ALPHA.NAME"
 msgid "Novice Research"
-msgstr "Aloittelijatutkimust"
+msgstr "Aloittelijatutkimus"
 
 #. STRINGS.RESEARCH.TYPES.ALPHA.RECIPEDESC
 msgctxt "STRINGS.RESEARCH.TYPES.ALPHA.RECIPEDESC"
@@ -29490,7 +29489,7 @@ msgstr ""
 #. STRINGS.RESEARCH.TYPES.BETA.NAME
 msgctxt "STRINGS.RESEARCH.TYPES.BETA.NAME"
 msgid "Intermediate Research"
-msgstr "Keskitason Tutkimus"
+msgstr "Keskitasotutkimus"
 
 #. STRINGS.RESEARCH.TYPES.BETA.RECIPEDESC
 msgctxt "STRINGS.RESEARCH.TYPES.BETA.RECIPEDESC"
@@ -33177,7 +33176,7 @@ msgid ""
 "and join the discussion."
 msgstr ""
 "Pysy ajan tasalla liittymällä postituslistallemme tai mene foorumeille ja "
-"liity keskusteluun."
+"osallistu keskusteluun."
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FORUMBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FORUMBUTTON"
@@ -37489,7 +37488,7 @@ msgstr "Poimittiin: {0} {1}"
 #. STRINGS.UI.PLACEINRECEPTACLE
 msgctxt "STRINGS.UI.PLACEINRECEPTACLE"
 msgid "Plant"
-msgstr "Kasvi"
+msgstr "Istuta"
 
 #. STRINGS.UI.POSITIVE_FORMAT
 msgctxt "STRINGS.UI.POSITIVE_FORMAT"
@@ -37672,7 +37671,7 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.CHOREGROUP_ENABLED."
 "DESCRIPTION"
 msgid "Capable of performing <b>{0}</b> jobs"
-msgstr "Kynenevä tekemään <b>{0}</b>töitä"
+msgstr "Kykenee tekemään <b>{0}</b>töitä"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.CHOREGROUP_ENABLED.NAME
 msgctxt ""
@@ -37717,7 +37716,7 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_DIGGING_BASIC."
 "NAME"
 msgid "Basic Digging"
-msgstr "Perus Kaivaminen"
+msgstr "Perustason Kaivaminen"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_LEARNING_BASIC.DESCRIPTION
 msgctxt ""
@@ -37731,7 +37730,7 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_LEARNING_BASIC."
 "NAME"
 msgid "Basic Learning"
-msgstr "Perus Oppiminen"
+msgstr "Perustason Oppineisuus"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_LEARNING_MEDIUM.DESCRIPTION
 msgctxt ""
@@ -37745,7 +37744,7 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS."
 "HAS_ATTRIBUTE_LEARNING_MEDIUM.NAME"
 msgid "Medium Learning"
-msgstr "Keskitason Oppiminen"
+msgstr "Keskitason Opettelu"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_COLONY_LEADER.DESCRIPTION
 msgctxt ""
@@ -37826,8 +37825,8 @@ msgid ""
 "Note: Assigning {0} to {1} will <color=#F44A47FF>unassign</color> them from "
 "{2}"
 msgstr ""
-"Huomaa: Nimeämällä kohteen {0} nimitykseen {1} will "
-"<color=#F44A47FF>poistavat</color> heidät nimityksestä {2}"
+"Huomaa: Nimeämällä Jäljennäisen {0} nimitykseen {1}, "
+"<color=#F44A47FF>poistaa</color> hänet nimityksestä {2}"
 
 #. STRINGS.UI.ROLES_SCREEN.AUTO_PRIORITIZE
 msgctxt "STRINGS.UI.ROLES_SCREEN.AUTO_PRIORITIZE"
@@ -37963,8 +37962,8 @@ msgid ""
 "Duplicants employed in this Tier desire food that meets basic living "
 "standards"
 msgstr ""
-"Tässä Sarjassa työskentelevät Jäljennäiset haluavat ruokaa, joka sopii "
-"peruselämisen tarpeille"
+"Tässä Sarjassa työskentelevät Jäljennäiset haluavat ruokaa, joka täyttää "
+"elämisen perustarpeet"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.NAME"
@@ -41972,7 +41971,7 @@ msgstr ""
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.NAME"
 msgid "Set Direction: Left"
-msgstr "Aseta Suunta: Vasemmalta"
+msgstr "Aseta Suunta: Vasemmalle"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_LEFT.TOOLTIP"
@@ -41982,7 +41981,7 @@ msgstr "Valitse pakottaaksesi Jäljennäiset peseytymään ohittaessaan vasemmal
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.NAME"
 msgid "Set Direction: Right"
-msgstr "Aseta Suunta: Oikealta"
+msgstr "Aseta Suunta: Oikealle"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.TOOLTIP"

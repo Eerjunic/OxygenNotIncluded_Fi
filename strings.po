@@ -4851,7 +4851,7 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.EFFECT"
 msgid "Converts <link=\"CLAY\">Clay</link> to <link=\"CERAMIC\">Ceramic</link>"
 msgstr ""
-"MMuuttaa <link=\"CLAY\">Saven</link> <link=\"CERAMIC\">Keramiikaksi</link>"
+"Muuttaa <link=\"CLAY\">Saven</link> <link=\"CERAMIC\">Keramiikaksi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.NAME"
@@ -10516,7 +10516,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.NAME"
 msgid "<link=\"COLDWHEAT\">Sleet Wheat Grain</link>"
-msgstr "<link=\"COLDWHEAT\">Räntävehnän Hyvä</link>"
+msgstr "<link=\"COLDWHEAT\">Räntävehnän Jyvä</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.DESC"
@@ -10832,7 +10832,7 @@ msgstr "Kuluttaa"
 #. STRINGS.CREATURES.STATS.IRRIGATION.NAME
 msgctxt "STRINGS.CREATURES.STATS.IRRIGATION.NAME"
 msgid "Irrigation"
-msgstr "Ojitus"
+msgstr "Kastelu"
 
 #. STRINGS.CREATURES.STATS.MATURITY.AMOUNT_DESC_FMT
 msgctxt "STRINGS.CREATURES.STATS.MATURITY.AMOUNT_DESC_FMT"
@@ -11098,7 +11098,7 @@ msgstr ""
 #. STRINGS.CREATURES.STATUSITEMS.CANTACCEPTIRRIGATION.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CANTACCEPTIRRIGATION.NAME"
 msgid "    • Irrigation"
-msgstr "    • Ojitus"
+msgstr "    • Kastelu"
 
 #. STRINGS.CREATURES.STATUSITEMS.CANTACCEPTIRRIGATION.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CANTACCEPTIRRIGATION.TOOLTIP"
@@ -11670,7 +11670,7 @@ msgstr ""
 #. STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.NAME"
 msgid "    • Irrigation"
-msgstr "    • Ojitus"
+msgstr "    • Kastelu"
 
 #. STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.TOOLTIP"
@@ -12069,7 +12069,7 @@ msgstr "                    • {0}: {1}\n"
 #. STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.NAME"
 msgid "    • Irrigation"
-msgstr "    • Ojitus"
+msgstr "    • Kastelu"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.TOOLTIP"
@@ -26438,7 +26438,7 @@ msgstr ""
 #. STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.NAME"
 msgid "Sweep Errand Assigned"
-msgstr "Lakaisutehtävä Nimetty"
+msgstr "Lakaisutehtävä Määrätty"
 
 #. STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.TOOLTIP"
@@ -26448,7 +26448,7 @@ msgstr "Odottaa Jäljennäistä lakaisemaan"
 #. STRINGS.MISC.STATUSITEMS.PENDINGHARVEST.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGHARVEST.NAME"
 msgid "Harvest Errand Assigned"
-msgstr "Sadonkorjuutehtävä Nimetty"
+msgstr "Sadonkorjuutehtävä Määrätty"
 
 #. STRINGS.MISC.STATUSITEMS.PENDINGHARVEST.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGHARVEST.TOOLTIP"
@@ -26458,7 +26458,7 @@ msgstr "Odottaa Jäljennäistä korjaamaan sadon"
 #. STRINGS.MISC.STATUSITEMS.PENDINGUPROOT.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGUPROOT.NAME"
 msgid "Uproot Errand Assigned"
-msgstr "Kitkemistehtävä Nimetty"
+msgstr "Kitkemistehtävä Määrätty"
 
 #. STRINGS.MISC.STATUSITEMS.PENDINGUPROOT.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGUPROOT.TOOLTIP"
@@ -26515,7 +26515,7 @@ msgstr ""
 #. STRINGS.MISC.STATUSITEMS.SPOUTDORMANT.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTDORMANT.NAME"
 msgid "Dormant"
-msgstr "Lepotilassa"
+msgstr "Lepää"
 
 #. STRINGS.MISC.STATUSITEMS.SPOUTDORMANT.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTDORMANT.TOOLTIP"
@@ -26621,7 +26621,7 @@ msgstr "{Target} on käytössä"
 #. STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.NAME"
 msgid "Dig Errand Assigned"
-msgstr "Kaivuutehtävä Nimetty"
+msgstr "Kaivuutehtävä Määrätty"
 
 #. STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.TOOLTIP"
@@ -28950,7 +28950,7 @@ msgstr "Kun elämä antaa sinulle kiviä, tee kivimehua! (Tai hiekkaa.)"
 #. STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME"
 msgid "<link=\"BASICREFINEMENT\">Brute-Force Refinement</link>"
-msgstr "<link=\"BASICREFINEMENT\">Raaka Voima -Virvoke</link>"
+msgstr "<link=\"BASICREFINEMENT\">Raakavoimajalostus</link>"
 
 #. STRINGS.RESEARCH.TECHS.CLOTHING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CLOTHING.DESC"
@@ -31130,8 +31130,7 @@ msgid ""
 "This geyser will be active for {0} out of every {1}. It will be dormant the "
 "rest of the time."
 msgstr ""
-"Tämä geissiiri on aktiivinen {0} ajan ajasta {1}. Se on lepotilassa muun "
-"osan ajasta."
+"Tämä geissiiri on aktiivinen {0} ajan ajasta {1}. Muun osan ajasta se lepää."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_UNSTUDIED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_UNSTUDIED"
@@ -40609,7 +40608,7 @@ msgstr "Peruuta"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DEPOSIT
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DEPOSIT"
 msgid "Plant"
-msgstr "Kasvi"
+msgstr "Istuta"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ENTITYDEPOSITED
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ENTITYDEPOSITED"
@@ -41369,7 +41368,7 @@ msgstr " yksikköä"
 #. STRINGS.UI.USERMENUACTIONS.ATTACK.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.ATTACK.NAME"
 msgid "Attack"
-msgstr "Hyökkäys"
+msgstr "Hyökkää"
 
 #. STRINGS.UI.USERMENUACTIONS.ATTACK.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.ATTACK.TOOLTIP"

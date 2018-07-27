@@ -8797,6 +8797,28 @@ msgid ""
 "\n"
 "[LOG ENDS]"
 msgstr ""
+"[LOKI ALKAA]\n"
+"\n"
+"\"(köhimistä)\n"
+"\n"
+"Tulostamme nyt varmasti terveitä, eläviä koehenkilöitä, joskin kaikki ovat "
+"osoittaneet epätavallisia ominaisuuksia kloonausprosessin seurauksena.\n"
+"\n"
+"(vinkuääniä)\n"
+"\n"
+"Epätavallisia ääntämyksiä, hyvälaatuisia kasvaimia ja puuttuvia lisäkkeitä "
+"on havaittu kaikilla kohdehenkilöillä tähän mennessä, vaihtelevilla "
+"vakavuusasteilla. Vaikuttaa siltä, että lapsuuden ohittaminen tai "
+"kiihdyttäminen pysäyttää tietyt kriittiset kehittymisvaiheet. Aivotoiminta, "
+"siitä huolimatta, vaikuttaa tyypilliseltä.\n"
+"\n"
+"(vinkunaa)\n"
+"\n"
+"He vaikuttavat myös varsin onnellisilta.\n"
+"\n"
+"Tohtori McClintock, kirjautuu ulos.\"\n"
+"\n"
+"[LOKI PÄÄTTYY]"
 
 #. STRINGS.CODEX.CLONEDRATS.SUBTITLE
 msgctxt "STRINGS.CODEX.CLONEDRATS.SUBTITLE"
@@ -8855,6 +8877,9 @@ msgid ""
 "From: <b>[REDACTED]</b>\n"
 "To: <b>Dr.Higgs</b></smallcaps></size>"
 msgstr ""
+"<size=10><smallcaps><b>Vs. Oletko mukana?</b>\n"
+"Lähettäjä: <b>[POISTETTU]</b>\n"
+"Vastaanottaja: <b>Tohtori Higgs</b></smallcaps></size>"
 
 #. STRINGS.CODEX.DINNEREMAIL.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.DINNEREMAIL.BODY.CONTAINER2"
@@ -8868,6 +8893,14 @@ msgid ""
 "Physics\n"
 "The Gravitas Facility</size>"
 msgstr ""
+"ndent=5%>Okei, mutta vain jos menemme johonkin uuteen paikkaan. Jos pistät "
+"minut syömään lihapullia vielä kerrankin niin <i>OKSENNAN</i>.\n"
+"\n"
+"(P.S. Tällä kertaa olen tosissani, Wil!)</indent>\n"
+"\n"
+"<size=10>[POISTETTU]\n"
+"Fysiikkaosasto\n"
+"Gravitas-Laitos</size>"
 
 #. STRINGS.CODEX.DINNEREMAIL.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.DINNEREMAIL.BODY.CONTAINER3"
@@ -8885,7 +8918,7 @@ msgstr "KRYPTAAMATON"
 #. STRINGS.CODEX.DINNEREMAIL.TITLE
 msgctxt "STRINGS.CODEX.DINNEREMAIL.TITLE"
 msgid "Re: You in?"
-msgstr ""
+msgstr "Vs: Oletko mukana?"
 
 #. STRINGS.CODEX.DISHBOT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DISHBOT.BODY.CONTAINER1"
@@ -9204,20 +9237,14 @@ msgid "Requirements"
 msgstr "Vaatimukset"
 
 #. STRINGS.CODEX.HEADERS.COMFORTRANGE
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTTEMPERATURE.NAME"
-#| msgid "Ideal Temperature"
 msgctxt "STRINGS.CODEX.HEADERS.COMFORTRANGE"
 msgid "Ideal Temperature"
 msgstr "Ihannelämpötila"
 
 #. STRINGS.CODEX.HEADERS.CONTENTLOCKED
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND8"
-#| msgid "Underpowered"
 msgctxt "STRINGS.CODEX.HEADERS.CONTENTLOCKED"
 msgid "Undiscovered"
-msgstr "Alitehoinen"
+msgstr "Löytämätön"
 
 #. STRINGS.CODEX.HEADERS.CONTENTLOCKED_SUBTITLE
 msgctxt "STRINGS.CODEX.HEADERS.CONTENTLOCKED_SUBTITLE"
@@ -9458,7 +9485,7 @@ msgstr ""
 #. STRINGS.CODEX.MEMORYCHIP.SUBTITLE
 msgctxt "STRINGS.CODEX.MEMORYCHIP.SUBTITLE"
 msgid "ENCRYPTION LEVEL: TWO"
-msgstr ""
+msgstr "KRYPTAUSTASO: KAKSI"
 
 #. STRINGS.CODEX.MEMORYCHIP.TITLE
 msgctxt "STRINGS.CODEX.MEMORYCHIP.TITLE"
@@ -9824,12 +9851,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.PAGENOTFOUND.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.PAGENOTFOUND.SUBTITLE"
-#| msgid "This database entry is unavailable"
 msgctxt "STRINGS.CODEX.PAGENOTFOUND.SUBTITLE"
 msgid "This database entry is under construction or unavailable"
-msgstr "Tätä tietopankkikohtaa ei ole saatavilla"
+msgstr "Tämä tietopankkimerkintä on rakenteilla tai sitä ei ole"
 
 #. STRINGS.CODEX.PAGENOTFOUND.TITLE
 msgctxt "STRINGS.CODEX.PAGENOTFOUND.TITLE"
@@ -10365,12 +10389,12 @@ msgstr ""
 #. STRINGS.CODEX.SPITTINGIMAGE.SUBTITLE
 msgctxt "STRINGS.CODEX.SPITTINGIMAGE.SUBTITLE"
 msgid "ENCRYPTION LEVEL: NONE"
-msgstr ""
+msgstr "KRYPTAUSTASO: EI MITÄÄN"
 
 #. STRINGS.CODEX.SPITTINGIMAGE.TITLE
 msgctxt "STRINGS.CODEX.SPITTINGIMAGE.TITLE"
 msgid "Spittin' Image"
-msgstr ""
+msgstr "Kaksoisolento"
 
 #. STRINGS.CODEX.SQUEAKY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SQUEAKY.BODY.CONTAINER1"
@@ -10428,15 +10452,12 @@ msgstr ""
 #. STRINGS.CODEX.SUNFLOWERSEEDS.SUBTITLE
 msgctxt "STRINGS.CODEX.SUNFLOWERSEEDS.SUBTITLE"
 msgid "ENCRYPTION LEVEL: ZERO"
-msgstr ""
+msgstr "KRYPTAUSTASO: NOLLA"
 
 #. STRINGS.CODEX.SUNFLOWERSEEDS.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME"
-#| msgid "No Seeds"
 msgctxt "STRINGS.CODEX.SUNFLOWERSEEDS.TITLE"
 msgid "Sunflower Seeds"
-msgstr "Ei Siemeniä"
+msgstr "Auringonkukansiemeniä"
 
 #. STRINGS.CODEX.SUNNY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SUNNY.BODY.CONTAINER1"
@@ -10449,12 +10470,9 @@ msgid "Critter Morph"
 msgstr "Otusmuunnos"
 
 #. STRINGS.CODEX.SUNNY.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.SHINEBUG.TITLE"
-#| msgid "Shine Bug"
 msgctxt "STRINGS.CODEX.SUNNY.TITLE"
 msgid "Sun Bug"
-msgstr "Kiiltoötökkä"
+msgstr "Aurinkoötökkä"
 
 #. STRINGS.CODEX.THIMBLEREED.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.THIMBLEREED.BODY.CONTAINER1"
@@ -10508,12 +10526,9 @@ msgid "Critter Morph"
 msgstr "Otusmuunnos"
 
 #. STRINGS.CODEX.VITAL.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.SAVESCREEN.REPORT_BUG"
-#| msgid "Report Bug"
 msgctxt "STRINGS.CODEX.VITAL.TITLE"
 msgid "Coral Bug"
-msgstr "Raportoi Bugista"
+msgstr "Koralliötökkä"
 
 #. STRINGS.CODEX.WHEEZEWORT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.WHEEZEWORT.BODY.CONTAINER1"
@@ -10624,12 +10639,9 @@ msgid "<link=\"PUFTSPECIES\">Pufts</link>"
 msgstr "<link=\"PUFTSPECIES\">Pöhnöt</link>"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC"
-#| msgid "Eats any: {0}"
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC"
 msgid "Eats: {0}"
-msgstr "Syö mitä tahansa: {0}"
+msgstr "Syö: {0}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.NAME
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.NAME"
@@ -10652,20 +10664,14 @@ msgid "Not penned with: {0}"
 msgstr "Ei aidattuna kanssa: {0}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.NAME"
-#| msgid "No Nearby Creature"
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.NAME"
 msgid "No Nearby Critters"
-msgstr "Ei Läheistä Oliota"
+msgstr "Ei Lähelläolevia Otuksia"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.DESC"
-#| msgid "Body temperature between: {0} and {1}"
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.DESC"
 msgid "Body temperature: Between {0} and {1}"
-msgstr "Ruumiin lämpö välillä: {0} - {1}"
+msgstr "Ruumiinlämpö: Välillä {0} - {1}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.NAME
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.NAME"
@@ -10680,7 +10686,7 @@ msgstr "Vanhenee"
 #. STRINGS.CREATURES.MODIFIERS.AGE.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.AGE.TOOLTIP"
 msgid "Time takes its toll on all things"
-msgstr ""
+msgstr "Ajan hammas on armoton"
 
 #. STRINGS.CREATURES.MODIFIERS.ATE_FROM_FEEDER.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.ATE_FROM_FEEDER.NAME"
@@ -10796,31 +10802,25 @@ msgid "Incubating"
 msgstr "Hadotaan"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING.TOOLTIP"
-#| msgid "This egg is incubating"
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING.TOOLTIP"
 msgid "This egg is happily incubating"
-msgstr "Tätä munaa haudotaan"
+msgstr "Tätä munaa haudotaan iloisesti"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATING_SUPPRESSED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MATURITYDELTA.NAME"
-#| msgid "Growth Speed"
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING_SUPPRESSED.NAME"
 msgid "Growth Suppressed"
-msgstr "Kasvunopeus"
+msgstr "Kasvu Tukahdutettu"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATING_SUPPRESSED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING_SUPPRESSED.TOOLTIP"
-#| msgid "Environmental conditions are keeping this egg from incubating"
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING_SUPPRESSED.TOOLTIP"
 msgid ""
 "Environmental conditions are keeping this egg from developing\n"
 "\n"
 "It will not hatch if current conditions continue"
-msgstr "Ympäristön olosuhteet estävät tämän munan hautomisen"
+msgstr ""
+"Ympäristön olosuhteet estävät tätä munaa kehittymästä\n"
+"\n"
+"Se ei kuoriudu, mikäli tämänhetkiset olosuhteet jatkuvat"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.NAME"
@@ -11617,12 +11617,6 @@ msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgstr "<link=\"LIGHTBUG\">Kiiltoötökkä</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.DESC"
-#| msgid ""
-#| "A chubby baby <link=\"LIGHTBUGBLACK\">Shine Bug</link>.\n"
-#| "\n"
-#| "This one is a black Nega morph."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.DESC"
 msgid ""
 "A chubby baby <link=\"LIGHTBUGBLACK\">Shine Bug</link>.\n"
@@ -11631,15 +11625,12 @@ msgid ""
 msgstr ""
 "Pullea <link=\"LIGHTBUGBLACK\">Kiiltoötökän</link> vauva.\n"
 "\n"
-"Tämä yksilö on mustaa Negamuunnosta."
+"Tämä yksilö on Taivaansinimuunnosta."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME"
-#| msgid "<link=\"LIGHTBUGBLACK\">Nega Shine Nymph</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME"
 msgid "<link=\"LIGHTBUGBLACK\">Abyss Nymph</link>"
-msgstr "<link=\"LIGHTBUGBLACK\">Negakiiltonymffi</link>"
+msgstr "<link=\"LIGHTBUGBLACK\">Taivaansininymffi</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.DESC"
@@ -11651,28 +11642,16 @@ msgstr ""
 "sillä on erinomainen luonne."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGBLACK\">Nega Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.EGG_NAME"
 msgid "<link=\"LIGHTBUGBLACK\">Abyss Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGBLACK\">Negakiiltonymffin Muna</link>"
+msgstr "<link=\"LIGHTBUGBLACK\">Taivaansininymffin Muna</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.NAME"
-#| msgid "<link=\"LIGHTBUGBLACK\">Nega Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.NAME"
 msgid "<link=\"LIGHTBUGBLACK\">Abyss Bug</link>"
-msgstr "<link=\"LIGHTBUGBLACK\">Negakiiltoötökkä</link>"
+msgstr "<link=\"LIGHTBUGBLACK\">Taivaansiniötökkä</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.DESC"
-#| msgid ""
-#| "A chubby baby <link=\"LIGHTBUGBLUE\">Shine Bug</link>.\n"
-#| "\n"
-#| "This one is a blue Placid morph."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.DESC"
 msgid ""
 "A chubby baby <link=\"LIGHTBUGBLUE\">Shine Bug</link>.\n"
@@ -11681,25 +11660,14 @@ msgid ""
 msgstr ""
 "Pullea <link=\"LIGHTBUGBLUE\">Kiiltoötökän</link> poikanen.\n"
 "\n"
-"Tämä yksilö on Rauhallista muunnosta."
+"Tämä yksilö on Taivaansinimuunnosta."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.NAME"
-#| msgid "<link=\"LIGHTBUG\">Shine Nymph</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME"
 msgid "<link=\"LIGHTBUGBLUE\">Azure Nymph</link>"
-msgstr "<link=\"LIGHTBUG\">Kiiltonymffi</link>"
+msgstr "<link=\"LIGHTBUGBLUE\">Taivaansininymffi</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.DESC"
-#| msgid ""
-#| "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of "
-#| "attracting more of their kind for company.\n"
-#| "\n"
-#| "The light of the Placid morph has been turned blue through selective "
-#| "breeding."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.DESC"
 msgid ""
 "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of attracting "
@@ -11710,32 +11678,20 @@ msgstr ""
 "Kiiltoötökät tuottavat pehmeää <link=\"LIGHT\">Valoa</link> siinä toivossa, "
 "että onnistuisivat houkuttelemaan kaltaisiaan seurakseen.\n"
 "\n"
-"Rauhallisen muunnoksen valo on muutettu siniseksi valikoidun jalostuksen "
+"Taivaansinimuunnoksen valo on muutettu siniseksi valikoidun jalostuksen "
 "seurauksena."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME"
-#| msgid "<link=\"LIGHTBUG\">Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME"
 msgid "<link=\"LIGHTBUGBLUE\">Azure Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUG\">Kiiltonymffin Muna</link>"
+msgstr "<link=\"LIGHTBUGBLUE\">Taivaansininymffin Muna</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
-#| msgid "<link=\"LIGHTBUG\">Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.NAME"
 msgid "<link=\"LIGHTBUGBLUE\">Azure Bug</link>"
-msgstr "<link=\"LIGHTBUG\">Kiiltoötökkä</link>"
+msgstr "<link=\"LIGHTBUGBLUE\">Taivaansiniötökkä</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.DESC"
-#| msgid ""
-#| "A chubby baby <link=\"LIGHTBUGCRYSTAL\">Shine Bug</link>.\n"
-#| "\n"
-#| "This one is a bright Crystal morph."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.DESC"
 msgid ""
 "A chubby baby <link=\"LIGHTBUGCRYSTAL\">Shine Bug</link>.\n"
@@ -11744,15 +11700,12 @@ msgid ""
 msgstr ""
 "Pullea <link=\"LIGHTBUGCRYSTAL\">Kiiltoötökän</link> poikanen.\n"
 "\n"
-"Tämä yksilö on Kristallimuunnosta."
+"Tämä yksilö on Säteilevää muunnosta."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.NAME"
-#| msgid "<link=\"LIGHTBUGCRYSTAL\">Crystal Shine Nymph</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.NAME"
 msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Nymph</link>"
-msgstr "<link=\"LIGHTBUGCRYSTAL\">Kristallikiiltonymffi</link>"
+msgstr "<link=\"LIGHTBUGCRYSTAL\">Säteilevä nymffi</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.DESC
 #, fuzzy

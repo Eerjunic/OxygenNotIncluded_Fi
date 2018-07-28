@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -11708,14 +11708,6 @@ msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Nymph</link>"
 msgstr "<link=\"LIGHTBUGCRYSTAL\">Säteilevä nymffi</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.DESC"
-#| msgid ""
-#| "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of "
-#| "attracting more of their kind for company.\n"
-#| "\n"
-#| "The light of the Crystal morph has been amplified through selective "
-#| "breeding."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.DESC"
 msgid ""
 "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of attracting "
@@ -11726,59 +11718,36 @@ msgstr ""
 "Kiiltoötökät tuottavat pehmeää <link=\"LIGHT\">Valoa</link> siinä toivossa, "
 "että onnistuisivat houkuttelemaan kaltaisiaan seurakseen.\n"
 "\n"
-"Kristallimuunnos tuottaa valikoidun jalostuksen seurauksena voimakkaampaa "
+"Säteilevä muunnos tuottaa valikoidun jalostuksen seurauksena voimakkaampaa "
 "valoa."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGCRYSTAL\">Crystal Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.EGG_NAME"
 msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGCRYSTAL\">Kristallikiiltonymffin Muna </link>"
+msgstr "<link=\"LIGHTBUGCRYSTAL\">Säteilevän Nymffin Muna </link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.NAME"
-#| msgid "<link=\"LIGHTBUGCRYSTAL\">Crystal Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.NAME"
 msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Bug</link>"
-msgstr "<link=\"LIGHTBUGCRYSTAL\">Kristallikiiltoötökkä</link>"
+msgstr "<link=\"LIGHTBUGCRYSTAL\">Säteilevä ötökkä</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.DESC"
-#| msgid ""
-#| "A chubby baby <link=\"LIGHTBUGORANGE\">Shine Bug</link>.\n"
-#| "\n"
-#| "This one is an orange Sunny morph."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.DESC"
 msgid ""
 "A chubby baby <link=\"LIGHTBUGORANGE\">Shine Bug</link>.\n"
 "\n"
 "This one is a Sun morph."
 msgstr ""
-"PUllea <link=\"LIGHTBUGORANGE\">Kiiltoötökän</link> poikanen.\n"
+"Pullea <link=\"LIGHTBUGORANGE\">Kiiltoötökän</link> poikanen.\n"
 "\n"
-"Tämä yksilö on oranssia Aurinkoista muunnosta."
+"Tämä yksilö on Aurinkomuunnosta."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME"
-#| msgid "<link=\"LIGHTBUGORANGE\">Sunny Shine Nymph</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME"
 msgid "<link=\"LIGHTBUGORANGE\">Sun Nymph</link>"
-msgstr "<link=\"LIGHTBUGORANGE\">Aurinkoinen Kiiltonymffi</link>"
+msgstr "<link=\"LIGHTBUGORANGE\">Aurinkonymffi</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.DESC"
-#| msgid ""
-#| "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of "
-#| "attracting more of their kind for company.\n"
-#| "\n"
-#| "The light of the Sunny morph has been turned orange through selective "
-#| "breeding."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.DESC"
 msgid ""
 "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of attracting "
@@ -11789,32 +11758,19 @@ msgstr ""
 "Kiiltoötökät tuottavat pehmeää <link=\"LIGHT\">Valoa</link> siinä toivossa, "
 "että onnistuisivat houkuttelemaan kaltaisiaan seurakseen.\n"
 "\n"
-"Aurinkoisen muunnoksen valo on valikoidulla jalostamisella muutettu "
-"oranssiksi."
+"Aurinkomuunnoksen valo on valikoidulla jalostamisella muutettu oranssiksi."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGORANGE\">Sunny Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME"
 msgid "<link=\"LIGHTBUGORANGE\">Sun Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGORANGE\">Aurinkoisen Kiiltonymffin Muna</link>"
+msgstr "<link=\"LIGHTBUGORANGE\">Aurinkonymffin Muna</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.NAME"
-#| msgid "<link=\"LIGHTBUGORANGE\">Sunny Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.NAME"
 msgid "<link=\"LIGHTBUGORANGE\">Sun Bug</link>"
-msgstr "<link=\"LIGHTBUGORANGE\">Aurinkoinen Kiiltoötökkä</link>"
+msgstr "<link=\"LIGHTBUGORANGE\">Aurinkoötökkä</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.DESC"
-#| msgid ""
-#| "A chubby baby <link=\"LIGHTBUGPINK\">Shine Bug</link>.\n"
-#| "\n"
-#| "This one is a pink Vital morph."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.DESC"
 msgid ""
 "A chubby baby <link=\"LIGHTBUGPINK\">Shine Bug</link>.\n"
@@ -11823,18 +11779,14 @@ msgid ""
 msgstr ""
 "Pullea <link=\"LIGHTBUGPINK\">Kiiltoötökän</link> poikanen.\n"
 "\n"
-"Tämä yksilö on Elinvoimaista muunnosta."
+"Tämä yksilö on Korallimuunnosta."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.NAME"
-#| msgid "<link=\"LIGHTBUGPINK\">Vital Shine Nymph</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.NAME"
 msgid "<link=\"LIGHTBUGPINK\">Coral Nymph</link>"
-msgstr "<link=\"LIGHTBUGPINK\">Elinvoimainen Kiiltoötökkä</link>"
+msgstr "<link=\"LIGHTBUGPINK\">Korallinymffi</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.DESC
-#, fuzzy
 #| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.DESC"
 #| msgid ""
 #| "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of "
@@ -11852,32 +11804,20 @@ msgstr ""
 "Kiiltoötökät tuottavat pehmeää <link=\"LIGHT\">Valoa</link> siinä toivossa, "
 "että onnistuisivat houkuttelemaan kaltaisiaan seurakseen.\n"
 "\n"
-"Elinvoimaisen muunnoksen valo on muutettu vaaleanpunaiseksi valikoidulla "
+"Korallimuunnoksen valo on muutettu vaaleanpunaiseksi valikoidulla "
 "jalostamisella."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGPINK\">Vital Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.EGG_NAME"
 msgid "<link=\"LIGHTBUGPINK\">Coral Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGPINK\">Elinvoimaisen Kiiltonymffin Muna</link>"
+msgstr "<link=\"LIGHTBUGPINK\">Korallinymffin Muna</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.NAME"
-#| msgid "<link=\"LIGHTBUGPINK\">Vital Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.NAME"
 msgid "<link=\"LIGHTBUGPINK\">Coral Bug</link>"
-msgstr "<link=\"LIGHTBUGPINK\">Elinvoimainen Kiiltoötökkä</link>"
+msgstr "<link=\"LIGHTBUGPINK\">Koralliötökkä</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.DESC"
-#| msgid ""
-#| "A chubby baby <link=\"LIGHTBUGPURPLE\">Shine Bug</link>.\n"
-#| "\n"
-#| "This one is a purple Royal morph."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.DESC"
 msgid ""
 "A chubby baby <link=\"LIGHTBUGPURPLE\">Shine Bug</link>.\n"
@@ -11886,15 +11826,12 @@ msgid ""
 msgstr ""
 "Pullea <link=\"LIGHTBUGPURPLE\">Kiiltoötökän</link> poikanen.\n"
 "\n"
-"Tämä yksilö on purppuraa Kuningasmuunnosta."
+"Tämä yksilö on Kuningasmuunnosta."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.NAME"
-#| msgid "<link=\"LIGHTBUGPURPLE\">Royal Shine Nymph</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.NAME"
 msgid "<link=\"LIGHTBUGPURPLE\">Royal Nymph</link>"
-msgstr "<link=\"LIGHTBUGPURPLE\">Kuningaskiiltonymffi</link>"
+msgstr "<link=\"LIGHTBUGPURPLE\">Kuningasnymffi</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.DESC"
@@ -11911,20 +11848,14 @@ msgstr ""
 "Kuningasmuunnoksen valo on muutettu purppuraksi valikoidulla jalostamisella."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGPURPLE\">Royal Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.EGG_NAME"
 msgid "<link=\"LIGHTBUGPURPLE\">Royal Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGPURPLE\">Kuningaskiiltonymffin Muna</link>"
+msgstr "<link=\"LIGHTBUGPURPLE\">Kuningasnymffin Muna</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.NAME"
-#| msgid "<link=\"LIGHTBUGPURPLE\">Royal Shine Bug</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.NAME"
 msgid "<link=\"LIGHTBUGPURPLE\">Royal Bug</link>"
-msgstr "<link=\"LIGHTBUGPURPLE\">Kuningaskiiltoötökkä</link>"
+msgstr "<link=\"LIGHTBUGPURPLE\">Kuningasötökkä</link>"
 
 #. STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
@@ -12023,12 +11954,6 @@ msgid "<link=\"OILFLOATER\">Slickster</link>"
 msgstr "<link=\"OILFLOATER\">Liukuja</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC"
-#| msgid ""
-#| "A goopy baby <link=\"OILFLOATERDECOR\">Slickster</link>.\n"
-#| "\n"
-#| "This one is a Longhair morph."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC"
 msgid ""
 "A snuggly baby <link=\"OILFLOATERDECOR\">Slickster</link>.\n"
@@ -12045,11 +11970,6 @@ msgid "<link=\"OILFLOATERDECOR\">Longhair Slickster Larva</link>"
 msgstr "<link=\"OILFLOATERDECOR\">Pitkäkarvaliukujatoukka</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.DESC"
-#| msgid ""
-#| "Longhair Slicksters are slimy critters that consume <link=\"OXYGEN"
-#| "\">Oxygen</link> and thrive in close contact with Duplicant companions."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.DESC"
 msgid ""
 "Longhair Slicksters are friendly critters that consume <link=\"OXYGEN"
@@ -12057,8 +11977,10 @@ msgid ""
 "\n"
 "Longhairs have extremely beautiful and luxurious coats."
 msgstr ""
-"Pitkäkarvaliukujat ovat limaisia otuksia, jotka kuluttavat <link=\"OXYGEN"
-"\">Happea</link> ja pysyttelevät Jäljennäiskumppaninsa läheisyydessä."
+"Pitkäkarvaliukujat ovat ystävällisiä otuksia, jotka kuluttavat <link=\"OXYGEN"
+"\">Happea</link> ja pysyttelevät Jäljennäiskumppaninsa läheisyydessä.\n"
+"\n"
+"Pitkäkarvoilla on erittäin kauniit ja ylelliset turkit."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME"
@@ -12116,21 +12038,15 @@ msgid "<link=\"OILSPOUT\">Oil Spout</link>"
 msgstr "<link=\"OILSPOUT\">Öljysuihku</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.BABY.DESC"
-#| msgid ""
-#| "An innocent little <link=\"PACU\">Pacu Fry</link>.\n"
-#| "\n"
-#| "In time, it will mature into an adult <link=\"PACU\">Pacu</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.BABY.DESC"
 msgid ""
 "A wriggly little <link=\"PACUFRY\">Pacu Fry</link>.\n"
 "\n"
 "In time, it will mature into an adult <link=\"PACU\">Pacu</link>."
 msgstr ""
-"Pieni, viaton <link=\"HATCHLING\">Kuoriaisen Poikanen</link>.\n"
+"Kiemurteleva, pieni <link=\"PACUFRY\">Pacun Poikanen</link>.\n"
 "\n"
-"Ajallaan siitä kasvaa aikuinen <link=\"HATCH\">Kuoriainen</link>."
+"Ajallaan siitä kasvaa aikuinen <link=\"PACU\">Pacu</link>."
 
 #. STRINGS.CREATURES.SPECIES.PACU.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.BABY.NAME"
@@ -12161,21 +12077,15 @@ msgid "<link=\"PACU\">Pacu</link>"
 msgstr "<link=\"PACU\">Pacu</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.DESC"
-#| msgid ""
-#| "An innocent little <link=\"GULPFISH\">Gulp Fish Fry</link>.\n"
-#| "\n"
-#| "In time, it will mature into an adult <link=\"GULPFISH\">Gulp Fish</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.DESC"
 msgid ""
 "A wriggly little <link=\"PACUFRY\">Gulp Fish Fry</link>.\n"
 "\n"
 "In time, it will mature into an adult <link=\"GULPFISH\">Gulp Fish</link>."
 msgstr ""
-"Pieni, viaton <link=\"HATCHLING\">Hörppykalanpoikanen</link>.\n"
+"Kiemurteleva, pieni <link=\"PACUFRY\">Hörppykalanpoikanen</link>.\n"
 "\n"
-"Ajallaan siitä kasvaa aikuinen <link=\"HATCH\">Hörppykala</link>."
+"Ajallaan siitä kasvaa aikuinen <link=\"GULPFISH\">Hörppykala</link>."
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME"
@@ -12200,21 +12110,15 @@ msgid "<link=\"PACUCLEANER\">Gulp Fish</link>"
 msgstr "<link=\"CLEANERPACUEGG\">Hörppykalan</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC"
-#| msgid ""
-#| "A gassy baby <link=\"PUFTOXYLITE\">Puft</link>.\n"
-#| "\n"
-#| "This one is a Dense morph."
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.DESC"
 msgid ""
 "A wriggly little <link=\"PACUFRY\">Pacu Fry</link>.\n"
 "\n"
 "This one is a Tropical morph."
 msgstr ""
-"Äänekäs <link=\"PUFTOXYLITE\">Pöhnön</link> poikanen.\n"
+"Kiemurteleva, pieni <link=\"PACUFRY\">Pacun Poikanen</link>.\n"
 "\n"
-"Tämä yksilö on Kiiltomuunnosta."
+"Tämä yksilö on Trooppista muunnosta."
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.NAME"
@@ -12942,14 +12846,6 @@ msgid "Viability"
 msgstr "Elinkelpoisuus"
 
 #. STRINGS.CREATURES.STATS.VIABILITY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.VIABILITY.TOOLTIP"
-#| msgid ""
-#| "Viability\n"
-#| "------------------\n"
-#| "Eggs will lose viability in poor environmental conditions\n"
-#| "\n"
-#| "If Viability reaches zero the egg will become a Cracked Egg"
 msgctxt "STRINGS.CREATURES.STATS.VIABILITY.TOOLTIP"
 msgid ""
 "Viability\n"
@@ -12963,7 +12859,8 @@ msgstr ""
 "------------------\n"
 "Munat menettävät elinkelpoisuutta huonoissa olosuhteissa\n"
 "\n"
-"Jos Elinkelpoisuus laskee nollaan, munasta tulee Haljennut Muna"
+"Jos Elinkelpoisuus laskee nollaan, munasta muuttuu \"Haljenneeksi\", eikä "
+"voi kuoriutua"
 
 #. STRINGS.CREATURES.STATS.WILDNESS.NAME
 msgctxt "STRINGS.CREATURES.STATS.WILDNESS.NAME"
@@ -13033,12 +12930,9 @@ msgid "Trussed"
 msgstr "Köytetty"
 
 #. STRINGS.CREATURES.STATUSITEMS.BAGGED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.BAGGED.TOOLTIP"
-#| msgid "Tied up, ready for delivery"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BAGGED.TOOLTIP"
 msgid "Tied up and ready for relocation"
-msgstr "Sidottu, valmis toimitettavaksi"
+msgstr "Sidottu ja valmis siirrettäväksi"
 
 #. STRINGS.CREATURES.STATUSITEMS.BARREN.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BARREN.NAME"
@@ -13591,13 +13485,10 @@ msgid "Incubation Complete"
 msgstr "Hautuminen Valmis"
 
 #. STRINGS.CREATURES.STATUSITEMS.IN_INCUBATOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.IN_INCUBATOR.TOOLTIP"
-#| msgid "This critter has hatched in its incubator and is waiting for pickup"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.IN_INCUBATOR.TOOLTIP"
 msgid ""
 "This critter has hatched and is waiting to be released from its incubator"
-msgstr "Tämä otus on kuoriutunut hautomossaan ja odottaa poimintaa"
+msgstr "Tämä otus on kuoriutunut ja odottaa hautomosta vapautumistaan"
 
 #. STRINGS.CREATURES.STATUSITEMS.INCUBATING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.INCUBATING.NAME"
@@ -13714,19 +13605,15 @@ msgstr ""
 #. STRINGS.CREATURES.STATUSITEMS.OLD.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.OLD.NAME"
 msgid "Elderly"
-msgstr ""
+msgstr "Vanhukset"
 
 #. STRINGS.CREATURES.STATUSITEMS.OLD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.OLD.TOOLTIP"
-#| msgid ""
-#| "This critter is getting old and only has {TimeUntilDeath} left to live."
 msgctxt "STRINGS.CREATURES.STATUSITEMS.OLD.TOOLTIP"
 msgid ""
 "This sweet ol'critter is over the hill and will pass on in {TimeUntilDeath}"
 msgstr ""
-"Tämä otus on käymässä vanhaksi, ja sillä on enää {TimeUntilDeath} elinaikaa "
-"jäljellä."
+"Tämä herttainen vanha otus on elämänsä ehtoopuolella ja nukkuu pois "
+"{TimeUntilDeath} kuluttua."
 
 #. STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.NAME"
@@ -14310,14 +14197,14 @@ msgid ""
 "Duplicants with a high Decor Perception don't require as much <link=\"DECOR"
 "\">Decor</link> to keep up their <link=\"QUALITYOFLIFE\">Morale</link>."
 msgstr ""
+"Korkean Sisustuskäsityksen omaavat jäljennäiset eivät tarvitse yhtä paljon "
+"<link=\"DECOR\">Koristeellisuutta</link> pitääkseen <link=\"QUALITYOFLIFE"
+"\">Moraaliaan</link> korkealla."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-#| msgid "Decor Expectation"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
 msgid "Decor Perception"
-msgstr "Odotettu Korsteellisuus"
+msgstr "Sisustuskäsitys"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.DESC"
@@ -14411,14 +14298,14 @@ msgid ""
 "Duplicants with a high Food Perception are satisfied with lower quaity <link="
 "\"FOOD\">Food</link> to keep up their <link=\"QUALITYOFLIFE\">Morale</link>."
 msgstr ""
+"Korkean Ruokakäsityksen omaavat Jäljennäiset tulevat tyytyväisiksi "
+"alhaisemman laatutason <link=\"FOOD\">Ruoalla</link> pitääkseen <link="
+"\"QUALITYOFLIFE\">Moraaliaan</link> yllä."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
-#| msgid "Food Quality Expectation"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
 msgid "Food Quality Perception"
-msgstr "Ruuanlaatuodotus"
+msgstr "Ruuanlaatukäsitys"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME"
@@ -14665,33 +14552,24 @@ msgid "How well this Duplicant's expectations and aspirations are being met."
 msgstr "Kuinka hyvin tämän Jäljennäisen halut ja toiveet täytetään."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.DESC_FORMAT
-#, fuzzy
-#| msgctxt "STRINGS.UI.NAME_WITH_UNITS"
-#| msgid "{0} x {1}"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.DESC_FORMAT"
 msgid "{0} / {1}"
-msgstr "{0} x {1}"
+msgstr "{0} / {1}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
 msgid "Morale"
-msgstr ""
+msgstr "Moraali"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.NOISE.NAME"
-#| msgid "Noise Expectation"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC"
 msgid "Morale Expectation"
-msgstr "Odotettu Melutaso"
+msgstr "Odotettu Moraali"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.NOISE.NAME"
-#| msgid "Noise Expectation"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME"
 msgid "Morale Expectation"
-msgstr "Odotettu Melutaso"
+msgstr "Odotettu Moraali"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC"
@@ -15133,20 +15011,14 @@ msgid "This Duplicant is attempting to eat their emotions due to stress"
 msgstr "Tämä Jäljennäinen yrittää syödä tunteensa pois ahdistuksen takia"
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.USETOILET.NAME"
-#| msgid "Use Toilet"
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME"
 msgid "Downtime: Use Toilet"
-msgstr "Käytä Vessaa"
+msgstr "Käyttökatkos: Käytä Vessaa"
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.USETOILET.STATUS"
-#| msgid "Going to use toilet"
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS"
 msgid "Downtime: Going to use toilet"
-msgstr "Menossa Käyttämään Vessaa"
+msgstr "Käyttökatkos: Menossa käyttämään Vessaa"
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP"
@@ -15156,6 +15028,10 @@ msgid ""
 "\n"
 "Duplicants have to use the toilet at least once per day"
 msgstr ""
+"Tämä Jäljennäinen on aikatauluttanut Käyttökatkot ja käyttää taukonsa "
+"vessassa käymiseen\n"
+"\n"
+"Jäljennäisten täytyy käydä vessassa vähintään kerran päivässä"
 
 #. STRINGS.DUPLICANTS.CHORES.BUILD.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.BUILD.NAME"
@@ -15637,20 +15513,14 @@ msgid "Composts need to be flipped in order for their contents to compost"
 msgstr "Kompostit täytyy kääntää, jotta niiden sisältö kompostoituisi"
 
 #. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.CLEAR_BUTTON"
-#| msgid "Clear Floor"
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.NAME"
 msgid "Sleep on Floor"
-msgstr "Tyjennä Lattia"
+msgstr "Nuku Lattialla"
 
 #. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNCOMFORTABLESLEEP.NAME"
-#| msgid "Sleeping Uncomfortably"
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.STATUS"
 msgid "Sleeping on Floor"
-msgstr "Nukkuu Epämukavasti"
+msgstr "Nukkuu Lattialla"
 
 #. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.TOOLTIP"
@@ -15659,6 +15529,9 @@ msgid ""
 "\n"
 "Sleeping on the floor will give Duplicants a Sore Back"
 msgstr ""
+"Zzzzzz...\n"
+"\n"
+"Lattialla nukkuminen tekee Jäljennäisille Kipeät Selät"
 
 #. STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME"
@@ -15769,28 +15642,19 @@ msgstr ""
 "Moppaaminen poistaa nesteet lattialta ja pullottaa ne kuljetusta varten"
 
 #. STRINGS.DUPLICANTS.CHORES.MOURN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MOURNING.NAME"
-#| msgid "Mourning"
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOURN.NAME"
 msgid "Mourn"
 msgstr "Suree"
 
 #. STRINGS.DUPLICANTS.CHORES.MOURN.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MOURNING.NAME"
-#| msgid "Mourning"
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOURN.STATUS"
 msgid "Mourning"
 msgstr "Suree"
 
 #. STRINGS.DUPLICANTS.CHORES.MOURN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MOURNING.TOOLTIP"
-#| msgid "This Duplicant is grieving the loss of a friend"
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOURN.TOOLTIP"
 msgid "Mourning the loss of a friend"
-msgstr "Tämä Jäljennäinen suree menetettyä ystäväänsä"
+msgstr "Suree ystävän menetystä"
 
 #. STRINGS.DUPLICANTS.CHORES.MOVETO.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETO.NAME"
@@ -15909,15 +15773,12 @@ msgstr "Ei ylipainetta"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.BLADDER_FULL
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.BLADDER_FULL"
 msgid "Bladder isn't full"
-msgstr ""
+msgstr "Rakko ei ole täynnä"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.BLADDER_NOT_FULL
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.BUILD.TOOLNAME"
-#| msgid "Build tool"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.BLADDER_NOT_FULL"
 msgid "Bladder too full"
-msgstr "Rakennustyökalu"
+msgstr "Rakko liian täynnä"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_CHAT
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_CHAT"
@@ -15930,12 +15791,9 @@ msgid "No applicable diseases"
 msgstr "Ei soveltuvia sairauksia"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_DO_RECREATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.APTITUDES"
-#| msgid "Interests"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_DO_RECREATION"
 msgid "Not Interested"
-msgstr "Kiinnostukset"
+msgstr "Ei Kiinnosta"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_MOVE_TO
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_MOVE_TO"
@@ -15967,25 +15825,22 @@ msgstr "Puku on ladattuna"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EDIBLE_IS_NOT_NULL
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EDIBLE_IS_NOT_NULL"
 msgid "Consumable Permission not allowed"
-msgstr ""
+msgstr "Kulutustuotteen Käyttölupa ei salli"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EXCLUSIVELY_AVAILABLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NAME"
-#| msgid "Building Flooded"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EXCLUSIVELY_AVAILABLE"
 msgid "Building Already Busy"
-msgstr "Rakennus Veden Vallassa"
+msgstr "Rakennus On Jo Käytössä"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_MINGLE_CELL
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_MINGLE_CELL"
 msgid "Nowhere to Mingle"
-msgstr ""
+msgstr "Ei paikkaa, jossa Hääriä"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_PLACE_TO_STAND
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_PLACE_TO_STAND"
 msgid "Nowhere to stand"
-msgstr ""
+msgstr "Ei paikkaa, jossa seistä"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_ROLE_PERK
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_ROLE_PERK"
@@ -16174,12 +16029,9 @@ msgid "Invalid"
 msgstr "Epäkelpo"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NO_DEAD_BODIES
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.SIDEBAR.UNASSIGNED_DUPLICANTS"
-#| msgid "Unassigned Duplicants"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NO_DEAD_BODIES"
 msgid "Unburied Duplicant"
-msgstr "Nimeämättömät Jäljennäiset"
+msgstr "Hautaamaton Jäljennäinen"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_CHORE_CREATOR
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_CHORE_CREATOR"
@@ -16194,7 +16046,7 @@ msgstr "{Selected} on kuljetuksessa"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.VALID_MOURNING_SITE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.VALID_MOURNING_SITE"
 msgid "Nowhere to mourn"
-msgstr ""
+msgstr "Ei paikkaa, jossa Surra"
 
 #. STRINGS.DUPLICANTS.CHORES.RANCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RANCH.NAME"
@@ -16416,6 +16268,9 @@ msgid ""
 "\n"
 "Increases Incubation Rate"
 msgstr ""
+"Hoitavan paimenen laulama, hellä tuutulaulu rohkaisee munia kehittymään\n"
+"\n"
+"Kasvattaa Hautumisnopeutta"
 
 #. STRINGS.DUPLICANTS.CHORES.SLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SLEEP.NAME"
@@ -16448,28 +16303,19 @@ msgid "This Duplicant is having a stress-induced tantrum"
 msgstr "Tällä Jäljennäisellä on käynnissä ahdistuksen aiheuttama hepuli"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSHEAL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.STRESS.NAME"
-#| msgid "Stress"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.NAME"
 msgid "De-Stress"
-msgstr "Ahdistus"
+msgstr "Rentoudu"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSHEAL.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSVOMIT.STATUS"
-#| msgid "Stress vomiting"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.STATUS"
 msgid "De-Stressing"
-msgstr "Oksentaa Ahdistukseen"
+msgstr "Rentoutuu"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSHEAL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WETFEET.TOOLTIP"
-#| msgid "This Duplicant recently stepped in liquid"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.TOOLTIP"
 msgid "This Duplicant really needs to unwind"
-msgstr "Tämä Jäljennäinen astui hiljattain nesteeseen"
+msgstr "Tämän Jäljennäisen täytyy todellakin rentoutua"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSIDLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSIDLE.NAME"
@@ -16873,18 +16719,13 @@ msgstr ""
 "äärimmäisestä kylmyydestä"
 
 #. STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.DESCRIPTIVE_SYMPTOMS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SUNBURN.DESCRIPTIVE_SYMPTOMS"
-#| msgid ""
-#| "Nonlethal. Duplicants experience temporary discomfort due to "
-#| "dermatological damage."
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.DESCRIPTIVE_SYMPTOMS"
 msgid ""
 "Nonlethal. Duplicants experience extreme body heat loss causing chills and "
 "discomfort."
 msgstr ""
-"Ei-tappava. Jäljennäiset kokevat ohimenevää epämukavuutta ihovaurioiden "
-"takia."
+"Ei-tappava. Jäljennäiset kokevat äärimmäistä ruumiinlämmön laskua, joka "
+"aiheuttaa vilunväreitä ja epämukavuutta."
 
 #. STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.LEGEND_HOVERTEXT"
@@ -17206,16 +17047,9 @@ msgstr ""
 "kuumuudesta johtuen"
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATRASH.DESCRIPTIVE_SYMPTOMS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SUNBURN.DESCRIPTIVE_SYMPTOMS"
-#| msgid ""
-#| "Nonlethal. Duplicants experience temporary discomfort due to "
-#| "dermatological damage."
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.DESCRIPTIVE_SYMPTOMS"
 msgid "Nonlethal. Duplicants experience high fever and discomfort."
-msgstr ""
-"Ei-tappava. Jäljennäiset kokevat ohimenevää epämukavuutta ihovaurioiden "
-"takia."
+msgstr "Ei-tappava. Jäljennäiset kokevat korkeaa kuumetta ja epämukavuutta."
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATRASH.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.LEGEND_HOVERTEXT"
@@ -17722,12 +17556,9 @@ msgid "This lucky Duplicant has their own private bedroom"
 msgstr "Tällä onnekkaalla Jäljennäisellä on oma makuuhuoneensa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.NAME"
-#| msgid "Slept in a cot"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.NAME"
 msgid "Sleeping in a cot"
-msgstr "Nukkui häkkisängyssä"
+msgstr "Nukkuu häkkisängyssä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.TOOLTIP"
@@ -17869,12 +17700,9 @@ msgid "This Duplicant recently had a crying fit and it shows"
 msgstr "Tämä Jäljennäinen on hiljattain itkenyt ja se näkyy"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WASATTACKED.NAME"
-#| msgid "Recently assailed"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME"
 msgid "Recently Danced"
-msgstr "Hiljattain pahoinpidelty"
+msgstr "Tanssi Hiljattain"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP"
@@ -17883,6 +17711,9 @@ msgid ""
 "\n"
 "Leisure activities increase Duplicants' Morale"
 msgstr ""
+"Tällä Jäljennäisellä oli mahdollisuus irrotella!\n"
+"\n"
+"Vapaa-ajan toiminnat nostavat Jäljennäisten Moraalia"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME"
@@ -17900,73 +17731,50 @@ msgid "Dead"
 msgstr "Kuollut"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR0.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.THOUGHTS.POORDECOR.TOOLTIP"
-#| msgid "Poor Decor"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.NAME"
 msgid "Poor Decor"
 msgstr "Kehno Koristus"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.TOOLTIP"
-#| msgid "This Duplicant has contracted a Disease"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP"
 msgid "This Duplicant thinks the colony is decorated in poor taste"
-msgstr "Tähän Jäljennäiseen on puhjennut Sairaus"
+msgstr "Tämän Jäljennäisen mielestä siirtokunta on huonolla maulla koristeltu"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.NAME"
-#| msgid "Minor Decor"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.NAME"
 msgid "Mediocre Decor"
-msgstr "Vähäinen Koristus"
+msgstr "Kohtalainen Koristus"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINED.TOOLTIP"
-#| msgid "This Duplicant has been isolated from the colony"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP"
 msgid "This Duplicant has no strong opinions about the look of the colony"
-msgstr "Tämä Jäljennäinen on eristetty siirtokunnasta"
+msgstr ""
+"Tällä Jäljennäisellä ei ole voimakkaita mielipiteitä siirtokunnan ulkonäöstä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.NAME"
 msgid "Above Average Decor"
-msgstr ""
+msgstr "Keskivertoa Parempi Koristus"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BINGE_EAT.TOOLTIP"
-#| msgid "This Duplicant is attempting to eat their emotions due to stress"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP"
 msgid "This Duplicant appreciates that the colony's been spruced up"
-msgstr "Tämä Jäljennäinen yrittää syödä tunteensa pois ahdistuksen takia"
+msgstr "Tämä Jäljennäinen arvostaa sitä, että siirtokuntaa on piristetty"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.DECOR.LOWDECOR"
-#| msgid "Negative Decor"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.NAME"
 msgid "Nice Decor"
-msgstr "Negatiivinen Koristus"
+msgstr "Hieno Koristus"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.TOOLTIP"
-#| msgid "This Duplicant's getting out of here!"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP"
 msgid "This Duplicant thinks it looks pretty good in here!"
-msgstr "Tämä Jäljennäinen on häipymässä täältä!"
+msgstr "Tämän Jäljennäisen mielestä täällä näyttää melko hyvältä!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR4.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.NAME"
-#| msgid "High Decor"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.NAME"
 msgid "Charming Decor"
-msgstr "Korkea Koristus"
+msgstr "Viehättävä Koristus"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP"
@@ -17976,12 +17784,9 @@ msgstr ""
 "viehättävä!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR5.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.THOUGHTS.POORDECOR.TOOLTIP"
-#| msgid "Poor Decor"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.NAME"
 msgid "Gorgeous Decor"
-msgstr "Kehno Koristus"
+msgstr "Upea Koristus"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP"
@@ -17989,20 +17794,15 @@ msgid "This Duplicant loves what I've done with the place!"
 msgstr "Tämä Jäljennäinen tykkää siitä, mitä olen tehnyt täällä!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.NAME"
-#| msgid "High Decor"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.NAME"
 msgid "Ugly Decor"
-msgstr "Korkea Koristus"
+msgstr "Ruma Koristus"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORDECOR.TOOLTIP"
-#| msgid "This Duplicant is depressed by the lack of decor in this area"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP"
 msgid "This Duplicant finds the lack of decor in here downright depressing"
-msgstr "Tätä Jäljennäistä masentaa koristuksen puute tällä alueella"
+msgstr ""
+"Tämän Jäljennäisen mielestä koristuksen puute täällä on suorastaan masentavaa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DIARRHEA.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DIARRHEA.CAUSE"
@@ -18061,12 +17861,9 @@ msgid "Eating"
 msgstr "Syö"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.LOW_YIELD.NAME"
-#| msgid "Standard Yield"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.NAME"
 msgid "Standard Meal"
-msgstr "Perussato"
+msgstr "Perusateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.TOOLTIP"
@@ -18075,14 +17872,14 @@ msgid ""
 "\n"
 "They thought it was sort of okay"
 msgstr ""
+"Tämän Jäljennäisen viimeksi syömä ateria oli Keskiverto\n"
+"\n"
+"Hänen mielestään se oli jokseenkin OK"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.NORMAL_YIELD.NAME"
-#| msgid "Good Yield"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME"
 msgid "Good Meal"
-msgstr "Hyvä Sato"
+msgstr "Hyvä Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.TOOLTIP"
@@ -18091,14 +17888,14 @@ msgid ""
 "\n"
 "They thought it was pretty good!"
 msgstr ""
+"Tämän Jäljennäisen viimeksi syömä ruoka oli Hyvää\n"
+"\n"
+"Hänen mielestään se oli oikein hyvää!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GOOD_FOOD_QUALITY.NAME"
-#| msgid "Decadent Meal"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.NAME"
 msgid "Great Meal"
-msgstr "Rappiollinen Ateria"
+msgstr "Mahtava Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.TOOLTIP"
@@ -18107,14 +17904,14 @@ msgid ""
 "\n"
 "They thought it was pretty good!"
 msgstr ""
+"Tämän Jäljennäisen viimeksi syömä ruoka oli Mahtava\n"
+"\n"
+"Hänen mielestään se oli oikein hyvää!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_5"
-#| msgid "Superb"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.NAME"
 msgid "Superb Meal"
-msgstr "Mahtava"
+msgstr "Yliveto Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP"
@@ -18123,14 +17920,14 @@ msgid ""
 "\n"
 "They thought it was really good!"
 msgstr ""
+"Tämän Jäljennäisen viimeksi syömä ruoka oli Yliveto\n"
+"\n"
+"Hänen mielestään se oli erittäin hyvää!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_6"
-#| msgid "Ambrosial"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.NAME"
 msgid "Ambrosial Meal"
-msgstr "Taivaallinen"
+msgstr "Taivaallinen Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.TOOLTIP"
@@ -18139,11 +17936,11 @@ msgid ""
 "\n"
 "They thought it was super tasty!"
 msgstr ""
+"Tämän Jäljennäisen viimeksi syömä ruoka oli Taivaallista\n"
+"\n"
+"Hänen mielestään se oli supermaukasta!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POOR_FOOD_QUALITY.NAME"
-#| msgid "Lousy Meal"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME"
 msgid "Poor Meal"
 msgstr "Surkea Ateria"
@@ -18155,14 +17952,14 @@ msgid ""
 "\n"
 "They hope their next meal will be a little better"
 msgstr ""
+"Tämän Jäljennäisen viimeksi syömä ruoka oli Surkeaa\n"
+"\n"
+"Hän toivoo seuraavan aterian olevan vähän parempi"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.ZERO"
-#| msgid "Terrible"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.NAME"
 msgid "Terrible Meal"
-msgstr "Kamala"
+msgstr "Kamala Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.TOOLTIP"
@@ -18171,14 +17968,14 @@ msgid ""
 "\n"
 "They hope their next meal will be better"
 msgstr ""
+"Tämän Jäljennäisen viimeksi syömä ruoka oli Kamalaa\n"
+"\n"
+"Hän toivoo seuraavan aterian olevan parempi"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.MINUS_1"
-#| msgid "Grisly"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.NAME"
 msgid "Grisly Meal"
-msgstr "Kaamea"
+msgstr "Kaamea Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.TOOLTIP"
@@ -18187,6 +17984,9 @@ msgid ""
 "\n"
 "They hope their next meal will be better"
 msgstr ""
+"Tämän Jäljennäisen viimeksi syömä ruoka oli Kaamea\n"
+"\n"
+"Hän toivoo seuraavan aterian olevan parempi"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ENTITLEMENT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ENTITLEMENT.NAME"
@@ -18205,7 +18005,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.NAME"
 msgid "Had An Espresso"
-msgstr ""
+msgstr "Joi Espresson"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP"
@@ -18214,6 +18014,9 @@ msgid ""
 "\n"
 "Leisure activities increase Duplicants' Morale"
 msgstr ""
+"Tämä Jäljennäinen joi maukkaan juoman!\n"
+"\n"
+"Vapaa-ajan toiminnat nostavat Jäljennäisten Moraalia"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.FARMTINKER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FARMTINKER.NAME"
@@ -18233,20 +18036,14 @@ msgstr ""
 "Mikroravinnelannoitetta."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNCOMFORTABLESLEEP.NAME"
-#| msgid "Sleeping Uncomfortably"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.NAME"
 msgid "Sleeping On Floor"
-msgstr "Nukkuu Epämukavasti"
+msgstr "Nukkuu Lattialla"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SLEEP.TOOLTIP"
-#| msgid "This Duplicant is recovering stamina"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.TOOLTIP"
 msgid "This Duplicant is uncomfortably recovering stamina"
-msgstr "Tämä Jäljennäinen palauttaa jaksamistaan"
+msgstr "Tämä Jäljennäinen palauttaa jaksamistaan epämukavasti"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.FRESH_AND_CLEAN.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FRESH_AND_CLEAN.CAUSE"
@@ -18286,15 +18083,12 @@ msgstr "Tälle Jäljennäiselle on vaikea olla mieliksi"
 #. STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.NAME"
 msgid "Pleasant Chitchat"
-msgstr ""
+msgstr "Mukava Jutustelu"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CRYFACE.TOOLTIP"
-#| msgid "This Duplicant recently had a crying fit and it shows"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.TOOLTIP"
 msgid "This Duplicant recently had a chance to chat with a friend"
-msgstr "Tämä Jäljennäinen on hiljattain itkenyt ja se näkyy"
+msgstr "Tämä Jäljennäinen on hiljattain jutellut ystävän kanssa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.CAUSE"
@@ -18319,12 +18113,9 @@ msgstr ""
 "pinkeänä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.GREETING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NEWCREWARRIVAL.NAME"
-#| msgid "New Friend"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GREETING.NAME"
 msgid "Saw a Friend"
-msgstr "Uusi Ystävä"
+msgstr "Näki Ystävän"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.GREETING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GREETING.TOOLTIP"
@@ -18417,12 +18208,9 @@ msgid "The air is thin in this area"
 msgstr "Ilma tällä alueella on ohutta"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.NAME"
-#| msgid "Slept in a comfy bed"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.NAME"
 msgid "Sleeping in a comfy bed"
-msgstr "Nukkui mukavassa sängyssä"
+msgstr "Nukkuu mukavassa sängyssä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.TOOLTIP"
@@ -18626,7 +18414,7 @@ msgstr "Tällä alueella ei ole hengityskelpoista ilmaa"
 #. STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.NAME"
 msgid "Exhausted"
-msgstr ""
+msgstr "Uupunut"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.TOOLTIP"
@@ -18635,6 +18423,9 @@ msgid ""
 "\n"
 "They passed out from the fatigue"
 msgstr ""
+"Levon puute ehdytti tämän Jäljennäisen jaksamisen\n"
+"\n"
+"Hän pyörtyi väsymyksestä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PEACEFULSLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PEACEFULSLEEP.NAME"
@@ -18671,7 +18462,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.NAME"
 msgid "Played Video Games"
-msgstr ""
+msgstr "Pelasi Videopelejä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.TOOLTIP"
@@ -18814,100 +18605,66 @@ msgstr ""
 "syyllisyyden kourissa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.NAME"
-#| msgid "Comfortable Temperature"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.NAME"
 msgid "Comfortable Barracks"
-msgstr "Mukava Lämpötila"
+msgstr "Mukava Parakki"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RECOVERINGBREATH.TOOLTIP"
-#| msgid "This Duplicant held their breath too long and needs a breather"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.TOOLTIP"
 msgid "This Duplicant slept in proper barracks last night and feels refreshed"
 msgstr ""
-"Tämä Jäljennäinen pidätteli henkeään liian kauan ja hänen tarvitsee hengähtää"
+"Tämä Jäljennäinen nukkui asiallisessa parakissa viimeyönä ja tuntee itsensä "
+"virkeäksi"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.NAME"
-#| msgid "Nice Bathroom"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.NAME"
 msgid "Plumbed Bathroom"
-msgstr "Hieno Kylpyhuone"
+msgstr "Putkistoitu Kylpyhuone"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.TOOLTIP"
-#| msgid "This Duplicant used a toilet in a nice bathroom"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.TOOLTIP"
 msgid "This Duplicant used a toilet in a well plumbed bathroom"
-msgstr "Tämä Jäljennäinen käytti vessaa hienossa kylpyhuoneessa"
+msgstr "Tämä Jäljennäinen käytti vessaa hyvin putkistoidussa kylpyhuoneessa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.NAME"
-#| msgid "Comfortable Temperature"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.NAME"
 msgid "Comfortable Bedroom"
-msgstr "Mukava Lämpötila"
+msgstr "Mukava Makuuhuone"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RECOVERINGBREATH.TOOLTIP"
-#| msgid "This Duplicant held their breath too long and needs a breather"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.TOOLTIP"
 msgid ""
 "This Duplicant slept in a real bedroom last night and feels extra refreshed"
 msgstr ""
-"Tämä Jäljennäinen pidätteli henkeään liian kauan ja hänen tarvitsee hengähtää"
+"Tämä Jäljennäinen nukkui oikeassa makuuhuoneessa viimeyönä ja tuntee itsensä "
+"erittäin virkeäksi"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.ADJECTIVES.PLUS_4"
-#| msgid "Great"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.NAME"
 msgid "Great Hall"
-msgstr "Upea"
+msgstr "Suuri Sali"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.TOOLTIP"
-#| msgid "This Duplicant ate their last meal in a nice mess hall"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.TOOLTIP"
 msgid "This Duplicant's most recent meal was eaten in a fancy great hall"
-msgstr "Tämä Jäljennäinen söi edellisen ateriansa siistissä ruokalassa"
+msgstr "Tämä Jäljennäinen söi edellisen ateriansa hienossa, suuressa salissa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.NAME"
-#| msgid "Nice Bathroom"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.NAME"
 msgid "Nice Bathroom"
 msgstr "Hieno Kylpyhuone"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.TOOLTIP"
-#| msgid "This Duplicant used a toilet in a nice bathroom"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.TOOLTIP"
 msgid "This Duplicant used a toilet in a nice bathroom"
 msgstr "Tämä Jäljennäinen käytti vessaa hienossa kylpyhuoneessa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.NAME"
-#| msgid "Mess Hall"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.NAME"
 msgid "Mess Hall"
 msgstr "Ruokala"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.TOOLTIP"
-#| msgid "This Duplicant ate their last meal in a nice mess hall"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.TOOLTIP"
 msgid "This Duplicant's most recent meal was eaten in a suitable mess hall"
 msgstr "Tämä Jäljennäinen söi edellisen ateriansa siistissä ruokalassa"
@@ -19005,16 +18762,13 @@ msgstr "Tämä jäljennäinen upposi hiljattain veteen"
 #. STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.NAME"
 msgid "Socialized"
-msgstr ""
+msgstr "Sosialisoi"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSFULYEMPTYINGBLADDER.TOOLTIP"
-#| msgid "This Duplicant had no choice but to to empty their bladder"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.TOOLTIP"
 msgid "This Duplicant had some free time to hang out with buddies"
 msgstr ""
-"Tällä jäljennäisellä ei ollut muuta vaihtoehtoa kuin tyhjentää rakkonsa"
+"Tämä Jäljennäinen vietti hieman vapaa-aikaa hengaillakseen kavereiden kanssa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOREBACK.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOREBACK.CAUSE"
@@ -19106,17 +18860,15 @@ msgid "This Duplicant's stress is just melting away"
 msgstr "Tämän Jäljennäisen ahdistus haihtuu tiehensä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION.NAME"
-#| msgid "Receiving Massage"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.NAME"
 msgid "Recieving Clinic Massage"
-msgstr "Saa Hierontaa"
+msgstr "Saa Kliinistä Hierontaa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.TOOLTIP"
 msgid "Proper facilities futher improve this massage's effectiveness"
 msgstr ""
+"Asianmukaiset laitostilat kasvattavat hieronnan tehokkuutta entisestään"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.NAME"
@@ -19179,13 +18931,15 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
 msgid "Downtime"
-msgstr ""
+msgstr "Vapaa-aika"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP"
 msgid ""
 "This Duplicant has a bit of time off from work to attend to personal matters"
 msgstr ""
+"Tämä Jäljennäinen on ottanut töistä vähän vapaata henkilökohtaisten asioiden "
+"takia"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOXICENVIRONMENT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOXICENVIRONMENT.NAME"
@@ -19374,7 +19128,7 @@ msgstr "Tämä Jäljennäinen astui hiljattain nesteeseen"
 #. STRINGS.DUPLICANTS.MODIFIERS.WORKENCOURAGED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WORKENCOURAGED.NAME"
 msgid "Appreciated"
-msgstr ""
+msgstr "Arvostettu"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.WORKENCOURAGED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WORKENCOURAGED.TOOLTIP"
@@ -19383,6 +19137,10 @@ msgid ""
 "\n"
 "This Duplicant feels great about themselves now!"
 msgstr ""
+"Joku näki, kuinka kovasti tämä Jäljennäinen työskenteli ja antoi hänelle "
+"kehuja\n"
+"\n"
+"Tällä Jäljennäisellä on nyt mahtava mieli itsestään!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.WORKING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WORKING.NAME"
@@ -19553,12 +19311,9 @@ msgstr "Odotettu Melutaso"
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.BAD_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.BAD_MODIFIER"
 msgid "Low Morale"
-msgstr ""
+msgstr "Alhainen Moraali"
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.EXPECTATION_MOD_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_MOD_NAME"
-#| msgid "Job Tier Request"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.EXPECTATION_MOD_NAME"
 msgid "Job Tier Request"
 msgstr "Työtasotoive"
@@ -19570,22 +19325,20 @@ msgid ""
 "need a little more in their lives to inspire them to greater things. Failing "
 "to keep a Duplicant's Morale up will cause <link=\"STRESS\">Stressed</link>."
 msgstr ""
+"Jäljennäiset rakastavat mullan kaivamista yhtä paljon kuin kuka tahansa muu, "
+"mutta joskus he tarvitsevat vähän enemmän sisältöä elämäänsä innostamaan "
+"heitä suurempiin asioihin. Jäljennäisten Moraalin ylläpitämisen laiminlyönti "
+"aiheuttaa <link=\"STRESS\">Strresiä</link>."
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.GOOD_MODIFIER
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.NAME"
-#| msgid "High Decor"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.GOOD_MODIFIER"
 msgid "High Morale"
-msgstr "Korkea Koristus"
+msgstr "Korkea Moraali"
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.NOISE.NAME"
-#| msgid "Noise Expectation"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NAME"
 msgid "Morale Expectation"
-msgstr "Odotettu Melutaso"
+msgstr "Moraaliodotus"
 
 #. STRINGS.DUPLICANTS.OPINIONS.DARKNESS
 msgctxt "STRINGS.DUPLICANTS.OPINIONS.DARKNESS"

@@ -598,7 +598,7 @@ msgstr "Skannaa"
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.TOOLTIP"
 msgid "This scanner is currently scouring space for anything of interest"
-msgstr "Tämä ilmaisin tiirailee taivaalle löytääkseen kiinnostavia kohteita."
+msgstr "Tämä ilmaisin tiirailee taivaalle löytääkseen kiinnostavia kohteita"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME"
@@ -1529,7 +1529,7 @@ msgstr ""
 "iskeytymistä.\n"
 "\n"
 "Lisää enemmän ilmaisimia ja varmista, että ne skannaavat tehokkaasti parhaan "
-"tuloksen saamiseksi."
+"tuloksen saamiseksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME"
@@ -3202,7 +3202,7 @@ msgstr ""
 "\n"
 "Asettaa Jäljennäisten Pääsyluvat alueen eristämiseksi.\n"
 "\n"
-"Kestää erittäin korkeita paineita ja iskuja"
+"Kestää erittäin korkeita paineita ja iskuja."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.NAME"
@@ -6859,7 +6859,8 @@ msgstr "Rikkinäinen Hissi"
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYCHAIR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYCHAIR.DESC"
 msgid "A chair where visitors can comfortably wait before their appointments."
-msgstr "Tuoli, jolla vierailijat voivat mukavasti odottaa omia ajanvarauksiaan"
+msgstr ""
+"Tuoli, jolla vierailijat voivat mukavasti odottaa omia ajanvarauksiaan."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYCHAIR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYCHAIR.NAME"
@@ -6885,7 +6886,8 @@ msgstr "Kattokruunu"
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYCOUCH.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYCOUCH.DESC"
 msgid "A couch where visitors can comfortably wait before their appointments."
-msgstr "Sohva, jolla vierailijat voivat mukavasti odottaa omia ajanvarauksiaan"
+msgstr ""
+"Sohva, jolla vierailijat voivat mukavasti odottaa omia ajanvarauksiaan."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYCOUCH.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYCOUCH.NAME"
@@ -8309,7 +8311,7 @@ msgstr ""
 "<indent=5%>Ihan tosi, se saa minut voimaan sisäisesti pahoin.\n"
 "\n"
 "Jos kerran olet omistautunut tälle, en voi estääkään sinua, mutten myöskään "
-"pysty enää työskentelemään tässä laitoksessa."
+"pysty enää työskentelemään tässä laitoksessa.</indent>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER3"
@@ -9306,6 +9308,17 @@ msgid ""
 "it aware of your presence, then either scratch the soft segmented underbelly "
 "or firmly pat the creature's thick chitinous back."
 msgstr ""
+"Yrittäessään silittää Kuoriaista, kokemattomat käsittelijät tekevät sen "
+"virheen, että kurottavat liian nopeasti kohti olion päätä.\n"
+"\n"
+"Tämä aktivoi Kuoriaisessa pelkovasteen, koska sen valoherkkä läikkä ihoa, "
+"jota kutsutaan \"päälaen silmäksi\" tulkitsee äkillisen valon muutoksen "
+"lähestyvänä, lentävänä saalistajana.\n"
+"\n"
+"Oikeaoppinen tapa silittää Kuoriaista on ensin koskettaa mitä tahansa sen "
+"neljästä jalasta, jotta se tulisi tietoiseksi läsnäolostasi. Sen jälkeen "
+"rapsuttaa sen segmentoitua alavatsaa tai lujasti taputtaa olion paksua, "
+"kitiinistä selkää."
 
 #. STRINGS.CODEX.HATCH.SUBTITLE
 msgctxt "STRINGS.CODEX.HATCH.SUBTITLE"
@@ -9460,6 +9473,14 @@ msgid ""
 "Donor: #650, \"Hibiscus\"\n"
 "Adult female, 42cm, 257g"
 msgstr ""
+"KOE 7D\n"
+"Turvakoodi: B111\n"
+"\n"
+"Koehenkilö #762, \"Hibiscus-3\"\n"
+"Aikuinen naaras, 42cm, 257g\n"
+"\n"
+"Luovuttaja #65 \"Hibiscus\"\n"
+"Aikuinen naaras, 42cm, 257g"
 
 #. STRINGS.CODEX.HIBISCUS3.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.HIBISCUS3.BODY.CONTAINER2"
@@ -9520,6 +9541,21 @@ msgid ""
 "-Admin\n"
 "The Gravitas Facility</indent>"
 msgstr ""
+"<smallcaps><b>Muistutus: Postihuone-etiketti</b>\n"
+"Lähettäjä: <b>Valvoja</b> <alpha=#AA><admin@gravitas.nova></color>\n"
+"Vastaanottaja: <b>Kaikki</b></smallcaps>\n"
+"------------------\n"
+"\n"
+"<indent=5%>Olkaa hyvä, älkääkä toimituttako eläviä mehiläisiä "
+"postihuoneeseen. Pyynnöt ja tilaukset kokeellisille testikohteille tulee "
+"hyväksyttää valvojalla.\n"
+"\n"
+"<i>Olkaa hyvät ja osoittakaa kaikki pyynnöt testikohteista valvojalle.</i>\n"
+"\n"
+"Kiitos\n"
+"\n"
+"-Valvoja\n"
+"Gravitas-Laitos</indent>"
 
 #. STRINGS.CODEX.MAILROOMETIQUETTE.SUBTITLE
 msgctxt "STRINGS.CODEX.MAILROOMETIQUETTE.SUBTITLE"
@@ -9563,6 +9599,9 @@ msgid ""
 "From: <b>[REDACTED]</b>\n"
 "To: <b>[REDACTED]</b></smallcaps></size>"
 msgstr ""
+"<size=10><smallcaps><b>Aihe: Jäljennäisten Muistin Ratkaisu</b>\n"
+"Lähettäjä: <b>[POISTETTU]</b>\n"
+"Vastaanottaja: <b>[POISTETTU]</b></smallcaps></size>"
 
 #. STRINGS.CODEX.MEMORYCHIP.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MEMORYCHIP.BODY.CONTAINER2"
@@ -9736,6 +9775,14 @@ msgid ""
 "Information and Statistics Department\n"
 "The Gravitas Facility"
 msgstr ""
+"<indent=5%>Sille, joka kähveltää kimallekyniä pöydältäni:\n"
+"\n"
+"<i>TÄMÄ ON VIIMEINEN VAROITUKSESI!</i></indent>\n"
+"\n"
+"XOXO,\n"
+"[POISTETTU]\n"
+"Informaatio- ja tilasto-osasto\n"
+"Gravitas-laitos"
 
 #. STRINGS.CODEX.MYPENS.SUBTITLE
 msgctxt "STRINGS.CODEX.MYPENS.SUBTITLE"
@@ -9790,6 +9837,19 @@ msgid ""
 "Director\n"
 "The Gravitas Facility"
 msgstr ""
+"<indent=5%>Huomio Gravitas-laitoksen työntekijät;\n"
+"\n"
+"Toivottakaa tervetulleeksi uusin henkilökuntamme jäsen, Jodi McClintock, "
+"FT.\n"
+"\n"
+"Dr. McClintock johtaa meidän tulevaa genetiikkaprojektiamme ja hänet on "
+"asetettu biotekniikkaosastollemme.\n"
+"\n"
+"Toivottakaa hänet lämpimästi tervetulleeksi.</indent>\n"
+"\n"
+"[POISTETTU]\n"
+"Johtaja\n"
+"Gravitas-laitos"
 
 #. STRINGS.CODEX.NEWEMPLOYEE.SUBTITLE
 msgctxt "STRINGS.CODEX.NEWEMPLOYEE.SUBTITLE"
@@ -10071,23 +10131,6 @@ msgstr ""
 "Lähettäjä: <b>[POISTETTU]</b></color></smallcaps></size>"
 
 #. STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER2
-#, fuzzy
-#| msgctxt "STRINGS.LORE.BUILDINGS.Desk.ENTRY"
-#| msgid ""
-#| "TO: JSTERN@GRAVITASFACILITY.NOVA\n"
-#| "FROM: EJONES @GRAVITASFACILITY.NOVA\n"
-#| "SUBJECT: Preliminary Calculations\n"
-#| "\n"
-#| "Director,\n"
-#| "\n"
-#| "Even with dramatic optimization we can't make the sheer volume of "
-#| "resources required to sustain a colony seed fit for even a small "
-#| "interplanetary travel duration. We'll need to consider serious changes if "
-#| "this is going to work.\n"
-#| "\n"
-#| "E Jones\n"
-#| "Information and Statistics Department\n"
-#| "The Gravitas Facility"
 msgctxt "STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>Director,\n"
@@ -10169,6 +10212,9 @@ msgid ""
 "Projected for commercial availability early next year.\n"
 "Brought to you by the Gravitas Facility."
 msgstr ""
+"\n"
+"Arvioitu kaupallinen saatavuus ensi vuoden alussa.\n"
+"Teille Tarjoaa: Gravitas-Laitos."
 
 #. STRINGS.CODEX.PROPFACILITYDISPLAY1.SUBTITLE
 msgctxt "STRINGS.CODEX.PROPFACILITYDISPLAY1.SUBTITLE"
@@ -10188,7 +10234,7 @@ msgstr ""
 #. STRINGS.CODEX.PROPFACILITYDISPLAY2.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PROPFACILITYDISPLAY2.BODY.CONTAINER2"
 msgid "Brought to you by the Gravitas Facility."
-msgstr "Gravitas-Laitoksen tuotantoa."
+msgstr "Teille tarjoaa: Gravitas-Laitos"
 
 #. STRINGS.CODEX.PROPFACILITYDISPLAY2.SUBTITLE
 msgctxt "STRINGS.CODEX.PROPFACILITYDISPLAY2.SUBTITLE"
@@ -10211,7 +10257,7 @@ msgid ""
 "Brought to you by the Gravitas Facility.\n"
 "<smallcaps>Patent Pending</smallcaps>"
 msgstr ""
-"Gravitas-Laitoksen tuotantoa.\n"
+"Teille tarjoaa: Gravitas-Laitos.\n"
 "<smallcaps>Patentti Vireillä</smallcaps>"
 
 #. STRINGS.CODEX.PROPFACILITYDISPLAY3.SUBTITLE
@@ -10344,12 +10390,9 @@ msgid "Critter Morph"
 msgstr "Otusmuunnos"
 
 #. STRINGS.CODEX.ROYAL.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.ROYAL.TITLE"
-#| msgid "Royal Shine Bug"
 msgctxt "STRINGS.CODEX.ROYAL.TITLE"
 msgid "Royal Bug"
-msgstr "Kuningaskiiltoötökkä"
+msgstr "Kuningasötökkä"
 
 #. STRINGS.CODEX.SAGE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SAGE.BODY.CONTAINER1"
@@ -10396,6 +10439,11 @@ msgid ""
 "advised that care still be taken due to the generally delicate nature of its "
 "exoskeleton."
 msgstr ""
+"On epäviisasta koskea suoraan Kiiltoötökän siipiä, niiden kalvojen erittäin "
+"herkästä luonteesta johtuen.\n"
+"Kiiltoötökkää voi silittää mistä tahansa muualta sen kehoa, joskin "
+"varovaisuutta neuvotaan käyttämään, johtuen sen ulkoisen tukirangan "
+"yleisherkästä luonteesta."
 
 #. STRINGS.CODEX.SHINEBUG.SUBTITLE
 msgctxt "STRINGS.CODEX.SHINEBUG.SUBTITLE"
@@ -24546,7 +24594,7 @@ msgid ""
 "link>."
 msgstr ""
 "(C) Rikastettu hiili on raa'asta <link=\"CARBON\">Hiilestä</link> jalostettu "
-"kiinteä alkuaine"
+"kiinteä alkuaine."
 
 #. STRINGS.ELEMENTS.REFINEDCARBON.NAME
 msgctxt "STRINGS.ELEMENTS.REFINEDCARBON.NAME"
@@ -38754,7 +38802,7 @@ msgstr "<link=\"BUILDCATEGORYINFRASTRUCTURE\">Sähkö & LVI</link>"
 #. STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.TOOLTIP"
 msgid "Power, plumbing, and ventilation can all be found here."
-msgstr "Sähkö, putkistointi ja ilmastointi löytyvät kaikki täältä"
+msgstr "Sähkö, putket ja ilmastointi löytyvät kaikki täältä."
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.BUILDMENUTITLE"
@@ -38836,7 +38884,7 @@ msgstr "<link=\"BUILDCATEGORYLOGISTICS\">Logistiikka</link>"
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGISTICS.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGISTICS.TOOLTIP"
 msgid "Devices for base automation and material transport."
-msgstr "Laitteita tukikohdan automatisointiin ja materiaalinsiirtoon"
+msgstr "Laitteita tukikohdan automatisointiin ja materiaalinsiirtoon."
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.BUILDMENUTITLE"
@@ -45155,6 +45203,8 @@ msgid ""
 "I already took everything of interest from this. I can check the Codex to re-"
 "read what I found."
 msgstr ""
+"Keräsin tästä jo kaiken kiinnostavan. Voin tarkistaa Koodeksin lukeakseni "
+"uudelleen löytämäni."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.NAME"
@@ -45165,12 +45215,15 @@ msgstr "Tarkastele"
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH1"
 msgid "Unfortunately, the computer's hard drive is irreparably corrupted."
 msgstr ""
+"Valitettavasti tietokoneen kovalevy on korruptoitunut korjauskelvottomaksi."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH2
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH2"
 msgid ""
 "The computer was wiped clean before I got here. There is nothing to recover."
 msgstr ""
+"Tietokone tyhjennettiin täysin ennen kuin ehdin tänne. Täällä ei ole mitään "
+"palautettavaa."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH3
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH3"
@@ -45178,6 +45231,8 @@ msgid ""
 "Some intact files are available on the computer, but nothing I haven't "
 "already discovered elsewhere. I find nothing else."
 msgstr ""
+"Joitakin eheitä tiedostoja on tietokoneella, muttei mitään, mitä en olisi "
+"löytänyt jo muualta. En löydä muuta."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH4
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH4"
@@ -45192,6 +45247,10 @@ msgid ""
 "\n"
 "Also, it looks as though they were about to lose."
 msgstr ""
+"Joku jätti pasianssipelin päälle. Tällä tietokoneella ei ole mitään muuta "
+"kiinnostavaa.\n"
+"\n"
+"Lisäksi, näyttää siltä, että he olivat häviämässä."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH6
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH6"
@@ -45199,6 +45258,8 @@ msgid ""
 "The background on this computer depicts two kittens hugging in a field of "
 "daisies. There is nothing else of import to be found."
 msgstr ""
+"Tämän tietokoneen taustakuvassa näkyy kaksi kissaa halaamassa "
+"päivänkakkarakedolla. Muuta kiinnostavaa ei löydy."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH7
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH7"
@@ -45206,6 +45267,8 @@ msgid ""
 "The user alphabetized the shortcuts on their desktop. There is nothing else "
 "of import to be found."
 msgstr ""
+"Käyttäjä on laittanut tietokoneensa pikakuvakkeet aakkosjärjestykseen. Muuta "
+"kiintoisaa ei löydy."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH8
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH8"
@@ -45213,6 +45276,8 @@ msgid ""
 "The background is a picture of a golden retriever in a science lab. It looks "
 "very confused. There is nothing else of import to be found."
 msgstr ""
+"Taustakuvana on kuva kultaisesta noutajasta tiedelabrassa. Se näyttää sangen "
+"hämmentyneeltä. Muuta kiintoisaa ei löydy."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH9
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH9"
@@ -45220,6 +45285,8 @@ msgid ""
 "This user never changed their default background. There is nothing else of "
 "import to be found. How dull."
 msgstr ""
+"Tämä käyttäjä ei koskaan vaihtanut oletustaustakuvaansa. Muuta kiintoisaa ei "
+"löydy. Kuinka tylsää."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1"
@@ -45229,6 +45296,10 @@ msgid ""
 "\n"
 "New Codex Entry unlocked."
 msgstr ""
+"Tietokoneen tietokannan tutkittuani, onnistuin kokoamaan yhteen joitakin "
+"kiinnostavia tiedostoja.\n"
+"\n"
+"Uusi Koodeksimerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH2
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH2"
@@ -45238,6 +45309,10 @@ msgid ""
 "\n"
 "New Codex Entry unlocked."
 msgstr ""
+"Tietokoneen sisältöä tutkiessa, löysin joitakin vielä luettavia "
+"palautuskelpoisia tiedostoja.\n"
+"\n"
+"Uusi Koodeksimerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH3
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH3"
@@ -45248,6 +45323,11 @@ msgid ""
 "\n"
 "New Codex Entry unlocked."
 msgstr ""
+"Tietokone näyttää hyväkuntoiselta ulkoapäin katsottuna, mutta sisäisesti se "
+"on korruptoitunut. Siitä huolimatta, onnistuin löytämään yhden eheän "
+"tiedoston ja lisäämään sen tietokantaani.\n"
+"\n"
+"Uusi Koodeksimerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH4
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH4"
@@ -45257,6 +45337,10 @@ msgid ""
 "\n"
 "New Codex Entry unlocked."
 msgstr ""
+"Tietokone pyyhittiin lähes kokonaan puhtaaksi, yhtä roskakorissa olevaa "
+"piilotiedostoa lukuunottamatta.\n"
+"\n"
+"Uusi Koodeksimerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH5
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH5"
@@ -45266,6 +45350,10 @@ msgid ""
 "\n"
 "New Codex Entry unlocked."
 msgstr ""
+"Tutkin tietokoneen, ottaen talteen kaiken käyttökelpoisen datan, minkä "
+"onnistuin löytämän.\n"
+"\n"
+"Uusi Koodeksimerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH6
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH6"
@@ -45275,6 +45363,10 @@ msgid ""
 "\n"
 "New Codex Entry unlocked."
 msgstr ""
+"Tämä tietokone on rikki ja vaatii jonkin verran näppäryyttä saada se "
+"toimimaan. Silti, sain otettua talteen kourallisen kiinnostavia tiedostoja.\n"
+"\n"
+"Uusi Koodeksimerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_DISPLAY
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_DISPLAY"
@@ -45283,11 +45375,14 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Näyttö on vielä toimintakuntoinen. Kopioin sen viestin tietopankkiini.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_FAIL.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_FAIL.SEARCH1"
 msgid "I look around but find nothing of interest."
-msgstr ""
+msgstr "Katson ympärilleni, mutten löydä mitään kiinnostavaa."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH1"
@@ -45296,6 +45391,9 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Katson ympärilleni ja löydän vanhan kansion.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH2
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH2"
@@ -45304,6 +45402,9 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Sisällä on kolmirenkainen mappi. Skannaan selviytyneet dokumentit.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH3
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH3"
@@ -45312,6 +45413,10 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Sisällä oleva, hylätty päiväkirja on suurimmaksi osaksi ehjä. Skannaan "
+"käyttökelpoiset sivut.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH4
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH4"
@@ -45321,6 +45426,10 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Yksi sivu pitkästä tulosteesta on säilynyt lukukelpoisena. Skannaan ja "
+"lisään sen tietopankkiini.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH5
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH5"
@@ -45330,6 +45439,10 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Sisältä löytyy muutama irtonainen paperi. Skannaan ne, jotka vaikuttavat "
+"kiintoisilta.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH6
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH6"
@@ -45338,6 +45451,9 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Löydän sisältä muistitikun ja kopioin sen tiedot tietokantaani.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_POD
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_POD"
@@ -45347,6 +45463,10 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Käyn läpi saapuneiden viestien historiani ja löydän yksittäisen merkinnän. "
+"Siirrän merkillisen viestin tietokantaani.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH1"
@@ -45355,6 +45475,9 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Koluan sisäiset järjestelmät ja löydän jotakin kiintoisaa.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH2
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH2"
@@ -45364,6 +45487,10 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Katson, jos pystyn pelastamaan mitään sähkölaitteista. Lisään kaiken "
+"löytämäni koodeksiin.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH3
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH3"
@@ -45373,6 +45500,10 @@ msgid ""
 "\n"
 "New Codex Entry discovered."
 msgstr ""
+"Etsin kaiken kiinnostavan hylätystä koneistosta ja lisään löydökseni "
+"tietokantaani.\n"
+"\n"
+"Uusi Koodeksimerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP"
@@ -45656,7 +45787,7 @@ msgstr "Nestetaso"
 #. STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS"
 msgid "Morale"
-msgstr ""
+msgstr "Moraali"
 
 #. STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS_TOOLTIP"

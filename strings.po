@@ -8879,7 +8879,7 @@ msgid ""
 "From: <b>[REDACTED]</b>\n"
 "To: <b>Dr.Higgs</b></smallcaps></size>"
 msgstr ""
-"<size=10><smallcaps><b>Vs. Oletko mukana?</b>\n"
+"<size=10><smallcaps><b>Vs. Tuletko mukaan?</b>\n"
 "Lähettäjä: <b>[POISTETTU]</b>\n"
 "Vastaanottaja: <b>Tohtori Higgs</b></smallcaps></size>"
 
@@ -10343,6 +10343,17 @@ msgid ""
 "-Admin\n"
 "The Gravitas Facility</indent>"
 msgstr ""
+"<indent=5%>Haluaisimme muistuttaa henkilöstöä olla käyttämättä sähköpostin "
+"\"Kopio: Kaikki\"-toimintoa toimiston sisäisissä asioissa \n"
+"\n"
+"Laitoksessa tapahtuviin riitatilanteisiin tai häiritsevään "
+"työpaikkakäyttäytymiseen liittyvissä asioissa, olkaa hyvät ja puhukaa "
+"suoraan henkilöstöhallinnolle.\n"
+"\n"
+"Kiitokset pidättäytymisestänne.\n"
+"\n"
+"-Valvoja\n"
+"Gravitas-Laitos</indent>"
 
 #. STRINGS.CODEX.REMYPENS.SUBTITLE
 msgctxt "STRINGS.CODEX.REMYPENS.SUBTITLE"
@@ -10361,6 +10372,9 @@ msgid ""
 "From: <b>[REDACTED]</b>\n"
 "<b>Re: Have you seen this?</b></smallcaps></size>"
 msgstr ""
+"<size=10><smallcaps>Vastaanottaja: <b>[POISTETTU]</b>\n"
+"Lähettäjä: <b>[POISTETTU]</b>\n"
+"<b>Vs: Oletko nähnyt tätä?</b></smallcaps></size>"
 
 #. STRINGS.CODEX.RESEARCHGIANTARTICLE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.RESEARCHGIANTARTICLE.BODY.CONTAINER2"
@@ -11955,13 +11969,6 @@ msgid "<link=\"LIGHTBUGPINK\">Coral Nymph</link>"
 msgstr "<link=\"LIGHTBUGPINK\">Korallinymffi</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.DESC
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.DESC"
-#| msgid ""
-#| "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of "
-#| "attracting more of their kind for company.\n"
-#| "\n"
-#| "The light of the Vital morph has been turned pink through selective "
-#| "breeding."
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.DESC"
 msgid ""
 "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of attracting "
@@ -19033,10 +19040,25 @@ msgid "Recieving Clinic Massage"
 msgstr "Saa Kliinistä Hierontaa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.TOOLTIP"
+#| msgid "Proper facilities futher improve this massage's effectiveness"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.TOOLTIP"
-msgid "Proper facilities futher improve this massage's effectiveness"
+msgid "Proper facilities further improve this massage's effectiveness"
 msgstr ""
 "Asianmukaiset laitostilat kasvattavat hieronnan tehokkuutta entisestään"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.NAME"
+msgid "Morale Upgrade Helper"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
+msgid ""
+"This Duplicant will receive a temporary Morale bonus to buffer the new "
+"system introduction"
+msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.NAME"
@@ -24194,11 +24216,6 @@ msgid ""
 msgstr ""
 "Tämä materiaali nostaa valmiin rakennuksen Ylikuumenemislämpötilaa {0} verran"
 
-#. STRINGS.ELEMENTS.MERCURY.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.MERCURY.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.MERCURY.DESC
 msgctxt "STRINGS.ELEMENTS.MERCURY.DESC"
 msgid ""
@@ -24373,11 +24390,6 @@ msgctxt "STRINGS.ELEMENTS.NAPHTHA.NAME"
 msgid "<link=\"NAPHTHA\">Naphtha</link>"
 msgstr "<link=\"NAPHTHA\">Nafta</link>"
 
-#. STRINGS.ELEMENTS.OBSIDIAN.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.OBSIDIAN.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.OBSIDIAN.DESC
 msgctxt "STRINGS.ELEMENTS.OBSIDIAN.DESC"
 msgid ""
@@ -24407,11 +24419,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.OXYGEN.NAME"
 msgid "<link=\"OXYGEN\">Oxygen</link>"
 msgstr "<link=\"OXYGEN\">Happi</link>"
-
-#. STRINGS.ELEMENTS.OXYROCK.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.OXYROCK.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.OXYROCK.DESC
 msgctxt "STRINGS.ELEMENTS.OXYROCK.DESC"
@@ -24458,11 +24465,6 @@ msgctxt "STRINGS.ELEMENTS.PETROLEUM.NAME_TWO"
 msgid "<link=\"PETROLEUM\">Petroleum</link>"
 msgstr "<link=\"PETROLEUM\">Bensiini</link>"
 
-#. STRINGS.ELEMENTS.PHOSPHATENODULES.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.PHOSPHATENODULES.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.PHOSPHATENODULES.DESC
 msgctxt "STRINGS.ELEMENTS.PHOSPHATENODULES.DESC"
 msgid ""
@@ -24477,11 +24479,6 @@ msgctxt "STRINGS.ELEMENTS.PHOSPHATENODULES.NAME"
 msgid "<link=\"PHOSPHATENODULES\">Phosphate Nodules</link>"
 msgstr "<link=\"PHOSPHATENODULES\">Fosfaattimöykyt</link>"
 
-#. STRINGS.ELEMENTS.PHOSPHORITE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.PHOSPHORITE.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.PHOSPHORITE.DESC
 msgctxt "STRINGS.ELEMENTS.PHOSPHORITE.DESC"
 msgid ""
@@ -24492,11 +24489,6 @@ msgstr "Fosforiitti on kerrostunutta kiveä, joka on kyllästynyt fosfaatilla."
 msgctxt "STRINGS.ELEMENTS.PHOSPHORITE.NAME"
 msgid "<link=\"PHOSPHORITE\">Phosphorite</link>"
 msgstr "<link=\"PHOSPHORITE\">Fosforiitti</link>"
-
-#. STRINGS.ELEMENTS.PHOSPHORUS.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.PHOSPHORUS.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.PHOSPHORUS.DESC
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUS.DESC"
@@ -24586,11 +24578,6 @@ msgctxt "STRINGS.ELEMENTS.PROPANE.NAME"
 msgid "<link=\"PROPANE\">Propane</link>"
 msgstr "<link=\"PROPANE\">Propaani</link>"
 
-#. STRINGS.ELEMENTS.RADIUM.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.RADIUM.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.RADIUM.DESC
 msgctxt "STRINGS.ELEMENTS.RADIUM.DESC"
 msgid ""
@@ -24654,11 +24641,6 @@ msgctxt "STRINGS.ELEMENTS.ROCKGAS.NAME"
 msgid "<link=\"ROCKGAS\">Rock Gas</link>"
 msgstr "<link=\"ROCKGAS\">Kivikaasu</link>"
 
-#. STRINGS.ELEMENTS.SAND.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SAND.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.SAND.DESC
 msgctxt "STRINGS.ELEMENTS.SAND.DESC"
 msgid ""
@@ -24675,11 +24657,6 @@ msgctxt "STRINGS.ELEMENTS.SAND.NAME"
 msgid "<link=\"SAND\">Sand</link>"
 msgstr "<link=\"SAND\">Hiekka</link>"
 
-#. STRINGS.ELEMENTS.SANDCEMENT.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SANDCEMENT.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.SANDCEMENT.DESC
 msgctxt "STRINGS.ELEMENTS.SANDCEMENT.DESC"
 msgid ""
@@ -24689,11 +24666,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.SANDCEMENT.NAME"
 msgid "<link=\"SANDCEMENT\">Sand Cement</link>"
 msgstr "<link=\"SANDCEMENT\">Hiekkasementti</link>"
-
-#. STRINGS.ELEMENTS.SANDSTONE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SANDSTONE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.SANDSTONE.DESC
 msgctxt "STRINGS.ELEMENTS.SANDSTONE.DESC"
@@ -24711,11 +24683,6 @@ msgctxt "STRINGS.ELEMENTS.SANDSTONE.NAME"
 msgid "<link=\"SANDSTONE\">Sandstone</link>"
 msgstr "<link=\"SANDSTONE\">Hiekkakivi</link>"
 
-#. STRINGS.ELEMENTS.SEDIMENTARYROCK.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SEDIMENTARYROCK.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.SEDIMENTARYROCK.DESC
 msgctxt "STRINGS.ELEMENTS.SEDIMENTARYROCK.DESC"
 msgid ""
@@ -24732,11 +24699,6 @@ msgctxt "STRINGS.ELEMENTS.SEDIMENTARYROCK.NAME"
 msgid "<link=\"SEDIMENTARYROCK\">Sedimentary Rock</link>"
 msgstr "<link=\"SEDIMENTARYROCK\">Kerrostunut Kivi</link>"
 
-#. STRINGS.ELEMENTS.SLABS.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SLABS.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.SLABS.DESC
 msgctxt "STRINGS.ELEMENTS.SLABS.DESC"
 msgid ""
@@ -24750,11 +24712,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.SLABS.NAME"
 msgid "<link=\"SLABS\">Building Slab</link>"
 msgstr "<link=\"SLABS\">Rakennuslaatta</link>"
-
-#. STRINGS.ELEMENTS.SLIMEMOLD.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.SLIMEMOLD.DESC
 msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.DESC"
@@ -24773,11 +24730,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.NAME"
 msgid "<link=\"SLIMEMOLD\">Slime</link>"
 msgstr "<link=\"SLIMEMOLD\">Lima</link>"
-
-#. STRINGS.ELEMENTS.SNOW.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SNOW.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.SNOW.DESC
 msgctxt "STRINGS.ELEMENTS.SNOW.DESC"
@@ -24810,11 +24762,6 @@ msgctxt "STRINGS.ELEMENTS.SOLIDCARBONDIOXIDE.NAME"
 msgid "<link=\"SOLIDCARBONDIOXIDE\">Carbon Dioxide</link>"
 msgstr "<link=\"SOLIDCARBONDIOXIDE\">Hiilidioksidi</link>"
 
-#. STRINGS.ELEMENTS.SOLIDCHLORINE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SOLIDCHLORINE.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.SOLIDCHLORINE.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDCHLORINE.DESC"
 msgid ""
@@ -24829,11 +24776,6 @@ msgctxt "STRINGS.ELEMENTS.SOLIDCHLORINE.NAME"
 msgid "<link=\"SOLIDCHLORINE\">Chlorine</link>"
 msgstr "<link=\"SOLIDCHLORINE\">Kloori</link>"
 
-#. STRINGS.ELEMENTS.SOLIDCRUDEOIL.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SOLIDCRUDEOIL.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.SOLIDCRUDEOIL.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDCRUDEOIL.DESC"
 msgid ""
@@ -24843,11 +24785,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.SOLIDCRUDEOIL.NAME"
 msgid "<link=\"SOLIDCRUDEOIL\">Crude Oil</link>"
 msgstr "<link=\"SOLIDCRUDEOIL\">Raakaöljy</link>"
-
-#. STRINGS.ELEMENTS.SOLIDHYDROGEN.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SOLIDHYDROGEN.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.SOLIDHYDROGEN.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDHYDROGEN.DESC"
@@ -24863,11 +24800,6 @@ msgctxt "STRINGS.ELEMENTS.SOLIDHYDROGEN.NAME"
 msgid "<link=\"SOLIDHYDROGEN\">Hydrogen</link>"
 msgstr "<link=\"SOLIDHYDROGEN\">Vety</link>"
 
-#. STRINGS.ELEMENTS.SOLIDMERCURY.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SOLIDMERCURY.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.SOLIDMERCURY.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDMERCURY.DESC"
 msgid ""
@@ -24881,11 +24813,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.SOLIDMERCURY.NAME"
 msgid "<link=\"SOLIDMERCURY\">Mercury</link>"
 msgstr "<link=\"SOLIDMERCURY\">Elohopea</link>"
-
-#. STRINGS.ELEMENTS.SOLIDMETHANE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SOLIDMETHANE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.SOLIDMETHANE.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDMETHANE.DESC"
@@ -24901,11 +24828,6 @@ msgctxt "STRINGS.ELEMENTS.SOLIDMETHANE.NAME"
 msgid "<link=\"SOLIDMETHANE\">Methane</link>"
 msgstr "<link=\"SOLIDMETHANE\">Metaani</link>"
 
-#. STRINGS.ELEMENTS.SOLIDNAPHTHA.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.SOLIDNAPHTHA.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.DESC"
 msgid ""
@@ -24919,11 +24841,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.NAME"
 msgid "<link=\"SOLIDNAPHTHA\">Naphtha</link>"
 msgstr "<link=\"SOLIDNAPHTHA\">Nafta</link>"
-
-#. STRINGS.ELEMENTS.SOLIDOXYGEN.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.SOLIDOXYGEN.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.DESC"
@@ -24939,11 +24856,6 @@ msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.NAME"
 msgid "<link=\"SOLIDOXYGEN\">Oxygen</link>"
 msgstr "<link=\"SOLIDOXYGEN\">Happi</link>"
 
-#. STRINGS.ELEMENTS.SOLIDPETROLEUM.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SOLIDPETROLEUM.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.SOLIDPETROLEUM.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDPETROLEUM.DESC"
 msgid ""
@@ -24957,11 +24869,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.SOLIDPETROLEUM.NAME"
 msgid "<link=\"SOLIDPETROLEUM\">Petroleum</link>"
 msgstr "<link=\"SOLIDPETROLEUM\">Bensiini</link>"
-
-#. STRINGS.ELEMENTS.SOLIDPROPANE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.SOLIDPROPANE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.SOLIDPROPANE.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDPROPANE.DESC"
@@ -25011,11 +24918,6 @@ msgctxt "STRINGS.ELEMENTS.STEAM.NAME"
 msgid "<link=\"STEAM\">Steam</link>"
 msgstr "<link=\"STEAM\">Höyry</link>"
 
-#. STRINGS.ELEMENTS.STEEL.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.STEEL.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.STEEL.DESC
 msgctxt "STRINGS.ELEMENTS.STEEL.DESC"
 msgid ""
@@ -25056,11 +24958,6 @@ msgstr ""
 "Ominaislämpökapasiteetti: {0} J/(g*K)\n"
 "Lämmönjohtokyky: {1} W/(m*K)"
 
-#. STRINGS.ELEMENTS.TOXICSAND.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.TOXICSAND.BUILD_DESC"
-msgid ""
-msgstr ""
-
 #. STRINGS.ELEMENTS.TOXICSAND.DESC
 msgctxt "STRINGS.ELEMENTS.TOXICSAND.DESC"
 msgid ""
@@ -25076,11 +24973,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.TOXICSAND.NAME"
 msgid "<link=\"TOXICSAND\">Polluted Dirt</link>"
 msgstr "<link=\"TOXICSAND\">Saastunut Multa</link>"
-
-#. STRINGS.ELEMENTS.TUNGSTEN.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.TUNGSTEN.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.TUNGSTEN.DESC
 msgctxt "STRINGS.ELEMENTS.TUNGSTEN.DESC"
@@ -25099,11 +24991,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.TUNGSTEN.NAME"
 msgid "<link=\"TUNGSTEN\">Tungsten</link>"
 msgstr "<link=\"TUNGSTEN\">Wolfram</link>"
-
-#. STRINGS.ELEMENTS.TUNGSTENDISELENIDE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.TUNGSTENDISELENIDE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.TUNGSTENDISELENIDE.DESC
 msgctxt "STRINGS.ELEMENTS.TUNGSTENDISELENIDE.DESC"
@@ -25151,11 +25038,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.TUNGSTENGAS.NAME"
 msgid "<link=\"TUNGSTENGAS\">Tungsten</link>"
 msgstr "<link=\"TUNGSTENGAS\">Wolfram</link>"
-
-#. STRINGS.ELEMENTS.UNOBTANIUM.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.UNOBTANIUM.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.UNOBTANIUM.DESC
 msgctxt "STRINGS.ELEMENTS.UNOBTANIUM.DESC"
@@ -25209,11 +25091,6 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.WATER.NAME"
 msgid "<link=\"WATER\">Water</link>"
 msgstr "<link=\"WATER\">Vesi</link>"
-
-#. STRINGS.ELEMENTS.WOLFRAMITE.BUILD_DESC
-msgctxt "STRINGS.ELEMENTS.WOLFRAMITE.BUILD_DESC"
-msgid ""
-msgstr ""
 
 #. STRINGS.ELEMENTS.WOLFRAMITE.DESC
 msgctxt "STRINGS.ELEMENTS.WOLFRAMITE.DESC"
@@ -33032,15 +32909,12 @@ msgid "This Colony is {0} Cycle(s) Old"
 msgstr "Tämä Siirtokunta on {0} Kierron Ikäinen"
 
 #. STRINGS.UI.ASTEROIDCLOCK.SCHEDULE_BUTTON_TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESCHEDULE"
+#| msgid "ManageSchedule"
 msgctxt "STRINGS.UI.ASTEROIDCLOCK.SCHEDULE_BUTTON_TOOLTIP"
-msgid ""
-"Manage Schedule\n"
-"\n"
-"NOT IMPLEMENTED"
-msgstr ""
-"Hallitse Aikataulua\n"
-"\n"
-"EI ASETETTU"
+msgid "Manage Schedule"
+msgstr "HallitseAikataulua"
 
 #. STRINGS.UI.ASTEROIDCLOCK.TIME_PLAYED
 msgctxt "STRINGS.UI.ASTEROIDCLOCK.TIME_PLAYED"
@@ -36683,6 +36557,156 @@ msgstr ""
 "Vaikuttaa siihen, kuinka vastustuskykyisiä Jäljennäiset ovat sairauksia "
 "vastaan"
 
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT.NAME
+#, fuzzy
+#| msgctxt ""
+#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
+#| "DEFAULT.NAME"
+#| msgid "Regular"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT."
+"NAME"
+msgid "Regular"
+msgstr "Tavallinen"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT.TOOLTIP
+#, fuzzy
+#| msgctxt ""
+#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
+#| "DEFAULT.TOOLTIP"
+#| msgid "Duplicants regain immunity normally"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT."
+"TOOLTIP"
+msgid "Duplicants regain immunity normally"
+msgstr "Jäljennäisten vastustuskyky palautuu normaalisti"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DISABLED.NAME
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.NONE.NAME"
+#| msgid "None"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DISABLED."
+"NAME"
+msgid "None"
+msgstr "Ei Mitään"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DISABLED.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NOTIFICATION_TOOLTIP"
+#| msgid "These Duplicants are distressed by the lack of toilets:"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DISABLED."
+"TOOLTIP"
+msgid "Duplicants aren't stressed by their expectations at all"
+msgstr "Näitä Jäljennäisiä kiusaa vessojen puute:"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY.ATTRIBUTE_MODIFIER_NAME
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.BAD_MODIFIER"
+#| msgid "Low Morale"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY."
+"ATTRIBUTE_MODIFIER_NAME"
+msgid "Low Morale (Easy)"
+msgstr "Alhainen Moraali"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY.NAME"
+msgid "Easy"
+msgstr ""
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.NAME"
+#| msgid "Duplicants have overheated"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY."
+"TOOLTIP"
+msgid "Duplicants have low expectations"
+msgstr "Jäljennäisiä ylikuumeni"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.HARD.ATTRIBUTE_MODIFIER_NAME
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.BAD_MODIFIER"
+#| msgid "Low Morale"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.HARD."
+"ATTRIBUTE_MODIFIER_NAME"
+msgid "Low Morale (Hard)"
+msgstr "Alhainen Moraali"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.HARD.NAME
+#, fuzzy
+#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.HARDY"
+#| msgid "Hardy"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.HARD.NAME"
+msgid "Hard"
+msgstr "Sitkeä"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.HARD.TOOLTIP
+#, fuzzy
+#| msgctxt ""
+#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
+#| "STRONG.TOOLTIP"
+#| msgid "Duplicants have increased immune recovery"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.HARD."
+"TOOLTIP"
+msgid "Duplicants have increased expectations."
+msgstr "Jäljennäisillä on kohonnut vastustuskyvyn palautuminen"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.VERYHARD.ATTRIBUTE_MODIFIER_NAME
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.BAD_MODIFIER"
+#| msgid "Low Morale"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.VERYHARD."
+"ATTRIBUTE_MODIFIER_NAME"
+msgid "Low Morale (Very Hard)"
+msgstr "Alhainen Moraali"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.VERYHARD.NAME
+#, fuzzy
+#| msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.VERYHIGH"
+#| msgid "Very High"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.VERYHARD."
+"NAME"
+msgid "Very Hard"
+msgstr "Erittäin Korkea"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.VERYHARD.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.NAME"
+#| msgid "Duplicants have overheated"
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.VERYHARD."
+"TOOLTIP"
+msgid "Duplicants have very high expectations"
+msgstr "Jäljennäisiä ylikuumeni"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.NAME
+#, fuzzy
+#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.FORTRESS"
+#| msgid "Fortress"
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.NAME"
+msgid "Morale Stress"
+msgstr "Linnoitus"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.TOOLTIP
+#, fuzzy
+#| msgctxt ""
+#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.TOOLTIP"
+#| msgid "Affects how resistant Duplicants are to disease"
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.TOOLTIP"
+msgid "Affects how stressed Duplicants get from Low Morale"
+msgstr ""
+"Vaikuttaa siihen, kuinka vastustuskykyisiä Jäljennäiset ovat sairauksia "
+"vastaan"
+
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS.DISABLED.NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SANDBOXMODE.LEVELS."
@@ -37513,6 +37537,48 @@ msgstr "TALLENNUKSEN NIMI"
 msgctxt "STRINGS.UI.FRONTEND.SAVESCREEN.TITLE"
 msgid "SAVE SLOTS"
 msgstr "TALLENNUSPAIKAT"
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER
+msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER"
+msgid ""
+"Welcome to the Expressive Upgrade! This update introduces a new Morale "
+"system that replaces Food and Decor Expectations that were found in previous "
+"versions of the game.\n"
+"\n"
+"The game you are trying to load was created before this system was "
+"introduced, and will need to be updated. You may either:\n"
+"\n"
+"\n"
+"1) Enable the new Morale system in this save, removing Food and Decor "
+"Expectations. It's possible that when you load your save your old colony "
+"won't meet your Duplicants' new Morale needs, so they'll receive a 5 cycle "
+"Morale boost to give you time to adjust.\n"
+"\n"
+"2) Disable Morale in this save. The new Morale mechanics will still be "
+"visible, but won't affect your Duplicants' stress. Food and Decor "
+"expectations will no longer exist in this save."
+msgstr ""
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER_BUFF
+msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER_BUFF"
+msgid "1) Bring on Morale!"
+msgstr ""
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER_DISABLE
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.AUTOMATABLE.ENABLE_AUTOMATIONONLY.NAME"
+#| msgid "Disable Manual"
+msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER_DISABLE"
+msgid "2) Disable Morale"
+msgstr "Käsiohjaus Pois"
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER_TITLE
+#, fuzzy
+#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_FERTILITY"
+#| msgid "EGG CHANCES"
+msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER_TITLE"
+msgid "MORALE CHANGES"
+msgstr "MUNIMISMAHDOLLISUUKSIA"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.AUDIO_DRIVERS
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.AUDIO_DRIVERS"
@@ -43824,10 +43890,21 @@ msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.NOELEMENTSELECTED"
 msgid "No element selected"
 msgstr "Ei valittua ainetta"
 
+#. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.OUTPUTELEMENTHEADER
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.CONSUMER"
+#| msgid "Output Pipe"
+msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.OUTPUTELEMENTHEADER"
+msgid "Output 1"
+msgstr "Ulostuloputki"
+
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.SELECTELEMENTHEADER
+#, fuzzy
+#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.CONSUMER"
+#| msgid "Output Pipe"
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.SELECTELEMENTHEADER"
-msgid "Select Element"
-msgstr "Valitse aine"
+msgid "Output 2"
+msgstr "Ulostuloputki"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.TITLE"
@@ -46407,6 +46484,20 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Kylvetään hiekkaa..."
 
+#~ msgctxt "STRINGS.UI.ASTEROIDCLOCK.SCHEDULE_BUTTON_TOOLTIP"
+#~ msgid ""
+#~ "Manage Schedule\n"
+#~ "\n"
+#~ "NOT IMPLEMENTED"
+#~ msgstr ""
+#~ "Hallitse Aikataulua\n"
+#~ "\n"
+#~ "EI ASETETTU"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.SELECTELEMENTHEADER"
+#~ msgid "Select Element"
+#~ msgstr "Valitse aine"
+
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.TOOLTIP"
 #~ msgid "There are high speed objects approaching!"
 #~ msgstr "Korkeanopeuksisia kappaleita lähestyy!"
@@ -47330,10 +47421,6 @@ msgstr "Kylvetään hiekkaa..."
 #~ "This Rancher Duplicant is welcoming a newborn critter into the colony"
 #~ msgstr ""
 #~ "Tämä Jäljennäispaimen toivottaa vastasyntyneen otuksen siirtokuntaan"
-
-#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NOTIFICATION_TOOLTIP"
-#~ msgid "These Duplicants are distressed by the lack of toilets:"
-#~ msgstr "Näitä Jäljennäisiä kiusaa vessojen puute:"
 
 #~ msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.TOOLTIP"
 #~ msgid "Learn how to use exosuits"

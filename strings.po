@@ -8852,6 +8852,15 @@ msgid ""
 "even be in it?\n"
 "------------------\n"
 msgstr ""
+"Eikös olekin kumma, vai mitä? Yksi uusista tulokkaista aloittaa "
+"tiiminvetäjänä uudessa projektissani.\n"
+"\n"
+"Silloin kun aloitin, ei ollut epätavallista täyttää kokonaista hyllyllistä "
+"koeputkia näytteillä käsin. Nyt kone pystyy täyttämään niitä satoja "
+"kappaleita sekunnissa. Ken tietää, millaista tämäkin työ on taas kymmenen "
+"tai kahden kymmenen vuoden päästä. Olenko silloin edes tekemässä tätä "
+"työtä?\n"
+"------------------\n"
 
 #. STRINGS.CODEX.A046.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.A046.BODY.CONTAINER4"
@@ -22537,22 +22546,13 @@ msgid "Bladder"
 msgstr "Rakko"
 
 #. STRINGS.DUPLICANTS.STATS.BLADDER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.BLADDER.TOOLTIP"
-#| msgid ""
-#| "Bladder\n"
-#| "------------------\n"
-#| "Duplicants make \"messes\" if no toilets are available at one hundred "
-#| "percent bladder fullness"
 msgctxt "STRINGS.DUPLICANTS.STATS.BLADDER.TOOLTIP"
 msgid ""
 "Duplicants make \"messes\" if no toilets are available at one hundred "
 "percent bladder fullness"
 msgstr ""
-"Rakko\n"
-"------------------\n"
-"Jäljennäisille tapahtuu \"vahinkoja\" jos vessoja ei ole saatavilla, kun "
-"rakko on 100% täysi"
+"Jäljennäiset \"sotkevat\", jos vessoja ei ole saatavilla, kun rakko on 100% "
+"täynnä."
 
 #. STRINGS.DUPLICANTS.STATS.BREATH.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.BREATH.NAME"
@@ -22560,18 +22560,9 @@ msgid "Breath"
 msgstr "Henki"
 
 #. STRINGS.DUPLICANTS.STATS.BREATH.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.BREATH.TOOLTIP"
-#| msgid ""
-#| "Breath\n"
-#| "------------------\n"
-#| "A Duplicant with zero remaining breath will begin suffocating"
 msgctxt "STRINGS.DUPLICANTS.STATS.BREATH.TOOLTIP"
 msgid "A Duplicant with zero remaining breath will begin suffocating"
-msgstr ""
-"Henki\n"
-"------------------\n"
-"Jäljennäinen, jolla on henki nollassa, alkaa tukehtua"
+msgstr "Jäljennäinen, jonka henki on laskenut nollaan, alkaa tukehtua"
 
 #. STRINGS.DUPLICANTS.STATS.CALORIES.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.CALORIES.NAME"
@@ -22579,18 +22570,9 @@ msgid "Calories"
 msgstr "Kalorit"
 
 #. STRINGS.DUPLICANTS.STATS.CALORIES.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.CALORIES.TOOLTIP"
-#| msgid ""
-#| "Calories\n"
-#| "------------------\n"
-#| "This Duplicant can burn {0} before starving"
 msgctxt "STRINGS.DUPLICANTS.STATS.CALORIES.TOOLTIP"
 msgid "This Duplicant can burn {0} before starving"
-msgstr ""
-"Kalorit\n"
-"------------------\n"
-"Tämä jäljennäinen voi polttaa {0} ennen nääntymistään"
+msgstr "Tämä jäljennäinen voi polttaa {0} ennen nääntymistä"
 
 #. STRINGS.DUPLICANTS.STATS.DECOR.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.NAME"
@@ -22598,15 +22580,6 @@ msgid "Decor"
 msgstr "Koristus"
 
 #. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP"
-#| msgid ""
-#| "Decor\n"
-#| "------------------\n"
-#| "Duplicants become stressed in areas with decor lower than their "
-#| "expectations\n"
-#| "Open the Decor Overlay <color=#F44A47>[F8]</color> to view current decor "
-#| "values"
 msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP"
 msgid ""
 "Duplicants become stressed in areas with decor lower than their "
@@ -22614,11 +22587,9 @@ msgid ""
 "Open the Decor Overlay <color=#F44A47>[F8]</color> to view current decor "
 "values"
 msgstr ""
-"Koristus\n"
-"------------------\n"
-"Jäljennäiset ahdistuvat alueilla, joiden koristeellisuus alittaa heidän "
-"odotukset\n"
-"Avaa Koristusnäkymä <color=#F44A47>[F8]</color> nähdäksesi vallitsevat "
+"Jäljennäiset ahdistuvat alueilla, joiden koristusarvo on heidän odotustaan "
+"alhaisempi\n"
+"Avaa Koristusnäkymä <color=#F44A47>[F8]</color> nähdäksesi nykyiset "
 "koristusarvot"
 
 #. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_TODAY
@@ -22661,12 +22632,9 @@ msgid "External Temperature"
 msgstr "Ulkoinen Lämpötila"
 
 #. STRINGS.DUPLICANTS.STATS.EXTERNALTEMPERATURE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNDERWATER.TOOLTIP"
-#| msgid "This Duplicant's movement is slowed"
 msgctxt "STRINGS.DUPLICANTS.STATS.EXTERNALTEMPERATURE.TOOLTIP"
 msgid "This Duplicant's environment is {0}"
-msgstr "Tämän Jäljennäisen liikkuminen on hidastunut"
+msgstr "Tämän Jäljennäisen ympäristö on {0}"
 
 #. STRINGS.DUPLICANTS.STATS.HITPOINTS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.HITPOINTS.NAME"
@@ -22674,18 +22642,9 @@ msgid "Health"
 msgstr "Terveys"
 
 #. STRINGS.DUPLICANTS.STATS.HITPOINTS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.HITPOINTS.TOOLTIP"
-#| msgid ""
-#| "Health\n"
-#| "------------------\n"
-#| "Combatants become incapacitated at zero health"
 msgctxt "STRINGS.DUPLICANTS.STATS.HITPOINTS.TOOLTIP"
 msgid "Combatants become incapacitated at zero health"
-msgstr ""
-"Terveys\n"
-"------------------\n"
-"Taistelijat muuttuvat toimintakyvyttömiksi kun Terveys on nollassa"
+msgstr "Taistelijat lamaantuvat, kun heidän terveytensä laskee nollaan"
 
 #. STRINGS.DUPLICANTS.STATS.IMMUNELEVEL.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.IMMUNELEVEL.NAME"

@@ -3544,26 +3544,18 @@ msgstr ""
 "varastoimisen myöhempää käyttöävarten sen sijaa, että se menisi harakoille."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.EFFECT"
-#| msgid ""
-#| "Stores most runoff <link=\"POWER\">Power</link> from generators, but "
-#| "loses charge over time."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.EFFECT"
 msgid ""
 "Stores runoff <link=\"POWER\">Power</link> from generators, but loses charge "
 "over time."
 msgstr ""
-"Varastoi enimmän generaattorien ylijäämä<link=\"POWER\">sähkön</link>, mutta "
-"purkautuu ajan kanssa."
+"Varastoi generaattorien ylimääräisen <link=\"POWER\">sähkön</link>, mutta "
+"menettää varausta ajan myötä."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.NAME"
-#| msgid "<link=\"BATTERY\">Tiny Battery</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.NAME"
 msgid "<link=\"BATTERY\">Battery</link>"
-msgstr "<link=\"BATTERY\">Pieni Akku</link>"
+msgstr "<link=\"BATTERY\">Akku</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.DESC"
@@ -3584,12 +3576,9 @@ msgstr ""
 "purkautuu ajan kanssa."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME"
-#| msgid "<link=\"BATTERYMEDIUM\">Battery</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME"
 msgid "<link=\"BATTERYMEDIUM\">Jumbo Battery</link>"
-msgstr "<link=\"BATTERYMEDIUM\">Akku</link>"
+msgstr "<link=\"BATTERYMEDIUM\">Jumboakku</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP"
@@ -3610,27 +3599,14 @@ msgstr ""
 "yli {0}%:n"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
-#| msgid ""
-#| "Smart batteries can automatically turn systems off when there is no "
-#| "charge to sustain them."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
 msgid ""
 "Smart batteries can send an automation signal while they require charging."
 msgstr ""
-"Älyakut pystyvät sammuttamaan järjestelmiä automaattisesti, kun niiden "
-"ylläpitämiseen ei ole virtaa."
+"Älyakut pystyvät lähettämään automaatiosignaalin, kun ne tarvitsevat "
+"latausta."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT"
-#| msgid ""
-#| "Stores most runoff <link=\"POWER\">Power</link> from generators, but "
-#| "loses charge over time.\n"
-#| "\n"
-#| "Logic input becomes <link=\"LOGIC\">Active</link> when charged above the "
-#| "set threshold."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT"
 msgid ""
 "Stores most runoff <link=\"POWER\">Power</link> from generators, but loses "
@@ -3642,13 +3618,14 @@ msgstr ""
 "Varastoi enimmän generaattorien ylijäämä<link=\"POWER\">sähkön</link>, mutta "
 "purkautuu ajan kanssa.\n"
 "\n"
-"Looginen syöte muuttuu <link=\"LOGIC\">Aktiiviseksi</link> kun varaus "
-"ylittää kynnyksen."
+"Lähettää <link=\"LOGIC\">Aktiivinen</link>- tai <link=\"LOGIC"
+"\">Valmiustilassa</link>-signaalia Loogisen Aktivoinnin Parametreihin "
+"perustuen."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT"
 msgid "Charge Parameters"
-msgstr ""
+msgstr "Muuta Parametrejä"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_ACTIVE"
@@ -3665,6 +3642,8 @@ msgid ""
 "Sends a <link=\"LOGIC\">Standby</link> signal when the charge rises above "
 "the configured Standby Parameter"
 msgstr ""
+"Lähettää <link=\"LOGIC\">Valmiustilassa</link>-signaalia, kun varaus ylittää "
+"asetetun Valmiustilaparametrin"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME"
@@ -3758,15 +3737,6 @@ msgid "A massive, slow-moving door which is nearly indestructible."
 msgstr "Massiivinen, hitaasti liikkuva ovi, joka on lähes tuhoutumaton."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.EFFECT"
-#| msgid ""
-#| "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS"
-#| "\">Gas</link> flow, maintaining pressure between areas.\n"
-#| "\n"
-#| "Sets Duplicant Access Permissions for area restriction.\n"
-#| "\n"
-#| "Can withstand extremely high pressures and impacts."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.EFFECT"
 msgid ""
 "Blocks <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSGAS\">Gas</"
@@ -3774,12 +3744,10 @@ msgid ""
 "\n"
 "Can withstand extremely high pressures and impacts."
 msgstr ""
-"Estää <link=\"ELEMENTSLIQUID\">Neste-</link> ja <link=\"ELEMENTSGAS\">Kaasu</"
-"link>virrat, ylläpitäen huoneiden välisen paineen.\n"
+"Estää <link=\"ELEMENTSLIQUID\">Nesteiden</link> ja <link=\"ELEMENTSGAS"
+"\">Kaasujen</link> virtauksen, ylläpitäen alueiden välistä painetta.\n"
 "\n"
-"Asettaa Jäljennäisten Pääsyluvat alueen eristämiseksi.\n"
-"\n"
-"Kestää erittäin korkeita paineita ja iskuja."
+"Kestää äärimmäisen suuria paineita ja iskuja."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.NAME"
@@ -3787,33 +3755,22 @@ msgid "<link=\"BUNKERDOOR\">Bunker Door</link>"
 msgstr "<link=\"BUNKERDOOR\">Bunkkerin Ovi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC"
-#| msgid ""
-#| "Bunker tiles can be used to build strong shelters in otherwise dangerous "
-#| "environments."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC"
 msgid ""
 "Bunker tile can be used to build strong shelters in otherwise dangerous "
 "environments."
 msgstr ""
-"Bunkkerilaattoja voidaan käyttää rakentamaan vahvoja suojarakennuksia "
-"vaarallisiin ympäristöihin."
+"Bunkkerilaatoilla voidaan rakentaa kestäviä suojia muutoin vaarallisissa "
+"ympäristöissä."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT"
-#| msgid ""
-#| "Used as floor and wall tile to build rooms.\n"
-#| "\n"
-#| "Can withstand extreme pressures and impacts."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT"
 msgid ""
 "Used to build the walls and floors of rooms.\n"
 "\n"
 "Can withstand extreme pressures and impacts."
 msgstr ""
-"Käytetään lattia- ja seinälaattoina huoneita rakentaessa.\n"
+"Käytetään huoneiden seinien ja lattioiden rakentamiseen.\n"
 "\n"
 "Kestää äärimmäisiä paineita ja iskuja."
 
@@ -3830,18 +3787,14 @@ msgstr ""
 "suuria alueita."
 
 #. STRINGS.BUILDINGS.PREFABS.BURNER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.EFFECT"
-#| msgid ""
-#| "Produces a searing <link=\"HEAT\">Heat Jet</link> using liquid <link="
-#| "\"CRUDEOIL\">Crude Oil</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.EFFECT"
 msgid ""
 "Produces a searing <link=\"HEAT\">Heat Jet</link> using <link="
 "\"ELEMENTSLIQUID\">Liquid</link> <link=\"CRUDEOIL\">Crude Oil</link>."
 msgstr ""
-"Tuottaa polttavan kuuman <link=\"HEAT\">Lämpösuihkun</link> <link=\"CRUDEOIL"
-"\">Raakaöljyä</link> käyttäen."
+"Tuottaa polttavan kuuman <link=\"HEAT\">Lämpösuihkun</link> <link="
+"\"ELEMENTSLIQUID\">Nestemäisen</link> <link=\"CRUDEOIL\">Raakaöljyn</link> "
+"avulla."
 
 #. STRINGS.BUILDINGS.PREFABS.BURNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.NAME"
@@ -3863,13 +3816,6 @@ msgstr ""
 "koristeellisen maalauksen."
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT"
-#| msgid ""
-#| "Increases <link=\"DECOR\">Decor</link> and reduces <link=\"STRESS"
-#| "\">Stress</link>.\n"
-#| "\n"
-#| "Must be painted by a Duplicant."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT"
 msgid ""
 "Increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE"
@@ -3877,8 +3823,8 @@ msgid ""
 "\n"
 "Must be painted by a Duplicant."
 msgstr ""
-"Parantaa <link=\"DECOR\">Koristeellisuutta</link> ja vähentää <link=\"STRESS"
-"\">Ahdistusta</link>.\n"
+"Parantaa <link=\"DECOR\">Koristeellisuutta</link>, kohottaen sen myötä <link="
+"\"MORALE\">Moraalia</link>.\n"
 "\n"
 "Jäljennäisen on maalattava tämä."
 
@@ -3898,19 +3844,11 @@ msgid "Crude Painting"
 msgstr "Kehno Maalaus"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.AVERAGEQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.AVERAGEQUALITYNAME"
-#| msgid "Mediocre Painting"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.AVERAGEQUALITYNAME"
 msgid "Mediocre Painting"
 msgstr "Keskinkertainen Maalaus"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.DESC"
-#| msgid ""
-#| "Once built, a Duplicant can paint a blank canvas to produce a decorative "
-#| "painting."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.DESC"
 msgid ""
 "Once built, a Duplicant can paint a blank canvas to produce a decorative "
@@ -3920,13 +3858,6 @@ msgstr ""
 "koristeellisen maalauksen."
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT"
-#| msgid ""
-#| "Increases <link=\"DECOR\">Decor</link> and reduces <link=\"STRESS"
-#| "\">Stress</link>.\n"
-#| "\n"
-#| "Must be painted by a Duplicant."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.EFFECT"
 msgid ""
 "Moderately increases <link=\"DECOR\">Decor</link>, contributing to <link="
@@ -3934,49 +3865,32 @@ msgid ""
 "\n"
 "Must be painted by a Duplicant."
 msgstr ""
-"Parantaa <link=\"DECOR\">Koristeellisuutta</link> ja vähentää <link=\"STRESS"
-"\">Ahdistusta</link>.\n"
+"Parantaa kohtalaisesti <link=\"DECOR\">Koristeellisuutta</link>, kohottaen "
+"sen myötä <link=\"MORALE\">Moraalia</link>.\n"
 "\n"
 "Jäljennäisen on maalattava tämä."
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.EXCELLENTQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME"
-#| msgid "Masterpiece"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.EXCELLENTQUALITYNAME"
 msgid "Masterpiece"
 msgstr "Mestariteos"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.NAME"
-#| msgid "<link=\"CANVAS\">Blank Canvas</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.NAME"
 msgid "<link=\"CANVASTALL\">Portrait Canvas</link>"
-msgstr "<link=\"CANVAS\">Tyhjä Kangas</link>"
+msgstr "<link=\"CANVASTALL\">Muotokuvakangas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.POORQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.POORQUALITYNAME"
-#| msgid "Crude Painting"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.POORQUALITYNAME"
 msgid "Crude Painting"
 msgstr "Kehno Maalaus"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.AVERAGEQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.AVERAGEQUALITYNAME"
-#| msgid "Mediocre Painting"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.AVERAGEQUALITYNAME"
 msgid "Mediocre Painting"
 msgstr "Keskinkertainen Maalaus"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.DESC"
-#| msgid ""
-#| "Once built, a Duplicant can paint a blank canvas to produce a decorative "
-#| "painting."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.DESC"
 msgid ""
 "Once built, a Duplicant can paint a blank canvas to produce a decorative "
@@ -3986,13 +3900,6 @@ msgstr ""
 "koristeellisen maalauksen."
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT"
-#| msgid ""
-#| "Increases <link=\"DECOR\">Decor</link> and reduces <link=\"STRESS"
-#| "\">Stress</link>.\n"
-#| "\n"
-#| "Must be painted by a Duplicant."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.EFFECT"
 msgid ""
 "Moderately increases <link=\"DECOR\">Decor</link>, contributing to <link="
@@ -4000,31 +3907,22 @@ msgid ""
 "\n"
 "Must be painted by a Duplicant."
 msgstr ""
-"Parantaa <link=\"DECOR\">Koristeellisuutta</link> ja vähentää <link=\"STRESS"
-"\">Ahdistusta</link>.\n"
+"Parantaa <link=\"DECOR\">Koristeellisuutta</link>, kohottaen sen myötä <link="
+"\"MORALE\">Moraalia</link>.\n"
 "\n"
 "Jäljennäisen on maalattava tämä."
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.EXCELLENTQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME"
-#| msgid "Masterpiece"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.EXCELLENTQUALITYNAME"
 msgid "Masterpiece"
 msgstr "Mestariteos"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.NAME"
-#| msgid "<link=\"CANVAS\">Blank Canvas</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.NAME"
 msgid "<link=\"CANVASWIDE\">Landscape Canvas</link>"
-msgstr "<link=\"CANVAS\">Tyhjä Kangas</link>"
+msgstr "<link=\"CANVASWIDE\">Maisemakangas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.POORQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.POORQUALITYNAME"
-#| msgid "Crude Painting"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.POORQUALITYNAME"
 msgid "Crude Painting"
 msgstr "Kehno Maalaus"
@@ -4062,6 +3960,8 @@ msgid ""
 "Carpeted tile is a luxury that remains decorative even when other tile is "
 "stacked atop it."
 msgstr ""
+"Nikkaroitu laatta on ylellisyys, joka pysyy koristeellisena, vaikka sen "
+"päälle rakennettaisiin toinen laatta."
 
 #. STRINGS.BUILDINGS.PREFABS.CARPETTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARPETTILE.EFFECT"
@@ -4071,14 +3971,15 @@ msgid ""
 "Increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE"
 "\">Morale</link>."
 msgstr ""
+"Käytetään huoneiden seinien ja lattioiden rakentamiseen.\n"
+"\n"
+"Kasvattaa <link=\"DECOR\">Koristeellisuutta</link>, joka puolestaan nostaa "
+"<link=\"MORALE\">Moraalia</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.CARPETTILE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.NAME"
-#| msgid "<link=\"FARMTILE\">Farm Tile</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARPETTILE.NAME"
 msgid "<link=\"CARPETTILE\">Carpeted Tile</link>"
-msgstr "<link=\"FARMTILE\">Kasvatuslaatta</link>"
+msgstr "<link=\"CARPETTILE\">Nikkaroitu Laatta</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.DESC"
@@ -4101,11 +4002,6 @@ msgid "<link=\"CEILINGLIGHT\">Ceiling Light</link>"
 msgstr "<link=\"CEILINGLIGHT\">Kattolamppu</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC"
-#| msgid ""
-#| "Checkpoints can be connected to automated sensors to determine when it is "
-#| "safe to enter."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC"
 msgid ""
 "Checkpoints can be connected to automated sensors to determine when it's "
@@ -4127,9 +4023,6 @@ msgstr ""
 "link>."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_DESC"
-#| msgid "Duplicant Stop/Go"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT"
 msgid "Duplicant Stop/Go"
 msgstr "Jäljennäinen Pysähdy/Mene"
@@ -4149,6 +4042,8 @@ msgid ""
 "Prevents Duplicant passage while a <link=\"LOGIC\">Standby</link> signal is "
 "being received"
 msgstr ""
+"Estää Jäljennäisen läpikulun vastaanottaessaan <link=\"LOGIC"
+"\">Valmiustilassa</link>-signaalia."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.NAME"
@@ -4241,14 +4136,6 @@ msgstr ""
 "rakettia."
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT"
-#| msgid ""
-#| "Contains passenger seating for Duplicant <link=\"ASTRONAUT\">Astronauts</"
-#| "link>.\n"
-#| "\n"
-#| "A Command Capsule must be the last module installed at the top of a "
-#| "rocket."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT"
 msgid ""
 "Contains passenger seating for Duplicant <link=\"ASTRONAUT\">Astronauts</"
@@ -4256,22 +4143,22 @@ msgid ""
 "\n"
 "A Command Capsule must be the last module installed at the top of a rocket"
 msgstr ""
-"Sisältää matkustajan istuimen Jäljennäisastronautille.\n"
+"Sisältää matkustajaistumapaikat <link=\"ASTRONAUT\">Astronautti</"
+"link>jäljennäisille.\n"
 "\n"
 "Komentokapselin tulee olla viimeinen moduuli, asennettuna raketin päälle."
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ROCKY"
-#| msgid "Rocky"
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH"
 msgid "Launch Rocket"
-msgstr "Kivinen"
+msgstr "Laukaise Raketti"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_ACTIVE"
 msgid "Launches rockets when receiving an <link=\"LOGIC\">Active</link> signal"
 msgstr ""
+"Laukaisee raketteja vastaanottaessaan <link=\"LOGIC\">Aktiivinen</link>-"
+"signaalia"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_INACTIVE"
@@ -4279,27 +4166,22 @@ msgid ""
 "Awaits an Active signal when receiving a <link=\"LOGIC\">Standby</link> "
 "signal"
 msgstr ""
+"Odottaa Aktiivinen-signaalia vastaanottaessaan <link=\"LOGIC"
+"\">Valmiustilassa</link>-signaalia"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.NAME"
-#| msgid "No Checkpoint"
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY"
 msgid "Rocket Checklist"
-msgstr "Ei Tarkistuspistettä"
+msgstr "Raketin Tarkistuslista"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> when the configured Gas Element is "
-#| "detected."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE"
 msgid ""
 "Becomes <link=\"LOGIC\">Active</link> when its rocket launch checklist is "
 "complete"
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link>, kun säädetty Kaasu havaitaan."
+"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link>, kun raketin tarkistuslista on "
+"valmis"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_INACTIVE"
@@ -4307,6 +4189,8 @@ msgid ""
 "Goes on <link=\"LOGIC\">Standby</link> when its rocket launch checklist has "
 "unchecked items"
 msgstr ""
+"Menee <link=\"LOGIC\">Valmiustilaan</link> kun sen raketinlaukaisun "
+"tarkistuslistalla on tarkistatamattomia kohtia"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.NAME"
@@ -4340,12 +4224,9 @@ msgid "Marked for Emptying"
 msgstr "Merkitty Tyhjennettäväksi"
 
 #. STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP"
-#| msgid "Awaiting a Plumber to clear this pipe"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP"
 msgid "Awaiting a <link=\"PLUMBER\">Plumber</link> to clear this pipe"
-msgstr "Odottaa, että Putkimies tulee avaamaan tämän putken"
+msgstr "Odottaa <link=\"PLUMBER\">Putkimiestä</link> avaamaan tämän putken"
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC"
@@ -4376,9 +4257,10 @@ msgstr "<link=\"COOKINGSTATION\">Sähkögrilli</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CORNERMOULDING.DESC"
 msgid "Corner moulding is used as purely decorative trim for ceiling corners."
 msgstr ""
+"Kulmamuovausta käytetään pelkästään sisäkaton nurkkien koristeelliseen "
+"hienosäätöön."
 
 #. STRINGS.BUILDINGS.PREFABS.CORNERMOULDING.EFFECT
-#, fuzzy
 #| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.DESC"
 #| msgid ""
 #| "Duplicants with a high Decor Perception don't require as much <link="
@@ -4391,17 +4273,15 @@ msgid ""
 "Increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE"
 "\">Morale</link>."
 msgstr ""
-"Korkean Sisustuskäsityksen omaavat jäljennäiset eivät tarvitse yhtä paljon "
-"<link=\"DECOR\">Koristeellisuutta</link> pitääkseen <link=\"QUALITYOFLIFE"
-"\">Moraaliaan</link> korkealla."
+"Käytetään huoneiden sisäkattojen koristeluun.\n"
+"\n"
+"Parantaa <link=\"DECOR\">Koristeellisuutta</link>, kohottaen samalla <link="
+"\"MORALE\">Moraalia</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.CORNERMOULDING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.BUILDINGS"
-#| msgid "<link=\"BUILDINGS\">Buildings</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CORNERMOULDING.NAME"
 msgid "<link=\"CORNERMOULDING\">Corner Moulding</link>"
-msgstr "<link=\"BUILDINGS\">Rakennukset</link>"
+msgstr "<link=\"CORNERMOULDING\">Kulmamuovaus</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.DESC"
@@ -4444,19 +4324,13 @@ msgstr ""
 "uudelleensijoituspaikkoihin vapauttaakseen ne."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT"
-#| msgid ""
-#| "Releases trapped critters back into the world.\n"
-#| "\n"
-#| "Can be used multiple times."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT"
 msgid ""
 "Releases trapped <link=\"CRITTERS\">Critters</link> back into the world.\n"
 "\n"
 "Can be used multiple times."
 msgstr ""
-"Vapauttaa napatut otukset takaisin maailmaan\n"
+"Vapauttaa napatut <link=\"CRITTERS\">Otukset</link> takaisin maailmaan.\n"
 "\n"
 "Voidaan käyttää useita kertoja."
 
@@ -4475,13 +4349,12 @@ msgstr ""
 "heillä on Ruokkija."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT"
-#| msgid "Automatically dispenses food for hungry critters."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT"
 msgid ""
 "Automatically dispenses food for hungry <link=\"CRITTERS\">Critters</link>."
-msgstr "Annostelee automaattisesti nälkäisille otuksille ruokaa."
+msgstr ""
+"Annostelee automaattisesti nälkäisille <link=\"CRITTERS\">Otuksille</link> "
+"ruokaa."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.NAME"
@@ -4494,19 +4367,13 @@ msgid "Traps cannot catch flying critters."
 msgstr "Ansat eivät pysty nappaamaan lentäviä otuksia."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT"
-#| msgid ""
-#| "Captures a living critter for transport.\n"
-#| "\n"
-#| "Single use."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT"
 msgid ""
 "Captures a living <link=\"CRITTERS\">Critter</link> for transport.\n"
 "\n"
 "Single use."
 msgstr ""
-"Nappaa elävän otuksen kuljetusta varten.\n"
+"Nappaa elävän <link=\"CRITTERS\">Otuksen</link> kuljetusta varten.\n"
 "\n"
 "Kertakäyttöinen."
 
@@ -4519,14 +4386,9 @@ msgstr "<link=\"CREATURETRAP\">Otusansa</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.DESC"
 msgid "Crown moulding is used as purely decorative trim for ceilings."
 msgstr ""
+"Lakimuovausta käytetään pelkästään sisäkaton koristeelliseen hienosäätöön."
 
 #. STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.DESC"
-#| msgid ""
-#| "Duplicants with a high Decor Perception don't require as much <link="
-#| "\"DECOR\">Decor</link> to keep up their <link=\"QUALITYOFLIFE\">Morale</"
-#| "link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.EFFECT"
 msgid ""
 "Used to decorate the ceilings of rooms.\n"
@@ -4534,17 +4396,15 @@ msgid ""
 "Increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE"
 "\">Morale</link>."
 msgstr ""
-"Korkean Sisustuskäsityksen omaavat jäljennäiset eivät tarvitse yhtä paljon "
-"<link=\"DECOR\">Koristeellisuutta</link> pitääkseen <link=\"QUALITYOFLIFE"
-"\">Moraaliaan</link> korkealla."
+"Käytetään huoneiden sisäkattojen koristeluun.\n"
+"\n"
+"Parantaa <link=\"DECOR\">Koristeellisuutta</link>, kohottaen samalla <link="
+"\"MORALE\">Moraalia</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.BUILDINGS"
-#| msgid "<link=\"BUILDINGS\">Buildings</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.NAME"
 msgid "<link=\"CROWNMOULDING\">Crown Moulding</link>"
-msgstr "<link=\"BUILDINGS\">Rakennukset</link>"
+msgstr "<link=\"CROWNMOULDING\">Lakimuovaus</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC"
@@ -4593,12 +4453,6 @@ msgstr ""
 "tarvitsevat riittävän paineen toimiakseen."
 
 #. STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.EFFECT"
-#| msgid ""
-#| "Directionally moves large volumes of liquid through a channel.\n"
-#| "\n"
-#| "Can be used as floor tile and rotated before construction."
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.EFFECT"
 msgid ""
 "Directionally moves large volumes of <link=\"ELEMENTSLIQUID\">LIQUID</link> "
@@ -4606,7 +4460,8 @@ msgid ""
 "\n"
 "Can be used as floor tile and rotated before construction."
 msgstr ""
-"Siirtää suunnatusti suuria nestemääriä kanavassa.\n"
+"Siirtää suunnatusti suuria <link=\"ELEMENTSLIQUID\">NESTE</link>määriä "
+"kanavassa.\n"
 "\n"
 "Voidaan käyttää lattialaattana ja kääntää ennen rakentamista."
 
@@ -4621,12 +4476,6 @@ msgid "Gets hot and steamy."
 msgstr "Muuttuu kuumaksi ja höyryiseksi."
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT"
-#| msgid ""
-#| "Separates any <link=\"DIRTYWATER\">Polluted Water</link> piped through it "
-#| "into <link=\"STEAM\">Steam</link> and <link=\"TOXICSAND\">Polluted Dirt</"
-#| "link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.EFFECT"
 msgid ""
 "Separates any <link=\"DIRTYWATER\">Contaminated Water</link> piped through "
@@ -4635,7 +4484,7 @@ msgid ""
 msgstr ""
 "Erottelee kaiken sen läpi virtaavan <link=\"DIRTYWATER\">Saastuneen Veden</"
 "link> <link=\"STEAM\">Höyryksi</link> ja <link=\"TOXICSAND\">Saastuneeksi "
-"Mullaksi</link>"
+"Mullaksi</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DISTILLATIONCOLUMN.NAME"
@@ -4648,6 +4497,8 @@ msgid ""
 "Duplicants can receive treatment for intermediate sicknesses by a Doctor at "
 "a Sick Bay"
 msgstr ""
+"Jäljennäiset voivat saada hoitoa keskivaikeisiin sairauksiin Tohtorilta "
+"Sairastuvassa"
 
 #. STRINGS.BUILDINGS.PREFABS.DOCTORSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOCTORSTATION.EFFECT"
@@ -4655,14 +4506,13 @@ msgid ""
 "Duplicants can receive treatment for intermediate sicknesses by a Doctor at "
 "a Sick Bay"
 msgstr ""
+"Jäljennäiset voivat saada hoitoa keskivaikeisiin sairauksiin Tohtorilta "
+"Sairastuvassa"
 
 #. STRINGS.BUILDINGS.PREFABS.DOCTORSTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.NAME"
-#| msgid "<link=\"ROLESTATION\">Jobs Board</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOCTORSTATION.NAME"
 msgid "<link=\"DOCTORSTATION\">Sick Bay</link>"
-msgstr "<link=\"ROLESTATION\">Työtaulu</link>"
+msgstr "<link=\"DOCTORSTATION\">Sairastupa</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.ABOVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.ABOVE"
@@ -4713,15 +4563,6 @@ msgstr ""
 "Oven ohjaimilla voidaan estää Jäljennäisiä pääsemästä suljetuille alueille."
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.EFFECT"
-#| msgid ""
-#| "Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or "
-#| "<link=\"ELEMENTSGAS\">Gas</link> flow.\n"
-#| "\n"
-#| "Sets Duplicant Access Permissions for area restriction.\n"
-#| "\n"
-#| "Wild critters cannot pass through doors."
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.EFFECT"
 msgid ""
 "Encloses areas without blocking <link=\"ELEMENTSLIQUID\">Liquid</link> or "
@@ -4731,12 +4572,12 @@ msgid ""
 "\n"
 "Wild <link=\"CRITTERS\">Critters</link> cannot pass through doors."
 msgstr ""
-"Eristää alueita päästäen <link=\"ELEMENTSLIQUID\">Nesteen</link> ja <link="
-"\"ELEMENTSGAS\">Kaasun</link> virtaamaan läpi.\n"
+"Eristää alueita pysäyttämättä <link=\"ELEMENTSLIQUID\">Neste-</link> tai "
+"<link=\"ELEMENTSGAS\">Kaasu-</link>virtoja. \n"
 "\n"
 "Asettaa Jäljennäisten Pääsyluvat alueen sulkemiseksi.\n"
 "\n"
-"Villit otukset eivät pääse kulkemaan ovista."
+"Villit <link=\"CRITTERS\">Otukset</link>eivät pääse kulkemaan ovista."
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LEFT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LEFT"
@@ -4744,9 +4585,6 @@ msgid "on left"
 msgstr "vasemmalla"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_PORT_DESC"
-#| msgid "Open/Close"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN"
 msgid "Open/Close"
 msgstr "Avaa/Sulje"
@@ -4757,6 +4595,8 @@ msgid ""
 "Opens with Duplicant proximity while an <link=\"LOGIC\">Active</link> signal "
 "is being received"
 msgstr ""
+"Avautuu Jäljennäisen läheisyydessä vastaanottaessaan <link=\"LOGIC"
+"\">Aktiivinen</link>-signaalia"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_INACTIVE"
@@ -4764,6 +4604,8 @@ msgid ""
 "Closes and locks while a <link=\"LOGIC\">Standby</link> signal is being "
 "received"
 msgstr ""
+"Sulkeutuu ja lukkiutuu vastaanottaessaan <link=\"LOGIC\">Valmiustilassa</"
+"link>-signaalia"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.NAME"
@@ -4771,20 +4613,14 @@ msgid "<link=\"DOOR\">Pneumatic Door</link>"
 msgstr "<link=\"DOOR\">Paineilmaovi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.IDEAL_PRESSURE"
-#| msgid "<link=\"ATMOSPHERE\">Air</link> Pressure: {0}"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED"
 msgid "<link=\"ATMOSUIT\">Atmo Suit</link> not required {0}"
-msgstr "<link=\"ATMOSPHERE\">Ilman</link>paine: {0}"
+msgstr "<link=\"ATMOSUIT\">Happipukua</link> ei tarvita {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.IDEAL_PRESSURE"
-#| msgid "<link=\"ATMOSPHERE\">Air</link> Pressure: {0}"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED"
 msgid "<link=\"ATMOSUIT\">Atmo Suit</link> required {0}"
-msgstr "<link=\"ATMOSPHERE\">Ilman</link>paine: {0}"
+msgstr "<link=\"ATMOSUIT\">Happipuku</link> tarvitaan {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT"
@@ -4797,14 +4633,6 @@ msgid "Raw eggs are an ingredient in some high quality food recipes."
 msgstr "Raa'at munat ovat ainesosia joissakin korkealaatuisissa resepteissä."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT"
-#| msgid ""
-#| "Converts viable critter eggs into cooking ingredients.\n"
-#| "\n"
-#| "Cracked Eggs cannot hatch.\n"
-#| "\n"
-#| "Duplicants will not crack eggs unless tasks are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT"
 msgid ""
 "Converts viable <link=\"CRITTERS\">Critter</link> eggs into cooking "
@@ -4814,11 +4642,12 @@ msgid ""
 "\n"
 "Duplicants will not crack eggs unless tasks are queued."
 msgstr ""
-"Muuttaa sopivat otusten munat ruuanlaittoainesosiksi.\n"
+"Muuttaa sopivat <link=\"CRITTERS\">Otusten</link> munat "
+"ruuanlaittoainesosiksi.\n"
 "\n"
 "Rikotut munat eivät voi kuoriutua.\n"
 "\n"
-"Jäljennäiset eivät riko munia, mikäli tehtäviä ei ole jonossa."
+"Jäljennäiset eivät riko munia, ellei tehtäviä ole jonossa."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME"
@@ -4844,13 +4673,6 @@ msgstr ""
 "Hautomot voivat ylläpitää ideaaleja olosuhteita usean otuslajin munille."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT"
-#| msgid ""
-#| "Incubates critter eggs until ready to hatch.\n"
-#| "\n"
-#| "Assigned Duplicants must possess the <link=\"RANCHER\">Critter Wrangling</"
-#| "link> trait."
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT"
 msgid ""
 "Incubates <link=\"CRITTERS\">Critter</link> eggs until ready to hatch.\n"
@@ -4858,7 +4680,8 @@ msgid ""
 "Assigned Duplicants must possess the <link=\"RANCHER\">Critter Wrangling</"
 "link> trait."
 msgstr ""
-"Hautoo otuksen munia kunnes ne ovat valmiita kuoriutumaan.\n"
+"Hautoo <link=\"CRITTERS\">Otusten</link> munia kunnes ne ovat valmiita "
+"kuoriutumaan.\n"
 "\n"
 "Nimetyillä Jäljennäisillä täytyy olla <link=\"RANCHER\">Otuksenhallinta</"
 "link>taito."
@@ -4899,12 +4722,6 @@ msgid "A shot of espresso helps Duplicants relax after a long day."
 msgstr "Espressopaukku auttaa Jäljennäisiä rentoutumaan pitkän päivän jälkeen."
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT"
-#| msgid ""
-#| "Provides refreshment for Duplicants on their breaks.\n"
-#| "\n"
-#| "Increases Duplicant Morale."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT"
 msgid ""
 "Provides refreshment for Duplicants on their breaks.\n"
@@ -4913,7 +4730,7 @@ msgid ""
 msgstr ""
 "Tarjoaa virvokkeita Jäljennäisille heidän pitäessä taukoaan.\n"
 "\n"
-"Nostaa Jäljennäisten Moraalia."
+"Nostaa Jäljennäisten <link=\"MORALE\">Moraalia</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.NAME"
@@ -4921,11 +4738,6 @@ msgid "<link=\"ESPRESSOMACHINE\">Espresso Machine</link>"
 msgstr "<link=\"ESPRESSOMACHINE\">Espresso-kone</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
-#| msgid ""
-#| "Drywall can be used in conjunction with tiles to build airtight rooms on "
-#| "the surface."
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
 msgid ""
 "Drywall can be used in conjunction with tile to build airtight rooms on the "
@@ -4935,12 +4747,6 @@ msgstr ""
 "huoneita pinnalle."
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
-#| msgid ""
-#| "Prevents gas and liquid loss in space.\n"
-#| "\n"
-#| "Builds an insulating backwall behind buildings."
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
 msgid ""
 "Prevents <link=\"ELEMENTSGAS\">Gas</link> and <link=\"ELEMENTSLIQUID"
@@ -4948,7 +4754,8 @@ msgid ""
 "\n"
 "Builds an insulating backwall behind buildings."
 msgstr ""
-"Estää kaasujen ja nesteiden häviämisen avaruuteen.\n"
+"Estää <link=\"ELEMENTSGAS\">Kaasujen</link> ja <link=\"ELEMENTSLIQUID"
+"\">Nesteiden</link> karkaamisen avaruuteen.\n"
 "\n"
 "Muodostaa eristävän takaseinän rakennusten taakse."
 
@@ -4968,12 +4775,9 @@ msgid "A tall, thin window."
 msgstr "Korkea, ohut ikkuna."
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME"
-#| msgid "<link=\"\">Window</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME"
 msgid "<link=\"FACILITYBACKWALLWINDOW\">Window</link>"
-msgstr "<link=\"\">Ikkuna</link>"
+msgstr "<link=\"FACILITYBACKWALLWINDOW\">Ikkuna</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC"
@@ -4981,16 +4785,6 @@ msgid "This station only has an effect on crops grown within the same room."
 msgstr "Tämä työpiste vaikuttaa ainoastaan samassa tilassa kasvaviin satoihin."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT"
-#| msgid ""
-#| "Produces Micronutrient Fertilizer to increase <link=\"PLANTS\">Plant</"
-#| "link> growth rates.\n"
-#| "\n"
-#| "Assigned Duplicants must possess the <link=\"FARMER\">Crop Tending</link> "
-#| "trait.\n"
-#| "\n"
-#| "This building is a necessary component of the Greenhouse room."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT"
 msgid ""
 "Produces <link=\"FARMSTATIONTOOLS\">Micronutrient Fertilizer</link> to "
@@ -5001,8 +4795,8 @@ msgid ""
 "\n"
 "This building is a necessary component of the Greenhouse room."
 msgstr ""
-"Tuottaa Mikroravinnelannoitetta parantaakseen <link=\"PLANTS\">Kasvien</"
-"link> kasvamista.\n"
+"Tuottaa <link=\"FARMSTATIONTOOLS\">Mikroravinnelannoitetta</link> "
+"parantamaan <link=\"PLANTS\">Kasvien</link> kasvamista.\n"
 "\n"
 "Nimetyillä Jäljennäisillä tulee olla <link=\"FARMER\">Kasvienhoito</"
 "link>taito.\n"
@@ -5015,11 +4809,6 @@ msgid "<link=\"FARMSTATION\">Farm Station</link>"
 msgstr "<link=\"FARMSTATION\">Viljelytyöpiste</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC"
-#| msgid ""
-#| "Duplicants can deliver fertilizer and liquids to farm tiles, accelerating "
-#| "plant growth."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC"
 msgid ""
 "Duplicants can deliver fertilizer and liquids to farm tile, accelerating "
@@ -5047,11 +4836,6 @@ msgid "<link=\"FARMTILE\">Farm Tile</link>"
 msgstr "<link=\"FARMTILE\">Kasvatuslaatta</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC"
-#| msgid ""
-#| "Fertilizer Synthesizers convert polluted dirt into fertilizer for "
-#| "domestic plants."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC"
 msgid ""
 "Fertilizer synthesizers convert polluted dirt into fertilizer for domestic "
@@ -5108,19 +4892,13 @@ msgstr ""
 "tukehtuisi."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT"
-#| msgid ""
-#| "Releases trapped fish back into the world.\n"
-#| "\n"
-#| "Can be used multiple times."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT"
 msgid ""
 "Releases trapped <link=\"PACU\">Pacu</link> back into the world.\n"
 "\n"
 "Can be used multiple times."
 msgstr ""
-"Vapauttaa napatut kalat takaisin maailmaan.\n"
+"Vapauttaa napatut <link=\"PACU\">Pacut</link> takaisin maailmaan.\n"
 "\n"
 "Voidaan käyttää useita kertoja."
 
@@ -5136,12 +4914,6 @@ msgstr ""
 "Rakenna tämä ruokkija veden yläpuolelle ruokkiaksesi siellä uivia kaloja."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT"
-#| msgid ""
-#| "Automatically dispenses stored food into the area below.\n"
-#| "\n"
-#| "Dispenses once per day."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT"
 msgid ""
 "Automatically dispenses stored <link=\"CRITTERS\">Critter</link>food into "
@@ -5149,7 +4921,8 @@ msgid ""
 "\n"
 "Dispenses once per day."
 msgstr ""
-"Annostelee ruokaa automaattisesti alla olevaan tilaan.\n"
+"Annostelee <link=\"CRITTERS\">Otuksen</link>ruokaa automaattisesti alla "
+"olevaan tilaan.\n"
 "\n"
 "Vapauttaa yhden annoksen päivässä."
 
@@ -5164,19 +4937,13 @@ msgid "Trapped fish will automatically be bagged for transport."
 msgstr "Kiinni jääneet kalat pussitetaan automaattisesti kuljetusta varten."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT"
-#| msgid ""
-#| "Attracts and traps swimming fish.\n"
-#| "\n"
-#| "Single use."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHTRAP.EFFECT"
 msgid ""
 "Attracts and traps swimming <link=\"PACU\">Pacu</link>.\n"
 "\n"
 "Single use."
 msgstr ""
-"Houkuttelee ja sieppaa uivia kaloja.\n"
+"Houkuttelee ja sieppaa uivia <link=\"PACU\">Pacuja</link>.\n"
 "\n"
 "Kertakäyttöinen."
 
@@ -5253,6 +5020,11 @@ msgid ""
 "Increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE"
 "\">Morale</link>."
 msgstr ""
+"Tarjoaa kasvualustan yhdelle <link=\"PLANTS\">Kasville</link>, kun siihen "
+"istutetaan <link=\"PLANTS\">Siemen</link>.\n"
+"\n"
+"Parantaa <link=\"DECOR\">Koristeellisuutta</link>, kohottaen siten <link="
+"\"MORALE\">Moralia</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME"
@@ -5279,12 +5051,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME"
-#| msgid "<link=\"FLOWERVASE\">Flower Pot</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.NAME"
 msgid "<link=\"FLOWERVASEHANGING\">Hanging Pot</link>"
-msgstr "<link=\"FLOWERVASE\">Kukkaruukku</link>"
+msgstr "<link=\"FLOWERVASEHANGING\">Roikkuva Ruukku</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.DESC"
@@ -5305,12 +5074,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME"
-#| msgid "<link=\"FLOWERVASE\">Flower Pot</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.NAME"
 msgid "<link=\"FLOWERVASEHANGINGFANCY\">Aero Pot</link>"
-msgstr "<link=\"FLOWERVASE\">Kukkaruukku</link>"
+msgstr "<link=\"FLOWERVASEHANGINGFANCY\">Leijuva Ruukku</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.DESC"
@@ -5332,12 +5098,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.NAME"
-#| msgid "<link=\"FLOWERVASE\">Flower Pot</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.NAME"
 msgid "<link=\"FLOWERVASEWALL\">Wall Pot</link>"
-msgstr "<link=\"FLOWERVASE\">Kukkaruukku</link>"
+msgstr "<link=\"FLOWERVASEWALL\">Seinäruukku</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC"
@@ -5363,15 +5126,11 @@ msgid "<link=\"FLUSHTOILET\">Lavatory</link>"
 msgstr "<link=\"FLUSHTOILET\">Vessa</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.DESC"
-#| msgid ""
-#| "A gantry can be built over rocket pieces where tiles and ladders cannot."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.DESC"
 msgid "A gantry can be built over rocket pieces where ladders and tile cannot."
 msgstr ""
-"Nosturiteline voidaan rakentaa rakettipalojen päälle, sinne mihin laattoja "
-"tai tikkaita ei voi."
+"Nosturiteline voidaan rakentaa rakettipalojen päälle, sinne mihin tikkaita "
+"ja laattoja ei."
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT"
@@ -5381,23 +5140,24 @@ msgstr ""
 "pääsyn."
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GANTRY.EXTENDED"
-#| msgid "Extended"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT"
 msgid "Extend/Retract"
-msgstr "Ulosvedetty"
+msgstr "Ojenna/Vedä Sisään"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_ACTIVE"
 msgid "Extends gantry when an <link=\"LOGIC\">Active</link> signal is received"
 msgstr ""
+"Ojentaa nosturisillan vastaanottaessaan <link=\"LOGIC\">Aktiivinen</link>-"
+"signaalia"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_INACTIVE"
 msgid ""
 "Retracts gantry when a <link=\"LOGIC\">Standby</link> signal is received"
 msgstr ""
+"Vetää nosturisillan vastaanottaessaan <link=\"LOGIC\">Valmiustilassa</link>-"
+"signaalia"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.NAME"
@@ -5405,10 +5165,6 @@ msgid "<link=\"GANTRY\">Gantry</link>"
 msgstr "<link=\"GANTRY\">Nosturiteline</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC"
-#| msgid ""
-#| "Canisters allow Duplicants to manually delivery gases from place to place."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC"
 msgid ""
 "Canisters allow Duplicants to manually deliver gases from place to place."
@@ -5554,12 +5310,9 @@ msgstr ""
 "määrästä."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NAME"
-#| msgid "<link=\"DISEASE\">Diseases</link> Contracted:"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT"
 msgid "Internal <link=\"DISEASE\">Germ</link> Count"
-msgstr "<link=\"DISEASE\">Tauteja</link> Tarttunut:"
+msgstr "Sisäisten <link=\"DISEASE\">Bakteerien</link> Lukumäärä"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_ACTIVE
 #, fuzzy
@@ -5606,17 +5359,13 @@ msgstr ""
 "putkessa"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> when the configured Gas Element is "
-#| "detected."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
 msgid ""
 "Becomes <link=\"LOGIC\">Active</link> when the chosen <link=\"ELEMENTSGAS"
 "\">Gas</link> is detected."
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link>, kun säädetty Kaasu havaitaan."
+"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link>, kun valittu <link=\"ELEMENTSGAS"
+"\">Kaasu</link> havaitaan."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT
 #, fuzzy
@@ -5713,13 +5462,6 @@ msgstr ""
 "läpi niiden viilentämiseksi."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT"
-#| msgid ""
-#| "Carries <link=\"ELEMENTSGAS\">Gas</link>, allowing extreme <link=\"HEAT"
-#| "\">Temperature</link> exchange with the surrounding environment.\n"
-#| "\n"
-#| "Can be run through tiles."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT"
 msgid ""
 "Carries <link=\"ELEMENTSGAS\">Gas</link>, allowing extreme <link=\"HEAT"
@@ -5730,7 +5472,7 @@ msgstr ""
 "Kuljettaa <link=\"ELEMENTSGAS\">Kaasua</link> mahdollistaen äärimmäisen "
 "<link=\"HEAT\">Lämpötilan</link> vaihdon ympäristön kanssa.\n"
 "\n"
-"Voidaan rakentaa laattojen sisään."
+"Voidaan rakentaa menemään laattojen läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME"
@@ -5738,18 +5480,13 @@ msgid "<link=\"GASCONDUITRADIANT\">Radiant Gas Pipe</link>"
 msgstr "<link=\"GASCONDUITRADIANT\">Säteilevä Kaasuputki</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.DESC"
-#| msgid ""
-#| "Liquid Pipe Thermo Sensors can disable buildings when their contents "
-#| "reach a certain temperature."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC"
 msgid ""
 "Thermo sensors can disable buildings when their pipe contents reach a "
 "certain temperature."
 msgstr ""
-"Nesteputken Lämpötilatunnistimet voivat kytkeä rakennuksia pois toiminnasta, "
-"kun sisältö saavuttaa tietyn lämpötilan."
+"Lämpötilatunnistimet voivat kytkeä rakennuksia pois toiminnasta, kun sisältö "
+"saavuttaa tietyn lämpötilan."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT
 #, fuzzy
@@ -5858,9 +5595,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_PORT_DESC"
-#| msgid "Open/Close"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.LOGIC_PORT"
 msgid "Open/Close"
 msgstr "Avaa/Sulje"
@@ -6134,12 +5868,9 @@ msgid "Neural Vacillator"
 msgstr "Hermovaihtelija"
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.DESC"
-#| msgid "Glass can be used to construct window tiles."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.DESC"
 msgid "Glass can be used to construct window tile."
-msgstr "Lasia voidaan käyttää lasiruutujen valmistamiseen."
+msgstr "Lasia voidaan käyttää ikkunaruutujen rakentamiseen."
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.EFFECT"
@@ -6453,18 +6184,16 @@ msgid ""
 "\">Heat</link>."
 msgstr "Haihduttaa pienen määrän <link=\"HEAT\">Lämpöä</link>."
 
+# Tätä pitää miettiä uudestaan
 #. STRINGS.BUILDINGS.PREFABS.ICECOOLEDFAN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.ICE.NAME"
-#| msgid "<link=\"ICE\">Ice</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICECOOLEDFAN.NAME"
 msgid "<link=\"ICECOOLEDFAN\">Ice-E Fan</link>"
-msgstr "<link=\"ICE\">Jää</link>"
+msgstr "<link=\"ICECOOLEDFAN\">J-ÄÄ Tuuletin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ICEMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICEMACHINE.DESC"
 msgid "Ice makers can be used as a small renewable source of ice."
-msgstr ""
+msgstr "Jääkoneita voidaan käyttää pieninä, uusiutuvina jäälähteinä."
 
 #. STRINGS.BUILDINGS.PREFABS.ICEMACHINE.EFFECT
 #, fuzzy
@@ -6477,25 +6206,19 @@ msgstr ""
 "Muuttaa <link=\"CLAY\">Saven</link> <link=\"CERAMIC\">Keramiikaksi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ICEMACHINE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.ICE.NAME"
-#| msgid "<link=\"ICE\">Ice</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICEMACHINE.NAME"
 msgid "<link=\"ICEMACHINE\">Ice Maker</link>"
-msgstr "<link=\"ICE\">Jää</link>"
+msgstr "<link=\"ICEMACHINE\">Jääkone</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-#| msgid "Genius Ice Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
 msgid "Mediocre Ice Sculpture"
-msgstr "Nerokas Jääveistos"
+msgstr "Keskinkertainen Jääveistos"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC"
 msgid "Prone to melting."
-msgstr ""
+msgstr "Altis sulamiselle."
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EFFECT
 #, fuzzy
@@ -6518,9 +6241,6 @@ msgstr ""
 "Jäljennäisen täytyy veistää tämä."
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EXCELLENTQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-#| msgid "Genius Ice Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EXCELLENTQUALITYNAME"
 msgid "Genius Ice Sculpture"
 msgstr "Nerokas Jääveistos"
@@ -7249,7 +6969,7 @@ msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
 "Active when the contained liquid's temperature matches its configuration."
-msgstr ""
+msgstr "Aktiivinen, kun sisältämän nesteen lämpötila vastaa sen asetusta."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE
 msgctxt ""
@@ -7258,6 +6978,7 @@ msgid ""
 "Standby when the contained liquid's temperature does not match its "
 "configuration."
 msgstr ""
+"Valmiustilassa, kun sen sisältämän nesteen lämpötila ei vastaa sen asetusta."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.NAME"
@@ -7385,9 +7106,6 @@ msgstr ""
 "<link=\"ELEMENTSLIQUID\">Nestemäiseen</link> olomuotoon."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_PORT_DESC"
-#| msgid "Open/Close"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.LOGIC_PORT"
 msgid "Open/Close"
 msgstr "Avaa/Sulje"
@@ -7514,19 +7232,15 @@ msgstr "<link=\"LIQUIDPUMPINGSTATION\">Pumppukaivo</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDRESERVOIR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDRESERVOIR.DESC"
 msgid "Reservoirs cannot receive manually delivered resources."
-msgstr ""
+msgstr "Vesialtaat eivät voi vastaanottaa käsin tuotuja resursseja."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDRESERVOIR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDRESERVOIR.EFFECT"
-#| msgid ""
-#| "Stores the <link=\"ELEMENTSLIQUID\">Liquid</link> resources of your "
-#| "choosing."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDRESERVOIR.EFFECT"
 msgid ""
 "Stores any <link=\"ELEMENTSLIQUID\">Liquid</link> resources piped into it."
 msgstr ""
-"Varastoi valitsemasi <link=\"ELEMENTSLIQUID\">Nestemäisen</link> resurssin."
+"Varastoi kaiken siihen putkista tulevan <link=\"ELEMENTSLIQUID\">Nesteen</"
+"link>."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDRESERVOIR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDRESERVOIR.NAME"
@@ -7580,6 +7294,8 @@ msgid ""
 "Detecting critter populations can help adjust their automated feeding and "
 "care regiments."
 msgstr ""
+"Otuspopulaatioiden havaitseminen voi auttaa niiden automatisoidun ruokinnan "
+"ja hoidon kanssa."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.EFFECT
 #, fuzzy
@@ -7598,12 +7314,9 @@ msgstr ""
 "määrästä."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.IN_PEN.NAME"
-#| msgid "Critter Pen"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT"
 msgid "Critter Count"
-msgstr "Otusaitaus"
+msgstr "Otuslukumäärä"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT_ACTIVE"
@@ -7620,12 +7333,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME"
-#| msgid "<link=\"LOGICDISEASESENSOR\">Germ Sensor</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.NAME"
 msgid "<link=\"LOGICCRITTERCOUNTSENSOR\">Critter Sensor</link>"
-msgstr "<link=\"LOGICDISEASESENSOR\">Mikrobitunnistin</link>"
+msgstr "<link=\"LOGICCRITTERCOUNTSENSOR\">Otushavaitsin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.DESC"
@@ -7633,6 +7343,8 @@ msgid ""
 "Automatically detecting germ populations can help block off or clean up "
 "dangerous areas."
 msgstr ""
+"Bakteeripopulaatioiden automaattinen havaitseminen voi auttaa vaarallisten "
+"alueiden eristämisessä ja siivoamisessa."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT
 #, fuzzy
@@ -8012,12 +7724,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.OUTPUT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME"
-#| msgid "Filter Settings"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.OUTPUT_NAME"
 msgid "Filtered Signal"
-msgstr "Suodatusasetukset"
+msgstr "Suodatettu Signaali"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.DESC"
@@ -8073,7 +7782,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.OUTPUT_NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.OUTPUT_NAME"
 msgid "NOT Gate"
-msgstr ""
+msgstr "NOT-Portti"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.DESC"
@@ -8259,12 +7968,9 @@ msgstr ""
 "yli {0}%:n"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_DESC"
-#| msgid "Make Active"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT"
 msgid "Clear Active"
-msgstr "Tee Aktiiviseksi"
+msgstr "Tyhjennä Aktiivinen"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_ACTIVE"
@@ -8274,31 +7980,14 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
-"Language-Team: \n"
-"Language: fi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.2.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.STATUS_ACTIVE"
-#| msgid "Switch Active"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT"
 msgid "Set Active"
-msgstr "Kytkin Aktiivinen"
+msgstr "Aseta Aktiivinen"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_ACTIVE"
@@ -8308,23 +7997,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_INACTIVE
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_INACTIVE"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
-"Language-Team: \n"
-"Language: fi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.2.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE"
@@ -8359,12 +8034,9 @@ msgstr ""
 "Ei vaikuta kytkintä edeltävään piiriin."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPOWER.NAME"
-#| msgid "No Power"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT"
 msgid "Kill Power"
-msgstr "Ei Virtaa"
+msgstr "Tapa Virta"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_ACTIVE"
@@ -8409,12 +8081,9 @@ msgstr ""
 "\">Valmiustilaan</link> kun Kaasun paine on valitulla välillä."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSGAS"
-#| msgid "<link=\"ELEMENTSGAS\">Gases</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT"
 msgid "<link=\"ELEMENTSGAS\">Gas</link> Pressure"
-msgstr "<link=\"ELEMENTSGAS\">Kaasut</link>"
+msgstr "<link=\"ELEMENTSGAS\">Kaasun</link> Paine"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_ACTIVE
 #, fuzzy
@@ -8478,12 +8147,9 @@ msgstr ""
 "Täytyy olla upotettuna <link=\"ELEMENTSLIQUID\">Nesteeseen</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSLIQUID"
-#| msgid "<link=\"ELEMENTSLIQUID\">Liquids</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT"
 msgid "<link=\"ELEMENTSLIQUID\">Liquid</link> Pressure"
-msgstr "<link=\"ELEMENTSLIQUID\">Nesteet</link>"
+msgstr "<link=\"ELEMENTSLIQUID\">Nesteen</link> Paine"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_ACTIVE
 #, fuzzy
@@ -8535,12 +8201,9 @@ msgstr ""
 "Jäljennäisen täytyy käsikäyttöisesti käydä vaihtamassa."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.TOGGLE.NAME"
-#| msgid "Toggle"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT"
 msgid "Signal Toggle"
-msgstr "Vaihda"
+msgstr "Signaalin Vaihto"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_ACTIVE
 #, fuzzy
@@ -8754,12 +8417,9 @@ msgstr ""
 "Voidaan rakentaa laattojen lävitse."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.ELEMENTTRANSITIONS"
-#| msgid "Transitions"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT"
 msgid "Transmit Signal"
-msgstr "Siirtymiset"
+msgstr "Lähetä Signaali"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_ACTIVE
 #, fuzzy
@@ -8902,12 +8562,9 @@ msgid "<link=\"MANUALPRESSUREDOOR\">Manual Airlock</link>"
 msgstr "<link=\"MANUALPRESSUREDOOR\">Käsikäyttöinen Ilmalukko</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.AVERAGEQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-#| msgid "Genius Ice Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.AVERAGEQUALITYNAME"
 msgid "Mediocre Marble Sculpture"
-msgstr "Nerokas Jääveistos"
+msgstr "Keskinkertainen Marmoriveistos"
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.DESC
 #, fuzzy
@@ -8944,12 +8601,9 @@ msgstr ""
 "Jäljennäisen täytyy veistää tämä."
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.EXCELLENTQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-#| msgid "Genius Ice Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.EXCELLENTQUALITYNAME"
 msgid "Genius Marble Sculpture"
-msgstr "Nerokas Jääveistos"
+msgstr "Nerokas Marmoriveistos"
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.NAME
 #, fuzzy
@@ -8960,12 +8614,9 @@ msgid "<link=\"MARBLESCULPTURE\">Marble Block</link>"
 msgstr "<link=\"ICESCULPTURE\">Jääkuutio</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.POORQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.POORQUALITYNAME"
-#| msgid "\"Abstract\" Ice Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.POORQUALITYNAME"
 msgid "\"Abstract\" Marble Sculpture"
-msgstr "\"Abstrakti\" Jääveistos"
+msgstr "\"Abstrakti\" Marmoriveistos"
 
 #. STRINGS.BUILDINGS.PREFABS.MASSAGETABLE.ACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSAGETABLE.ACTIVATE_TOOLTIP"
@@ -9063,19 +8714,11 @@ msgstr ""
 "vammojen parantamista."
 
 #. STRINGS.BUILDINGS.PREFABS.MEDICALCOT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MEDICALCOT.NAME"
-#| msgid "<link=\"MEDICALCOT\">Med-Bed</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.MEDICALCOT.NAME"
 msgid "<link=\"MEDICALCOT\">Triage Cot</link>"
-msgstr "<link=\"MEDICALCOT\">Sairaalasänky</link>"
+msgstr "<link=\"MEDICALCOT\">Sairaalapinnasänky</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MESHTILE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MESHTILE.DESC"
-#| msgid ""
-#| "Mesh tiles can be used to make Duplicant pathways in areas where liquid "
-#| "needs to flow."
 msgctxt "STRINGS.BUILDINGS.PREFABS.MESHTILE.DESC"
 msgid ""
 "Mesh tile can be used to make Duplicant pathways in areas where liquid needs "
@@ -9147,12 +8790,9 @@ msgid "Extracts pure {0} from {1}."
 msgstr "Tuottaa puhdasta {0}ainetta {1}aineesta."
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.AVERAGEQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-#| msgid "Genius Ice Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.AVERAGEQUALITYNAME"
 msgid "Mediocre Metal Sculpture"
-msgstr "Nerokas Jääveistos"
+msgstr "Keskinkertainen Metalliveistos"
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.DESC
 #, fuzzy
@@ -9189,12 +8829,9 @@ msgstr ""
 "Jäljennäisen täytyy veistää tämä."
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.EXCELLENTQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-#| msgid "Genius Ice Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.EXCELLENTQUALITYNAME"
 msgid "Genius Metal Sculpture"
-msgstr "Nerokas Jääveistos"
+msgstr "Nerokas Metalliveistos"
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.NAME
 #, fuzzy
@@ -9205,12 +8842,9 @@ msgid "<link=\"METALSCULPTURE\">Metal Block</link>"
 msgstr "<link=\"ICESCULPTURE\">Jääkuutio</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.POORQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.POORQUALITYNAME"
-#| msgid "\"Abstract\" Ice Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.POORQUALITYNAME"
 msgid "\"Abstract\" Metal Sculpture"
-msgstr "\"Abstrakti\" Jääveistos"
+msgstr "\"Abstrakti\" Metalliveistos"
 
 #. STRINGS.BUILDINGS.PREFABS.METALTILE.DESC
 #, fuzzy
@@ -9352,17 +8986,17 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MOULDINGTILE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.NAME"
-#| msgid "<link=\"FARMTILE\">Farm Tile</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.MOULDINGTILE.NAME"
 msgid "<link=\"MOUDLINGTILE\">Trimming Tile</link>"
-msgstr "<link=\"FARMTILE\">Kasvatuslaatta</link>"
+msgstr "<link=\"MOUDLINGTILE\">Hienosäätölaatta</link>"
 
+# vai "Automaatit"?
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.DESC"
 msgid "Automatic dispensers will store and drop a small amount of objects."
 msgstr ""
+"Automaattiset jakelulaitteet varastoivat ja pudottavat pieniä määriä "
+"esineitä."
 
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.EFFECT"
@@ -9375,12 +9009,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGERERROR"
-#| msgid "DebugTriggerError"
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT"
 msgid "Dump Trigger"
-msgstr "DebugLaukaiseVirhe"
+msgstr "Pudotuslaukaisin"
 
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT_ACTIVE"
@@ -9388,19 +9019,21 @@ msgid ""
 "Dumps all stored materials when it receives an <link=\"LOGIC\">Active</link> "
 "signal"
 msgstr ""
+"Pudottaa kaikki varastoidut materiaalit vastaanottaessaan <link=\"LOGIC"
+"\">Aktiivinen</link>-signaalin"
 
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT_INACTIVE"
 msgid "Holds materials while receiving a <link=\"LOGIC\">Standby</link> signal"
 msgstr ""
+"Pitää materiaaleja vastaanottaessaan <link=\"LOGIC\">Valmiustilassa</link>-"
+"signaalia"
 
+# vai ihan vaan "Automaatti"?
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.DISEASE"
-#| msgid "<link=\"DISEASE\">Disease</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.NAME"
 msgid "<link=\"OBJECTDISPENSER\">Automatic Dispenser</link>"
-msgstr "<link=\"DISEASE\">Sairaus</link>"
+msgstr "<link=\"OBJECTDISPENSER\">Automaattinen Jakelulaite</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OILREFINERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OILREFINERY.DESC"
@@ -9514,31 +9147,27 @@ msgid ""
 "Solid oxidizers allows rocket fuel to be efficiently burned in the vacuum of "
 "space."
 msgstr ""
+"Kiinteät hapettimet mahdollistavat raketin polttoaineen tehokkaan palamisen "
+"avaruuden tyhjössä."
 
+# Sanalle "polttaa" ei nyt keksi tähän synonyymiä
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT"
-#| msgid ""
-#| "Stores <link=\"OXYROCK\">Oxylite</link> or <link=\"LIQUIDOXYGEN\">Liquid "
-#| "Oxygen</link> for burning rocket fuels."
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT"
 msgid "Stores <link=\"OXYROCK\">Oxylite</link> for burning rocket fuels."
 msgstr ""
-"Varastoi <link=\"OXYROCK\">Oksyliittiä</link> tai <link=\"LIQUIDOXYGEN"
-"\">Nestemäistä Happea</link> rakettien polttoaineiden palamiseen."
+"Varastoi <link=\"OXYROCK\">Oksyliittiä</link> raketin polttoaineiden "
+"palamista varten."
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME"
-#| msgid "<link=\"OXIDIZERTANK\">Oxidizer Tank</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME"
 msgid "<link=\"OXIDIZERTANK\">Solid Oxidizer Tank</link>"
-msgstr "<link=\"OXIDIZERTANK\">Hapetinsäiliö</link>"
+msgstr "<link=\"OXIDIZERTANK\">Kiinteän Happetimen Säiliö</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.DESC"
 msgid "Liquid oxygen improves the thrust-to-mass ratio of rocket fuels."
 msgstr ""
+"Nestemäinen happi raketin polttoaineiden parantaa työntö-massasuhdetta."
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.EFFECT
 #, fuzzy
@@ -9554,12 +9183,9 @@ msgstr ""
 "\">Nestemäistä Happea</link> rakettien polttoaineiden palamiseen."
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME"
-#| msgid "<link=\"OXIDIZERTANK\">Oxidizer Tank</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.NAME"
 msgid "<link=\"LIQUIDOXIDIZERTANK\">Liquid Oxidizer Tank</link>"
-msgstr "<link=\"OXIDIZERTANK\">Hapetinsäiliö</link>"
+msgstr "<link=\"LIQUIDOXIDIZERTANK\">Nestemäisen Hapettimen Säiliö</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.DESC"
@@ -9864,12 +9490,9 @@ msgstr ""
 "\">Sähkö</link>virtaa."
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.NAME"
-#| msgid "<link=\"POWERTRANSFORMER\">Power Transformer</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME"
 msgid "<link=\"POWERTRANSFORMERSMALL\">Power Transformer</link>"
-msgstr "<link=\"POWERTRANSFORMER\">Tehomuuntajat</link>"
+msgstr "<link=\"POWERTRANSFORMER\">Tehomuuntaja</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.DESC"
@@ -10039,12 +9662,6 @@ msgid "Lobby Chair"
 msgstr "Aulan Tuoli"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYCHANDELIER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYCHANDELIER.DESC"
-#| msgid ""
-#| "A large chandelier that hangs from the ceiling.\n"
-#| "\n"
-#| "It does not appear function."
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYCHANDELIER.DESC"
 msgid ""
 "A large chandelier that hangs from the ceiling.\n"
@@ -10142,12 +9759,6 @@ msgid "Electronic Display"
 msgstr "Sähköinen Näyttö"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYGLOBEDROORS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYGLOBEDROORS.DESC"
-#| msgid ""
-#| "A filing cabinet for storing hardcopy employee records.\n"
-#| "\n"
-#| "The contents have been shredded."
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYGLOBEDROORS.DESC"
 msgid ""
 "A filing cabinet for storing hard copy employee records.\n"
@@ -10165,12 +9776,6 @@ msgid "Filing Cabinet"
 msgstr "Arkistokaappi"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYLAMP.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYLAMP.DESC"
-#| msgid ""
-#| "A long light fixture that hangs from the ceiling.\n"
-#| "\n"
-#| "It does not appear function."
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYLAMP.DESC"
 msgid ""
 "A long light fixture that hangs from the ceiling.\n"
@@ -10222,9 +9827,6 @@ msgid "Gravitas Monument"
 msgstr "Gravitas-Monumentti"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYTABLE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYTABLE.DESC"
-#| msgid "A low coffee table that may haave once held old science magazines."
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYTABLE.DESC"
 msgid "A low coffee table that may have once held old science magazines."
 msgstr "Matala kahvipöytä, jonka päällä on joskus ollut vanhoja tiedelehtiä."
@@ -10279,13 +9881,6 @@ msgid "Light Fixture"
 msgstr "Valaisinteline"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPRECEPTIONDESK.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPRECEPTIONDESK.DESC"
-#| msgid ""
-#| "A full coffee cup and a note abandoned midsentence sit behind the desk.\n"
-#| "\n"
-#| "It gives me an eerie feeling, as if the receptionist has stepped out and "
-#| "will return any moment."
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPRECEPTIONDESK.DESC"
 msgid ""
 "A full coffee cup and a note abandoned mid sentence sit behind the desk.\n"
@@ -10445,20 +10040,14 @@ msgstr ""
 "\">Lämpötilaan</link> pilaantumisen estämiseksi."
 
 #. STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT_DESC"
-#| msgid "Full/Not Full"
 msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT"
 msgid "Full/Not Full"
 msgstr "Täynnä/Ei Täynnä"
 
 #. STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_DESC"
-#| msgid "<link=\"LOGIC\">Active</link> if charge exceeds threshold"
 msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT_ACTIVE"
 msgid "Sends an <link=\"LOGIC\">Active</link> signal when full"
-msgstr "<link=\"LOGIC\">Aktiivinen</link> jos varaus ylittää kynnyksen"
+msgstr "Lähettää <link=\"LOGIC\">Aktiivinen</link>-signaalin, kun täynnä"
 
 #. STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT_INACTIVE"
@@ -10535,12 +10124,9 @@ msgid "Removes specialized skills from the assigned Duplicant."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.RESETSKILLSSTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ORESCRUBBER.NAME"
-#| msgid "<link=\"ORESCRUBBER\">Ore Scrubber</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.RESETSKILLSSTATION.NAME"
 msgid "<link=\"RESETSKILLSSTATION\">Skill Scrubber</link>"
-msgstr "<link=\"ORESCRUBBER\">Malmikuurain</link>"
+msgstr "<link=\"RESETSKILLSSTATION\">Taitokuurain</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.DESC"
@@ -10664,20 +10250,14 @@ msgstr ""
 "Jäljennäisen täytyy veistää tämä."
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.EXCELLENTQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME"
-#| msgid "Genius Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.EXCELLENTQUALITYNAME"
 msgid "Genius Sculpture"
 msgstr "Nerokas Veistos"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.NAME"
-#| msgid "<link=\"SCULPTURE\">Sculpting Block</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.NAME"
 msgid "<link=\"SCULPTURE\">Large Sculpting Block</link>"
-msgstr "<link=\"SCULPTURE\">Veistokivi</link>"
+msgstr "<link=\"SCULPTURE\">Suuri Veistokivi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.POORQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.POORQUALITYNAME"
@@ -10698,7 +10278,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.SETLOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SETLOCKER.NAME"
 msgid "Locker"
-msgstr "Kaappi"
+msgstr "Lukkokaappi"
 
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.DESC
 #, fuzzy
@@ -10748,12 +10328,9 @@ msgid "<link=\"SHOWER\">Shower</link>"
 msgstr "<link=\"SHOWER\">Suihku</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.AVERAGEQUALITYNAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
-#| msgid "Genius Ice Sculpture"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.AVERAGEQUALITYNAME"
 msgid "Mediocre Sculpture"
-msgstr "Nerokas Jääveistos"
+msgstr "Keskinkertainen Veistos"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC
 #, fuzzy
@@ -24096,9 +23673,6 @@ msgid "Tending plant"
 msgstr "Hoitaa kasvia"
 
 #. STRINGS.DUPLICANTS.CHORES.CROP_TEND.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.CROP_TEND.TOOLTIP"
-#| msgid "Tending plants increases their growth rate"
 msgctxt "STRINGS.DUPLICANTS.CHORES.CROP_TEND.TOOLTIP"
 msgid "Tending to plants increases their growth rate"
 msgstr "Kasvien hoitaminen kiihdyttää niiden kasvunopeutta"
@@ -24184,12 +23758,9 @@ msgid "Going to dig"
 msgstr "Menossa louhimaan"
 
 #. STRINGS.DUPLICANTS.CHORES.DIG.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.TOOLTIP"
-#| msgid "This Duplicant is digging up a {Target}"
 msgctxt "STRINGS.DUPLICANTS.CHORES.DIG.TOOLTIP"
 msgid "This Duplicant is digging out a tile"
-msgstr "Tämä Jäljennäinen kaivaa ylös kohdetta {Target}"
+msgstr "Tämä Jäljennäinen kaivaa ylös laattaa"
 
 #. STRINGS.DUPLICANTS.CHORES.DISINFECT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DISINFECT.NAME"
@@ -24202,16 +23773,11 @@ msgid "Going to disinfect"
 msgstr "Menossa desinfoimaan"
 
 #. STRINGS.DUPLICANTS.CHORES.DISINFECT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.DISINFECT.TOOLTIP"
-#| msgid ""
-#| "Buildings can be disinfected to remove contagious Germs on their surfaces"
 msgctxt "STRINGS.DUPLICANTS.CHORES.DISINFECT.TOOLTIP"
 msgid ""
 "Buildings can be disinfected to remove contagious Germs from their surface"
 msgstr ""
-"Rakennukset voidaan desinfioida, jotta niiden pinnoilta poistuvat tarttuvat "
-"Bakteerit"
+"Rakennukset voidaan desinfioida, poistaen tarttuvat Bakteerit niiden pinnalta"
 
 #. STRINGS.DUPLICANTS.CHORES.DOCTOR.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTOR.NAME"
@@ -24359,11 +23925,9 @@ msgstr "Tämä Jäljennäinen valmistaa jotakin"
 
 #. STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.NAME
 #, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.FABRICATOREMPTY.NAME"
-#| msgid "Fabricator idle"
 msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.NAME"
 msgid "Fabrication Supply"
-msgstr "Valmistaja toimeton"
+msgstr "Valmistajan Varasto"
 
 #. STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.REPORT_NAME
 #, fuzzy
@@ -32773,20 +32337,16 @@ msgid "Flatulent"
 msgstr "Ilmavaivainen"
 
 #. STRINGS.DUPLICANTS.TRAITS.FOODIE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.FOODIE.DESC"
-#| msgid "This Duplicant has a highly refined palate."
 msgctxt "STRINGS.DUPLICANTS.TRAITS.FOODIE.DESC"
 msgid "This Duplicant has a highly refined palate and desires luxurious foods."
-msgstr "Tällä Jäljennäisellä erittäin kehittynyt makuaisti."
+msgstr ""
+"Tällä Jäljennäisellä erittäin kehittynyt makuaisti ja hän halajaa ylellisiä "
+"ruokia."
 
 #. STRINGS.DUPLICANTS.TRAITS.FOODIE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.PROFESSION_NAME"
-#| msgid "Gourmet"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.FOODIE.NAME"
 msgid "Gourmet"
-msgstr "Gourmet"
+msgstr "Herkkusuu"
 
 #. STRINGS.DUPLICANTS.TRAITS.FUSSY.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.FUSSY.DESC"
@@ -32966,18 +32526,13 @@ msgid "Skinny"
 msgstr "Laiha"
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.SENSITIVEFEET.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.SENSITIVEFEET.DESC"
-#| msgid ""
-#| "This Duplicant is a sensitive sole and would rather walk on tile "
-#| "floorings than bedrock"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.SENSITIVEFEET.DESC"
 msgid ""
 "This Duplicant is a sensitive sole and would rather walk on tile than raw "
 "bedrock"
 msgstr ""
-"Tällä Jäljennäisellä on herkät jalkapohjat ja kävelee mieluummin "
-"pinnoitetulla lattialla kuin peruskalliolla"
+"Tällä Jäljennäisellä on herkät jalkapohjat ja kävelee mieluummin laatoilla "
+"kuin paljaalla peruskalliolla"
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.SENSITIVEFEET.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.SENSITIVEFEET.NAME"
@@ -33065,9 +32620,6 @@ msgid "Pacifist"
 msgstr "Pasifisti"
 
 #. STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC"
-#| msgid "This Duplicant is satisfied by even the blandest food."
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC"
 msgid "This Duplicant finds pleasure in even the blandest of foods."
 msgstr "Tälle Jäljennäiselle kelpaa mauttominkin ruoka."
@@ -33240,12 +32792,9 @@ msgstr ""
 "sitkeää jäänneainetta"
 
 #. STRINGS.ELEMENTS.BITUMEN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.LIME.NAME"
-#| msgid "<link=\"LIME\">Lime</link>"
 msgctxt "STRINGS.ELEMENTS.BITUMEN.NAME"
 msgid "<link=\"BITUMEN\">Bitumen</link>"
-msgstr "<link=\"LIME\">Kalkki</link>"
+msgstr "<link=\"BITUMEN\">Bitumi</link>"
 
 #. STRINGS.ELEMENTS.BLEACHSTONE.DESC
 msgctxt "STRINGS.ELEMENTS.BLEACHSTONE.DESC"
@@ -33413,18 +32962,13 @@ msgstr "<link=\"CERAMIC\">Keramiikka</link>"
 
 # Kiinteää klooria? Häh?
 #. STRINGS.ELEMENTS.CHLORINE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CHLORINE.DESC"
-#| msgid ""
-#| "(Cl) Chlorine is an extremely toxic element in a <link=\"ELEMENTSSOLID"
-#| "\">Solid</link> state."
 msgctxt "STRINGS.ELEMENTS.CHLORINE.DESC"
 msgid ""
 "(Cl) Chlorine is an extremely toxic element in a <link=\"ELEMENTSLIQUID"
 "\">Liquid</link> state."
 msgstr ""
-"(Cl) Kloori on erittäin myrkyllistä alkuainetta <link=\"ELEMENTSSOLID"
-"\">Kiinteässä</link> olomuodossa."
+"(Cl) Kloori on erittäin myrkyllistä alkuainetta <link=\"ELEMENTSLIQUID"
+"\">Nestemäisessä</link> olomuodossa."
 
 #. STRINGS.ELEMENTS.CHLORINE.NAME
 msgctxt "STRINGS.ELEMENTS.CHLORINE.NAME"
@@ -33480,21 +33024,15 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">Saastunut Happi</link>"
 
 #. STRINGS.ELEMENTS.COPPER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.COPPER.DESC"
-#| msgid ""
-#| "(Cu) Copper is a conductive <link=\"RAWMETAL\">Metal</link>.\n"
-#| "\n"
-#| "It is suitable for building <link=\"POWER\">Power</link> systems."
 msgctxt "STRINGS.ELEMENTS.COPPER.DESC"
 msgid ""
 "(Cu) Copper is a conductive <link=\"METAL\">Metal</link>.\n"
 "\n"
 "It is suitable for building <link=\"POWER\">Power</link> systems."
 msgstr ""
-"(Cu) Kupari on johtavaa <link=\"RAWMETAL\">Metallia</link>.\n"
+"(Cu) Kupari on johtavaa <link=\"METAL\">Metallia</link>.\n"
 "\n"
-"Se sopii <link=\"POWER\">Sähkö</link>järjeslmien rakentamiseen."
+"Se sopii <link=\"POWER\">Sähkö</link>järjestelmien rakentamiseen."
 
 #. STRINGS.ELEMENTS.COPPER.NAME
 msgctxt "STRINGS.ELEMENTS.COPPER.NAME"
@@ -33502,18 +33040,13 @@ msgid "<link=\"COPPER\">Copper</link>"
 msgstr "<link=\"COPPER\">Kupari</link>"
 
 #. STRINGS.ELEMENTS.COPPERGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.COPPERGAS.DESC"
-#| msgid ""
-#| "(Cu) Copper is a conductive <link=\"RAWMETAL\">Metal</link> heated into a "
-#| "<link=\"ELEMENTSGAS\">Gas</link>."
 msgctxt "STRINGS.ELEMENTS.COPPERGAS.DESC"
 msgid ""
 "(Cu) Copper is a conductive <link=\"METAL\">Metal</link> heated into a <link="
 "\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
-"(Cu) Kupari on johtavaa <link=\"RAWMETAL\">Metallia</link> lämmitettynä "
-"<link=\"ELEMENTSGAS\">Kaasuksi</link>."
+"(Cu) Kupari on johtavaa <link=\"METAL\">Metallia</link> <link=\"ELEMENTSGAS"
+"\">Kaasuksi</link> lämmitettynä."
 
 #. STRINGS.ELEMENTS.COPPERGAS.NAME
 msgctxt "STRINGS.ELEMENTS.COPPERGAS.NAME"
@@ -33715,12 +33248,6 @@ msgid "Properties: {0}"
 msgstr "Ominaisuudet: {0}"
 
 #. STRINGS.ELEMENTS.FERTILIZER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
-#| msgid ""
-#| "Fertilizer is a processed mixture of biological nutrients.\n"
-#| "\n"
-#| "It aids in the growth of certain <link=\"PLANTS\">plant</link>."
 msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
 msgid ""
 "Fertilizer is a processed mixture of biological nutrients.\n"
@@ -33773,12 +33300,9 @@ msgstr ""
 "Sitä voi käyttää Rakennusmateriaalina."
 
 #. STRINGS.ELEMENTS.FOSSIL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.FOOD"
-#| msgid "<link=\"FOOD\">Food</link>"
 msgctxt "STRINGS.ELEMENTS.FOSSIL.NAME"
 msgid "<link=\"FOSSIL\">Fossil</link>"
-msgstr "<link=\"FOOD\">Ruoka</link>"
+msgstr "<link=\"FOSSIL\">Fossiili</link>"
 
 #. STRINGS.ELEMENTS.FULLERENE.DESC
 msgctxt "STRINGS.ELEMENTS.FULLERENE.DESC"
@@ -33788,12 +33312,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.FULLERENE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.NAME"
-#| msgid "<link=\"BURNER\">Burner</link>"
 msgctxt "STRINGS.ELEMENTS.FULLERENE.NAME"
 msgid "<link=\"FULLERENE\">Fullerene</link>"
-msgstr "<link=\"BURNER\">Poltin</link>"
+msgstr "<link=\"FULLERENE\">Fullereeni</link>"
 
 #. STRINGS.ELEMENTS.GLASS.DESC
 msgctxt "STRINGS.ELEMENTS.GLASS.DESC"
@@ -34021,14 +33542,15 @@ msgid ""
 "\n"
 "It is used in the production of rare, high grade materials."
 msgstr ""
+"Isohartsi on pitkäketjuisista polymeereistä koostuvaa kristallisoitunutta "
+"pihkaa.\n"
+"\n"
+"Sitä käytetään harvinaisten, korkealaatuisten materiaalien tuotannossa."
 
 #. STRINGS.ELEMENTS.ISORESIN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.IRON.NAME"
-#| msgid "<link=\"IRON\">Iron</link>"
 msgctxt "STRINGS.ELEMENTS.ISORESIN.NAME"
 msgid "<link=\"ISORESIN\">Isoresin</link>"
-msgstr "<link=\"IRON\">Rauta</link>"
+msgstr "<link=\"ISORESIN\">Isohartsi</link>"
 
 #. STRINGS.ELEMENTS.KATAIRITE.DESC
 msgctxt "STRINGS.ELEMENTS.KATAIRITE.DESC"
@@ -34041,12 +33563,6 @@ msgid "<link=\"KATAIRITE\">Abyssalite</link>"
 msgstr "<link=\"KATAIRITE\">Abyssaliitti</link>"
 
 #. STRINGS.ELEMENTS.LIME.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.LIME.DESC"
-#| msgid ""
-#| "(CaCO<sub>3</sub>) Lime is a mineral commonly found in animal shells.\n"
-#| "\n"
-#| "It is useful as a Construction Material."
 msgctxt "STRINGS.ELEMENTS.LIME.DESC"
 msgid ""
 "(CaCO<sub>3</sub>) Lime is a mineral commonly found in <link=\"CRITTERS"
@@ -34054,7 +33570,8 @@ msgid ""
 "\n"
 "It is useful as a Construction Material."
 msgstr ""
-"(CaCO<sub>3</sub>) Kalkki on yleisesti eläinten kuorista löytyvä mineraali\n"
+"(CaCO<sub>3</sub>) Kalkki on yleisesti <link=\"CRITTERS\">Otusten</link> "
+"munan kuorista löytyvä mineraali.\n"
 "\n"
 "Sitä voi käyttää Rakennusmateriaalina."
 
@@ -34192,12 +33709,9 @@ msgstr ""
 "Tämä erä on <link=\"ELEMENTSLIQUID\">Nestemäisessä</link> olomuodossa."
 
 #. STRINGS.ELEMENTS.LIQUIDSULFUR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.NAME"
-#| msgid "<link=\"LIQUIDFILTER\">Liquid Filter</link>"
 msgctxt "STRINGS.ELEMENTS.LIQUIDSULFUR.NAME"
 msgid "<link=\"LIQUIDSULFUR\">Liquid Sulfur</link>"
-msgstr "<link=\"LIQUIDFILTER\">Nestesuodatin</link>"
+msgstr "<link=\"LIQUIDSULFUR\">Nestemäinen Rikki</link>"
 
 #. STRINGS.ELEMENTS.MAFICROCK.DESC
 msgctxt "STRINGS.ELEMENTS.MAFICROCK.DESC"
@@ -34502,12 +34016,9 @@ msgstr ""
 "<link=\"ELEMENTSLIQUID\">Nestemäiseen</link> olomuotoon."
 
 #. STRINGS.ELEMENTS.MOLTENNIOBIUM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MOLTENIRON.NAME"
-#| msgid "<link=\"MOLTENIRON\">Iron</link>"
 msgctxt "STRINGS.ELEMENTS.MOLTENNIOBIUM.NAME"
 msgid "<link=\"MOLTENNIOBIUM\">Niobium</link>"
-msgstr "<link=\"MOLTENIRON\">Rauta</link>"
+msgstr "<link=\"MOLTENNIOBIUM\">Niobia</link>"
 
 #. STRINGS.ELEMENTS.MOLTENSTEEL.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENSTEEL.DESC"
@@ -34575,14 +34086,14 @@ msgid ""
 "practical applications in metallurgy and superconductor <link=\"RESEARCH"
 "\">Research</link>."
 msgstr ""
+"(Nb) Niobia on <link=\"RAREMATERIALS\">Harvinainen Metalli</link>, jolla on "
+"monta käytännön sovellusta metallurgiassa ja suprajohtimien <link=\"RESEARCH"
+"\">Tutkimisessa</link>."
 
 #. STRINGS.ELEMENTS.NIOBIUM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.UNOBTANIUM.NAME"
-#| msgid "<link=\"UNOBTANIUM\">Neutronium</link>"
 msgctxt "STRINGS.ELEMENTS.NIOBIUM.NAME"
 msgid "<link=\"NIOBIUM\">Niobium</link>"
-msgstr "<link=\"UNOBTANIUM\">Neutronium</link>"
+msgstr "<link=\"NIOBIUM\">Niobia</link>"
 
 #. STRINGS.ELEMENTS.NIOBIUMGAS.DESC
 #, fuzzy
@@ -34600,12 +34111,9 @@ msgstr ""
 "kuumennettuna <link=\"ELEMENTSGAS\">Kaasumaiseen</link> olomuotoon."
 
 #. STRINGS.ELEMENTS.NIOBIUMGAS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.UNOBTANIUM.NAME"
-#| msgid "<link=\"UNOBTANIUM\">Neutronium</link>"
 msgctxt "STRINGS.ELEMENTS.NIOBIUMGAS.NAME"
 msgid "<link=\"NIOBIUMGAS\">Niobium</link>"
-msgstr "<link=\"UNOBTANIUM\">Neutronium</link>"
+msgstr "<link=\"NIOBIUMGAS\">Niobia</link>"
 
 #. STRINGS.ELEMENTS.OBSIDIAN.DESC
 msgctxt "STRINGS.ELEMENTS.OBSIDIAN.DESC"
@@ -35012,8 +34520,8 @@ msgid ""
 "(Cl) Chlorine is a toxic chemical element in a <link=\"ELEMENTSSOLID"
 "\">Solid</link> state."
 msgstr ""
-"(Cl) Kloori on myrkyllinen kemiallinen yhdiste <link=\"ELEMENTSSOLID"
-"\">Kiinteässä</link> olomuodossa."
+"(Cl) Kloori on myrkyllinen kemiallinen yhdiste sen <link=\"ELEMENTSSOLID"
+"\">Kiinteässä</link> olomuodossaan."
 
 #. STRINGS.ELEMENTS.SOLIDCHLORINE.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDCHLORINE.NAME"
@@ -35168,12 +34676,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.SOLIDVISCOGEL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.NAME"
-#| msgid "<link=\"SOLIDOXYGEN\">Oxygen</link>"
 msgctxt "STRINGS.ELEMENTS.SOLIDVISCOGEL.NAME"
 msgid "<link=\"SOLIDVISCOGEL\">Visco-Gel</link>"
-msgstr "<link=\"SOLIDOXYGEN\">Happi</link>"
+msgstr "<link=\"SOLIDVISCOGEL\">Visko-Geeli</link>"
 
 #. STRINGS.ELEMENTS.SOURGAS.DESC
 msgctxt "STRINGS.ELEMENTS.SOURGAS.DESC"
@@ -35185,20 +34690,14 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.SOURGAS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.JOURNALS"
-#| msgid "<link=\"JOURNALS\">Journals</link>"
 msgctxt "STRINGS.ELEMENTS.SOURGAS.NAME"
 msgid "<link=\"SOURGAS\">Sour Gas</link>"
-msgstr "<link=\"JOURNALS\">Päiväkirjat</link>"
+msgstr "<link=\"SOURGAS\">Hapankaasu</link>"
 
 #. STRINGS.ELEMENTS.SOURGAS.NAME_TWO
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.JOURNALS"
-#| msgid "<link=\"JOURNALS\">Journals</link>"
 msgctxt "STRINGS.ELEMENTS.SOURGAS.NAME_TWO"
 msgid "<link=\"SOURGAS\">Sour Gas</link>"
-msgstr "<link=\"JOURNALS\">Päiväkirjat</link>"
+msgstr "<link=\"SOURGAS\">Hapankaasu</link>"
 
 #. STRINGS.ELEMENTS.STATE.GAS
 msgctxt "STRINGS.ELEMENTS.STATE.GAS"
@@ -35263,26 +34762,18 @@ msgid "<link=\"STEELGAS\">Steel</link>"
 msgstr "<link=\"STEELGAS\">Teräs</link>"
 
 #. STRINGS.ELEMENTS.SULFUR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.PHOSPHORUSGAS.DESC"
-#| msgid ""
-#| "(P) Phosphorus is a chemical element in a <link=\"ELEMENTSGAS\">Gaseous</"
-#| "link> state."
 msgctxt "STRINGS.ELEMENTS.SULFUR.DESC"
 msgid ""
 "(S) Sulfur is a common chemical element and byproduct of <link=\"METHANE"
 "\">Natural Gas</link> production."
 msgstr ""
-"(P) Fosfori on kemiallinen alkuaine sen <link=\"ELEMENTSGAS\">Kaasumaisessa</"
-"link> olomuodossa."
+"(P) Fosfori on kemiallinen alkuaine ja <link=\"METHANE\">Maakaasun</link> "
+"valmistuksen sivutuote."
 
 #. STRINGS.ELEMENTS.SULFUR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SUNBURN.NAME"
-#| msgid "<link=\"SUNBURN\">Sunburn</link>"
 msgctxt "STRINGS.ELEMENTS.SULFUR.NAME"
 msgid "<link=\"SULFUR\">Sulfur</link>"
-msgstr "<link=\"SUNBURN\">Auringonpolttama</link>"
+msgstr "<link=\"SULFUR\">Rikki</link>"
 
 #. STRINGS.ELEMENTS.SULFURGAS.DESC
 #, fuzzy
@@ -35409,13 +34900,11 @@ msgstr ""
 "Se on <link=\"TUNGSTEN\">Wolframin</link> lähde ja se sopii <link=\"POWER"
 "\">Sähkö</link>järjestelmien rakentamiseen."
 
+# Konteksti täytyy tarkistaa
 #. STRINGS.ELEMENTS.TESTELEMENT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTS"
-#| msgid "<link=\"ELEMENTS\">Elements</link>"
 msgctxt "STRINGS.ELEMENTS.TESTELEMENT.NAME"
 msgid "<link=\"TESTELEMENT\">Test Element</link>"
-msgstr "<link=\"ELEMENTS\">Aineet</link>"
+msgstr "<link=\"TESTELEMENT\">Testielementti</link>"
 
 # suureiden yksiköt on vituillaan alkuperäisessä t. tekniikan kandidaatti
 #. STRINGS.ELEMENTS.THERMALPROPERTIES
@@ -35558,12 +35047,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ELEMENTS.VISCOGEL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.ICE.NAME"
-#| msgid "<link=\"ICE\">Ice</link>"
 msgctxt "STRINGS.ELEMENTS.VISCOGEL.NAME"
 msgid "<link=\"VISCOGEL\">Visco-Gel</link>"
-msgstr "<link=\"ICE\">Jää</link>"
+msgstr "<link=\"VISCOGEL\">Visko-Geeli</link>"
 
 #. STRINGS.ELEMENTS.VOID.DESC
 msgctxt "STRINGS.ELEMENTS.VOID.DESC"
@@ -35690,12 +35176,9 @@ msgid "Suit"
 msgstr "Puku"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.NAME"
-#| msgid "<link=\"ARTIST\">Artist</link>"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.NAME"
 msgid "<link=\"ATMOSUIT\">Atmo Suit</link>"
-msgstr "<link=\"ARTIST\">Taiteilija</link>"
+msgstr "<link=\"ATMOSUIT\">Happipuku</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.RECIPE_DESC"
@@ -35726,12 +35209,9 @@ msgid "Clothing"
 msgstr "Vaatetus"
 
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.NAME"
-#| msgid "<link=\"COMPOST\">Compost</link>"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.NAME"
 msgid "<link=\"COOLVEST\">Cool Vest</link>"
-msgstr "<link=\"COMPOST\">Komposti</link>"
+msgstr "<link=\"COOLVEST\">Viileä Liivi</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.RECIPE_DESC"
@@ -35743,9 +35223,6 @@ msgstr ""
 "eristystä."
 
 #. STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.DESC
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.DESC"
-#| msgid "Turn your Duplicant into a walking beacon of charm and style."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.DESC"
 msgid "This transforms my Duplicant into a walking beacon of charm and style."
 msgstr "Muuta Jäljennäisesi charmin ja tyylikkyyden käveleväksi majakaksi."
@@ -35761,12 +35238,9 @@ msgid "Clothing"
 msgstr "Vaatetus"
 
 #. STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.STEAMSPOUT.NAME"
-#| msgid "<link=\"GEYSERS\">Steam Spout</link>"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.NAME"
 msgid "<link=\"FUNKYVEST\">Snazzy Suit</link>"
-msgstr "<link=\"GEYSERS\">Höyrysuihku</link>"
+msgstr "<link=\"FUNKYVEST\">Upea Puku</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.RECIPE_DESC"
@@ -35804,27 +35278,16 @@ msgstr ""
 "Täytyy täyttää hapella Eksopukulataamossa tyhjennyttyään."
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.GENERICNAME
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.NAME"
-#| msgid "Atmo Suit"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.GENERICNAME"
 msgid "Jet Suit"
-msgstr "Painepuku"
+msgstr "Rakettipuku"
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.NAME"
-#| msgid "<link=\"JETSUITLOCKER\">Jet Suit Dock</link>"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.NAME"
 msgid "<link=\"JETSUIT\">Jet Suit</link>"
-msgstr "<link=\"JETSUITLOCKER\">Suihkupukutelakka</link>"
+msgstr "<link=\"JETSUIT\">Rakettipuku</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.RECIPE_DESC
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.RECIPE_DESC"
-#| msgid ""
-#| "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in toxic and "
-#| "low breathability environments."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.RECIPE_DESC"
 msgid ""
 "Supplies Duplicants with <link=\"OXYGEN\">Oxygen</link> in toxic and low "
@@ -35832,16 +35295,15 @@ msgid ""
 "\n"
 "Allows Duplicant flight."
 msgstr ""
-"Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in toxic and low "
-"breathability environments."
+"Antaa Jäljennäisille <link=\"OXYGEN\">Happea</link> myrkyllisissä ja "
+"alhaisen hengitettävyyden ympäristöissä.\n"
+"\n"
+"Mahdollistaa Jäljennäisten lentämisen."
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.NAME"
-#| msgid "Fuel Brick"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
 msgid "Fuel Tank"
-msgstr "Polttoaineharkko"
+msgstr "Polttoainesäiliö"
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.DESC"
@@ -35865,12 +35327,9 @@ msgid "Equipment"
 msgstr "Varustus"
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.OXYGEN.NAME"
-#| msgid "<link=\"OXYGEN\">Oxygen</link>"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.NAME"
 msgid "<link=\"OXYGENTANK\">Oxygen Tank</link>"
-msgstr "<link=\"OXYGEN\">Happi</link>"
+msgstr "<link=\"OXYGENTANK\">Happisäiliö</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK.RECIPE_DESC"
@@ -35925,12 +35384,9 @@ msgstr ""
 "Ei toimi nesteen ulkopuolella."
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.DESC"
-#| msgid "Keep your Duplicants cool in case things heat up."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.DESC"
 msgid "Keeps my Duplicants cool in case things heat up."
-msgstr "Pidä Jäljennäiseni viileinä siltä varalta, että tulee kuumat paikat."
+msgstr "Pitää Jäljennäiseni viileinä siltä varalta, että paikat kuumenee."
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT
 #, fuzzy
@@ -35986,12 +35442,9 @@ msgid "Clothing"
 msgstr "Vaatetus"
 
 #. STRINGS.EQUIPMENT.PREFABS.WARM_VEST.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.NAME"
-#| msgid "<link=\"FARMER\">Farmer</link>"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.WARM_VEST.NAME"
 msgid "<link=\"WARMVEST\">Warm Sweater</link>"
-msgstr "<link=\"FARMER\">Viljelijä</link>"
+msgstr "<link=\"WARMVEST\">Lämmin Villapusero</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.WARM_VEST.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.WARM_VEST.RECIPE_DESC"
@@ -36057,9 +35510,6 @@ msgid "Num"
 msgstr "Num"
 
 #. STRINGS.INPUT.PERIOD
-#, fuzzy
-#| msgctxt "STRINGS.INPUT.PERIOD"
-#| msgid "Period"
 msgctxt "STRINGS.INPUT.PERIOD"
 msgid "Period Key"
 msgstr "Piste"
@@ -36115,12 +35565,9 @@ msgid "BuildCategoryTiles"
 msgstr "RakennusKategoriaLaatat"
 
 #. STRINGS.INPUT_BINDINGS.BASEMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.NAME"
-#| msgid "BaseMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.NAME"
 msgid "Base Menu"
-msgstr "PerusValikko"
+msgstr "Tukikohtavalikko"
 
 #. STRINGS.INPUT_BINDINGS.BUILDING.BUILDINGUTILITY1
 msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.BUILDINGUTILITY1"
@@ -36183,12 +35630,9 @@ msgid "DebugDumpGarbageReferences"
 msgstr "DebugDumppaaRoskaViittaukset"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGCROOTS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.DEBUGGOTO.NAME"
-#| msgid "DebugGoTo"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGCROOTS"
 msgid "DebugDumpGCRoots"
-msgstr "DebugMene"
+msgstr "DebugPudotaGCJuuret"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPSCENEPARITIONERLEAKDATA
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPSCENEPARITIONERLEAKDATA"
@@ -36406,12 +35850,9 @@ msgid "BuildCategoryRanching"
 msgstr "RakennusKategoriaPaimennus"
 
 #. STRINGS.INPUT_BINDINGS.FOODANDAGRICULTUREMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.FOODANDAGRICULTUREMENU.NAME"
-#| msgid "FoodAndAgricultureMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.FOODANDAGRICULTUREMENU.NAME"
 msgid "Food And Agriculture Menu"
-msgstr "RuokaJaMaatalousValikko"
+msgstr "Ruoka- Ja Maatalousvalikko"
 
 #. STRINGS.INPUT_BINDINGS.HEALTHANDHAPPINESSMENU.BUILDCATEGORYDECOR
 msgctxt "STRINGS.INPUT_BINDINGS.HEALTHANDHAPPINESSMENU.BUILDCATEGORYDECOR"
@@ -36439,12 +35880,9 @@ msgid "BuildCategoryRecreation"
 msgstr "RakennusKategoriaVapaa-aika"
 
 #. STRINGS.INPUT_BINDINGS.HEALTHANDHAPPINESSMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.HEALTHANDHAPPINESSMENU.NAME"
-#| msgid "HealthAndHappinessMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.HEALTHANDHAPPINESSMENU.NAME"
 msgid "Health And Happiness Menu"
-msgstr "TerveysJaOnnellisuusValikko"
+msgstr "Terveys- Ja Onnellisuusvalikko"
 
 #. STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.BUILDCATEGORYEQUIPMENT
 msgctxt "STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.BUILDCATEGORYEQUIPMENT"
@@ -36462,13 +35900,9 @@ msgid "BuildCategoryRefining"
 msgstr "RakennusKategoriaJalostus"
 
 #. STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.BUILDCATEGORYROCKETRY
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.INPUT_BINDINGS.HEALTHANDHAPPINESSMENU.BUILDCATEGORYRECREATION"
-#| msgid "BuildCategoryRecreation"
 msgctxt "STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.BUILDCATEGORYROCKETRY"
 msgid "BuildCategoryRocketry"
-msgstr "RakennusKategoriaVapaa-aika"
+msgstr "RakennusKategoriaRaketit"
 
 #. STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.BUILDCATEGORYUTILITIES
 msgctxt "STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.BUILDCATEGORYUTILITIES"
@@ -36476,12 +35910,9 @@ msgid "BuildCategoryUtilities"
 msgstr "RakennusKategoriaKäyttö"
 
 #. STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.NAME"
-#| msgid "IndustrialMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.NAME"
 msgid "Industrial Menu"
-msgstr "TeollisuusValikko"
+msgstr "Teollisuusvalikko"
 
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYGENERATORS
 msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYGENERATORS"
@@ -36516,12 +35947,9 @@ msgid "BuildCategoryWires"
 msgstr "RakennusKategoriaJohdot"
 
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.NAME"
-#| msgid "InfrastructureMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.NAME"
 msgid "Infrastructure Menu"
-msgstr "InfrastruktuuriValikko"
+msgstr "Infrastruktuurivalikko"
 
 #. STRINGS.INPUT_BINDINGS.LOGISTICSMENU.BUILDCATEGORYCONVEYANCE
 msgctxt "STRINGS.INPUT_BINDINGS.LOGISTICSMENU.BUILDCATEGORYCONVEYANCE"
@@ -36554,12 +35982,9 @@ msgid "BuildCategoryTravelTubes"
 msgstr "RakennusKategoriaKulkemisPutket"
 
 #. STRINGS.INPUT_BINDINGS.LOGISTICSMENU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.LOGISTICSMENU.NAME"
-#| msgid "LogisticsMenu"
 msgctxt "STRINGS.INPUT_BINDINGS.LOGISTICSMENU.NAME"
 msgid "Logistics Menu"
-msgstr "LogistiikkaValikko"
+msgstr "Logistiikkavalikko"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGECODEX
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGECODEX"
@@ -36597,12 +36022,9 @@ msgid "ManageSchedule"
 msgstr "HallitseAikataulua"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESTARMAP
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEVITALS"
-#| msgid "ManageVitals"
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESTARMAP"
 msgid "ManageStarmap"
-msgstr "HallitseTärkeitä"
+msgstr "HallitseTähtikarttaa"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEVITALS
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEVITALS"
@@ -36755,12 +36177,9 @@ msgid "Clear"
 msgstr "Puhdista"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.COPYBUILDING
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.NAME"
-#| msgid "Building"
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.COPYBUILDING"
 msgid "CopyBuilding"
-msgstr "Rakennus"
+msgstr "KopioiRakennus"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.CYCLESPEED
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.CYCLESPEED"
@@ -36828,12 +36247,9 @@ msgid "Overlay14"
 msgstr "Näkymä14"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY15
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY1"
-#| msgid "Overlay1"
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY15"
 msgid "Overlay15"
-msgstr "Näkymä1"
+msgstr "Näkymä15"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY2
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY2"
@@ -37061,17 +36477,14 @@ msgid "RotateBuilding"
 msgstr "KäännäRakennusta"
 
 #. STRINGS.ITEMS.CARGO_CAPSULE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.BUILDMENUTITLE"
-#| msgid "Temperature Control"
 msgctxt "STRINGS.ITEMS.CARGO_CAPSULE.DESC"
 msgid "Temporary container"
-msgstr "Lämpötilan Säätö"
+msgstr "Väliaikainen Säilö"
 
 #. STRINGS.ITEMS.CARGO_CAPSULE.NAME
 msgctxt "STRINGS.ITEMS.CARGO_CAPSULE.NAME"
 msgid "Cargo Capsule"
-msgstr ""
+msgstr "Rahtikapseli"
 
 #. STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC"
@@ -37489,12 +36902,9 @@ msgstr ""
 "Haudottuna siitä kuoriutuu <link=\"OILFLOATER\">Liukujatoukka</link>"
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME"
-#| msgid "<link=\"OILFLOATER\">Slickster Larva Egg</link>"
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME"
 msgid "<link=\"OILFLOATER\">Larva Egg</link>"
-msgstr "<link=\"OILFLOATER\">Liukujatoukan Muna</link>"
+msgstr "<link=\"OILFLOATER\">Toukan Muna</link>"
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC
 #, fuzzy
@@ -37737,12 +37147,12 @@ msgstr "Polttoaineharkko"
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.GENE_SHUFFLER_RECHARGE.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.GENE_SHUFFLER_RECHARGE.DESC"
 msgid "Replenishes one charge to a depleted Neural Vacillator."
-msgstr ""
+msgstr "Palauttaa yhden latauksen ehtyneeseen Hermovaihtelijaan"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.GENE_SHUFFLER_RECHARGE.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.GENE_SHUFFLER_RECHARGE.NAME"
 msgid "Vacillator Recharge"
-msgstr ""
+msgstr "Vaihtelijan Lataus"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.DESC"
@@ -37761,12 +37171,9 @@ msgid "Custom Parts"
 msgstr "Mukautetut Osat"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_NAME"
-#| msgid "Engie's Jerry Rig: {0} {1}"
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_NAME"
 msgid "Engineer's Jerry Rig: {0} {1}"
-msgstr "Inssin Purkkaviritys: {0} {1}"
+msgstr "Teknikon Purkkaviritys: {0} {1}"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_TOOLTIP
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_TOOLTIP"
@@ -37778,14 +37185,10 @@ msgstr ""
 "ominaisuutta {0} {1} verran."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_NAME
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_NAME"
-#| msgid "Job: <link=\"MECHATRONICENGINEER\">Mechatronics Engineer</link>"
 msgctxt ""
 "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_NAME"
 msgid "Job: <link=\"MECHATRONICENGINEER\">Mechatronics Engineering</link>"
-msgstr "Työ: <link=\"MECHATRONICENGINEER\">Mekatroniikkainsinööri</link>"
+msgstr "Työ: <link=\"MECHATRONICENGINEER\">Mekatroniikkatekniikka</link>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_TOOLTIP
 #, fuzzy
@@ -37869,12 +37272,9 @@ msgid "Raw data that can be processed into research points."
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.DATA"
-#| msgid "Data"
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.NAME"
 msgid "Data Bank"
-msgstr "Data"
+msgstr "Tietopankki"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.DESC"
@@ -37909,33 +37309,27 @@ msgstr "Balsamililjan Kukka"
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.DESC"
 msgid "A doctor administered cure for severe ailments."
-msgstr ""
+msgstr "Lääkärin antama lääke vakaviin vaivoihin."
 
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.MEDICINE"
-#| msgid "Medicine"
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.NAME"
 msgid "Medicine Vial"
-msgstr "Lääke"
+msgstr "Lääkeampulli"
 
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.RECIPEDESC"
 msgid "A doctor administered cure for severe ailments."
-msgstr ""
+msgstr "Lääkärin antama lääke vakaviin vaivoihin."
 
 #. STRINGS.ITEMS.PILLS.ANTIHISTAMINE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.ANTIHISTAMINE.DESC"
 msgid "Surpresses and prevents allergic reactions."
-msgstr ""
+msgstr "Hillitsee ja ehkäisee allergisia reaktioita."
 
 #. STRINGS.ITEMS.PILLS.ANTIHISTAMINE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.CLEAR_SELECTION_BUTTON"
-#| msgid "Clear Selection"
 msgctxt "STRINGS.ITEMS.PILLS.ANTIHISTAMINE.NAME"
 msgid "Allergy Medication"
-msgstr "Tyhjennä Valinta"
+msgstr "Allergialääke"
 
 #. STRINGS.ITEMS.PILLS.ANTIHISTAMINE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.ANTIHISTAMINE.RECIPEDESC"
@@ -37943,16 +37337,15 @@ msgid ""
 "Duplicants can take this to cure an allergic reaction, and temporarily "
 "prevent further reactions."
 msgstr ""
+"Jäljennäiset voivat ottaa tämän parantaakseen allergisen reaktion ja "
+"väliaikaisesti estämään enempiä reaktioita."
 
 #. STRINGS.ITEMS.PILLS.BASICBOOSTER.DESC
 msgctxt "STRINGS.ITEMS.PILLS.BASICBOOSTER.DESC"
 msgid "Minorly reduces the chance of becoming sick."
-msgstr ""
+msgstr "Alentaa hieman sairastumisen mahdollisuutta."
 
 #. STRINGS.ITEMS.PILLS.BASICBOOSTER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.NAME"
-#| msgid "Vitamin Chews"
 msgctxt "STRINGS.ITEMS.PILLS.BASICBOOSTER.NAME"
 msgid "Vitamin Chews"
 msgstr "Vitamiinipurkka"
@@ -37990,12 +37383,9 @@ msgid "Significantly reduces the chance of becoming sick."
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.IMMUNELEVEL.NAME"
-#| msgid "Immune System"
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.NAME"
 msgid "Immuno Booster"
-msgstr "Immuunijärjestelmä"
+msgstr "Immuunitehostin"
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.RECIPEDESC"
@@ -38010,17 +37400,14 @@ msgid "A doctor administered cure for moderate ailments."
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.MEDICINE"
-#| msgid "Medicine"
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.NAME"
 msgid "Medicine Pack"
-msgstr "Lääke"
+msgstr "Lääkepakkaus"
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC"
 msgid "A doctor administered cure for moderate ailments."
-msgstr ""
+msgstr "Lääkärin antama lääke keskivaikeisiin vaivoihin."
 
 #. STRINGS.ITEMS.PILLS.PLACEBO.DESC
 msgctxt "STRINGS.ITEMS.PILLS.PLACEBO.DESC"

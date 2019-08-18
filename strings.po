@@ -5301,12 +5301,6 @@ msgstr ""
 "havaittaessa."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</"
-#| "link> depending on quantity of the contained <link=\"DISEASE\">Germs</"
-#| "link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT"
 msgid ""
 "Becomes <link=\"LOGIC\">Active</link> or goes on <link=\"LOGIC\">Standby</"
@@ -5314,8 +5308,8 @@ msgid ""
 "pipe."
 msgstr ""
 "Muuttuu <link=\"LOGIC\">Aktiiviseksi</link> tai siirtyy <link=\"LOGIC"
-"\">Valmiustilaan</link> riippuen <link=\"DISEASE\">Bakteerien</link> "
-"määrästä."
+"\">Valmiustilaan</link> riippuen putkessa olevien <link=\"DISEASE"
+"\">Bakteerien</link> määrästä."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT"
@@ -5323,21 +5317,14 @@ msgid "Internal <link=\"DISEASE\">Germ</link> Count"
 msgstr "Sisäisten <link=\"DISEASE\">Bakteerien</link> Lukumäärä"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</"
-#| "link> when the pipe contents <link=\"HEAT\">Temperature</link> enters the "
-#| "chosen range."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends an <link=\"LOGIC\">Active</link> signal when the number of <link="
 "\"DISEASE\">Germs</link> in the pipe enters the configured Germ Threshold "
 "range"
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link> tai menee <link=\"LOGIC"
-"\">Valmiustilaan</link> kun putken sisällön <link=\"HEAT\">Lämpötila</link> "
-"on valitulla välillä."
+"Lähettä <link=\"LOGIC\">Akatiivinen</link>-signaalia kun putkessa olevien "
+"<link=\"DISEASE\">Bakteerien</link> määrä saavuttaa Bakteerikynnyksen alueen"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_INACTIVE"
@@ -5346,6 +5333,9 @@ msgid ""
 "\"DISEASE\">Germs</link> in the pipe is outside the configured Germ "
 "Threshold range"
 msgstr ""
+"Lähettää <link=\"LOGIC\">Valmiustilassa</link>-signaalia, kun putkessa "
+"olevien <link=\"DISEASE\">Bakteerien</link> lukumäärä on Bakteerikynnyksen "
+"alueen ulkopuolella"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME"
@@ -5353,18 +5343,11 @@ msgid "<link=\"GASCONDUITDISEASESENSOR\">Gas Pipe Germ Sensor</link>"
 msgstr "<link=\"GASCONDUITDISEASESENSOR\">Kaasuputken Mikrobitunnistin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC"
-#| msgid ""
-#| "Gas Pipe Element Sensors can be used to detect the presence of a specific "
-#| "gas in a pipe"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC"
 msgid ""
 "Element sensors can be used to detect the presence of a specific gas in a "
 "pipe."
-msgstr ""
-"Kaasuputken Ainetunnistimia käytetään havaitsemaan tietyn kaasun läsnäolo "
-"putkessa"
+msgstr "Ainetunnistimilla voidaan havaita tietyn kaasun läsnäolo putkessa."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
@@ -5376,38 +5359,27 @@ msgstr ""
 "\">Kaasu</link> havaitaan."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.DESC"
-#| msgid "Stores <link=\"ELEMENTSGAS\">Gas</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT"
 msgid "Internal <link=\"ELEMENTSGAS\">Gas</link> Presence"
-msgstr "Varastoi <link=\"ELEMENTSGAS\">Kaasua</link>."
+msgstr "Sisäisen <link=\"ELEMENTSGAS\">Kaasun</link> Läsnäolo"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> when the configured Gas Element is "
-#| "detected."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends an <link=\"LOGIC\">Active</link> signal while the configured <link="
 "\"ELEMENTSGAS\">Gas</link> is detected"
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link>, kun säädetty Kaasu havaitaan."
+"Lähettää <link=\"LOGIC\">Aktiivinen</link>-signaalia, kun säädetty <link="
+"\"ELEMENTSGAS\">Kaasu</link> havaitaan"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> when the configured Gas Element is "
-#| "detected."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE"
 msgid ""
 "Sends a <link=\"LOGIC\">Standby</link> signal while the configured <link="
 "\"ELEMENTSGAS\">Gas</link> is not detected"
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link>, kun säädetty Kaasu havaitaan."
+"Lähettää <link=\"LOGIC\">Valmiustilassa</link>-signaalia, kun säädettyä "
+"<link=\"ELEMENTSGAS\">Kaasua</link> ei havaita"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME"
@@ -5497,47 +5469,31 @@ msgstr ""
 "saavuttaa tietyn lämpötilan."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> or on <link=\"LOGIC\">Standby</"
-#| "link> when the pipe contents <link=\"HEAT\">Temperature</link> enters the "
-#| "chosen range."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT"
 msgid ""
 "Becomes <link=\"LOGIC\">Active</link> or goes on <link=\"LOGIC\">Standby</"
 "link> when contents enter the chosen <link=\"HEAT\">Temperature</link> range."
 msgstr ""
 "Muuttuu <link=\"LOGIC\">Aktiiviseksi</link> tai menee <link=\"LOGIC"
-"\">Valmiustilaan</link> kun putken sisällön <link=\"HEAT\">Lämpötila</link> "
-"on valitulla välillä."
+"\">Valmiustilaan</link> kun sisällön <link=\"HEAT\">Lämpötila</link> on "
+"valitulla välillä."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.EFFECT"
-#| msgid ""
-#| "Releases <link=\"ELEMENTSGAS\">Gas</link> from <link=\"GASPIPING\">Gas "
-#| "Pipes</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT"
 msgid ""
 "Internal <link=\"ELEMENTSGAS\">Gas</link><link=\"HEAT\">Temperature</link>"
 msgstr ""
-"Vapauttaa <link=\"ELEMENTSGAS\">Kaasun</link> <link=\"GASPIPING"
-"\">Kaasuputkista</link>."
+"Sisäinen <link=\"ELEMENTSGAS\">Kaasun</link> <link=\"HEAT\">Lämpötila</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> when the configured Gas Element is "
-#| "detected."
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends an <link=\"LOGIC\">Active</link> signal when the contained gas's "
 "temperature matches its configuration."
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link>, kun säädetty Kaasu havaitaan."
+"Lähettää <link=\"LOGIC\">Aktiivinen</link>-signaalia, kun sisällä olevan "
+"kaasun lämpötila vastaa asetusta."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE
 msgctxt ""
@@ -26748,9 +26704,6 @@ msgstr ""
 "ansaitun Asiantuntemustason myötä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.NAME"
-#| msgid "Had An Espresso"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.NAME"
 msgid "Drank Espresso"
 msgstr "Joi Espresson"
@@ -26930,9 +26883,6 @@ msgstr ""
 "pinkeänä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.GREETING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GREETING.NAME"
-#| msgid "Saw a Friend"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GREETING.NAME"
 msgid "Saw Friend"
 msgstr "Näki Ystävän"
@@ -26952,7 +26902,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.HISTAMINESUPPRESSION.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HISTAMINESUPPRESSION.NAME"
 msgid "Antihistamines"
-msgstr ""
+msgstr "Antihistamiinit"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.HISTAMINESUPPRESSION.TOOLTIP
 #, fuzzy
@@ -27152,12 +27102,9 @@ msgstr ""
 "Mitä vähemmän siitä tiedät, sen paremmin se tepsii."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATS.IMMUNELEVEL.NAME"
-#| msgid "Immune System"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.NAME"
 msgid "Immuno Booster"
-msgstr "Immuunijärjestelmä"
+msgstr "Immuunitehostin"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.TOOLTIP"
@@ -27389,7 +27336,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.PRICKLEFRUITDAMAGE.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PRICKLEFRUITDAMAGE.NAME"
 msgid "Ouch!"
-msgstr ""
+msgstr "Auts!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PRICKLEFRUITDAMAGE.TOOLTIP
 #, fuzzy
@@ -27459,9 +27406,6 @@ msgstr ""
 "syyllisyyden kourissa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BARRACKSSTAMINA.NAME"
-#| msgid "Barracks"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.NAME"
 msgid "Barracks"
 msgstr "Parakki"
@@ -27478,25 +27422,16 @@ msgstr ""
 "virkeäksi"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.NAME"
-#| msgid "Washroom"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.NAME"
 msgid "Washroom"
 msgstr "Pesuhuone"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.TOOLTIP"
-#| msgid "This Duplicant used a toilet in a nice bathroom"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.TOOLTIP"
 msgid "This Duplicant used a Lavatory in a Washroom"
-msgstr "Tämä Jäljennäinen käytti vessaa hienossa kylpyhuoneessa"
+msgstr "Tämä Jäljennäinen käytti vessaa Pesuhuoneessa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.NAME"
-#| msgid "Bedroom"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.NAME"
 msgid "Bedroom"
 msgstr "Makuuhuone"
@@ -27529,9 +27464,6 @@ msgid "This Duplicant's most recent meal was eaten in a fancy Great Hall"
 msgstr "Tämä Jäljennäinen söi edellisen ateriansa hienossa, suuressa salissa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.LATRINE.NAME"
-#| msgid "Latrine"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.NAME"
 msgid "Latrine"
 msgstr "WC"
@@ -27587,12 +27519,9 @@ msgstr ""
 "työntekoonsa ja hyvinvointiinsa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SHOWERED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.SHOWER.NAME"
-#| msgid "Shower"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SHOWERED.NAME"
 msgid "Showered"
-msgstr "Käy Suihkussa"
+msgstr "Käynyt Suihkussa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SHOWERED.TOOLTIP
 #, fuzzy
@@ -27628,12 +27557,9 @@ msgid "This Duplicant is getting tired"
 msgstr "Tämä Jäljennäinen alkaa väsyä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SMELLEDFLOWERS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.TITLE"
-#| msgid "Sealed Door"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SMELLEDFLOWERS.NAME"
 msgid "Smelled Flowers"
-msgstr "Eristetty Ovi"
+msgstr "Haistettuja Kukkia"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SMELLEDFLOWERS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SMELLEDFLOWERS.TOOLTIP"
@@ -27691,22 +27617,17 @@ msgstr ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.CAUSE"
 msgid "Obtained when a Duplicant is wearing a suit full of... \"fluids\""
 msgstr ""
+"Saadaan, kun Jäljennäisellä yllään oleva puku on täynnä... \"nesteitä\""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.NAME"
-#| msgid "Atmo Suit"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.NAME"
 msgid "Soiled Suit"
-msgstr "Painepuku"
+msgstr "Sotkettu Puku"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FULLBLADDER.TOOLTIP"
-#| msgid "This Duplicant's bladder is full"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.TOOLTIP"
 msgid "This Duplicant's suit is full of waste"
-msgstr "Tämän Jäljennäisen rakko on täysi"
+msgstr "Tämän Jäljennäisen puku on täynnä jätöstä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOREBACK.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOREBACK.CAUSE"
@@ -27728,12 +27649,9 @@ msgstr ""
 "sängyn"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SPACETOURIST.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.SPACE.NAME"
-#| msgid "Exposed to Space"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SPACETOURIST.NAME"
 msgid "Visited Space"
-msgstr "Altistunut Avaruudelle"
+msgstr "Vierailtu Avaruus"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SPACETOURIST.TOOLTIP
 #, fuzzy
@@ -27815,9 +27733,6 @@ msgid "This Duplicant's stress is just melting away"
 msgstr "Tämän Jäljennäisen ahdistus haihtuu tiehensä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.NAME"
-#| msgid "Recieving Clinic Massage"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.NAME"
 msgid "Receiving Clinic Massage"
 msgstr "Saa Kliinistä Hierontaa"
@@ -27833,7 +27748,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.NAME"
 msgid "Morale Upgrade Helper"
-msgstr ""
+msgstr "Moraalinkohotusavustaja"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.TOOLTIP"
@@ -28291,12 +28206,9 @@ msgid "Low Morale"
 msgstr "Alhainen Moraali"
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.EXPECTATION_MOD_NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.NAME"
-#| msgid "Jobs Mastered"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.EXPECTATION_MOD_NAME"
 msgid "Skills Mastered"
-msgstr "Töitä Hallinassa"
+msgstr "Taitoja Hallinassa"
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.EXPECTATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.EXPECTATION_TOOLTIP"
@@ -28315,20 +28227,14 @@ msgid "High Morale"
 msgstr "Korkea Moraali"
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NEUTRAL_MODIFIER
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME"
-#| msgid "Insufficient Power"
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NEUTRAL_MODIFIER"
 msgid "Sufficient Morale"
-msgstr "Liian vähän virtaa"
+msgstr "Riittävä Moraali"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.ABE.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ABE.DESC"
@@ -28413,6 +28319,7 @@ msgstr "Bubbles"
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BURT.DESC"
 msgid "This {0} always feels great after a bubble bath and a good long cry."
 msgstr ""
+"Tämä {0} tuntee olonsa mahtavaksi vaahtokylvyn ja pitkän itkun jälkeen."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.BURT.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BURT.NAME"
@@ -28576,11 +28483,6 @@ msgid "Liam"
 msgstr "Liam"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.DESC"
-#| msgid ""
-#| "A {0} is a charming, delightful woman, unless you make the mistake of "
-#| "messing with one of her friends."
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.DESC"
 msgid ""
 "A {0} is a charming woman, unless you make the mistake of messing with one "
@@ -29540,9 +29442,6 @@ msgid "critter"
 msgstr "otus"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.DUPLICANT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BASEDUPLICANT.NAME"
-#| msgid "Duplicant"
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.DUPLICANT"
 msgid "Duplicant"
 msgstr "Jäljennäinen"
@@ -29640,12 +29539,9 @@ msgid "Breaking {Target}"
 msgstr "Rikkoo kohdetta {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BREAKWORKSTATUS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BREAKWORKSTATUS.TOOLTIP"
-#| msgid "This Duplicant is going totally bananas on the {Target}"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BREAKWORKSTATUS.TOOLTIP"
 msgid "This Duplicant is going totally bananas on the {Target}!"
-msgstr "Tämä Jäljennäinen pimahti kohteelle {Target}"
+msgstr "Tämä Jäljennäinen pimahti kohteelle {Target}!"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BREATHINGO2.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BREATHINGO2.NAME"
@@ -29921,12 +29817,9 @@ msgid "Eating {Target}"
 msgstr "Syö ruokaa {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EATING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RELAX.TOOLTIP"
-#| msgid "This Duplicant is taking it easy"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EATING.TOOLTIP"
 msgid "This Duplicant is having a meal"
-msgstr "Tämä Jäljennäinen ottaa rennosti"
+msgstr "Tämä Jäljennäinen on syömässä ateriaa"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMITTINGCO2.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMITTINGCO2.NAME"
@@ -29934,12 +29827,10 @@ msgid "Exhaling {EmittingRate} CO<sub>2</sub>"
 msgstr "Uloshengittää {EmittingRate} CO<sub>2</sub>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMITTINGCO2.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CARBONDIOXIDE.NAME"
-#| msgid "<link=\"CARBONDIOXIDE\">Carbon Dioxide</link>"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMITTINGCO2.TOOLTIP"
 msgid "Duplicants breathe out <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>"
-msgstr "<link=\"CARBONDIOXIDE\">Hiilidioksidi</link>"
+msgstr ""
+"Jäljennäiset uloshengittävät <link=\"CARBONDIOXIDE\">Hiilidioksidia</link>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMPTYING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMPTYING.NAME"
@@ -30002,12 +29893,9 @@ msgid "This Duplicant is equipping a {Target}"
 msgstr "Tämä Jäljennäinen ottaa käyttöön tavaran {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.SPACE.NAME"
-#| msgid "Exposed to Space"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.NAME"
 msgid "Exposed to {Sickness} Germs"
-msgstr "Altistunut Avaruudelle"
+msgstr "Altistunut [Sickness}bakteereille"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TOOLTIP"
@@ -46965,20 +46853,14 @@ msgstr ""
 "Työpaikkojen vaihtaminen ei poista näitä piirteitä."
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.NONE.NAME"
-#| msgid "None"
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.NAME"
 msgid "None"
 msgstr "Ei Mitään"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_ROLES.TOOLTIP"
-#| msgid "{0} has not mastered any jobs yet"
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.TOOLTIP"
 msgid "{0} has not mastered any skills yet"
-msgstr "{0} ei hallitse vielä yhtäkään työtä"
+msgstr "{0} ei hallitse vielä yhtäkään taitoa"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.PERKS.NAME
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.PERKS.NAME"
@@ -47127,7 +47009,7 @@ msgstr "<b>Tervetuloa Oxygen Not Includediin!</b>"
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.ANIMATION_HEADER
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.ANIMATION_HEADER"
 msgid "LAUNCH DATE ANNOUNCEMENT!"
-msgstr ""
+msgstr "JULKAISUPÄIVÄILMOITUS!"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.BODY
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.BODY"
@@ -47433,7 +47315,7 @@ msgstr "Siirtokuntani tuotti {0} <link=\"FOOD\">Ruokaa</link> päivän aikana"
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME"
 msgid "Chores:"
-msgstr ""
+msgstr "Tehtävät:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP
 #, fuzzy
@@ -47719,9 +47601,6 @@ msgstr ""
 "{1}: {2}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.PERSONAL_TIME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.CRITERIA_FAILED.FAILED"
-#| msgid "{0}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.PERSONAL_TIME"
 msgid "{0}"
 msgstr "{0}"
@@ -47742,9 +47621,6 @@ msgid "{0}"
 msgstr "{0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.WORK_TIME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.CRITERIA_FAILED.FAILED"
-#| msgid "{0}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.WORK_TIME"
 msgid "{0}"
 msgstr "{0}"
@@ -47899,12 +47775,9 @@ msgid "Enter Text..."
 msgstr "Kirjoita Tekstiä..."
 
 #. STRINGS.UI.FILTER
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.FILTERSCREEN.OPTIONS"
-#| msgid "Tool Filter"
 msgctxt "STRINGS.UI.FILTER"
 msgid "Filter"
-msgstr "Työkalusuodatin"
+msgstr "Suodatin"
 
 #. STRINGS.UI.FORMATDAY
 msgctxt "STRINGS.UI.FORMATDAY"
@@ -47977,7 +47850,7 @@ msgstr ""
 #. STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.MUTE_ON_FOCUS_LOST
 msgctxt "STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.MUTE_ON_FOCUS_LOST"
 msgid "Mute when unfocused: "
-msgstr ""
+msgstr "Mykistä, kun ei kohdistettu: "
 
 #. STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.MUTE_ON_FOCUS_LOST_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.MUTE_ON_FOCUS_LOST_TOOLTIP"
@@ -47992,11 +47865,6 @@ msgid "AUDIO OPTIONS"
 msgstr "ÄÄNIASETUKSET"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.DEFAULT.NAME
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
-#| "DEFAULT.NAME"
-#| msgid "Regular"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS."
 "DEFAULT.NAME"
@@ -48292,14 +48160,11 @@ msgid "Duplicants have increased germ resistance"
 msgstr "Jäljennäisillä on kohonnut vastustuskyvyn palautuminen"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.ATTRIBUTE_MODIFIER_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.STRONGIMMUNESYSTEM.NAME"
-#| msgid "Germ Resistant"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "WEAK.ATTRIBUTE_MODIFIER_NAME"
 msgid "Weak Germ Resistance"
-msgstr "Pöpöjä Sietävä"
+msgstr "Heikko Bakteerinsietokyky"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.NAME
 msgctxt ""
@@ -48309,25 +48174,17 @@ msgid "Weak"
 msgstr "Heikko"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
-#| "STRONG.TOOLTIP"
-#| msgid "Duplicants have increased immune recovery"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "WEAK.TOOLTIP"
 msgid "Duplicants have decreased germ resistance"
-msgstr "Jäljennäisillä on kohonnut vastustuskyvyn palautuminen"
+msgstr "Jäljennäisillä on heikentynyt bakteerinsietokyky"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.STRONGIMMUNESYSTEM.NAME"
-#| msgid "Germ Resistant"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.NAME"
 msgid "Germ Resistance"
-msgstr "Pöpöjä Sietävä"
+msgstr "Bakteerinsietokyky"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.TOOLTIP
 msgctxt ""
@@ -48338,11 +48195,6 @@ msgstr ""
 "vastaan"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT.NAME
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
-#| "DEFAULT.NAME"
-#| msgid "Regular"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT."
 "NAME"
@@ -48360,9 +48212,6 @@ msgid "Duplicants have normal Morale requirements"
 msgstr "Jäljennäisillä ei ole paikkaa, jossa nukkua"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DISABLED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.NONE.NAME"
-#| msgid "None"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DISABLED."
 "NAME"
@@ -48387,9 +48236,6 @@ msgid "Low Morale (Easy)"
 msgstr "Alhainen Moraali"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_LOW"
-#| msgid "Low"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY.NAME"
 msgid "Low"
@@ -48413,9 +48259,6 @@ msgid "Low Morale (Hard)"
 msgstr "Alhainen Moraali"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.HARD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_HIGH"
-#| msgid "High"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.HARD.NAME"
 msgid "High"
@@ -48463,12 +48306,9 @@ msgid ""
 msgstr "Jäljennäiset ahdistuvat äärimmäisen kiihtyvällä nopeudella"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.TOOLTIP"
@@ -48674,13 +48514,13 @@ msgstr ""
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.NAME"
 msgid "World"
-msgstr ""
+msgstr "Maailma"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.TOOLTIP
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.TOOLTIP"
 msgid "New worlds added by mods can be selected here"
-msgstr ""
+msgstr "Modien lisäämät uudet maailmat voidaan lisätä täältä"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLDGEN_SEED.NAME
 msgctxt ""
@@ -48896,18 +48736,13 @@ msgstr ""
 "eikä sitä enää tueta.</color></b>"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DESKTOPQUITCONFIRM
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DESKTOPQUITCONFIRM"
-#| msgid ""
-#| "Are you sure you want to quit?\n"
-#| "All unsaved progress will be lost."
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DESKTOPQUITCONFIRM"
 msgid ""
 "Should I really quit?\n"
 "All unsaved progress will be lost."
 msgstr ""
-"Haluatko varmasti poistua?\n"
-"Kaikki tallentamaton edistyminen menetetään."
+"Pitäisikö minun todella lopettaa?\n"
+"Kaikki tallentamaton edistys menetetään."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.LOADGAME
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.LOADGAME"
@@ -48925,18 +48760,13 @@ msgid "OPTIONS"
 msgstr "ASETUKSET"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.QUITCONFIRM
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MAINMENU.QUITCONFIRM"
-#| msgid ""
-#| "Are you sure you want to quit to main menu?\n"
-#| "All unsaved progress will be lost."
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.QUITCONFIRM"
 msgid ""
 "Should I quit to the main menu?\n"
 "All unsaved progress will be lost."
 msgstr ""
-"Haluatko varmasti poistua päävalikkoon?\n"
-"Kaikki tallentamaton edistyminen menetetään."
+"Pitäisikö minun poistua päävalikkoon?\n"
+"Kaikki tallentamaton edistys menetetään."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.QUITTODESKTOP
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.QUITTODESKTOP"
@@ -48944,18 +48774,13 @@ msgid "QUIT"
 msgstr "LOPETA"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.RESTARTCONFIRM
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MAINMENU.RESTARTCONFIRM"
-#| msgid ""
-#| "Are you sure you want to quit?\n"
-#| "All unsaved progress will be lost."
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.RESTARTCONFIRM"
 msgid ""
 "Should I really quit?\n"
 "All unsaved progress will be lost."
 msgstr ""
-"Haluatko varmasti lopettaa?\n"
-"Kaikki tallentamaton edistyminen menetetään."
+"Pitäisikö minun todella lopettaa?\n"
+"Kaikki tallentamaton edistys menetetään."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.RESUMEBUTTON_BASENAME
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.RESUMEBUTTON_BASENAME"
@@ -48970,7 +48795,7 @@ msgstr "JATKA PELIÄ"
 #. STRINGS.UI.FRONTEND.MAINMENU.SCENARIOS
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.SCENARIOS"
 msgid "SCENARIOS"
-msgstr ""
+msgstr "SKENAARIOT"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.STARTDEMO
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.STARTDEMO"
@@ -49073,7 +48898,7 @@ msgstr ""
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.INSTALL_INFO_INACCESSIBLE.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.INSTALL_INFO_INACCESSIBLE.TITLE"
 msgid "STEAM CONTENT ERROR"
-msgstr ""
+msgstr "STEAM-SISÄLLÖN VIRHE"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.MESSAGE"
@@ -49082,38 +48907,29 @@ msgid ""
 "They will be re-installed when the game is restarted.\n"
 "Game may be unstable until then."
 msgstr ""
+"Yhden tai useamman modin lataaminen epäonnistui: {0}\n"
+"Ne asennetaan uudelleen, kun peli käynnistetään uudelleen.\n"
+"Siihen asti peli voi olla epävakaa."
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.RESTART_LATER
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.CONTAGIOUS"
-#| msgid "Contagious"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.RESTART_LATER"
 msgid "Continue"
-msgstr "Tarttuva"
+msgstr "Jatka"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.RESTART_NOW
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.NAME"
-#| msgid "Rest"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.RESTART_NOW"
 msgid "Restart"
-msgstr "Lepää"
+msgstr "Käynnistä uudelleen"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.TITLE"
-#| msgid "LOAD GAME"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.TITLE"
 msgid "LOAD FAILURE"
-msgstr "LATAA PELI"
+msgstr "LATAUS EPÄONNISTUI"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.DEV_CONTINUE
-#, fuzzy
-#| msgctxt "STRINGS.UI.CRAFT_CONTINUOUS"
-#| msgid "CONTINUOUS"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.DEV_CONTINUE"
 msgid "CONTINUE"
-msgstr "JATKUVA"
+msgstr "JATKA"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.DEV_MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.DEV_MESSAGE"
@@ -49125,7 +48941,7 @@ msgstr ""
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.DEV_RESTART
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.DEV_RESTART"
 msgid "RESTART"
-msgstr ""
+msgstr "KÄYNNISTÄ UUDELLEEN"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.MESSAGE"
@@ -49137,7 +48953,7 @@ msgstr ""
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.TITLE"
 msgid "MOD ERRORS"
-msgstr ""
+msgstr "VIRHEITÄ MODISSA"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.MESSAGE"
@@ -49145,6 +48961,8 @@ msgid ""
 "Mod events:\n"
 "{0}"
 msgstr ""
+"Modin tapahtumat:\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.TITLE
 #, fuzzy
@@ -49183,7 +49001,7 @@ msgstr "JATKUVA"
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.RESTART.OK
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.RESTART.OK"
 msgid "RESTART"
-msgstr ""
+msgstr "KÄYNNISTÄ UUDELLEEN"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.SAVE_GAME_MODS_DIFFER.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.SAVE_GAME_MODS_DIFFER.MESSAGE"
@@ -49236,17 +49054,11 @@ msgid "STEAM MOD UPDATE"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.MOD_ERRORS.CLOSE
-#, fuzzy
-#| msgctxt "STRINGS.UI.CREDITSSCREEN.CLOSEBUTTON"
-#| msgid "CLOSE"
 msgctxt "STRINGS.UI.FRONTEND.MOD_ERRORS.CLOSE"
 msgid "CLOSE"
 msgstr "SULJE"
 
 #. STRINGS.UI.FRONTEND.MOD_ERRORS.DETAILS
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.GROUPNAME_DETAILS"
-#| msgid "DETAILS"
 msgctxt "STRINGS.UI.FRONTEND.MOD_ERRORS.DETAILS"
 msgid "DETAILS"
 msgstr "TIEDOT"
@@ -49254,74 +49066,62 @@ msgstr "TIEDOT"
 #. STRINGS.UI.FRONTEND.MOD_ERRORS.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_ERRORS.TITLE"
 msgid "MOD ERRORS"
-msgstr ""
+msgstr "MODIN VIRHEET"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.ACTIVE_DURING_CRASH
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.ACTIVE_DURING_CRASH"
 msgid "ACTIVE DURING CRASH"
-msgstr ""
+msgstr "AKTIIVINEN KAATUMISEN AIKAAN"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.CONTENT_DELETED
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.GROUPNAME_CONTENTS"
-#| msgid "CONTENTS"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.CONTENT_DELETED"
 msgid "CONTENT DELETED"
-msgstr "SISÄLTÖ"
+msgstr "SISÄLTÖ POISTETTU"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.EXPECTED_DISABLED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.EXPECTED_DISABLED"
 msgid "NOT DISABLED"
-msgstr ""
+msgstr "EI POISTETTU KÄYTÖSTÄ"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.EXPECTED_ENABLED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.EXPECTED_ENABLED"
 msgid "NOT ENABLED"
-msgstr ""
+msgstr "EI KÄYTÖSSÄ"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.INSTALL_FAILED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.INSTALL_FAILED"
 msgid "INSTALL FAILED"
-msgstr ""
+msgstr "ASENNUS EPÄONNISTUI"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.INSTALL_INFO_INACCESSIBLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.INSTALL_INFO_INACCESSIBLE"
 msgid "INACCESSIBLE"
-msgstr ""
+msgstr "EI KÄYTETTÄVISSÄ"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.INSTALLED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.INSTALLED"
 msgid "INSTALLED"
-msgstr ""
+msgstr "ASENNETTU"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.NOT_FOUND
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.NOT_FOUND"
 msgid "NOT FOUND"
-msgstr ""
+msgstr "EI LÖYDY"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.OUT_OF_ORDER
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_FERTILITY"
-#| msgid "EGG CHANCES"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.OUT_OF_ORDER"
 msgid "ORDERING CHANGED"
-msgstr "MUNIMISMAHDOLLISUUKSIA"
+msgstr "JÄRJESTYSTÄ MUUTETTU"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.REQUIRED
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_REQUIREMENTS"
-#| msgid "REQUIREMENTS"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.REQUIRED"
 msgid "REQUIRED"
-msgstr "VAATIMUKSET"
+msgstr "VAADITAAN"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.REQUIRES_RESTART
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_REQUIREMENTS"
-#| msgid "REQUIREMENTS"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.REQUIRES_RESTART"
 msgid "RESTART REQUIRED"
-msgstr "VAATIMUKSET"
+msgstr "UUDELLEENKÄYNNISTYS VAADITAAN"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.ACTIVE_DURING_CRASH
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.ACTIVE_DURING_CRASH"
@@ -50626,10 +50426,6 @@ msgid "May be replanted, but will produce no further seeds"
 msgstr "Voidaan uudelleenistuttaa, muttei sen jälkeen tuota enää siemeniä"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_FINAL_HARVEST
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_FINAL_HARVEST"
-#| msgid "Yields new seeds on the final harvest of its lifecycle"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_FINAL_HARVEST"
 msgid "Yields new seeds on the final harvest of its life cycle"
 msgstr "Antaa uusia siemeniä elinkaarensa viimeisessä sadonkorjuussa"
@@ -50645,12 +50441,6 @@ msgid "Harvesting this plant will yield new seeds"
 msgstr "Tämä kasvin sadonkorjuu tuottaa uusia siemeniä"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_CEILING
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_CEILING"
-#| msgid ""
-#| "This seed must be planted in a downward facing plot\n"
-#| "\n"
-#| "Press <color=#F44A47>[O]</color> while building farm plots to rotate them"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_CEILING"
 msgid ""
 "This seed must be planted in a downward facing plot\n"
@@ -50664,12 +50454,6 @@ msgstr ""
 "niitä"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_WALL
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_WALL"
-#| msgid ""
-#| "This seed must be planted in a side facing plot\n"
-#| "\n"
-#| "Press <color=#F44A47>[O]</color> while building plots to rotate them"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_WALL"
 msgid ""
 "This seed must be planted in a side facing plot\n"
@@ -50733,41 +50517,26 @@ msgid "Cancel"
 msgstr "Peruuta"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CARE_PACKAGE_ELEMENT_COUNT
-#, fuzzy
-#| msgctxt "STRINGS.UI.NAME_WITH_UNITS"
-#| msgid "{0} x {1}"
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CARE_PACKAGE_ELEMENT_COUNT"
 msgid "{0} x {1}"
 msgstr "{0} x {1}"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CARE_PACKAGE_ELEMENT_QUANTITY
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO"
-#| msgid "{0} to {1}"
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CARE_PACKAGE_ELEMENT_QUANTITY"
 msgid "{0} of {1}"
-msgstr "{0} -> {1}"
+msgstr "{0}/{1}"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY
-#, fuzzy
-#| msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY"
-#| msgid ""
-#| "The Printing Pod will need time to recharge if I return these Duplicants "
-#| "to ooze."
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY"
 msgid ""
 "The Printing Pod will need time to recharge if I reject these Printables."
 msgstr ""
-"Tulostuskennon täytyy saada aikaa latautua, jos palautat nämä Jäljennäiset "
-"mönjäksi."
+"Tulostuskennon täytyy saada aikaa latautua, jos hylkään nämä Tulostettavat."
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE"
-#| msgid "Reject All Duplicants?"
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE"
 msgid "Reject All Printables?"
-msgstr "Hylkää kaikki Jäljennäiset?"
+msgstr "Hylkää kaikki Tulostettavat?"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.EMBARK
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.EMBARK"
@@ -50775,12 +50544,9 @@ msgid "EMBARK"
 msgstr "LÄHDE MATKAAN"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.IMMIGRANTSCREENTITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.IMMIGRANTSCREEN.IMMIGRANTSCREENTITLE"
-#| msgid "Select a DNA Blueprint"
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.IMMIGRANTSCREENTITLE"
 msgid "Select a Blueprint"
-msgstr "Valitse DNA-Sinikopio"
+msgstr "Valitse DNA-Malli"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.NAME_YOUR_COLONY
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.NAME_YOUR_COLONY"
@@ -50827,7 +50593,7 @@ msgctxt "STRINGS.UI.INCUBATE_CONTINUOUS_TOOLTIP"
 msgid ""
 "When checked, this building will continously incubate eggs of the selected "
 "type"
-msgstr ""
+msgstr "Kun päällä, tämä rakennus hautoo jatkuvasti valitun tyyppisiä munia"
 
 #. STRINGS.UI.JOBS
 msgctxt "STRINGS.UI.JOBS"
@@ -50863,19 +50629,14 @@ msgstr "Tärkeys"
 msgctxt "STRINGS.UI.JOBSSCREEN.CANNOT_ADJUST_PRIORITY"
 msgid "Priorities for {0} cannot be adujusted currently because they're in {1}"
 msgstr ""
+"Kohteen {0} tärkeyttä ei voida juuri nyt säätää sillä siinä on {1} meneillään"
 
 #. STRINGS.UI.JOBSSCREEN.DECREASE_PRIORITY_TUTORIAL
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.DECREASE_PRIORITY_TUTORIAL"
-#| msgid "{Key} Decrease priority"
 msgctxt "STRINGS.UI.JOBSSCREEN.DECREASE_PRIORITY_TUTORIAL"
 msgid "{Hotkey} Decrease priority"
-msgstr "{Key} Vähennä tärkeyttä"
+msgstr "{Hotkey} Vähennä tärkeyttä"
 
 #. STRINGS.UI.JOBSSCREEN.DECREASE_ROW_PRIORITY_MINION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.DECREASE_ROW_PRIORITY_MINION_TOOLTIP"
-#| msgid "Depriotize <b>All Errands</b> for <b>{Name}</b>"
 msgctxt "STRINGS.UI.JOBSSCREEN.DECREASE_ROW_PRIORITY_MINION_TOOLTIP"
 msgid "Deprioritize <b>All Errands</b> for <b>{Name}</b>"
 msgstr ""
@@ -50893,12 +50654,9 @@ msgid "{Name} may not perform {Job} Errands"
 msgstr "{Name} ei voi suorittaa {Job}tehtäviä"
 
 #. STRINGS.UI.JOBSSCREEN.HEADER_CHANGE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.HEADER_CHANGE_TOOLTIP"
-#| msgid "Set the priority for <b>{Job} Errands</b> colonywide\n"
 msgctxt "STRINGS.UI.JOBSSCREEN.HEADER_CHANGE_TOOLTIP"
 msgid "Set the priority for the <b>{Job} Errand Type</b> colonywide\n"
-msgstr "Aseta prioriteetit <b>{Job}tehtäville</b> siirtokunnan kattavasti\n"
+msgstr "Aseta prioriteetit <b>{Job}tehtäville</b> koko siirtokunnassa\n"
 
 #. STRINGS.UI.JOBSSCREEN.HEADER_DETAILS_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.HEADER_DETAILS_TOOLTIP"
@@ -50926,12 +50684,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.JOBSSCREEN.INCREASE_PRIORITY_TUTORIAL
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.INCREASE_PRIORITY_TUTORIAL"
-#| msgid "{Key} Increase priority"
 msgctxt "STRINGS.UI.JOBSSCREEN.INCREASE_PRIORITY_TUTORIAL"
 msgid "{Hotkey} Increase priority"
-msgstr "{Key} Nosta tärkeyttä"
+msgstr "{Hotkey} Nosta tärkeyttä"
 
 #. STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_MINION_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_MINION_TOOLTIP"
@@ -50979,12 +50734,9 @@ msgid "Options"
 msgstr "Asetukset"
 
 #. STRINGS.UI.JOBSSCREEN.PRIORITY.DISABLED
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.DISABLED"
-#| msgid "Disabled"
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.DISABLED"
 msgid "Disallowed"
-msgstr "Pois päältä"
+msgstr "Ei Sallittu"
 
 #. STRINGS.UI.JOBSSCREEN.PRIORITY.HIGH
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY.HIGH"
@@ -51012,9 +50764,6 @@ msgid "Very Low"
 msgstr "Erittäin Matala"
 
 #. STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.BASIC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME"
-#| msgid "Normal"
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.BASIC"
 msgid "Normal"
 msgstr "Tavallinen"
@@ -51022,36 +50771,27 @@ msgstr "Tavallinen"
 #. STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.COMPULSORY
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.COMPULSORY"
 msgid "Compulsory"
-msgstr ""
+msgstr "Pakollinen"
 
 #. STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.EMERGENCY
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.EMERGING.NAME"
-#| msgid "Emerging"
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.EMERGENCY"
 msgid "Emergency"
-msgstr "Tulee Esiin"
+msgstr "Hätätila"
 
 #. STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.HIGH
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.HIGH"
 msgid "Urgent"
-msgstr ""
+msgstr "Kiireellinen"
 
 #. STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.IDLE
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.IDLE.NAME"
-#| msgid "Idle"
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.IDLE"
 msgid "Idle"
 msgstr "Toimeton"
 
 #. STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.PERSONAL_NEEDS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
-#| msgid "Morale"
 msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.PERSONAL_NEEDS"
 msgid "Personal Needs"
-msgstr "Moraali"
+msgstr "Henkilökohtaiset Tarpeet"
 
 #. STRINGS.UI.JOBSSCREEN.RESET_SETTINGS
 msgctxt "STRINGS.UI.JOBSSCREEN.RESET_SETTINGS"
@@ -51078,20 +50818,14 @@ msgstr ""
 "Läheisyys Pois: Prioriteetit asetetaan neutraaleiksi."
 
 #. STRINGS.UI.JOBSSCREEN.SORT_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.SORT_TOOLTIP"
-#| msgid "Sort by {Job} Errand priorities"
 msgctxt "STRINGS.UI.JOBSSCREEN.SORT_TOOLTIP"
 msgid "Sort by the {Job} Errand Type"
-msgstr "Lajittele {Job}tehtävän prioriteettien mukaan"
+msgstr "Lajittele {Job}tehtävätyypin mukaan"
 
 #. STRINGS.UI.JOBSSCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.TITLE"
-#| msgid "MANAGE ERRAND PRIORITIES"
 msgctxt "STRINGS.UI.JOBSSCREEN.TITLE"
 msgid "MANAGE ERRAND TYPE PRIORITIES"
-msgstr "HALLITSE TEHTÄVIEN PRIORITEETTEJÄ"
+msgstr "HALLITSE TEHTÄVÄTYYPPIEN PRIORITEETTEJÄ"
 
 #. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE
 msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE"
@@ -51165,9 +50899,6 @@ msgid "     {0}"
 msgstr "     {0}"
 
 #. STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL"
-#| msgid "Enabled/Disabled"
 msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL"
 msgid "Enable/Disable"
 msgstr "Päällä/Pois"
@@ -51175,89 +50906,60 @@ msgstr "Päällä/Pois"
 #. STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_ACTIVE
 msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_ACTIVE"
 msgid "Building turns on when Active signal received"
-msgstr ""
+msgstr "Rakennus käynnistyy, kun vastaanottaa Aktiivinen-signaalin"
 
 #. STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_INACTIVE
 msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_INACTIVE"
 msgid "Building turns off when Standby signal received"
-msgstr ""
+msgstr "Rakennus menee pois päältä, kun vastaanottaa Valmiustilassa-signaalin"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME"
-#| msgid "Active"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
 msgid "Active"
-msgstr "Päällä"
+msgstr "Aktiivinen"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
-#| msgid "Standby"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
 msgid "Standby"
-msgstr "Valmiustila"
+msgstr "Valmiustilassa"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.INPUT"
-#| msgid "Input Port"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_NAME"
 msgid "Input A"
-msgstr "Sisäänottoportti"
+msgstr "Sisääntulo A"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME"
-#| msgid "Active"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_ACTIVE"
 msgid "Active"
-msgstr "Päällä"
+msgstr "Aktiivinen"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
-#| msgid "Standby"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_INACTIVE"
 msgid "Standby"
-msgstr "Valmiustila"
+msgstr "Valmiustilassa"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.INPUT"
-#| msgid "Input Port"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_NAME"
 msgid "Input B"
-msgstr "Sisäänottoportti"
+msgstr "Sisääntulo B"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME"
-#| msgid "Active"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_ACTIVE"
 msgid "Active"
-msgstr "Päällä"
+msgstr "Aktiivinen"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
-#| msgid "Standby"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_INACTIVE"
 msgid "Standby"
-msgstr "Valmiustila"
+msgstr "Valmiustilassa"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_NAME
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_NAME"
 msgid "The Input"
-msgstr ""
+msgstr "Sisääntulo"
 
 #. STRINGS.UI.LOGIC_PORTS.INPUT_PORT_TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT"
-#| msgid ""
-#| "{0}\n"
-#| "------------------\n"
-#| "{1}"
 msgctxt "STRINGS.UI.LOGIC_PORTS.INPUT_PORT_TOOLTIP"
 msgid ""
 "Input Behaviour:\n"
@@ -51266,17 +50968,16 @@ msgid ""
 "\n"
 "{1}"
 msgstr ""
-"{0}\n"
+"Sisääntulon Toiminta:\n"
 "------------------\n"
+"{0}\n"
+"\n"
 "{1}"
 
 #. STRINGS.UI.LOGIC_PORTS.INPUT_PORTS
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.INPUT_PORTS"
-#| msgid "<link=\"LOGIC\">Auto Inputs</link>: {0}"
 msgctxt "STRINGS.UI.LOGIC_PORTS.INPUT_PORTS"
 msgid "<link=\"LOGIC\">Auto Inputs</link>"
-msgstr "<link=\"LOGIC\">Automaattisisäänotot</link>: {0}"
+msgstr "<link=\"LOGIC\">Automaattisisääntulot</link>"
 
 #. STRINGS.UI.LOGIC_PORTS.INPUT_PORTS_TOOLTIP
 msgctxt "STRINGS.UI.LOGIC_PORTS.INPUT_PORTS_TOOLTIP"
@@ -51326,12 +51027,9 @@ msgid "Oxygen"
 msgstr "Happi"
 
 #. STRINGS.UI.METERS.FUEL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.NAME"
-#| msgid "Fuel Brick"
 msgctxt "STRINGS.UI.METERS.FUEL.TOOLTIP"
 msgid "Fuel"
-msgstr "Polttoaineharkko"
+msgstr "Polttoaine"
 
 #. STRINGS.UI.METERS.HEALTH.TOOLTIP
 msgctxt "STRINGS.UI.METERS.HEALTH.TOOLTIP"
@@ -51423,12 +51121,9 @@ msgstr ""
 "Kuljetin"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.TOOLTIP"
-#| msgid "Move solids objects around."
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.TOOLTIP"
 msgid "Move solids objects around. {Hotkey}"
-msgstr "Siirrä kiinteitä objekteja ympäriinsä."
+msgstr "Siirrä kiinteitä objekteja ympäriinsä. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.COOKING.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.COOKING.BUILDMENUTITLE"
@@ -51456,12 +51151,9 @@ msgid "Decor"
 msgstr "Koristus"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.DECOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DECOR.TOOLTIP"
-#| msgid "Spruce up your colony with some lovely interior decorating."
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DECOR.TOOLTIP"
 msgid "Spruce up your colony with some lovely interior decorating. {Hotkey}"
-msgstr "Piristä siirtokuntaasi ihastuttavalla sisustuksella."
+msgstr "Piristä siirtokuntaasi ihastuttavalla sisustuksella. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.DOORS.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DOORS.BUILDMENUTITLE"
@@ -51489,12 +51181,9 @@ msgid "Stations"
 msgstr "Työpisteet"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.TOOLTIP"
-#| msgid "Unlock new technologies through the power of science!"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.TOOLTIP"
 msgid "Unlock new technologies through the power of science! {Hotkey}"
-msgstr "Avaa uusia teknologioita tieteen voimalla!"
+msgstr "Avaa uusia teknologioita tieteen voimalla! {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.FARMING.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FARMING.BUILDMENUTITLE"
@@ -51517,12 +51206,9 @@ msgid "<link=\"BUILDCATEGORYFOODANDAGRICULTURE\">Food</link>"
 msgstr "<link=\"BUILDCATEGORYFOODANDAGRICULTURE\">Ruoka</link>"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.FOODANDAGRICULTURE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FOODANDAGRICULTURE.TOOLTIP"
-#| msgid "Keep your Duplicants' spirits high and their bellies full."
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FOODANDAGRICULTURE.TOOLTIP"
 msgid "Keep your Duplicants' spirits high and their bellies full. {Hotkey}"
-msgstr "Pidä Jäljennäistesi mieli korkealla ja vatsat täysinä."
+msgstr "Pidä Jäljennäistesi mieli korkealla ja vatsat täysinä. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.BUILDMENUTITLE"
@@ -51535,13 +51221,11 @@ msgid "Furniture"
 msgstr "Sisustus"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.TOOLTIP"
-#| msgid "Amenities to keep your Duplicants happy, comfy and efficient."
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.TOOLTIP"
 msgid "Amenities to keep your Duplicants happy, comfy and efficient. {Hotkey}"
 msgstr ""
-"Mukavuuksia, joilla pitää Jäljennäiseni onnellisina, mukavina ja tehokkaina."
+"Mukavuuksia, joilla pitää Jäljennäiseni onnellisina, mukavina ja tehokkaina. "
+"{Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.BUILDMENUTITLE"
@@ -51857,28 +51541,19 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.BUILDMENUTITLE
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ROCKY"
-#| msgid "Rocky"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.BUILDMENUTITLE"
 msgid "Rocketry"
-msgstr "Kivinen"
+msgstr "Raketit"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ROCKY"
-#| msgid "Rocky"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.NAME"
 msgid "Rocketry"
-msgstr "Kivinen"
+msgstr "Raketit"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ROCKY"
-#| msgid "Rocky"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.TOOLTIP"
 msgid "Rocketry {Hotkey}"
-msgstr "Kivinen"
+msgstr "Raketit {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.BUILDMENUTITLE"
@@ -51959,12 +51634,9 @@ msgid "Ventilation"
 msgstr "Hedelmöitys"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.VENTILATIONSTRUCTURES.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.VENTILATIONSTRUCTURES.TOOLTIP"
-#| msgid "Control the flow of gas in your base."
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.VENTILATIONSTRUCTURES.TOOLTIP"
 msgid "Control the flow of gas in your base. {Hotkey}"
-msgstr "Hallitse kaasujen virtausta tukikohdassasi."
+msgstr "Hallitse kaasujen virtausta tukikohdassasi. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.WIRES.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WIRES.BUILDMENUTITLE"
@@ -52540,12 +52212,9 @@ msgstr ""
 "\">Ulosvientin</link> kanssa"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON"
-#| msgid "Thermal Comfort Overlay"
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON"
 msgid "Thermal Tolerance Overlay"
-msgstr "Lämpömukavuusnäkymä"
+msgstr "Lämmösietonäkymä"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.COOLING
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.COOLING"
@@ -52558,20 +52227,14 @@ msgid "Body Heat Retention"
 msgstr "Ruumiin Lämmönpito"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.HOVERTITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.NAME"
-#| msgid "THERMAL COMFORT OVERLAY"
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.HOVERTITLE"
 msgid "THERMAL TOLERANCE"
-msgstr "LÄMPÖMUKAVUUSNÄKYMÄ"
+msgstr "LÄMMÖNSIETOKYKY"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.NAME"
-#| msgid "THERMAL COMFORT OVERLAY"
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.NAME"
 msgid "THERMAL TOLERANCE OVERLAY"
-msgstr "LÄMPÖMUKAVUUSNÄKYMÄ"
+msgstr "LÄMMÖNSIETONÄKYMÄ"
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.NEUTRAL
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.NEUTRAL"
@@ -52776,12 +52439,9 @@ msgid "Building Intake"
 msgstr "Rakennuksen Sisäänotto"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
-#| msgid "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED"
 msgid "Connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
-msgstr "<link=\"LIQUIDCONDUIT\">Nesteputki</link>"
+msgstr "Yhteydesä <link=\"LIQUIDCONDUIT\">Nesteputkeen</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER"
@@ -52799,16 +52459,9 @@ msgstr ""
 "\">Sisäänoton</link> kanssa"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
-#| msgid ""
-#| "Not connected to a <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
-#| "\">Liquid Pipe</link>"
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
 msgid "Not connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
-msgstr ""
-"Ei yhdistettynä <link=\"<LINK=\"LIQUIDCONDUIT\">LIQUID PIPE</LINK>"
-"\">Nesteputkeen</link>"
+msgstr "Ei yhteydessä <link=\"LIQUIDCONDUIT\">Nesteputkeen</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED"
@@ -53296,12 +52949,9 @@ msgid "Watts Generated"
 msgstr "Watteja Tuotettu"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.BUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.BUTTON"
-#| msgid "Sub-Priority Overlay"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.BUTTON"
 msgid "Priority Overlay"
-msgstr "Alitärkeysnäkymä"
+msgstr "Tärkeysnäkymä"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT"
@@ -53309,12 +52959,9 @@ msgid "8"
 msgstr "8"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.EIGHT_TOOLTIP"
 msgid "Priority 8"
-msgstr "Tärkeys"
+msgstr "Tärkeys 8"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FIVE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FIVE"
@@ -53322,12 +52969,9 @@ msgid "5"
 msgstr "5"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FIVE_TOOLTIP"
 msgid "Priority 5"
-msgstr "Tärkeys"
+msgstr "Tärkeys 5"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FOUR
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FOUR"
@@ -53335,20 +52979,14 @@ msgid "4"
 msgstr "4"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.FOUR_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.FOUR_TOOLTIP"
 msgid "Priority 4"
-msgstr "Tärkeys"
+msgstr "Tärkeys 4"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NAME"
-#| msgid "SUB-PRIORITY OVERLAY"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NAME"
 msgid "PRIORITY OVERLAY"
-msgstr "ALITÄRKEYSNÄKYMÄ"
+msgstr "TÄRKEYSNÄKYMÄ"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.NINE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NINE"
@@ -53356,12 +52994,9 @@ msgid "9 (High Urgency)"
 msgstr "9 (Erittäin kiireellinen)"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.NINE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.NINE_TOOLTIP"
 msgid "Priority 9"
-msgstr "Tärkeys"
+msgstr "Tärkeys 9"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.ONE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.ONE"
@@ -53369,12 +53004,9 @@ msgid "1 (Low Urgency)"
 msgstr "1 (Vähäinen Kiireys)"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.ONE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.ONE_TOOLTIP"
 msgid "Priority 1"
-msgstr "Tärkeys"
+msgstr "Tärkeys 1"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN"
@@ -53382,12 +53014,9 @@ msgid "7"
 msgstr "7"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SEVEN_TOOLTIP"
 msgid "Priority 7"
-msgstr "Tärkeys"
+msgstr "Tärkeys 7"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SIX
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SIX"
@@ -53395,12 +53024,9 @@ msgid "6"
 msgstr "6"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.SIX_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.SIX_TOOLTIP"
 msgid "Priority 6"
-msgstr "Tärkeys"
+msgstr "Tärkeys 6"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.THREE
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.THREE"
@@ -53408,12 +53034,9 @@ msgid "3"
 msgstr "3"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.THREE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.THREE_TOOLTIP"
 msgid "Priority 3"
-msgstr "Tärkeys"
+msgstr "Tärkeys 3"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.TWO
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.TWO"
@@ -53421,12 +53044,9 @@ msgid "2"
 msgstr "2"
 
 #. STRINGS.UI.OVERLAYS.PRIORITIES.TWO_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.OVERLAYS.PRIORITIES.TWO_TOOLTIP"
 msgid "Priority 2"
-msgstr "Tärkeys"
+msgstr "Tärkeys 2"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.BUTTON"
@@ -53459,6 +53079,8 @@ msgid ""
 "<color=#F44A47FF>    • Size: {0} Tiles\n"
 "    • Maximum room size: {1} Tiles</color>"
 msgstr ""
+"<color=#F44A47FF>    • Koko: {0} Laattaa\n"
+"    • Huoneen enimmäiskoko: {1} Laattaa</color>"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.ROOM
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.ROOM"
@@ -53478,35 +53100,32 @@ msgstr "Valmiit Jäljennäisten makuuhuoneet"
 #. STRINGS.UI.OVERLAYS.STATECHANGE.HIGHPOINT
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.HIGHPOINT"
 msgid "High energy state change"
-msgstr ""
+msgstr "Korkea energiatason muutos"
 
 #. STRINGS.UI.OVERLAYS.STATECHANGE.LOWPOINT
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.LOWPOINT"
 msgid "Low energy state change"
-msgstr ""
+msgstr "Alhainen energiatason muutos"
 
 #. STRINGS.UI.OVERLAYS.STATECHANGE.STABLE
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.NAME"
-#| msgid "Stable"
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.STABLE"
 msgid "Stable"
-msgstr "Navetta"
+msgstr "Vakaa"
 
 #. STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.HIGHPOINT
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.HIGHPOINT"
 msgid "Nearing high energy state change"
-msgstr ""
+msgstr "Lähestyy korkean energiatason muutosta"
 
 #. STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.LOWPOINT
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.LOWPOINT"
 msgid "Nearing a low energy state change"
-msgstr ""
+msgstr "Lähestyy alhaisen energiatason muutosta"
 
 #. STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.STABLE
 msgctxt "STRINGS.UI.OVERLAYS.STATECHANGE.TOOLTIPS.STABLE"
 msgid "Not near any state changes"
-msgstr ""
+msgstr "Ei lähellä minkään energiatason muutosta"
 
 #. STRINGS.UI.OVERLAYS.SUIT.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.SUIT.BUTTON"
@@ -53588,20 +53207,14 @@ msgid "Hot"
 msgstr "Kuumaa"
 
 #. STRINGS.UI.OVERLAYS.TILEMODE.BUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.ENERGYGENERATOR.BATTERIES"
-#| msgid "BATTERIES"
 msgctxt "STRINGS.UI.OVERLAYS.TILEMODE.BUTTON"
 msgid "MATERIALS"
-msgstr "AKUT"
+msgstr "MATERIAALIT"
 
 #. STRINGS.UI.OVERLAYS.TILEMODE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.NAME"
-#| msgid "ACOUSTICS OVERLAY"
 msgctxt "STRINGS.UI.OVERLAYS.TILEMODE.NAME"
 msgid "MATERIALS OVERLAY"
-msgstr "AKUSTIIKKANÄKYMÄ"
+msgstr "MATERIAALINÄKYMÄ"
 
 #. STRINGS.UI.OVERLAYSTITLE
 msgctxt "STRINGS.UI.OVERLAYSTITLE"
@@ -53660,12 +53273,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.PRIORITYSCREEN.DIAGRAM_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.TITLE"
-#| msgid "MANAGE ERRAND PRIORITIES"
 msgctxt "STRINGS.UI.PRIORITYSCREEN.DIAGRAM_TITLE"
 msgid "SPECIFIC ERRAND PRIORITY"
-msgstr "HALLITSE TEHTÄVIEN PRIORITEETTEJÄ"
+msgstr "ERITYISTEHTÄVIEN PRIORITEETIT"
 
 #. STRINGS.UI.PRIORITYSCREEN.HIGH
 msgctxt "STRINGS.UI.PRIORITYSCREEN.HIGH"
@@ -53772,12 +53382,9 @@ msgid "Research points"
 msgstr "Tutkimuspisteitä"
 
 #. STRINGS.UI.RESEARCHSCREEN_FILTER
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RESEARCHING.NAME"
-#| msgid "Researching {Tech}"
 msgctxt "STRINGS.UI.RESEARCHSCREEN_FILTER"
 msgid "Search Tech"
-msgstr "Tutkii teknologiaa {Tech}"
+msgstr "Tutki teknologia"
 
 #. STRINGS.UI.RESEARCHSCREEN_UNLOCKSTOOLTIP
 msgctxt "STRINGS.UI.RESEARCHSCREEN_UNLOCKSTOOLTIP"
@@ -53820,9 +53427,6 @@ msgid "{0} <b>is already</b> unemployed"
 msgstr "{0} <b>on jo</b> työtön"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.ALREADY_IS_ROLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.ALREADY_IS_ROLE"
-#| msgid "{0} <b>is already</b> assigned to the job {1}"
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.ALREADY_IS_ROLE"
 msgid "{0} <b>is already</b> assigned to the {1} position"
 msgstr "{0} <b>on jo</b> nimetty työhön {1}"
@@ -53950,12 +53554,9 @@ msgid "{0} Experience"
 msgstr "{0}kokemus"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERED
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_ROLES.TOOLTIP"
-#| msgid "{0} has not mastered any jobs yet"
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERED"
 msgid "{0} has mastered the {1} position"
-msgstr "{0} ei hallitse vielä yhtäkään työtä"
+msgstr "{0} hallitsee nyt työn {1}"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.NO_APTITUDE
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.NO_APTITUDE"
@@ -54222,12 +53823,9 @@ msgid "Tier 0"
 msgstr "Taso 0"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER0.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER0.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.DESCRIPTION"
@@ -54235,12 +53833,9 @@ msgid "Tier 1"
 msgstr "Taso 1"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.DESCRIPTION"
@@ -54248,12 +53843,9 @@ msgid "Tier 2"
 msgstr "Taso 2"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.DESCRIPTION"
@@ -54261,12 +53853,9 @@ msgid "Tier 3"
 msgstr "Taso 3"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.DESCRIPTION"
@@ -54274,12 +53863,9 @@ msgid "Tier 4"
 msgstr "Taso 4"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.DESCRIPTION"
@@ -54287,12 +53873,9 @@ msgid "Tier 5"
 msgstr "Taso 5"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.DESCRIPTION"
@@ -54300,12 +53883,9 @@ msgid "Tier 6"
 msgstr "Taso 6"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.DESCRIPTION"
@@ -54313,12 +53893,9 @@ msgid "Tier 7"
 msgstr "Taso 7"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.DESCRIPTION"
@@ -54326,12 +53903,9 @@ msgid "Tier 8"
 msgstr "Taso 8"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.NAME"
 msgid "Morale Requirements"
-msgstr "Vaatimukset"
+msgstr "Moraalivaatimukset"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.TITLE
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.TITLE"
@@ -54354,42 +53928,28 @@ msgid "Build a Jobs Board to unlock Job Assignments"
 msgstr "Rakenna Työtaulu avataksesi Työtehtävät"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME"
-#| msgid "<link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION"
 msgid "<link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link> Usage"
-msgstr "<link=\"ADVANCEDRESEARCHCENTER\">Supertietokone</link>"
+msgstr "<link=\"ADVANCEDRESEARCHCENTER\">Supertietokoneen</link> Käyttö"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ATTRIBUTE_EFFECT_FMT
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO"
-#| msgid "{0} to {1}"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ATTRIBUTE_EFFECT_FMT"
 msgid "{0} to {1}"
 msgstr "{0} -> {1}"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ADVANCED_MEDICINE.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.NAME"
-#| msgid "<link=\"ADVANCEDFILTRATION\">Filtration</link>"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ADVANCED_MEDICINE.DESCRIPTION"
 msgid "<link=\"ADVANCEDDOCTORSTATION\">Disease Clinic</link> Usage"
-msgstr "<link=\"ADVANCEDFILTRATION\">Suodatus</link>"
+msgstr "<link=\"ADVANCEDDOCTORSTATION\">Tautiklinikan</link> Käyttö"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART.DESCRIPTION"
-#| msgid ""
-#| "Trait: Can work <link=\"CANVAS\">Blank Canvas</link> and <link=\"SCULPTURE"
-#| "\">Sculpting Block</link>"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART.DESCRIPTION"
 msgid ""
 "Can produce artwork using <link=\"CANVAS\">Blank Canvas</link> and <link="
 "\"SCULPTURE\">Large Sculpting Block</link>"
 msgstr ""
-"Piirre: PYstyy työstämään <link=\"CANVAS\">Tyhjää kangasta</link> ja <link="
-"\"SCULPTURE\">Veistokiveä</link>"
+"Piirre: Pystyy työstämään <link=\"CANVAS\">Tyhjää Kangasta</link> ja <link="
+"\"SCULPTURE\">Suurta Veistokiveä</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_GREAT.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART_GREAT.DESCRIPTION"
@@ -54656,10 +54216,6 @@ msgid "Click to assign a Duplicant to this job opening"
 msgstr "Klikkaa nimetäksesi Jäljennäisen tähän työhön"
 
 #. STRINGS.UI.ROLES_SCREEN.TIER_NAMES.EIGHT
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.DESCRIPTION"
-#| msgid "Tier 8"
 msgctxt "STRINGS.UI.ROLES_SCREEN.TIER_NAMES.EIGHT"
 msgid "Tier 8"
 msgstr "Taso 8"
@@ -54675,13 +54231,9 @@ msgid "Tier 4"
 msgstr "Taso 4"
 
 #. STRINGS.UI.ROLES_SCREEN.TIER_NAMES.NINE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER0.DESCRIPTION"
-#| msgid "Tier 0"
 msgctxt "STRINGS.UI.ROLES_SCREEN.TIER_NAMES.NINE"
 msgid "Tier 9"
-msgstr "Taso 0"
+msgstr "Taso 9"
 
 #. STRINGS.UI.ROLES_SCREEN.TIER_NAMES.ONE
 msgctxt "STRINGS.UI.ROLES_SCREEN.TIER_NAMES.ONE"
@@ -54724,25 +54276,18 @@ msgid "<b>Duplicants who have mastered this job:</b>{0}"
 msgstr "<b>Jäljennäiset, jotka hallitsevat tämän työn:</b>{0}"
 
 #. STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_LOCKED
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_LOCKED"
-#| msgid ""
-#| "Sandbox mode must be unlocked in the options menu before it can be used."
 msgctxt "STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_LOCKED"
 msgid ""
 "Sandbox mode must be unlocked in the options menu before it can be used. "
 "{Hotkey}"
 msgstr ""
 "Hiekkalaatikkotila täytyy avata asetusvalikosta, ennen kuin sitä voidaan "
-"käyttää."
+"käyttää. {Hotkey}"
 
 #. STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_UNLOCKED
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_UNLOCKED"
-#| msgid "Toggle Sandbox mode"
 msgctxt "STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_UNLOCKED"
 msgid "Toggle Sandbox mode {Hotkey}"
-msgstr "Valitse Hiekkalaatikkotila"
+msgstr "Vaihda Hiekkalaatikkotila {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.CLEARFLOOR.DELETED
 msgctxt "STRINGS.UI.SANDBOXTOOLS.CLEARFLOOR.DELETED"
@@ -54755,17 +54300,11 @@ msgid "Back"
 msgstr "Takaisin"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.COMMON
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.COMMON"
-#| msgid "Common substances"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.COMMON"
 msgid "Common Substances"
-msgstr "Yleiset aineet"
+msgstr "Yleiset Aineet"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.BAGABLECREATURE"
-#| msgid "Critters"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE"
 msgid "Critters"
 msgstr "Otukset"
@@ -54796,12 +54335,9 @@ msgid "Geysers"
 msgstr "Geissiirit"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.INDUSTRIAL_PRODUCTS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.NAME"
-#| msgid "IndustrialMenu"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.INDUSTRIAL_PRODUCTS"
 msgid "Industrial"
-msgstr "TeollisuusValikko"
+msgstr "Teollisuus"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.PLANTS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.PLANTS"
@@ -54821,7 +54357,7 @@ msgstr "Erikoiset"
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.GAS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.GAS"
 msgid "Gases"
-msgstr ""
+msgstr "Kaasut"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.LIQUID
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.LIQUID"
@@ -54839,12 +54375,9 @@ msgid "Brush"
 msgstr "Sivellin"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP"
-#| msgid "Paint elements into the world simulation"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP"
 msgid "Paint elements into the world simulation {Hotkey}"
-msgstr "Maalaa elementtejä maailmasimulaatioon"
+msgstr "Maalaa elementtejä maailmasimulaatioon {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.NAME"
@@ -54872,12 +54405,9 @@ msgid "Clear Debris"
 msgstr "Poista Kaikki Irtoroska"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.TOOLTIP"
-#| msgid "Delete loose items cluttering the floor"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.TOOLTIP"
 msgid "Delete loose items cluttering the floor {Hotkey}"
-msgstr "Poista irtonaiset esineet sotkemasta lattiaa"
+msgstr "Poista irtonaiset esineet sotkemasta lattiaa {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.NAME"
@@ -54885,12 +54415,9 @@ msgid "Destroy"
 msgstr "Tuhoa"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.TOOLTIP"
-#| msgid "Delete everything in the selected cell(s)"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.TOOLTIP"
 msgid "Delete everything in the selected cell(s) {Hotkey}"
-msgstr "Poista kaikki valitu(i)sta kenno(i)sta"
+msgstr "Poista kaikki valitu(i)sta kenno(i)sta {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME"
@@ -54908,12 +54435,9 @@ msgid "Fill"
 msgstr "Täytä"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.TOOLTIP"
-#| msgid "Fill a section of the simulation with the chosen element"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.TOOLTIP"
 msgid "Fill a section of the simulation with the chosen element {Hotkey}"
-msgstr "Maalaa simulaation osa valitulla elementillä"
+msgstr "Maalaa simulaation osa valitulla elementillä {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.NAME"
@@ -54921,12 +54445,9 @@ msgid "Reveal"
 msgstr "Paljasta"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.TOOLTIP"
-#| msgid "Dispel the Fog of War shrouding the map"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.TOOLTIP"
 msgid "Dispel the Fog of War shrouding the map {Hotkey}"
-msgstr "Häivytä Sotasumu peittämästä karttaa"
+msgstr "Häivytä Sotasumu peittämästä karttaa {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.NAME"
@@ -54934,12 +54455,9 @@ msgid "Heat Gun"
 msgstr "Lämpöpyssy"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP"
-#| msgid "Inject thermal energy into the simulation"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP"
 msgid "Inject thermal energy into the simulation {Hotkey}"
-msgstr "Ruiskuta lämpöenergiaa simulaatioon"
+msgstr "Ruiskuta lämpöenergiaa simulaatioon {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME"
@@ -54969,12 +54487,10 @@ msgid "Sample"
 msgstr "Näyte"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.TOOLTIP"
-#| msgid "Copy the settings from a cell to use with brush tools"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.TOOLTIP"
 msgid "Copy the settings from a cell to use with brush tools {Hotkey}"
-msgstr "Kopioi asetukset kennosta käytettäväksi pensselityökalujen kanssa"
+msgstr ""
+"Kopioi asetukset kennosta käytettäväksi pensselityökalujen kanssa {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWN_ENTITY.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWN_ENTITY.NAME"
@@ -54987,12 +54503,9 @@ msgid "Spawner"
 msgstr "Luontipiste"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWNER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWNER.TOOLTIP"
-#| msgid "Spawn food, creatures, equipment, and other entities"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWNER.TOOLTIP"
 msgid "Spawn critters, food, equipment, and other entities {Hotkey}"
-msgstr "Luo ruokaa, olentoja, varusteita ja muita entiteettejä"
+msgstr "Luo ruokaa, olentoja, varusteita ja muita entiteettejä {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.NAME"
@@ -55000,12 +54513,9 @@ msgid "Sprinkle"
 msgstr "Ripottele"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.TOOLTIP"
-#| msgid "Paint elements into the simulation using noise"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.TOOLTIP"
 msgid "Paint elements into the simulation using noise {Hotkey}"
-msgstr "Maalaa elementtejä simulaatioon ruiskuttaen"
+msgstr "Maalaa elementtejä simulaatioon ruiskuttaen {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME"
@@ -55153,12 +54663,12 @@ msgstr ""
 #. STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS"
 msgid "Warning: Scheduling Issues ({0})"
-msgstr ""
+msgstr "Varoitus: Aikataulutusongelmia ({0})"
 
 #. STRINGS.UI.SCHEDULEGROUPS.NOTIME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.NOTIME"
 msgid "No {0} shifts allotted"
-msgstr ""
+msgstr "Ei varattuja {0}vuoroja"
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION
 #, fuzzy
@@ -55285,17 +54795,14 @@ msgstr ""
 "Työaikana Jäljennäiset suorittavat odottavia tehtäviä siirtokunnassa."
 
 #. STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.TITLE"
-#| msgid "Time Schedule"
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE"
 msgid "Add New Schedule"
-msgstr "Aikataulu"
+msgstr "Lisää Uusi Aikataulu"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON"
 msgid "Shift Alarms"
-msgstr ""
+msgstr "Vuorohälytykset"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP"
@@ -55335,12 +54842,12 @@ msgstr ""
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_TITLE_DISABLED
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_TITLE_DISABLED"
 msgid "Alarm Off"
-msgstr ""
+msgstr "Hälytys Pois"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_TITLE_ENABLED
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_TITLE_ENABLED"
 msgid "Alarm On"
-msgstr ""
+msgstr "Hälytys Päälle"
 
 #. STRINGS.UI.SCHEDULESCREEN.DELETE_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DELETE_BUTTON_TOOLTIP"
@@ -55348,17 +54855,14 @@ msgid "Delete Schedule"
 msgstr "Poista Aikataulu"
 
 #. STRINGS.UI.SCHEDULESCREEN.DOWNTIME_MORALE
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.HALF_LIFE_POS"
-#| msgid "Doubling time: {0}"
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DOWNTIME_MORALE"
 msgid "Downtime Morale: {0}"
-msgstr "Kaksinkertaistumisaika: {0}"
+msgstr "Vapaa-aikamoraali: {0}"
 
 #. STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS"
 msgid "Paint Tools:"
-msgstr ""
+msgstr "Maalaustyökalut:"
 
 #. STRINGS.UI.SCHEDULESCREEN.POO
 msgctxt "STRINGS.UI.SCHEDULESCREEN.POO"
@@ -55374,12 +54878,9 @@ msgid "Rename custom schedule"
 msgstr "Uudelleennimeä Aikataulu"
 
 #. STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSSCREEN.RESET_SETTINGS"
-#| msgid "Reset Priorities"
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS"
 msgid "Reset Shifts"
-msgstr "Nollaa Tärkeydet"
+msgstr "Nollaa Vuorot"
 
 #. STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS_TOOLTIP"
@@ -55395,17 +54896,14 @@ msgid "Duplicants will receive {0} Morale from the scheduled Downtime shifts"
 msgstr ""
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_ASSIGNED
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.ASSIGNED"
-#| msgid "Assigned"
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_ASSIGNED"
 msgid "{0} (Assigned)"
-msgstr "Nimetty"
+msgstr "{0} (Nimetty)"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK"
 msgid "<i>Move Duplicant...</i>"
-msgstr ""
+msgstr "<i>Siirrä Jäljennäistä...</i>"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR"
@@ -55423,17 +54921,14 @@ msgid "Schedule {0}"
 msgstr "Aikataulu {0}:"
 
 #. STRINGS.UI.SCHEDULESCREEN.SETTINGS
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.COPY_BUILDING_SETTINGS.NAME"
-#| msgid "Copy Settings"
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SETTINGS"
 msgid "Settings"
-msgstr "Kopioi Asetukset"
+msgstr "Asetukset"
 
 #. STRINGS.UI.SKILLS
 msgctxt "STRINGS.UI.SKILLS"
 msgid "SKILLS"
-msgstr ""
+msgstr "TAIDOT"
 
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.EXPECTATION_ALERT_DESC_EXPECTATION
 msgctxt ""
@@ -55523,88 +55018,63 @@ msgstr "Odotettu Moraali"
 #. STRINGS.UI.SKILLS_SCREEN.EXPERIENCE
 msgctxt "STRINGS.UI.SKILLS_SCREEN.EXPERIENCE"
 msgid "EXPERIENCE TO NEXT LEVEL"
-msgstr ""
+msgstr "KOKEMUSTA SEURAAVALLE TASOLLE"
 
 #. STRINGS.UI.SKILLS_SCREEN.EXPERIENCE_TOOLTIP
 msgctxt "STRINGS.UI.SKILLS_SCREEN.EXPERIENCE_TOOLTIP"
 msgid ""
 "{0} additional experience points required to unlock the next skill point"
-msgstr ""
+msgstr "{0} lisää kokemuspisteitä vaaditaan seuraavan taitopisteen avaamiseen"
 
 #. STRINGS.UI.SKILLS_SCREEN.MORALE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
-#| msgid "Morale"
 msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
 msgid "<b>Morale</b>"
-msgstr "Moraali"
+msgstr "<b>Moraali</b>"
 
 #. STRINGS.UI.SKILLS_SCREEN.MORALE_EXPECTATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.NAME"
-#| msgid "Morale expectation"
 msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE_EXPECTATION"
 msgid "<b>Morale expectation</b>"
-msgstr "Odotettu Moraali"
+msgstr "<b>Odotettu moraali</b>"
 
 #. STRINGS.UI.SKILLS_SCREEN.NOT_AVAILABLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.NOSLOTS"
-#| msgid "No slots available"
 msgctxt "STRINGS.UI.SKILLS_SCREEN.NOT_AVAILABLE"
 msgid "Not available"
-msgstr "Paikkoja ei vapaana"
+msgstr "Ei saatavilla"
 
 #. STRINGS.UI.SKILLS_SCREEN.POINTS_AVAILABLE
 msgctxt "STRINGS.UI.SKILLS_SCREEN.POINTS_AVAILABLE"
 msgid "<b>SKILL POINTS AVAILABLE</b>"
-msgstr ""
+msgstr "<b>TAITOPISTEITÄ SAATAVILLA</b>"
 
 #. STRINGS.UI.SKILLS_SCREEN.SELECT_HAT
 msgctxt "STRINGS.UI.SKILLS_SCREEN.SELECT_HAT"
 msgid "<b>SELECT HAT</b>"
-msgstr ""
+msgstr "<b>VALITSE HATTU</b>"
 
 #. STRINGS.UI.SKILLS_SCREEN.SORT_BY_DUPLICANT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BASEDUPLICANT.NAME"
-#| msgid "Duplicant"
 msgctxt "STRINGS.UI.SKILLS_SCREEN.SORT_BY_DUPLICANT"
 msgid "Duplicants"
-msgstr "Jäljennäinen"
+msgstr "Jäljennäiset"
 
 #. STRINGS.UI.SKILLS_SCREEN.SORT_BY_EXPERIENCE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_EXPERIENCE.NAME"
-#| msgid "{0} Experience"
 msgctxt "STRINGS.UI.SKILLS_SCREEN.SORT_BY_EXPERIENCE"
 msgid "Experience"
-msgstr "{0}kokemus"
+msgstr "Kokemus"
 
 #. STRINGS.UI.SKILLS_SCREEN.SORT_BY_HAT
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEAT.TITLE"
-#| msgid "Heat"
 msgctxt "STRINGS.UI.SKILLS_SCREEN.SORT_BY_HAT"
 msgid "Hat"
-msgstr "Lämpö"
+msgstr "Hattu"
 
 #. STRINGS.UI.SKILLS_SCREEN.SORT_BY_MORALE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
-#| msgid "Morale"
 msgctxt "STRINGS.UI.SKILLS_SCREEN.SORT_BY_MORALE"
 msgid "Morale"
 msgstr "Moraali"
 
 #. STRINGS.UI.SKILLS_SCREEN.SORT_BY_SKILL_AVAILABLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.NAME"
-#| msgid "Skill increase"
 msgctxt "STRINGS.UI.SKILLS_SCREEN.SORT_BY_SKILL_AVAILABLE"
 msgid "Skill Points"
-msgstr "Taidon paraneminen"
+msgstr "Taitopisteet"
 
 #. STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.DESCRIPTION"
@@ -55615,66 +55085,39 @@ msgstr ""
 #. STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.NAME"
 msgid "Wrist Watch"
-msgstr ""
+msgstr "Rannekello"
 
 #. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER_NONE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CLOTHING.NAME"
-#| msgid "Clothing"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER_NONE"
 msgid "Nothing"
-msgstr "Vaatetus"
+msgstr "Ei mitään"
 
 #. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER0
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER0.DESCRIPTION"
-#| msgid "Tier 0"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER0"
 msgid "Tier 0"
 msgstr "Taso 0"
 
 #. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER1
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.DESCRIPTION"
-#| msgid "Tier 1"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER1"
 msgid "Tier 1"
 msgstr "Taso 1"
 
 #. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER2
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.DESCRIPTION"
-#| msgid "Tier 2"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER2"
 msgid "Tier 2"
 msgstr "Taso 2"
 
 #. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER3
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.DESCRIPTION"
-#| msgid "Tier 3"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER3"
 msgid "Tier 3"
 msgstr "Taso 3"
 
 #. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER4
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.DESCRIPTION"
-#| msgid "Tier 4"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER4"
 msgid "Tier 4"
 msgstr "Taso 4"
 
 #. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER5
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.DESCRIPTION"
-#| msgid "Tier 5"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER5"
 msgid "Tier 5"
 msgstr "Taso 5"
@@ -55689,7 +55132,7 @@ msgstr ""
 #. STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.NAME"
 msgid "Bioluminescent Rock"
-msgstr ""
+msgstr "Biovalaiseva Kivi"
 
 #. STRINGS.UI.SPACEARTIFACTS.BLENDER.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BLENDER.DESCRIPTION"
@@ -55712,22 +55155,19 @@ msgid "It still works."
 msgstr ""
 
 #. STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.NAME"
-#| msgid "Fuel Brick"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.NAME"
 msgid "Strange Brick"
-msgstr "Polttoaineharkko"
+msgstr "Outo Harkko"
 
 #. STRINGS.UI.SPACEARTIFACTS.DNAMODEL.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.DNAMODEL.DESCRIPTION"
 msgid "An educational model of genetic information."
-msgstr ""
+msgstr "Yleistietoa sisältävä opetusmalli"
 
 #. STRINGS.UI.SPACEARTIFACTS.DNAMODEL.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.DNAMODEL.NAME"
 msgid "Double Helix Model"
-msgstr ""
+msgstr "Kaksoiskierremalli"
 
 #. STRINGS.UI.SPACEARTIFACTS.EGGROCK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.EGGROCK.DESCRIPTION"
@@ -55770,12 +55210,9 @@ msgid "I don't get it."
 msgstr "Älä hikeenny!"
 
 #. STRINGS.UI.SPACEARTIFACTS.MODERNART.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.INJURED.NAME"
-#| msgid "Moderate"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MODERNART.NAME"
 msgid "Modern Art"
-msgstr "Kohtalainen"
+msgstr "Moderni Taide"
 
 #. STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.DESCRIPTION"
@@ -55790,12 +55227,12 @@ msgstr ""
 #. STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION"
 msgid "A moon's moon's moon. It's very small."
-msgstr ""
+msgstr "Kuun kuun kuu. Se on hyvin pieni."
 
 #. STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.NAME"
 msgid "Moonmoonmoon"
-msgstr ""
+msgstr "Kuukuukuu"
 
 #. STRINGS.UI.SPACEARTIFACTS.OBELISK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OBELISK.DESCRIPTION"
@@ -55808,7 +55245,7 @@ msgstr ""
 #. STRINGS.UI.SPACEARTIFACTS.OBELISK.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OBELISK.NAME"
 msgid "Small Obelisk"
-msgstr ""
+msgstr "Pieni Obeliski"
 
 #. STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.DESCRIPTION"
@@ -55817,22 +55254,19 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYTALLPLANT.NAME"
-#| msgid "Office Plant"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.NAME"
 msgid "Office Mug"
-msgstr "Toimistokasvi"
+msgstr "Toimistomuki"
 
 #. STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.DESCRIPTION"
 msgid "Ew, weird. It has five fingers!"
-msgstr ""
+msgstr "Hyi, outoa. Sillä on viisi sormea!"
 
 #. STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.NAME"
 msgid "Old X-Ray"
-msgstr ""
+msgstr "Vanha Röntgenkuva"
 
 #. STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.DESCRIPTION"
@@ -55840,22 +55274,19 @@ msgid "Don't drink from it! There was a pacu... IN the percolator!"
 msgstr ""
 
 #. STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.BORING_MACHINE.NAME"
-#| msgid "Prospectolator"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.NAME"
 msgid "Percolator"
-msgstr "Malmilaattori"
+msgstr "Aromikeitin"
 
 #. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.DESCRIPTION"
 msgid "No space colony is complete without one."
-msgstr ""
+msgstr "Yksikään avaruussiirtokunta ei ole täydellinen ilman tällaista."
 
 #. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.NAME"
 msgid "Plasma Lamp"
-msgstr ""
+msgstr "Plasmalamppu"
 
 #. STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.DESCRIPTION"
@@ -55887,12 +55318,9 @@ msgid "It's unclear how it formed, although I'm glad it did."
 msgstr ""
 
 #. STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ROCKY"
-#| msgid "Rocky"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.NAME"
 msgid "Tornado Rock"
-msgstr "Kivinen"
+msgstr "Tornadokivi"
 
 #. STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION"
@@ -55910,12 +55338,9 @@ msgid "A beautiful rock composed of multiple layers of sediment."
 msgstr ""
 
 #. STRINGS.UI.SPACEARTIFACTS.SANDSTONE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.NAME"
-#| msgid "Sandbox"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SANDSTONE.NAME"
 msgid "Sandstone"
-msgstr "Hiekkalaatikko"
+msgstr "Hiekkakivi"
 
 #. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION"
@@ -55934,22 +55359,19 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.SPACEARTIFACTS.SHIELDGENERATOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.BUILDMENUTITLE"
-#| msgid "Generators"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SHIELDGENERATOR.NAME"
 msgid "Shield Generator"
-msgstr "Generaattorit"
+msgstr "Suojageneraattori"
 
 #. STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION"
 msgid "No collection is complete without it."
-msgstr ""
+msgstr "Yksikään kokoelma ei ole täydellinen ilman sitä."
 
 #. STRINGS.UI.SPACEARTIFACTS.SINK.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.NAME"
 msgid "Sink"
-msgstr ""
+msgstr "Lavuaari"
 
 #. STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.DESCRIPTION"
@@ -56004,12 +55426,9 @@ msgid "A common asteroid containing several useful resources."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.ASTEROID"
-#| msgid "Asteroid"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME"
 msgid "Carbon Asteroid"
-msgstr "Asteroidi"
+msgstr "Hiiliasteroidi"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.DESCRIPTION"
@@ -56017,12 +55436,9 @@ msgid "A shimmering conglomerate of various metals."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.ASTEROID"
-#| msgid "Asteroid"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.NAME"
 msgid "Metallic Asteroid"
-msgstr "Asteroidi"
+msgstr "Metalliasteroidi"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.DESCRIPTION"
@@ -56030,36 +55446,24 @@ msgid "A minor mineral planet. Unlike a comet, it does not possess a tail."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.ASTEROID"
-#| msgid "Asteroid"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.NAME"
 msgid "Rocky Asteroid"
-msgstr "Asteroidi"
+msgstr "Kiviasteroidi"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.DUSTCOMET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.COMET"
-#| msgid "Comet"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.DUSTCOMET.NAME"
 msgid "Dust Comet"
-msgstr "Komeetta"
+msgstr "Pölykomeetta"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.IRONGUT.NAME"
-#| msgid "Iron Gut"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME"
 msgid "Iron Comet"
-msgstr "Rautainen Vatsa"
+msgstr "Rautakomeetta"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.ROCKCOMET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ROCKY"
-#| msgid "Rocky"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.ROCKCOMET.NAME"
 msgid "Rock Comet"
-msgstr "Kivinen"
+msgstr "Kivikomeetta"
 
 #. STRINGS.UI.SPACEDESTINATIONS.DEBRIS.SATELLITE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DEBRIS.SATELLITE.DESCRIPTION"
@@ -56069,12 +55473,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.DEBRIS.SATELLITE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE1.NAME"
-#| msgid "Crashed Satellite"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DEBRIS.SATELLITE.NAME"
 msgid "Satellite"
-msgstr "Pudonnut Sateliitti"
+msgstr "Sateliitti"
 
 #. STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.DUSTYDWARF.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.DUSTYDWARF.DESCRIPTION"
@@ -56093,12 +55494,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ICYDWARF.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.PLANET"
-#| msgid "Planet"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ICYDWARF.NAME"
 msgid "Ice Planet"
-msgstr "Planeetta"
+msgstr "Jääplaneetta"
 
 #. STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ORGANICDWARF.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ORGANICDWARF.DESCRIPTION"
@@ -56108,12 +55506,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ORGANICDWARF.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.ORGANICS"
-#| msgid "Organic"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ORGANICDWARF.NAME"
 msgid "Organic Mass"
-msgstr "Orgaaninen"
+msgstr "Orgaaninen Massa"
 
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.GASGIANT.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.GASGIANT.DESCRIPTION"
@@ -56123,12 +55518,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.GASGIANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.HASGANTRY.NAME"
-#| msgid "Has Gantry"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.GASGIANT.NAME"
 msgid "Gas Giant"
-msgstr "Sisältää Nosturitelineen"
+msgstr "Kaasujätti"
 
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.DESCRIPTION"
@@ -56138,12 +55530,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.PLANET"
-#| msgid "Planet"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.NAME"
 msgid "Ice Giant"
-msgstr "Planeetta"
+msgstr "Jääjätti"
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.SHATTEREDPLANET.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.SHATTEREDPLANET.DESCRIPTION"
@@ -56153,12 +55542,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.SHATTEREDPLANET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.PLANET"
-#| msgid "Planet"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.SHATTEREDPLANET.NAME"
 msgid "Shattered Planet"
-msgstr "Planeetta"
+msgstr "Pirstoutunut Planeetta"
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.TERRAPLANET.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.TERRAPLANET.DESCRIPTION"
@@ -56168,12 +55554,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.TERRAPLANET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.THIMBLEREED.SUBTITLE"
-#| msgid "Textile Plant"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.TERRAPLANET.NAME"
 msgid "Terrestrial Planet"
-msgstr "Tekstiilikasvi"
+msgstr "Maankaltainen Planeetta"
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.VOLCANOPLANET.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.VOLCANOPLANET.DESCRIPTION"
@@ -56181,12 +55564,9 @@ msgid "A large terrestrial object composed mainly of molten rock."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.VOLCANOPLANET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.PLANET"
-#| msgid "Planet"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.VOLCANOPLANET.NAME"
 msgid "Volcanic Planet"
-msgstr "Planeetta"
+msgstr "Vulkaaninen Planeetta"
 
 #. STRINGS.UI.SPEED_FAST
 msgctxt "STRINGS.UI.SPEED_FAST"
@@ -56204,17 +55584,11 @@ msgid "SLOW"
 msgstr "HIDAS"
 
 #. STRINGS.UI.STARMAP.ANALYSIS_AMOUNT
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.STUDIED.NAME"
-#| msgid "Analysis Complete"
 msgctxt "STRINGS.UI.STARMAP.ANALYSIS_AMOUNT"
 msgid "Analysis {0} Complete"
-msgstr "Analyysi Valmis"
+msgstr "Analyysi {0} Valmis"
 
 #. STRINGS.UI.STARMAP.ANALYSIS_COMPLETE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.STUDIED_BUTTON"
-#| msgid "ANALYSIS COMPLETE"
 msgctxt "STRINGS.UI.STARMAP.ANALYSIS_COMPLETE"
 msgid "ANALYSIS COMPLETE"
 msgstr "ANALYYSI VALMIS"
@@ -56229,30 +55603,24 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.STARMAP.ANALYZE_DESTINATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.SEND_BUTTON"
-#| msgid "ANALYZE"
 msgctxt "STRINGS.UI.STARMAP.ANALYZE_DESTINATION"
 msgid "ANALYZE OBJECT"
-msgstr "ANALYSOI"
+msgstr "ANALYSOI KOHDE"
 
 #. STRINGS.UI.STARMAP.CAN_CARRY_ELEMENT
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.BUTCHERED"
-#| msgid "Butchered for {0}"
 msgctxt "STRINGS.UI.STARMAP.CAN_CARRY_ELEMENT"
 msgid "Gathered by: {1}"
-msgstr "Teurastettiin {0} varten"
+msgstr "Kerääjä: {1}"
 
 #. STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT
 msgctxt "STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT"
 msgid "{0} installation required to retrieve material"
-msgstr ""
+msgstr "Kohteen {0} asennusta vaaditaan materiaalin noutamiseksi"
 
 #. STRINGS.UI.STARMAP.CANT_LAUNCH_MISSION
 msgctxt "STRINGS.UI.STARMAP.CANT_LAUNCH_MISSION"
 msgid "CANNOT LAUNCH"
-msgstr ""
+msgstr "EI VOIDA LAUKAISTA"
 
 #. STRINGS.UI.STARMAP.CARGOEMPTY.NAME
 msgctxt "STRINGS.UI.STARMAP.CARGOEMPTY.NAME"
@@ -56270,32 +55638,26 @@ msgid "Cargo Bay"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.COMPONENT.FUEL_TANK
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.NAME"
-#| msgid "Fuel Brick"
 msgctxt "STRINGS.UI.STARMAP.COMPONENT.FUEL_TANK"
 msgid "Fuel Tank"
-msgstr "Polttoaineharkko"
+msgstr "Polttoainesäiliö"
 
 #. STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE
 msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
 msgid "Rocket Engine"
-msgstr ""
+msgstr "Rakettimoottori"
 
 #. STRINGS.UI.STARMAP.COMPOSITION_SMALL_AMOUNT
 msgctxt "STRINGS.UI.STARMAP.COMPOSITION_SMALL_AMOUNT"
 msgid "Trace Amount"
-msgstr ""
+msgstr "Pieni Määrä"
 
 #. STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED
 msgctxt "STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED"
 msgid "?????????"
-msgstr ""
+msgstr "?????????"
 
 #. STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED_AMOUNT
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.INPUT_BINDINGS_SCREEN.WAITING_FOR_INPUT"
-#| msgid "???"
 msgctxt "STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED_AMOUNT"
 msgid "???"
 msgstr "???"
@@ -56314,33 +55676,24 @@ msgid "{0} installation required to retrieve material"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.DEFAULT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ROCKY"
-#| msgid "Rocky"
 msgctxt "STRINGS.UI.STARMAP.DEFAULT_NAME"
 msgid "Rocket"
-msgstr "Kivinen"
+msgstr "Raketti"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.RESUME.NO_SELECTION"
-#| msgid "No Duplicant selected"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
 msgid "Destination not selected"
-msgstr "Jäljennäistä ei valittu"
+msgstr "Päämäärää ei valittu"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.RESUME.NO_SELECTION"
-#| msgid "No Duplicant selected"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
 msgid "Destination selected"
-msgstr "Jäljennäistä ei valittu"
+msgstr "Päämäärä valittu"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE"
 msgid "Destination beyond reach"
-msgstr ""
+msgstr "Päämäärä saavuttamattomissa"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED"
@@ -56358,240 +55711,189 @@ msgid "The selected destination is beyond rocket reach"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.DESTINATIONSTUDY.LOWERATMO
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.STERILIZINGATMOSPHERE.NAME"
-#| msgid "Sterile Atmosphere"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.LOWERATMO"
 msgid "Study lower atmosphere"
-msgstr "Steriili Ilmasto"
+msgstr "Tutki alempaa ilmakehää"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSTUDY.MAGNETICFIELD
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.MAGNETICFIELD"
 msgid "Study magnetic field"
-msgstr ""
+msgstr "Tutki magneettista kenttää"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSTUDY.SUBSURFACE
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.SUBSURFACE"
 msgid "Study subsurface"
-msgstr ""
+msgstr "Tutki pinnan alta"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSTUDY.SURFACE
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.SURFACE"
 msgid "Study surface"
-msgstr ""
+msgstr "Tutki pintaa"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSTUDY.UPPERATMO
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.STERILIZINGATMOSPHERE.NAME"
-#| msgid "Sterile Atmosphere"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.UPPERATMO"
 msgid "Study upper atmosphere"
-msgstr "Steriili Ilmasto"
+msgstr "Tutki ylempää ilmakehää"
 
 #. STRINGS.UI.STARMAP.DESTINATIONTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.DOMESTICATION.NAME"
-#| msgid "Domestication"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONTITLE"
 msgid "Destination Status"
-msgstr "Kesyttäminen"
+msgstr "Päämäärän Tila"
 
 #. STRINGS.UI.STARMAP.DISTANCE
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.RANGE"
-#| msgid "{0} dB"
 msgctxt "STRINGS.UI.STARMAP.DISTANCE"
 msgid "{0} km"
-msgstr "{0} dB"
+msgstr "{0} km"
 
 #. STRINGS.UI.STARMAP.DISTANCE_OVERLAY
 msgctxt "STRINGS.UI.STARMAP.DISTANCE_OVERLAY"
 msgid "TOO FAR FOR THIS ROCKET"
-msgstr ""
+msgstr "LIIAN KAUKANA TÄLLE RAKETTILLE"
 
 #. STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME"
 msgid "Oxidizer tank not full"
-msgstr ""
+msgstr "Hapetinsäiliö ei täynnä"
 
 #. STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.TOOLTIP"
 msgid "Oxidizer tank must be filled before launch"
-msgstr ""
+msgstr "Hapetinsäiliö tulee täyttää ennen laukaisua"
 
 #. STRINGS.UI.STARMAP.EMPTYTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.NAME"
 msgid "Fuel Tank not full"
-msgstr ""
+msgstr "Polttoainesäiliö ei täynnä"
 
 #. STRINGS.UI.STARMAP.EMPTYTANK.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.TOOLTIP"
 msgid "Fuel Tank must be filled before launch"
-msgstr ""
+msgstr "Polttoainesäiliö tulee täyttää ennen laukaisua"
 
 #. STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
 msgid "Oxidizer tank full"
-msgstr ""
+msgstr "Hapetinsäiliö Täynnä"
 
 #. STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HUNGRY.TOOLTIP"
-#| msgid "This Duplicant is ready for lunch"
 msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP"
 msgid "Tank is full, ready to launch"
-msgstr "Tämä Jäljennäinen haluaisi jo syödä"
+msgstr "Tankki täynnä, valmiina laukaisemaan"
 
 #. STRINGS.UI.STARMAP.FULLTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.FULLTANK.NAME"
 msgid "Fuel Tank full"
-msgstr ""
+msgstr "Polttoainesäiliö täynnä"
 
 #. STRINGS.UI.STARMAP.FULLTANK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HUNGRY.TOOLTIP"
-#| msgid "This Duplicant is ready for lunch"
 msgctxt "STRINGS.UI.STARMAP.FULLTANK.TOOLTIP"
 msgid "Tank is full, ready to launch"
-msgstr "Tämä Jäljennäinen haluaisi jo syödä"
+msgstr "Tankki täynnä, valmiina laukaisemaan"
 
 #. STRINGS.UI.STARMAP.HASFOOD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.FOOD_BOX.NAME"
-#| msgid "Food storage"
 msgctxt "STRINGS.UI.STARMAP.HASFOOD.NAME"
 msgid "Food Loaded"
-msgstr "Muonavarasto"
+msgstr "Muona Lastattu"
 
 #. STRINGS.UI.STARMAP.HASFOOD.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.HASFOOD.TOOLTIP"
 msgid "Sufficient food stores have been loaded, ready for launch"
-msgstr ""
+msgstr "Riittävät muonavarannot on lastattu, valmiina laukaisuun"
 
 #. STRINGS.UI.STARMAP.HASSUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.NAME"
-#| msgid "<link=\"ARTIST\">Artist</link>"
 msgctxt "STRINGS.UI.STARMAP.HASSUIT.NAME"
 msgid "Has <link=\"ATMOSUIT\">Atmo Suit</link>"
-msgstr "<link=\"ARTIST\">Taiteilija</link>"
+msgstr "Has <link=\"ATMOSUIT\">Happipuku</link>"
 
 #. STRINGS.UI.STARMAP.HASSUIT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.IRON.NAME"
-#| msgid "<link=\"IRON\">Iron</link>"
 msgctxt "STRINGS.UI.STARMAP.HASSUIT.TOOLTIP"
 msgid "An <link=\"ATMOSUIT\">Atmo Suit</link> has been loaded"
-msgstr "<link=\"IRON\">Rauta</link>"
+msgstr "<link=\"ATMOSUIT\">Happipuku</link> on ladattu"
 
 #. STRINGS.UI.STARMAP.LAND_ROCKET
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ROCKY"
-#| msgid "Rocky"
 msgctxt "STRINGS.UI.STARMAP.LAND_ROCKET"
 msgid "Land Rocket"
-msgstr "Kivinen"
+msgstr "Laske Raketti"
 
 #. STRINGS.UI.STARMAP.LAUNCH_MISSION
 msgctxt "STRINGS.UI.STARMAP.LAUNCH_MISSION"
 msgid "LAUNCH MISSION"
-msgstr ""
+msgstr "LAUKAISUTEHTÄVÄ"
 
 #. STRINGS.UI.STARMAP.LAUNCH_ROCKET
 msgctxt "STRINGS.UI.STARMAP.LAUNCH_ROCKET"
 msgid "Launch Rocket"
-msgstr ""
+msgstr "Laukaise Raketti"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.MESSAGING.NO_RESEARCHER_ROLE"
-#| msgid "No Researchers assigned"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT"
 msgid "No Astronaut assigned"
-msgstr "Tutkijoita ei nimetty"
+msgstr "Astronauttia ei nimetty"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUT_TITLE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUT_TITLE"
 msgid "Astronaut"
-msgstr ""
+msgstr "Astronautti"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT"
 msgid "Astronaut ready for liftoff"
-msgstr ""
+msgstr "Astronautti valmiina lähtöön"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.INSTALLED"
-#| msgid "Installed"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED"
 msgid "Installed"
 msgstr "Asennettu"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HUNGRY.TOOLTIP"
-#| msgid "This Duplicant is ready for lunch"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED_TOOLTIP"
 msgid "{0} installed, ready for launch"
-msgstr "Tämä Jäljennäinen haluaisi jo syödä"
+msgstr "{0} asennettu, valmiina laukaisuun"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED"
 msgid "Required"
-msgstr "Vaatimukset"
+msgstr "Vaaditaan"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED_TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED_TOOLTIP"
 msgid "A {0} must be installed before launch"
-msgstr ""
+msgstr "{0} täytyy asentaa ennen laukaisua"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.ANALYSIS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STUDYING.NAME"
-#| msgid "Analyzing"
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.ANALYSIS"
 msgid "Analysis"
-msgstr "Analysoi"
+msgstr "Analyysi"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.ARTIFACTS
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.ARTIFACTS"
 msgid "Artifacts"
-msgstr ""
+msgstr "Artefakatit"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.DISTANCE
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.DANCER"
-#| msgid "Dancer"
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.DISTANCE"
 msgid "Distance"
-msgstr "Dancer"
+msgstr "Etäisyys"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.FUEL
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.FUEL"
 msgid "Fuel"
-msgstr ""
+msgstr "Polttoaine"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.LAUNCHCHECKLIST
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.LAUNCHCHECKLIST"
 msgid "Launch Checklist"
-msgstr ""
+msgstr "Laukaisun Tarkistusmuistio"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.MASS
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALMASS.NAME"
-#| msgid "{Mass}"
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MASS"
 msgid "Mass"
-msgstr "{Mass}"
+msgstr "Massa"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.MAXRANGE
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MAXRANGE"
 msgid "Max Range"
-msgstr ""
+msgstr "Suurin Kantomatka"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.MISSIONSTATUS
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MISSIONSTATUS"
@@ -56601,104 +55903,77 @@ msgstr "Tehtävän Tila"
 #. STRINGS.UI.STARMAP.LISTTITLES.MODULES
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MODULES"
 msgid "Modules"
-msgstr ""
+msgstr "Moduulit"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER"
 msgid "Oxidizer"
-msgstr ""
+msgstr "Hapetin"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.PASSENGERS
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_GAS.NAME"
-#| msgid "Passing Gas"
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.PASSENGERS"
 msgid "Passengers"
-msgstr "Päästää kaasua"
+msgstr "Matkustajat"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.RESEARCH
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.NAME"
-#| msgid "Research"
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.RESEARCH"
 msgid "Research"
 msgstr "Tutkimus"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.RESOURCES
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME"
-#| msgid "Resources melted"
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.RESOURCES"
 msgid "Resources"
-msgstr "Resursseja sulanut"
+msgstr "Resurssit"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.STORAGE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME"
-#| msgid "Storage"
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.STORAGE"
 msgid "Storage"
-msgstr "Varastointi"
+msgstr "Varasto"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.TYPE
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.TYPE"
 msgid "Type"
-msgstr ""
+msgstr "Tyyppi"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.WORLDCOMPOSITION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.OPERATING"
-#| msgid "Normal operation"
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.WORLDCOMPOSITION"
 msgid "World Composition"
-msgstr "Tavallinen toiminta"
+msgstr "Maailman Koostumus"
 
 #. STRINGS.UI.STARMAP.MANAGEMENT_BUTTON
 msgctxt "STRINGS.UI.STARMAP.MANAGEMENT_BUTTON"
 msgid "STARMAP"
-msgstr ""
+msgstr "TÄHTIKARTTA"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.GO
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.GO"
 msgid "ALL SYSTEMS GO"
-msgstr ""
+msgstr "VALMIINA LÄHTÖÖN"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.GROUNDED
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.GROUNDED"
 msgid "Grounded"
-msgstr ""
+msgstr "Lentokelvoton"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.LANDING
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.LOADING"
-#| msgid "Loading..."
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.LANDING"
 msgid "Landing"
-msgstr "Ladataan..."
+msgstr "Laskeutuminen"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.LAUNCHING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.NAME"
-#| msgid "Ranching"
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.LAUNCHING"
 msgid "Launching"
-msgstr "Paimennus"
+msgstr "Laukaisu"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.UNDERWAY
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNDERWATER.NAME"
-#| msgid "Underwater"
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.UNDERWAY"
 msgid "Underway"
-msgstr "Vede Alla"
+msgstr "Tapahtumassa"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.WAITING_TO_LAND
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.NAME"
-#| msgid "Awaiting Coolant"
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.WAITING_TO_LAND"
 msgid "Waiting To Land"
-msgstr "Odottaa jäähdytysainetta"
+msgstr "Odottaa Laskeutumista"
 
 #. STRINGS.UI.STARMAP.MODULE_MASS
 msgctxt "STRINGS.UI.STARMAP.MODULE_MASS"
@@ -56706,20 +55981,14 @@ msgid "+ {0} t"
 msgstr "+ {0} t"
 
 #. STRINGS.UI.STARMAP.MODULE_STORAGE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.DESC_FORMAT"
-#| msgid "{0} / {1}"
 msgctxt "STRINGS.UI.STARMAP.MODULE_STORAGE"
 msgid "{0} / {1}"
 msgstr "{0} / {1}"
 
 #. STRINGS.UI.STARMAP.NO_ANALYZABLE_DESTINATION_SELECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.NOELEMENTSELECTED"
-#| msgid "No element selected"
 msgctxt "STRINGS.UI.STARMAP.NO_ANALYZABLE_DESTINATION_SELECTED"
 msgid "No destination selected"
-msgstr "Ei valittua ainetta"
+msgstr "Ei valittua määränpäätä"
 
 #. STRINGS.UI.STARMAP.NO_ROCKETS_HELP_TEXT
 msgctxt "STRINGS.UI.STARMAP.NO_ROCKETS_HELP_TEXT"
@@ -56742,31 +56011,27 @@ msgid "NO ROCKETS"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.NOFOOD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME"
-#| msgid "Insufficient Power"
 msgctxt "STRINGS.UI.STARMAP.NOFOOD.NAME"
 msgid "Insufficient Food"
-msgstr "Liian vähän virtaa"
+msgstr "Liian vähän Ruokaa"
 
 #. STRINGS.UI.STARMAP.NOFOOD.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.NOFOOD.TOOLTIP"
 msgid "Rocket cannot launch without adequate food stores for passengers"
 msgstr ""
+"Rakettia ei voi laukaista, ellei matkustajilla ole riittäviä muonavaroja"
 
 #. STRINGS.UI.STARMAP.NOSUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.NAME"
-#| msgid "<link=\"ARTIST\">Artist</link>"
 msgctxt "STRINGS.UI.STARMAP.NOSUIT.NAME"
 msgid "Missing <link=\"ATMOSUIT\">Atmo Suit</link>"
-msgstr "<link=\"ARTIST\">Taiteilija</link>"
+msgstr "<link=\"ATMOSUIT\">Happipuku</link> puuttuu"
 
 #. STRINGS.UI.STARMAP.NOSUIT.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.NOSUIT.TOOLTIP"
 msgid ""
 "Rocket cannot launch without an <link=\"ATMOSUIT\">Atmo Suit</link> loaded"
 msgstr ""
+"Rakettia ei voida laukaista ilman, että <link=\"ATMOSUIT\">Happipukua</link>"
 
 #. STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION
 msgctxt "STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION"
@@ -56779,89 +56044,74 @@ msgstr ""
 #. STRINGS.UI.STARMAP.ROCKET_COUNT
 msgctxt "STRINGS.UI.STARMAP.ROCKET_COUNT"
 msgid "ROCKETS: {0}"
-msgstr ""
+msgstr "RAKETTEJEA: {0}"
 
 #. STRINGS.UI.STARMAP.ROCKET_RENAME_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.ROCKET_RENAME_BUTTON_TOOLTIP"
 msgid "Rename this rocket"
-msgstr ""
+msgstr "Nimeä tämä raketti uudelleen"
 
 #. STRINGS.UI.STARMAP.ROCKETLIST
 msgctxt "STRINGS.UI.STARMAP.ROCKETLIST"
 msgid "Rocket Hangar"
-msgstr ""
+msgstr "Rakettitalli"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.DRY_MASS
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.DRY_MASS"
 msgid "Dry mass"
-msgstr ""
+msgstr "Kuivamassa"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.ENGINE_EFFICIENCY
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.ENGINE_EFFICIENCY"
 msgid "Main engine efficiency"
-msgstr ""
+msgstr "Päämoottorin tehokkuus"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.NO_ENGINE
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.NO_ENGINE"
 msgid "NO ENGINE"
-msgstr ""
+msgstr "EI MOOTTORIA"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.OXIDIZER_EFFICIENCY
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.OXIDIZER_EFFICIENCY"
 msgid "Average oxidizer efficiency"
-msgstr ""
+msgstr "Keskimääräinen hapettimen tehokkuus"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.SOLID_BOOSTER
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.SOLIDMATERIAL"
-#| msgid "Solid Material"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.SOLID_BOOSTER"
 msgid "Solid boosters"
-msgstr "Kiinteä Materiaali"
+msgstr "Kiinteät kiihdyttimet"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_FUEL
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOTAL"
-#| msgid "Total"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_FUEL"
 msgid "Total fuel"
-msgstr "Yhteensä"
+msgstr "Polttoainetta yhteensä"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_OXIDIZABLE_FUEL
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_OXIDIZABLE_FUEL"
 msgid "Total oxidizable fuel"
-msgstr ""
+msgstr "Hapetettavaa polttoainetta yhteensä"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_OXIDIZER
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_OXIDIZER"
 msgid "Total oxidizer"
-msgstr ""
+msgstr "Hapetinta yhteensä"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_RANGE
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.CAPTURE.NOT_CAPTURABLE"
-#| msgid "Cannot Wrangle"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_RANGE"
 msgid "Total range"
-msgstr "Ei voida napata"
+msgstr "Yhteenlaskettu kantama"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_THRUST
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_THRUST"
 msgid "Total thrust"
-msgstr ""
+msgstr "Yhteenlaskettu työntövoima"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.WET_MASS
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.TOOLTIP"
-#| msgid "Adjust mass"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.WET_MASS"
 msgid "Wet mass"
-msgstr "Säädä massaa"
+msgstr "Märkämassa"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.DESTINATIONVALUE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.NONE.NAME"
-#| msgid "None"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.DESTINATIONVALUE"
 msgid "None"
 msgstr "Ei Mitään"
@@ -56869,49 +56119,37 @@ msgstr "Ei Mitään"
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.LOCKEDIN
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.LOCKEDIN"
 msgid "LOCKED IN"
-msgstr ""
+msgstr "LUKITTU"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.NODESTINATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.NOELEMENTSELECTED"
-#| msgid "No element selected"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.NODESTINATION"
 msgid "No destination selected"
-msgstr "Ei valittua ainetta"
+msgstr "Ei valittua määränpäätä"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.NONE
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.NONE"
 msgid "NONE"
-msgstr ""
+msgstr "EI MITÄÄN"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.NOPASSENGERS
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.NOPASSENGERS"
 msgid "No passengers"
-msgstr ""
+msgstr "Ei matkustajia"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.SELECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.SELECT_TITLE"
-#| msgid "SELECT"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.SELECTED"
 msgid "SELECTED"
-msgstr "VALITSE"
+msgstr "VALITTU"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NAME"
-#| msgid "Status"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.STATUS"
 msgid "Status"
 msgstr "Tila"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.STATUS_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NAME"
-#| msgid "Status"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.STATUS_TITLE"
 msgid "Rocket Status"
-msgstr "Tila"
+msgstr "Raketin Tila"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.TIMEREMAINING
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.TIMEREMAINING"
@@ -56919,9 +56157,6 @@ msgid "Time Remaining"
 msgstr "Aikaa Jäljellä"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.TOTAL
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.TOTAL"
-#| msgid "Total"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.TOTAL"
 msgid "Total"
 msgstr "Yhteensä"
@@ -56929,7 +56164,7 @@ msgstr "Yhteensä"
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.WEIGHTPENALTY
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.WEIGHTPENALTY"
 msgid "Weight Penalty"
-msgstr ""
+msgstr "Painosakko"
 
 #. STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASS
 msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASS"
@@ -56949,65 +56184,47 @@ msgstr "Massa: "
 #. STRINGS.UI.STARMAP.ROCKETWEIGHT.MASSPENALTY
 msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.MASSPENALTY"
 msgid "Mass Penalty: "
-msgstr ""
+msgstr "Massasakko: "
 
 #. STRINGS.UI.STARMAP.SEE_ROCKETS_LIST
 msgctxt "STRINGS.UI.STARMAP.SEE_ROCKETS_LIST"
 msgid "See Rockets List"
-msgstr ""
+msgstr "Näytä rakettilista"
 
 #. STRINGS.UI.STARMAP.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.SELECT_TITLE"
-#| msgid "SELECT"
 msgctxt "STRINGS.UI.STARMAP.STATUS"
 msgid "SELECTED"
-msgstr "VALITSE"
+msgstr "VALITTU"
 
 #. STRINGS.UI.STARMAP.SUBROW
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.LINE_ITEM_UNITS"
-#| msgid "• {0}"
 msgctxt "STRINGS.UI.STARMAP.SUBROW"
 msgid "•  {0}"
-msgstr "• {0}"
+msgstr "•  {0}"
 
 #. STRINGS.UI.STARMAP.SUSPEND_DESTINATION_ANALYSIS
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.PENDING_BUTTON"
-#| msgid "CANCEL ANALYSIS"
 msgctxt "STRINGS.UI.STARMAP.SUSPEND_DESTINATION_ANALYSIS"
 msgid "PAUSE ANALYSIS"
-msgstr "PERU ANALYYSI"
+msgstr "PYSÄYTÄ ANALYYSI"
 
 #. STRINGS.UI.STARMAP.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.STAR"
-#| msgid "Star"
 msgctxt "STRINGS.UI.STARMAP.TITLE"
 msgid "Starmap"
-msgstr "Star"
+msgstr "Tähtikartta"
 
 #. STRINGS.UI.STARMAP.UNKNOWN_DESTINATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.RESUME.NO_SELECTION"
-#| msgid "No Duplicant selected"
 msgctxt "STRINGS.UI.STARMAP.UNKNOWN_DESTINATION"
 msgid "Destination Unknown"
-msgstr "Jäljennäistä ei valittu"
+msgstr "Määränpään Tuntematon"
 
 #. STRINGS.UI.STARMAP.UNKNOWN_TYPE
 msgctxt "STRINGS.UI.STARMAP.UNKNOWN_TYPE"
 msgid "Type Unknown"
-msgstr ""
+msgstr "Tyyppi Tuntematon"
 
 #. STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_EATEN_TODAY
-#, fuzzy
-#| msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_EATEN_TODAY"
-#| msgid "Sort by eaten today"
 msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_EATEN_TODAY"
 msgid "Sort by number of calories consumed today"
-msgstr "Järjestä tänään syötyjen mukaan"
+msgstr "Järjestä tänään syödyn kalorimäärän mukaan"
 
 #. STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_EXPECTATIONS
 msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_EXPECTATIONS"
@@ -57030,12 +56247,9 @@ msgid "Sort by name"
 msgstr "Järjestä nimen mukaan"
 
 #. STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_SICKNESSES
-#, fuzzy
-#| msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_NAME"
-#| msgid "Sort by name"
 msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_SICKNESSES"
 msgid "Sort by diseases"
-msgstr "Järjestä nimen mukaan"
+msgstr "Järjestä tautien mukaan"
 
 #. STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_STRESS
 msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_STRESS"
@@ -57055,15 +56269,12 @@ msgstr "Kaksoisklikkaa siirtyäksesi kohtaan <b>{0}</b>"
 #. STRINGS.UI.TABLESCREENS.INFORMATION_NOT_AVAILABLE_TOOLTIP
 msgctxt "STRINGS.UI.TABLESCREENS.INFORMATION_NOT_AVAILABLE_TOOLTIP"
 msgid "Information is not available because {1} is in {0}"
-msgstr ""
+msgstr "Tieto ei ole saatavilla, koska {1} on tilassa {0}"
 
 #. STRINGS.UI.TABLESCREENS.NA
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.HARDNESS.NA"
-#| msgid "N/A"
 msgctxt "STRINGS.UI.TABLESCREENS.NA"
 msgid "N/A"
-msgstr "Ei Tietoa"
+msgstr "EI SAATAVILLA"
 
 #. STRINGS.UI.TABLESCREENS.SELECT_DUPLICANT_BUTTON
 msgctxt "STRINGS.UI.TABLESCREENS.SELECT_DUPLICANT_BUTTON"
@@ -57078,7 +56289,7 @@ msgstr "Hyökkää"
 #. STRINGS.UI.TOOLS.ATTACK.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.ATTACK.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.ATTACK.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.ATTACK.TOOLNAME"
@@ -57098,7 +56309,7 @@ msgstr "Klikkaa rakentaaksesi"
 #. STRINGS.UI.TOOLS.BUILD.TOOLACTION_DRAG
 msgctxt "STRINGS.UI.TOOLS.BUILD.TOOLACTION_DRAG"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.BUILD.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.BUILD.TOOLNAME"
@@ -57113,7 +56324,7 @@ msgstr "Peruuta"
 #. STRINGS.UI.TOOLS.CANCEL.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.CANCEL.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.CANCEL.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.CANCEL.TOOLNAME"
@@ -57133,7 +56344,7 @@ msgstr "Ei voida napata"
 #. STRINGS.UI.TOOLS.CAPTURE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.CAPTURE.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.TOOLNAME"
@@ -57158,7 +56369,7 @@ msgstr "Liitä Asetukset"
 #. STRINGS.UI.TOOLS.COPYSETTINGS.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.COPYSETTINGS.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.COPYSETTINGS.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.COPYSETTINGS.TOOLNAME"
@@ -57173,7 +56384,7 @@ msgstr "Pura"
 #. STRINGS.UI.TOOLS.DECONSTRUCT.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.DECONSTRUCT.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.DECONSTRUCT.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.DECONSTRUCT.TOOLNAME"
@@ -57188,7 +56399,7 @@ msgstr "Kaiva"
 #. STRINGS.UI.TOOLS.DIG.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.DIG.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.DIG.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.DIG.TOOLNAME"
@@ -57203,7 +56414,7 @@ msgstr "Desinfioi"
 #. STRINGS.UI.TOOLS.DISINFECT.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.DISINFECT.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.DISINFECT.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.DISINFECT.TOOLNAME"
@@ -57218,12 +56429,9 @@ msgstr "Tyhjennä Putki"
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME"
-#| msgid "Empty Pipe Tool"
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME"
 msgid "Empty Pipe tool"
 msgstr "Putkentyhjennystyökalu"
@@ -57231,36 +56439,24 @@ msgstr "Putkentyhjennystyökalu"
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP"
 msgid "Extract pipe contents {Hotkey}"
-msgstr ""
+msgstr "Tyhjennä putken sisältö {Hotkey}"
 
 #. STRINGS.UI.TOOLS.FILTER_HOVERCARD_HEADER
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.GENERIC.BUILDING_HOVER_NAME_FMT"
-#| msgid "{Name}    <style=\"hovercard_element\">({Element})</style>"
 msgctxt "STRINGS.UI.TOOLS.FILTER_HOVERCARD_HEADER"
 msgid "   <style=\"hovercard_element\">({0})</style>"
-msgstr "{Name}    <style=\"hovercard_element\">({Element})</style>"
+msgstr "   <style=\"hovercard_element\">({0})</style>"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.ABSOLUTETEMPERATURE
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.TEMPERATURE.NAME"
-#| msgid "Temperature"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ABSOLUTETEMPERATURE"
 msgid "Temperature"
 msgstr "Lämpötila"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.ADAPTIVETEMPERATURE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.COMFORTRANGE"
-#| msgid "Ideal Temperature"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ADAPTIVETEMPERATURE"
 msgid "Adapt. Temperature"
-msgstr "Ihannelämpötila"
+msgstr "Mukautettu Lämpötila"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.AGRICULTURE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.AGRICULTURE"
-#| msgid "Agriculture"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.AGRICULTURE"
 msgid "Agriculture"
 msgstr "Maanviljely"
@@ -57281,20 +56477,14 @@ msgid "Background Buildings"
 msgstr "Taustarakennukset"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.BREATHABLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.BREATHABLE"
-#| msgid "Breathable Gas"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BREATHABLE"
 msgid "Breathable Gas"
 msgstr "Hengitettävä Kaasu"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.BUILDABLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.BUILDABLERAW"
-#| msgid "Raw Mineral"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BUILDABLE"
 msgid "Mineral"
-msgstr "Raakamineraali"
+msgstr "Mineraali"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.BUILDINGS
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BUILDINGS"
@@ -57302,9 +56492,6 @@ msgid "Buildings"
 msgstr "RAkennukset"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.CLEAN
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.CLEANING.NAME"
-#| msgid "Cleaning"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.CLEAN"
 msgid "Cleaning"
 msgstr "Siivoaa"
@@ -57315,25 +56502,16 @@ msgid "Sweep & Mop Orders"
 msgstr "Lakaisu- & Moppauskäskyt"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.CONSTRUCTION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CONSTRUCTION.NAME"
-#| msgid "Construction"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.CONSTRUCTION"
 msgid "Construction"
 msgstr "Rakennus"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.CONSUMABLEORE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.CONSUMABLEORE"
-#| msgid "Consumable Ore"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.CONSUMABLEORE"
 msgid "Consumable Ore"
 msgstr "Kulutettava Malmi"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.DIG
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.NAME"
-#| msgid "Digging"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.DIG"
 msgid "Digging"
 msgstr "Kaivuu"
@@ -57349,25 +56527,16 @@ msgid "Disable Harvest"
 msgstr "Poista Sadonkorjuu Käytöstä"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.FARMABLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.FARMABLE"
-#| msgid "Cultivable Soil"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.FARMABLE"
 msgid "Cultivable Soil"
 msgstr "Viljeltävä Maa"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.FILTER
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.FILTER"
-#| msgid "Filtration Medium"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.FILTER"
 msgid "Filtration Medium"
 msgstr "Suodatusväliaine"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.GAS
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STATE.GAS"
-#| msgid "Gas"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.GAS"
 msgid "Gas"
 msgstr "Kaasu"
@@ -57383,17 +56552,11 @@ msgid "Enable Harvest"
 msgstr "Ota Sadonkorjuu Käyttöön"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.HEATFLOW
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.BUTTON"
-#| msgid "Thermal Comfort Overlay"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.HEATFLOW"
 msgid "Thermal Tolerance"
-msgstr "Lämpömukavuusnäkymä"
+msgstr "Lämmönsieto"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.LIQUID
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STATE.LIQUID"
-#| msgid "Liquid"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.LIQUID"
 msgid "Liquid"
 msgstr "Neste"
@@ -57404,9 +56567,6 @@ msgid "Liquid Pipes"
 msgstr "Nesteputket"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.LIQUIFIABLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.LIQUIFIABLE"
-#| msgid "Liquifiable"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.LIQUIFIABLE"
 msgid "Liquefiable"
 msgstr "Nesteytettävä"
@@ -57417,22 +56577,16 @@ msgid "Automation"
 msgstr "Automaatio"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.METAL
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.METAL"
-#| msgid "Raw Metal"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.METAL"
 msgid "Metal"
-msgstr "Raakametalli"
+msgstr "Metalli"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.OPERATE
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.OPERATE"
 msgid "Duties"
-msgstr ""
+msgstr "Velvollisuudet"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.ORGANICS
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.ORGANICS"
-#| msgid "Organic"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ORGANICS"
 msgid "Organic"
 msgstr "Orgaaninen"
@@ -57443,12 +56597,9 @@ msgid "Conveyor Rails"
 msgstr "Kuljetuskiskot"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.STATECHANGE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STRESSDELTA.NAME"
-#| msgid "Stress Change"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.STATECHANGE"
 msgid "State Change"
-msgstr "Ahdistuksenmuutos"
+msgstr "Tilan Muutos"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.TILES
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.TILES"
@@ -57456,12 +56607,9 @@ msgid "Tiles"
 msgstr "Laatat"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.UNBREATHABLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.BREATHABLE"
-#| msgid "Breathable Gas"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.UNBREATHABLE"
 msgid "Unbreathable Gas"
-msgstr "Hengitettävä Kaasu"
+msgstr "Hengityskelvoton Kaasu"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.WIRES
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.WIRES"
@@ -57484,20 +56632,14 @@ msgid "{Name}    <style=\"hovercard_element\">({Element})</style>"
 msgstr "{Name}    <style=\"hovercard_element\">({Element})</style>"
 
 #. STRINGS.UI.TOOLS.GENERIC.LOGIC_INPUT_HOVER_FMT
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.GENERIC.BUILDING_HOVER_NAME_FMT"
-#| msgid "{Name}    <style=\"hovercard_element\">({Element})</style>"
 msgctxt "STRINGS.UI.TOOLS.GENERIC.LOGIC_INPUT_HOVER_FMT"
 msgid "INPUT: {Port}    <style=\"hovercard_element\">({Name})</style>"
-msgstr "{Name}    <style=\"hovercard_element\">({Element})</style>"
+msgstr "SISÄÄNTULO: {Port}    <style=\"hovercard_element\">({Name})</style>"
 
 #. STRINGS.UI.TOOLS.GENERIC.LOGIC_OUTPUT_HOVER_FMT
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.GENERIC.BUILDING_HOVER_NAME_FMT"
-#| msgid "{Name}    <style=\"hovercard_element\">({Element})</style>"
 msgctxt "STRINGS.UI.TOOLS.GENERIC.LOGIC_OUTPUT_HOVER_FMT"
 msgid "OUTPUT: {Port}    <style=\"hovercard_element\">({Name})</style>"
-msgstr "{Name}    <style=\"hovercard_element\">({Element})</style>"
+msgstr "ULOSTULO: {Port}    <style=\"hovercard_element\">({Name})</style>"
 
 #. STRINGS.UI.TOOLS.GENERIC.UNKNOWN
 msgctxt "STRINGS.UI.TOOLS.GENERIC.UNKNOWN"
@@ -57512,7 +56654,7 @@ msgstr "Sadonkorjuu"
 #. STRINGS.UI.TOOLS.HARVEST.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.HARVEST.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.HARVEST.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.HARVEST.TOOLNAME"
@@ -57527,7 +56669,7 @@ msgstr "Lakaise"
 #. STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLNAME"
@@ -57552,7 +56694,7 @@ msgstr "Liian Paljon Nestettä"
 #. STRINGS.UI.TOOLS.MOP.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.MOP.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.MOP.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.MOP.TOOLNAME"
@@ -57567,7 +56709,7 @@ msgstr "Siirrä"
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLACTION"
 msgid "CLICK"
-msgstr ""
+msgstr "PAINA"
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME"
@@ -57580,41 +56722,29 @@ msgid "UNREACHABLE"
 msgstr "SAAVUTTAMATON"
 
 #. STRINGS.UI.TOOLS.PRIORITIESCATEGORY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.TOOLS.PRIORITIESCATEGORY.NAME"
 msgid "Priority"
 msgstr "Tärkeys"
 
 #. STRINGS.UI.TOOLS.PRIORITIZE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.JOBSCREEN_PRIORITY"
-#| msgid "Priority"
 msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.NAME"
 msgid "Priority"
 msgstr "Tärkeys"
 
 #. STRINGS.UI.TOOLS.PRIORITIZE.SPECIFIC_PRIORITY
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.SPECIFIC_PRIORITY"
-#| msgid "Set Sub-Priority: {0}"
 msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.SPECIFIC_PRIORITY"
 msgid "Set Priority: {0}"
-msgstr "Aseta Aliprioriteetti: {0}"
+msgstr "Aseta Tärkeys: {0}"
 
 #. STRINGS.UI.TOOLS.PRIORITIZE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLACTION"
 msgid "DRAG"
-msgstr ""
+msgstr "VEDÄ"
 
 #. STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME"
-#| msgid "Sub-Priority tool"
 msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME"
 msgid "Priority tool"
-msgstr "Aliprioriteettityökalu"
+msgstr "Tärkeystyökalu"
 
 #. STRINGS.UI.TOOLS.SANDBOX.BRUSH.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.BRUSH.NAME"
@@ -57677,17 +56807,11 @@ msgid "Sprinkle"
 msgstr "Ripottele"
 
 #. STRINGS.UI.TOOLS.TOOL_AREA_FMT
-#, fuzzy
-#| msgctxt "STRINGS.UI.NAME_WITH_UNITS"
-#| msgid "{0} x {1}"
 msgctxt "STRINGS.UI.TOOLS.TOOL_AREA_FMT"
 msgid "{0} x {1}"
 msgstr "{0} x {1}"
 
 #. STRINGS.UI.TOOLS.TOOL_LENGTH_FMT
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.CRITERIA_FAILED.FAILED"
-#| msgid "{0}"
 msgctxt "STRINGS.UI.TOOLS.TOOL_LENGTH_FMT"
 msgid "{0}"
 msgstr "{0}"
@@ -57702,12 +56826,9 @@ msgstr ""
 "tapahtumassa"
 
 #. STRINGS.UI.TOOLTIPS.ATTACKBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.ATTACKBUTTON"
-#| msgid "Drag to attack poor, wild critters"
 msgctxt "STRINGS.UI.TOOLTIPS.ATTACKBUTTON"
 msgid "Attack poor, wild critters {Hotkey}"
-msgstr "Vedä hyökätäksesi poloisten villiotusten kimppuun"
+msgstr "Hyökkää villien otuspoloisten kimpuuun {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.BASE_VALUE
 msgctxt "STRINGS.UI.TOOLTIPS.BASE_VALUE"
@@ -57717,39 +56838,28 @@ msgstr "Perusarvo"
 #. STRINGS.UI.TOOLTIPS.CANCELBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.CANCELBUTTON"
 msgid "Cancel errands {Hotkey}"
-msgstr ""
+msgstr "Peru tehtävät {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CANCELDECONSTRUCTIONBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.CANCELDECONSTRUCTIONBUTTON"
-#| msgid "Cancel queued orders or deconstruct existing buildings"
 msgctxt "STRINGS.UI.TOOLTIPS.CANCELDECONSTRUCTIONBUTTON"
 msgid "Cancel queued orders or deconstruct existing buildings {Hotkey}"
-msgstr "Peru jonossa olevat käskyt tai pura olemassa olevia rakennusksia"
+msgstr ""
+"Peru jonossa olevat käskyt tai pura olemassa olevia rakennuksia {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CAPTUREBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.CAPTURE.TOOLTIP"
-#| msgid "Capture this critter alive"
 msgctxt "STRINGS.UI.TOOLTIPS.CAPTUREBUTTON"
 msgid "Capture critters {Hotkey}"
-msgstr "Ota tämä otus kiinni elävänä"
+msgstr "Sieppaa otuksia {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CLEANUPMAINBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.CLEANUPMAINBUTTON"
-#| msgid "Mop and sweep messy floors"
 msgctxt "STRINGS.UI.TOOLTIPS.CLEANUPMAINBUTTON"
 msgid "Mop and sweep messy floors {Hotkey}"
-msgstr "Moppaa ja lakaise sotkuisia lattioita"
+msgstr "Moppaa ja lakaise sotkuisia lattioita {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CLEARBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.CLEARBUTTON"
-#| msgid "Drag to move debris into storage"
 msgctxt "STRINGS.UI.TOOLTIPS.CLEARBUTTON"
 msgid "Move debris into storage {Hotkey}"
-msgstr "Vedä siirtääksesi irtoroskaa varastoon"
+msgstr "Siirrä irtoroskaa varastoon {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CLOSETOOLTIP
 msgctxt "STRINGS.UI.TOOLTIPS.CLOSETOOLTIP"
@@ -57757,57 +56867,39 @@ msgid "Close"
 msgstr "Sulje"
 
 #. STRINGS.UI.TOOLTIPS.CONVEYOR_OVERLAY_STRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.CONVEYOR_OVERLAY_STRING"
-#| msgid "Displays conveyor transport components"
 msgctxt "STRINGS.UI.TOOLTIPS.CONVEYOR_OVERLAY_STRING"
 msgid "Displays conveyor transport components {Hotkey}"
-msgstr "Näyttää kuljettimen komponentit"
+msgstr "Näyttää hihnakuljettimen komponentit {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CROPS_OVERLAY_STRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.CROPS_OVERLAY_STRING"
-#| msgid "Displays plant growth progress"
 msgctxt "STRINGS.UI.TOOLTIPS.CROPS_OVERLAY_STRING"
 msgid "Displays plant growth progress {Hotkey}"
-msgstr "Näyttää kasvin kasvun etenemisen"
+msgstr "Näyttää kasvin kasvun etenemisen {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DECONSTRUCTBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.DECONSTRUCTBUTTON"
-#| msgid "Drag to demolish buildings"
 msgctxt "STRINGS.UI.TOOLTIPS.DECONSTRUCTBUTTON"
 msgid "Demolish buildings {Hotkey}"
-msgstr "Vedä purkaaksesi rakennuksia"
+msgstr "Pura rakennuksia {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DECOROVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.DECOROVERLAYSTRING"
-#| msgid "Displays decor values"
 msgctxt "STRINGS.UI.TOOLTIPS.DECOROVERLAYSTRING"
 msgid "Displays areas with Morale-boosting decor values {Hotkey}"
-msgstr "Näyttää koristusarvot"
+msgstr "Näyttää Moraalia kasvattavat koristearvot omaavat alueet {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DIGBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.DIGBUTTON"
 msgid "Set dig errands {Hotkey}"
-msgstr ""
+msgstr "Aseta kaivuutehtäviä {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DISEASEOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.DISEASEOVERLAYSTRING"
-#| msgid "Displays disease risk areas"
 msgctxt "STRINGS.UI.TOOLTIPS.DISEASEOVERLAYSTRING"
 msgid "Displays areas of disease risk {Hotkey}"
-msgstr "Näyttää sairastumisriskialueet"
+msgstr "Näyttää sairastumisriskialueet {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DISINFECTBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.DISINFECTBUTTON"
-#| msgid "Drag to disinfect buildings"
 msgctxt "STRINGS.UI.TOOLTIPS.DISINFECTBUTTON"
 msgid "Disinfect buildings {Hotkey}"
-msgstr "Vedä desinfioidaksesi rakennuksia"
+msgstr "Desinfioi rakennuksia {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DISMISSMESSAGE
 msgctxt "STRINGS.UI.TOOLTIPS.DISMISSMESSAGE"
@@ -57835,28 +56927,19 @@ msgid "<link=\"POWER\">Power</link> Required"
 msgstr "<link=\"POWER\">Sähköä</link> Tarvitaan"
 
 #. STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING"
-#| msgid "Displays gas pipe system components"
 msgctxt "STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING"
 msgid "Displays gas pipe system components {Hotkey}"
-msgstr "Näyttää kaasuputkistokomponentit"
+msgstr "Näyttää kaasuputkiston komponentit {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.HARVESTBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NUMBEROFHARVESTS"
-#| msgid "Harvests: {0}"
 msgctxt "STRINGS.UI.TOOLTIPS.HARVESTBUTTON"
 msgid "Harvest plants {Hotkey}"
-msgstr "Sadonkorjuita: {0}"
+msgstr "Korjaa sadot {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.HEATFLOWOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HEATFLOWOVERLAYSTRING"
-#| msgid "Displays areas with comfortable temperatures for Duplicants"
 msgctxt "STRINGS.UI.TOOLTIPS.HEATFLOWOVERLAYSTRING"
 msgid "Displays comfortable temperatures for Duplicants {Hotkey}"
-msgstr "Näyttää alueet, joissa on Jäljennäisille mukavat lämpötilat"
+msgstr "Näyttää alueet, joissa on Jäljennäisille mukavat lämpötilat {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_ATTACHPOINT
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_ATTACHPOINT"
@@ -57864,12 +56947,9 @@ msgid "Must be built overlapping an {0}"
 msgstr "Täytyy rakentaa päällekkäin kohteen {0} kanssa"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_BACK_WALL
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION"
-#| msgid "Obstructed by wire"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_BACK_WALL"
 msgid "Obstructed by back wall"
-msgstr "Johdon tukkima"
+msgstr "Takaseinän tukkima"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CEILING
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CEILING"
@@ -57877,12 +56957,9 @@ msgid "Must be built on the ceiling"
 msgstr "Täytyy rakentaa kattoon"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CORNER
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_INSIDEGROUND"
-#| msgid "Must be built in the ground"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CORNER"
 msgid "Must be built in a corner"
-msgstr "Täytyy rakentaa maahan"
+msgstr "Täytyy rakentaa nurkaan"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR"
@@ -57890,25 +56967,19 @@ msgid "Must be built on solid ground"
 msgstr "Täytyy rakentaa maahan"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR_OR_ATTACHPOINT
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_ATTACHPOINT"
-#| msgid "Must be built overlapping an {0}"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR_OR_ATTACHPOINT"
 msgid "Must be built on solid ground or overlapping an {0}"
-msgstr "Täytyy rakentaa päällekkäin kohteen {0} kanssa"
+msgstr "Täytyy rakentaa kovalle maalle tai aineen {0} päälle"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_GASPORTS_OVERLAP
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_GASPORTS_OVERLAP"
 msgid "Gas ports cannot overlap"
-msgstr ""
+msgstr "Kaasuaukot eivät voi olla päällekkäin"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_HIGHWATT_NOT_IN_TILE
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES"
-#| msgid "Cannot be built inside tile"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_HIGHWATT_NOT_IN_TILE"
 msgid "Heavi-Watt connectors cannot be built inside tile"
-msgstr "Ei voida rakentaa laatan sisään"
+msgstr "Hevi-Watt-liittimiä ei voida rakentaa sisätilojen laatoille"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_INSIDEGROUND
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_INSIDEGROUND"
@@ -57921,20 +56992,14 @@ msgid "Invalid Cell"
 msgstr "Epäkelpo Kenno"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OVERLAP
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OBSTRUCTED"
-#| msgid "Liquid ports are obstructed"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LIQUIDPORTS_OVERLAP"
 msgid "Liquid ports cannot overlap"
-msgstr "Nesteaukkoja on tukossa"
+msgstr "Nesteaukot eivät voi olla päällekkäin"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LOGIC_PORTS_OBSTRUCTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LOGIC_PORTS_OBSTRUCTED"
-#| msgid "Automation ports are obstructed"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_LOGIC_PORTS_OBSTRUCTED"
 msgid "Automation ports cannot overlap"
-msgstr "Automaatioportteja on tukossa"
+msgstr "Automaatioportit eivät voi olla päällekkäin"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES"
@@ -57947,41 +57012,29 @@ msgid "Must be built in unoccupied space"
 msgstr "Täytyy rakentaa käyttämättömään tilaan"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OVERLAP
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED"
-#| msgid "Solid ports are obstructed"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OVERLAP"
 msgid "Solid ports cannot overlap"
-msgstr "Kiinteiden aukkoja on tukossa"
+msgstr "Kiinteiden aukot eivät voi olla päällekkäin"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SPACE
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SPACE"
-#| msgid "Must be built on the asteroid surface"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SPACE"
 msgid "Must be built on the surface in space"
-msgstr "Täytyy rakentaa asteroidin pinnalle"
+msgstr "Täytyy rakentaa avaruudessa olevalle pinnalle"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WALL
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_ATTACHPOINT"
-#| msgid "Must be built overlapping an {0}"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WALL"
 msgid "Must be built against a wall"
-msgstr "Täytyy rakentaa päällekkäin kohteen {0} kanssa"
+msgstr "Täytyy rakentaa seinää vasten"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION"
-#| msgid "Obstructed by wire"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION"
 msgid "Obstructed by Heavi-Watt Wire"
-msgstr "Johdon tukkima"
+msgstr "Heavi-Watt-johdon tukkima"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRECONNECTORS_OVERLAP
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRECONNECTORS_OVERLAP"
 msgid "Power connectors cannot overlap"
-msgstr ""
+msgstr "Virtaliittimet eivät voi olla päällekkäin"
 
 #. STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM"
@@ -57989,9 +57042,6 @@ msgid "Must be in a room"
 msgstr "Täytyy olla huoneessa"
 
 #. STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY"
-#| msgid "Press <color=#F44A47>[{Key}]</color> to Rotate"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY"
 msgid "Press <color=#F44A47><b>[{Key}]</b></color> to Rotate"
 msgstr "Paina <color=#F44A47>[{Key}]</color> Kääntääksesi"
@@ -58195,24 +57245,19 @@ msgstr "Säädä siirtokunnan aikataulutusta"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SKILLS
 #, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_ROLES"
-#| msgid "Manage Duplicants' priorities and job assignments"
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SKILLS"
 msgid "Manage Duplicants' skill assignments {Hotkey}"
-msgstr "Hallinnoi Jäljennäisten prioriteetteja ja työtehtäviä"
+msgstr "Hallinnoi Jäljennäisten taito"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_STARMAP
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_STARMAP"
 msgid "Manage astronaut rocket missions {Hotkey}"
-msgstr ""
+msgstr "Hallitse astronauttien rakettitehtäviä {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS"
-#| msgid "View Duplicants' vitals"
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS"
 msgid "View my Duplicants' vitals {Hotkey}"
-msgstr "Näytä Jäljennäisten elintoiminnot"
+msgstr "Näytä Jäljennäisteni elintoiminnot {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MATIERIAL_MOD
 msgctxt "STRINGS.UI.TOOLTIPS.MATIERIAL_MOD"
@@ -58243,17 +57288,14 @@ msgid "Population: {0}"
 msgstr "Väkiluku: {0}"
 
 #. STRINGS.UI.TOOLTIPS.METERSCREEN_SICK_DUPES
-#, fuzzy
-#| msgctxt "STRINGS.UI.ELEMENTAL.UNITS.NAME"
-#| msgid "Stack Units: {0}"
 msgctxt "STRINGS.UI.TOOLTIPS.METERSCREEN_SICK_DUPES"
 msgid "Sick Duplicants: {0}"
-msgstr "Pinoyksiköitä: {0}"
+msgstr "Sairaita Jäljennäisiä: {0}"
 
 #. STRINGS.UI.TOOLTIPS.MOPBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.MOPBUTTON"
 msgid "Mop liquid spills {Hotkey}"
-msgstr ""
+msgstr "Luutua nesteroiskeet {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.NEXTMESSAGESTOOLTIP
 msgctxt "STRINGS.UI.TOOLTIPS.NEXTMESSAGESTOOLTIP"
@@ -58266,12 +57308,9 @@ msgid "No database entry available"
 msgstr "Tietopankkimerkintää ei saatavilla"
 
 #. STRINGS.UI.TOOLTIPS.NOISE_POLLUTION_OVERLAY_STRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.NOISE_POLLUTION_OVERLAY_STRING"
-#| msgid "Displays ambient noise levels"
 msgctxt "STRINGS.UI.TOOLTIPS.NOISE_POLLUTION_OVERLAY_STRING"
 msgid "Displays ambient noise levels {Hotkey}"
-msgstr "Näyttää ympäristön melutasot"
+msgstr "Näyttää ympäristön melutasot {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.NOMATERIAL
 msgctxt "STRINGS.UI.TOOLTIPS.NOMATERIAL"
@@ -58284,17 +57323,14 @@ msgid "View full entry in database"
 msgstr "Näytä täydellinen merkintä tietopankissa"
 
 #. STRINGS.UI.TOOLTIPS.OXYGENOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.OXYGENOVERLAYSTRING"
-#| msgid "Displays ambient oxygen density"
 msgctxt "STRINGS.UI.TOOLTIPS.OXYGENOVERLAYSTRING"
 msgid "Displays ambient oxygen density {Hotkey}"
-msgstr "Näyttää ympäristön happipitoisuudet"
+msgstr "Näyttää ympäristön happipitoisuuden {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.PAUSE
 msgctxt "STRINGS.UI.TOOLTIPS.PAUSE"
 msgid "Pause {Hotkey}"
-msgstr ""
+msgstr "Pysäytä {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.PAUSEBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.PAUSEBUTTON"
@@ -58307,20 +57343,14 @@ msgid "Start"
 msgstr "Jatka"
 
 #. STRINGS.UI.TOOLTIPS.POWEROVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.POWEROVERLAYSTRING"
-#| msgid "Displays power grid components"
 msgctxt "STRINGS.UI.TOOLTIPS.POWEROVERLAYSTRING"
 msgid "Displays power grid components {Hotkey}"
-msgstr "Näyttää sähköverkon komponentit"
+msgstr "Näyttää sähköverkon komponentit {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.PRIORITIESOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIESOVERLAYSTRING"
-#| msgid "Displays errand sub-priority values"
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIESOVERLAYSTRING"
 msgid "Displays work priority values {Hotkey}"
-msgstr "Näyttää tehtävien aliprioriteettiarvot"
+msgstr "Näyttää tehtävien prioriteettiarvot {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.PRIORITIZEBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIZEBUTTON"
@@ -58352,12 +57382,9 @@ msgid "Displays areas accessible by Duplicants"
 msgstr "Näyttää alueet, joihin Jäljennäiset pääsevät"
 
 #. STRINGS.UI.TOOLTIPS.RECIPE_QUEUE
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.RECIPE_QUEUE"
-#| msgid "Queue 1 {0} for fabrication"
 msgctxt "STRINGS.UI.TOOLTIPS.RECIPE_QUEUE"
 msgid "Queue {0} for continuous fabrication"
-msgstr "Lisää jonoon 1 {0} valmistettavaksi"
+msgstr "Lisää jonoon {0} valmistettavaksi jatkuvasti"
 
 #. STRINGS.UI.TOOLTIPS.RED_ALERT_BUTTON_OFF
 msgctxt "STRINGS.UI.TOOLTIPS.RED_ALERT_BUTTON_OFF"
@@ -58383,12 +57410,9 @@ msgid "Toggle Red Alert"
 msgstr "Vaihda Punainen Hälytys"
 
 #. STRINGS.UI.TOOLTIPS.ROOMSOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.DISEASEOVERLAYSTRING"
-#| msgid "Displays disease risk areas"
 msgctxt "STRINGS.UI.TOOLTIPS.ROOMSOVERLAYSTRING"
 msgid "Displays special purpose rooms and bonuses {Hotkey}"
-msgstr "Näyttää sairastumisriskialueet"
+msgstr "Näyttää erityishuoneet ja niiden bonukset {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.SELECTAMATERIAL
 msgctxt "STRINGS.UI.TOOLTIPS.SELECTAMATERIAL"
@@ -58401,28 +57425,19 @@ msgid "Click to sort"
 msgstr "Paina lajitellaksesi"
 
 #. STRINGS.UI.TOOLTIPS.SPEEDBUTTON_FAST
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_FAST"
-#| msgid "Fast speed {0}"
 msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_FAST"
 msgid "Fast speed {Hotkey}"
-msgstr "Nopea {0}"
+msgstr "Nopea {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.SPEEDBUTTON_MEDIUM
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_MEDIUM"
-#| msgid "Medium speed {0}"
 msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_MEDIUM"
 msgid "Medium speed {Hotkey}"
-msgstr "Keskinopeus {0}"
+msgstr "Keskinopeus {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.SPEEDBUTTON_SLOW
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_SLOW"
-#| msgid "Slow speed {0}"
 msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_SLOW"
 msgid "Slow speed {Hotkey}"
-msgstr "Hidas {0}"
+msgstr "Hidas {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.STATSPANEL
 msgctxt "STRINGS.UI.TOOLTIPS.STATSPANEL"
@@ -58458,33 +57473,24 @@ msgstr ""
 "psyykkisesti vaikuttavista asioista"
 
 #. STRINGS.UI.TOOLTIPS.SUITOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.SUITOVERLAYSTRING"
-#| msgid "Displays Exosuits and related buildings"
 msgctxt "STRINGS.UI.TOOLTIPS.SUITOVERLAYSTRING"
 msgid "Displays Exosuits and related buildings {Hotkey}"
-msgstr "Näyttää Eksopuvut ja niihin liittyvät rakennukset"
+msgstr "Näyttää Eksopuvut ja niihin liittyvät rakennukset {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.TEMPERATUREOVERLAYSTRING
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.TEMPERATUREOVERLAYSTRING"
-#| msgid "Displays ambient temperature"
 msgctxt "STRINGS.UI.TOOLTIPS.TEMPERATUREOVERLAYSTRING"
 msgid "Displays ambient temperature {Hotkey}"
-msgstr "Näyttää ympäristön lämpötilan"
+msgstr "Näyttää ympäristön lämpötilan {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.TILEMODE_OVERLAY_STRING
 msgctxt "STRINGS.UI.TOOLTIPS.TILEMODE_OVERLAY_STRING"
 msgid "Displays material information {Hotkey}"
-msgstr ""
+msgstr "Näyttää materiaalin tiedot {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.UNPAUSE
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.UNPAUSE"
-#| msgid "Unpause"
 msgctxt "STRINGS.UI.TOOLTIPS.UNPAUSE"
 msgid "Unpause {Hotkey}"
-msgstr "Jatka"
+msgstr "Jatka {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ATMOSPHERE
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ATMOSPHERE"
@@ -58761,41 +57767,26 @@ msgid "Automatable Storage"
 msgstr "Automatisoitu Varastointi"
 
 #. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGDELIVERY
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.AWAITINGDELIVERY"
-#| msgid "AWAITING DELIVERY: {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGDELIVERY"
 msgid "AWAITING DELIVERY: {0}"
 msgstr "ODOTTAA TOIMITUSTA: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGREMOVAL
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.AWAITINGREMOVAL"
-#| msgid "AWAITING REMOVAL: {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGREMOVAL"
 msgid "AWAITING REMOVAL: {0}"
 msgstr "ODOTTAA POISTOA: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGREQUEST
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.SELECT_TITLE"
-#| msgid "SELECT"
 msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGREQUEST"
 msgid "SELECT: {0}"
-msgstr "VALITSE"
+msgstr "VALITSE: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.CANCELDEPOSIT
-#, fuzzy
-#| msgctxt "STRINGS.UI.CANCELPLACEINRECEPTACLE"
-#| msgid "Cancel"
 msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.CANCELDEPOSIT"
 msgid "Cancel"
 msgstr "Peruuta"
 
 #. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.CANCELREMOVAL
-#, fuzzy
-#| msgctxt "STRINGS.UI.CANCELPLACEINRECEPTACLE"
-#| msgid "Cancel"
 msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.CANCELREMOVAL"
 msgid "Cancel"
 msgstr "Peruuta"
@@ -58806,17 +57797,11 @@ msgid "Select"
 msgstr "Valitse"
 
 #. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.ENTITYDEPOSITED
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LURE.AWAITINGREQUEST"
-#| msgid "PLANT: {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.ENTITYDEPOSITED"
 msgid "DISPLAYING: {0}"
-msgstr "ISTUTA: {0}"
+msgstr "NÄYTTÄÄ: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.REMOVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.REMOVE"
-#| msgid "Remove"
 msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.REMOVE"
 msgid "Remove"
 msgstr "Poista"
@@ -58827,20 +57812,14 @@ msgid "Select an object to display here."
 msgstr "Valitse tässä esillä oleva esine."
 
 #. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.SELECT_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.SEND_BUTTON"
-#| msgid "ANALYZE"
 msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.SELECT_TITLE"
 msgid "SELECT OBJECT"
-msgstr "ANALYSOI"
+msgstr "VALITSE KOHDE"
 
 #. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.DISPLAYED_ITEM_FMT"
-#| msgid "Displayed {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.TITLE"
 msgid "Displayed Object"
-msgstr "Esillä: {0}"
+msgstr "Näytetyt Objektit"
 
 #. STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.MAX_LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.MAX_LABEL"
@@ -58889,17 +57868,11 @@ msgid " Critters"
 msgstr " Otukset"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.ASSIGN_TO_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.NAME"
-#| msgid "Scanning"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.ASSIGN_TO_TOOLTIP"
 msgid "Scanning for {0}"
-msgstr "Skannaa"
+msgstr "Skannaa: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.ASSIGNED
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.ASSIGNED"
-#| msgid "Assigned"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.ASSIGNED"
 msgid "Assigned"
 msgstr "Nimetty"
@@ -58907,28 +57880,22 @@ msgstr "Nimetty"
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.COMETS
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.COMETS"
 msgid "Meteor Showers"
-msgstr ""
+msgstr "Meteorisuihkuja"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DISABLED
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.DISABLED"
-#| msgid "Ineligible"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DISABLED"
 msgid "Ineligible"
-msgstr "Sopimaton"
+msgstr "Epävarma"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER"
 msgid "Sends automation signal when selected object is detected"
-msgstr ""
+msgstr "Lähettää automaatiosignaalin, kun valittu objekti havaitaan"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.NOTHING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CLOTHING.NAME"
-#| msgid "Clothing"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.NOTHING"
 msgid "Nothing"
-msgstr "Vaatetus"
+msgstr "Ei mitään"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.ROCKETS
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.ROCKETS"
@@ -58936,36 +57903,24 @@ msgid "Rocket Landing Ping"
 msgstr "Raketin Laskeutumisilmoitin"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.SORT_BY_ASSIGNMENT
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.SORT_BY_ASSIGNMENT"
-#| msgid "Assignment"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.SORT_BY_ASSIGNMENT"
 msgid "Assignment"
 msgstr "Työtehtävä"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.SORT_BY_DUPLICANT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BASEDUPLICANT.NAME"
-#| msgid "Duplicant"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.SORT_BY_DUPLICANT"
 msgid "Duplicant"
 msgstr "Jäljennäinen"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACECAMP"
-#| msgid "Spacecamp"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.TITLE"
 msgid "Space Scanner"
-msgstr "Avaruusleiri"
+msgstr "Avaruuskeilain"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.UNASSIGN_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.NAME"
-#| msgid "Scanning"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.UNASSIGN_TOOLTIP"
 msgid "Scanning for {0}"
-msgstr "Skannaa"
+msgstr "Skannaa:"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.UNASSIGNED
 #, fuzzy
@@ -58979,36 +57934,27 @@ msgstr "-"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.COMMAND_MODULE_SIDE_SCREEN.DESTINATION_BUTTON"
 msgid "Show Starmap"
-msgstr ""
+msgstr "Näytä Tähtikartta"
 
 #. STRINGS.UI.UISIDESCREENS.COMMAND_MODULE_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.COMMAND_MODULE_SIDE_SCREEN.TITLE"
 msgid "Launch Conditions"
-msgstr ""
+msgstr "Laukaisuolosuhteet"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.START
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_ON"
-#| msgid "Turn On"
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.START"
 msgid "Turn On"
 msgstr "Kytke Päälle"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.STOP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_OFF"
-#| msgid "Turn Off"
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.STOP"
 msgid "Turn Off"
 msgstr "Kytke Pois"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.IN_PEN.NAME"
-#| msgid "Critter Pen"
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TITLE"
 msgid "Critter Count"
-msgstr "Otusaitaus"
+msgstr "Otuslukumäärä"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP"
@@ -59229,44 +58175,29 @@ msgid "<b>Ingredients:</b>\n"
 msgstr "<b>Ainesosat:</b>\n"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CURRENT_ORDER
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE"
-#| msgid "Current Value: {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CURRENT_ORDER"
 msgid "Current order: {0}"
-msgstr "Tämänhetkinen Arvo: {0}"
+msgstr "Tämänhetkinen tilaus: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.COOL_VEST
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.NAME"
-#| msgid "<link=\"COMPOST\">Compost</link>"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.COOL_VEST"
 msgid "<link=\"COOLVEST\">Cool Vest</link> ({0})"
-msgstr "<link=\"COMPOST\">Komposti</link>"
+msgstr "<link=\"COOLVEST\">Viileä Liivi</link> ({0})"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.FUNKY_VEST
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.STEAMSPOUT.NAME"
-#| msgid "<link=\"GEYSERS\">Steam Spout</link>"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.FUNKY_VEST"
 msgid "<link=\"FUNKYVEST\">Snazzy Suit</link> ({0})"
-msgstr "<link=\"GEYSERS\">Höyrysuihku</link>"
+msgstr "<link=\"FUNKYVEST\">Upea Puku</link> ({0})"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.JETSUIT_TANK
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.OXYGEN_TANK"
-#| msgid "Oxygen Tank ({0})"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.JETSUIT_TANK"
 msgid "Fuel Tank ({0})"
 msgstr "Happisäiliö ({0})"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.OXYGEN_TANK
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.OXYGEN.NAME"
-#| msgid "<link=\"OXYGEN\">Oxygen</link>"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.OXYGEN_TANK"
 msgid "<link=\"OXYGENTANK\">Oxygen Tank</link> ({0})"
-msgstr "<link=\"OXYGEN\">Happi</link>"
+msgstr "<link=\"OXYGENTANK\">Happisäiliö</link> ({0})"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.OXYGEN_TANK_UNDERWATER
 msgctxt ""
@@ -59280,12 +58211,9 @@ msgid "{0}: +1"
 msgstr "{0}: +1"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.WARM_VEST
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.NAME"
-#| msgid "<link=\"FARMER\">Farmer</link>"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.WARM_VEST"
 msgid "<link=\"WARMVEST\">Warm Sweater</link> ({0})"
-msgstr "<link=\"FARMER\">Viljelijä</link>"
+msgstr "<link=\"WARMVEST\">Lämmin Villapusero</link> ({0})"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.INFORMATION
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.INFORMATION"
@@ -59298,17 +58226,14 @@ msgid "- {0}: {1}\n"
 msgstr "- {0}: {1}\n"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NEXT_ORDER
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.NEEDS.NEXT_NEED_LEVEL"
-#| msgid "Next Level: {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NEXT_ORDER"
 msgid "Next order: {0}"
-msgstr "Seuraava Taso: {0}"
+msgstr "Seuraava tilaus: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NO_WORKABLE_ORDER
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NO_WORKABLE_ORDER"
 msgid "No workable order"
-msgstr ""
+msgstr "Ei työstettävä tilausta"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED"
@@ -59333,12 +58258,9 @@ msgid "Missing {0} of {1}\n"
 msgstr "Materiaalia {1} puuttuu {0}\n"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_DETAILS
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.DETAILS.HEADER"
-#| msgid "Room Details"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_DETAILS"
 msgid "Recipe Details"
-msgstr "Huoneen Tiedot"
+msgstr "Reseptin Tiedot"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_QUEUE
 #, fuzzy
@@ -59379,12 +58301,9 @@ msgid "Recipes"
 msgstr "Reseptit"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.POWER_PLANT.EFFECT"
-#| msgid "- Power production increase"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TITLE"
 msgid "{0} Production Orders"
-msgstr "- Sähköntuotannon tehostuminen"
+msgstr "{0} Tuotantotilaukset"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPEPRODUCT
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPEPRODUCT"
@@ -59438,20 +58357,14 @@ msgid "No element selected"
 msgstr "Ei valittua ainetta"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.OUTPUTELEMENTHEADER
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.CONSUMER"
-#| msgid "Output Pipe"
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.OUTPUTELEMENTHEADER"
 msgid "Output 1"
-msgstr "Ulostuloputki"
+msgstr "Ulostulo 1"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.SELECTELEMENTHEADER
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.CONSUMER"
-#| msgid "Output Pipe"
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.SELECTELEMENTHEADER"
 msgid "Output 2"
-msgstr "Ulostuloputki"
+msgstr "Ulostulo 2"
 
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.TITLE"
@@ -59482,20 +58395,14 @@ msgid "Complete Neural Process"
 msgstr "Viimeistele Neuraaliprosessi"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON_RECHARGE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RECHARGE.NAME"
-#| msgid "Recharge Equipment"
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON_RECHARGE"
 msgid "Recharge"
-msgstr "Lataa Varusteet"
+msgstr "Lataa"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON_RECHARGE_CANCEL
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.OPENPOI.NAME_OFF"
-#| msgid "Cancel Rummage"
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON_RECHARGE_CANCEL"
 msgid "Cancel Recharge"
-msgstr "Peru Penkominen"
+msgstr "Peru Lataaminen"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.COMPLETE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.COMPLETE"
@@ -59510,7 +58417,7 @@ msgstr "Tässä Vaihtelijassa ei ole latauksia jäljellä."
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED_WAITING
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED_WAITING"
 msgid "Recharge requested, awaiting delivery by Duplicant."
-msgstr ""
+msgstr "Lataus pyydetty, odottaa Jäljennäisen toimitusta."
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE"
@@ -59591,12 +58498,9 @@ msgstr ""
 "valitun latausprosentin"
 
 #. STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TITLE"
 msgid "Minimum Health Requirement"
-msgstr "Vaatimukset"
+msgstr "Vähittäisterveysvaatimus"
 
 #. STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TOOLTIP"
@@ -59610,12 +58514,9 @@ msgid " or "
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_TARGET
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.USING.NAME"
-#| msgid "Using {Target}"
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_TARGET"
 msgid "{Target}"
-msgstr "Käyttää kohdetta {Target}"
+msgstr "{Target}"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_TARGET_AND_GROUP
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_TARGET_AND_GROUP"
@@ -59623,30 +58524,24 @@ msgid "{Target} -- {Groups}"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CURRENT_SCHEDULE_BLOCK
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.NEEDS.CURRENT_NEED_LEVEL"
-#| msgid "Current Level: {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CURRENT_SCHEDULE_BLOCK"
 msgid "Current schedule block: {0}"
-msgstr "Tämänhetkinen Taso: {0}"
+msgstr "Tämänhetkinen Aikataululohko: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CURRENT_TITLE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGHARVEST.NAME"
-#| msgid "Harvest Errand"
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CURRENT_TITLE"
 msgid "Current Errand"
-msgstr "Sadonkorjuutyö"
+msgstr "Tämänhetkinen Työtehtävä"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.LIST_TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.LIST_TITLE"
 msgid "\"To Do\" List"
-msgstr ""
+msgstr "Tehtävälista"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.SELF_LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.SELF_LABEL"
 msgid "Self"
-msgstr ""
+msgstr "Itse"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_COMPULSORY
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_COMPULSORY"
@@ -59662,18 +58557,17 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.TOOLTIP"
-#| msgid "{0} is currently working as a {1}"
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_ACTIVE"
 msgid "{Name} is currently working on \"{Errand}\"."
-msgstr "Jäljennäisen {0} nykyinen työpaikka on {1}"
+msgstr "{Name} suorittaa tällä hetkellä työtä \"{Errand}\"."
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_INACTIVE
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_INACTIVE"
 msgid ""
 "{Name} could work on \"{Errand}\", but it's not their top priority right now."
 msgstr ""
+"{Name} voisi suorittaa työtä \"{Errand}\", mutta se ei ole heidän suurin "
+"prioriteetti juuri nyt."
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_EMERGENCY
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_EMERGENCY"
@@ -59755,12 +58649,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TRUNCATED_CHORES
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.RANGE"
-#| msgid "{0} dB"
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TRUNCATED_CHORES"
 msgid "{0} more"
-msgstr "{0} dB"
+msgstr "{0} lisää"
 
 #. STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TITLE"
@@ -59822,9 +58713,6 @@ msgid "INFORMATION"
 msgstr "TIEDOT"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.LIFECYCLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.LIFECYCLE"
-#| msgid "<b>Lifecycle</b>:"
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.LIFECYCLE"
 msgid "<b>Life Cycle</b>:"
 msgstr "<b>Elinkaari</b>:"
@@ -60036,12 +58924,9 @@ msgid "SKILLS"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.ROLESTATION.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BASEDUPLICANT.NAME"
-#| msgid "Duplicant"
 msgctxt "STRINGS.UI.UISIDESCREENS.ROLESTATION.TITLE"
 msgid "Duplicant Skills"
-msgstr "Jäljennäinen"
+msgstr "Jäljennäisen Taidot"
 
 #. STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.AWAITINGBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.AWAITINGBUTTON"
@@ -60116,9 +59001,6 @@ msgid "Cancel this suit delivery"
 msgstr "Peru tämän puvun toimitus"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT"
-#| msgid "Undock Exosuit"
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT"
 msgid "Undock Suit"
 msgstr "Poista Eksopuku Telakasta"
@@ -60189,17 +59071,14 @@ msgid "Next Production: {0}"
 msgstr "Seuraava Tuotanto: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.TELEPADSIDESCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.UNSTABLE"
-#| msgid "Unstable"
 msgctxt "STRINGS.UI.UISIDESCREENS.TELEPADSIDESCREEN.TITLE"
 msgid "Printables"
-msgstr "Epävakaa"
+msgstr "Tulostettavat"
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_HEADER
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_HEADER"
 msgid "Object Analysis"
-msgstr ""
+msgstr "Objektianalyysi"
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_SELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_SELECTED"
@@ -60207,6 +59086,8 @@ msgid ""
 "Object focus selected.\n"
 "Analysis underway."
 msgstr ""
+"Objektiin keskittyminen valittu.\n"
+"Analyysiä suoritetaan."
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.NO_SELECTED_ANALYSIS_TARGET
 msgctxt ""
@@ -60215,16 +59096,18 @@ msgid ""
 "No analysis focus selected.\n"
 "Open the starmap to selected a focus."
 msgstr ""
+"Analyysifokusta ei valittuna.\n"
+"Avaa tähtikartta valitulle fokukselle."
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.OPENSTARMAPBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.OPENSTARMAPBUTTON"
 msgid "OPEN STARMAP"
-msgstr ""
+msgstr "AVAA TÄHTIKARTTA"
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.TITLE"
 msgid "Telescope Configuration"
-msgstr ""
+msgstr "Teleskoopin Säätö"
 
 #. STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.ACTIVATE_IF
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.ACTIVATE_IF"
@@ -60527,12 +59410,9 @@ msgid "Element Filter"
 msgstr "Ainesuodatin"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE_CRITTER
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.CREATURE_FEEDER.NAME"
-#| msgid "Critter Feeder"
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE_CRITTER"
 msgid "Critter Filter"
-msgstr "Otuksenruokkija"
+msgstr "Otuksensuodatin"
 
 #. STRINGS.UI.UISIDESCREENS.VALVESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.VALVESIDESCREEN.TITLE"
@@ -60550,12 +59430,9 @@ msgid " kcal"
 msgstr " kcal"
 
 #. STRINGS.UI.UNITSUFFIXES.CRITTERS
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.CAPTURE_POINT_SIDE_SCREEN.UNITS_SUFFIX"
-#| msgid " Critters"
 msgctxt "STRINGS.UI.UNITSUFFIXES.CRITTERS"
 msgid " critters"
-msgstr " Otukset"
+msgstr " otukset"
 
 #. STRINGS.UI.UNITSUFFIXES.DISEASE.UNITS
 msgctxt "STRINGS.UI.UNITSUFFIXES.DISEASE.UNITS"
@@ -60563,12 +59440,9 @@ msgid " germs"
 msgstr " bakteeria"
 
 #. STRINGS.UI.UNITSUFFIXES.DISTANCE.KILOMETER
-#, fuzzy
-#| msgctxt "STRINGS.UI.UNITSUFFIXES.DISTANCE.METER"
-#| msgid " m"
 msgctxt "STRINGS.UI.UNITSUFFIXES.DISTANCE.KILOMETER"
 msgid " km"
-msgstr " m"
+msgstr " km"
 
 #. STRINGS.UI.UNITSUFFIXES.DISTANCE.METER
 msgctxt "STRINGS.UI.UNITSUFFIXES.DISTANCE.METER"
@@ -60603,40 +59477,37 @@ msgstr " W"
 #. STRINGS.UI.UNITSUFFIXES.HEAT.DTU
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.DTU"
 msgid " DTU"
-msgstr ""
+msgstr " DTU"
 
 #. STRINGS.UI.UNITSUFFIXES.HEAT.DTU_S
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.DTU_S"
 msgid " DTU/s"
-msgstr ""
+msgstr " DTU/s"
 
 #. STRINGS.UI.UNITSUFFIXES.HEAT.KDTU
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.KDTU"
 msgid " kDTU"
-msgstr ""
+msgstr " kDTU"
 
 #. STRINGS.UI.UNITSUFFIXES.HEAT.KDTU_S
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.KDTU_S"
 msgid " kDTU/s"
-msgstr ""
+msgstr " kDTU/s"
 
 #. STRINGS.UI.UNITSUFFIXES.INFORMATION.GIGABYTE
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.GIGABYTE"
 msgid "GB"
-msgstr ""
+msgstr "Gt"
 
 #. STRINGS.UI.UNITSUFFIXES.INFORMATION.KILOBYTE
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.KILOBYTE"
 msgid "kB"
-msgstr ""
+msgstr "kt"
 
 #. STRINGS.UI.UNITSUFFIXES.INFORMATION.MEGABYTE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.GENDER.MALE.NAME"
-#| msgid "M"
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.MEGABYTE"
 msgid "MB"
-msgstr "M"
+msgstr "Mt"
 
 #. STRINGS.UI.UNITSUFFIXES.MASS.DRACHMA
 msgctxt "STRINGS.UI.UNITSUFFIXES.MASS.DRACHMA"
@@ -61038,29 +59909,20 @@ msgid "Enable Building"
 msgstr "Ota Rakennus Käyttöön"
 
 #. STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP"
-#| msgid ""
-#| "Halt the use of this building\n"
-#| "------------------\n"
-#| "Disabled buildings consume no energy or resources"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP"
 msgid ""
 "Halt the use of this building {Hotkey}\n"
 "------------------\n"
 "Disabled buildings consume no energy or resources"
 msgstr ""
-"Pysäytä tämän rakennuksen käyttö\n"
+"Pysäytä tämän rakennuksen käyttö {Hotkey}\n"
 "------------------\n"
 "Poiskytketyt rakennukset eivät kuluta energiaa tai resursseja"
 
 #. STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP_OFF
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP_OFF"
-#| msgid "Resume the use of this building"
 msgctxt "STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP_OFF"
 msgid "Resume the use of this building {Hotkey}"
-msgstr "Jatka tämän rakennuksen käyttöä"
+msgstr "Jatka tämän rakennuksen käyttöä {Hotkey}"
 
 #. STRINGS.UI.USERMENUACTIONS.FOLLOWCAM.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.FOLLOWCAM.NAME"
@@ -61118,9 +59980,6 @@ msgid "Deliver materials to this building"
 msgstr "Toimita materiaaleja tähän rakennukseen"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.NAME"
-#| msgid "Enable Autobottling"
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.NAME"
 msgid "Enable Auto-Bottle"
 msgstr "Automaattipullotus Päälle"
@@ -61135,31 +59994,20 @@ msgstr ""
 "rakennukseen suoraan Pumppukaivoistas"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.REPAIRABLE.ENABLE_AUTOREPAIR.NAME"
-#| msgid "Enable Autorepair"
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.NAME"
 msgid "Enable Auto-Canister"
-msgstr "Salli Automaattikorjaus"
+msgstr "Salli Automaattikanisterointi"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.TOOLTIP"
-#| msgid ""
-#| "If enabled, Duplicants will deliver bottled liquids to this building "
-#| "directly from Pitcher Pumps"
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.TOOLTIP"
 msgid ""
 "If enabled, Duplicants will deliver gas canisters to this building directly "
 "from Canister Fillers"
 msgstr ""
-"Jos päällä, Jäljennäiset toimittavat pullotettuja nesteitä tähän "
-"rakennukseen suoraan Pumppukaivoistas"
+"Jos päällä, Jäljennäiset toimittavat kaasukanistereita tähän rakennukseen "
+"suoraan Kanisterin Täyttäjistä"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME"
-#| msgid "Disable Autobottling"
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME"
 msgid "Disable Auto-Bottle"
 msgstr "Automaattipullotus Pois"
@@ -61174,26 +60022,18 @@ msgstr ""
 "suoraan Pumppukaivoista"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.REPAIRABLE.DISABLE_AUTOREPAIR.NAME"
-#| msgid "Disable Autorepair"
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.NAME"
 msgid "Disable Auto-Canister"
-msgstr "Estä Automaattikorjaus"
+msgstr "Automaattikanisterointi Pois"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.TOOLTIP"
-#| msgid ""
-#| "If disabled, Duplicants will no longer deliver bottled liquids directly "
-#| "from Pitcher Pumps"
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.TOOLTIP"
 msgid ""
 "If disabled, Duplicants will no longer deliver gas canisters directly from "
 "Canister Fillers"
 msgstr ""
-"Jos pois käytöstä, Jäljennäiset eivät toimita enää pullotettuja nesteitä "
-"suoraan Pumppukaivoista"
+"Jos pois käytöstä, Jäljennäiset eivät toimita enää kaasukanistereita suoraan "
+"Kanisterin Täyttäjistä"
 
 #. STRINGS.UI.USERMENUACTIONS.MOVETOLOCATION.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MOVETOLOCATION.NAME"
@@ -61276,7 +60116,7 @@ msgstr ""
 #. STRINGS.UI.USERMENUACTIONS.READLORE.GOTODATABASE
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.GOTODATABASE"
 msgid "View Entry"
-msgstr ""
+msgstr "Näytä Merkintä"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.NAME"
@@ -61885,12 +60725,9 @@ msgid "Select to make Duplicants wash when passing by from left to right"
 msgstr "Valitse pakottaaksesi Jäljennäiset peseytymään ohittaessaan oikealta"
 
 #. STRINGS.UI.VIEWDUPLICANTS
-#, fuzzy
-#| msgctxt "STRINGS.UI.VIEWDUPLICANTS"
-#| msgid "Choose a Duplicant"
 msgctxt "STRINGS.UI.VIEWDUPLICANTS"
 msgid "Choose a Blueprint"
-msgstr "Valitse Jäljennäinen"
+msgstr "Valitse Sinikopio"
 
 #. STRINGS.UI.VITALS
 msgctxt "STRINGS.UI.VITALS"
@@ -61908,18 +60745,12 @@ msgid "Fullness"
 msgstr "Kylläisyys"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.BASE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.BASE"
-#| msgid ""
-#| "<b>Additional Domestic Growth\n"
-#| "[Lifecycle: {0}]</b>"
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.BASE"
 msgid ""
 "<b>Additional Domestic Growth\n"
 "[Life Cycle: {0}]</b>"
 msgstr ""
-"<b>Viljelykasvatuksen Lisä\n"
+"<b>Viljelykasvun Lisä\n"
 "[Elinkaari: {0}]</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.TOOLTIP
@@ -61929,17 +60760,12 @@ msgid "This plant will take {0} to grow domestically"
 msgstr "Tällä kasvilla kestää {0} kasvaa viljeltynä"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.BASE
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.BASE"
-#| msgid ""
-#| "<b>Domestic Growth\n"
-#| "[Lifecycle: {0}]</b>"
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.BASE"
 msgid ""
 "<b>Domestic Growth\n"
 "[Life Cycle: {0}]</b>"
 msgstr ""
-"<b>Viljelykasvatus\n"
+"<b>Viljelykasvu\n"
 "[Elinkaari: {0}]</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.TOOLTIP
@@ -61948,11 +60774,6 @@ msgid "This plant will take {0} to grow domestically"
 msgstr "Tällä kasvilla kestää {0} kasvaa viljeltynä"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.BASE
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.BASE"
-#| msgid ""
-#| "<b>Wild Growth\n"
-#| "[Lifecycle: {0}]</b>"
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.BASE"
 msgid ""
 "<b>Wild Growth\n"
@@ -62013,20 +60834,14 @@ msgid "Health"
 msgstr "Terveys"
 
 #. STRINGS.UI.VITALSSCREEN.MULTIPLE_SICKNESSES
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN.IMMUNITY_MULTIPLE_DISEASES"
-#| msgid "Multiple diseases ({0})"
 msgctxt "STRINGS.UI.VITALSSCREEN.MULTIPLE_SICKNESSES"
 msgid "Multiple diseases ({0})"
 msgstr "Useita sairauksia ({0})"
 
 #. STRINGS.UI.VITALSSCREEN.NO_SICKNESSES
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.ALLDISEASES.NAME"
-#| msgid "All Diseases"
 msgctxt "STRINGS.UI.VITALSSCREEN.NO_SICKNESSES"
 msgid "No diseases"
-msgstr "Kaikki Sairaudet"
+msgstr "Ei sairauksia"
 
 #. STRINGS.UI.VITALSSCREEN.NOT_DROWNING
 msgctxt "STRINGS.UI.VITALSSCREEN.NOT_DROWNING"
@@ -62056,18 +60871,11 @@ msgstr ""
 "Nykyinen Moraali:"
 
 #. STRINGS.UI.VITALSSCREEN.SICKNESS
-#, fuzzy
-#| msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.DISEASE"
-#| msgid "Disease"
 msgctxt "STRINGS.UI.VITALSSCREEN.SICKNESS"
 msgid "Diseases"
-msgstr "Sairaus"
+msgstr "Sairaudet"
 
 #. STRINGS.UI.VITALSSCREEN.SICKNESS_REMAINING
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ELEMENTAL.THERMALCONDUCTIVITY.ADJECTIVES.VALUE_WITH_ADJECTIVE"
-#| msgid "{0} ({1})"
 msgctxt "STRINGS.UI.VITALSSCREEN.SICKNESS_REMAINING"
 msgid "{0} ({1})"
 msgstr "{0} ({1})"
@@ -62118,9 +60926,6 @@ msgid "Set how many calories this Duplicant may consume daily"
 msgstr "Aseta kuinka monta kaloria tämä Jäljennäinen voi päivittäin kuluttaa"
 
 #. STRINGS.UI.VITALSSCREEN_SICKNESS
-#, fuzzy
-#| msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.DISEASE"
-#| msgid "Disease"
 msgctxt "STRINGS.UI.VITALSSCREEN_SICKNESS"
 msgid "Disease"
 msgstr "Sairaus"

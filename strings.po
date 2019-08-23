@@ -2951,13 +2951,6 @@ msgid "Invalid Checkpoint"
 msgstr "Epäkelpo Tarkistuspiste"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.TOOLTIP"
-#| msgid ""
-#| "This building has been built on the wrong side of a checkpoint\n"
-#| "\n"
-#| "Docks must be placed beside a checkpoint, opposite the side the "
-#| "checkpoint faces"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.TOOLTIP"
 msgid ""
 "This building has been built on the wrong side of a <link=\"CHECKPOINT"
@@ -2966,10 +2959,12 @@ msgid ""
 "Docks must be placed beside a <link=\"CHECKPOINT\">Duplicant Checkpoint</"
 "link>, opposite the side the checkpoint faces"
 msgstr ""
-"Tämä rakennus on rakennettu väärälle puolelle tarkistuspistettä\n"
+"Tämä rakennus on rakennettu väärälle puolelle <link=\"CHECKPOINT"
+"\">Jäljennäisten Tarkistuspistettä</link>\n"
 "\n"
-"Telakat täytyy rakentaa tarkistuspisteen viereen, vastakkaiselle puolelle "
-"tarkistuspisteen osoittamaa suuntaa"
+"Telakat täytyy rakentaa  <link=\"CHECKPOINT\">Jäljennäisten "
+"Tarkistuspisteen</link> viereen, vastakkaiselle puolelle tarkistuspisteen "
+"osoittamaa suuntaa"
 
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME"
@@ -2977,12 +2972,9 @@ msgid "Active"
 msgstr "Päällä"
 
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.TOOLTIP"
-#| msgid "This switch is currently toggled on"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.TOOLTIP"
 msgid "This switch is currently toggled <b>On</b>"
-msgstr "Tämä kytkin on tällä hetkellä kytkettynä päälle"
+msgstr "Tämä kytkin on tällä hetkellä kytkettynä <b>Päälle</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.NAME"
@@ -2990,12 +2982,9 @@ msgid "Inactive"
 msgstr "Pois"
 
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.TOOLTIP"
-#| msgid "This switch is currently toggled off"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.TOOLTIP"
 msgid "This switch is currently toggled <b>Off</b>"
-msgstr "Tämä kytkin on tällä hetkellä kytkettynä pois"
+msgstr "Tämä kytkin on tällä hetkellä kytkettynä <b>Pois</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.TINKERING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TINKERING.NAME"
@@ -3044,16 +3033,13 @@ msgid "Unreachable restroom"
 msgstr "Vessa Saavuttamattomissa"
 
 #. STRINGS.BUILDING.STATUSITEMS.TOILETS_OUTSIDE_RANGE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TOILETS_OUTSIDE_RANGE.TOOLTIP"
-#| msgid "Recuperating Duplicants must have toilets available within {0} cells"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TOILETS_OUTSIDE_RANGE.TOOLTIP"
 msgid ""
 "Recuperating Duplicants must have <style=\"KKeyword\">Toilets</style> "
 "available within <b>{0}</b> cells"
 msgstr ""
-"Toipuvilla Jäljennäisillä tulee olla vessoja saatavilla {0} kennon "
-"etäisyydellä"
+"Toipuvilla Jäljennäisillä tulee olla <style=\"KKeyword\">Vessoja</style> "
+"saatavilla <b>{0}</b> kennon etäisyydellä"
 
 #. STRINGS.BUILDING.STATUSITEMS.TOO_COLD.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TOO_COLD.NAME"
@@ -3073,9 +3059,6 @@ msgid "Top Priority"
 msgstr "Etusijalla"
 
 #. STRINGS.BUILDING.STATUSITEMS.TOP_PRIORITY_CHORE.NOTIFICATION_NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.YELLOWALERT.NAME"
-#| msgid "Yellow Alert"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TOP_PRIORITY_CHORE.NOTIFICATION_NAME"
 msgid "Yellow Alert"
 msgstr "Keltainen Hälytys"
@@ -3086,6 +3069,7 @@ msgid ""
 "The following errands have been set to <style=\"KKeyword\">Top Priority</"
 "style>:"
 msgstr ""
+"Seuraavat tehtävät on asetettu <style=\"KKeyword\">Ensisijaisiksi</style>:"
 
 #. STRINGS.BUILDING.STATUSITEMS.TOP_PRIORITY_CHORE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TOP_PRIORITY_CHORE.TOOLTIP"
@@ -3095,6 +3079,10 @@ msgid ""
 "The colony will be in <style=\"KKeyword\">Yellow Alert</style> until this "
 "task is completed"
 msgstr ""
+"Tämä tehtävä on asetettu <style=\"KKeyword\">Ensisijaiseksi</style>\n"
+"------------------\n"
+"Siirtokunta on <style=\"KKeyword\">Keltaisessa Hälytystilassa</style> kunnes "
+"tehtävä on suoritettu"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.NAME"
@@ -3102,12 +3090,9 @@ msgid "Active"
 msgstr "Päällä"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.TOOLTIP"
-#| msgid "This turbine is running at {0}RPM"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.TOOLTIP"
 msgid "This turbine is running at <b>{0}RPM</b>"
-msgstr "Tämä turbiini pyörii {0} RPM nopeudella"
+msgstr "Tämä turbiini pyörii <b>{0}RPM</b> nopeudella"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE_WATTAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE_WATTAGE.NAME"
@@ -3115,13 +3100,6 @@ msgid "Current Wattage: {Wattage}"
 msgstr "Nykyinen Teho: {Wattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE_WATTAGE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE_WATTAGE.TOOLTIP"
-#| msgid ""
-#| "This turbine is generating {Wattage} of power\n"
-#| "\n"
-#| "It is running at {Efficiency} of full capacity. Increase {Src_Element} "
-#| "mass and temperature to improve output."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE_WATTAGE.TOOLTIP"
 msgid ""
 "This turbine is generating <style=\"produced\">{Wattage}</style> of <style="
@@ -3131,10 +3109,12 @@ msgid ""
 "{Src_Element} <style=\"KKeyword\">Mass</style> and <style=\"KKeyword"
 "\">Temperature</style> to improve output."
 msgstr ""
-"Tämä turbiini tuottaa {Wattage} sähköä\n"
+"Tämä turbiini tuottaa <style=\"produced\">{Wattage}</style> <style=\"KKeyword"
+"\">Sähköä</style>\n"
 "\n"
-"Se toimii {Efficiency} maksimitehosta. Kasvata {Src_Element} massaa ja "
-"lämpötilaa parantaaksesi tuottoa."
+"Se toimii <b>{Efficiency}</b> maksimitehosta. Kasvata {Src_Element} <style="
+"\"KKeyword\">Massaa</style> ja <style=\"KKeyword\">Lämpötilaa</style> "
+"parantaaksesi tuottoa."
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.NAME"
@@ -3142,13 +3122,6 @@ msgid "All Inputs Blocked"
 msgstr "Kaikki Sisääntulot Tukossa"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP"
-#| msgid ""
-#| "This Turbine's input vents are blocked, so it can't intake any steam.\n"
-#| "\n"
-#| "The input vents are located directly below the foundation tile this "
-#| "building is resting on."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP"
 msgid ""
 "This turbine's <style=\"KKeyword\">Input Vents</style> are blocked, so it "
@@ -3157,11 +3130,11 @@ msgid ""
 "The <style=\"KKeyword\">Input Vents</style> are located directly below the "
 "foundation <style=\"KKeyword\">Tile</style> this building is resting on."
 msgstr ""
-"Tämän Turbiinin sisääntuloaukot ovat tukossa, eikä se pysty vastaanottamaan "
-"höyryä.\n"
+"Tämän Turbiinin <style=\"KKeyword\">Sisääntuloaukot</style> ovat tukossa, "
+"eikä se pysty vastaanottamaan <link=\"STEAM\">Höyryä</link>.\n"
 "\n"
-"Sisääntuloaukot sijaitsevat suoraan tämän rakennuksen alla olevan laatan "
-"alapuolella."
+"<style=\"KKeyword\">Sisääntuloaukot</style> sijaitsevat suoraan tämän "
+"rakennuksen alla olevan laatan alapuolella."
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.NAME"
@@ -3169,14 +3142,13 @@ msgid "Output Blocked"
 msgstr "Ulosvienti Tukkeutunut"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP"
-#| msgid "A blocked output has stopped this turbine from functioning"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP"
 msgid ""
 "A blocked <style=\"KKeyword\">Output</style> has stopped this turbine from "
 "functioning"
-msgstr "Tukkeutunut ulostulo estää tätä turbiinia toimimasta"
+msgstr ""
+"Tukkeutunut <style=\"KKeyword\">Ulosvienti</style> estää tätä turbiinia "
+"toimimasta"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.NAME"
@@ -3184,18 +3156,13 @@ msgid "Not Enough {Src_Element}"
 msgstr "{Src_Element} Ei Riitä"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.TOOLTIP"
-#| msgid ""
-#| "The {Src_Element} present below this turbine must be at least {Min_Mass} "
-#| "in order to turn the turbine"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.TOOLTIP"
 msgid ""
 "The {Src_Element} present below this turbine must be at least <b>{Min_Mass}</"
 "b> in order to turn the turbine"
 msgstr ""
 "Tämän turbiinin alla olevaa ainetta {Src_Element} täytyy olla vähintään "
-"{Min_Mass}, jotta turbiini pyörisi"
+"<b>{Min_Mass}</b>, jotta turbiini pyörisi"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME"
@@ -3203,7 +3170,6 @@ msgid "{Src_Element} Temperature Below {Active_Temperature}"
 msgstr "Aineen {Src_Element} Lämpötila Alle {Active_Temperature}"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP
-#, fuzzy
 #| msgctxt ""
 #| "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP"
 #| msgid ""
@@ -3215,7 +3181,7 @@ msgid ""
 "<b>{Active_Temperature}</b> in order to produce power"
 msgstr ""
 "Tämä turbiini vaatii, että aineen {Src_Element} lämpötila on vähintään "
-"{Active_Temperature}, jotta se voisi tuottaa sähköä"
+"<b>{Active_Temperature}</b>, jotta se voisi tuottaa sähköä"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_PARTIALLY_BLOCKED_INPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_PARTIALLY_BLOCKED_INPUT.NAME"
@@ -3223,19 +3189,13 @@ msgid "{Blocked}/{Total} Inputs Blocked"
 msgstr "{Blocked}/{Total} Sisääntuloista Tukossa"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_PARTIALLY_BLOCKED_INPUT.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.TURBINE_PARTIALLY_BLOCKED_INPUT.TOOLTIP"
-#| msgid ""
-#| "{Blocked} of this turbine's {Total} inputs have been blocked, resulting "
-#| "in reduced throughput."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_PARTIALLY_BLOCKED_INPUT.TOOLTIP"
 msgid ""
 "<b>{Blocked}</b> of this turbine's <b>{Total}</b> inputs have been blocked, "
 "resulting in reduced throughput."
 msgstr ""
-"{Blocked} tämän turbiinin {Total} sisääntulosta on tukossa, minkä vuoksi "
-"tuotto on heikentynyt."
+"<b>{Blocked}</b> tämän turbiinin <b>{Total}</b> sisääntulosta on tukossa, "
+"minkä vuoksi tuotto on heikentynyt."
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.NAME"
@@ -3261,18 +3221,13 @@ msgid "Turbine Too Hot"
 msgstr "Turbiini Liian Kuuma"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_TOO_HOT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_TOO_HOT.TOOLTIP"
-#| msgid ""
-#| "The turbine must be below {Overheat_Temperature} to properly process "
-#| "{Src_Element} into {Dest_Element}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_TOO_HOT.TOOLTIP"
 msgid ""
 "This turbine must be below <b>{Overheat_Temperature}</b> to properly process "
 "{Src_Element} into {Dest_Element}"
 msgstr ""
-"Turbiinin tulee olla alle {Overheat_Temperature}, jotta se voisi kunnolla "
-"muuntaa ainetta {Src_Element} aineeksi {Dest_Element}"
+"Turbiinin tulee olla alle <b>{Overheat_Temperature}</b>, jotta se voisi "
+"kunnolla muuntaa ainetta {Src_Element} aineeksi {Dest_Element}"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNASSIGNED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNASSIGNED.NAME"
@@ -3310,18 +3265,13 @@ msgid "Low Air Pressure"
 msgstr "Alhainen Ilmanpaine"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNDERPRESSURE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERPRESSURE.TOOLTIP"
-#| msgid ""
-#| "A minimum atmospheric pressure of {TargetPressure} is needed for this "
-#| "building to operate"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERPRESSURE.TOOLTIP"
 msgid ""
 "A minimum atmospheric pressure of <b>{TargetPressure}</b> is needed for this "
 "building to operate"
 msgstr ""
-"Tarvitaan vähintään {TargetPressure} suuruinen paine, jotta tämä rakennus "
-"toimisi"
+"Tarvitaan vähintään <b>{TargetPressure}</b> suuruinen paine, jotta tämä "
+"rakennus toimisi"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNUSABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNUSABLE.NAME"
@@ -3339,12 +3289,9 @@ msgid "Max Flow Rate: {MaxFlow}"
 msgstr "Maksimi Virtauma: {MaxFlow}"
 
 #. STRINGS.BUILDING.STATUSITEMS.VALVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.VALVE.TOOLTIP"
-#| msgid "This valve is allowing flow at a volume of {MaxFlow}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.VALVE.TOOLTIP"
 msgid "This valve is allowing flow at a volume of <b>{MaxFlow}</b>"
-msgstr "Tämä venttiili sallii enintään {MaxFlow} suuruisen virtauman"
+msgstr "Tämä venttiili sallii enintään <b>{MaxFlow}</b> suuruisen virtauman"
 
 #. STRINGS.BUILDING.STATUSITEMS.VALVEREQUEST.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.VALVEREQUEST.NAME"
@@ -3383,7 +3330,7 @@ msgstr "Nämä materiaalit toimitetaan, kun Jäljennäinen on saatavilla"
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.LINE_ITEM"
 msgid "• <style=\"KKeyword\">{0}</style>: <b>{1}</b>"
-msgstr ""
+msgstr "• <style=\"KKeyword\">{0}</style>: <b>{1}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.NAME"
@@ -3405,14 +3352,13 @@ msgid "Wattage: {Wattage}"
 msgstr "Teho: {Wattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTAGE.TOOLTIP"
-#| msgid "This building is generating {Wattage} of power"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTAGE.TOOLTIP"
 msgid ""
 "This building is generating <style=\"produced\">{Wattage}</style> of <style="
 "\"KKeyword\">Power</style>"
-msgstr "Tämä rakennus tuottaa sähköä {Wattage}:n teholla"
+msgstr ""
+"Tämä rakennus tuottaa <style=\"produced\">{Wattage}</style> of <style="
+"\"KKeyword\">Sähköä</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTSON.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSON.NAME"
@@ -3420,12 +3366,6 @@ msgid "Next Print: {TimeRemaining}"
 msgstr "Seuraava Tuloste: {TimeRemaining}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTSON.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSON.TOOLTIP"
-#| msgid ""
-#| "The Printing Pod can print out new Duplicants and useful resources over "
-#| "time.\n"
-#| "The next print be ready in {TimeRemaining}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSON.TOOLTIP"
 msgid ""
 "The Printing Pod can print out new Duplicants and useful resources over "
@@ -3434,7 +3374,7 @@ msgid ""
 msgstr ""
 "Tulostuskammio pystyy tulostamaan uusia Jäljennäisiä ja hyödyllisiä "
 "tarvikkeita ajallaan.\n"
-"Seuraava tuloste valmistuu {TimeRemaining} kuluttua"
+"Seuraava tuloste valmistuu <b>{TimeRemaining}</b> kuluttua"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTSON.UNAVAILABLE
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSON.UNAVAILABLE"
@@ -3501,14 +3441,13 @@ msgid "Wire Disconnected"
 msgstr "Johto Irti"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIREDISCONNECTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREDISCONNECTED.TOOLTIP"
-#| msgid "This wire is not connecting a power consumer to a generator"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREDISCONNECTED.TOOLTIP"
 msgid ""
 "This wire is not connecting a <style=\"KKeyword\">Power</style> consumer to "
 "a <style=\"KKeyword\">Power</style> generator"
-msgstr "Tämä johto ei yhdistä virrankuluttajaa generaattoriin"
+msgstr ""
+"Tämä johto ei yhdistä <style=\"KKeyword\">Virran</style>kuluttajaa <style="
+"\"KKeyword\">Sähkö</style>generaattoriin"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.NAME"
@@ -3680,6 +3619,8 @@ msgid ""
 "Disease clinics require power, but treat more serious illnesses than sick "
 "bays alone."
 msgstr ""
+"Tautiklinikat tarvitsevat sähköä, mutta parantavat vakavampia tauteja kuin "
+"sairastuvat omillaan."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.EFFECT"
@@ -3689,6 +3630,11 @@ msgid ""
 "Duplicants must possess the Advanced Medical Care <link=\"ROLES\">Skill</"
 "link> to treat peers."
 msgstr ""
+"Mahdollistaa Jäljennäisten antavat tehokkaita hoitoja sairaille "
+"Jäljennäisille.\n"
+"\n"
+"Jäljennäisillä tulee olla Kehittynyt Lääkintähoito<link=\"ROLES\">Taito</"
+"link> vertaistensa parantamiseksi."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.NAME"
@@ -3724,25 +3670,14 @@ msgid "<link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>"
 msgstr "<link=\"ADVANCEDRESEARCHCENTER\">Supertietokone</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC"
-#| msgid ""
-#| "Lures can relocate Pufts or Shine Bugs to specific locations in your base."
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC"
 msgid ""
 "Lures can relocate Pufts or Shine Bugs to specific locations in my colony."
 msgstr ""
-"Houkuttimet voivat siirtää Nölliäisiä tai Kiiltoötököitä määrättyihin "
-"paikkoihin tukikohdassasi."
+"Houkuttimet voivat siirtää Pöhnöjä tai Kiiltoötököitä määrättyihin "
+"paikkoihin tukikohdassani."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.EFFECT"
-#| msgid ""
-#| "Attracts one type of airborne critter.\n"
-#| "\n"
-#| "Must be baited with <link=\"SLIMEMOLD\">Slime</link> or <link="
-#| "\"PHOSPHORITE\">Phosphorite</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.EFFECT"
 msgid ""
 "Attracts one type of airborne critter at a time.\n"
@@ -3756,12 +3691,9 @@ msgstr ""
 "\"PHOSPHORITE\">Fosforiittia</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME"
-#| msgid "<link=\"AIRBORNECREATURELURE\">Critter Lure</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME"
 msgid "<link=\"AIRBORNECREATURELURE\">Airborne Critter Lure</link>"
-msgstr "<link=\"AIRBORNECREATURELURE\">Otussyötti</link>"
+msgstr "<link=\"AIRBORNECREATURELURE\">Lentävän Otuksen Syötti</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRCONDITIONER.DESC"
@@ -3862,15 +3794,10 @@ msgid ""
 "Some medications help prevent diseases, while others aim to alleviate "
 "existing illness."
 msgstr ""
+"Jotkut lääkinnät auttavat ehkäisemään tauteja, kun taas toiset pyrkivät "
+"helpottamaan puhjennutta sairautta."
 
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT"
-#| msgid ""
-#| "Produces <link=\"MEDICINE\">Medicine</link> to cure most basic <link="
-#| "\"DISEASE\">Diseases</link>.\n"
-#| "\n"
-#| "Duplicants will not fabricate items unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT"
 msgid ""
 "Produces <link=\"MEDICINE\">Medicine</link> to cure most basic <link="
@@ -3883,6 +3810,9 @@ msgid ""
 msgstr ""
 "Tuottaa <link=\"MEDICINE\">Lääkkeitä</link> parantamaan kaikista "
 "yksinkertaisimmat <link=\"DISEASE\">Sairaudet</link>.\n"
+"\n"
+"Jäljennäisillä tulee olla Lääkkeenvalmistus<link=\"ROLES\">taito</link>, "
+"jotta he voivat tehdä lääkkeitä.\n"
 "\n"
 "Jäljennäiset eivät valmista esineitä, jos reseptejä ei ole jonossa."
 
@@ -4018,6 +3948,8 @@ msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> when battery is less than "
 "<b>{0}%</b> charged"
 msgstr ""
+"Lähettää <b><color=#57b95e>Vihreää Signaalia</b></color>, kun akun lataus on "
+"alle <b>{0}%</b>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP"
@@ -4025,28 +3957,18 @@ msgid ""
 "Sends a <b><color=#f44a47>Red Signal</b></color> when battery is more than "
 "<b>{0}%</b> charged"
 msgstr ""
+"Lähettää <b><color=#f44a47>Punaista Signaalia</b></color>, kun akun lataus "
+"on alle <b>{0}%</b>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
-#| msgid ""
-#| "Smart batteries can send an automation signal while they require charging."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
 msgid ""
 "Smart batteries send an active automation signal when they require charging."
 msgstr ""
-"Älyakut pystyvät lähettämään automaatiosignaalin, kun ne tarvitsevat "
+"Älyakut lähettävät aktiivinen-automaatiosignaalin, kun ne tarvitsevat "
 "latausta."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT"
-#| msgid ""
-#| "Stores most runoff <link=\"POWER\">Power</link> from generators, but "
-#| "loses charge over time.\n"
-#| "\n"
-#| "Sends an <link=\"LOGIC\">Active</link> or <link=\"LOGIC\">Standby</link> "
-#| "signal based on the configuration of the Logic Activation Parameters."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT"
 msgid ""
 "Stores most runoff <link=\"POWER\">Power</link> from generators, but loses "
@@ -4059,9 +3981,9 @@ msgstr ""
 "Varastoi enimmän generaattorien ylijäämä<link=\"POWER\">sähkön</link>, mutta "
 "purkautuu ajan kanssa.\n"
 "\n"
-"Lähettää <link=\"LOGIC\">Aktiivinen</link>- tai <link=\"LOGIC"
-"\">Valmiustilassa</link>-signaalia Loogisen Aktivoinnin Parametreihin "
-"perustuen."
+"Lähettää <b><color=#57b95e>Vihreää</b></color> tai "
+"<b><color=#f44a47>Punaista Signaalia</b></color> Loogisten Aktivoinnin "
+"Parametrien asetusten mukaisesti."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT"
@@ -4074,6 +3996,8 @@ msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> when battery is less than "
 "<b>Low Threshold</b> charged"
 msgstr ""
+"Lähettää <b><color=#57b95e>Vihreää Signaalia</b></color>, kun akun lataus "
+"alittaa <b>Alimmaiskynnyksen</b>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE"
@@ -4081,6 +4005,8 @@ msgid ""
 "Sends a <b><color=#f44a47>Red Signal</b></color> when the battery is more "
 "than <b>High Threshold</b> charged"
 msgstr ""
+"Lähettää <b><color=#f44a47>Punaista Signaalia</b></color>, kun akun lataus "
+"ylittää <b>Enimmäiskynnyksen</b>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME"
@@ -4090,12 +4016,12 @@ msgstr "<link=\"BATTERYSMART\">Älyakku</link>"
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_ACTIVATE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_ACTIVATE"
 msgid "Low Threshold:"
-msgstr "Matala Kynnys:"
+msgstr "Alimmaiskynnys:"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_DEACTIVATE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_DEACTIVATE"
 msgid "High Threshold:"
-msgstr "Korkea Kynnys:"
+msgstr "Enimmäiskynnys:"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_TITLE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_TITLE"
@@ -4149,11 +4075,6 @@ msgid "<link=\"BOTTLEEMPTIER\">Bottle Emptier</link>"
 msgstr "<link=\"BOTTLEEMPTIER\">Pullontyhjennin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.DESC"
-#| msgid ""
-#| "A canister emptier's Element Filter can be used to designate areas for "
-#| "specific gas storage."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.DESC"
 msgid ""
 "A canister emptier's Element Filter can designate areas for specific gas "
@@ -4197,17 +4118,12 @@ msgid "<link=\"BUNKERDOOR\">Bunker Door</link>"
 msgstr "<link=\"BUNKERDOOR\">Bunkkerin Ovi</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC"
-#| msgid ""
-#| "Bunker tile can be used to build strong shelters in otherwise dangerous "
-#| "environments."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC"
 msgid ""
 "Bunker tile can build strong shelters in otherwise dangerous environments."
 msgstr ""
-"Bunkkerilaatoilla voidaan rakentaa kestäviä suojia muutoin vaarallisissa "
-"ympäristöissä."
+"Bunkkerilaatoilla voidaan rakentaa kestäviä suojia muutoin vaarallisiin "
+"ympäristöihin."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT"
@@ -4352,11 +4268,6 @@ msgid "Crude Painting"
 msgstr "Kehno Maalaus"
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC"
-#| msgid ""
-#| "Duplicants will fill cargo bays with whatever resources they find during "
-#| "their space missions."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC"
 msgid ""
 "Duplicants will fill cargo bays with any resources they find during space "
@@ -4384,11 +4295,6 @@ msgid "<link=\"CARGOBAY\">Cargo Bay</link>"
 msgstr "<link=\"CARGOBAY\">Lastiruuma</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CARPETTILE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CARPETTILE.DESC"
-#| msgid ""
-#| "Carpeted tile is a luxury that remains decorative even when other tile is "
-#| "stacked atop it."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARPETTILE.DESC"
 msgid ""
 "Carpeted tile remains decorative even when other tile is stacked atop it."
@@ -4422,10 +4328,6 @@ msgstr ""
 "kasvattamiseksi."
 
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.EFFECT"
-#| msgid ""
-#| "Provides <link=\"LIGHT\">Light</link> when <link=\"POWER\">Powered</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.EFFECT"
 msgid ""
 "Provides <link=\"LIGHT\">Light</link> when <link=\"POWER\">Powered</link>.\n"
@@ -4433,7 +4335,9 @@ msgid ""
 "Duplicants can operate buildings more quickly the building is lit."
 msgstr ""
 "Tuottaa <link=\"LIGHT\">Valoa</link> saadessaan <link=\"POWER\">Sähköä</"
-"link>."
+"link>.\n"
+"\n"
+"Jäljennäiset käyttävät rakennusta nopeammin, kun se on valaistu."
 
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.NAME"
@@ -4450,12 +4354,6 @@ msgstr ""
 "voidaan tietää koska on turvallista mennä sisään."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to pass when <link=\"LOGIC\">Active</link>.\n"
-#| "\n"
-#| "Prevents Duplicants from passing when on <link=\"LOGIC\">Standby</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT"
 msgid ""
 "Allows Duplicants to pass when receiving a <b><color=#57b95e>Green Signal</"
@@ -4464,10 +4362,11 @@ msgid ""
 "Prevents Duplicants from passing when receiving a <b><color=#f44a47>Red "
 "Signal</b></color>."
 msgstr ""
-"Päästää Jäljennäiset läpi ollessaan <link=\"LOGIC\">Aktiivinen</link>.\n"
+"Päästää Jäljennäiset läpi vastaanottaessaan <b><color=#57b95e>Vihreää "
+"Signaalia</b></color>.\n"
 "\n"
-"Estää Jäljennäisiä pääsemästä läpi ollessaan <link=\"LOGIC\">Valmiustilassa</"
-"link>."
+"Estää Jäljennäisiä pääsemästä läpi ollessaan <b><color=#f44a47>Punaista "
+"Signaalia</b></color>."
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT"
@@ -4478,11 +4377,13 @@ msgstr "Jäljennäinen Pysähdy/Mene"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Allow Duplicant passage"
 msgstr ""
+"<b><color=#57b95e>Vihreä Signaali</b></color>: Salli Jäljennäisten läpikulku"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Prevent Duplicant passage"
 msgstr ""
+"<b><color=#f44a47>Punainen Signaali</b></color>: Estä Jäljennäisten läpikulku"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.NAME"
@@ -4515,11 +4416,6 @@ msgid "<link=\"CLOTHINGFABRICATOR\">Textile Loom</link>"
 msgstr "<link=\"CLOTHINGFABRICATOR\">Kangaspuut</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.DESC"
-#| msgid ""
-#| "Carbon skimmers remove large amounts of carbon dioxide, but produce no "
-#| "breathable air."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.DESC"
 msgid ""
 "Skimmers remove large amounts of carbon dioxide, but produce no breathable "
@@ -4543,27 +4439,14 @@ msgid "<link=\"CO2SCRUBBER\">Carbon Skimmer</link>"
 msgstr "<link=\"CO2SCRUBBER\">Hiilikerääjä</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC"
-#| msgid ""
-#| "Networks of many scanners will detect objects more efficiently than one "
-#| "scanner alone."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC"
 msgid ""
 "Networks of many scanners will scan more efficiently than one on its own."
 msgstr ""
-"Useiden havaitsimien muodostama verkosto havaitsee kappaleet tehokkaammin, "
-"kuin yksittäinen havaitsin."
+"Useiden havaitsimien muodostama verkosto keilaa tehokkaammin, kuin "
+"yksittäinen havaitsin."
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
-#| msgid ""
-#| "Sends an <link=\"LOGIC\">Active Signal</link> to its logic circuit when "
-#| "it detects incoming objects from space.\n"
-#| "\n"
-#| "Can be configured to detect incoming meteor showers or returning space "
-#| "rockets."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
 msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> to its automation circuit "
@@ -4572,7 +4455,7 @@ msgid ""
 "Can be configured to detect incoming meteor showers or returning space "
 "rockets."
 msgstr ""
-"Lähettää <link=\"LOGIC\">Aktiivinen Signaali</link> loogiseen piiriin "
+"Lähettää <b><color=#57b95e>Vihreää Signaalia</b></color> loogiseen piiriin "
 "havaitessaan avaruudesta kohti tulevat kappaleet.\n"
 "\n"
 "Voidaan asettaa havaitsemaan saapuvat meteorisuihkut tai palaavat raketit."
@@ -4612,12 +4495,13 @@ msgstr "Laukaise Raketti"
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Launch rocket"
-msgstr ""
+msgstr "<b><color=#57b95e>Vihreä Signaali</b></color>: Laukaise raketti"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Awaits launch command"
 msgstr ""
+"<b><color=#f44a47>Punainen Signaali</b></color>: Odottaa laukaisukäskyä"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY"
@@ -4625,23 +4509,18 @@ msgid "Rocket Checklist"
 msgstr "Raketin Tarkistuslista"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> when its rocket launch checklist is "
-#| "complete"
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE"
 msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> when its rocket launch "
 "checklist is complete"
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link>, kun raketin tarkistuslista on "
-"valmis"
+"Lähettää <b><color=#57b95e>Vihreää Signaalia</b></color>, kun sen raketin "
+"tarkistuslista on valmis"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_INACTIVE"
 msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
-msgstr ""
+msgstr "Muutoin lähettää <b><color=#f44a47>Punaista Signaalia</b></color>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.NAME"
@@ -4730,18 +4609,13 @@ msgid "<link=\"CORNERMOULDING\">Corner Moulding</link>"
 msgstr "<link=\"CORNERMOULDING\">Kulmamuovaus</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.DESC"
-#| msgid ""
-#| "Virtual planetariums allow the simulated exploration of locations "
-#| "discovered with telescopes."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.DESC"
 msgid ""
 "Planetariums allow the simulated exploration of locations discovered with a "
 "telescope."
 msgstr ""
-"Virtuaaliplanetaariot mahdollistavat simuloidun tutkimusmatkailun "
-"teleskoopilla havaituissa kohteissa."
+"Planetaariot mahdollistavat simuloidun tutkimusmatkailun teleskoopilla "
+"havaituissa kohteissa."
 
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.EFFECT"
@@ -4791,18 +4665,13 @@ msgid "<link=\"CREATUREDELIVERYPOINT\">Critter Drop-Off</link>"
 msgstr "<link=\"CREATUREDELIVERYPOINT\">Otuksen Jättöpaikka</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC"
-#| msgid ""
-#| "Critters tend to stay close to their food source and will wander less "
-#| "when given a Feeder."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC"
 msgid ""
 "Critters tend to stay close to their food source and wander less when given "
 "a feeder."
 msgstr ""
 "Otukset tapaavat pysyä lähellä ruokapaikkaansa ja vaeltelevat vähemmän, kun "
-"heillä on Ruokkija."
+"heillä on ruokkija."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT"
@@ -4818,12 +4687,9 @@ msgid "<link=\"CREATUREFEEDER\">Critter Feeder</link>"
 msgstr "<link=\"CREATUREFEEDER\">Otuksenruokkija</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC"
-#| msgid "Traps cannot catch flying critters."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC"
 msgid "Critter traps cannot catch swimming or flying critters."
-msgstr "Ansat eivät pysty nappaamaan lentäviä otuksia."
+msgstr "Ansat eivät pysty nappaamaan lentäviä tai uivia otuksia."
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT"
@@ -4868,34 +4734,23 @@ msgstr "<link=\"CROWNMOULDING\">Lakimuovaus</link>"
 #. STRINGS.BUILDINGS.PREFABS.DESALINATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DESALINATOR.DESC"
 msgid "Salt can be refined into table salt for a mealtime morale boost."
-msgstr ""
+msgstr "Suola voidaan jalostaa pöytäsuolaksi ruokailuajan moraalitehostimeksi."
 
 #. STRINGS.BUILDINGS.PREFABS.DESALINATOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.EFFECT"
-#| msgid ""
-#| "Produces clean <link=\"WATER\">Water</link> from <link=\"DIRTYWATER"
-#| "\">Polluted Water</link> using <link=\"SAND\">Sand</link>.\n"
-#| "\n"
-#| "Produces <link=\"TOXICSAND\">Polluted Dirt</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.DESALINATOR.EFFECT"
 msgid ""
 "Removes <link=\"SALT\">Salt</link> from <link=\"BRINE\">Brine</link> or "
 "<link=\"SALTWATER\">Salt Water</link>, producing <link=\"WATER\">Water</"
 "link>."
 msgstr ""
-"Tuottaa puhdasta <link=\"WATER\">Vettä</link> <link=\"DIRTYWATER"
-"\">Saastuneesta Vedestä</link> <link=\"SAND\">Hiekan</link> avulla.\n"
-"\n"
-"Tuottaa <link=\"TOXICSAND\">Saastunutta Multaa</link>."
+"Poistaa <link=\"SALT\">Suolaa</link> <link=\"BRINE\">Murtovedestä</link> tai "
+"<link=\"SALTWATER\">Suolaisesta Vedestä</link> tuottaen <link=\"WATER"
+"\">Vettä</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.DESALINATOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
-#| msgid "<link=\"DEVGENERATOR\">DEV Generator</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DESALINATOR.NAME"
 msgid "<link=\"DESALINATOR\">Desalinator</link>"
-msgstr "<link=\"DEVGENERATOR\">DEV Generaattori</link>"
+msgstr "<link=\"DESALINATOR\">Suolanerotin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC"
@@ -4988,7 +4843,9 @@ msgid ""
 "Sick bays can be placed in hospital rooms to decrease the likelihood of "
 "disease spreading."
 msgstr ""
+"Sairastuvat voidaan asettaa alentamaan tautien leviämisen todennäköisyyttä."
 
+# Tuolle ei ole yksinkertaista suomen kielen vastinetta
 #. STRINGS.BUILDINGS.PREFABS.DOCTORSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOCTORSTATION.EFFECT"
 msgid ""
@@ -4997,6 +4854,10 @@ msgid ""
 "Duplicants must possess the Bedside Manner <link=\"ROLES\">Skill</link> to "
 "treat peers."
 msgstr ""
+"Mahdollistaa Jäljennäisten antavan perushoitoa sairaille Jäljennäisille.\n"
+"\n"
+"Jäljennäisillä tulee olla Potilaskäyttäytymis<link=\"ROLES\">taito</link> "
+"hoitaakseen vertaisiaan"
 
 #. STRINGS.BUILDINGS.PREFABS.DOCTORSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOCTORSTATION.NAME"
@@ -5081,12 +4942,12 @@ msgstr "Avaa/Sulje"
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Open"
-msgstr ""
+msgstr "<b><color=#57b95e>Vihreä Signaali</b></color>: Avaa"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Close and lock"
-msgstr ""
+msgstr "<b><color=#f44a47>Punainen Signaali</b></color>: Sulje ja lukitse"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.NAME"
@@ -5109,9 +4970,6 @@ msgid "on right"
 msgstr "oikealla"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC"
-#| msgid "Raw eggs are an ingredient in some high quality food recipes."
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC"
 msgid "Raw eggs are an ingredient in certain high quality food recipes."
 msgstr "Raa'at munat ovat ainesosia joissakin korkealaatuisissa resepteissä."
@@ -5227,22 +5085,18 @@ msgid ""
 "Ethanol distillers convert Lumber into burnable <link=\"ETHANOL\">Ethanol</"
 "link> fuel."
 msgstr ""
+"Etanolitislaamot muuttavat Puutavaraa polttokelpoiseksi <link=\"ETHANOL"
+"\">Etanoli</link>polttoaineeksi."
 
 #. STRINGS.BUILDINGS.PREFABS.ETHANOLDISTILLERY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEHEATER.EFFECT"
-#| msgid "Radiates a moderate amount of <link=\"HEAT\">Heat</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLDISTILLERY.EFFECT"
 msgid "Refines Lumber into <link=\"ETHANOL\">Ethanol</link>."
-msgstr "Säteilee kohtalaisesti <link=\"HEAT\">Lämpöä</link>."
+msgstr "Jalostaa Puutavaraa <link=\"ETHANOL\">Etanoliksi</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.ETHANOLDISTILLERY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.NAME"
-#| msgid "<link=\"ALGAEDISTILLERY\">Algae Distiller</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLDISTILLERY.NAME"
 msgid "<link=\"ETHANOLDISTILLERY\">Ethanol Distiller</link>"
-msgstr "<link=\"ALGAEDISTILLERY\">Levätislaamo</link>"
+msgstr "<link=\"ETHANOLDISTILLERY\">Etanolitislaamo</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.DESC"
@@ -5250,16 +5104,11 @@ msgid ""
 "Ethanol generators require less Duplicant operation, but produce significant "
 "waste."
 msgstr ""
+"Etanoligeneraattorit tarvitsevat vähemmän Jäljennäisen käyttöä, mutta "
+"tuottavat merkittävästi jätettä."
 
+# En kyllä käsitä, miksi se tuottaisi paskavettä. Varmaan pelimekaniikan vuoksi.
 #. STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.METHANEGENERATOR.EFFECT"
-#| msgid ""
-#| "Converts <link=\"METHANE\">Natural Gas</link> into electrical <link="
-#| "\"POWER\">Power</link>.\n"
-#| "\n"
-#| "Produces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and <link="
-#| "\"DIRTYWATER\">Polluted Water</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.EFFECT"
 msgid ""
 "Converts <link=\"ETHANOL\">Ethanol</link> into electrical <link=\"POWER"
@@ -5268,25 +5117,17 @@ msgid ""
 "Produces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and <link=\"DIRTYWATER"
 "\">Polluted Water</link>."
 msgstr ""
-"Muuttaa <link=\"METHANE\">Maakaasun</link> <link=\"POWER\">Sähköksi</link>.\n"
+"Muuttaa <link=\"ETHANOL\">Etanolin</link> <link=\"POWER\">Sähköksi</link>.\n"
 "\n"
 "Tuottaa <link=\"CARBONDIOXIDE\">Hiilidioksidia</link> ja <link=\"DIRTYWATER"
 "\">Saastunutta Vettä</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALGENERATOR.NAME"
-#| msgid "<link=\"MANUALGENERATOR\">Manual Generator</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.NAME"
 msgid "<link=\"ETHANOLGENERATOR\">Ethanol Generator</link>"
-msgstr "<link=\"MANUALGENERATOR\">Manuaalinen Generaattori</link>"
+msgstr "<link=\"ETHANOLGENERATOR\">Etanoligeneraattori</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
-#| msgid ""
-#| "Drywall can be used in conjunction with tile to build airtight rooms on "
-#| "the surface."
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
 msgid ""
 "Drywall can be used in conjunction with tiles to build airtight rooms on the "
@@ -5358,11 +5199,6 @@ msgid "<link=\"FARMSTATION\">Farm Station</link>"
 msgstr "<link=\"FARMSTATION\">Viljelytyöpiste</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC"
-#| msgid ""
-#| "Duplicants can deliver fertilizer and liquids to farm tile, accelerating "
-#| "plant growth."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMTILE.DESC"
 msgid ""
 "Duplicants can deliver fertilizer and liquids to farm tiles, accelerating "
@@ -5418,6 +5254,7 @@ msgid ""
 "Build these in addition to ladders for efficient upward and downward "
 "movement."
 msgstr ""
+"Rakenna näitä tikkaiden ohella tehostamaan ylöspäin ja alaspäin kulkemista."
 
 #. STRINGS.BUILDINGS.PREFABS.FIREPOLE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.EFFECT"
@@ -5436,17 +5273,13 @@ msgid "<link=\"FIREPOLE\">Fire Pole</link>"
 msgstr "<link=\"FIREPOLE\">Palotanko</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC"
-#| msgid ""
-#| "This building must be built above liquid to prevent fish from suffocating."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.DESC"
 msgid ""
 "A fish release must be built above liquid to prevent released fish from "
 "suffocating."
 msgstr ""
-"Tämä rakennus täytyy rakentaa nesteen yläpuolelle, jotteivät kalat "
-"tukehtuisi."
+"Kalan vapautin täytyy rakentaa nesteen yläpuolelle ehkäisemään vapautetun "
+"kalan tukehtuminen."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT"
@@ -5471,13 +5304,6 @@ msgstr ""
 "Rakenna tämä ruokkija veden yläpuolelle ruokkiaksesi siellä uivia kaloja."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT"
-#| msgid ""
-#| "Automatically dispenses stored <link=\"CRITTERS\">Critter</link>food into "
-#| "the area below.\n"
-#| "\n"
-#| "Dispenses once per day."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.EFFECT"
 msgid ""
 "Automatically dispenses stored <link=\"CRITTERS\">Critter</link> food into "
@@ -5517,21 +5343,12 @@ msgid "<link=\"FISHTRAP\">Fish Trap</link>"
 msgstr "<link=\"FISHTRAP\">Kala-ansa</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.DESC"
-#| msgid ""
-#| "The emitting radius of a building's light can be viewed in the Light "
-#| "Overlay."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.DESC"
 msgid ""
 "Any building's light emitting radius can be viewed in the light overlay."
-msgstr "Rakennuksen valonsäteilyetäisyyden voi nähdä Valonäkymästä."
+msgstr "Rakennuksen valonsäteilyetäisyyden voi nähdä valonäkymästä."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.EFFECT"
-#| msgid ""
-#| "Provides <link=\"LIGHT\">Light</link> when <link=\"POWER\">Powered</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.EFFECT"
 msgid ""
 "Provides <link=\"LIGHT\">Light</link> when <link=\"POWER\">Powered</link>.\n"
@@ -5539,7 +5356,9 @@ msgid ""
 "Duplicants can operate buildings more quickly when the building is lit."
 msgstr ""
 "Tuottaa <link=\"LIGHT\">Valoa</link> saadessaan <link=\"POWER\">Sähköä</"
-"link>."
+"link>.\n"
+"\n"
+"Jäljennäiset käyttävät rakennusta nopeammin, kun se on valaistu."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.NAME"
@@ -5555,14 +5374,6 @@ msgstr ""
 "kulkevat niiden ohitse."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> when an object or Duplicant is "
-#| "placed atop of it.\n"
-#| "\n"
-#| "Cannot be triggered by <link=\"ELEMENTSGAS\">Gas</link> or <link="
-#| "\"ELEMENTSLIQUID\">Liquids</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.EFFECT"
 msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> when an object or "
@@ -5571,8 +5382,8 @@ msgid ""
 "Cannot be triggered by <link=\"ELEMENTSGAS\">Gas</link> or <link="
 "\"ELEMENTSLIQUID\">Liquids</link>."
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link> kun esine tai Jäljenne asetetaan "
-"sen päälle.\n"
+"Lähettää  <b><color=#57b95e>Vihreää Signaalia</b></color>, kun esine tai "
+"Jäljenne asetetaan sen päälle.\n"
 "\n"
 "<link=\"ELEMENTSGAS\">Kaasut</link> tai <link=\"ELEMENTSLIQUID\">Nesteet</"
 "link> eivät voi laukaista sitä."
@@ -5615,11 +5426,6 @@ msgid "<link=\"FLOWERVASE\">Flower Pot</link>"
 msgstr "<link=\"FLOWERVASE\">Kukkaruukku</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.DESC"
-#| msgid ""
-#| "Hanging pots can add a bit of decor to a room, without interferring with "
-#| "buildings on the floor."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.DESC"
 msgid ""
 "Hanging pots can add some decor to a room, without blocking buildings on the "
@@ -5718,32 +5524,23 @@ msgid "<link=\"FLOWERVASEWALL\">Wall Pot</link>"
 msgstr "<link=\"FLOWERVASEWALL\">Seinäruukku</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC"
-#| msgid ""
-#| "Lavatories transmit fewer germs to Duplicants' skin and require no manual "
-#| "emptying."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.DESC"
 msgid ""
 "Lavatories transmit fewer germs to Duplicants' skin and require no emptying."
 msgstr ""
 "Vessoista siirtyy vähemmän bakteereja Jäljennäisten iholle, eivätkä vaadi "
-"käsin tehtävää tyhjennystä."
+"erillistä tyhjennystä."
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.PILLS.BASICCURE.RECIPEDESC"
-#| msgid ""
-#| "Duplicants can take this to cure themselves of minor germ-based <link="
-#| "\"DISEASE\">Diseases</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.EFFECT"
 msgid ""
 "Gives Duplicants a place to relieve themselves.\n"
 "\n"
 "Spreads very few <link=\"DISEASE\">Germs</link>."
 msgstr ""
-"Jäljennäiset voivat ottaa tämän parantaakseen itsensä vähäisistä "
-"bakteeriperäisistä <link=\"DISEASE\">Taudeista</link>."
+"Antaa Jäljennäisille paikan helpottaa itsensä.\n"
+"\n"
+"Levittää hyvin vähän <link=\"DISEASE\">Bakteereja</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLUSHTOILET.NAME"
@@ -5755,7 +5552,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.FLYINGCREATUREBAIT.DESC"
 msgid ""
 "The type of critter attracted by critter bait depends on the construction "
 "material."
-msgstr ""
+msgstr "Otussyötin houkuttelema otustyyppi riippuu rakennusmateriaalista."
 
 #. STRINGS.BUILDINGS.PREFABS.FLYINGCREATUREBAIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLYINGCREATUREBAIT.EFFECT"
@@ -5764,14 +5561,14 @@ msgid ""
 "\n"
 "Single use."
 msgstr ""
+"Houkuttelee yhdentyyppistä lentävää otusta.\n"
+"\n"
+"Kertakäyttöinen."
 
 #. STRINGS.BUILDINGS.PREFABS.FLYINGCREATUREBAIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.NAME"
-#| msgid "<link=\"CREATURETRAP\">Critter Trap</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLYINGCREATUREBAIT.NAME"
 msgid "<link=\"FLYINGCREATUREBAIT\">Airborne Critter Bait</link>"
-msgstr "<link=\"CREATURETRAP\">Otusansa</link>"
+msgstr "<link=\"CREATURETRAP\">Lentävien Otusten Ansa</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.DESC"
@@ -5793,30 +5590,22 @@ msgid "Extend/Retract"
 msgstr "Ojenna/Vedä Sisään"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "Extends gantry when an <link=\"LOGIC\">Active</link> signal is received"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_ACTIVE"
 msgid ""
 "<b>Extends gantry</b> when a <b><color=#57b95e>Green Signal</b></color> "
 "signal is received"
 msgstr ""
-"Ojentaa nosturisillan vastaanottaessaan <link=\"LOGIC\">Aktiivinen</link>-"
-"signaalia"
+"<b>Ojentaa nosturisillan</b> vastaanottaessaan <b><color=#57b95e>Vihreää "
+"Signaalia</b></color>"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_INACTIVE"
-#| msgid ""
-#| "Retracts gantry when a <link=\"LOGIC\">Standby</link> signal is received"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_INACTIVE"
 msgid ""
 "<b>Retracts gantry</b> when a <b><color=#f44a47>Red Signal</b></color> "
 "signal is received"
 msgstr ""
-"Vetää nosturisillan vastaanottaessaan <link=\"LOGIC\">Valmiustilassa</link>-"
-"signaalia"
+"<b>Vetää nosturisillan</b> vastaanottaessaan <b><color=#f44a47>Punaista "
+"Signaalia</b></color>"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.NAME"
@@ -5846,11 +5635,6 @@ msgid "<link=\"GASBOTTLER\">Canister Filler</link>"
 msgstr "<link=\"GASBOTTLER\">Kanisterin Täyttäjä</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC"
-#| msgid ""
-#| "Duplicants will fill cargo canisters with whatever resources they find "
-#| "during their space missions."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC"
 msgid ""
 "Duplicants fill cargo canisters with any resources they find during space "
@@ -5929,34 +5713,23 @@ msgid "<link=\"GASCONDUITBRIDGE\">Gas Bridge</link>"
 msgstr "<link=\"GASCONDUITBRIDGE\">Kaasusilta</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.DESC"
-#| msgid ""
-#| "Germ sensors are used to control automation behaviour in the presence of "
-#| "disease."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.DESC"
 msgid ""
 "Germ sensors can help control automation behavior in the presence of germs."
 msgstr ""
-"Mikrobitunnistimia käytetään säätelemään automaatiota taudinaiheuttajia "
+"Mikrobitunnistimia käytetään säätelemään automaatiota bakteereja "
 "havaittaessa."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> or goes on <link=\"LOGIC\">Standby</"
-#| "link> depending on the internal <link=\"DISEASE\">Germ</link> count of "
-#| "the pipe."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT"
 msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> or a "
 "<b><color=#f44a47>Red Signal</b></color> based on the internal <link="
 "\"DISEASE\">Germ</link> count of the pipe."
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link> tai siirtyy <link=\"LOGIC"
-"\">Valmiustilaan</link> riippuen putkessa olevien <link=\"DISEASE"
-"\">Bakteerien</link> määrästä."
+"Lähettää <b><color=#57b95e>Vihreää</b></color> tai "
+"<b><color=#f44a47>Punaista Signaalia</b></color> putkessa olevien <link="
+"\"DISEASE\">Bakteerien</link> lukumäärän perusteella."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT"
@@ -5969,11 +5742,13 @@ msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> if the number of Germs in "
 "the pipe is within the selected range"
 msgstr ""
+"Lähettää <b><color=#57b95e>Vihreää Signaalia</b></color>, jos Bakteerien "
+"lukumäärä putkessa on asetetulla alueella"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
-msgstr ""
+msgstr "Muutoin lähettää <b><color=#f44a47>Punaista Signaalia</b></color>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME"
@@ -5988,18 +5763,13 @@ msgid ""
 msgstr "Ainetunnistimilla voidaan havaita tietyn kaasun läsnäolo putkessa."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> when the chosen <link=\"ELEMENTSGAS"
-#| "\">Gas</link> is detected."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
 msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> when the chosen <link="
 "\"ELEMENTSGAS\">Gas</link> is detected."
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link>, kun valittu <link=\"ELEMENTSGAS"
-"\">Kaasu</link> havaitaan."
+"Lähettää <b><color=#57b95e>Vihreää Signaalia</b></color>, kun valittu <link="
+"\"ELEMENTSGAS\">Kaasu</link> havaitaan."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT"
@@ -6012,11 +5782,13 @@ msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> if the configured Gas is "
 "detected"
 msgstr ""
+"Lähetää <b><color=#57b95e>Vihreää Signaalia</b></color>, jos asetettu Kaasu "
+"havaitaan"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
-msgstr ""
+msgstr "Muutoin lähettää <b><color=#f44a47>Punaista Signaalia</b></color>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME"
@@ -6097,41 +5869,26 @@ msgid "<link=\"GASCONDUITRADIANT\">Radiant Gas Pipe</link>"
 msgstr "<link=\"GASCONDUITRADIANT\">Säteilevä Kaasuputki</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC"
-#| msgid ""
-#| "Thermo sensors can disable buildings when their pipe contents reach a "
-#| "certain temperature."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC"
 msgid ""
 "Thermo sensors disable buildings when their pipe contents reach a certain "
 "temperature."
 msgstr ""
-"Lämpötilatunnistimet voivat kytkeä rakennuksia pois toiminnasta, kun sisältö "
-"saavuttaa tietyn lämpötilan."
+"Lämpötilatunnistimet voivat kytkeä rakennuksia pois toiminnasta, kun putken "
+"sisältö saavuttaa tietyn lämpötilan."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> or goes on <link=\"LOGIC\">Standby</"
-#| "link> when contents enter the chosen <link=\"HEAT\">Temperature</link> "
-#| "range."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT"
 msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> or a "
 "<b><color=#f44a47>Red Signal</b></color> when contents enter the chosen "
 "<link=\"HEAT\">Temperature</link> range."
 msgstr ""
-"Muuttuu <link=\"LOGIC\">Aktiiviseksi</link> tai menee <link=\"LOGIC"
-"\">Valmiustilaan</link> kun sisällön <link=\"HEAT\">Lämpötila</link> on "
-"valitulla välillä."
+"Lähettää <b><color=#57b95e>Vihreää</b></color> tai "
+"<b><color=#f44a47>Punaista Signaalia</b></color>, kun sisällön <link=\"HEAT"
+"\">Lämpötila</link> on valitulla välillä."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT"
-#| msgid ""
-#| "Internal <link=\"ELEMENTSGAS\">Gas</link><link=\"HEAT\">Temperature</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT"
 msgid ""
 "Internal <link=\"ELEMENTSGAS\">Gas</link> <link=\"HEAT\">Temperature</link>"
@@ -6145,12 +5902,14 @@ msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> if the contained Gas is "
 "within the selected Temperature range"
 msgstr ""
+"Lähettää <b><color=#57b95e>Vihreää Signaalia</b></color>, jos sisällä oleva "
+"Kaasu on valitulla Lämpötila-alueella"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
-msgstr ""
+msgstr "Muutoin lähettää <b><color=#f44a47>Punaista Signaalia</b></color>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME"
@@ -6164,6 +5923,8 @@ msgid ""
 "All gases are sent into the building's output pipe, except the gas chosen "
 "for filtering."
 msgstr ""
+"Kaikki kaasut, paitsi suodatukseen valittu, lähetetään rakennuksen "
+"ulostuloputkeen."
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT"
@@ -6190,18 +5951,13 @@ msgid "Filters: {0}"
 msgstr "Suodattaa: {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.DESC"
-#| msgid ""
-#| "Automated systems save power and time by removing the need for Duplicant "
-#| "management."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC"
 msgid ""
 "Automated piping saves power and time by removing the need for Duplicant "
 "input."
 msgstr ""
-"Automatisoidut järjestelmät säästävät sähköä ja aikaa poistamalla "
-"Jäljennäisten hallinnan tarpeen."
+"Automatisoidut putkistot säästävät sähköä ja aikaa poistamalla Jäljennäisten "
+"hallinnan tarpeen."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT"
@@ -6220,12 +5976,12 @@ msgstr "Avaa/Sulje"
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.LOGIC_PORT_ACTIVE"
 msgid "<b><color=#57b95e>Green Signal</b></color>: Allow gas flow"
-msgstr ""
+msgstr "<b><color=#57b95e>Vihreä Signaali</b></color>: Salli kaasun virtaus"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.LOGIC_PORT_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Prevent gas flow"
-msgstr ""
+msgstr "<b><color=#f44a47>Punainen Signaali</b></color>: Estä kaasun virtaus"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME"
@@ -6233,11 +5989,6 @@ msgid "<link=\"GASLOGICVALVE\">Gas Shutoff</link>"
 msgstr "<link=\"GASLOGICVALVE\">Kaasun Sulkuventtiili</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.DESC"
-#| msgid ""
-#| "Mini pumps are useful for moving small quantities of gas with minimum "
-#| "power draw."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.DESC"
 msgid ""
 "Mini pumps are useful for moving small quantities of gas with minimum power."
@@ -6246,13 +5997,6 @@ msgstr ""
 "sähkönkulutuksella."
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.EFFECT"
-#| msgid ""
-#| "Draws in a small amount of <link=\"ELEMENTSGAS\">Gas</link> runs it "
-#| "through <link=\"GASPIPING\">Pipes</link>.\n"
-#| "\n"
-#| "Must be immersed in <link=\"ELEMENTSGAS\">Gas</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.EFFECT"
 msgid ""
 "Draws in a small amount of <link=\"ELEMENTSGAS\">Gas</link> and runs it "
@@ -6261,9 +6005,9 @@ msgid ""
 "Must be immersed in <link=\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
 "Imee sisäänsä pienen määrän <link=\"ELEMENTSGAS\">Kaasua</link> ja siirtää "
-"siirtää sitä <link=\"GASPIPING\">Kaasuputkia</link> pitkin.\n"
+"siirtää sitä <link=\"GASPIPING\">putkia</link> pitkin.\n"
 "\n"
-"Täytyy olla <link=\"ELEMENTSGAS\">Kaasussa</link>."
+"Täytyy olla upotettuna <link=\"ELEMENTSGAS\">Kaasussa</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASMINIPUMP.NAME"
@@ -6297,15 +6041,12 @@ msgid "<link=\"GASPERMEABLEMEMBRANE\">Airflow Tile</link>"
 msgstr "<link=\"GASPERMEABLEMEMBRANE\">Ilmavirtalaatta</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC"
-#| msgid ""
-#| "Piping a pump's intake to another building's output will send gas to that "
-#| "building."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC"
 msgid ""
 "Piping a pump's output to a building's intake will send gas to that building."
-msgstr "Yhdistämällä pumpun ulosviennin toisen rakennuksen."
+msgstr ""
+"Vetämällä putken pumpun ulosviennistä rakennuksen sisäänottoon siirtää "
+"kaasua kyseiseen rakennukseen."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT
 #, fuzzy

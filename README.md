@@ -8,4 +8,3 @@ Edistyminen 27.8.2019: 87 % valmis, 1190 pätkää kääntämättä.
 Tiedoston käyttö pelissä:
 1. lataa strings.po
 2. kopioi kansioon <pelin polku>OxygenNotIncluded\OxygenNotIncluded_Data\StreamingAssets\strings
-3. vastaa kyllä

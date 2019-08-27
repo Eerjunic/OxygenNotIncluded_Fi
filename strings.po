@@ -26966,15 +26966,13 @@ msgid "Scrubbing ore"
 msgstr "Kuuraa malmia"
 
 #. STRINGS.DUPLICANTS.CHORES.SCRUBORE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.SCRUBORE.TOOLTIP"
-#| msgid "Material ore can be scrubbed to remove Germs present on its surface"
 msgctxt "STRINGS.DUPLICANTS.CHORES.SCRUBORE.TOOLTIP"
 msgid ""
 "Material ore can be scrubbed to remove <style=\"KKeyword\">Germs</style> "
 "present on its surface"
 msgstr ""
-"Malmia voidaan kuurata, jotta sen pinnalla olevat Bakteerit saadaan pois"
+"Malmia voidaan kuurata, jotta sen pinnalla olevat <style=\"KKeyword"
+"\">Bakteerit</style> saadaan poistettua"
 
 #. STRINGS.DUPLICANTS.CHORES.SHOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SHOWER.NAME"
@@ -27075,13 +27073,12 @@ msgid "Lashing out"
 msgstr "Riehuu"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSACTINGOUT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSACTINGOUT.TOOLTIP"
-#| msgid "This Duplicant is having a stress-induced tantrum"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSACTINGOUT.TOOLTIP"
 msgid ""
 "This Duplicant is having a <style=\"KKeyword\">Stress</style>-induced tantrum"
-msgstr "Tällä Jäljennäisellä on käynnissä ahdistuksen aiheuttama hepuli"
+msgstr ""
+"Tällä Jäljennäisellä on menossa <style=\"KKeyword\">Ahdistuksen</style> "
+"aiheuttama hepuli"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSHEAL.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.NAME"
@@ -27094,14 +27091,13 @@ msgid "De-stressing"
 msgstr "Rahoittuu"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSHEAL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.TOOLTIP"
-#| msgid "This Duplicant taking some time to recover from their stress"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.TOOLTIP"
 msgid ""
 "This Duplicant taking some time to recover from their <style=\"KKeyword"
 "\">Stress</style>"
-msgstr "Tämä Jäljennäinen käyttää aikaa ahdistuksesta toipumiseen"
+msgstr ""
+"Tämä Jäljennäinen käyttää aikaa <style=\"KKeyword\">Ahdistuksestaan</style> "
+"toipumiseen"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSIDLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSIDLE.NAME"
@@ -27132,13 +27128,11 @@ msgid "Stress vomiting"
 msgstr "Oksentaa Ahdistukseen"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSVOMIT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSVOMIT.TOOLTIP"
-#| msgid "Some people deal with stress better than others"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSVOMIT.TOOLTIP"
 msgid ""
 "Some people deal with <style=\"KKeyword\">Stress</style> better than others"
-msgstr "Jotkut sietävät ahdistusta paremmin kuin toiset"
+msgstr ""
+"Jotkut sietävät <style=\"KKeyword\">Ahdistusta</style> paremmin kuin toiset"
 
 #. STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.NAME"
@@ -27968,12 +27962,10 @@ msgstr ""
 "kuumuudesta johtuen"
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.DESCRIPTIVE_SYMPTOMS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.DESCRIPTIVE_SYMPTOMS"
-#| msgid "Nonlethal. Duplicants experience high fever and discomfort."
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.DESCRIPTIVE_SYMPTOMS"
 msgid "Nonlethal. Duplicants experience high fever and discomfort."
-msgstr "Ei-tappava. Jäljennäiset kokevat korkeaa kuumetta ja epämukavuutta."
+msgstr ""
+"Hengenvaaraton. Jäljennäiset kokevat korkeaa kuumetta ja epämukavuutta."
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.LEGEND_HOVERTEXT"
@@ -28086,17 +28078,13 @@ msgid "Alleviates <link=\"DISEASE\">All Diseases</link>"
 msgstr "Lievittää <link=\"DISEASE\">Kaikkia Sairauksia</link>"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.CURES_ANY_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.CURES_ANY_TOOLTIP"
-#| msgid ""
-#| "This is a nonspecific disease treatment that can be taken by any sick "
-#| "Duplicant"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.CURES_ANY_TOOLTIP"
 msgid ""
 "This is a nonspecific <style=\"KKeyword\">Disease</style> treatment that can "
 "be taken by any sick Duplicant"
 msgstr ""
-"Tämä on yleinen hoitokeino, jota voi saada jokainen sairas Jäljennäinen"
+"Tämä on yleinen <style=\"KKeyword\">Sairauden</style>hoitokeino, jota voi "
+"saada jokainen sairas Jäljennäinen"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.CURES_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.CURES_TOOLTIP"
@@ -28229,13 +28217,6 @@ msgstr ""
 "ja hengenahdistuksesta."
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.DISEASE_SOURCE_DESCRIPTOR
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.DISEASE_SOURCE_DESCRIPTOR"
-#| msgid ""
-#| "Currently infected with {2}.\n"
-#| "\n"
-#| "This Duplicant will produce {1} when coughing."
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.DISEASE_SOURCE_DESCRIPTOR"
 msgid ""
 "Currently infected with {2}.\n"
@@ -28244,17 +28225,9 @@ msgid ""
 msgstr ""
 "Taudin {2} tartuttama.\n"
 "\n"
-"Tämä Jäljennäinen tuottaa yskiessään ainetta {1}"
+"Tämä Jäljennäinen tuottaa yskiessään ainetta <b>{1}</b>"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.DISEASE_SOURCE_DESCRIPTOR_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS."
-#| "DISEASE_SOURCE_DESCRIPTOR_TOOLTIP"
-#| msgid ""
-#| "This Duplicant will cough approximately every {0}\n"
-#| "------------------\n"
-#| "Each time they cough, they will release {1}"
 msgctxt ""
 "STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.DISEASE_SOURCE_DESCRIPTOR_TOOLTIP"
 msgid ""
@@ -28262,9 +28235,9 @@ msgid ""
 "------------------\n"
 "Each time they cough, they will release <b>{1}</b>"
 msgstr ""
-"Tämä Jäljennäinen yskäisee arviolta aina {0} välein\n"
+"Tämä Jäljennäinen yskäisee arviolta aina <b>{0}</b> välein\n"
 "------------------\n"
-"Aina kun he yskäisevät, heistä vapautuu ainetta {1}"
+"Aina kun he yskäisevät, heistä vapautuu ainetta <b>{1}</b>"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.NAME"

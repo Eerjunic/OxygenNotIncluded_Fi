@@ -11333,7 +11333,7 @@ msgid ""
 "\n"
 "Improves Duplicant <link=\"MORALE\">Morale</link>."
 msgstr ""
-"Tarjoaa kokoontumispaikan Jäljennäisille Vapaa-aikana.\n"
+"Tarjoaa kokoontumispaikan Jäljennäisille Vapaa-ajallaan.\n"
 "\n"
 "Kohottaa Jäljennäisten Moraalia."
 
@@ -18868,13 +18868,15 @@ msgstr "Laske rakennuksen lämpötila 6 Kelviniin."
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE"
 msgid "Auto-Sweepers outperformed dupes for cycles: {0} / {1}"
-msgstr "Automaattilakaisijat suorittivat paremmin kuin jäl"
+msgstr ""
+"Kiertoja, joilla automaattilakaisijat olivat jälkiksiä parempia: {0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_VS_DUPE_FETCHES
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_VS_DUPE_FETCHES"
 msgid "Deliveries this cycle: Auto-Sweepers: {1} Duplicants: {2}"
 msgstr ""
+"Toimituksia tällä kierrolla: Automaattilakaisijat: {1} Jäljennäiset: {2}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.AUTOMATE_A_BUILDING
 msgctxt ""
@@ -18981,7 +18983,7 @@ msgstr "Kaikki Jälikät suorittivat Eksopukutehtävän kierroille: {0} / {1}"
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_THIS_CYCLE"
 msgid "Dupes who completed Exosuit errands this cycle: {0} / {1}"
-msgstr ""
+msgstr "Eksopukutehtäviä suorittaneita Jälkiksiä tällä kierrolla: {0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXPAND_TOOLTIP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXPAND_TOOLTIP"
@@ -19079,7 +19081,7 @@ msgstr "Kiertoja jäljellä: {0} / {1}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REVEALED
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REVEALED"
 msgid "Revealed: {0:0.##}% / {1:0.##}%"
-msgstr ""
+msgstr "Paljastettu: {0:0.##}% / {1:0.##}%"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SKILL_BRANCH
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SKILL_BRANCH"
@@ -24714,7 +24716,7 @@ msgstr ""
 "\n"
 "<style=\"KKeyword\">Moraalia</style> voidaan nostaa tarjoamalla "
 "Jäljennäiselle korkeampilaatuista <style=\"KKeyword\">Ruokaa</style>, "
-"antamalla lisää <style=\"KKeyword\">Vapaa-aikaa</style>\n"
+"antamalla lisää <style=\"KKeyword\">Vapaavuoroja</style>\n"
 "siirtokunnan aikataululla, sekä rakentamalla heille parempia <style="
 "\"KKeyword\">Kylpyhuoneita</style> ja <style=\"KKeyword\">Sänkyjä</style>."
 
@@ -25394,8 +25396,8 @@ msgid ""
 "\n"
 "Duplicants have to use the toilet at least once per day"
 msgstr ""
-"Tämä Jäljennäisellä on aikataulutettu <style=\"KKeyword\">Vapaa-aika</"
-"style>, ja käyttää taukonsa vessassa käymiseen\n"
+"Tämä Jäljennäisellä on aikataulutettu <style=\"KKeyword\">Vapaa</"
+"style>vuoro, ja käyttää taukonsa vessassa käymiseen\n"
 "\n"
 "Jäljennäisten täytyy käydä vessassa vähintään kerran päivässä"
 
@@ -25529,28 +25531,19 @@ msgid ""
 msgstr "Tämä Jäljennäinen on viemässä orgaanista ainesta kompostiin"
 
 #. STRINGS.DUPLICANTS.CHORES.COMPOUND.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.MEDICINE"
-#| msgid "Medicine"
 msgctxt "STRINGS.DUPLICANTS.CHORES.COMPOUND.NAME"
 msgid "Compound Medicine"
-msgstr "Lääkintätarvikkeet"
+msgstr "Valmista Lääkettä"
 
 #. STRINGS.DUPLICANTS.CHORES.COMPOUND.STATUS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.COMPOSTWORKABLE.STATUS"
-#| msgid "Going to compost"
 msgctxt "STRINGS.DUPLICANTS.CHORES.COMPOUND.STATUS"
 msgid "Going to compound medicine"
-msgstr "Menossa Kompostoimaan"
+msgstr "Menossa valmistamaan lääkettä"
 
 #. STRINGS.DUPLICANTS.CHORES.COMPOUND.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.LASHINGOUT.TOOLTIP"
-#| msgid "This Duplicant is breaking stuff to relieve stress"
 msgctxt "STRINGS.DUPLICANTS.CHORES.COMPOUND.TOOLTIP"
 msgid "This Duplicant is fabricating <style=\"KKeyword\">Medicine</style>"
-msgstr "Tämä Jäljennäinen hajottaa paikkoja lievittääkseen ahdistustaan"
+msgstr "Tämä Jäljennäinen valmistaa <style=\"KKeyword\">Lääkettä</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.COOK.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOK.NAME"
@@ -25578,14 +25571,13 @@ msgid "Supplying cook ingredients"
 msgstr "Toimittaa ruuanlaittoaineksia"
 
 #. STRINGS.DUPLICANTS.CHORES.COOKFETCH.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.COOKFETCH.TOOLTIP"
-#| msgid "This Duplicant is delivering materials required to cook food"
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOKFETCH.TOOLTIP"
 msgid ""
 "This Duplicant is delivering materials required to cook <style=\"KKeyword"
 "\">Food</style>"
-msgstr "Tämä Jäljennäinen toimittaa ruuanlaittoon vaadittavia materiaaleja"
+msgstr ""
+"Tämä Jäljennäinen toimittaa <style=\"KKeyword\">Ruuan</style>laittoon "
+"vaadittavia materiaaleja"
 
 #. STRINGS.DUPLICANTS.CHORES.COOLDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOLDOWN.NAME"
@@ -27194,14 +27186,13 @@ msgid "Taking medicine"
 msgstr "Ottaa Lääkettä"
 
 #. STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.TOOLTIP"
-#| msgid "This Duplicant is taking a dose of medicine to keep disease at bay"
 msgctxt "STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.TOOLTIP"
 msgid ""
 "This Duplicant is taking a dose of medicine to ward off <style=\"KKeyword"
 "\">Disease</style>"
-msgstr "Tämä Jäljennäinen ottaa annoksen lääkettä, jotta sairaus pysyy kurissa"
+msgstr ""
+"Tämä Jäljennäinen ottaa annoksen lääkettä, torjuakseen <style=\"KKeyword"
+"\">Sairauden</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.THINKING.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.THINKING.NAME"
@@ -27214,12 +27205,9 @@ msgid "Pondering"
 msgstr "Pohtii"
 
 #. STRINGS.DUPLICANTS.CHORES.THINKING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DROPPINGUNUSEDINVENTORY.TOOLTIP"
-#| msgid "This Duplicant is dropping what they're holding"
 msgctxt "STRINGS.DUPLICANTS.CHORES.THINKING.TOOLTIP"
 msgid "This Duplicant is mulling over what they should do next"
-msgstr "Tämä Jäljennäinen on laskemassa käsistään, mitä on pitelemässä"
+msgstr "Tämä Jäljennäinen ihmettelee, mitä tekisi seuraavaksi"
 
 #. STRINGS.DUPLICANTS.CHORES.TOGGLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.TOGGLE.NAME"
@@ -27262,16 +27250,13 @@ msgid "Going to sweep"
 msgstr "Menossa Lakaisemaan"
 
 #. STRINGS.DUPLICANTS.CHORES.TRANSPORT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.TRANSPORT.TOOLTIP"
-#| msgid "Moving debris off the ground and into storage improves colony decor"
 msgctxt "STRINGS.DUPLICANTS.CHORES.TRANSPORT.TOOLTIP"
 msgid ""
 "Moving debris off the ground and into storage improves colony <style="
 "\"KKeyword\">Decor</style>"
 msgstr ""
-"Irtoroskien siirtäminen pois maasta varastoihin parantaa siirtokunnan "
-"koristeellisuutta"
+"Irtoroskien siirtäminen pois maasta varastoihin parantaa siirtokunnan <style="
+"\"KKeyword\">Koristeellisuutta</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.NAME"
@@ -27331,14 +27316,13 @@ msgid "Going to uproot"
 msgstr "Menossa kitkemään"
 
 #. STRINGS.DUPLICANTS.CHORES.UPROOT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.UPROOT.TOOLTIP"
-#| msgid "This Duplicant is uprooting a plant to retrieve a seed"
 msgctxt "STRINGS.DUPLICANTS.CHORES.UPROOT.TOOLTIP"
 msgid ""
 "This Duplicant is uprooting a plant to retrieve a <style=\"KKeyword\">Seed</"
 "style>"
-msgstr "Tämä Jäljennäinen kitkee kasvia saadakseen siemenen"
+msgstr ""
+"Tämä Jäljennäinen kitkee kasvia saadakseen <style=\"KKeyword\">Siemenen</"
+"style>"
 
 #. STRINGS.DUPLICANTS.CHORES.USETOILET.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.USETOILET.NAME"
@@ -27366,14 +27350,13 @@ msgid "Vomiting"
 msgstr "Oksentaa"
 
 #. STRINGS.DUPLICANTS.CHORES.VOMIT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.VOMIT.TOOLTIP"
-#| msgid "Vomiting produces Polluted Water and can spread disease"
 msgctxt "STRINGS.DUPLICANTS.CHORES.VOMIT.TOOLTIP"
 msgid ""
 "Vomiting produces <link=\"DIRTYWATER\">Polluted Water</link> and can spread "
 "<style=\"KKeyword\">Disease</style>"
-msgstr "Oksentaminen tuottaa Saastunutta Vettä ja voi levittää sairauksia"
+msgstr ""
+"Oksentaminen tuottaa <link=\"DIRTYWATER\">Saastunutta Vettä</link> ja voi "
+"levittää <style=\"KKeyword\">Tauteja</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.WARMUP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.WARMUP.NAME"
@@ -27386,9 +27369,6 @@ msgid "Going to warm up"
 msgstr "Menossa lämmittelemään"
 
 #. STRINGS.DUPLICANTS.CHORES.WARMUP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.WARMUP.TOOLTIP"
-#| msgid "This Duplicant got too cold and is going to warm up"
 msgctxt "STRINGS.DUPLICANTS.CHORES.WARMUP.TOOLTIP"
 msgid "This Duplicant got too cold and is going somewhere to warm up"
 msgstr "Tälle Jäljennäiselle tuli liian kylmä ja se menee lämmittelemään"
@@ -27404,14 +27384,13 @@ msgid "Washing hands"
 msgstr "Pesee Käsiään"
 
 #. STRINGS.DUPLICANTS.CHORES.WASHHANDS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.WASHHANDS.TOOLTIP"
-#| msgid "Good hygiene removes germs and prevents the spread of disease"
 msgctxt "STRINGS.DUPLICANTS.CHORES.WASHHANDS.TOOLTIP"
 msgid ""
 "Good hygiene removes <style=\"KKeyword\">Germs</style> and prevents the "
 "spread of <style=\"KKeyword\">Disease</style>"
-msgstr "Hyvä hygienia poistaa bakteereja ja estää sairauksia leviämästä"
+msgstr ""
+"Hyvä hygienia poistaa <style=\"KKeyword\">Bakteereja</style> ja ehkäisee "
+"<style=\"KKeyword\">Tautien</style> leviämistä"
 
 #. STRINGS.DUPLICANTS.CONGENITALTRAITS.BANHI.DESC
 msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.BANHI.DESC"
@@ -27733,16 +27712,13 @@ msgid "Inhibited by:"
 msgstr "Inhibiittorit:"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_ON_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_ON_TOOLTIP"
-#| msgid "Contact with these substances will slowly reduce germ numbers"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_ON_TOOLTIP"
 msgid ""
 "Contact with these substances will slowly reduce <style=\"KKeyword\">Germ</"
 "style> numbers"
 msgstr ""
-"Vuorovaikutus näiden aineiden kanssa laskee hitaasti bakteerien lukumäärää"
+"Vuorovaikutus näiden aineiden kanssa laskee hitaasti <style=\"KKeyword"
+"\">Bakteerien</style> lukumäärää"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_TOOLTIP"
@@ -27866,6 +27842,8 @@ msgid ""
 "Duplicants may contract this <style=\"KKeyword\">Disease</style> by touching "
 "objects contaminated with these <style=\"KKeyword\">Germs</style>"
 msgstr ""
+"Jäljennäiset voivat saada tämän <style=\"KKeyword\">Taudin</style> "
+"koskemalla esineitä, joissa on näit <style=\"KKeyword\">Bakteereja</style>"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SUNBORNE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SUNBORNE"
@@ -27976,12 +27954,9 @@ msgstr ""
 "Ainetta {1} tulee hänestä ulos ja hän menettää kaloreita oksentaessaan"
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODSICKNESS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.NAME"
-#| msgid "<link=\"FOODPOISONING\">Food Poisoning</link>"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODSICKNESS.NAME"
 msgid "<link=\"FOODSICKNESS\">Food Poisoning</link>"
-msgstr "<link=\"FOODPOISONING\">Ruokamyrkytys</link>"
+msgstr "<link=\"FOODSICKNESS\">Ruokamyrkytys</link>"
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODSICKNESS.VOMIT_SYMPTOM
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODSICKNESS.VOMIT_SYMPTOM"
@@ -28036,20 +28011,14 @@ msgid "Nonlethal. Duplicants experience high fever and discomfort."
 msgstr "Ei-tappava. Jäljennäiset kokevat korkeaa kuumetta ja epämukavuutta."
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.LEGEND_HOVERTEXT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.LEGEND_HOVERTEXT"
-#| msgid "Area Causes Heat Stroke\n"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.LEGEND_HOVERTEXT"
 msgid "Area Causes Heat Stroke\n"
 msgstr "Alue Aiheuttaa Lämpöhalvauksia\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.NAME"
-#| msgid "<link=\"HEATRASH\">Heat Stroke</link>"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.NAME"
 msgid "<link=\"HEATSICKNESS\">Heat Stroke</link>"
-msgstr "<link=\"HEATRASH\">Lämpöhalvaus</link>"
+msgstr "<link=\"HEATSICKNESS\">Lämpöhalvaus</link>"
 
 #. STRINGS.DUPLICANTS.DISEASES.IMMUNE_FROM_HAVING_EXCLUDED_EFFECT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.IMMUNE_FROM_HAVING_EXCLUDED_EFFECT"
@@ -28133,18 +28102,13 @@ msgid "<link=\"IMMUNE SYSTEM\">Immune Booster</link>"
 msgstr "<link=\"IMMUNE SYSTEM\">Vastuskyvyn Tehostaja</link>"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.BOOSTER_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.BOOSTER_TOOLTIP"
-#| msgid ""
-#| "Boosters can be taken by both healthy and sick Duplicants to prevent "
-#| "future disease"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.BOOSTER_TOOLTIP"
 msgid ""
 "Boosters can be taken by both healthy and sick Duplicants to prevent "
 "potential disease"
 msgstr ""
 "Tehostajia voivat ottaa sekä terveet että sairaat Jäljennäiset ehkäistäkseen "
-"tulevia sairauksia"
+"mahdollisia sairauksia"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.CURES
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.CURES"
@@ -28343,12 +28307,9 @@ msgid "<link=\"SLIMESICKNESS\">Slimelung</link>"
 msgstr "<link=\"SLIMELUNG\">Limakeuhko</link>"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.BEDREST
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.BEDREST"
-#| msgid "Med-bed assignment will allow faster recovery\n"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.BEDREST"
 msgid "Sick Bay assignment will allow faster recovery\n"
-msgstr "Sairaalasänkyyn määräys mahdollistaa pikaisemman toipumisen\n"
+msgstr "Sairastupaan määräys mahdollistaa pikaisemman toipumisen\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.CURES
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.CURES"
@@ -28573,6 +28534,8 @@ msgid ""
 "This Duplicant tossed and turned all night because a <style=\"KKeyword"
 "\">Light</style> was left on where they were trying to sleep"
 msgstr ""
+"Tämä Jäljennäinen vääntelehti ja kääntelehti, koska <style=\"KKeyword"
+"\">Valo</style> oli jätetty päälle heidän nukkumapaikkaansa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BARRACKSSTAMINA.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BARRACKSSTAMINA.NAME"
@@ -28600,14 +28563,13 @@ msgid "Bed Rest"
 msgstr "Vuodelepo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BEDHEALTH.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEDHEALTH.TOOLTIP"
-#| msgid "This Duplicant will incrementally heal over while on Bed Rest"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEDHEALTH.TOOLTIP"
 msgid ""
 "This Duplicant will incrementally heal over while on <style=\"KKeyword\">Bed "
 "Rest</style>"
-msgstr "Tämä Jäljennäinen paranee vähitellen ollessaan Vuodelevossa"
+msgstr ""
+"Tämä Jäljennäinen paranee vähitellen ollessaan <style=\"KKeyword"
+"\">Vuodelevossa</style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BEDROOMSTAMINA.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEDROOMSTAMINA.NAME"
@@ -28649,14 +28611,13 @@ msgstr ""
 "alkoivat ylensyödä:"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BINGE_EATING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BINGE_EATING.TOOLTIP"
-#| msgid "This Duplicant is stuffing their face as a result of stress"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BINGE_EATING.TOOLTIP"
 msgid ""
 "This Duplicant is stuffing their face as a result of <style=\"KKeyword"
 "\">Stress</style>"
-msgstr "Tämä Jäljennäinen lappaa ruokaa kitaansa ahdistuksen takia"
+msgstr ""
+"Tämä Jäljennäinen lappaa ruokaa kitaansa <style=\"KKeyword\">Ahdistuksen</"
+"style> takia"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK1.NAME"
@@ -28664,14 +28625,13 @@ msgid "One Shift Break"
 msgstr "Yhden Vuoron Tauko"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK1.TOOLTIP"
-#| msgid "This Duplicant has had one Downtime shift in the last cycle"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK1.TOOLTIP"
 msgid ""
 "This Duplicant has had one <style=\"KKeyword\">Downtime</style> shift in the "
 "last cycle"
-msgstr "Tällä Jäljennäisellä on ollut yksi Vapaavuoro edellisellä kierrolla"
+msgstr ""
+"Tällä Jäljennäisellä on ollut yksi <style=\"KKeyword\">Vapaa</style>vuoro "
+"edellisellä kierrolla"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK2.NAME"
@@ -28679,14 +28639,13 @@ msgid "Two Shift Break"
 msgstr "Kahden Vuoron Tauko"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK2.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK2.TOOLTIP"
-#| msgid "This Duplicant has had two Downtime shifts in the last cycle"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK2.TOOLTIP"
 msgid ""
 "This Duplicant has had two <style=\"KKeyword\">Downtime</style> shifts in "
 "the last cycle"
-msgstr "Täll Jäljennäisellä on ollut kaksi Vapaavuoroa edellisellä kierrolla"
+msgstr ""
+"Täll Jäljennäisellä on ollut kaksi <style=\"KKeyword\">Vapaa</style>vuoroa "
+"edellisellä kierrolla"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK3.NAME"
@@ -28694,14 +28653,13 @@ msgid "Three Shift Break"
 msgstr "Kolmen Vuoron Tauko"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK3.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK3.TOOLTIP"
-#| msgid "This Duplicant has had three Downtime shifts in the last cycle"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK3.TOOLTIP"
 msgid ""
 "This Duplicant has had three <style=\"KKeyword\">Downtime</style> shifts in "
 "the last cycle"
-msgstr "Tällä jäljennäisellä on ollut kolme Vapaavuoroa edellisellä kierrolla"
+msgstr ""
+"Tällä jäljennäisellä on ollut kolme <style=\"KKeyword\">Vapaa</style>vuoroa "
+"edellisellä kierrolla"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK4.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK4.NAME"
@@ -28709,14 +28667,13 @@ msgid "Four Shift Break"
 msgstr "Neljän Vuoron Tauko"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK4.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK4.TOOLTIP"
-#| msgid "This Duplicant has had four Downtime shifts in the last cycle"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK4.TOOLTIP"
 msgid ""
 "This Duplicant has had four <style=\"KKeyword\">Downtime</style> shifts in "
 "the last cycle"
-msgstr "Tällä jäljennäisellä on ollut neljä Vapaavuoroa edellisellä kierrolla"
+msgstr ""
+"Tällä jäljennäisellä on ollut neljä <style=\"KKeyword\">Vapaa</style>vuoroa "
+"edellisellä kierrolla"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK5.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK5.NAME"
@@ -28724,14 +28681,13 @@ msgid "Five Shift Break"
 msgstr "Viiden Vuoron Tauko"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK5.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK5.TOOLTIP"
-#| msgid "This Duplicant has had five Downtime shifts in the last cycle"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK5.TOOLTIP"
 msgid ""
 "This Duplicant has had five <style=\"KKeyword\">Downtime</style> shifts in "
 "the last cycle"
-msgstr "Tällä jäljennäisellä on ollut viisi Vapaavuoroa edellisellä kierrolla"
+msgstr ""
+"Tällä jäljennäisellä on ollut viisi <style=\"KKeyword\">Vapaa</style>vuoroa "
+"edellisellä kierrolla"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREATHING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREATHING.NAME"
@@ -28850,12 +28806,6 @@ msgid "Recently Danced"
 msgstr "Tanssi Hiljattain"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP"
-#| msgid ""
-#| "This Duplicant had a chance to cut loose!\n"
-#| "\n"
-#| "Leisure activities increase Duplicants' Morale"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP"
 msgid ""
 "This Duplicant had a chance to cut loose!\n"
@@ -28864,7 +28814,8 @@ msgid ""
 msgstr ""
 "Tällä Jäljennäisellä oli mahdollisuus irrotella!\n"
 "\n"
-"Vapaa-ajan toiminnat nostavat Jäljennäisten Moraalia"
+"Vapaa-ajan toiminnat nostavat Jäljennäisten <style=\"KKeyword\">Moraalia</"
+"style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME"
@@ -28887,14 +28838,13 @@ msgid "Last Cycle's Decor: Poor"
 msgstr "Edelliskierron Koristeellisuus: Kehno"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP"
-#| msgid "This Duplicant thought the overall decor yesterday was quite poor"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP"
 msgid ""
 "This Duplicant thought the overall <style=\"KKeyword\">Decor</style> "
 "yesterday was quite poor"
-msgstr "Tämän Jäljennäisen mielestä eilisen koristeellisuus oli melko kehno"
+msgstr ""
+"Tämän Jäljennäisen mielestä eilisen <style=\"KKeyword\">Koristeellisuus</"
+"style> oli melko kehno"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.NAME"
@@ -28902,17 +28852,13 @@ msgid "Last Cycle's Decor: Mediocre"
 msgstr "Edelliskierron Koristeellisuus: Kohtalainen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP"
-#| msgid ""
-#| "This Duplicant had no strong opinions about the colony's decor yesterday"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP"
 msgid ""
 "This Duplicant had no strong opinions about the colony's <style=\"KKeyword"
 "\">Decor</style> yesterday"
 msgstr ""
 "Tällä Jäljennäisellä ei ollut erityisiä mielipiteitä eilisestä siirtokunnan "
-"koristeellisuudesta"
+"<style=\"KKeyword\">Koristeellisuudesta</style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.NAME"
@@ -28920,16 +28866,13 @@ msgid "Last Cycle's Decor: Average"
 msgstr "Edelliskierron Koristeellisuus: Keskinkertainen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP"
-#| msgid ""
-#| "This Duplicant thought the overall decor yesterday was pretty alright"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP"
 msgid ""
 "This Duplicant thought the overall <style=\"KKeyword\">Decor</style> "
 "yesterday was pretty alright"
 msgstr ""
-"Tämän Jäljennäisen mielestä siirtokunta oli eilen ihan hyvin koristeltu"
+"Tämän Jäljennäisen mielestä siirtokunnan <style=\"KKeyword"
+"\">Koristeellisuus</style> oli eilen ihan okei"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.NAME"
@@ -28937,15 +28880,13 @@ msgid "Last Cycle's Decor: Nice"
 msgstr "Edelliskierron Koristeellisuus: Kiva"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP"
-#| msgid "This Duplicant thought the overall decor yesterday was quite nice!"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP"
 msgid ""
 "This Duplicant thought the overall <style=\"KKeyword\">Decor</style> "
 "yesterday was quite nice!"
 msgstr ""
-"Tämän Jäljennäisen mielestä yleinen koristustaso eilen oli sangen hyvä!"
+"Tämän Jäljennäisen mielestä yleinen <style=\"KKeyword\">Koristeellisuus</"
+"style> eilen oli sangen hyvä!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR4.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.NAME"
@@ -28953,17 +28894,13 @@ msgid "Last Cycle's Decor: Charming"
 msgstr "Edelliskierron Koristeellisuus: Hurmaava"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP"
-#| msgid ""
-#| "This Duplicant thought the overall decor yesterday was downright charming!"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP"
 msgid ""
 "This Duplicant thought the overall <style=\"KKeyword\">Decor</style> "
 "yesterday was downright charming!"
 msgstr ""
-"Tämän Jäljennäisen mielestä siirtokunnan koristeellisuus oli eilen "
-"suorastaan hurmaava!"
+"Tämän Jäljennäisen mielestä siirtokunnan <style=\"KKeyword"
+"\">Koristeellisuus</style> oli eilen suorastaan hurmaava!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR5.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.NAME"
@@ -28971,12 +28908,6 @@ msgid "Last Cycle's Decor: Gorgeous"
 msgstr "Edelliskierron Koristeellisuus: Upea"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP"
-#| msgid ""
-#| "This Duplicant thought the overall decor yesterday was fantastic\n"
-#| "\n"
-#| "They love what I've done with the place!"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP"
 msgid ""
 "This Duplicant thought the overall <style=\"KKeyword\">Decor</style> "
@@ -28984,7 +28915,8 @@ msgid ""
 "\n"
 "They love what I've done with the place!"
 msgstr ""
-"Tämän Jäljennäisen mielestä yleinen koristeellisuus oli eilen fantastinen!\n"
+"Tämän Jäljennäisen mielestä yleinen <style=\"KKeyword\">Koristeellisuus</"
+"style> oli eilen fantastinen!\n"
 "\n"
 "He pitivät siitä, mitä olin tehnyt täällä!"
 
@@ -28994,18 +28926,13 @@ msgid "Last Cycle's Decor: Ugly"
 msgstr "Edelliskierron Koristeellisuus: Ruma"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP"
-#| msgid ""
-#| "This Duplicant thought the overall decor yesterday was downright "
-#| "depressing"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP"
 msgid ""
 "This Duplicant thought the overall <style=\"KKeyword\">Decor</style> "
 "yesterday was downright depressing"
 msgstr ""
-"Tämän Jäljennäisen mielestä eilisen koristeellisuus oli suoraan sanottuna "
-"masentava"
+"Tämän Jäljennäisen mielestä eilisen <style=\"KKeyword\">Koristeellisuus</"
+"style> oli suoraan sanottuna masentava"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DIARRHEA.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DIARRHEA.CAUSE"
@@ -29054,19 +28981,14 @@ msgid "Standard Meal"
 msgstr "Perusateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.TOOLTIP"
-#| msgid ""
-#| "The food this Duplicant last ate was Average\n"
-#| "\n"
-#| "They thought it was sort of okay"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.TOOLTIP"
 msgid ""
 "The food this Duplicant last ate was <style=\"KKeyword\">Average</style>\n"
 "\n"
 "They thought it was sort of okay"
 msgstr ""
-"Tämän Jäljennäisen viimeksi syömä ateria oli Keskiverto\n"
+"Tämän Jäljennäisen viimeksi syömä ateria oli <style=\"KKeyword\">Keskiverto</"
+"style>\n"
 "\n"
 "Hänen mielestään se oli jokseenkin OK"
 
@@ -29076,19 +28998,14 @@ msgid "Good Meal"
 msgstr "Hyvä Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.TOOLTIP"
-#| msgid ""
-#| "The food this Duplicant last ate was Good\n"
-#| "\n"
-#| "They thought it was pretty good!"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.TOOLTIP"
 msgid ""
 "The food this Duplicant last ate was <style=\"KKeyword\">Good</style>\n"
 "\n"
 "They thought it was pretty good!"
 msgstr ""
-"Tämän Jäljennäisen viimeksi syömä ruoka oli Hyvää\n"
+"Tämän Jäljennäisen viimeksi syömä ruoka oli<style=\"KKeyword\">Hyvää</"
+"style>\n"
 "\n"
 "Hänen mielestään se oli oikein hyvää!"
 
@@ -29098,19 +29015,14 @@ msgid "Great Meal"
 msgstr "Mahtava Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.TOOLTIP"
-#| msgid ""
-#| "The food this Duplicant last ate was Great\n"
-#| "\n"
-#| "They thought it was pretty good!"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.TOOLTIP"
 msgid ""
 "The food this Duplicant last ate was <style=\"KKeyword\">Great</style>\n"
 "\n"
 "They thought it was pretty good!"
 msgstr ""
-"Tämän Jäljennäisen viimeksi syömä ruoka oli Mahtava\n"
+"Tämän Jäljennäisen viimeksi syömä ruoka oli <style=\"KKeyword\">Mahtava</"
+"style>\n"
 "\n"
 "Hänen mielestään se oli oikein hyvää!"
 
@@ -29120,19 +29032,14 @@ msgid "Superb Meal"
 msgstr "Yliveto Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP"
-#| msgid ""
-#| "The food this Duplicant last ate was Superb\n"
-#| "\n"
-#| "They thought it was really good!"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP"
 msgid ""
 "The food this Duplicant last ate was <style=\"KKeyword\">Superb</style>\n"
 "\n"
 "They thought it was really good!"
 msgstr ""
-"Tämän Jäljennäisen viimeksi syömä ruoka oli Yliveto\n"
+"Tämän Jäljennäisen viimeksi syömä ruoka oli <style=\"KKeyword\">Yliveto</"
+"style>\n"
 "\n"
 "Hänen mielestään se oli erittäin hyvää!"
 
@@ -29142,19 +29049,14 @@ msgid "Ambrosial Meal"
 msgstr "Taivaallinen Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.TOOLTIP"
-#| msgid ""
-#| "The food this Duplicant last ate was Ambrosial\n"
-#| "\n"
-#| "They thought it was super tasty!"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.TOOLTIP"
 msgid ""
 "The food this Duplicant last ate was <style=\"KKeyword\">Ambrosial</style>\n"
 "\n"
 "They thought it was super tasty!"
 msgstr ""
-"Tämän Jäljennäisen viimeksi syömä ruoka oli Taivaallista\n"
+"Tämän Jäljennäisen viimeksi syömä ruoka oli <style=\"KKeyword"
+"\">Taivaallista</style>\n"
 "\n"
 "Hänen mielestään se oli supermaukasta!"
 
@@ -29164,19 +29066,14 @@ msgid "Poor Meal"
 msgstr "Surkea Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.TOOLTIP"
-#| msgid ""
-#| "The food this Duplicant last ate was Poor\n"
-#| "\n"
-#| "They hope their next meal will be a little better"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.TOOLTIP"
 msgid ""
 "The food this Duplicant last ate was <style=\"KKeyword\">Poor</style>\n"
 "\n"
 "They hope their next meal will be a little better"
 msgstr ""
-"Tämän Jäljennäisen viimeksi syömä ruoka oli Surkeaa\n"
+"Tämän Jäljennäisen viimeksi syömä ruoka oli<style=\"KKeyword\">Surkeaa</"
+"style>\n"
 "\n"
 "Hän toivoo seuraavan aterian olevan vähän parempi"
 
@@ -29186,19 +29083,14 @@ msgid "Terrible Meal"
 msgstr "Kamala Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.TOOLTIP"
-#| msgid ""
-#| "The food this Duplicant last ate was Terrible\n"
-#| "\n"
-#| "They hope their next meal will be better"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.TOOLTIP"
 msgid ""
 "The food this Duplicant last ate was <style=\"KKeyword\">Terrible</style>\n"
 "\n"
 "They hope their next meal will be better"
 msgstr ""
-"Tämän Jäljennäisen viimeksi syömä ruoka oli Kamalaa\n"
+"Tämän Jäljennäisen viimeksi syömä ruoka oli <style=\"KKeyword\">Kamalaa</"
+"style>\n"
 "\n"
 "Hän toivoo seuraavan aterian olevan parempi"
 
@@ -29208,19 +29100,14 @@ msgid "Grisly Meal"
 msgstr "Kaamea Ateria"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.TOOLTIP"
-#| msgid ""
-#| "The food this Duplicant last ate was Grisly\n"
-#| "\n"
-#| "They hope their next meal will be better"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.TOOLTIP"
 msgid ""
 "The food this Duplicant last ate was <style=\"KKeyword\">Grisly</style>\n"
 "\n"
 "They hope their next meal will be better"
 msgstr ""
-"Tämän Jäljennäisen viimeksi syömä ruoka oli Kaamea\n"
+"Tämän Jäljennäisen viimeksi syömä ruoka oli <style=\"KKeyword\">Kaameaa</"
+"style>\n"
 "\n"
 "Hän toivoo seuraavan aterian olevan parempi"
 
@@ -29230,18 +29117,13 @@ msgid "Entitlement"
 msgstr "Oikeutettu"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ENTITLEMENT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ENTITLEMENT.TOOLTIP"
-#| msgid ""
-#| "Duplicants will demand better decor and accommodations with each "
-#| "Expertise level they gain"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ENTITLEMENT.TOOLTIP"
 msgid ""
 "Duplicants will demand better <style=\"KKeyword\">Decor</style> and "
 "accommodations with each Expertise level they gain"
 msgstr ""
-"Jäljennäiset vaativat parempaa koristeellisuutta ja asuintiloja jokaisen "
-"ansaitun Asiantuntemustason myötä"
+"Jäljennäiset vaativat parempaa <style=\"KKeyword\">Koristeellisuutta</style> "
+"ja asuintiloja jokaisen ansaitun Asiantuntemustason myötä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.NAME"
@@ -29249,12 +29131,6 @@ msgid "Drank Espresso"
 msgstr "Joi Espresson"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP"
-#| msgid ""
-#| "This Duplicant had delicious drink!\n"
-#| "\n"
-#| "Leisure activities increase Duplicants' Morale"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP"
 msgid ""
 "This Duplicant had delicious drink!\n"
@@ -29263,7 +29139,8 @@ msgid ""
 msgstr ""
 "Tämä Jäljennäinen joi maukkaan juoman!\n"
 "\n"
-"Vapaa-ajan toiminnat nostavat Jäljennäisten Moraalia"
+"Vapaa-ajan toiminnat nostavat Jäljennäisten <style=\"KKeyword\">Moraalia</"
+"style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOFOODGERMS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOFOODGERMS.NAME"
@@ -29366,14 +29243,13 @@ msgid "Sleeping On Floor"
 msgstr "Nukkuu Lattialla"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.TOOLTIP"
-#| msgid "This Duplicant is uncomfortably recovering stamina"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.TOOLTIP"
 msgid ""
 "This Duplicant is uncomfortably recovering <style=\"KKeyword\">Stamina</"
 "style>"
-msgstr "Tämä Jäljennäinen palauttaa jaksamistaan epämukavasti"
+msgstr ""
+"Tämä Jäljennäinen palauttaa <style=\"KKeyword\">Jaksamistaan</style> "
+"epämukavasti"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.FOODSICKNESSRECOVERY.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FOODSICKNESSRECOVERY.NAME"
@@ -30480,7 +30356,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
 msgid "Downtime"
-msgstr "Vapaa-aika"
+msgstr "Vapaavuoro"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP"
@@ -40235,12 +40111,6 @@ msgid "Vacillator Recharge"
 msgstr "Vaihtelijan Lataus"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.DESC"
-#| msgid ""
-#| "Specialized Parts crafted by a professional engineer.\n"
-#| "\n"
-#| "Jerry rigs machine buildings to increase their efficiency."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.DESC"
 msgid ""
 "Specialized Parts crafted by a professional engineer.\n"
@@ -40250,7 +40120,8 @@ msgid ""
 msgstr ""
 "Ammattilaisinsinöörin rakentamat Erikoisosat.\n"
 "\n"
-"Purkkavirittää rakennuksia kasvattamaan niiden tehoa.."
+"<style=\"KKeyword\">Purkkavirittää</style> rakennuksia kasvattamaan niiden "
+"tehoa.."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.NAME"
@@ -40400,12 +40271,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPTABLE.NAME"
-#| msgid "Table"
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.NAME"
 msgid "Table Salt"
-msgstr "Pöytä"
+msgstr "Pöytäsuola"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.DESC
 #, fuzzy
@@ -40429,12 +40297,12 @@ msgstr "Ansaosat"
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.WOOD.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.WOOD.DESC"
 msgid "Wood harvested from an <link=\"FORESTTREE\">Arbor Tree</link>."
-msgstr ""
+msgstr "<link=\"FORESTTREE\">Aarnipuusta</link> kerättyä puuta"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.WOOD.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.WOOD.NAME"
 msgid "Lumber"
-msgstr ""
+msgstr "Puutavara"
 
 #. STRINGS.ITEMS.INGREDIENTS.SWAMPLILYFLOWER.DESC
 msgctxt "STRINGS.ITEMS.INGREDIENTS.SWAMPLILYFLOWER.DESC"
@@ -40453,9 +40321,6 @@ msgid "Balm Lily Flower"
 msgstr "Balsamililjan Kukka"
 
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.DESC"
-#| msgid "A doctor administered cure for severe ailments."
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.DESC"
 msgid "A doctor-administered cure for severe ailments."
 msgstr "Lääkärin antama lääke vakaviin vaivoihin."
@@ -40463,7 +40328,7 @@ msgstr "Lääkärin antama lääke vakaviin vaivoihin."
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.NAME
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.NAME"
 msgid "Serum Vial"
-msgstr ""
+msgstr "Seerumiampulli"
 
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.RECIPEDESC"
@@ -40475,11 +40340,14 @@ msgid ""
 "Must be administered by a Duplicant with the <link=\"MEDIC\">Advanced "
 "Medical Care</link> Skill."
 msgstr ""
+"Äärimmäisen tehokas lääke, joka on luotu hoitamaan vakavia <link=\"DISEASE"
+"\">Sairauksia</link>. Seerumiampulli on erittäin tehokas <link="
+"\"SLIMESICKNESS\">Limakeuhkoa</link> vastaan.\n"
+"\n"
+"Must be administered by a Duplicant with the <link=\"MEDIC\">Advanced "
+"Medical Care</link> Skill."
 
 #. STRINGS.ITEMS.PILLS.ANTIHISTAMINE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.PILLS.ANTIHISTAMINE.DESC"
-#| msgid "Surpresses and prevents allergic reactions."
 msgctxt "STRINGS.ITEMS.PILLS.ANTIHISTAMINE.DESC"
 msgid "Suppresses and prevents allergic reactions."
 msgstr "Hillitsee ja ehkäisee allergisia reaktioita."
@@ -40496,6 +40364,9 @@ msgid ""
 "Allergy Medication will also prevent further reactions from occurring for a "
 "short time after ingestion."
 msgstr ""
+"Voimakas antihistamiini, jonka Jäljennäiset voivat ottaa pysäyttääkseen "
+"allergiset reaktiot. Allergialääkitys ehkäisee myös enempien reaktioiden "
+"tapahtumista vähän aikaa lääkkeen ottamisesta."
 
 #. STRINGS.ITEMS.PILLS.BASICBOOSTER.DESC
 msgctxt "STRINGS.ITEMS.PILLS.BASICBOOSTER.DESC"
@@ -40515,11 +40386,17 @@ msgid ""
 "\n"
 "Must be taken daily."
 msgstr ""
+"Lisäaine, joka hieman vähentää <style=\"KKeyword\">Bakteeri</style>peräisten "
+"<link=\"DISEASE\">Tautien</link> tarttumista.\n"
+"\n"
+"Otettava päivittäin."
 
 #. STRINGS.ITEMS.PILLS.BASICCURE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.BASICCURE.DESC"
 msgid "A simple, easy-to-take remedy for minor germ-based diseases."
 msgstr ""
+"Yksinkertainen, helposti otettava lääke vähäisiin bakteeriperäisiin "
+"tauteihin."
 
 #. STRINGS.ITEMS.PILLS.BASICCURE.NAME
 msgctxt "STRINGS.ITEMS.PILLS.BASICCURE.NAME"
@@ -40527,11 +40404,6 @@ msgid "Curative Tablet"
 msgstr "Lääkekapseli"
 
 #. STRINGS.ITEMS.PILLS.BASICCURE.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.PILLS.BASICCURE.RECIPEDESC"
-#| msgid ""
-#| "Duplicants can take this to cure themselves of minor germ-based <link="
-#| "\"DISEASE\">Diseases</link>."
 msgctxt "STRINGS.ITEMS.PILLS.BASICCURE.RECIPEDESC"
 msgid ""
 "Duplicants can take this to cure themselves of minor <style=\"KKeyword"
@@ -40540,13 +40412,16 @@ msgid ""
 "Curative Tablets are very effective against <link=\"FOODSICKNESS\">Food "
 "Poisoning</link>."
 msgstr ""
-"Jäljennäiset voivat ottaa tämän parantaakseen itsensä vähäisistä "
-"bakteeriperäisistä <link=\"DISEASE\">Taudeista</link>."
+"Jäljennäiset voivat ottaa tämän parantaakseen itsenä vähäisistä <style="
+"\"KKeyword\">Bakteeri</style>peräisistä <link=\"DISEASE\">Taudeista</link>.\n"
+"\n"
+"Lääkekapselit ovat erittäin tehokkaita <link=\"FOODSICKNESS"
+"\">Ruokamyrkytystä</link> vastaan."
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.DESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.DESC"
 msgid "Significantly reduces the chance of becoming sick."
-msgstr ""
+msgstr "Alentaa merkittävästi sairastumisen todennäköisyyttä."
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.NAME
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.NAME"
@@ -40561,22 +40436,20 @@ msgid ""
 "\n"
 "Must be taken daily."
 msgstr ""
+"Lisäaine, joka vähentää merkittävästi <style=\"KKeyword\">Bakteeri</"
+"style>peräisten <link=\"DISEASE\">Tautien</link> tarttumista.\n"
+"\n"
+"Otettava päivittäin."
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC"
-#| msgid "A doctor administered cure for moderate ailments."
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.DESC"
 msgid "A doctor-administered cure for moderate ailments."
 msgstr "Lääkärin antama lääke keskivaikeisiin vaivoihin."
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.NAME"
-#| msgid "Medicine Pack"
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.NAME"
 msgid "Medical Pack"
-msgstr "Lääkepakkaus"
+msgstr "Lääkintäpakkaus"
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC"
@@ -40588,6 +40461,12 @@ msgid ""
 "Must be administered by a Duplicant with the <link=\"MEDIC\">Bedside Manner</"
 "link> Skill."
 msgstr ""
+"Lääkärin antama lääke keskivaikeisiin <link=\"DISEASE\">Sairauksiin</link>. "
+"Lääkintäpakkaukset ovat erittäin tehokkaita <link=\"SLIMESICKNESS"
+"\">Limakeuhkoa</link> vastaan.\n"
+"\n"
+"Jäljennäisellä tulee olla <link=\"MEDIC\">Potilaskäyttäytymis</link>taito, "
+"jotta hän voi annostella tämän."
 
 #. STRINGS.ITEMS.PILLS.PLACEBO.DESC
 msgctxt "STRINGS.ITEMS.PILLS.PLACEBO.DESC"
@@ -40830,12 +40709,12 @@ msgstr "HUOMAUTUS HENKILÖSTÖLLE"
 #. STRINGS.MISC.MONUMENT_COMPLETE.DESC
 msgctxt "STRINGS.MISC.MONUMENT_COMPLETE.DESC"
 msgid "Monument has head, midsection and bottom."
-msgstr ""
+msgstr "Monumentilla on pää, keskiosa ja alaosa"
 
 #. STRINGS.MISC.MONUMENT_COMPLETE.NAME
 msgctxt "STRINGS.MISC.MONUMENT_COMPLETE.NAME"
 msgid "Completed Monument"
-msgstr ""
+msgstr "Valmis Monumentti"
 
 #. STRINGS.MISC.NOTIFICATIONS.ALLOCATED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ALLOCATED.NAME"
@@ -40958,17 +40837,13 @@ msgid "Circuit Overloaded"
 msgstr "Piiri Ylikuormittui"
 
 #. STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.TOOLTIP"
-#| msgid ""
-#| "These wires melted due to excessive current demands on their circuits"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.TOOLTIP"
 msgid ""
 "These <link=\"WIRE\">Wire</link>s melted due to excessive current demands on "
 "their circuits"
 msgstr ""
-"Nämä johdot sulivat niiden piireissä olleiden liiallisen virtarasitusten "
-"vuoksi"
+"Nämä <link=\"WIRE\">Johdot</link> sulivat niiden piireissä olleiden "
+"liiallisen virtarasitusten vuoksi"
 
 #. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY"
@@ -41064,18 +40939,13 @@ msgid "Duplicants have frozen"
 msgstr "Jäljennäisiä jäätyi"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.TOOLTIP"
-#| msgid ""
-#| "These Duplicants died from extremely low <link=\"HEAT\">Temperatures</"
-#| "link>:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.TOOLTIP"
 msgid ""
 "These Duplicants died from extremely low <style=\"KKeyword\">Temperatures</"
 "style>:"
 msgstr ""
-"Nämä Jäljennäiset kuolivat erittäin alhaisen <link=\"HEAT\">Lämpötilan</"
-"link> vuoksi:"
+"Nämä Jäljennäiset kuolivat erittäin alhaisen <style=\"KKeyword\">Lämpötilan</"
+"style> vuoksi:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.NAME"
@@ -41083,13 +40953,11 @@ msgid "Duplicants have overheated"
 msgstr "Jäljennäisiä ylikuumeni"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.TOOLTIP"
-#| msgid "These Duplicants died from extreme <link=\"HEAT\">Heat</link>:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.TOOLTIP"
 msgid "These Duplicants died from extreme <style=\"KKeyword\">Heat</style>:"
 msgstr ""
-"Nämä Jäljennäiset kuolivat äärimmäiseen <link=\"HEAT\">Kuumuuteen</link>:"
+"Nämä Jäljennäiset kuolivat äärimmäiseen <style=\"KKeyword\">Kuumuuteen</"
+"style>:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_OVERPRESSURE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERPRESSURE.NAME"
@@ -41127,12 +40995,10 @@ msgid "Duplicants have starved"
 msgstr "Jäljennäisiä nääntyi"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_STARVATION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_STARVATION.TOOLTIP"
-#| msgid "These Duplicants died from a lack of <link=\"FOOD\">Food</link>:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_STARVATION.TOOLTIP"
 msgid "These Duplicants died from a lack of <style=\"KKeyword\">Food</style>:"
-msgstr "Nämä Jäljennäiset kuolivat <link=\"FOOD\">Ruuan</link>puutteeseen:"
+msgstr ""
+"Nämä Jäljennäiset kuolivat <style=\"KKeyword\">Ruuan</style> puutteeseen:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.NAME"
@@ -41140,12 +41006,9 @@ msgid "Duplicants have suffocated"
 msgstr "Jäljennäisiä tukehtui"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.TOOLTIP"
-#| msgid "These Duplicants have asphyxiated in <link=\"HEAT\">Cold</link> air:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOCOLD.TOOLTIP"
 msgid "These Duplicants have asphyxiated in <link=\"HEAT\">cold</link> air:"
-msgstr "Nämä Jäljennäiset tukehtuivat <link=\"HEAT\">Kylmään</link> ilmaan:"
+msgstr "Nämä Jäljennäiset tukehtuivat <link=\"HEAT\">kylmään</link> ilmaan:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.NAME"
@@ -41153,13 +41016,11 @@ msgid "Duplicants have suffocated"
 msgstr "Jäljennäisiä tukehtui"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.TOOLTIP"
-#| msgid "These Duplicants have asphyxiated in <link=\"HEAT\">heat</link> air:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.TOOLTIP"
 msgid ""
 "These Duplicants have asphyxiated in <style=\"KKeyword\">Heat</style> air:"
-msgstr "Nämä Jäljennäiset tukehtuivat <link=\"HEAT\">Kuumaan</link> ilmaan:"
+msgstr ""
+"Nämä Jäljennäiset tukehtuivat <style=\"KKeyword\">Kuumaan</style> ilmaan:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.NAME"
@@ -41167,11 +41028,6 @@ msgid "Duplicants have suffocated"
 msgstr "Jäljennäisiä tukehtui"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.TOOLTIP"
-#| msgid ""
-#| "These Duplicants were unable to reach <link=\"OXYGEN\">Oxygen</link> and "
-#| "died:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.TOOLTIP"
 msgid ""
 "These Duplicants were unable to reach <link=\"OXYGEN\">Oxygen</link> and "
@@ -41191,36 +41047,19 @@ msgid "These Duplicants died from a lack of <link=\"OXYGEN\">Oxygen</link>:"
 msgstr "Nämä Jäljennäiset kuolivat <link=\"OXYGEN\">Hapen</link>puutteeseen:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
-"Language-Team: \n"
-"Language: fi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.2.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.NAME"
-#| msgid "Tutorial: Building Temperature"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME"
 msgid "Tutorial: Digging for Resources"
-msgstr "Opas: Rakennusten Lämpötila"
+msgstr "Opas: Resurssien Kaivaminen"
 
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.TOOLTIP"
 msgid "Notes on buried riches"
-msgstr ""
+msgstr "Huomioita koskien hautautuneita rikkauksia"
 
 #. STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.NAME"
@@ -41298,50 +41137,33 @@ msgid ""
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.DTU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME"
-#| msgid "TIP: Duplicant Movement"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DTU.NAME"
 msgid "Tutorial: Duplicant Thermal Units"
-msgstr "Opas: Jäljennäisen Liikkuminen"
+msgstr "Opas: Jäljennäisten Lämpötilayksiköt"
 
 #. STRINGS.MISC.NOTIFICATIONS.DTU.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.NAME"
-#| msgid "Duplicants have overheated"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DTU.TOOLTIP"
 msgid "Notes on measuring heat energy"
-msgstr "Jäljennäisiä ylikuumeni"
+msgstr "Huomioita lämpöenergian mittaamiseen"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY"
-#| msgid ""
-#| "New Duplicants are no longer available for printing.\n"
-#| "Countdown to the next production was rebooted."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY"
 msgid ""
 "The Printing Pod is no longer available for printing.\n"
 "Countdown to the next production was rebooted."
 msgstr ""
-"Uusia Jäljennäisiä ei ole enää tulostettavana.\n"
+"Tulostuskenno ei pysty enää tulostamaan.\n"
 "Laskenta uuteen tuotantoon käynnistettiin uudelleen."
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.TOOLTIP"
-#| msgid "The printable Duplicants have been reabsorbed"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.NAME"
 msgid "Printables have been reabsorbed"
-msgstr "Tulostettavat Jäljennäiset sulautettiin takaisin"
+msgstr "Tulostettavat sulautettiin takaisin"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.TOOLTIP"
-#| msgid "The printable Duplicants have been reabsorbed"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.TOOLTIP"
 msgid "Printables have been reabsorbed"
-msgstr "Tulostettavat Jäljennäiset sulautettiin takaisin"
+msgstr "Tulostettavat sulautettiin takaisin"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTDIED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTDIED.NAME"
@@ -41388,9 +41210,6 @@ msgstr ""
 "automaattisesti vievät pullot sinne, mihin heidän täytyykään mennä."
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME"
-#| msgid "TIP: Fetching Water"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME"
 msgid "Tutorial: Fetching Water"
 msgstr "Opas: Veden hakeminen"
@@ -41398,7 +41217,7 @@ msgstr "Opas: Veden hakeminen"
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.TOOLTIP"
 msgid "Notes on liquid resource gathering"
-msgstr ""
+msgstr "Huomioita nestemäisten resurssien keräämisen"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODLOW.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODLOW.NAME"
@@ -41406,12 +41225,6 @@ msgid "Food shortage"
 msgstr "Ruokapula"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODLOW.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODLOW.TOOLTIP"
-#| msgid ""
-#| "The colony's <link=\"FOOD\">Food</link> reserves are low:\n"
-#| "    • {0} are currently available\n"
-#| "    • My Duplicants are consuming {1} per cycle"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODLOW.TOOLTIP"
 msgid ""
 "The colony's <link=\"FOOD\">Food</link> reserves are low:\n"
@@ -41423,8 +41236,12 @@ msgid ""
 "Tab</b>"
 msgstr ""
 "Siirtokuntannan <link=\"FOOD\">Ruoka</link>varastot ovat alhaiset:\n"
+"------------------\n"
 "    • {0} on saatavilla\n"
-"    • Jäljennäiseni kuluttavat {1} joka kierrolla"
+"    • {1} kulutetaan joka kierrolla\n"
+"\n"
+"<link=\"MICROBEMUSHER\">Mikrobimusertimia</link> voi rakentaa <b>Ruoka-"
+"välilehdestä</b>"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODROT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODROT.NAME"
@@ -41516,12 +41333,9 @@ msgid "Genes Shuffled"
 msgstr "Geenit Vaihdeltu"
 
 #. STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.SUFFIX
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLS.FILTER_HOVERCARD_HEADER"
-#| msgid "   <style=\"hovercard_element\">({0})</style>"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.SUFFIX"
 msgid " has developed <style=\"KKeyword\">{0}</style>"
-msgstr "   <style=\"hovercard_element\">({0})</style>"
+msgstr " on kehittänyt ominaisuuden <style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.TOOLTIP"
@@ -41563,12 +41377,9 @@ msgstr ""
 "seurauksena heille kehittyi seuraavat piirteet:"
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.WASHBASIN.NAME"
-#| msgid "<link=\"WASHBASIN\">Wash Basin</link>"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME"
 msgid "No <link=\"WASHBASIN\">Wash Basin</link> built"
-msgstr "<link=\"WASHBASIN\">Pesuallas</link>"
+msgstr "<link=\"WASHBASIN\">Pesuallasta</link> ei rakennettu"
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP
 #, fuzzy
@@ -41631,6 +41442,14 @@ msgid ""
 "• <link=\"OXYGEN\">Oxygen</link> produced last cycle: {EmittingRate}\n"
 "• Consumed last cycle: {ConsumptionRate}"
 msgstr ""
+"Siirtokuntani käyttää enemmän <link=\"OXYGEN\">Happea</link> kuin se tuottaa "
+"ja sieltä loppuu ilma, jos en nosta tuotantoa.\n"
+"\n"
+"Minun tulisi tarkintaa nykyiset hapentuotantorakennukset varmistaakseni, "
+"että ne toimivat oikein\n"
+"------------------\n"
+"• <link=\"OXYGEN\">Happea</link> tuotettu edelliskierrolla: {EmittingRate}\n"
+"• Kulutettu edelliskierrolla: {ConsumptionRate}"
 
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY"
@@ -41849,6 +41668,11 @@ msgid ""
 "<link=\"MANUALGENERATOR\">Manual Generators</link> and <link=\"WIRE\">Wire</"
 "link> can be built from the <link=\"[3]\">Power Tab</link>"
 msgstr ""
+"<link=\"POWER\">Sähköä</link> tarvitaan sähköllä toimivien rakennusten "
+"käyttämiseen\n"
+"------------------\n"
+"<link=\"MANUALGENERATOR\">Manuaalisia Generaattoreita</link> ja <link=\"WIRE"
+"\">Johtoja</link> voi rakentaa <link=\"[3]\">Sähkö-välilehdestä</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.NAME"
@@ -41856,11 +41680,6 @@ msgid "Colony requires a food source"
 msgstr "Siirtokunta tarvitsee ruuanlähteen"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.TOOLTIP"
-#| msgid ""
-#| "The colony will soon exhaust their supplies without a new <link=\"FOOD"
-#| "\">Food</link> source"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.TOOLTIP"
 msgid ""
 "The colony will exhaust their supplies without a new <link=\"FOOD\">Food</"
@@ -41870,7 +41689,10 @@ msgid ""
 "Tab</b>"
 msgstr ""
 "Siirtokunta kuluttaa pian tarpeensa loppuun ilman uutta <link=\"FOOD"
-"\">Ruuan</link> lähdettä"
+"\">Ruuan</link> lähdettä\n"
+"------------------\n"
+"<link=\"MICROBEMUSHER\">Mikrobimusertimia</link> voidaan rakentaa <b>Ruoka-"
+"välilehdestä</b>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.NAME"
@@ -48174,17 +47996,12 @@ msgid "Recreation Room"
 msgstr "Ajanviettohuone"
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP"
-#| msgid ""
-#| "Leisure time will further improve Morale for Duplicants visiting a "
-#| "Recreation Room."
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP"
 msgid ""
 "Scheduled Downtime will further improve Morale for Duplicants visiting a "
 "Recreation Room."
 msgstr ""
-"Vapaa-aika parantaa entisestään Jäljennäisten Moraalia, kun he käyvät "
+"Vapaavuoro parantaa entisestään Jäljennäisten Moraalia, kun he käyvät "
 "Virkistyshuoneessa."
 
 #. STRINGS.UI.ACTIONS
@@ -49517,6 +49334,8 @@ msgid ""
 "Improves Duplicant <style=\"KKeyword\">Morale</style> during scheduled "
 "<style=\"KKeyword\">Downtime</style>"
 msgstr ""
+"Parantaa Jäljennäisen <style=\"KKeyword\">Moraalia</style> heidän <style="
+"\"KKeyword\">Vapaa</style>vuorollaan"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFILLOXYGENTANK
 #, fuzzy
@@ -59740,6 +59559,8 @@ msgid ""
 "During <style=\"KKeyword\">Downtime</style> shifts my Duplicants they may do "
 "as they please."
 msgstr ""
+"<style=\"KKeyword\">Vapaavuorollaan</style> Jäljennäisni saavat tehdä, mitä "
+"haluavat."
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION
 #, fuzzy
@@ -59774,6 +59595,8 @@ msgid ""
 "My Duplicants use <style=\"KKeyword\">Bedtime</style> shifts to rest up "
 "after a hard day's work."
 msgstr ""
+"Jäljenäiseni käyttävät <style=\"KKeyword\">Nukkumis</style>vuoronsa "
+"levätäkseen päivän raskaista töistä."
 
 #. STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT"
@@ -59928,7 +59751,7 @@ msgstr ""
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DOWNTIME_MORALE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DOWNTIME_MORALE"
 msgid "Duplicants will receive {0} Morale from the scheduled Downtime shifts"
-msgstr "Jäljennäiset saavat {0} Moraalia aikataulutetuista Vapaa-aikavuoroista"
+msgstr "Jäljennäiset saavat {0} Moraalia aikataulutetuista Vapaavuoroista"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_ASSIGNED
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_ASSIGNED"

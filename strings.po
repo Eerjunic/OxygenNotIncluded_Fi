@@ -48078,7 +48078,7 @@ msgstr "Bakteereja: {0}"
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_PERIOD
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_PERIOD"
 msgid "Eruption Period: {0} every {1}"
-msgstr "Purkautumisjakso: {0} joka {1}"
+msgstr "Purkautumisjakso: {0}, {1} välein"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_PRODUCTION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_PRODUCTION"
@@ -48098,7 +48098,7 @@ msgstr "Seuraava lepotila: {0}"
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_PERIOD
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_PERIOD"
 msgid "Active Period: {0} every {1}"
-msgstr "Aktiivinen Jakso: {0} joka {1}"
+msgstr "Aktiivinen Jakso: {0}, {1} välein"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_UNSTUDIED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_YEAR_UNSTUDIED"

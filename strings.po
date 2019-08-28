@@ -5183,7 +5183,7 @@ msgstr ""
 "Tuottaa <link=\"FARMSTATIONTOOLS\">Mikroravinnelannoitetta</link> "
 "parantamaan <link=\"PLANTS\">Kasvien</link> kasvamista.\n"
 "\n"
-"Nimetyillä Jäljennäisillä tulee olla <link=\"FARMER\">Kasvienhoito</"
+"Nimetyillä Jäljennäisillä tulee olla <link=\"FARMER\">Sadonhoito</"
 "link>taito.\n"
 "\n"
 "Tämä rakennus on olennainen osa Kasvihuonetta."
@@ -8643,7 +8643,7 @@ msgid ""
 "Duplicants use triage cots to recover from physical injuries and receive aid "
 "from peers."
 msgstr ""
-"Jäljennäiset käyttävät triaatiosänkyjä palautuakseen fyysisistä vammoista ja "
+"Jäljennäiset käyttävät sairaalasänkyjä palautuakseen fyysisistä vammoista ja "
 "saadakseen hoitoa vertaisiltaan."
 
 #. STRINGS.BUILDINGS.PREFABS.MEDICALCOT.EFFECT
@@ -18538,12 +18538,9 @@ msgstr ""
 "kodikseen ja laittavat aluille siirtokunnan omin voimin."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY
-#, fuzzy
-#| msgctxt "STRINGS.COLONY_ACHIEVEMENTS.NOT_ACHIEVED_THIS_COLONY"
-#| msgid "The current colony hasn't fulfilled this Initiative"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY"
 msgid "The current colony cannot fulfill this Initiative"
-msgstr "Tämänhetkinen siirtokunta ei ole täyttänyt Aloitettaan"
+msgstr "Tämänhetkinen siirtokunta ei ole täyttänyt tätä Aloitetta"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING"
@@ -18563,7 +18560,7 @@ msgstr ""
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS"
 msgid "Bed and Bath"
-msgstr "Sänky ja Kylpy"
+msgstr "Suihkuun ja Nukkumaan"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS_DESCRIPTION
 msgctxt ""
@@ -19049,13 +19046,15 @@ msgid ""
 "Platform achievements cannot be unlocked because a debug command was used in "
 "this colony. "
 msgstr ""
+"Alustan saavutuksia ei voida avata, koska debug-komentoa on käytetty tässä "
+"siirtokunnassa. "
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PLATFORM_UNLOCKING_ENABLED
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS."
 "PLATFORM_UNLOCKING_ENABLED"
 msgid "Platform achievements can be unlocked."
-msgstr ""
+msgstr "Alustan saavutuksia voidaan avata."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POOP_PRODUCTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POOP_PRODUCTION"
@@ -19263,6 +19262,11 @@ msgid ""
 "\n"
 "This asteroid is our home."
 msgstr ""
+"Harvalla sivilisaatiolla kautta aikojen on ollut etuoikeus ymmärtää heidän "
+"alkuperänsä. Tärkeintä kuitenkin on, että me olemme täällä nyt ja me otamme "
+"meille annetusta maailmasta kaiken irti. Sanon ylpeydellä, että...\n"
+"\n"
+"Tämä asteroidi on kotimme."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.MESSAGE_TITLE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.MESSAGE_TITLE"
@@ -19291,6 +19295,8 @@ msgid ""
 "Build all three sections of a <style=\"KKeyword\">Great Monument</style> to "
 "mark the colony as your home"
 msgstr ""
+"Rakenna kaikki kolme <style=\"KKeyword\">Suuren Monumentin</style> osaa "
+"merkitäksesi siirtokunnan kodikseksi"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.REQUIREMENTS.MINIMUM_CYCLE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.REQUIREMENTS.MINIMUM_CYCLE"
@@ -19326,6 +19332,8 @@ msgctxt ""
 msgid ""
 "All Duplicants must have <style=\"KKeyword\">Morale</style> of 16 or higher"
 msgstr ""
+"Kaikilla Jäljennäsillä tulee olla <style=\"KKeyword\">Moraalia</style> 16 "
+"tai enemmän"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.FIRST
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.FIRST"
@@ -19333,6 +19341,8 @@ msgid ""
 "Few civilizations throughout time have had the privilege of understading "
 "their origins."
 msgstr ""
+"Harvalla sivilisaatiolla kautta aikojen on ollut etuoikeus ymmärtää heidän "
+"alkuperänsä."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.SECOND
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.SECOND"
@@ -19340,6 +19350,8 @@ msgid ""
 "The only thing that matters is that we are here now, and we make the best of "
 "the world we've been given. I am proud to say..."
 msgstr ""
+"The one thing that matters is that we are here now, and we make the best of "
+"the world we've been given. I am proud to say..."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.THIRD
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.THIRD"
@@ -19549,14 +19561,11 @@ msgid "Base Reproduction"
 msgstr "Peruslisääntymiskyky"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.TOOLTIP"
-#| msgid "This is the base speed with which critters produce new eggs"
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.TOOLTIP"
 msgid ""
 "This is the base speed with which critters produce new <style=\"KKeyword"
 "\">Eggs</style>"
-msgstr "Tämä on otusten munantuotannon perusnopeus"
+msgstr "Tämä on otusten <style=\"KKeyword\">Munan</style>tuotannon perusnopeus"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_INCUBATION_RATE.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_INCUBATION_RATE.NAME"
@@ -31283,7 +31292,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ROLES.FARMER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.NAME"
 msgid "<link=\"FARMER\">Crop Tending</link>"
-msgstr "<link=\"FARMER\">Viljelyksistä Huolehtiminen</link>"
+msgstr "<link=\"FARMER\">Sadonhoito</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION"
@@ -32674,7 +32683,7 @@ msgid ""
 "A <link=\"MEDICALCOT\">Triage Cot</link> is required for rescue:"
 msgstr ""
 "Nämä Jäljennäiset ovat lähellä kuolemaa.\n"
-"<link=\"MEDICALCOT\">Triaatiopinnasänky</link> vaaditaan pelastamiseen:"
+"<link=\"MEDICALCOT\">Sairaalasänky</link> vaaditaan pelastamiseen:"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.INCAPACITATED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.INCAPACITATED.TOOLTIP"
@@ -32685,7 +32694,7 @@ msgid ""
 msgstr ""
 "Tämä Jäljennäinen on lähellä kuolemaa!\n"
 "------------------\n"
-"Määrää heidät Triaatiopinnasänkyyn pelastusta varten"
+"Määrää heidät Sairaalasänkyyn pelastusta varten"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.LASHINGOUT.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.LASHINGOUT.NAME"
@@ -39738,15 +39747,13 @@ msgid "<link=\"SPICYTOFU\">Spicy Tofu</link>"
 msgstr "<link=\"SPICYTOFU\">Mausteinen Tofu</link>"
 
 #. STRINGS.ITEMS.FOOD.SPICYTOFU.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SPICE_VINE.DOMESTICATEDDESC"
-#| msgid ""
-#| "This plant produces <link=\"SPICENUT\">Pincha Peppernut</link> spices."
 msgctxt "STRINGS.ITEMS.FOOD.SPICYTOFU.RECIPEDESC"
 msgid ""
 "<link=\"TOFU\">Tofu</link> marinated in a flavorful <link=\"SPICENUT"
 "\">Pincha Peppernut</link> sauce."
-msgstr "Tämä kasvi tuottaa <link=\"SPICENUT\">Pincha-pippuri</link>maustetta."
+msgstr ""
+"<link=\"SPICENUT\">Pincha-Pippuri</link>kastikkeella marinoitua <link=\"TOFU"
+"\">Tofua</link>."
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.DESC"
@@ -39756,6 +39763,10 @@ msgid ""
 "\n"
 "It hearty and satisfying."
 msgstr ""
+"Vähän <link=\"MEAT\">Lihaa</link> kuivalta maalta ja <link=\"FISHMEAT"
+"\">Kalaa</link> mereltä.\n"
+"\n"
+"Tukevaa ja maittavaa."
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.NAME"
@@ -39763,18 +39774,13 @@ msgid "<link=\"SURFANDTURF\">Surf'n'Turf</link>"
 msgstr "<link=\"SURFANDTURF\">Surf'n'Turf</link>"
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.EFFECT"
-#| msgid ""
-#| "Grows one <link=\"PLANTS\">Plant</link> from a <link=\"PLANTS\">Seed</"
-#| "link>."
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.RECIPEDESC"
 msgid ""
 "A bit of <link=\"MEAT\">Meat</link> from the land and <link=\"FISHMEAT"
 "\">Fish</link> from the sea."
 msgstr ""
-"Kasvattaa yhden <link=\"PLANTS\">Kasvin</link> <link=\"PLANTS\">Siemenestä</"
-"link>."
+"A bit of <link=\"MEAT\">Meat</link> from the land and <link=\"FISHMEAT"
+"\">Fish</link> from the sea."
 
 #. STRINGS.ITEMS.FOOD.SUSHI.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SUSHI.DESC"
@@ -39785,6 +39791,11 @@ msgid ""
 "While the salt of the lettuce may initially overpower the flavor, a keen "
 "palate can discern the subtle sweetness of the fillet beneath."
 msgstr ""
+"Raakaa <link=\"FISHMEAT\">Pacun Fileetä</link> käärittynä raikkaaseen <link="
+"\"LETTUCE\">Salaattiin.</link>.\n"
+"\n"
+"Vaikka salaatin suolaisuus saattaa aluksi peittää maun alleen, tarkka "
+"makuaisti pystyy erottamaan alla piilevän fileen makeuden."
 
 #. STRINGS.ITEMS.FOOD.SUSHI.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SUSHI.NAME"
@@ -39797,6 +39808,8 @@ msgid ""
 "Raw <link=\"FISHMEAT\">Pacu Fillet</link> wrapped with fresh <link=\"LETTUCE"
 "\">Lettuce</link>."
 msgstr ""
+"Raakaa <link=\"FISHMEAT\">Pacun Fileetä</link> käärittynä raikkaaseen <link="
+"\"LETTUCE\">Salaattiin.</link>."
 
 #. STRINGS.ITEMS.FOOD.TOFU.DESC
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.DESC"
@@ -39817,7 +39830,7 @@ msgstr "<link=\"TOFU\">Tofu</link>"
 #. STRINGS.ITEMS.FOOD.TOFU.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.RECIPEDESC"
 msgid "A bland curd made from <link=\"BEAN\">Nosh Beans</link>."
-msgstr ""
+msgstr "Mietoa <link=\"BEAN\">Safkapavuista</link> valmistettua rahkaa."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BASIC_FABRIC.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BASIC_FABRIC.DESC"
@@ -39854,13 +39867,6 @@ msgid "Egg Shell"
 msgstr "Munankuori"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC"
-#| msgid ""
-#| "Specialized <link=\"FERTILIZER\">Fertilizer</link> mixed by a "
-#| "professional farmer.\n"
-#| "\n"
-#| "Increases the growth rate of one <link=\"PLANTS\">Plant</link>."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC"
 msgid ""
 "Specialized <link=\"FERTILIZER\">Fertilizer</link> mixed by a Duplicant with "
@@ -39869,10 +39875,11 @@ msgid ""
 "Increases the <style=\"KKeyword\">Growth Rate</style> of one <link=\"PLANTS"
 "\">Plant</link>."
 msgstr ""
-"Ammattilaisviljelijän sekoittama erikois<link=\"FERTILIZER\">lannoite</"
-"link>.\n"
+"<link=\"FARMER\">Sadonhoito</link>taidon omaavan Jäljennäisen valmistamaa "
+"erikois<link=\"FERTILIZER\">Lannoitetta</link> \n"
 "\n"
-"Nopeuttaa yhden<link=\"PLANTS\">Kasvin</link> kasvunopeutta."
+"Nopeuttaa yhden<link=\"PLANTS\">Kasvin</link> <style=\"KKeyword"
+"\">Kasvunopeutta</style>."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.NAME"
@@ -39929,19 +39936,13 @@ msgid "Engineer's Jerry Rig: {0} {1}"
 msgstr "Teknikon Purkkaviritys: {0} {1}"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_TOOLTIP"
-#| msgid ""
-#| "Can be used to Jerry Rig upgrades to a machine building, increasing its "
-#| "{0} by {1}."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_TOOLTIP"
 msgid ""
 "Can be used to <style=\"KKeyword\">Jerry Rig</style> upgrades to a machine "
 "building, increasing its {0} by <b>{1}</b>."
 msgstr ""
-"Voidaan käyttää konerakennusten purkkavirittämiseen, kasvattaen sen "
-"ominaisuutta {0} {1} verran."
+"Voidaan käyttää konerakennusten <style=\"KKeyword\">Purkkavirittämiseen</"
+"style> , kasvattaen sen ominaisuutta {0} <b>{1}</b> verran."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_NAME
 msgctxt ""
@@ -39950,12 +39951,6 @@ msgid "Job: <link=\"MECHATRONICENGINEER\">Mechatronics Engineering</link>"
 msgstr "Työ: <link=\"MECHATRONICENGINEER\">Mekatroniikkatekniikka</link>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_TOOLTIP"
-#| msgid ""
-#| "Can only be used by the <link=\"MECHATRONICENGINEER\">Mechatronics "
-#| "Engineer</link> to apply a Jerry Rig."
 msgctxt ""
 "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_TOOLTIP"
 msgid ""
@@ -39964,15 +39959,9 @@ msgid ""
 "style>."
 msgstr ""
 "Ainoastaan <link=\"MECHATRONICENGINEER\">Mekatroniikkateknikko</link> voi "
-"käyttää tätä luodakseen Purkkavirityksen."
+"käyttää tätä luodakseen <style=\"KKeyword\">Purkkavirityksen</style>."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC"
-#| msgid ""
-#| "A specialized Microchip created by a professional engineer.\n"
-#| "\n"
-#| "Tunes up generators to increase their <link=\"POWER\">Power</link> output."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC"
 msgid ""
 "A specialized Microchip created by a professional engineer.\n"
@@ -39982,8 +39971,8 @@ msgid ""
 msgstr ""
 "Ammattilaisteknikon luoma erikoismikrosiru.\n"
 "\n"
-"Virittää generaattoreita kasvattaakseen niiden <link=\"POWER\">Sähkön</"
-"link>tuottoa."
+"Virittää <style=\"KKeyword\">Generaattoreita</style> kasvattaakseen niiden "
+"<link=\"POWER\">Sähkön</link>tuottoa."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME"
@@ -40064,6 +40053,13 @@ msgid ""
 "\n"
 "<i>Only the finest grains are chosen.</i>"
 msgstr ""
+"Mauste, jota Jäljennäiset voivat lisätä <link=\"FOOD\">Ruokaansa</link> "
+"tehostaakseen <link=\"MORALE\">Moraaliaan</link>.\n"
+"\n"
+"Jäljennäiset käyttävät Pöytäsuolaa automaattisesti istuessaan <link="
+"\"DININGTABLE\">Ruokalapöydän</link> ääressä ateria-aikaan.\n"
+"\n"
+"<i>Vain hienoimmat jyvät valitaan.</i>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.NAME"
@@ -40862,15 +40858,6 @@ msgid "ALERT - Surface Breach"
 msgstr "HÄLYTYS - Pinnan Murtuminen"
 
 #. STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP"
-#| msgid ""
-#| "Amazing!\n"
-#| "\n"
-#| "My Duplicants have managed to breach the surface of the asteroid.\n"
-#| "\n"
-#| "I should be careful; the region is extremely inhospitable and I could "
-#| "easily lose resources to the vaccuum of space."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP"
 msgid ""
 "Amazing!\n"
@@ -40882,7 +40869,8 @@ msgid ""
 msgstr ""
 "Hämmästyttävää!\n"
 "\n"
-"Jäljennäiseni ovat onnistuneet murtamaan tiensä asteroidin pinnalle.\n"
+"Jäljennäiseni ovat onnistuneet murtamaan tiensä kivisen vankilamme "
+"pinnalle.\n"
 "\n"
 "Minun on oltava varovainen; seutu on erittäin epäsuotuisaa ja saatan "
 "helposti menettää resursseja avaruuden tyhjiöön."
@@ -40983,15 +40971,6 @@ msgid "These fabricators have no recipes queued:"
 msgstr "Näillä valmistajilla ei ole reseptejä jonossa:"
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY"
-#| msgid ""
-#| "In order to carry <link=\"LIQUIDS\">Liquids</link> from place to place, "
-#| "my Duplicants will need to be able to bottle them for transport.\n"
-#| "\n"
-#| "If I built Pitcher Pumps from the <link=\"MISC\">PLUMBING TAB</link> over "
-#| "pools of liquid, my Duplicants will be able to bottle them. Then they'll "
-#| "automatically deliver the bottles whereever they need to go."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY"
 msgid ""
 "By building a <link=\"LIQUIDPUMPINGSTATION\">Pitcher Pump</link> from the "
@@ -40999,12 +40978,10 @@ msgid ""
 "my Duplicants will be able to bottle it up and manually deliver it wherever "
 "it needs to go."
 msgstr ""
-"Voidakseen kantaa <link=\"LIQUIDS\">nesteitä</link> paikasta toiseen, "
-"Jäljennäisteni täytyy ensin pullottaa ne kuljetusta varten.\n"
-"\n"
-"Jos rakennan Pumppukaivoja <link=\"MISC\">PUTKISTO-VÄLILEHDESTÄ</link> "
-"nestealtaiden ylle, Jäljennäiseni pystyvät pullottamaan ne. Sitten he "
-"automaattisesti vievät pullot sinne, mihin heidän täytyykään mennä."
+"Rakentamalla <link=\"LIQUIDPUMPINGSTATION\">Pumppukaivon</link> "
+"<b>PUTKISTOINTI-VÄLILEHDESTÄ</b> <color=#F44A47><b>[5]</b></color> "
+"nestealtaan päälle, Jäljennäiseni pystyvät pullottamaan sitä ja viemään sitä "
+"minne sitä ikinä tarvitaankaan."
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME"
@@ -41158,18 +41135,14 @@ msgid " has developed <style=\"KKeyword\">{0}</style>"
 msgstr " on kehittänyt ominaisuuden <style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP"
-#| msgid ""
-#| "These Duplicants' injuries weren't set and healed improperly. They "
-#| "developed traits as a result:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP"
 msgid ""
 "These Duplicants' injuries weren't set and healed improperly. They developed "
 "<style=\"KKeyword\">Traits</style> as a result:"
 msgstr ""
-"Näiden Jäljennäisten vammoja ei oltu asetettu ja ne paranivat väärin. Sen "
-"seurauksena heille kehittyi seuraavat piirteet:"
+"Näiden Jäljennäisten vammoja ei oltu asetettu kunnolla ja ne paranivat "
+"väärin. Sen seurauksena heille kehittyi seuraavat <style=\"KKeyword"
+"\">Piirteet</style>:"
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME"
@@ -46269,7 +46242,7 @@ msgctxt "STRINGS.RESEARCH.TECHS.JOBS.DESC"
 msgid ""
 "Exchange the skill points earned by Duplicants for new traits and abilities."
 msgstr ""
-"Vaihda Jäljennäisten ansaitsemia taitopisteitä uusiin ominaisuuksiin ja "
+"Vaihda Jäljennäisten ansaitsemia taitopisteitä uusiin piirteisiin ja "
 "kykyihin."
 
 #. STRINGS.RESEARCH.TECHS.JOBS.NAME
@@ -58409,7 +58382,7 @@ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_FARM_TINKER.DESCRIPTION"
 msgid ""
 "<link=\"PLANTS\">Crop Tending</link> and Micronutrient Fertilizer Crafting"
 msgstr ""
-"Piirre: <link=\"PLANTS\">Viljelysten Hoito</link> ja Mikroravinnelannoitteen "
+"Piirre: <link=\"PLANTS\">Sadonhoito</link> ja Mikroravinnelannoitteen "
 "Valmistus"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION

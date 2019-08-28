@@ -15919,7 +15919,9 @@ msgctxt "STRINGS.CODEX.CLEANER.BODY.CONTAINER2"
 msgid ""
 "Despite descending from the Pacu, the Gulp Fish is unique enough both in "
 "genetics and behavior to be considered its own subspecies."
-msgstr "Vaikka se polveutuu Pacusta"
+msgstr ""
+"Vaikka se polveutuu Pacusta, Hörppykala on tarpeeksi yksilöllinen sekä "
+"geneettisesti, että käytökseltään, että sitä voidaan pitää omana alalajinaan."
 
 #. STRINGS.CODEX.CLEANER.SUBTITLE
 msgctxt "STRINGS.CODEX.CLEANER.SUBTITLE"
@@ -21778,7 +21780,7 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Buddy Bud Seed."
 msgstr ""
-" <link=\"BULBPLANT\">Kamusilmun</link> <link=\"PLANTS\">Siemen</link>.\n"
+"<link=\"BULBPLANT\">Kamusilmun</link> <link=\"PLANTS\">Siemen</link>.\n"
 "\n"
 "Hautautuneiden esineiden ylös kaivaminen saattaa paljastaa Kamusilmun "
 "Siemenen."
@@ -28225,7 +28227,7 @@ msgid ""
 msgstr ""
 "Taudin {2} tartuttama.\n"
 "\n"
-"Tämä Jäljennäinen tuottaa yskiessään ainetta <b>{1}</b>"
+"Tämä Jäljennäinen tuottaa yskiessään ainetta <b>{1}</b>."
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.DISEASE_SOURCE_DESCRIPTOR_TOOLTIP
 msgctxt ""
@@ -35006,7 +35008,7 @@ msgstr ""
 "(C) Kivihiili on palavaa fossiilista polttoainetta, joka muodostuu "
 "hiilestä.\n"
 "\n"
-"Se on kätevää <link=\"POWER\">Sähkön</link>tuotannossa."
+"Siitä on hyötyä <link=\"POWER\">Sähkön</link>tuotannossa."
 
 #. STRINGS.ELEMENTS.CARBON.NAME
 msgctxt "STRINGS.ELEMENTS.CARBON.NAME"
@@ -39044,6 +39046,9 @@ msgid ""
 "\n"
 "It will dematerialize shortly."
 msgstr ""
+"Jakelujärjestelmä hiljattain tulostetuille resursseille.\n"
+"\n"
+"Se häviää pian."
 
 #. STRINGS.ITEMS.CARGO_CAPSULE.NAME
 msgctxt "STRINGS.ITEMS.CARGO_CAPSULE.NAME"
@@ -39126,20 +39131,15 @@ msgid "<link=\"BEAN\">Nosh Bean</link>"
 msgstr "<link=\"BEAN\">Nosh Bean</link>"
 
 #. STRINGS.ITEMS.FOOD.BEANPLANTSEED.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.DESC"
-#| msgid "Raw data that can be processed into research points."
 msgctxt "STRINGS.ITEMS.FOOD.BEANPLANTSEED.DESC"
 msgid "An inedible bean that can be processed into delicious foods."
-msgstr "Raakadataa, jota voidaan käsitellä tutkimuspisteiksi."
+msgstr ""
+"Syötäväksi kelpaamaton papu, joka voidaan käsitellä herkullisiksi ruuiksi."
 
 #. STRINGS.ITEMS.FOOD.BEANPLANTSEED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.PLANTS"
-#| msgid "<link=\"PLANTS\">Plants</link>"
 msgctxt "STRINGS.ITEMS.FOOD.BEANPLANTSEED.NAME"
 msgid "<link=\"BEANPLANTSEED\">Nosh Bean</link>"
-msgstr "<link=\"PLANTS\">Kasvit</link>"
+msgstr "<link=\"BEANPLANTSEED\">Safkapapu</link>"
 
 #. STRINGS.ITEMS.FOOD.BURGER.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.DESC"
@@ -39151,12 +39151,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.BURGER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.NAME"
-#| msgid "<link=\"BURNER\">Burner</link>"
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.NAME"
 msgid "<link=\"BURGER\">Frost Burger</link>"
-msgstr "<link=\"BURNER\">Poltin</link>"
+msgstr "<link=\"BURGER\">Kuuraburgeri</link>"
 
 #. STRINGS.ITEMS.FOOD.BURGER.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.RECIPEDESC"
@@ -39497,13 +39494,11 @@ msgid "<link=\"HATCH\">Hatchling Egg</link>"
 msgstr "<link=\"HATCH\">Pienkuoriaisen Muna</link>"
 
 #. STRINGS.ITEMS.FOOD.HATCHEGG.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.HATCHEGG.RECIPEDESC"
-#| msgid "An egg laid by a <link=\"HATCH\">Hatch</link>."
 msgctxt "STRINGS.ITEMS.FOOD.HATCHEGG.RECIPEDESC"
 msgid ""
 "An <style=\"KKeyword\">Egg</style> laid by a <link=\"HATCH\">Hatch</link>."
-msgstr "<link=\"HATCH\">Kuoriaisen</link> munima muna."
+msgstr ""
+"<link=\"HATCH\">Kuoriaisen</link> munima <style=\"KKeyword\">Muna</style>."
 
 #. STRINGS.ITEMS.FOOD.LETTUCE.DESC
 msgctxt "STRINGS.ITEMS.FOOD.LETTUCE.DESC"
@@ -39511,19 +39506,17 @@ msgid ""
 "Crunchy, slightly salty leaves from a <link=\"SEALETTUCE\">Waterweed</link> "
 "plant."
 msgstr ""
+"Rapeita, hieman suolaisia <link=\"SEALETTUCE\">Vesiheinä</link>kasvin lehtiä."
 
 #. STRINGS.ITEMS.FOOD.LETTUCE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.ICE.NAME"
-#| msgid "<link=\"ICE\">Ice</link>"
 msgctxt "STRINGS.ITEMS.FOOD.LETTUCE.NAME"
 msgid "<link=\"LETTUCE\">Lettuce</link>"
-msgstr "<link=\"ICE\">Jää</link>"
+msgstr "<link=\"LETTUCE\">Salaatti</link>"
 
 #. STRINGS.ITEMS.FOOD.LETTUCE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.LETTUCE.RECIPEDESC"
 msgid "Edible roughage from a <link=\"SEALETTUCE\">Waterweed</link>."
-msgstr ""
+msgstr "<link=\"SEALETTUCE\">Vesiheinästä</link> saatua raakarehua."
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.DESC
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.DESC"
@@ -39542,14 +39535,13 @@ msgid "<link=\"LIGHTBUG\">Shine Nymph Egg</link>"
 msgstr "<link=\"LIGHTBUG\">Kiiltonymffin Muna</link>"
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.RECIPEDESC"
-#| msgid "An egg laid by a <link=\"LIGHTBUG\">Shine Bug</link>."
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.RECIPEDESC"
 msgid ""
 "An <style=\"KKeyword\">Egg</style> laid by a <link=\"LIGHTBUG\">Shine Bug</"
 "link>."
-msgstr "<link=\"LIGHTBUG\">Kiiltoötökän</link> munima muna."
+msgstr ""
+"<link=\"LIGHTBUG\">Kiiltoötökän</link> munima <style=\"KKeyword\">Muna</"
+"style>."
 
 #. STRINGS.ITEMS.FOOD.MEAT.DESC
 #, fuzzy
@@ -39617,24 +39609,24 @@ msgid ""
 "\n"
 "It has an earthy flavor punctuated by a refreshing crunch."
 msgstr ""
+"<link=\"LETTUCE\">Salaattiin</link> kääritty maukas <link=\"MUSHROOM"
+"\">Sieni</link>.\n"
+"\n"
+"Siinä on maanläheinen maku, jota höystää raikas rapeus."
 
 #. STRINGS.ITEMS.FOOD.MUSHROOMWRAP.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.MUSHROOM.NAME"
-#| msgid "<link=\"MUSHROOM\">Mushroom</link>"
 msgctxt "STRINGS.ITEMS.FOOD.MUSHROOMWRAP.NAME"
 msgid "<link=\"MUSHROOMWRAP\">Mushroom Wrap</link>"
-msgstr "<link=\"MUSHROOM\">Sieni</link>"
+msgstr "<l<link=\"MUSHROOMWRAP\">Sieniwrappi</link>"
 
 #. STRINGS.ITEMS.FOOD.MUSHROOMWRAP.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICEMACHINE.EFFECT"
-#| msgid "Converts <link=\"WATER\">Water</link> into <link=\"ICE\">Ice</link>."
 msgctxt "STRINGS.ITEMS.FOOD.MUSHROOMWRAP.RECIPEDESC"
 msgid ""
 "Flavorful <link=\"MUSHROOM\">Mushrooms</link> wrapped in <link=\"LETTUCE"
 "\">Lettuce</link>."
-msgstr "Muuttaa <link=\"WATER\">Veden</link> <link=\"ICE\">Jääksi</link>."
+msgstr ""
+"<link=\"LETTUCE\">Salaattiin</link> kääritty maukas <link=\"MUSHROOM"
+"\">Sieni</link>."
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.DESC
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.DESC"
@@ -39654,14 +39646,12 @@ msgid "<link=\"OILFLOATER\">Larva Egg</link>"
 msgstr "<link=\"OILFLOATER\">Toukan Muna</link>"
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC"
-#| msgid "An egg laid by a <link=\"OILFLOATER\">Slickster</link>."
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC"
 msgid ""
 "An <style=\"KKeyword\">Egg</style> laid by a <link=\"OILFLOATER\">Slickster</"
 "link>."
-msgstr "<link=\"OILFLOATER\">Liukujan</link> munima muna."
+msgstr ""
+"<link=\"OILFLOATER\">Liukujan</link> munima <style=\"KKeyword\">Muna</style>."
 
 #. STRINGS.ITEMS.FOOD.PICKLEDMEAL.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.DESC"
@@ -39680,13 +39670,12 @@ msgid "<link=\"PICKLEDMEAL\">Pickled Meal</link>"
 msgstr "<link=\"PICKLEDMEAL\">Jauhiaispikkelssi</link>"
 
 #. STRINGS.ITEMS.FOOD.PICKLEDMEAL.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.RECIPEDESC"
-#| msgid "Meal Lice regrettably preserved in vinegar."
 msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.RECIPEDESC"
 msgid ""
 "<link=\"BASICPLANTFOOD\">Meal Lice</link> regrettably preserved in vinegar."
-msgstr "Etikkaan, valitettavasti, säilöttyä Jauhiaista."
+msgstr ""
+"Etikkaan, valitettavasti, säilöttyä <link=\"BASICPLANTFOOD\">Jauhiaista</"
+"link>."
 
 #. STRINGS.ITEMS.FOOD.PRICKLEFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PRICKLEFRUIT.DESC"
@@ -39862,14 +39851,15 @@ msgid ""
 "\n"
 "It packs a delightful punch."
 msgstr ""
+"<link=\"SPICENUT\">Pincha-Pippuri</link>kastikkeella marinoitua <link=\"TOFU"
+"\">Tofua</link>.\n"
+"\n"
+"Siinä on miellyttävästi potkua."
 
 #. STRINGS.ITEMS.FOOD.SPICYTOFU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.NAME"
-#| msgid "<link=\"PACU\">Pacu</link>"
 msgctxt "STRINGS.ITEMS.FOOD.SPICYTOFU.NAME"
 msgid "<link=\"SPICYTOFU\">Spicy Tofu</link>"
-msgstr "<link=\"PACU\">Pacu</link>"
+msgstr "<link=\"SPICYTOFU\">Mausteinen Tofu</link>"
 
 #. STRINGS.ITEMS.FOOD.SPICYTOFU.RECIPEDESC
 #, fuzzy
@@ -39892,12 +39882,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SULFUR.NAME"
-#| msgid "<link=\"SULFUR\">Sulfur</link>"
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.NAME"
 msgid "<link=\"SURFANDTURF\">Surf'n'Turf</link>"
-msgstr "<link=\"SULFUR\">Rikki</link>"
+msgstr "<link=\"SURFANDTURF\">Surf'n'Turf</link>"
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.RECIPEDESC
 #, fuzzy
@@ -39924,12 +39911,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.SUSHI.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.WASHSINK.NAME"
-#| msgid "<link=\"WASHSINK\">Sink</link>"
 msgctxt "STRINGS.ITEMS.FOOD.SUSHI.NAME"
 msgid "<link=\"SUSHI\">Sushi</link>"
-msgstr "<link=\"WASHSINK\">Lavuaari</link>"
+msgstr "<link=\"SUSHI\">Sushi</link>"
 
 #. STRINGS.ITEMS.FOOD.SUSHI.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.SUSHI.RECIPEDESC"
@@ -39945,14 +39929,14 @@ msgid ""
 "\n"
 "It has an unusual but pleasant consistency."
 msgstr ""
+"Mietoa <link=\"BEAN\">Safkapavuista</link> valmistettua rahkaa.\n"
+"\n"
+"Sillä on epätavallinen, mutta miellyttävä koostumus."
 
 #. STRINGS.ITEMS.FOOD.TOFU.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SULFUR.NAME"
-#| msgid "<link=\"SULFUR\">Sulfur</link>"
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.NAME"
 msgid "<link=\"TOFU\">Tofu</link>"
-msgstr "<link=\"SULFUR\">Rikki</link>"
+msgstr "<link=\"TOFU\">Tofu</link>"
 
 #. STRINGS.ITEMS.FOOD.TOFU.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.RECIPEDESC"
@@ -39974,9 +39958,6 @@ msgid "Reed Fiber"
 msgstr "Ruokokuitu"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.DESC"
-#| msgid "Can be crushed to produce <link=\"LIME\">Lime</link>."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.DESC"
 msgid "Can be crushed to produce <link=\"LIME\">Lime</link>."
 msgstr "Voidaan murskata <link=\"LIME\">Kalkiksi</link>."
@@ -39984,7 +39965,7 @@ msgstr "Voidaan murskata <link=\"LIME\">Kalkiksi</link>."
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.NAME"
 msgid "Pokeshell Molt"
-msgstr ""
+msgstr "Tökkikuoren Kotelo"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.DESC"
@@ -40235,7 +40216,7 @@ msgstr "Ansaosat"
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.WOOD.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.WOOD.DESC"
 msgid "Wood harvested from an <link=\"FORESTTREE\">Arbor Tree</link>."
-msgstr "<link=\"FORESTTREE\">Aarnipuusta</link> kerättyä puuta-"
+msgstr "<link=\"FORESTTREE\">Aarnipuusta</link> kerättyä puuta."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.WOOD.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.WOOD.NAME"
@@ -47273,7 +47254,7 @@ msgstr "Vähintään kaksi villikasvia."
 #. STRINGS.ROOMS.CRITERIA.WILDPLANT.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANT.NAME"
 msgid "At least two Wild Plants"
-msgstr "Vähintään kaksi Villikasvia."
+msgstr "Vähintään kaksi Villikasvia"
 
 #. STRINGS.ROOMS.CRITERIA.WILDPLANTS.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANTS.DESCRIPTION"
@@ -47283,7 +47264,7 @@ msgstr "Vähintään kaksi villikasvia."
 #. STRINGS.ROOMS.CRITERIA.WILDPLANTS.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANTS.NAME"
 msgid "At least four Wild Plants"
-msgstr "Vähintään neljä Villikasvia."
+msgstr "Vähintään neljä Villikasvia"
 
 #. STRINGS.ROOMS.DETAILS.ASSIGNED_TO.NAME
 msgctxt "STRINGS.ROOMS.DETAILS.ASSIGNED_TO.NAME"

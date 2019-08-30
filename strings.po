@@ -36102,7 +36102,7 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.MERCURY.DESC"
 msgid "(Hg) Mercury is a metallic <link=\"ELEMENTSLIQUID\">Liquid</link>."
 msgstr ""
-"(Hg) Elohopea on metallinväristä <link=\"ELEMENTSLIQUID\">Nestettä</link>"
+"(Hg) Elohopea on metallinväristä <link=\"ELEMENTSLIQUID\">Nestettä</link>."
 
 #. STRINGS.ELEMENTS.MERCURY.NAME
 msgctxt "STRINGS.ELEMENTS.MERCURY.NAME"
@@ -37025,7 +37025,7 @@ msgid ""
 "into a scalding <link=\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
 "(H<sub>2</sub>0) Höyry on tulikuumaksi <link=\"ELEMENTSGAS\">Kaasuksi</link> "
-"kuumennettua <link=\"WATER\">Vettä</link> "
+"kuumennettua <link=\"WATER\">Vettä</link>."
 
 #. STRINGS.ELEMENTS.STEAM.NAME
 msgctxt "STRINGS.ELEMENTS.STEAM.NAME"
@@ -39449,22 +39449,12 @@ msgid "<link=\"PUFT\">Puftlet Egg</link>"
 msgstr "<link=\"PUFT\">Pöhnöporsaan Muna</link>"
 
 #. STRINGS.ITEMS.FOOD.PUFTEGG.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.PUFTEGG.RECIPEDESC"
-#| msgid "An egg laid by a <link=\"PUFT\">Puft</link>."
 msgctxt "STRINGS.ITEMS.FOOD.PUFTEGG.RECIPEDESC"
 msgid ""
 "An <style=\"KKeyword\">Egg</style> laid by a <link=\"PUFT\">Puft</link>."
-msgstr "<link=\"PUFT\">Pöhnön</link> munima muna."
+msgstr "<link=\"PUFT\">Pöhnön</link> munima <style=\"KKeyword\">Muna</style>."
 
 #. STRINGS.ITEMS.FOOD.RAWEGG.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.RAWEGG.DESC"
-#| msgid ""
-#| "A raw egg that has been cracked open for use in <link=\"FOOD\">Food</"
-#| "link> preparation.\n"
-#| "\n"
-#| "It will never hatch."
 msgctxt "STRINGS.ITEMS.FOOD.RAWEGG.DESC"
 msgid ""
 "A raw <style=\"KKeyword\">Egg</style> that has been cracked open for use in "
@@ -39472,8 +39462,8 @@ msgid ""
 "\n"
 "It will never hatch."
 msgstr ""
-"Raaka muna, joka on rikottu käytettäväksi <link=\"FOOD\">Ruuan</"
-"link>laitossa.\n"
+"Raaka <style=\"KKeyword\">Muna</style>, joka on rikottu käytettäväksi <link="
+"\"FOOD\">Ruuan</link>laitossa.\n"
 "\n"
 "Se ei kuoriudu koskaan."
 
@@ -39483,27 +39473,15 @@ msgid "<link=\"RAWEGG\">Raw Egg</link>"
 msgstr "<link=\"PACUEGG\">Raaka Muna</link>"
 
 #. STRINGS.ITEMS.FOOD.RAWEGG.RECIPEDESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.RAWEGG.RECIPEDESC"
-#| msgid ""
-#| "A raw egg that has been cracked open for use in <link=\"FOOD\">Food</"
-#| "link> preparation."
 msgctxt "STRINGS.ITEMS.FOOD.RAWEGG.RECIPEDESC"
 msgid ""
 "A raw <style=\"KKeyword\">Egg</style> that has been cracked open for use in "
 "<link=\"FOOD\">Food</link> preparation."
 msgstr ""
-"Raaka muna, joka on rikottu käytettäväksi <link=\"FOOD\">Ruuan</"
-"link>laitossa."
+"Raaka <style=\"KKeyword\">Muna</style>, joka on rikottu käytettäväksi <link="
+"\"FOOD\">Ruuan</link>laitossa."
 
 #. STRINGS.ITEMS.FOOD.ROTPILE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.ROTPILE.DESC"
-#| msgid ""
-#| "An inedible glop of former foodstuff.\n"
-#| "\n"
-#| "Rot piles break down into <link=\"TOXICSAND\">Polluted Dirt</link> over "
-#| "time."
 msgctxt "STRINGS.ITEMS.FOOD.ROTPILE.DESC"
 msgid ""
 "An inedible glop of former foodstuff.\n"
@@ -39513,8 +39491,8 @@ msgid ""
 msgstr ""
 "Syömäkelvoton möykky entistä ruoka-ainetta.\n"
 "\n"
-"Mätäkasat hajoavat <link=\"TOXICSAND\">Saastuneeksi Mullaksi</link> ajan "
-"myötä."
+"<link=\"COMPOST\">Mätäkasa</link>t hajoavat <link=\"TOXICSAND\">Saastuneeksi "
+"Mullaksi</link> ajan myötä."
 
 #. STRINGS.ITEMS.FOOD.ROTPILE.NAME
 msgctxt "STRINGS.ITEMS.FOOD.ROTPILE.NAME"
@@ -39861,13 +39839,10 @@ msgstr ""
 "{1} verran."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.POWER_TECHNICIAN.NAME"
-#| msgid "<link=\"POWERTECHNICIAN\">Electrical Engineer</link>"
 msgctxt ""
 "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_NAME"
 msgid "Skill: <link=\"POWERTECHNICIAN\">Electrical Engineering</link>"
-msgstr "<link=\"POWERTECHNICIAN\">Sähköteknikko</link>"
+msgstr "Taito: <link=\"POWERTECHNICIAN\">Sähkötekniikka</link>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_TOOLTIP
 #, fuzzy
@@ -48548,14 +48523,13 @@ msgid ""
 msgstr "Varastoidut esineet saavuttavat ajan myötä {0} lämpötilan"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDCOOLING
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDCOOLING"
-#| msgid "Reduces the temperature of piped liquids by {0}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDCOOLING"
 msgid ""
 "Reduces the <style=\"KKeyword\">Temperature</style> of piped liquids by "
 "<b>{0}</b>"
-msgstr "Alentaa putkessa olevien nesteiden lämpötilaa {0}"
+msgstr ""
+"Alentaa putkessa olevien nesteiden <style=\"KKeyword\">Lämpötilaa</style> "
+"<b>{0}</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE
 #, fuzzy
@@ -52719,16 +52693,6 @@ msgid "DATA COLLECTION"
 msgstr "DATANKERÄYS"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION"
-#| msgid ""
-#| "We require the collection of user data to assist in improving game "
-#| "operations. Players who opt out of data collection will no longer send "
-#| "crash reports and user data to the game team.\n"
-#| "\n"
-#| "For more details on our privacy policy and how we use the data we "
-#| "collect, please visit our <color=blue><u><b>privacy policy</u></b></"
-#| "color>."
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION"
 msgid ""
 "Collecting user data helps us improve the game.\n"
@@ -52738,12 +52702,12 @@ msgid ""
 "For more details on our privacy policy and how we use the data we collect, "
 "please visit our <color=#ECA6C9><u><b>privacy center</b></u>."
 msgstr ""
-"Meidän on kerättävä käyttäjädataa pelin toimintojen parantamisen apuna. "
-"Pelaajat, jotka jättäytyvät pois datankeräyksestä, eivät enää lähetä "
-"kaatumisraportteja tai käyttäjädataa pelin tekijätiimille.\n"
+"Käyttäjätietojen kerääminen auttaa meitä tekemään peliä paremmaksi.\n"
+"Pelaajat, jotka jättäytyvät tietojenkeruusta eivät enää lähetä "
+"kaatumisraportteja tai pelaamisdataansa pelintekijöille.\n"
 "\n"
-"Lisätietoja tietosuojakäytännöstämme ja siitä, kuinka käytämme keräämämme "
-"dataa, löytyy <color=blue><u><b>tietosuojakäytännöstämmeu></b></color>."
+"Lisätietoja tietosuojakäytännöstämme ja kuinka käytämme keräämäämme dataa on "
+"saatavilla <color=#ECA6C9><u><b>tietosuojakeskuksestamme</b></u>."
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DONE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DONE_BUTTON"
@@ -52815,6 +52779,9 @@ msgid ""
 "Try restarting Oxygen not Included.\n"
 "If that doesn't work, try re-subscribing to the mod via Steam."
 msgstr ""
+"Ei pystytty avaamaan modin {0} paikallisia Steam-tiedostoja.\n"
+"Yritä käynnistää Oxygen not Included uudelleen.\n"
+"Jos sekään ei auta, yritä uudelleentilata modi Steamin kautta."
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.INSTALL_INFO_INACCESSIBLE.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.INSTALL_INFO_INACCESSIBLE.TITLE"
@@ -52822,12 +52789,6 @@ msgid "STEAM CONTENT ERROR"
 msgstr "STEAM-SISÄLLÖN VIRHE"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.MESSAGE
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.MESSAGE"
-#| msgid ""
-#| "Failed to load one or more mods: {0}\n"
-#| "They will be re-installed when the game is restarted.\n"
-#| "Game may be unstable until then."
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.MESSAGE"
 msgid ""
 "Failed to load one or more mods:\n"
@@ -52835,7 +52796,8 @@ msgid ""
 "They will be re-installed when the game is restarted.\n"
 "Game may be unstable until then."
 msgstr ""
-"Yhden tai useamman modin lataaminen epäonnistui: {0}\n"
+"Yhden tai useamman modin lataaminen epäonnistui:\n"
+"{0}\n"
 "Ne asennetaan uudelleen, kun peli käynnistetään uudelleen.\n"
 "Siihen asti peli voi olla epävakaa."
 
@@ -52851,6 +52813,10 @@ msgid ""
 "{0}\n"
 "Disable all mods and restart, or continue in an unstable state?"
 msgstr ""
+"Käynnistäessä tapahtui virheitä seuraavien modien ollessa aktiivisia:\n"
+"{0}\n"
+"Haluatko poistaa kaikki modit käytöstä ja käynnistää uudelleen vai jatkaa "
+"epävakaassa tilassa?"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.MESSAGE"
@@ -52859,6 +52825,9 @@ msgid ""
 "{0}\n"
 "All your mods have been disabled. The game will be restarted."
 msgstr ""
+"Errors occurred during start-up with mods active:\n"
+"{0}\n"
+"Kaikki modisi on poistettu käytöstä. Peli käynnistetään uudelleen."
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.TITLE"
@@ -52892,6 +52861,10 @@ msgid ""
 "Restart required to reload mods.\n"
 "Game may be unstable until then."
 msgstr ""
+"Edellinen asetus:\n"
+"{0}\n"
+"Uudelleenkäynnistys vaaditaan modien uudelleenlataamiseksi.\n"
+"Peli saattaa siihen asti olla epävakaa."
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MODS_SCREEN_CHANGES.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MODS_SCREEN_CHANGES.TITLE"
@@ -53712,6 +53685,9 @@ msgid ""
 "Please check that you have permissions to write to:\n"
 "{0}"
 msgstr ""
+"Luvaton Pääsy -virhe tapahtui yrittäessä kirjoittaa levylle.\n"
+"Varmista, että sinulla on lupa kirjoittaa kohteeseen:\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.PLAYER_PREFS_CORRUPTED
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.PLAYER_PREFS_CORRUPTED"
@@ -53720,6 +53696,9 @@ msgid ""
 "They have been reset to their default settings.\n"
 "\n"
 msgstr ""
+"Pelisi asetuksia ladatessa ilmeni ongelmia.\n"
+"Ne on nollattu oletusasetuksiinsa.\n"
+"\n"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_INSUFFICIENT_SPACE
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_INSUFFICIENT_SPACE"
@@ -54330,14 +54309,13 @@ msgid "This plant requires a <style=\"KKeyword\">Light</style> source"
 msgstr "Tämä kasvi vaatii <style=\"KKeyword\">Valon</style>lähteen"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE"
-#| msgid "Ambient Gas pressure must be at least {0} for basic growth"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE"
 msgid ""
 "Ambient <style=\"KKeyword\">Gas</style> pressure must be at least <b>{0}</b> "
 "for basic growth"
-msgstr "Ympäröivän Kaasun paine tulee olla vähintään {0} peruskasvua varten"
+msgstr ""
+"Ympäröivän <style=\"KKeyword\">Kaasun</style> paine tulee olla vähintään "
+"<b>{0}</b> peruskasvua varten"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RECEPTACLE
 #, fuzzy
@@ -55102,12 +55080,12 @@ msgstr ""
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.BUILDMENUTITLE"
 msgid "Pipe Sensors"
-msgstr "Putki-ilmaisemet"
+msgstr "Putkitunnistimet"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.NAME"
 msgid "Pipe Sensors"
-msgstr "Putki-ilmaisemet"
+msgstr "Putkitunnistimet"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.TOOLTIP"
@@ -58796,12 +58774,6 @@ msgid "Work"
 msgstr "Työaika"
 
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION"
-#| msgid ""
-#| "During bathtime blocks my Duplicants will take care of their hygienic "
-#| "needs, such as going to the bathroom, using the shower or washing their "
-#| "hands."
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION"
 msgid ""
 "During Bathtime shifts my Duplicants will take care of their hygienic needs, "
@@ -58811,7 +58783,10 @@ msgid ""
 "work."
 msgstr ""
 "Kylpyaikoina Jäljennäiseni huolehtivat hygieniatarpeistaan, kuten vessassa "
-"käymisestä, suihkussa käymisestä tai käsiensä pesemisestä."
+"ja suihkussa käymisestä tai käsiensä pesemisestä.\n"
+"\n"
+"Kun he ovat hoitaneet henkilökohtaisen hygieniansa kuntoon, Jäljennäiset "
+"palaavat töihinsä."
 
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.NAME"
@@ -58819,20 +58794,15 @@ msgid "Bathtime"
 msgstr "Kylpyaika"
 
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.NOTIFICATION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION"
-#| msgid ""
-#| "During bathtime blocks my Duplicants will take care of their hygienic "
-#| "needs, such as going to the bathroom, using the shower or washing their "
-#| "hands."
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.NOTIFICATION_TOOLTIP"
 msgid ""
 "During <style=\"KKeyword\">Bathtime</style> shifts my Duplicants will take "
 "care of their hygienic needs, such as going to the bathroom, using the "
 "shower or washing their hands."
 msgstr ""
-"Kylpyaikoina Jäljennäiseni huolehtivat hygieniatarpeistaan, kuten vessassa "
-"käymisestä, suihkussa käymisestä tai käsiensä pesemisestä."
+"<style=\"KKeyword\">Kylpyaikoina</style> Jäljennäiseni huolehtivat "
+"hygieniatarpeistaan, kuten vessassa ja suihkussa käymisestä tai käsiensä "
+"pesemisestä."
 
 #. STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS"
@@ -58845,16 +58815,6 @@ msgid "No {0} shifts allotted"
 msgstr "Ei varattuja {0}vuoroja"
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
-#| msgid ""
-#| "During downtime my Duplicants they may do as they please.\n"
-#| "\n"
-#| "This may include personal matters like bathroom visits or snacking, or "
-#| "they may choose to engage in leisure activities like socializing with "
-#| "friends.\n"
-#| "\n"
-#| "Downtime increases Duplicant Morale."
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
 msgid ""
 "During Downtime my Duplicants they may do as they please.\n"
@@ -58866,9 +58826,9 @@ msgid ""
 msgstr ""
 "Vapaa-aikana Jäljennäiseni saavat tehdä, mitä haluavat.\n"
 "\n"
-"Tähän saattaa kuulua henkilökohtaiset asiat, kuten vessakäynnit tai "
-"välipalat tai he saattavat ryhtyä vapaa-ajan toimiin, kuten seurusteluun "
-"ystävien kanssa.\n"
+"Tähän saattaa kuulua henkilökohtaiset asiat, kuten vessakäynnit ja välipalat "
+"tai he saattavat ryhtyä vapaa-ajan toimiin, kuten seurusteluun ystävien "
+"kanssa.\n"
 "\n"
 "Vapaa-aika kasvattaa Jäljennäisten Moraalia."
 
@@ -58883,17 +58843,10 @@ msgid ""
 "During <style=\"KKeyword\">Downtime</style> shifts my Duplicants they may do "
 "as they please."
 msgstr ""
-"<style=\"KKeyword\">Vapaavuorollaan</style> Jäljennäisni saavat tehdä, mitä "
+"<style=\"KKeyword\">Vapaa-aikana</style> Jäljennäiseni saavat tehdä, mitä "
 "haluavat."
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
-#| msgid ""
-#| "My Duplicants use bedtime blocks to rest up after a hard day's work.\n"
-#| "\n"
-#| "Scheduling too few bedtime blocks may prevent my Duplicants from "
-#| "regaining enough Stamina to make it through the following day."
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
 msgid ""
 "My Duplicants use Bedtime shifts to rest up after a hard day's work.\n"
@@ -58901,7 +58854,7 @@ msgid ""
 "Scheduling too few bedtime shifts may prevent my Duplicants from regaining "
 "enough Stamina to make it through the following day."
 msgstr ""
-"Jäljennäiseni käyttävät nukkuma-aikoja levätäkseen rankan työpäivän "
+"Jäljennäiseni käyttävät Nukkuma-aikoja levätäkseen rankan työpäivän "
 "jälkeen.\n"
 "\n"
 "Jos nukkuma-aikoja aikatauluttaa liian vähän, se saattaa estää Jäljennäisiä "
@@ -58934,14 +58887,6 @@ msgstr ""
 "{1}"
 
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION"
-#| msgid ""
-#| "During Work shifts my Duplicants must perform the work tasks I have "
-#| "placed for them throughout the colony.\n"
-#| "\n"
-#| "It's important when scheduling to maintain a good work-life balance for "
-#| "my Duplicants to maintain their health and prevent Morale loss."
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION"
 msgid ""
 "During Work shifts my Duplicants must perform the errands I have placed for "
@@ -58962,19 +58907,13 @@ msgid "Work"
 msgstr "Työaika"
 
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NOTIFICATION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.WORK.DESCRIPTION"
-#| msgid ""
-#| "WORK:\n"
-#| "During Work hours Duplicants will perform any pending errands in the "
-#| "colony."
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NOTIFICATION_TOOLTIP"
 msgid ""
 "During <style=\"KKeyword\">Work</style> shifts my Duplicants must perform "
 "the errands I've placed for them throughout the colony."
 msgstr ""
-"TYÖAIKA:\n"
-"Työaikana Jäljennäiset suorittavat odottavia tehtäviä siirtokunnassa."
+"<style=\"KKeyword\">Työ-aikana</style> jäljennäiseni täytyy tehdä ympäri "
+"siirtokuntaa asettamiani tehtäviä."
 
 #. STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE"
@@ -59513,6 +59452,10 @@ msgid ""
 "\n"
 "This one is rainbow colored."
 msgstr ""
+"Ei ole selvää, onko tämä luonnollisesti esiintyvä muoto vai onko se "
+"veistetty sellaiseksi kuin se on.\n"
+"\n"
+"Tämä yksilö on sateenkaaren värinen."
 
 #. STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.NAME"
@@ -59533,6 +59476,8 @@ msgstr "Robottikäsi"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.DESCRIPTION"
 msgid "It's unclear how it formed, although I'm glad it did."
 msgstr ""
+"On epäselvää, miten se on muodostunut. Olen kuitenkin iloinen, että niin "
+"kävi."
 
 #. STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.NAME"
@@ -59542,17 +59487,17 @@ msgstr "Tornadokivi"
 #. STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION"
 msgid "This mystery of the universe has already been solved."
-msgstr ""
+msgstr "Maailmankaikkeuden arvoitus on jo selvitetty."
 
 #. STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.NAME"
 msgid "Rubik's Cube"
-msgstr ""
+msgstr "Rubikin Kuutio"
 
 #. STRINGS.UI.SPACEARTIFACTS.SANDSTONE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SANDSTONE.DESCRIPTION"
 msgid "A beautiful rock composed of multiple layers of sediment."
-msgstr ""
+msgstr "Kaunis, useista kerroksista muodostunut kivi."
 
 #. STRINGS.UI.SPACEARTIFACTS.SANDSTONE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SANDSTONE.NAME"
@@ -59567,7 +59512,7 @@ msgstr ""
 #. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.NAME"
 msgid "Mangled Saxophone"
-msgstr ""
+msgstr "Murjottu Saksofoni"
 
 #. STRINGS.UI.SPACEARTIFACTS.SHIELDGENERATOR.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SHIELDGENERATOR.DESCRIPTION"
@@ -59610,7 +59555,7 @@ msgstr ""
 #. STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.NAME"
 msgid "Stethoscope"
-msgstr ""
+msgstr "Stetoskooppi"
 
 #. STRINGS.UI.SPACEARTIFACTS.TEAPOT.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.TEAPOT.DESCRIPTION"
@@ -59621,12 +59566,12 @@ msgstr ""
 #. STRINGS.UI.SPACEARTIFACTS.TEAPOT.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.TEAPOT.NAME"
 msgid "Encrusted Teapot"
-msgstr ""
+msgstr "Peittynyt Teepannu"
 
 #. STRINGS.UI.SPACEARTIFACTS.VHS.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.VHS.DESCRIPTION"
 msgid "Be kind when you handle it. It's very fragile."
-msgstr ""
+msgstr "Käsittele sitä varoen. Se on erittäin särkyvä."
 
 #. STRINGS.UI.SPACEARTIFACTS.VHS.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.VHS.NAME"
@@ -59637,7 +59582,7 @@ msgstr "Muinaisaikainen Teknologia"
 msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.DESCRIPTION"
 msgid "A common asteroid containing several useful resources."
-msgstr ""
+msgstr "Yleinen asteroidi, joka sisältää useita käyttökelpoisia resursseja."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.NAME"
@@ -59649,6 +59594,8 @@ msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.GOLDASTEROID.DESCRIPTION"
 msgid ""
 "A rich asteroid with thin gold coating and veins of gold deposits throughout."
 msgstr ""
+"Rikas asteroidi, jolla on ohut, kultainen pintakerros ja kultasuonia "
+"ympäriinsä."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.GOLDASTEROID.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.GOLDASTEROID.NAME"
@@ -59658,7 +59605,7 @@ msgstr "Kullattu Asteroidi"
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.DESCRIPTION"
 msgid "A shimmering conglomerate of various metals."
-msgstr ""
+msgstr "Kimmeltävä kasautuma monenlaisia metalleja."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.NAME"
@@ -59671,6 +59618,8 @@ msgid ""
 "A viscous asteroid that is only loosely held together. Contains fossil fuel "
 "resources."
 msgstr ""
+"Tahmea asteroidi, joka pysyy löysästi kasassa. Sisältää fossiilisia "
+"polttoaineresursseja."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.OILYASTEROID.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.OILYASTEROID.NAME"
@@ -59718,6 +59667,8 @@ msgid ""
 "An artificial construct that has escaped its orbit. It no longer appears to "
 "be monitored."
 msgstr ""
+"Keinotekoinen rakennelma, joka on karannut kiertoradaltaan. Sitä ei "
+"ilmeisesti enää tarkkailla."
 
 #. STRINGS.UI.SPACEDESTINATIONS.DEBRIS.SATELLITE.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DEBRIS.SATELLITE.NAME"
@@ -59727,17 +59678,17 @@ msgstr "Sateliitti"
 #. STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.DUSTYDWARF.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.DUSTYDWARF.DESCRIPTION"
 msgid "A loosely held together composite of minerals."
-msgstr ""
+msgstr "Löyhästi kasassa pysyvä yhdistelmä mineraaleja."
 
 #. STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.DUSTYDWARF.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.DUSTYDWARF.NAME"
 msgid "Dusty Dwarf"
-msgstr ""
+msgstr "Pölyinen Kääpiö"
 
 #. STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ICYDWARF.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ICYDWARF.DESCRIPTION"
 msgid "A terrestrial destination, frozen completely solid."
-msgstr ""
+msgstr "Maankaltainen määränpää, joka on jäätynyt kovaksi."
 
 #. STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ICYDWARF.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ICYDWARF.NAME"
@@ -59841,12 +59792,13 @@ msgstr ""
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.RUSTPLANET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.RUSTPLANET.NAME"
 msgid "Oxidized Planetoid"
-msgstr ""
+msgstr "Hapettunut Planetoidi"
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.SALTDESERTPLANET.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.SALTDESERTPLANET.DESCRIPTION"
 msgid "A sweltering, desert-like planet covered in surface salt deposits."
 msgstr ""
+"Helteinen, aavikkomainen planeetta, jonka pinta on täynnä suolaesiintymiä."
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.SALTDESERTPLANET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.SALTDESERTPLANET.NAME"
@@ -59877,7 +59829,7 @@ msgstr ""
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.SHINYPLANET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.SHINYPLANET.NAME"
 msgid "Glimmering Planet"
-msgstr ""
+msgstr "Kimmeltävä Planeetta"
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.TERRAPLANET.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.TERRAPLANET.DESCRIPTION"
@@ -59907,6 +59859,8 @@ msgid ""
 "The source of our misfortune, though it may also be our shot at freedom. "
 "Traces of Neutronium are detectable in my readings."
 msgstr ""
+"Epäonnen lähde, vaikka se voi yhtä hyvin olla mahdollisuutemme vapauteen. "
+"Lukemani havaitsevat Neutronijäämiä."
 
 #. STRINGS.UI.SPACEDESTINATIONS.WORMHOLE.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.WORMHOLE.NAME"
@@ -64046,9 +64000,6 @@ msgid " m"
 msgstr " m"
 
 #. STRINGS.UI.UNITSUFFIXES.DUPLICANTS
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.SORT_BY_DUPLICANT"
-#| msgid "Duplicants"
 msgctxt "STRINGS.UI.UNITSUFFIXES.DUPLICANTS"
 msgid "Duplicants"
 msgstr "Jäljennäiset"
@@ -64079,12 +64030,9 @@ msgid " W"
 msgstr " W"
 
 #. STRINGS.UI.UNITSUFFIXES.GERMS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.GERMS"
-#| msgid "Germs"
 msgctxt "STRINGS.UI.UNITSUFFIXES.GERMS"
 msgid "Germs"
-msgstr "Bakteereja"
+msgstr "Bakteeria"
 
 #. STRINGS.UI.UNITSUFFIXES.GROWTH
 msgctxt "STRINGS.UI.UNITSUFFIXES.GROWTH"
@@ -64768,7 +64716,7 @@ msgstr ""
 "Yksi sivu pitkästä tulosteesta on säilynyt lukukelpoisena. Skannaan ja "
 "lisään sen tietopankkiini.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH1"
@@ -64848,14 +64796,6 @@ msgstr ""
 "löydy. Kuinka tylsää."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1"
-#| msgid ""
-#| "After searching through the computer's database, I managed to piece "
-#| "together some files that piqued my interest.\n"
-#| "\n"
-#| "New Codex Entry unlocked."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1"
 msgid ""
 "After searching through the computer's database, I managed to piece together "
@@ -64866,17 +64806,9 @@ msgstr ""
 "Tietokoneen tietokannan tutkittuani, onnistuin kokoamaan yhteen joitakin "
 "kiinnostavia tiedostoja.\n"
 "\n"
-"Uusi Koodeksimerkintä avattu."
+"Uusi Tietokantamerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH2
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH2"
-#| msgid ""
-#| "Searching through the computer, I find some recoverable files that are "
-#| "still readable.\n"
-#| "\n"
-#| "New Codex Entry unlocked."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH2"
 msgid ""
 "Searching through the computer, I find some recoverable files that are still "
@@ -64887,18 +64819,9 @@ msgstr ""
 "Tietokoneen sisältöä tutkiessa, löysin joitakin vielä luettavia "
 "palautuskelpoisia tiedostoja.\n"
 "\n"
-"Uusi Koodeksimerkintä avattu."
+"Uusi Tietokantamerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH3
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH3"
-#| msgid ""
-#| "The computer looks pristine on the outside, but is corrupted internally. "
-#| "Still, I managed to find one uncorrupted file, and have added it to my "
-#| "database.\n"
-#| "\n"
-#| "New Codex Entry unlocked."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH3"
 msgid ""
 "The computer looks pristine on the outside, but is corrupted internally. "
@@ -64911,17 +64834,9 @@ msgstr ""
 "on korruptoitunut. Siitä huolimatta, onnistuin löytämään yhden eheän "
 "tiedoston ja lisäämään sen tietokantaani.\n"
 "\n"
-"Uusi Koodeksimerkintä avattu."
+"Uusi Tietokantamerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH4
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH4"
-#| msgid ""
-#| "The computer was wiped almost completely clean, except for one file "
-#| "hidden in the recycle bin.\n"
-#| "\n"
-#| "New Codex Entry unlocked."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH4"
 msgid ""
 "The computer was wiped almost completely clean, except for one file hidden "
@@ -64932,17 +64847,9 @@ msgstr ""
 "Tietokone pyyhittiin lähes kokonaan puhtaaksi, yhtä roskakorissa olevaa "
 "piilotiedostoa lukuunottamatta.\n"
 "\n"
-"Uusi Koodeksimerkintä avattu."
+"Uusi Tietokantamerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH5
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH5"
-#| msgid ""
-#| "I search the computer, storing what useful data I can find in my own "
-#| "memory.\n"
-#| "\n"
-#| "New Codex Entry unlocked."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH5"
 msgid ""
 "I search the computer, storing what useful data I can find in my own "
@@ -64953,17 +64860,9 @@ msgstr ""
 "Tutkin tietokoneen, ottaen talteen kaiken käyttökelpoisen datan, minkä "
 "onnistuin löytämän.\n"
 "\n"
-"Uusi Koodeksimerkintä avattu."
+"Uusi Tietokantamerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH6
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH6"
-#| msgid ""
-#| "This computer is broken and requires some finessing to get working. "
-#| "Still, I recover a handful of interesting files.\n"
-#| "\n"
-#| "New Codex Entry unlocked."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH6"
 msgid ""
 "This computer is broken and requires some finessing to get working. Still, I "
@@ -64974,15 +64873,9 @@ msgstr ""
 "Tämä tietokone on rikki ja vaatii jonkin verran näppäryyttä saada se "
 "toimimaan. Silti, sain otettua talteen kourallisen kiinnostavia tiedostoja.\n"
 "\n"
-"Uusi Koodeksimerkintä avattu."
+"Uusi Tietokantamerkintä avattu."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_DISPLAY
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_DISPLAY"
-#| msgid ""
-#| "The display is still functional. I copy its message into my database.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_DISPLAY"
 msgid ""
 "The display is still functional. I copy its message into my database.\n"
@@ -64991,15 +64884,9 @@ msgid ""
 msgstr ""
 "Näyttö on vielä toimintakuntoinen. Kopioin sen viestin tietopankkiini.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_ELLIESDESK
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH6"
-#| msgid ""
-#| "I find a memory stick inside and copy its data into my database.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_ELLIESDESK"
 msgid ""
 "All I find on the machine is a curt e-mail from a disgruntled employee.\n"
@@ -65008,7 +64895,7 @@ msgid ""
 msgstr ""
 "Löydän sisältä muistitikun ja kopioin sen tiedot tietokantaani.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_FAIL.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_FAIL.SEARCH1"
@@ -65016,12 +64903,6 @@ msgid "I look around but find nothing of interest."
 msgstr "Katson ympärilleni, mutten löydä mitään kiinnostavaa."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH1
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH1"
-#| msgid ""
-#| "I look around and recover an old file.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH1"
 msgid ""
 "I look around and recover an old file.\n"
@@ -65030,15 +64911,9 @@ msgid ""
 msgstr ""
 "Katson ympärilleni ja löydän vanhan kansion.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH2
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH2"
-#| msgid ""
-#| "There's a three-ringed binder inside. I scan the surviving documents.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH2"
 msgid ""
 "There's a three-ringed binder inside. I scan the surviving documents.\n"
@@ -65047,16 +64922,9 @@ msgid ""
 msgstr ""
 "Sisällä on kolmirenkainen mappi. Skannaan selviytyneet dokumentit.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH3
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH3"
-#| msgid ""
-#| "A discarded journal inside remains mostly intact. I scan the pages of "
-#| "use.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH3"
 msgid ""
 "A discarded journal inside remains mostly intact. I scan the pages of use.\n"
@@ -65066,16 +64934,9 @@ msgstr ""
 "Sisällä oleva, hylätty päiväkirja on suurimmaksi osaksi ehjä. Skannaan "
 "käyttökelpoiset sivut.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH4
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH4"
-#| msgid ""
-#| "A single page of a long printout remains legible. I scan it and add it to "
-#| "my database.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH4"
 msgid ""
 "A single page of a long printout remains legible. I scan it and add it to my "
@@ -65086,16 +64947,9 @@ msgstr ""
 "Yksi sivu pitkästä tulosteesta on säilynyt lukukelpoisena. Skannaan ja "
 "lisään sen tietopankkiini.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH5
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH5"
-#| msgid ""
-#| "A few loose papers can be found inside. I scan the ones that look "
-#| "interesting.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH5"
 msgid ""
 "A few loose papers can be found inside. I scan the ones that look "
@@ -65106,15 +64960,9 @@ msgstr ""
 "Sisältä löytyy muutama irtonainen paperi. Skannaan ne, jotka vaikuttavat "
 "kiintoisilta.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH6
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH6"
-#| msgid ""
-#| "I find a memory stick inside and copy its data into my database.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_OBJECT_SUCCESS.SEARCH6"
 msgid ""
 "I find a memory stick inside and copy its data into my database.\n"
@@ -65123,16 +64971,9 @@ msgid ""
 msgstr ""
 "Löydän sisältä muistitikun ja kopioin sen tiedot tietokantaani.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_POD
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_POD"
-#| msgid ""
-#| "I search my incoming message history and find a single entry. I move the "
-#| "odd message into my database.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_POD"
 msgid ""
 "I search my incoming message history and find a single entry. I move the odd "
@@ -65143,17 +64984,9 @@ msgstr ""
 "Käyn läpi saapuneiden viestien historiani ja löydän yksittäisen merkinnän. "
 "Siirrän merkillisen viestin tietokantaani.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_STERNSDESK
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH2"
-#| msgid ""
-#| "I see if I can salvage anything from the electronics. I add what I find "
-#| "to the codex.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_STERNSDESK"
 msgid ""
 "There's an old magazine article from a publication called the \"Nucleoid\" "
@@ -65164,16 +64997,9 @@ msgstr ""
 "Katson, jos pystyn pelastamaan mitään sähkölaitteista. Lisään kaiken "
 "löytämäni koodeksiin.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH1
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH1"
-#| msgid ""
-#| "I scour the internal systems and find something of interest.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH1"
 msgid ""
 "I scour the internal systems and find something of interest.\n"
@@ -65182,17 +65008,9 @@ msgid ""
 msgstr ""
 "Koluan sisäiset järjestelmät ja löydän jotakin kiintoisaa.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH2
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH2"
-#| msgid ""
-#| "I see if I can salvage anything from the electronics. I add what I find "
-#| "to the codex.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH2"
 msgid ""
 "I see if I can salvage anything from the electronics. I add what I find to "
@@ -65203,17 +65021,9 @@ msgstr ""
 "Katson, jos pystyn pelastamaan mitään sähkölaitteista. Lisään kaiken "
 "löytämäni koodeksiin.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH3
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH3"
-#| msgid ""
-#| "I look for anything of interest within the abandoned machinery and add "
-#| "what I find to my database.\n"
-#| "\n"
-#| "New Codex Entry discovered."
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH3"
 msgid ""
 "I look for anything of interest within the abandoned machinery and add what "
@@ -65224,7 +65034,7 @@ msgstr ""
 "Etsin kaiken kiinnostavan hylätystä koneistosta ja lisään löydökseni "
 "tietokantaani.\n"
 "\n"
-"Uusi Koodeksimerkintä löydetty."
+"Uusi Tietokantamerkintä löydetty."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP"
@@ -65284,13 +65094,6 @@ msgid "Clearance: Always"
 msgstr "Pääsy: Aina"
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.TOOLTIP"
-#| msgid ""
-#| "Suited Duplicants may pass even if there is no room to store their suits\n"
-#| "------------------\n"
-#| "When Exosuit Docks are all full, Duplicants will unequip their suits and "
-#| "drop them on the floor"
 msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.TOOLTIP"
 msgid ""
 "Suited Duplicants may pass even if there is no room to store their suits\n"
@@ -65301,8 +65104,8 @@ msgstr ""
 "Puku päällä olevat Jäljennäiset pääsevät läpi, vaikkei heidän pukujensa "
 "varastoimiseen olisikaan tilaa\n"
 "------------------\n"
-"Kun Eksopukutelakat ovat täysiä, Jäljennäiset ottavat puvut pois ja "
-"pudottavat ne lattialle"
+"Kun telakat ovat täysiä, Jäljennäiset ottavat puvut pois ja pudottavat ne "
+"lattialle"
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.NAME
 msgctxt ""
@@ -65312,13 +65115,6 @@ msgid "Clearance: Vacancy"
 msgstr "Pääsy: Kun Vapaana"
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE."
-#| "TOOLTIP"
-#| msgid ""
-#| "Suited Duplicants may pass only if there is room in an Exosuit Dock to "
-#| "store their suit"
 msgctxt ""
 "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE."
 "TOOLTIP"
@@ -65326,8 +65122,8 @@ msgid ""
 "Suited Duplicants may only pass if there is an available dock to store their "
 "suit"
 msgstr ""
-"Pukuun pukeutuneet Jäljennäiset pääsevät läpi vain jos Eksopukutelakalla on "
-"tilaa heidän pukunsa varastoimiseksi"
+"Pukuun pukeutuneet Jäljennäiset pääsevät läpi vain jos telakalla on tilaa "
+"heidän pukunsa varastoimiseksi"
 
 #. STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME"
@@ -65394,12 +65190,9 @@ msgstr "Valitse pakottaaksesi Jäljennäiset peseytymään ohittaessaan oikealta
 #. STRINGS.UI.VICTORYSCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.VICTORYSCREEN.DESCRIPTION"
 msgid "I have fulfilled the conditions of one of my Hardwired Imperatives"
-msgstr ""
+msgstr "Olen täyttänyt ehdot yhtelle Kovajuotetuista Pakotteistani"
 
 #. STRINGS.UI.VICTORYSCREEN.DISMISSBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.COLONYLOSTSCREEN.DISMISSBUTTON"
-#| msgid "DISMISS"
 msgctxt "STRINGS.UI.VICTORYSCREEN.DISMISSBUTTON"
 msgid "DISMISS"
 msgstr "OHITA"
@@ -65410,26 +65203,18 @@ msgid "SUCCESS: IMPERATIVE ACHIEVED!"
 msgstr "ONNISTUI: PAKOTE TÄYTETTY!"
 
 #. STRINGS.UI.VICTORYSCREEN.RESTARTPROMPT
-#, fuzzy
-#| msgctxt "STRINGS.UI.COLONYLOSTSCREEN.RESTARTPROMPT"
-#| msgid ""
-#| "Press <color=#F44A47><b>[ESC]</b></color> to return to a previous colony, "
-#| "or begin a new one."
 msgctxt "STRINGS.UI.VICTORYSCREEN.RESTARTPROMPT"
 msgid ""
 "Press <color=#F44A47><b>[ESC]</b></color> to retire the colony and begin "
 "anew."
 msgstr ""
-"Paina <color=#F44A47>[ESC]</color> palataksesi edelliseen siirtokuntaan tai "
-"aloittaaksesi uuden."
+"Paina <color=#F44A47>[ESC]</color> hylätäksesi siirtokunnan ja aloittaaksesi "
+"uudestaan."
 
 #. STRINGS.UI.VICTORYSCREEN.RETIREBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.IMMIGRANTSCREEN.NAME_YOUR_COLONY"
-#| msgid "NAME THE COLONY"
 msgctxt "STRINGS.UI.VICTORYSCREEN.RETIREBUTTON"
 msgid "RETIRE COLONY"
-msgstr "NIMEÄ SIIRTOKUNTA"
+msgstr "HYLKÄÄ SIIRTOKUNTA"
 
 #. STRINGS.UI.VIEWDUPLICANTS
 msgctxt "STRINGS.UI.VIEWDUPLICANTS"
@@ -65467,11 +65252,6 @@ msgid "This plant will take {0} to grow domestically"
 msgstr "Tällä kasvilla kestää {0} kasvaa viljeltynä"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC_INSTANT.BASE
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.BASE"
-#| msgid ""
-#| "<b>Domestic Growth\n"
-#| "[Life Cycle: {0}]</b>"
 msgctxt ""
 "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC_INSTANT.BASE"
 msgid ""
@@ -65479,18 +65259,15 @@ msgid ""
 "[{0}% Throughput]</b>"
 msgstr ""
 "<b>Viljelykasvu\n"
-"[Elinkaari: {0}]</b>"
+"[{0}% Tuotto]</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC_INSTANT.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC.TOOLTIP"
-#| msgid "This plant will take {0} to grow domestically"
 msgctxt ""
 "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC_INSTANT."
 "TOOLTIP"
 msgid "This plant must have these requirements met to grow domestically"
-msgstr "Tällä kasvilla kestää {0} kasvaa viljeltynä"
+msgstr ""
+"Tällä kasvilla täytyy olla seuraavat ehdot täytettyinä kasvaakseen viljeltynä"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.BASE
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.BASE"
@@ -65521,46 +65298,30 @@ msgid "This plant will take {0} to grow in the wild"
 msgstr "Tällä kasvilla kestää {0} kasvaa villinä"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD_DECOR.BASE
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.BASE"
-#| msgid ""
-#| "<b>Wild Growth\n"
-#| "[Life Cycle: {0}]</b>"
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD_DECOR.BASE"
 msgid "<b>Wild Growth</b>"
-msgstr ""
-"<b>Villi Kasvu\n"
-"[Elinkaari: {0}]</b>"
+msgstr "<b>Villi Kasvu</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD_DECOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.TOOLTIP"
-#| msgid "This plant will take {0} to grow in the wild"
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD_DECOR.TOOLTIP"
 msgid "This plant must have these requirements met to grow in the wild"
-msgstr "Tällä kasvilla kestää {0} kasvaa villinä"
+msgstr ""
+"Tällä kasvilla täytyy olla seuraavat ehdot täytettyinä kasvaakseen villinä"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD_INSTANT.BASE
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.BASE"
-#| msgid ""
-#| "<b>Wild Growth\n"
-#| "[Life Cycle: {0}]</b>"
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD_INSTANT.BASE"
 msgid ""
 "<b>Wild Growth\n"
 "[{0}% Throughput]</b>"
 msgstr ""
 "<b>Villi Kasvu\n"
-"[Elinkaari: {0}]</b>"
+"[{0}%:n Tuotto]</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD_INSTANT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.TOOLTIP"
-#| msgid "This plant will take {0} to grow in the wild"
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD_INSTANT.TOOLTIP"
 msgid "This plant must have these requirements met to grow in the wild"
-msgstr "Tällä kasvilla kestää {0} kasvaa villinä"
+msgstr ""
+"Tällä kasvilla täytyy olla seuraavat ehdot täytettyinä kasvaakseen villinä"
 
 #. STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS"
@@ -65578,18 +65339,9 @@ msgid "Eaten Today"
 msgstr "Syöty Tänään"
 
 #. STRINGS.UI.VITALSSCREEN.EATEN_TODAY_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY_TOOLTIP"
-#| msgid ""
-#| "Eaten Today\n"
-#| "------------------\n"
-#| "Consumed {0} of food this cycle"
 msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY_TOOLTIP"
 msgid "Consumed {0} of food this cycle"
-msgstr ""
-"Syönyt Tänään\n"
-"------------------\n"
-"{0} ruokaa kulutettu tällä kierrolla"
+msgstr "Syönyt {0} edestä ruokaa tällä kierrolla"
 
 #. STRINGS.UI.VITALSSCREEN.EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.EXPECTATIONS"
@@ -65632,19 +65384,13 @@ msgid "Morale"
 msgstr "Moraali"
 
 #. STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS_TOOLTIP"
-#| msgid ""
-#| "This Duplicant needs a Morale rating of {0}.\n"
-#| "\n"
-#| "Current Morale:"
 msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS_TOOLTIP"
 msgid ""
 "This Duplicant requires <link=\"MORALE\">{0} Morale</link>.\n"
 "\n"
 "Current Morale:"
 msgstr ""
-"Tämä Jäljennäinen tarvitsee Moraaliarvon {0}.\n"
+"Tämä Jäljennäinen tarvitsee <link=\"MORALE\">{0} Moraali</link>arvon {0}.\n"
 "\n"
 "Nykyinen Moraali:"
 

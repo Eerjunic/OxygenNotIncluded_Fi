@@ -3,7 +3,7 @@ Oxygen Not Included, suomen kielen käännösprojekti
 
 Tämän projektin tarkoitus on kääntää Oxygen Not Included -pelin tekstit selvälle ja hyvälle suomen kielelle. Ohjeet käätämiseen (englanniksi) löytyy osoitteesta https://forums.kleientertainment.com/topic/74765-creatingusing-translation-files-updated-august-22nd-2017/.
 
-Edistyminen 30.8.2019: 93 % valmis, 678 pätkää kääntämättä.
+Edistyminen 31.8.2019: 93 % valmis, 614 pätkää kääntämättä.
 
 Tiedoston käyttö pelissä:
 1. lataa strings.po

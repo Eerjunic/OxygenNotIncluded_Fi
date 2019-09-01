@@ -2288,7 +2288,7 @@ msgid ""
 "Duplicants can only exit a tube when there is somewhere for them to land "
 "within <b>two tiles</b>"
 msgstr ""
-"Jäljennäiset voivat poistua putkesta vain, jos heillä on <b>kahden laatan</"
+"Jäljennäiset voivat poistua putkesta vain, jos heillä on <b>kahden ruudun</"
 "b> etäisyydellä paikka, jolle laskeutua"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
@@ -6101,7 +6101,7 @@ msgstr "<link=\"GASVALVE\">Kaasuventtiili</link>"
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.DESC"
 msgid "Vents are an exit point for gases from ventilation systems."
-msgstr "Aukkojen kautta kaasu poistuu IV-järjestelmästä."
+msgstr "Aukkojen kautta kaasu poistuu Ilmanvaihtojärjestelmästä."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.EFFECT"
@@ -16217,15 +16217,6 @@ msgid "Gas Grass"
 msgstr "Kaasuruoho"
 
 #. STRINGS.CODEX.GASSYMOO.BODY.CONTAINER1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.GASSYMOO.BODY.CONTAINER1"
-#| msgid ""
-#| "Little is currently known of the Gassy Moo due to its alien nature and "
-#| "origin.\n"
-#| "\n"
-#| "It is capable of surviving in zero gravity and atmosphere, and is "
-#| "dependent of a second alien species, <link=\"GASGRASS\">Gas Grass</link>, "
-#| "for its survival."
 msgctxt "STRINGS.CODEX.GASSYMOO.BODY.CONTAINER1"
 msgid ""
 "Little is currently known of the Gassy Moo due to its alien nature and "
@@ -16248,6 +16239,8 @@ msgid ""
 "The Moo has an even temperament and can be farmed for Natural Gas, though "
 "their method of reproduction has been as of yet undiscovered."
 msgstr ""
+"Ammulla on tasainen temperamentti ja sitä voidaan kasvattaa Maakaasun "
+"tuotantoa varten, vaikka niiden lisääntymiskeinoa ei ole vielä selvitetty."
 
 #. STRINGS.CODEX.GASSYMOO.SUBTITLE
 msgctxt "STRINGS.CODEX.GASSYMOO.SUBTITLE"
@@ -16776,6 +16769,9 @@ msgid ""
 "of lungs, allowing it to hold its breath during the long periods it spends "
 "underground."
 msgstr ""
+"Lapamyyrä on ainutlaatuinen olio, jolla on kaksi täysin kehittynyttä "
+"keuhkoparia, joiden ansiosta se kykenee pidättämään hengitystään pitkiä "
+"aikoja maanalla."
 
 #. STRINGS.CODEX.MOLE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MOLE.BODY.CONTAINER2"
@@ -16783,6 +16779,8 @@ msgid ""
 "Drill-shaped keratin structures circling the Vole's body aids its ability to "
 "drill at high speeds through most natural materials."
 msgstr ""
+"Poran muotoiset keratiinirakenteet kiertävät Myytän kehoa, avustaen sen "
+"kykyä porautua nopeasti useimpien luonnollisten materiaalien lävitse."
 
 #. STRINGS.CODEX.MOLE.SUBTITLE
 msgctxt "STRINGS.CODEX.MOLE.SUBTITLE"
@@ -16797,7 +16795,7 @@ msgstr "Lapamyyrä"
 #. STRINGS.CODEX.MOLTEN.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MOLTEN.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Molten\" Slickster variant</smallcaps>"
-msgstr ""
+msgstr "<smallcaps>Kuvassa: \"Sula\" Liukujalajike</smallcaps>"
 
 #. STRINGS.CODEX.MOLTEN.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MOLTEN.BODY.CONTAINER2"
@@ -16809,6 +16807,12 @@ msgid ""
 "ideal house pets only for the oily mess they involuntarily leave behind "
 "wherever they go."
 msgstr ""
+"Liukujat ovat sopuisia olioita, jotka ovat suosittuja kasvattajien "
+"keskuudessa niiden hyvän luonteen ja hymynaamojen takia.\n"
+"\n"
+"Liukujat harvoin, jos koskaan, näykkäävät ihmisiä ja niitä pidetään "
+"epäsoveliaiksi sisälemmikeiksi ainoastaan niiden jälkeensä jättävän öljyisen "
+"sotkun takia."
 
 #. STRINGS.CODEX.MOLTEN.SUBTITLE
 msgctxt "STRINGS.CODEX.MOLTEN.SUBTITLE"
@@ -18215,19 +18219,6 @@ msgid "<smallcaps>Pictured: \"Stone\" Hatch variant</smallcaps>"
 msgstr "<smallcaps>Kuvassa: \"Kivi\" Kuoriaislajike</smallcaps>"
 
 #. STRINGS.CODEX.STONE.BODY.CONTAINER2
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HATCH.BODY.CONTAINER3"
-#| msgid ""
-#| "When attempting to pet a Hatch, inexperienced handlers make the mistake "
-#| "of reaching out too quickly for the creature's head.\n"
-#| "\n"
-#| "This triggers a fear response in the Hatch, as its photosensitive patch "
-#| "of skin called the \"parietal eye\" interprets this sudden light change "
-#| "as an incoming aerial predator.\n"
-#| "\n"
-#| "The proper way to pet a Hatch is to touch any of its four feet to first "
-#| "make it aware of your presence, then either scratch the soft segmented "
-#| "underbelly or firmly pat the creature's thick chitinous back."
 msgctxt "STRINGS.CODEX.STONE.BODY.CONTAINER2"
 msgid ""
 "When attempting to pet a Hatch, inexperienced handlers make the mistake of "
@@ -18242,12 +18233,7 @@ msgstr ""
 "\n"
 "Tämä aktivoi Kuoriaisessa pelkovasteen, koska sen valoherkkä läikkä ihoa, "
 "jota kutsutaan \"päälaen silmäksi\" tulkitsee äkillisen valon muutoksen "
-"lähestyvänä, lentävänä saalistajana.\n"
-"\n"
-"Oikeaoppinen tapa silittää Kuoriaista on ensin koskettaa mitä tahansa sen "
-"neljästä jalasta, jotta se tulisi tietoiseksi läsnäolostasi. Sen jälkeen "
-"rapsuttaa sen segmentoitua alavatsaa tai lujasti taputtaa olion paksua, "
-"kitiinistä selkää."
+"lähestyvänä, lentävänä saalistajana."
 
 #. STRINGS.CODEX.STONE.SUBTITLE
 msgctxt "STRINGS.CODEX.STONE.SUBTITLE"
@@ -18300,7 +18286,7 @@ msgstr "<link=\"STRESS\">Ahdistus</link>"
 #. STRINGS.CODEX.SUNNY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SUNNY.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Sun\" Shine Bug variant</smallcaps>"
-msgstr ""
+msgstr "<smallcaps>Kuvassa: \"Aurinko\" Kiiltoötökkälajike</smallcaps>"
 
 #. STRINGS.CODEX.SUNNY.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.SUNNY.BODY.CONTAINER2"
@@ -18465,6 +18451,8 @@ msgid ""
 "It is unwise to touch a Shine Bug's wing blades directly due to the "
 "extremely fragile nature of their membranes."
 msgstr ""
+"On epäviisasta koskea suoraan Kiiltoötökän siipiin johtuen niiden "
+"äärimmäisen herkästä kalvorakenteesta."
 
 #. STRINGS.CODEX.VITAL.SUBTITLE
 msgctxt "STRINGS.CODEX.VITAL.SUBTITLE"
@@ -18976,7 +18964,7 @@ msgstr ""
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.AUTOMATE_A_BUILDING"
 msgid "Automated a building"
-msgstr "Automatisoi Rakennuksen"
+msgstr "Automatisoi Rakennus"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BLOCKED_A_COMET
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BLOCKED_A_COMET"
@@ -18986,7 +18974,7 @@ msgstr "Torju meteoriitti käyttämällä Bunkkeriovea"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILING_BEDS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILING_BEDS"
 msgid "Built beds: {0} ({1} Needed)"
-msgstr "Rakensi sänkyjä: {0} ({1} Tarvitaan)"
+msgstr "Sänkyjä rakennettu: {0} ({1} Tarvitaan)"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_A_ROOM
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_A_ROOM"
@@ -20261,7 +20249,7 @@ msgstr "Kaasuruoho."
 msgctxt "STRINGS.CREATURES.SPECIES.GASGRASS.DOMESTICATEDDESC"
 msgid ""
 "An alien grass variety that is eaten by <link=\"MOO\">Gassy Moos</link>."
-msgstr " <link=\"MOO\">Kaasuammujen</link> syömä vieras ruoholaji."
+msgstr "<link=\"MOO\">Kaasuammujen</link> syömä vieras ruoholaji."
 
 #. STRINGS.CREATURES.SPECIES.GASGRASS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GASGRASS.NAME"
@@ -24440,15 +24428,13 @@ msgid "Happiness"
 msgstr "Onnellisuus"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.DESC"
-#| msgid ""
-#| "Contented critters produce usable materials with increased frequency."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.DESC"
 msgid ""
 "Contented <link=\"CREATURES\">Critters</link> produce usable materials with "
 "increased frequency."
-msgstr "Tyytyväiset otukset tuottavat käyttökelpoisia materiaaleja tiheämmin."
+msgstr ""
+"Tyytyväiset <link=\"CREATURES\">Otukset</link> tuottavat käyttökelpoisia "
+"materiaaleja tiheämmin."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.NAME"
@@ -24470,16 +24456,9 @@ msgid "<link=\"HEALTH\">Health</link>"
 msgstr "<link=\"HEALTH\">Terveys</link>"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.DESC"
-#| msgid ""
-#| "<link=\"HYGIENE\">Hygiene</link> affects a Duplicant's sense of "
-#| "cleanliness."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.DESC"
 msgid "Affects a Duplicant's sense of cleanliness."
-msgstr ""
-"<link=\"HYGIENE\">Hygienia</link> vaikuttaa Jäljennäisen "
-"puhtaudentuntemukseen."
+msgstr "Vaikuttaa Jäljennäisen puhtaudentuntemukseen."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.NAME"
@@ -24507,14 +24486,13 @@ msgid "Immunity Attribute"
 msgstr "Vastustuskykyattribuutti"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.IMMUNITY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.IMMUNITY.DESC"
-#| msgid "Determines a Duplicant's disease susceptibility and recovery time."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.IMMUNITY.DESC"
 msgid ""
 "Determines a Duplicant's <style=\"KKeyword\">Disease</style> susceptibility "
 "and recovery time."
-msgstr "Määrittää Jäljennäisen sairastumistodennäköisyyden ja palautumisajan."
+msgstr ""
+"Määrittää Jäljennäisen <style=\"KKeyword\">Sairastumis</style>herkkyyden ja "
+"palautumisajan."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.IMMUNITY.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.IMMUNITY.NAME"
@@ -24532,19 +24510,15 @@ msgid "Incubation Rate"
 msgstr "Hautomisnopeus"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.INSULATION.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INSULATION.DESC"
-#| msgid ""
-#| "Highly insulated Duplicants retain body heat easily, while low insulation "
-#| "Duplicants are easier to keep cool."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INSULATION.DESC"
 msgid ""
 "Highly <style=\"KKeyword\">Insulated</style> Duplicants retain body heat "
 "easily, while low <style=\"KKeyword\">Insulation</style> Duplicants are "
 "easier to keep cool."
 msgstr ""
-"Korkesti eristetyt Jäljennäiset pitävät ruumiinlämpönsä helpommin, kun taas "
-"alhaisesti eristetyt pysyvät paremmin viileänä."
+"Korkesti <style=\"KKeyword\">Eristetyt</style> Jäljennäiset pitävät "
+"ruumiinlämpönsä helpommin, kun taas alhaisesti <style=\"KKeyword"
+"\">Eristetyt</style> pysyvät paremmin viileänä."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.INSULATION.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INSULATION.NAME"
@@ -24735,7 +24709,7 @@ msgid ""
 "Total <b>Morale Need</b>: {0}\n"
 "    • Skills Learned: +{0}"
 msgstr ""
-"Yhteenlaskettu <b>Moraalitarve</b>: {0}\n"
+"Kokonais<b>moraalitarve</b>: {0}\n"
 "    • Taitoja Opittu: +{0}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_OVER
@@ -31376,7 +31350,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME"
 msgid "<link=\"JUNIORMINER\">Hard Digging</link>"
-msgstr "<link=\"JUNIORMINER\">Kova Kaivaja</link>"
+msgstr "<link=\"JUNIORMINER\">Kova Kaivaminen</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.DESCRIPTION"
@@ -31462,7 +31436,7 @@ msgstr "Mahdollistaa <link=\"KATAIRITE\">Abyssaliitin</link> kaivuun"
 #. STRINGS.DUPLICANTS.ROLES.MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.NAME"
 msgid "<link=\"MINER\">Superhard Digging</link>"
-msgstr "<link=\"MINER\">Tosi Kova Kaivaja</link>"
+msgstr "<link=\"MINER\">Tosi Kova Kaivaminen</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.NO_ROLE.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.NO_ROLE.DESCRIPTION"
@@ -47421,7 +47395,7 @@ msgstr "Jäähdytin: {1} {0}"
 #. STRINGS.UI.BUILDINGEFFECTS.DECORPROVIDED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DECORPROVIDED"
 msgid "<link=\"DECOR\">Decor</link>: {1} (Radius: {2} tiles)"
-msgstr "<link=\"DECOR\">Koristus</link>: {1} (Säde: {2} tiles)"
+msgstr "<link=\"DECOR\">Koristus</link>: {1} (Säde: {2} ruutua)"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_CONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DIET_CONSUMED"
@@ -48215,8 +48189,8 @@ msgid ""
 msgstr ""
 "Haihduttaa <style=\"consumed\">{0}</style joka sekunti\n"
 "\n"
-"Yhteenlaskettuun <style=\"KKeyword\">Lämpötilan</style>muutokseen voi "
-"vaikuttaa jäähdyttävän materiaalin ominaisuudet:\n"
+"Kokonais<style=\"KKeyword\">lämpötilan</style>muutokseen voi vaikuttaa "
+"jäähdyttävän materiaalin ominaisuudet:\n"
 "    • massa\n"
 "    • ominaislämpökapasiteetti\n"
 "    • pinnan ala\n"
@@ -48238,7 +48212,7 @@ msgid ""
 msgstr ""
 "Tuottaa <style=\"produced\">{0}</style> joka sekunti\n"
 "\n"
-"Yhteenlaskettuun <style=\"KKeyword\">Lämpötilan</style>muutokseen vaikuttaa "
+"Kokonais<style=\"KKeyword\">lämpötilan</style>muutokseen vaikuttaa "
 "jäähdyttävän materiaalin ominaisuudet:\n"
 "    • massa\n"
 "    • ominaislämpökapasiteetti\n"
@@ -49445,7 +49419,7 @@ msgstr "Jouleja yhteensä: {0}"
 msgctxt ""
 "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_MASS"
 msgid "Total mass: {0}"
-msgstr "Yhteenlaskettu massa: {0}"
+msgstr "Kokonaismassa: {0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.TITLE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.TITLE"
@@ -49535,7 +49509,7 @@ msgid ""
 "All {BestGroup} Errands: {TypePriority}\n"
 "\n"
 "Total Priority: {TotalPriority}"
-msgstr "Yhteenlaskettu Tärkeys: {TotalPriority}"
+msgstr "Kokonaistärkeys: {TotalPriority}"
 
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.NAME
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.NAME"
@@ -50047,7 +50021,7 @@ msgid ""
 "The total amount of power that can be used by this circuit if all connected "
 "buildings are active"
 msgstr ""
-"Tämän piirin suurin yhteenlaskettu sähkönkulutus, mikäli kaikki kytketyt "
+"Tämän piirin suurin kokonaissähkönkulutus, mikäli kaikki kytketyt "
 "rakennukset ovat päällä"
 
 #. STRINGS.UI.DETAILTABS.ENERGYGENERATOR.TOOLTIP
@@ -50063,7 +50037,7 @@ msgstr "<link=\"POWER\">Sähköä</link> kulutettu: {0}"
 #. STRINGS.UI.DETAILTABS.ENERGYGENERATOR.WATTAGE_CONSUMED_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.ENERGYGENERATOR.WATTAGE_CONSUMED_TOOLTIP"
 msgid "The total amount of power used by this circuit"
-msgstr "Tämän piirin yhteenlaskettu sähkönkulutus"
+msgstr "Tämän piirin kokonaissähkönkulutus"
 
 #. STRINGS.UI.DETAILTABS.ENERGYGENERATOR.WATTAGE_GENERATED
 msgctxt "STRINGS.UI.DETAILTABS.ENERGYGENERATOR.WATTAGE_GENERATED"
@@ -50073,7 +50047,7 @@ msgstr "<link=\"POWER\">Sähköä</link> tuotettu: {0}"
 #. STRINGS.UI.DETAILTABS.ENERGYGENERATOR.WATTAGE_GENERATED_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.ENERGYGENERATOR.WATTAGE_GENERATED_TOOLTIP"
 msgid "The total amount of power generated by this circuit"
-msgstr "Tämän piirin yhteenlaskettu sähköntuotto"
+msgstr "Tämän piirin kokonaissähköntuotto"
 
 #. STRINGS.UI.DETAILTABS.ENERGYWIRE.NAME
 msgctxt "STRINGS.UI.DETAILTABS.ENERGYWIRE.NAME"
@@ -51102,14 +51076,12 @@ msgstr "<link=\"STRESS\">Ahdistuksen</link> muutos:"
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NEGATIVE_TOOLTIP"
 msgid "My colony's total <link=\"STRESS\">Stress</link> has decreased by {0}"
-msgstr ""
-"Siirtokuntani yhteenlaskettu <link=\"STRESS\">Ahdistus</link> laski {0}"
+msgstr "Siirtokuntani kokonais<link=\"STRESS\">ahdistus</link> laski {0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.POSITIVE_TOOLTIP"
 msgid "My colony's total <link=\"STRESS\">Stress</link> has increased by {0}"
-msgstr ""
-"Siirtokuntani yhteenlaskettu <link=\"STRESS\">Ahdistus</link> nousi {0}"
+msgstr "Siirtokuntani kokonais<link=\"STRESS\">ahdistus</link> nousi {0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TIME_DETAILS_HEADER
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_DETAILS_HEADER"
@@ -53531,7 +53503,7 @@ msgstr "Esiasennetut Kielipaketit"
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.EN
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.EN"
 msgid "English (Klei)"
-msgstr "Englantin (Klei)"
+msgstr "Englanti (Klei)"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.KO_KLEI
 msgctxt ""
@@ -56786,7 +56758,7 @@ msgid ""
 "    • Maximum room size: {1} Tiles</color>"
 msgstr ""
 "<color=#F44A47FF>    • Koko: {0} Laattaa\n"
-"    • Huoneen enimmäiskoko: {1} Laattaa</color>"
+"    • Huoneen enimmäiskoko: {1} Ruutua</color>"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.ROOM
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.ROOM"
@@ -57235,17 +57207,17 @@ msgstr "Villit Otukset"
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.OXYGEN_CONSUMED
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.OXYGEN_CONSUMED"
 msgid "Total Oxygen Consumed"
-msgstr "Yhteenlaskettu Hapenkulutus"
+msgstr "Kokonaishapenkulutus"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.OXYGEN_CREATED
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.OXYGEN_CREATED"
 msgid "Total Oxygen Produced"
-msgstr "Yhteenlaskettu Hapentuotto"
+msgstr "Kokonaishapentuotto"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.POWER_CREATED
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.POWER_CREATED"
 msgid "Average Power Produced"
-msgstr "Yhteenlaskettu Sähköntuotto"
+msgstr "Kokonaissähköntuotto"
 
 # Tilavuusvirta?
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.POWER_WASTED
@@ -58632,7 +58604,7 @@ msgid ""
 "During <style=\"KKeyword\">Work</style> shifts my Duplicants must perform "
 "the errands I've placed for them throughout the colony."
 msgstr ""
-"<style=\"KKeyword\">Työ-aikana</style> jäljennäiseni täytyy tehdä ympäri "
+"<style=\"KKeyword\">Työaikana</style> jäljennäiseni täytyy tehdä ympäri "
 "siirtokuntaa asettamiani tehtäviä."
 
 #. STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE
@@ -60251,12 +60223,12 @@ msgstr "Hapetinta yhteensä"
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_RANGE
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_RANGE"
 msgid "Total range"
-msgstr "Yhteenlaskettu kantama"
+msgstr "Kokonaiskantama"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_THRUST
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_THRUST"
 msgid "Total thrust"
-msgstr "Yhteenlaskettu työntövoima"
+msgstr "Kokonaistyöntövoima"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.WET_MASS
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.WET_MASS"
@@ -62748,6 +62720,9 @@ msgid ""
 "the total charge of the connected <style=\"KKeyword\">Batteries</style> "
 "falls below <b>{1}%</b>"
 msgstr ""
+"Jäljennäisiä pyydetään toimittamaan <style=\"KKeyword\">{0}</style> kun "
+"yhdistettyjen <style=\"KKeyword\">Akkujen</style> kokonaisvaraus putoaa alle "
+"<b>{1}%:n</b>"
 
 #. STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.CURRENT_THRESHOLD
 msgctxt "STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.CURRENT_THRESHOLD"
@@ -62766,6 +62741,8 @@ msgid ""
 "of the connected <style=\"KKeyword\">Batteries</style> falls below <b>{0}%</"
 "b>"
 msgstr ""
+"Jäljennäisiä pyydetään käyttämään tätä generaattoria, kun yhdistettyjen "
+"<style=\"KKeyword\">Akkujen</style> kokonaisvaraus putoaa alle <b>{0}%:n</b>"
 
 #. STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TITLE"
@@ -62778,6 +62755,8 @@ msgid ""
 "A Duplicant may not use this cot until their <style=\"KKeyword\">Health</"
 "style> falls below <b>{0}%</b>"
 msgstr ""
+"Jäljennäinen ei saa käyttää tätä vuodetta, ennen kuin heidän <style="
+"\"KKeyword\">Terveytensä</style> putoaa alle <b>{0}%<:/b>"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_GROUP_SEPARATOR
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_GROUP_SEPARATOR"
@@ -62830,7 +62809,7 @@ msgstr ""
 "\n"
 "<b>{Errand}</b> on tahaton toiminto, joten se tapahtuu välittömästi\n"
 "\n"
-"Yhteenlaskettu <style=\"KKeyword\">Tärkeys</style>: {TotalPriority}\n"
+"Kokonais<style=\"KKeyword\">tärkeys</style>: {TotalPriority}\n"
 "    • Tahaton: {ClassPriority}\n"
 "    • Kaikki {BestGroup}työt: {TypePriority}"
 
@@ -62866,7 +62845,7 @@ msgstr ""
 "<b>{Errand}</b> on Hätätyö, joten se suoritetaan ennen kaikkia Tavallisia ja "
 "Henkilökohtaisia töitä\n"
 "\n"
-"Yhteenlaskettu <style=\"KKeyword\">Tärkeys</style>: {TotalPriority}\n"
+"Kokonais<style=\"KKeyword\">tärkeys</style>: {TotalPriority}\n"
 "    • Hätä : {ClassPriority}\n"
 "    • Tämän {Building}rakennuksen Tärkeys: {BuildingPriority}\n"
 "    • Kaikki {BestGroup}työt: {TypePriority}"
@@ -62883,6 +62862,14 @@ msgid ""
 "    • Idle: {ClassPriority}\n"
 "    • All {BestGroup} Errands: {TypePriority}"
 msgstr ""
+"{IdleDescription}\n"
+"\n"
+"Jäljennäiset suorittvat tekemistä <b>{Errand}</b> kun heillä ei ole muuta "
+"tehtävää\n"
+"\n"
+"Kokonais<style=\"KKeyword\">tärkeys</style>: {TotalPriority}\n"
+"    • Toimeton: {ClassPriority}\n"
+"    • Kaikki {BestGroup}työt: {TypePriority}"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_IDLEDESC_ACTIVE
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_IDLEDESC_ACTIVE"
@@ -62896,6 +62883,8 @@ msgid ""
 "{Name} could become <b>Idle</b> when all other errands are canceled or "
 "completed"
 msgstr ""
+"{Name} voi ryhtyä <b>Toimettomaksi</b> kun muut tehtävät on joko peruttu tai "
+"suoritettu"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_NA
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_NA"
@@ -62915,6 +62904,15 @@ msgid ""
 "    • This {Building}'s Priority: {BuildingPriority}\n"
 "    • All {BestGroup} Errands: {TypePriority}"
 msgstr ""
+"{Description}\n"
+"\n"
+"Tehtävätyyppi: {Groups}\n"
+"\n"
+"Kokonais<style=\"KKeyword\">tärkeys</style>: {TotalPriority}\n"
+"    • Jäljennäisen {Name} {BestGroup}tärkeys: {PersonalPriorityValue} "
+"({PersonalPriority})\n"
+"    • Tämän rakennuksen {Building} tärkeys: {BuildingPriority}\n"
+"    • Kaikki {BestGroup}työt: {TypePriority}"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_PERSONAL
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_PERSONAL"
@@ -62928,6 +62926,14 @@ msgid ""
 "    • Personal Needs: {ClassPriority}\n"
 "    • All {BestGroup} Errands: {TypePriority}"
 msgstr ""
+"{Description}\n"
+"\n"
+"<b>{Errand}</b> kuuluu Henkilökohtaisten Tarpeiden tehtäviin, joten se "
+"suoritetaan ennen Tavallisia tehtäviä\n"
+"\n"
+"Kokonais<style=\"KKeyword\">tärkeys</style>: {TotalPriority}\n"
+"    • Henkilökohtaiset Tarpeet: {ClassPriority}\n"
+"    • Kaikki {BestGroup}työt: {TypePriority}"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TRUNCATED_CHORES
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TRUNCATED_CHORES"

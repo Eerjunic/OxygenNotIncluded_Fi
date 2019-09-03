@@ -15965,7 +15965,7 @@ msgstr "Sädeötökkä"
 #. STRINGS.CODEX.DECOR.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DECOR.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Longhair\" Slickster variant</smallcaps>"
-msgstr "<smallcaps>Kuvassa: \"Pitkäkarvainen\" Liukujalajike</smallcaps>"
+msgstr "<smallcaps>Kuvassa: \"Pitkäkarvainen\" Lipsulajike</smallcaps>"
 
 #. STRINGS.CODEX.DECOR.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.DECOR.BODY.CONTAINER2"
@@ -15976,9 +15976,9 @@ msgid ""
 "sacks accordingly."
 msgstr ""
 "Molemmilla puolilla Suurtuntosarvia ovat Pientuntosarvet, jotka erikoistuvat "
-"mekaaniseen aistimiseen ja havaitsevat Liukujaa ympäröivän ilmanpaineen. "
-"Nämä lähettävät signaaleja aivoille, jotta ne supistaisivat tai "
-"laajentaisivat ilmarakkuloita tarpeen mukaan."
+"mekaaniseen aistimiseen ja havaitsevat Lipsua ympäröivän ilmanpaineen. Nämä "
+"lähettävät signaaleja aivoille, jotta ne supistaisivat tai laajentaisivat "
+"ilmarakkuloita tarpeen mukaan."
 
 #. STRINGS.CODEX.DECOR.SUBTITLE
 msgctxt "STRINGS.CODEX.DECOR.SUBTITLE"
@@ -15988,7 +15988,7 @@ msgstr "Otusmuunnos"
 #. STRINGS.CODEX.DECOR.TITLE
 msgctxt "STRINGS.CODEX.DECOR.TITLE"
 msgid "Longhair Slickster"
-msgstr "Pitkäkarvaliukuja"
+msgstr "Pitkäkarvalipsu"
 
 #. STRINGS.CODEX.DECORSYSTEM.HEADER_1
 msgctxt "STRINGS.CODEX.DECORSYSTEM.HEADER_1"
@@ -16805,7 +16805,7 @@ msgstr "Lapamyyrä"
 #. STRINGS.CODEX.MOLTEN.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MOLTEN.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Molten\" Slickster variant</smallcaps>"
-msgstr "<smallcaps>Kuvassa: \"Sula\" Liukujalajike</smallcaps>"
+msgstr "<smallcaps>Kuvassa: \"Sula\" Lipsulajike</smallcaps>"
 
 #. STRINGS.CODEX.MOLTEN.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MOLTEN.BODY.CONTAINER2"
@@ -16817,10 +16817,10 @@ msgid ""
 "ideal house pets only for the oily mess they involuntarily leave behind "
 "wherever they go."
 msgstr ""
-"Liukujat ovat sopuisia olioita, jotka ovat suosittuja kasvattajien "
-"keskuudessa niiden hyvän luonteen ja hymynaamojen takia.\n"
+"Lipsut ovat sopuisia olioita, jotka ovat suosittuja kasvattajien keskuudessa "
+"niiden hyvän luonteen ja hymynaamojen takia.\n"
 "\n"
-"Liukujat harvoin, jos koskaan, näykkäävät ihmisiä ja niitä pidetään "
+"Lipsut harvoin, jos koskaan, näykkäävät ihmisiä ja niitä pidetään "
 "epäsoveliaiksi sisälemmikeiksi ainoastaan niiden jälkeensä jättävän öljyisen "
 "sotkun takia."
 
@@ -16832,7 +16832,7 @@ msgstr "Otusmuunnos"
 #. STRINGS.CODEX.MOLTEN.TITLE
 msgctxt "STRINGS.CODEX.MOLTEN.TITLE"
 msgid "Molten Slickster"
-msgstr "Sula Liukuja"
+msgstr "Sula Lipsu"
 
 #. STRINGS.CODEX.MORALE.HEADER_1
 msgctxt "STRINGS.CODEX.MORALE.HEADER_1"
@@ -17993,6 +17993,13 @@ msgid ""
 "b> <b><color=#F44A4A>[P]</b></color>.\n"
 "\n"
 msgstr ""
+"Jäljennäiset priorisoivat tehtävänsä useiden eri tekijöiden perusteella. "
+"Joitakin näistä voidaan säätää vaikuttamaan tehtävän valintaan, mutta jotkin "
+"tehtävät (kuten hengityskelpoisen <link=\"OXYGEN\">hapen</link> etsintä) "
+"ovat niin tärkeitä, etteivät ne voi odottaa. Tehtävän tärkeyttä voidaan "
+"hallita pääsääntöisesti Tehtävätyypin priorisoinnilla, ja sitten hienosäätää "
+"<b>Tärkeystyökalulla</b> <b><color=#F44A4A>[P]</b></color>.\n"
+"\n"
 
 #. STRINGS.CODEX.PRIORITY.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.PRIORITY.PARAGRAPH_2"
@@ -18033,6 +18040,8 @@ msgid ""
 "The Puft is a mellow creature whose limited brainpower is largely dedicated "
 "to sustaining its basic life processes."
 msgstr ""
+"Pöhnö on lempeä otus, jonka rajoittunut aivojenkäyttökyky on suurimmaksi "
+"osaksi omistettu ylläpitämään tärkeitä elintoimintoja."
 
 #. STRINGS.CODEX.PUFT.SUBTITLE
 msgctxt "STRINGS.CODEX.PUFT.SUBTITLE"
@@ -18252,12 +18261,12 @@ msgid ""
 "The two tufts atop a Slickster's head are called rhinophores, and help guide "
 "the Slickster toward breathable carbon dioxide."
 msgstr ""
-"Liukujat ovat ainutlaatuisia olioita, jotka tunnetaan kyvystään hikoilla "
+"Lipsut ovat ainutlaatuisia olioita, jotka tunnetaan kyvystään hikoilla "
 "hiilivetyjätettä, joka on koostumukseltaan lähes identtistä raakaöljyn "
 "kanssa.\n"
 "\n"
 "Sen päässä olevaa kahta tupsua kutsutaan sarvifooreiksi, ja ne auttavat "
-"Liukujaa löytämään hengitettävää hiilidioksidia."
+"Lipsua löytämään hengitettävää hiilidioksidia."
 
 #. STRINGS.CODEX.SLICKSTER.SUBTITLE
 msgctxt "STRINGS.CODEX.SLICKSTER.SUBTITLE"
@@ -18267,7 +18276,7 @@ msgstr "Kesytettävä Otus"
 #. STRINGS.CODEX.SLICKSTER.TITLE
 msgctxt "STRINGS.CODEX.SLICKSTER.TITLE"
 msgid "Slickster"
-msgstr "Liukuja"
+msgstr "Lipsu"
 
 #. STRINGS.CODEX.SMOOTH.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SMOOTH.BODY.CONTAINER1"
@@ -19600,7 +19609,7 @@ msgstr "<link=\"MOOSPECIES\">Ammu</link>"
 #. STRINGS.CREATURES.FAMILY.OILFLOATER
 msgctxt "STRINGS.CREATURES.FAMILY.OILFLOATER"
 msgid "<link=\"OILFLOATERSPECIES\">Slickster</link>"
-msgstr "<link=\"OILFLOATERSPECIES\">Liukuja</link>"
+msgstr "<link=\"OILFLOATERSPECIES\">Lipsu</link>"
 
 #. STRINGS.CREATURES.FAMILY.PACU
 msgctxt "STRINGS.CREATURES.FAMILY.PACU"
@@ -19655,7 +19664,7 @@ msgstr "<link=\"MOOSPECIES\">Ammut</link>"
 #. STRINGS.CREATURES.FAMILY_PLURAL.OILFLOATERSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.OILFLOATERSPECIES"
 msgid "<link=\"OILFLOATERSPECIES\">Slicksters</link>"
-msgstr "<link=\"OILFLOATERSPECIES\">Liukujat</link>"
+msgstr "<link=\"OILFLOATERSPECIES\">Lipsut</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.PACUSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.PACUSPECIES"
@@ -20173,6 +20182,12 @@ msgid ""
 "The shells they leave behind after molting can be crushed into <link=\"LIME"
 "\">Lime</link>."
 msgstr ""
+"Tökkikuoriaiset ovat ystävällismielisiä otuksia, jotka syövät <link="
+"\"TOXICSAND\">Saastunutta Multaa</link> ja <link=\"COMPOST\">Mätäkasoja</"
+"link>.\n"
+"\n"
+"Niiden kuorenluonnin seurauksena jälkeensä jättämät kuoret voidaan murskata "
+"<link=\"LIME\">Kalkiksi</link>."
 
 #. STRINGS.CREATURES.SPECIES.CRAB.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.EGG_NAME"
@@ -20185,19 +20200,13 @@ msgid "<link=\"CRAB\">Pokeshell</link>"
 msgstr "<link=\"CRAB\">Tökkikuori</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.DESC"
-#| msgid ""
-#| "A little bug-eyed <link=\"DRECKO\">Drecklet</link>.\n"
-#| "\n"
-#| "In time it will mature into a fully grown <link=\"DRECKO\">Drecko</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.DESC"
 msgid ""
 "A little, bug-eyed Drecklet.\n"
 "\n"
 "In time it will mature into a fully grown <link=\"DRECKO\">Drecko</link>."
 msgstr ""
-"Pieni, mulkosilmäinen <link=\"DRECKO\">Drekon Poikanen</link>.\n"
+"Pieni, mulkosilmäinen Drekon Poikanen\n"
 "\n"
 "Ajallaan siitä kasvaa aikuinen <link=\"DRECKO\">Drekko</link>."
 
@@ -20207,14 +20216,6 @@ msgid "<link=\"DRECKO\">Drecklet</link>"
 msgstr "<link=\"DRECKO\">Drekon Poikanen</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.DESC"
-#| msgid ""
-#| "Dreckos are slinking creatures that can clamber up walls with unexpected "
-#| "speed.\n"
-#| "\n"
-#| "Their backsides are covered in thick woolly fibers that only grow in "
-#| "<link=\"HYDROGEN\">Hydrogen</link> climates."
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.DESC"
 msgid ""
 "Dreckos are nonhostile critters that graze only on live <link="
@@ -20223,8 +20224,8 @@ msgid ""
 "Their backsides are covered in thick woolly fibers that only grow in <link="
 "\"HYDROGEN\">Hydrogen</link> climates."
 msgstr ""
-"Drekkot ovat luihuja olioita, jotka voivat kiivetä seiniä yllättävän "
-"nopeasti.\n"
+"Drekkot ovat ystävällismielisiä olioita, jotka laiduntavat vain elävillä "
+"<link=\"BASICSINGLEHARVESTPLANT\">Jauhokaskasveilla</link>.\n"
 "\n"
 "Niiden selät ovat paksun, villaisen kuidun peitossa, joka kasvaa ainoastaan "
 "<link=\"HYDROGEN\">Vety</link>pitoisissa ilmastoissa."
@@ -20232,7 +20233,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME"
 msgid "<link=\"DRECKO\">Drecklet Egg</link>"
-msgstr "<link=\"DRECKO\">Drekon Poikasen Muna</link>"
+msgstr "<link=\"DRECKO\">Drekon Muna</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.NAME"
@@ -20240,12 +20241,6 @@ msgid "<link=\"DRECKO\">Drecko</link>"
 msgstr "<link=\"DRECKO\">Drekko</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.DESC"
-#| msgid ""
-#| "A little bug-eyed <link=\"DRECKO\">Drecklet</link>.\n"
-#| "\n"
-#| "In time it will mature into a fully grown <link=\"DRECKO\">Drecko</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.DESC"
 msgid ""
 "A bug-eyed little Glossy Drecklet.\n"
@@ -20253,9 +20248,10 @@ msgid ""
 "In time it will mature into an adult Drecko morph, the <link=\"DRECKOPLASTIC"
 "\">Glossy Drecko</link>."
 msgstr ""
-"Pieni, mulkosilmäinen <link=\"DRECKO\">Drekon Poikanen</link>.\n"
+"Pieni, mulkosilmäinen Kiiltodrekkon Poikanen</link>.\n"
 "\n"
-"Ajallaan siitä kasvaa aikuinen <link=\"DRECKO\">Drekko</link>."
+"Ajallaan siitä kasvaa aikuinen Drekkomuunnos, <link=\"DRECKO\">Kiiltodrekko</"
+"link>."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
@@ -20263,14 +20259,6 @@ msgid "<link=\"DRECKOPLASTIC\">Glossy Drecklet</link>"
 msgstr "<link=\"DRECKOPLASTIC\">Kiiltävä Drekon Poikanen</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC"
-#| msgid ""
-#| "Glossy Dreckos are slinking creatures that can clamber up walls with "
-#| "unexpected speed.\n"
-#| "\n"
-#| "Their backsides are covered in bioplastic scales that only grow in <link="
-#| "\"HYDROGEN\">Hydrogen</link> climates."
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC"
 msgid ""
 "Glossy Dreckos are nonhostile critters that graze only on live <link="
@@ -20279,8 +20267,8 @@ msgid ""
 "Their backsides are covered in bioplastic scales that only grow in <link="
 "\"HYDROGEN\">Hydrogen</link> climates."
 msgstr ""
-"Kiiltävät Drekkot ovat luihuja olioita, jotka pystyvät kiipeämään seiniä "
-"yllättävää vauhtia.\n"
+"Kiiltodrekkot ovat ystävällismielisiä olioita, jotka laiduntavat ainoastaan "
+"elävillä <link=\"BASICSINGLEHARVESTPLANT\">Jauhokaskasveilla</link>.\n"
 "\n"
 "Niiden selät ovat biomuovisten suomujen peittämät, jotka kasvavat ainoastaan "
 "<link=\"HYDROGEN\">Vety</link>pitoisessa ilmastossa."
@@ -20301,24 +20289,17 @@ msgid ""
 "Sporechids have an eerily alluring appearance to mask the fact that they "
 "host particularly nasty strain of brain fungus."
 msgstr ""
+"Itiörkkideat ovat ulkonäöltään pelottavan houkuttelevia peittääkseen sen "
+"tosiseikan, että ne ovat isäntiä erityisen ikävälle aivosienikannalle."
 
 #. STRINGS.CREATURES.SPECIES.EVILFLOWER.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT"
-#| msgid ""
-#| "Increases <link=\"DECOR\">Decor</link> and reduces <link=\"STRESS"
-#| "\">Stress</link>.\n"
-#| "\n"
-#| "Must be painted by a Duplicant."
 msgctxt "STRINGS.CREATURES.SPECIES.EVILFLOWER.DOMESTICATEDDESC"
 msgid ""
 "This plant improves <link=\"DECOR\">Decor</link> but produces high "
 "quantities of <link=\"ZOMBIESPORES\">Zombie Spores</link>."
 msgstr ""
-"Parantaa <link=\"DECOR\">Koristeellisuutta</link> ja vähentää <link=\"STRESS"
-"\">Ahdistusta</link>.\n"
-"\n"
-"Jäljennäisen on maalattava tämä."
+"Tämä kasvi parantaa <link=\"DECOR\">Koristeellisuutta</link>, mutta tuottaa "
+"suuria määriä <link=\"ZOMBIESPORES\">Zombi-itiöitä</link>."
 
 #. STRINGS.CREATURES.SPECIES.EVILFLOWER.GROWTH_BONUS
 msgctxt "STRINGS.CREATURES.SPECIES.EVILFLOWER.GROWTH_BONUS"
@@ -20718,6 +20699,11 @@ msgid ""
 "It matures into an adult Hatch morph, the <link=\"HATCHHARD\">Stone Hatch</"
 "link>, which loves nibbling on various rocks and metals."
 msgstr ""
+"Höpsö pieni Kivikuoriaisen poikanen.\n"
+"\n"
+"Se varttuu aikuiseksi Kuoriaismuunnokseksi, <link=\"HATCHHARD"
+"\">Kivikuoriaiseksi</link>, joka tykkää nakertaa monenlaisia kiviä ja "
+"metalleja."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.NAME"
@@ -20744,13 +20730,6 @@ msgid "<link=\"HATCHHARD\">Stone Hatch</link>"
 msgstr "<link=\"HATCHHARD\">Kivikuoriainen</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.DESC"
-#| msgid ""
-#| "An innocent baby <link=\"HATCHMETAL\">Hatch</link>.\n"
-#| "\n"
-#| "This one is a Smooth morph, and loves nibbling on different types of "
-#| "metals."
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.DESC"
 msgid ""
 "A doofy little Smooth Hatchling.\n"
@@ -20758,9 +20737,10 @@ msgid ""
 "It matures into an adult Hatch morph, the <link=\"HATCHMETAL\">Smooth Hatch</"
 "link>, which loves nibbling on different types of metals."
 msgstr ""
-"Viaton <link=\"HATCHMETAL\">Kuoriais</link>vauva.\n"
+"Höpsö pieni Sileäkuoriaisen poikanen.\n"
 "\n"
-"Tämä on Sileämuunnos ja rakastaa erityyppisten metallien nakertamista."
+"Se varttuu aikuinen Kuoriaismuunnos, <link=\"HATCHMETAL\">Sileäkuoriainen</"
+"link>, joka tykkää nakertaa erityyppisiä metalleja."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME"
@@ -20774,6 +20754,9 @@ msgid ""
 "\"REFINEDMETAL\">Refined Metal</link> when fed <link=\"RAWMETAL\">Metal Ore</"
 "link>."
 msgstr ""
+"Sileäkuoriaiset nauttivat maahan kaivautumisesta ja <link=\"REFINEDMETAL"
+"\">Jalostetun metallin</link> ulostamisesta kun he saavat <link=\"RAWMETAL"
+"\">Metallimalmia</link> syödäkseen."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.EGG_NAME"
@@ -20793,6 +20776,11 @@ msgid ""
 "It matures into an adult Hatch morph, the <link=\"HATCHVEGGIE\">Sage Hatch</"
 "link>, which loves nibbling on organic materials."
 msgstr ""
+"Höpsö pieni Tietäjäkuoriaisen poikanen.\n"
+"\n"
+"Ajallaan se varttuu aikuiseksi Kuoriaismuunnokseksi, <link=\"HATCHVEGGIE"
+"\">Tietäjäkuoriaiseksi</link>, joka tykkää eloperäisen materiaalin "
+"nakertamisesta."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME"
@@ -20839,13 +20827,6 @@ msgid "<link=\"HEATBULBSEED\">Fervine Bulb</link>"
 msgstr "<link=\"HEATBULBSEED\">Ferviinin Sipuli</link>"
 
 #. STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DESC"
-#| msgid ""
-#| "A large, chlorine-dwelling <link=\"PLANTS\">Plant</link> that can be "
-#| "grown in farm buildings.\n"
-#| "\n"
-#| "Palmeras grow inedible buds that emit toxic hydrogen gas."
 msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DESC"
 msgid ""
 "A large, chlorine-dwelling <link=\"PLANTS\">Plant</link> that can be grown "
@@ -20856,22 +20837,17 @@ msgstr ""
 "Suuri, kloorissa kasvava<link=\"PLANTS\">Kasvi</link>, jota voi kasvattaa "
 "viljelyrakennuksissa.\n"
 "\n"
-"Palmeeroista kasvaa syömäkelvottomia sipuleja, jotka päästävät myrkyllistä "
-"vetykaasua."
+"Palmeeroista kasvaa syömäkelvottomia nuppuja, jotka erittävät "
+"hengityskelvotonta vetykaasua."
 
 #. STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DOMESTICATEDDESC"
-#| msgid ""
-#| "A large, chlorine-dwelling <link=\"PLANTS\">Plant</link> that grows "
-#| "inedible buds which emit toxic hydrogen gas."
 msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.DOMESTICATEDDESC"
 msgid ""
 "A large, chlorine-dwelling <link=\"PLANTS\">Plant</link> that grows inedible "
 "buds which emit unbreathable hydrogen gas."
 msgstr ""
 "Suuri, kloorissa kasvava <link=\"PLANTS\">Kasvi</link>, joka kasvattaa "
-"syömäkelvottomia, myrkyllistä vetykaasua erittäviä nuppuja."
+"syömäkelvottomia nuppuja, jotka erittävät hengityskelvotonta vetykaasua."
 
 #. STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.NAME"
@@ -20884,6 +20860,8 @@ msgid ""
 "Mirth Leaves sport a calm green hue known for alleviating <link=\"STRESS"
 "\">Stress</link> and improving <link=\"MORALE\">Morale</link>."
 msgstr ""
+"Riemulehdillä on tyynen vihreä sävy, jonka tiedetään helpottavan <link="
+"\"STRESS\">Ahdistusta</link> ja parantavan <link=\"MORALE\">Moraalia</link>."
 
 #. STRINGS.CREATURES.SPECIES.LEAFYPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.LEAFYPLANT.DOMESTICATEDDESC"
@@ -21023,7 +21001,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.NAME"
 msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Nymph</link>"
-msgstr "<link=\"LIGHTBUGCRYSTAL\">Säteilevä nymffi</link>"
+msgstr "<link=\"LIGHTBUGCRYSTAL\">Säteilynymffi</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.DESC"
@@ -21042,12 +21020,12 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.EGG_NAME"
 msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGCRYSTAL\">Säteilevän Nymffin Muna </link>"
+msgstr "<link=\"LIGHTBUGCRYSTAL\">Säteilynymffin Muna </link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.NAME"
 msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Bug</link>"
-msgstr "<link=\"LIGHTBUGCRYSTAL\">Säteilevä ötökkä</link>"
+msgstr "<link=\"LIGHTBUGCRYSTAL\">Säteilyötökkä</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.DESC"
@@ -21183,21 +21161,15 @@ msgid "<link=\"GEYSERGENERICMETHANEGEYSER\">Natural Gas Geyser</link>"
 msgstr "<link=\"GEYSERGENERICMETHANEGEYSER\">Maakaasugeissiiri</link>"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC"
-#| msgid ""
-#| "A goopy little <link=\"OILFLOATER\">Slickster Larva</link>.\n"
-#| "\n"
-#| "One day it will grow into an adult<link=\"OILFLOATER\">Slickster</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.BABY.DESC"
 msgid ""
 "A snuggly little pup.\n"
 "\n"
 "One day it will grow into an adult <link=\"MOLE\">Shove Vole</link>."
 msgstr ""
-"Niljakas, pieni <link=\"OILFLOATER\">Liukujatoukka</link>.\n"
+"Halittava, pieni pentu.\n"
 "\n"
-"Jonain päivänä siitä kasvaa aikuinen <link=\"OILFLOATER\">Liukuja</link>."
+"Jonain päivänä siitä kasvaa aikuinen <link=\"OILFLOATER\">Lapamyyrä</link>."
 
 #. STRINGS.CREATURES.SPECIES.MOLE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.BABY.NAME"
@@ -21212,6 +21184,11 @@ msgid ""
 "\n"
 "They cannot burrow through <link=\"REFINEDMETAL\">Refined Metals</link>."
 msgstr ""
+"Lapamyyrät ovat kaivautuvia, jotka syövät maanpäällisiltä pinnoilta kerättyä "
+"<link=\"REGOLITH\">Regoliittiä</link>.\n"
+"\n"
+"Ne pystyvät kaivautumaan <link=\"REFINEDMETAL\">Jalostettujen Metallien</"
+"link> läpi."
 
 #. STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME"
@@ -21230,7 +21207,7 @@ msgid ""
 "Moos are extraterrestrial critters that feed on <link=\"GASGRASS\">Gas "
 "Grass</link> and excrete <link=\"METHANE\">Natural Gas</link>."
 msgstr ""
-"Sulaliukujat ovat limaisia otuksia, jotka kuluttavat <link=\"CARBONDIOXIDE"
+"Sulalipsut ovat limaisia otuksia, jotka kuluttavat <link=\"CARBONDIOXIDE"
 "\">Hiilidioksidia</link> ja tihkuvat <link=\"PETROLEUM\">Petrolia</link>."
 
 #. STRINGS.CREATURES.SPECIES.MOO.NAME
@@ -21239,17 +21216,12 @@ msgid "<link=\"MOO\">Gassy Moo</link>"
 msgstr "<link=\"MOO\">Kaasuammu</link>"
 
 #. STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC"
-#| msgid ""
-#| "Dusk Caps produce <link=\"MUSHROOM\">Mushroom</link>, fungal growths that "
-#| "can be harvested for <link=\"FOOD\">Food</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC"
 msgid ""
 "Dusk Caps produce <link=\"MUSHROOM\">Mushrooms</link>, fungal growths that "
 "can be harvested for <link=\"FOOD\">Food</link>."
 msgstr ""
-"Ruskolakit tuottavat <link=\"MUSHROOM\">Sieniä</link>, sienikasvustoa, jota "
+"Ruskolakit tuottavat <link=\"MUSHROOM\">Sieniä</link>, itiöemiä, joita "
 "voidaan kerätä <link=\"FOOD\">Ruuaksi</link>."
 
 #. STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DOMESTICATEDDESC
@@ -21291,26 +21263,20 @@ msgid "<link=\"OILWELL\">Oil Reservoir</link>"
 msgstr "<link=\"OILWELL\">Öljylähde</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC"
-#| msgid ""
-#| "A goopy little <link=\"OILFLOATER\">Slickster Larva</link>.\n"
-#| "\n"
-#| "One day it will grow into an adult<link=\"OILFLOATER\">Slickster</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC"
 msgid ""
 "A goopy little Slickster Larva.\n"
 "\n"
 "One day it will grow into an adult <link=\"OILFLOATER\">Slickster</link>."
 msgstr ""
-"Niljakas, pieni <link=\"OILFLOATER\">Liukujatoukka</link>.\n"
+"Niljakas, pieni Lipsutoukka.\n"
 "\n"
-"Jonain päivänä siitä kasvaa aikuinen <link=\"OILFLOATER\">Liukuja</link>."
+"Jonain päivänä siitä kasvaa aikuinen <link=\"OILFLOATER\">Lipsu</link>."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME"
 msgid "<link=\"OILFLOATER\">Slickster Larva</link>"
-msgstr "<link=\"OILFLOATER\">Liukujatoukka</link>"
+msgstr "<link=\"OILFLOATER\">Lipsutoukka</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.DESC"
@@ -21318,7 +21284,7 @@ msgid ""
 "Slicksters are slimy critters that consume <link=\"CARBONDIOXIDE\">Carbon "
 "Dioxide</link> and exude <link=\"CRUDEOIL\">Crude Oil</link>."
 msgstr ""
-"Liukujat ovat niljakkaita, <link=\"CARBONDIOXIDE\">Hiilidioksidia</link> "
+"Lipsut ovat niljakkaita, <link=\"CARBONDIOXIDE\">Hiilidioksidia</link> "
 "kuluttavia ötököitä. Niistä tihkuu <link=\"CRUDEOIL\">Raakaöljyä</link>."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME
@@ -21329,15 +21295,9 @@ msgstr "<link=\"OILFLOATER\">Toukan Muna</link>"
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.NAME"
 msgid "<link=\"OILFLOATER\">Slickster</link>"
-msgstr "<link=\"OILFLOATER\">Liukuja</link>"
+msgstr "<link=\"OILFLOATER\">Lipsu</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC"
-#| msgid ""
-#| "A goopy little <link=\"OILFLOATER\">Slickster Larva</link>.\n"
-#| "\n"
-#| "One day it will grow into an adult<link=\"OILFLOATER\">Slickster</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC"
 msgid ""
 "A snuggly little Longhair Larva.\n"
@@ -21345,14 +21305,15 @@ msgid ""
 "One day it will grow into an adult Slickster morph, the <link="
 "\"OILFLOATERDECOR\">Longhair Slickster</link>."
 msgstr ""
-"Niljakas, pieni <link=\"OILFLOATER\">Liukujatoukka</link>.\n"
+"Niljakas, pieni Pitkäkarvalipsutoukka</link>.\n"
 "\n"
-"Jonain päivänä siitä kasvaa aikuinen <link=\"OILFLOATER\">Liukuja</link>."
+"Jonain päivänä siitä kasvaa aikuinen Lipsumuunnos, <link=\"OILFLOATERDECOR"
+"\">Pitkäkarvalipsu</link>."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME"
 msgid "<link=\"OILFLOATERDECOR\">Longhair Larva</link>"
-msgstr "<link=\"OILFLOATERDECOR\">Pitkäkarvaliukujatoukka</link>"
+msgstr "<link=\"OILFLOATERDECOR\">Pitkäkarvalipsutoukka</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.DESC"
@@ -21362,7 +21323,7 @@ msgid ""
 "\n"
 "Longhairs have extremely beautiful and luxurious coats."
 msgstr ""
-"Pitkäkarvaliukujat ovat ystävällisiä otuksia, jotka kuluttavat <link=\"OXYGEN"
+"Pitkäkarvalipsut ovat ystävällisiä otuksia, jotka kuluttavat <link=\"OXYGEN"
 "\">Happea</link> ja pysyttelevät Jäljennäiskumppaninsa läheisyydessä.\n"
 "\n"
 "Pitkäkarvoilla on erittäin kauniit ja ylelliset turkit."
@@ -21370,20 +21331,14 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME"
 msgid "<link=\"OILFLOATERDECOR\">Longhair Larva Egg</link>"
-msgstr "<link=\"OILFLOATERDECOR\">Pitkäkarvaliukujatoukan Muna/link>"
+msgstr "<link=\"OILFLOATERDECOR\">Pitkäkarvalipsutoukan Muna/link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.NAME"
 msgid "<link=\"OILFLOATERDECOR\">Longhair Slickster</link>"
-msgstr "<link=\"OILFLOATERDECOR\">Pitkäkarvaliukuja</link>"
+msgstr "<link=\"OILFLOATERDECOR\">Pitkäkarvalipsu</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC"
-#| msgid ""
-#| "A goopy little <link=\"OILFLOATER\">Slickster Larva</link>.\n"
-#| "\n"
-#| "One day it will grow into an adult<link=\"OILFLOATER\">Slickster</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.DESC"
 msgid ""
 "A goopy little Molten Larva.\n"
@@ -21391,14 +21346,15 @@ msgid ""
 "One day it will grow into an adult Slickster morph, the <link="
 "\"OILFLOATERHIGHTEMP\">Molten Slickster</link>."
 msgstr ""
-"Niljakas, pieni <link=\"OILFLOATER\">Liukujatoukka</link>.\n"
+"Niljakas, pieni Sulalipsutoukka.\n"
 "\n"
-"Jonain päivänä siitä kasvaa aikuinen <link=\"OILFLOATER\">Liukuja</link>."
+"Jonain päivänä siitä kasvaa aikuinen Lipsumuunnos, <link=\"OILFLOATERHIGHTEMP"
+"\">Sulalipsu</link>."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME"
 msgid "<link=\"OILFLOATERHIGHTEMP\">Molten Larva</link>"
-msgstr "<link=\"OILFLOATERHIGHTEMP\">Sulaliukujatoukka</link>"
+msgstr "<link=\"OILFLOATERHIGHTEMP\">Sulalipsutoukka</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.DESC"
@@ -21406,18 +21362,18 @@ msgid ""
 "Molten Slicksters are slimy critters that consume <link=\"CARBONDIOXIDE"
 "\">Carbon Dioxide</link> and exude <link=\"PETROLEUM\">Petroleum</link>."
 msgstr ""
-"Sulaliukujat ovat limaisia otuksia, jotka kuluttavat <link=\"CARBONDIOXIDE"
+"Sulalipsut ovat limaisia otuksia, jotka kuluttavat <link=\"CARBONDIOXIDE"
 "\">Hiilidioksidia</link> ja tihkuvat <link=\"PETROLEUM\">Petrolia</link>."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.EGG_NAME"
 msgid "<link=\"OILFLOATERHIGHTEMP\">Molten Larva Egg</link>"
-msgstr "<link=\"OILFLOATERHIGHTEMP\">Sulaliukujatoukan Muna</link>"
+msgstr "<link=\"OILFLOATERHIGHTEMP\">Sulalipsutoukan Muna</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.NAME"
 msgid "<link=\"OILFLOATERHIGHTEMP\">Molten Slickster</link>"
-msgstr "<link=\"OILFLOATERHIGHTEMP\">Sulaliukuja</link>"
+msgstr "<link=\"OILFLOATERHIGHTEMP\">Sulalipsu</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.DESC"
@@ -21430,28 +21386,22 @@ msgid "<link=\"OILSPOUT\">Oil Spout</link>"
 msgstr "<link=\"OILSPOUT\">Öljysuihku</link>"
 
 #. STRINGS.CREATURES.SPECIES.OXYFERN.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.DESC"
-#| msgid ""
-#| "Slicksters are slimy critters that consume <link=\"CARBONDIOXIDE\">Carbon "
-#| "Dioxide</link> and exude <link=\"CRUDEOIL\">Crude Oil</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OXYFERN.DESC"
 msgid ""
 "Oxyferns absorb <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and exude "
 "breathable <link=\"OXYGEN\">Oxygen</link>."
 msgstr ""
-"Liukujat ovat niljakkaita, <link=\"CARBONDIOXIDE\">Hiilidioksidia</link> "
-"kuluttavia ötököitä. Niistä tihkuu <link=\"CRUDEOIL\">Raakaöljyä</link>."
+"Oksaniaiset sitovat <link=\"CARBONDIOXIDE\">Hiilidioksidia</link> ja "
+"vapauttavat <link=\"OXYGEN\">Happea</link>."
 
 #. STRINGS.CREATURES.SPECIES.OXYFERN.DOMESTICATEDDESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ICEMACHINE.EFFECT"
-#| msgid "Converts <link=\"WATER\">Water</link> into <link=\"ICE\">Ice</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OXYFERN.DOMESTICATEDDESC"
 msgid ""
 "This plant converts <link=\"CARBONDIOXIDE\">CO<sub>2</sub></link> into <link="
 "\"OXYGEN\">Oxygen</link>."
-msgstr "Muuttaa <link=\"WATER\">Veden</link> <link=\"ICE\">Jääksi</link>."
+msgstr ""
+"Tämä kasvi muuttaa <link=\"CARBONDIOXIDE\">CO<sub>2</sub></link>:ia <link="
+"\"OXYGEN\">Hapeksi</link>."
 
 #. STRINGS.CREATURES.SPECIES.OXYFERN.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OXYFERN.NAME"
@@ -21459,19 +21409,13 @@ msgid "<link=\"OXYFERN\">Oxyfern</link>"
 msgstr "<link=\"OXYFERN\">Oksaniainen</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.BABY.DESC"
-#| msgid ""
-#| "A wriggly little <link=\"PACUFRY\">Pacu Fry</link>.\n"
-#| "\n"
-#| "In time, it will mature into an adult <link=\"PACU\">Pacu</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.BABY.DESC"
 msgid ""
 "A wriggly little Pacu Fry.\n"
 "\n"
 "In time, it will mature into an adult <link=\"PACU\">Pacu</link>."
 msgstr ""
-"Kiemurteleva, pieni <link=\"PACUFRY\">Pacun Poikanen</link>.\n"
+"Kiemurteleva, pieni Pacun Poikanen.\n"
 "\n"
 "Ajallaan siitä kasvaa aikuinen <link=\"PACU\">Pacu</link>."
 
@@ -21481,13 +21425,6 @@ msgid "<link=\"PACU\">Pacu Fry</link>"
 msgstr "<link=\"PACU\">Pacun poikanen</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.DESC"
-#| msgid ""
-#| "Pacus are aquatic creatures that cannot live outside of <link=\"WATER"
-#| "\">Water</link> or <link=\"DIRTYWATER\">Polluted Water</link>.\n"
-#| "\n"
-#| "Every organism in the known universe finds the Pacu extremely delicious."
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.DESC"
 msgid ""
 "Pacus are aquatic creatures that cannot live outside of <link=\"WATER"
@@ -21511,21 +21448,15 @@ msgid "<link=\"PACU\">Pacu</link>"
 msgstr "<link=\"PACU\">Pacu</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.DESC"
-#| msgid ""
-#| "A wriggly little <link=\"PACUFRY\">Gulp Fish Fry</link>.\n"
-#| "\n"
-#| "In time, it will mature into an adult <link=\"GULPFISH\">Gulp Fish</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.DESC"
 msgid ""
 "A wriggly little Gulp Fry.\n"
 "\n"
 "In time, it will mature into an adult <link=\"PACUCLEANER\">Gulp Fish</link>."
 msgstr ""
-"Kiemurteleva, pieni <link=\"PACUFRY\">Hörppykalanpoikanen</link>.\n"
+"Kiemurteleva, pieni Hörppykalanpoikanen.\n"
 "\n"
-"Ajallaan siitä kasvaa aikuinen <link=\"GULPFISH\">Hörppykala</link>."
+"Ajallaan siitä kasvaa aikuinen <link=\"PACUCLEANER\">Hörppykala</link>."
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME"
@@ -21550,13 +21481,6 @@ msgid "<link=\"PACUCLEANER\">Gulp Fish</link>"
 msgstr "<link=\"CLEANERPACUEGG\">Hörppykalan</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.DESC"
-#| msgid ""
-#| "An innocent little <link=\"PACUTROPICAL\">Tropical Pacu Fry</link>.\n"
-#| "\n"
-#| "In time, it will mature into an adult <link=\"PACUTROPICAL\">Tropical "
-#| "Pacu</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.DESC"
 msgid ""
 "A wriggly little Tropical Fry.\n"
@@ -21564,9 +21488,10 @@ msgid ""
 "In time it will mature into an adult Pacu morph, the <link=\"PACUTROPICAL"
 "\">Tropical Pacu</link>."
 msgstr ""
-"Pieni, viaton <link=\"HATCHLING\">Trooppisen Pacun Poikanen</link>.\n"
+"Pieni, viaton Trooppisen Pacun Poikanen.\n"
 "\n"
-"Ajallaan siitä kasvaa aikuinen <link=\"HATCH\">Trooppinen Pacu</link>."
+"Ajallaan siitä kasvaa aikuinen Pacumuunnos, <link=\"PACUTROPICAL"
+"\">Trooppinen Pacu</link>."
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.NAME"
@@ -21743,12 +21668,6 @@ msgid "<link=\"PUFTALPHA\">Puft Prince</link>"
 msgstr "<link=\"PUFTALPHA\">Pöhnöprinssi</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.BABY.DESC"
-#| msgid ""
-#| "A gassy little <link=\"PUFT\">Puftlet</link>.\n"
-#| "\n"
-#| "In time it will grow into an adult <link=\"PUFT\">Puft</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.DESC"
 msgid ""
 "A frazzled little Squeaky Puftlet.\n"
@@ -21756,9 +21675,10 @@ msgid ""
 "One day it will grow into an adult Puft morph, the <link=\"PUFTBLEACHSTONE"
 "\">Squeaky Puft</link>."
 msgstr ""
-"Pieni, kaasuinen <link=\"PUFT\">Pöhnöporsas</link>.\n"
+"Pieni, nuhjuinen Vinkuöhnöporsas.\n"
 "\n"
-"Ajallaan siitä kasvaa aikuinen <link=\"PUFT\">Pöhnö</link>."
+"Ajallaan siitä kasvaa aikuinen Pöhnömunnos, <link=\"PUFTBLEACHSTONE"
+"\">Vinkupöhnö</link>."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.NAME"
@@ -21766,18 +21686,13 @@ msgid "<link=\"PUFTBLEACHSTONE\">Squeaky Puftlet</link>"
 msgstr "<link=\"PUFTBLEACHSTONE\">Vinkupöhnöporsas</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC"
-#| msgid ""
-#| "Squeaky Pufts are non-aggressive critters that excrete lumps of <link="
-#| "\"BLEACHSTONE\">Bleach Stone</link> with each breath."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.DESC"
 msgid ""
 "Squeaky Pufts are non-aggressive critters that excrete lumps of <link="
 "\"BLEACHSTONE\">Bleachstone</link> with each breath."
 msgstr ""
 "Vinkupöhnöt ovat lauhkeita otuksia, jotka ulostavat <link=\"BLEACHSTONE"
-"\">Valkokivi</link>möykkyjä joka hengityksellä."
+"\">Valkokivi</link>möykkyjä joka henkäyksellä."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.EGG_NAME"
@@ -21790,12 +21705,6 @@ msgid "<link=\"PUFTBLEACHSTONE\">Squeaky Puft</link>"
 msgstr "<link=\"PUFTBLEACHSTONE\">Vinkupöhnö</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PUFT.BABY.DESC"
-#| msgid ""
-#| "A gassy little <link=\"PUFT\">Puftlet</link>.\n"
-#| "\n"
-#| "In time it will grow into an adult <link=\"PUFT\">Puft</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC"
 msgid ""
 "A stocky little Dense Puftlet.\n"
@@ -21803,9 +21712,10 @@ msgid ""
 "One day it will grow into an adult Puft morph, the <link=\"PUFTOXYLITE"
 "\">Dense Puft</link>."
 msgstr ""
-"Pieni, kaasuinen <link=\"PUFT\">Pöhnöporsas</link>.\n"
+"Tanakka, pieni Kiintopöhnöporsas.\n"
 "\n"
-"Ajallaan siitä kasvaa aikuinen <link=\"PUFT\">Pöhnö</link>."
+"Ajallaan siitä kasvaa aikuinen Pöhnömuunnos, <link=\"PUFTOXYLITE"
+"\">Kiintopöhnö</link>."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME"
@@ -21838,6 +21748,9 @@ msgid ""
 "link> and form sodium deposits as they grow, producing harvestable <link="
 "\"SALT\">Salt</link>."
 msgstr ""
+"Kyläsuolaköynnökset kuluttavat pieniä määriä <link=\"CHLORINE\">Kloorikaasu</"
+"link> ja muodostavat natriumpesäkkeitä kasvaessaan, tuottaen "
+"keräämiskelpoista <link=\"SALT\">Suolaa</link>."
 
 #. STRINGS.CREATURES.SPECIES.SALTPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.SALTPLANT.DOMESTICATEDDESC"
@@ -21855,6 +21768,8 @@ msgid ""
 "Waterweeds thrive in salty water and can be harvested for fresh, edible "
 "<link=\"LETTUCE\">Lettuce</link>."
 msgstr ""
+"Vesiheinät menestyvät suolaisessa vedessä ja niistä voidaan kerätä tuoretta, "
+"syömäkelpoista <link=\"LETTUCE\">Salaattia</link>."
 
 #. STRINGS.CREATURES.SPECIES.SEALETTUCE.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEALETTUCE.DOMESTICATEDDESC"
@@ -21867,13 +21782,6 @@ msgid "<link=\"SEALETTUCE\">Waterweed</link>"
 msgstr "<link=\"<link=\"SEALETTUCE\">Vesiheinä</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"BASICFABRICMATERIALPLANT"
-#| "\">Thimble Reed</link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Thimble Reed Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"BASICFABRICPLANT\">Thimble "
@@ -21881,8 +21789,8 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Thimble Reed Seed."
 msgstr ""
-"<link=\"BASICFABRICMATERIALPLANT\">Sormustinruo'on</link> <link=\"PLANTS"
-"\">Siemen</link>.\n"
+"<link=\"BASICFABRICPLANT\">Sormustinruo'on</link> <link=\"PLANTS\">Siemen</"
+"link>.\n"
 "\n"
 "Hautautuneiden Esineiden kaivaminen saattaa paljastaa Sormustinruo'on "
 "Siemenen."
@@ -21911,13 +21819,6 @@ msgid "<link=\"BASICSINGLEHARVESTPLANT\">Mealwood Seed</link>"
 msgstr "<link=\"BASICSINGLEHARVESTPLANT\">Jauhokkaan Siemen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BEAN_PLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"BASICSINGLEHARVESTPLANT"
-#| "\">Mealwood</link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Mealwood Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BEAN_PLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"BEANPLANT\">Nosh Sprout</"
@@ -21925,10 +21826,9 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Nosh Bean."
 msgstr ""
-"<link=\"BASICSINGLEHARVESTPLANT\">Jauhokkaan</link> <link=\"PLANTS\">Siemen</"
-"link>.\n"
+"<link=\"BEANPLANT\">Safkaverson</link> <link=\"PLANTS\">Siemen</link>.\n"
 "\n"
-"Hautautuneiden Esineiden kaivaminen saattaa paljastaa Jauhokkaan Siemenen."
+"Hautautuneiden Esineiden kaivaminen saattaa paljastaa Safkapavun."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BEAN_PLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BEAN_PLANT.NAME"
@@ -22042,13 +21942,6 @@ msgid "<link=\"GASGRASS\">Gas Grass Seed</link>"
 msgstr "<link=\"GASGRASS\">Kaasuruohon Siemen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"BASICSINGLEHARVESTPLANT"
-#| "\">Mealwood</link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Mealwood Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"LEAFYPLANT\">Mirth Leaf</"
@@ -22056,10 +21949,9 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Mirth Leaf Seed."
 msgstr ""
-"<link=\"BASICSINGLEHARVESTPLANT\">Jauhokkaan</link> <link=\"PLANTS\">Siemen</"
-"link>.\n"
+"<link=\"LEAFYPLANT\">Riemulehden</link> <link=\"PLANTS\">Siemen</link>.\n"
 "\n"
-"Hautautuneiden Esineiden kaivaminen saattaa paljastaa Jauhokkaan Siemenen."
+"Hautautuneiden Esineiden kaivaminen saattaa paljastaa Riemulehden Siemenen."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.NAME"
@@ -22084,26 +21976,20 @@ msgid "<link=\"MUSHROOMPLANT\">Fungal Spore</link>"
 msgstr "<link=\"MUSHROOMPLANT\">Sieni-itiö</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.OILEATER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.OILEATER.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"INK BLOOM\">plant</link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover an Ink Bloom Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.OILEATER.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"INK BLOOM\">Plant</link>.\n"
 "\n"
 "Digging up Buried Objects may uncover an Ink Bloom Seed."
 msgstr ""
-"<link=\"INK BLOOM\">Mustekukan</link> <link=\"PLANTS\">Siemen</link>.\n"
+"<link=\"INK BLOOM\">Mustehärmeen</link> <link=\"PLANTS\">Siemen</link>.\n"
 "\n"
-"Hautautuneiden esineiden ylös kaivaminen voi paljastaa Mustekukan Siemenen."
+"Hautautuneiden esineiden ylös kaivaminen voi paljastaa Mustehärmeen Siemenen."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.OILEATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.OILEATER.NAME"
 msgid "<link=\"OILEATER\">Ink Bloom Seed</link>"
-msgstr "<link=\"OILEATER\">Mustekukan Siemen</link>"
+msgstr "<link=\"OILEATER\">Mustehärmeen Siemen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.OXYFERN.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.OXYFERN.DESC"
@@ -22155,13 +22041,6 @@ msgid "<link=\"PRICKLEGRASS\">Briar Seed</link>"
 msgstr "<link=\"PRICKLEGRASS\">Tappuran Siemen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SALTPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"BASICSINGLEHARVESTPLANT"
-#| "\">Mealwood</link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Mealwood Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SALTPLANT.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"SALTPLANT\">Dasha Saltvine</"
@@ -22169,10 +22048,11 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Dasha Saltvine Seed."
 msgstr ""
-"<link=\"BASICSINGLEHARVESTPLANT\">Jauhokkaan</link> <link=\"PLANTS\">Siemen</"
+"<link=\"SALTPLANT\">Kyläsuolaköynnöksen</link> <link=\"PLANTS\">Siemen</"
 "link>.\n"
 "\n"
-"Hautautuneiden Esineiden kaivaminen saattaa paljastaa Jauhokkaan Siemenen."
+"Hautautuneiden Esineiden kaivaminen saattaa paljastaa Kyläsuolaköynnöksen "
+"Siemenen."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SALTPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SALTPLANT.NAME"
@@ -22180,13 +22060,6 @@ msgid "<link=\"SALTPLANT\">Dasha Saltvine Seed</link>"
 msgstr "<link=\"SALTPLANT\">Kyläsuolaköynnöksen Siemen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SEALETTUCE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"COLDBREATHER\">Wheezewort</"
-#| "link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Wort Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SEALETTUCE.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"SEALETTUCE\">Waterweed</"
@@ -22194,9 +22067,9 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover a Waterweed Seed."
 msgstr ""
-"<link=\"COLDBREATHER\">Vinkukuisman</link> <link=\"PLANTS\">Siemen</link>.\n"
+"<link=\"SEALETTUCE\">Vesiheinän</link> <link=\"PLANTS\">Siemen</link>.\n"
 "\n"
-"Hautautuneiden Esineiden kaivaminen saattaa paljastaa Kuisman Siemenen."
+"Hautautuneiden Esineiden kaivaminen saattaa paljastaa Vesiheinän Siemenen."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SEALETTUCE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SEALETTUCE.NAME"
@@ -22296,11 +22169,14 @@ msgid ""
 "\n"
 "In time it will mature into a fully grown <link=\"SQUIRREL\">Pip</link>."
 msgstr ""
+"Pieni, kehräävä Piplun Poikanen.\n"
+"\n"
+"Ajallaan siitä kasvaa täysikasvuinen <link=\"SQUIRREL\">Piplu</link>."
 
 #. STRINGS.CREATURES.SPECIES.SQUIRREL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SQUIRREL.BABY.NAME"
 msgid "<link=\"SQUIRREL\">Pipsqueak</link>"
-msgstr "<link=\"SQUIRREL\">Piplukurre</link>"
+msgstr "<link=\"SQUIRREL\">Piplun Poikanen</link>"
 
 #. STRINGS.CREATURES.SPECIES.SQUIRREL.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SQUIRREL.DESC"
@@ -22311,6 +22187,11 @@ msgid ""
 "They are known to bury <link=\"PLANTS\">Seeds</link> in the ground whenever "
 "they can find a suitable area with enough space."
 msgstr ""
+"Piplut ovat ärsyttäviä, lauhkeita otuksia, jotka tulevat toimeen <link="
+"\"FORESTTREE\">Aarnipuun</link> oksilla.\n"
+"\n"
+"Niiden tiedetään hautaavan maahan <link=\"PLANTS\">Siemeniä</link> aina kun "
+"he löytävät sopivan, tarpeeksi tilavan alueen."
 
 #. STRINGS.CREATURES.SPECIES.SQUIRREL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SQUIRREL.EGG_NAME"
@@ -22604,18 +22485,13 @@ msgid "Predicted Maturation: <b>{0}</b>"
 msgstr "Arvioitu Varttuminen: <b>{0}</b>"
 
 #. STRINGS.CREATURES.STATS.MATURITY.TOOLTIP_GROWING_CROP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.MATURITY.TOOLTIP_GROWING_CROP"
-#| msgid ""
-#| "Predicted Maturation Time: {0}\n"
-#| "Next harvest occurs in approximately {1}"
 msgctxt "STRINGS.CREATURES.STATS.MATURITY.TOOLTIP_GROWING_CROP"
 msgid ""
 "Predicted Maturation Time: <b>{0}</b>\n"
 "Next harvest occurs in approximately <b>{1}</b>"
 msgstr ""
-"Arvioitu Varttumisaika: {0}\n"
-"Next harvest occurs in approximately {1}"
+"Arvioitu Varttumisaika: <b>{0}</b>\n"
+"Next harvest occurs in approximately <b>{1}</b>"
 
 #. STRINGS.CREATURES.STATS.MATURITY.TOOLTIP_GROWN
 msgctxt "STRINGS.CREATURES.STATS.MATURITY.TOOLTIP_GROWN"
@@ -22633,21 +22509,13 @@ msgid "Freshness"
 msgstr "Tuoreus"
 
 #. STRINGS.CREATURES.STATS.ROT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.ROT.TOOLTIP"
-#| msgid ""
-#| "Freshness\n"
-#| "------------------\n"
-#| "Food items become stale at fifty percent freshness, and rot at zero "
-#| "percent"
 msgctxt "STRINGS.CREATURES.STATS.ROT.TOOLTIP"
 msgid ""
 "Food items become stale at fifty percent <style=\"KKeyword\">Freshness</"
 "style>, and rot at zero percent"
 msgstr ""
-"Tuoreus\n"
-"------------------\n"
-"Ruuat pahenevat 50%:ssa ja mätänevät 0%:ssa"
+"Ruuat pahettuvat viidenkymmenen prosentin <style=\"KKeyword\">Tuoreudessa</"
+"style>, ja mätänevät nollassa prosentissa"
 
 #. STRINGS.CREATURES.STATS.SCALEGROWTH.NAME
 msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.NAME"
@@ -22655,18 +22523,9 @@ msgid "Scale Growth"
 msgstr "Suomujen Kasvu"
 
 #. STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP"
-#| msgid ""
-#| "Scale Growth\n"
-#| "------------------\n"
-#| "The amount of time required for this critter to regrow its scales"
 msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP"
 msgid "The amount of time required for this critter to regrow its scales"
-msgstr ""
-"Suomujen Kasvu\n"
-"------------------\n"
-"Kuinka kauan tältä oliolta kestää kasvattaa suomunsa takaisin"
+msgstr "Aika, joka tältä otukselta menee suomujensa uudelleenkasvattamiseen"
 
 #. STRINGS.CREATURES.STATS.THERMALCONDUCTIVITYBARRIER.NAME
 msgctxt "STRINGS.CREATURES.STATS.THERMALCONDUCTIVITYBARRIER.NAME"
@@ -22674,18 +22533,13 @@ msgid "Thermal Conductivity Barrier"
 msgstr "Lämmönjohtumisen Hidastin"
 
 #. STRINGS.CREATURES.STATS.THERMALCONDUCTIVITYBARRIER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.THERMALCONDUCTIVITYBARRIER.TOOLTIP"
-#| msgid ""
-#| "Thick conductivity barriers increase the time it takes an object to heat "
-#| "up or cool down"
 msgctxt "STRINGS.CREATURES.STATS.THERMALCONDUCTIVITYBARRIER.TOOLTIP"
 msgid ""
 "Thick <style=\"KKeyword\">Conductivity Barriers</style> increase the time it "
 "takes an object to heat up or cool down"
 msgstr ""
-"Paksut johtumisen hidastimet kasvattavat aikaa, joka kohteelta kuluu "
-"lämpenemiseen tai jäähtymiseen"
+"Paksut <style=\"KKeyword\">Johtumisen Esteet</style> kasvattavat aikaa, joka "
+"kohteelta kuluu lämpenemiseen tai jäähtymiseen"
 
 #. STRINGS.CREATURES.STATS.VIABILITY.NAME
 msgctxt "STRINGS.CREATURES.STATS.VIABILITY.NAME"
@@ -22740,16 +22594,13 @@ msgid "    • Pressure"
 msgstr "    • Paine"
 
 #. STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOHIGH.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOHIGH.TOOLTIP"
-#| msgid ""
-#| "Growth will resume when air pressure is between {low_mass} and {high_mass}"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOHIGH.TOOLTIP"
 msgid ""
 "Growth will resume when air pressure is between <b>{low_mass}</b> and "
 "<b>{high_mass}</b>"
 msgstr ""
-"Kasvaminen jatkuu ilman paineen ollessa {low_mass} ja {high_mass} välillä"
+"Kasvaminen jatkuu ilman paineen ollessa <b>{low_mass}</b ja <b>{high_mass}</"
+"b> välillä"
 
 #. STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOLOW.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOLOW.NAME"
@@ -22757,16 +22608,13 @@ msgid "    • Pressure"
 msgstr "    • Paine"
 
 #. STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOLOW.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOLOW.TOOLTIP"
-#| msgid ""
-#| "Growth will resume when air pressure is between {low_mass} and {high_mass}"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOLOW.TOOLTIP"
 msgid ""
 "Growth will resume when air pressure is between <b>{low_mass}</b> and "
 "<b>{high_mass}</b>"
 msgstr ""
-"Kasvaminen jatkuu ilman paineen ollessa {low_mass} ja {high_mass} välillä"
+"Kasvaminen jatkuu ilman paineen ollessa <b>{low_mass}</b ja <b>{high_mass}</"
+"b> välillä"
 
 #. STRINGS.CREATURES.STATUSITEMS.ATTACK.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ATTACK.NAME"
@@ -39418,9 +39266,9 @@ msgid ""
 "If incubated, it will hatch into a <link=\"OILFLOATER\">Slickster Larva</"
 "link>."
 msgstr ""
-"<link=\"OILFLOATER\">Liukujan</link> munima muna.\n"
+"<link=\"OILFLOATER\">Lipsun</link> munima muna.\n"
 "\n"
-"Haudottuna siitä kuoriutuu <link=\"OILFLOATER\">Liukujatoukka</link>."
+"Haudottuna siitä kuoriutuu <link=\"OILFLOATER\">Lipsutoukka</link>."
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME"
@@ -39433,7 +39281,7 @@ msgid ""
 "An <style=\"KKeyword\">Egg</style> laid by a <link=\"OILFLOATER\">Slickster</"
 "link>."
 msgstr ""
-"<link=\"OILFLOATER\">Liukujan</link> munima <style=\"KKeyword\">Muna</style>."
+"<link=\"OILFLOATER\">Lipsun</link> munima <style=\"KKeyword\">Muna</style>."
 
 #. STRINGS.ITEMS.FOOD.PICKLEDMEAL.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.DESC"
@@ -41444,15 +41292,6 @@ msgid "Notes on managing electricity"
 msgstr "Vinkkejä sähkönhallintaan"
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY"
-#| msgid ""
-#| "Duplicants will choose what work they do based on the priorities that I "
-#| "give them. I can open the <link=\"PRIORITIES\">PRIORITIES TAB</link> "
-#| "<color=#F44A47><b>[J]</b></color> to set their general priorities, and "
-#| "the <link=\"PRIORITIES\">SUB-PRIORITIES TOOL</link> "
-#| "<color=#F44A47><b>[P]</b></color> to fine tune them. Many buildings will "
-#| "also let me change their Sub-Priority level when I select them."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY"
 msgid ""
 "Duplicants will choose where to work based on the priority of the errands "
@@ -41463,12 +41302,13 @@ msgid ""
 "Priority</style>. Many buildings will also let me change their Priority "
 "level when I select them."
 msgstr ""
-"Jäljennäiset valitsevat tekemänsä työt asettamiesi prioriteettien "
-"perusteella. Voin avata <link=\"PRIORITIES\">PRIOTITEETIT-VÄLILEHDEN</link> "
-"<color=#F44A47><b>[J]</b></color> asettaakseni heidän yleisprioriteetit, "
-"minkä jälkeen voin hienosäätää niitä <link=\"PRIORITIES\">ALIPRIORITEETIT-"
-"TYÖKALULLA</link> <color=#F44A47><b>[P]</b></color>. Monet rakennukset "
-"auttavat minua myös vaihtamaan niiden Aliprioriteetit valitessani ne."
+"Jäljennäiset valitsevat tekemänsä työt asettamieni prioriteettien "
+"perusteella. Voin avata <b>TÄRKEYDET-RUUDUN</b> <color=#F44A47><b>[L]</b></"
+"color> asettaakseni heidän <style=\"KKeyword\">Jäljennäisprioriteettinsä</"
+"style>, ja <link=\"PRIORITIES\">TÄRKEYSTYÖKALULLA</link> "
+"<b><color=#F44A4A>[P]</b></color> hienosäätääkseni <style=\"KKeyword"
+"\">Rakennusprioriteettiä</style>. Monet rakennukset antavat minun myös "
+"vaihtaa niiden Tärkeystasoa, valitessani ne."
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME"
@@ -41560,15 +41400,6 @@ msgstr ""
 "b></color> Vaihtaaksesi lohkoja tai määräyksiä."
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY"
-#| msgid ""
-#| "My Duplicants crave structure and will only eat, sleep, work, or bathe "
-#| "during the times I allot for such activities.\n"
-#| "\n"
-#| "To make the best use of their time, I can open the SCHEDULE TAB "
-#| "<color=#F44A47><b>[U]</b></color> to adjust the colony's agenda and plan "
-#| "how they should utilize their day."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY"
 msgid ""
 "My Duplicants will only eat, sleep, work, or bathe during the times I allot "
@@ -41578,10 +41409,10 @@ msgid ""
 "<color=#F44A47><b>[U]</b></color> to adjust the colony's schedule and plan "
 "how they should utilize their day."
 msgstr ""
-"Jäljennäiseni kaipaavat järjestystä ja he syövät, nukkuvat, työskentelevät "
-"tai kylpevät ainoastaan niinä aikoina kun se on sallittua.\n"
+"Jäljennäiseni syövät, nukkuvat, työskentelevät tai kylpevät aikoina, jotka "
+"minä olen kyseisille toimille aikatauluttanut.\n"
 "\n"
-"Käyttääkseni heidän aikansa tehokkaimmin, voin avata AIKATAULUT-VÄLILEHTI "
+"Käyttääkseni heidän aikansa tehokkaimmin, voin avata AIKATAULUT-VÄLILEHDEN "
 "<color=#F44A47><b>[U]</b></color> säätääkseni siirtokuntani työjärjestystä "
 "ja suunnitellaksesi, kuinka Jäljennäisten tulisi päivänsä kuluttaa."
 
@@ -41887,16 +41718,6 @@ msgstr ""
 "\"KKeyword\">Paine</style>alueellaan:"
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.MESSAGEBODY"
-#| msgid ""
-#| "Duplicants are self-motivated and will get work done around the colony "
-#| "without me managing them individually.\n"
-#| "\n"
-#| "I can use the <link=\"TOOLS\">DIG TOOL</link> <color=#F44A47><b>[G]</b></"
-#| "color> and the <link=\"MISC\">Build Menu</link> in the lower left of the "
-#| "screen to begin planning construction. Once I've placed a few errands, "
-#| "the Duplicants should automatically get to work."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.MESSAGEBODY"
 msgid ""
 "I can use the <link=\"TOOLS\">DIG TOOL</link> <b><color=#F44A4A>[G]</b></"
@@ -41906,14 +41727,12 @@ msgid ""
 "Once I've placed a few errands my Duplicants will automatically get to work, "
 "without me needing to direct them individually."
 msgstr ""
-"Jäljennäiset ovat omaehoisia, eikä minun tarvitse hallita niitä yksittäin, "
-"jotta he suorittaisivat tehtäviä siirtokunnassa.\n"
-"\n"
 "Voin käyttää <link=\"TOOLS\">KAIVUUTYÖKALUA</link> <color=#F44A47><b>[G]</"
 "b></color> ja ruudun vasemmassa alanurkassa olevaa <link=\"MISC"
-"\">Rakennusvalikkoa</link> aloittaakseni tehtävien suunnittelun. Kun olen "
-"asettanut joitakin tehtäviä, Jäljennäisten pitäisi automaattisesti alkaa "
-"töihin."
+"\">Rakennusvalikkoa</link> aloittaakseni tehtävien suunnittelun.\n"
+"\n"
+"Kun olen asettanut joitakin tehtäviä, Jäljennäisten pitäisi automaattisesti "
+"alkaa töihin ilman, että minun tarvitsee heitä suoraan ohjata."
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME"
@@ -42029,20 +41848,15 @@ msgid "Inert"
 msgstr "Inertti"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP"
-#| msgid ""
-#| "Environmental air pressure is too high for this <link=\"BLEACHSTONE"
-#| "\">Bleachstone</link> deposit to emit <link=\"CHLORINE\">Chlorine</link>"
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP"
 msgid ""
 "Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for this "
 "<link=\"BLEACHSTONE\">Bleachstone</link> deposit to emit <link=\"CHLORINE"
 "\">Chlorine</link>"
 msgstr ""
-"Ympäristön ilmanpaine on liian korkea, jotta tämä <link=\"BLEACHSTONE"
-"\">Valkokivi</link>esiintymä voisi vapauttaa <link=\"CHLORINE\">Klooria</"
-"link>"
+"Ympäristön <style=\"KKeyword\">Kaasun Paine</style> on liian korkea, jotta "
+"tämä <link=\"BLEACHSTONE\">Valkokivi</link>esiintymä voisi vapauttaa <link="
+"\"CHLORINE\">Klooria</link>"
 
 #. STRINGS.MISC.STATUSITEMS.BURIEDITEM.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BURIEDITEM.NAME"

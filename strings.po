@@ -23250,18 +23250,13 @@ msgid "Overheating"
 msgstr "Ylilämpöä"
 
 #. STRINGS.CREATURES.STATUSITEMS.HYPERTHERMIA.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.HYPERTHERMIA.TOOLTIP"
-#| msgid ""
-#| "Internal temperature is dangerously high [{InternalTemperature} / "
-#| "{TargetTemperature}]"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HYPERTHERMIA.TOOLTIP"
 msgid ""
 "Internal <style=\"KKeyword\">Temperature</style> is dangerously high "
 "[<b>{InternalTemperature}</b> / <b>{TargetTemperature}</b>]"
 msgstr ""
-"Sisäinen lämpötila on vaarallisen korkea [{InternalTemperature} / "
-"{TargetTemperature}]"
+"Sisäinen <style=\"KKeyword\">Lämpötila</style> on vaarallisen korkea "
+"[<b>{InternalTemperature}</b> / <b>{TargetTemperature}</b>]"
 
 #. STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.NAME"
@@ -23269,12 +23264,9 @@ msgid "Freezing"
 msgstr "Jäätymäisillään"
 
 #. STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.TOOLTIP"
-#| msgid "Internal temperature is dangerously low"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.TOOLTIP"
 msgid "Internal <style=\"KKeyword\">Temperature</style> is dangerously low"
-msgstr "Sisäinen lämpötila on vaarallisen alhainen"
+msgstr "Sisäinen <style=\"KKeyword\">Lämpötila</style> on vaarallisen alhainen"
 
 #. STRINGS.CREATURES.STATUSITEMS.IDLE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.IDLE.NAME"
@@ -23333,12 +23325,9 @@ msgid "Foraging"
 msgstr "Etsii Ruokaa"
 
 #. STRINGS.CREATURES.STATUSITEMS.LOOKINGFORFOOD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.LOOKINGFORFOOD.TOOLTIP"
-#| msgid "This critter is hungry and looking for food"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.LOOKINGFORFOOD.TOOLTIP"
 msgid "This critter is hungry and looking for <style=\"KKeyword\">Food</style>"
-msgstr "Tämä otus on nälkäinen ja etsii ruokaa"
+msgstr "Tämä otus on nälkäinen ja etsii <style=\"KKeyword\">Ruokaa</style>"
 
 #. STRINGS.CREATURES.STATUSITEMS.LOW_YIELD.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.LOW_YIELD.NAME"
@@ -23380,14 +23369,13 @@ msgid "    • Fertilization"
 msgstr "    • Lannoitus"
 
 #. STRINGS.CREATURES.STATUSITEMS.NEEDSFERTILIZER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.NEEDSFERTILIZER.TOOLTIP"
-#| msgid "Growth will resume when fertilization requirements are met"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NEEDSFERTILIZER.TOOLTIP"
 msgid ""
 "Growth will resume when <style=\"KKeyword\">Fertilization</style> "
 "requirements are met"
-msgstr "Kasvaminen jatkuu kun lannoitusvaatimukset saavutetaan"
+msgstr ""
+"Kasvaminen jatkuu kun <style=\"KKeyword\">Lannoitus</style>vaatimukset "
+"saavutetaan"
 
 #. STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.LINE_ITEM
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.LINE_ITEM"
@@ -23404,14 +23392,13 @@ msgid "    • Irrigation"
 msgstr "    • Kastelu"
 
 #. STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.TOOLTIP"
-#| msgid "Growth will resume when liquid requirements are met"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.TOOLTIP"
 msgid ""
 "Growth will resume when <style=\"KKeyword\">Liquid</style> requirements are "
 "met"
-msgstr "Kasvaminen jatkuu kun nestevaatimukset saavutetaan"
+msgstr ""
+"Kasvaminen jatkuu kun <style=\"KKeyword\">Neste</style>vaatimukset "
+"saavutetaan"
 
 #. STRINGS.CREATURES.STATUSITEMS.NORMAL_YIELD.LINE_ITEM
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NORMAL_YIELD.LINE_ITEM"
@@ -23452,12 +23439,6 @@ msgid "Ideal Air Pressure"
 msgstr "Ihanneilmanpaine"
 
 #. STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.TOOLTIP"
-#| msgid ""
-#| "This critter is comfortable in the current atmospheric pressure\n"
-#| "\n"
-#| "Ideal Range: {0} - {1}"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.TOOLTIP"
 msgid ""
 "This critter is comfortable in the current atmospheric pressure\n"
@@ -23466,7 +23447,7 @@ msgid ""
 msgstr ""
 "Tällä otuksella on mukava olla tämänhetkisessä ilmanpaineessa\n"
 "\n"
-"Ihanneväli: {0} - {1}"
+"Ihanneväli: <b>{0}</b> - <b>{1}</b>"
 
 #. STRINGS.CREATURES.STATUSITEMS.PERFECTTEMPERATURE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTTEMPERATURE.NAME"
@@ -23474,12 +23455,6 @@ msgid "Ideal Temperature"
 msgstr "Ihannelämpötila"
 
 #. STRINGS.CREATURES.STATUSITEMS.PERFECTTEMPERATURE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTTEMPERATURE.TOOLTIP"
-#| msgid ""
-#| "This critter finds the current ambient temperature comfortable\n"
-#| "\n"
-#| "Ideal Range: {0} - {1}"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTTEMPERATURE.TOOLTIP"
 msgid ""
 "This critter finds the current ambient <style=\"KKeyword\">Temperature</"
@@ -23489,7 +23464,7 @@ msgid ""
 msgstr ""
 "Tämän otuksen mielestä tämänhetkinen ympäristön lämpötila on mukava\n"
 "\n"
-"Ihanneväli: {0} - {1}"
+"Ihanneväli: <b>{0}</b> - <b>{1}</b>"
 
 #. STRINGS.CREATURES.STATUSITEMS.PLANTDEATH.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PLANTDEATH.NAME"
@@ -23519,7 +23494,7 @@ msgstr "Istuttaa Siementä"
 #. STRINGS.CREATURES.STATUSITEMS.PLANTINGSEED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PLANTINGSEED.TOOLTIP"
 msgid "This critter is burying a <style=\"KKeyword\">Seed</style> for later"
-msgstr ""
+msgstr "Tämä otus hautaa <style=\"KKeyword\">Siementä</style> myöhemmäksi"
 
 #. STRINGS.CREATURES.STATUSITEMS.PROTECTINGENTITY.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PROTECTINGENTITY.NAME"
@@ -23532,6 +23507,8 @@ msgid ""
 "This creature is guarding something special to them and will likely attack "
 "if approached"
 msgstr ""
+"Tämä otus vartioi jotain sille tärkeää ja todennäköisesti hyökkää, kun sitä "
+"lähestytään"
 
 #. STRINGS.CREATURES.STATUSITEMS.READYFORHARVEST.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.READYFORHARVEST.NAME"
@@ -23549,16 +23526,13 @@ msgid "    • Farm plot inoperable"
 msgstr "    • Viljelyskohta käyttökelvoton"
 
 #. STRINGS.CREATURES.STATUSITEMS.RECEPTACLEINOPERATIONAL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEINOPERATIONAL.TOOLTIP"
-#| msgid "This farm plot cannot grow plants in its current state"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEINOPERATIONAL.TOOLTIP"
 msgid ""
 "This farm plot cannot grow <style=\"KKeyword\">Plants</style> in its current "
 "state"
 msgstr ""
-"Tätä viljelyskohtaa ei voida käyttää kasvien kasvattamiseen sen nykyisessä "
-"tilassa"
+"Tämä viljelyskohta ei voi kasvattaa <style=\"KKeyword\">Kasveja</style> sen "
+"nykyisessä tilassa"
 
 #. STRINGS.CREATURES.STATUSITEMS.RECEPTACLEOPERATIONAL.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEOPERATIONAL.NAME"
@@ -23576,15 +23550,13 @@ msgid "Refrigerated"
 msgstr "Jäähdytetty"
 
 #. STRINGS.CREATURES.STATUSITEMS.REFRIGERATED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.REFRIGERATED.TOOLTIP"
-#| msgid "Ideal temperature storage is slowing this food's decay rate"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.REFRIGERATED.TOOLTIP"
 msgid ""
 "Ideal <style=\"KKeyword\">Temperature</style> storage is slowing this food's "
 "<style=\"KKeyword\">Decay Rate</style>"
 msgstr ""
-"Ihannelämpötilassa oleva säilytyspaikka hidastaa tämän ruuan pilaantumista"
+"Ihanne<style=\"KKeyword\">lämpötilassa</style> oleva säilytyspaikka hidastaa "
+"tämän ruuan <style=\"KKeyword\">Pilaantumisnopeutta</style>"
 
 #. STRINGS.CREATURES.STATUSITEMS.RUMMAGINGSEED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.RUMMAGINGSEED.NAME"
@@ -23594,7 +23566,7 @@ msgstr "Koluaa siemeniä"
 #. STRINGS.CREATURES.STATUSITEMS.RUMMAGINGSEED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.RUMMAGINGSEED.TOOLTIP"
 msgid "This critter is searching for tasty <style=\"KKeyword\">Seeds</style>"
-msgstr ""
+msgstr "Tämä otus etsii makoisia <style=\"KKeyword\">Siemeniä</style>"
 
 #. STRINGS.CREATURES.STATUSITEMS.SATURATED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SATURATED.NAME"
@@ -23606,6 +23578,8 @@ msgctxt "STRINGS.CREATURES.STATUSITEMS.SATURATED.TOOLTIP"
 msgid ""
 "This critter likes <style=\"KKeyword\">Liquid</style>, but not that much!"
 msgstr ""
+"Tämä otus pitää kyllä <style=\"KKeyword\">Nesteestä</style>, muttei ihan "
+"noin paljon!"
 
 #. STRINGS.CREATURES.STATUSITEMS.SCALDING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SCALDING.NAME"
@@ -23618,28 +23592,22 @@ msgid "Scalding"
 msgstr "Tulikuuma"
 
 #. STRINGS.CREATURES.STATUSITEMS.SCALDING.NOTIFICATION_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.SCALDING.NOTIFICATION_TOOLTIP"
-#| msgid "Scalding temperatures are hurting these Duplicants:"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SCALDING.NOTIFICATION_TOOLTIP"
 msgid ""
 "Scalding <style=\"KKeyword\">Temperatures</style> are hurting these "
 "Duplicants:"
-msgstr "Tulikuumat lämpötilat satuttavat näitä Jäljennäisiä:"
+msgstr ""
+"Tulikuumat <style=\"KKeyword\">Lämpötilat</style> satuttavat näitä "
+"Jäljennäisiä:"
 
 #. STRINGS.CREATURES.STATUSITEMS.SCALDING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.SCALDING.TOOLTIP"
-#| msgid ""
-#| "Current external temperature is perilously high [{ExternalTemperature} / "
-#| "{TargetTemperature}]"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SCALDING.TOOLTIP"
 msgid ""
 "Current external <style=\"KKeyword\">Temperature</style> is perilously high "
 "[<b>{ExternalTemperature}</b> / <b>{TargetTemperature}</b>]"
 msgstr ""
-"Tämänhetkinen ulkoinen lämpötila on turmiollisen korkea "
-"[{ExternalTemperature} / {TargetTemperature}]"
+"Tämänhetkinen ulkoinen <style=\"KKeyword\">Lämpötila</style> on turmiollisen "
+"korkea [<b>{ExternalTemperature}</b> / <b>{TargetTemperature}</b>]"
 
 #. STRINGS.CREATURES.STATUSITEMS.SLEEPING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SLEEPING.NAME"
@@ -23647,12 +23615,9 @@ msgid "Sleeping"
 msgstr "Nukkuu"
 
 #. STRINGS.CREATURES.STATUSITEMS.SLEEPING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.SLEEPING.TOOLTIP"
-#| msgid "This critter is replenishing its stamina"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SLEEPING.TOOLTIP"
 msgid "This critter is replenishing its <style=\"KKeyword\">Stamina</style>"
-msgstr "Tämä otus palauttaa jaksamistaan"
+msgstr "Tämä otus palauttaa <style=\"KKeyword\">Jaksamistaan</style>"
 
 #. STRINGS.CREATURES.STATUSITEMS.SPOILED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SPOILED.NAME"
@@ -23660,14 +23625,13 @@ msgid "Rotten"
 msgstr "Mätä"
 
 #. STRINGS.CREATURES.STATUSITEMS.SPOILED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.SPOILED.TOOLTIP"
-#| msgid "This food has putrefied and should not be consumed"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SPOILED.TOOLTIP"
 msgid ""
 "This <style=\"KKeyword\">Food</style> has putrefied and should not be "
 "consumed"
-msgstr "Tämä ruoka on mätääntynyt, eikä sitä tulisi syödä"
+msgstr ""
+"Tämä This <style=\"KKeyword\">Ruoka</style> on mädäntynyt, eikä sitä tulisi "
+"syödä"
 
 #. STRINGS.CREATURES.STATUSITEMS.STALE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STALE.NAME"
@@ -23675,17 +23639,13 @@ msgid "Stale {RotPercentage}"
 msgstr "Ummehtunut {RotPercentage}"
 
 #. STRINGS.CREATURES.STATUSITEMS.STALE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.STALE.TOOLTIP"
-#| msgid ""
-#| "This food is still edible but will soon expire\n"
-#| "{RotTooltip}"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STALE.TOOLTIP"
 msgid ""
 "This <style=\"KKeyword\">Food</style> is still edible but will soon expire\n"
 "{RotTooltip}"
 msgstr ""
-"Tämä ruoka on vielä syötävää, muttei kovin kauaa\n"
+"Tämä <style=\"KKeyword\">Ruoka</style> on vielä syötävää, mutta pilaantuu "
+"pian\n"
 "{RotTooltip}"
 
 #. STRINGS.CREATURES.STATUSITEMS.STARVING.NAME
@@ -23718,14 +23678,13 @@ msgid "Sterile Atmosphere"
 msgstr "Steriili Ilmasto"
 
 #. STRINGS.CREATURES.STATUSITEMS.STERILIZINGATMOSPHERE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.STERILIZINGATMOSPHERE.TOOLTIP"
-#| msgid "Microbe destroying conditions are preventing this food from decaying"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STERILIZINGATMOSPHERE.TOOLTIP"
 msgid ""
 "Microbe destroying conditions have decreased this food's <style=\"KKeyword"
 "\">Decay Rate</style>"
-msgstr "Mikrobeja tuhoavat olosuhteet estävät tätä ruokaa pilaantumasta"
+msgstr ""
+"Mikrobeja tuhoavat olosuhteet estävät tätä ruokaa <style=\"KKeyword"
+"\">Pilaantumisnopeutta</style>"
 
 #. STRINGS.CREATURES.STATUSITEMS.STRUGGLING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STRUGGLING.NAME"
@@ -23743,15 +23702,13 @@ msgid "Stunted Scales"
 msgstr "Kituskasvuiset Suomut"
 
 #. STRINGS.CREATURES.STATUSITEMS.STUNTED_SCALE_GROWTH.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.STUNTED_SCALE_GROWTH.TOOLTIP"
-#| msgid ""
-#| "This critter's scale growth is being stunted by an unfavorable environment"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STUNTED_SCALE_GROWTH.TOOLTIP"
 msgid ""
 "This critter's <style=\"KKeyword\">Scale Growth</style> is being stunted by "
 "an unfavorable environment"
-msgstr "Tämän otuksen suomujen kasvu kituu epäsuotuisasta ympäristöstä johtuen"
+msgstr ""
+"Tämän otuksen <style=\"KKeyword\">Suomujenkasvu</style> kituu epäsuotuisasta "
+"ympäristöstä johtuen"
 
 #. STRINGS.CREATURES.STATUSITEMS.SUFFOCATING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SUFFOCATING.NAME"
@@ -23789,15 +23746,13 @@ msgid "Unrefrigerated"
 msgstr "Ei Jäähdytetty"
 
 #. STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP"
-#| msgid "Temperatures above {RotTemperature} spoil food more quickly"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP"
 msgid ""
 "<style=\"KKeyword\">Temperatures</style> above <b>{RotTemperature}</b> spoil "
 "food more quickly"
 msgstr ""
-"{RotTemperature} korkemmat lämpötilat saavat ruuan pilaantumaan nopeammin"
+"{RotTemperature} korkeammat <style=\"KKeyword\">Lämpötilat</style> saavat "
+"ruuan pilaantumaan nopeammin"
 
 #. STRINGS.CREATURES.STATUSITEMS.WILTING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING.NAME"
@@ -23835,16 +23790,13 @@ msgid "    • Atmosphere"
 msgstr "    • Ilmasto"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.TOOLTIP"
-#| msgid ""
-#| "Growth will resume when submersed in one of the following gases: "
-#| "{elements}"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.TOOLTIP"
 msgid ""
 "Growth will resume when submersed in one of the following <style=\"KKeyword"
 "\">Gases</style>: {elements}"
-msgstr "Kasvu jatkuu kun on seuraavien kaasujen ympäröimä: {elements}"
+msgstr ""
+"Kasvu jatkuu kun on seuraavien <style=\"KKeyword\">Kaasujen</style> "
+"ympäröimä: {elements}"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZER.LINE_ITEM
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZER.LINE_ITEM"
@@ -23857,12 +23809,6 @@ msgid "    • Fertilization"
 msgstr "    • Lannoitus"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZER.TOOLTIP"
-#| msgid ""
-#| "This farm is storing materials that are not suitable for this plant\n"
-#| "------------------\n"
-#| "Empty this building's storage to remove the unusable materials"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZER.TOOLTIP"
 msgid ""
 "This farm is storing materials that are not suitable for this plant\n"
@@ -23872,7 +23818,8 @@ msgid ""
 msgstr ""
 "Tässä tarhassa on materiaaleja, jotka eivät sovi tälle kasville\n"
 "------------------\n"
-"Tyhjennä tämän rakennuksen varasto poistaaksesi käyttökelvottomat materiaalit"
+"Tyhjennä tämän rakennuksen <style=\"KKeyword\">Varasto</style> poistaaksesi "
+"käyttökelvottomat materiaalit"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZERMAJOR.LINE_ITEM
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZERMAJOR.LINE_ITEM"
@@ -23885,12 +23832,6 @@ msgid "    • Fertilization"
 msgstr "    • Lannoitus"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZERMAJOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZERMAJOR.TOOLTIP"
-#| msgid ""
-#| "This farm is storing materials that are not suitable for this plant\n"
-#| "------------------\n"
-#| "Empty this building's storage to remove the unusable materials"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZERMAJOR.TOOLTIP"
 msgid ""
 "This farm is storing materials that are not suitable for this plant\n"
@@ -23900,7 +23841,8 @@ msgid ""
 msgstr ""
 "Tässä tarhassa on materiaaleja, jotka eivät sovi tälle kasville\n"
 "------------------\n"
-"Tyhjennä tämän rakennuksen varasto poistaaksesi käyttökelvottomat materiaalit"
+"Käytä <style=\"KKeyword\">Tyhjennä Varasto</style>-toimintoa tälle "
+"rakennukselle poistaaksesi käyttökelvottomat materiaalit"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATION.LINE_ITEM
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATION.LINE_ITEM"
@@ -23934,12 +23876,6 @@ msgid "    • Irrigation"
 msgstr "    • Kastelu"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.TOOLTIP"
-#| msgid ""
-#| "This farm is storing materials that are not suitable for this plant\n"
-#| "------------------\n"
-#| "Empty this building's storage to remove the incorrect materials"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.TOOLTIP"
 msgid ""
 "This farm is storing materials that are not suitable for this plant\n"
@@ -23949,7 +23885,8 @@ msgid ""
 msgstr ""
 "Tässä tarhassa on materiaaleja, jotka eivät sovi tälle kasville\n"
 "------------------\n"
-"Tyhjennä tämän rakennuksen varasto poistaaksesi väärät materiaalit"
+"Käytä <style=\"KKeyword\">Tyhjennä Varasto</style>-toimintoa tälle "
+"rakennukselle poistaaksesi väärät materiaalit"
 
 #. STRINGS.DUPLICANTS.ARRIVALTIME
 msgctxt "STRINGS.DUPLICANTS.ARRIVALTIME"
@@ -24189,14 +24126,10 @@ msgid "Decor Morale Bonus"
 msgstr "Koristemoraalibonus"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.DESC"
-#| msgid ""
-#| "The influence range of an object's <link=\"DECOR\">Decor</link> value."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.DESC"
 msgid ""
 "The influence range of an object's <style=\"KKeyword\">Decor</style> value."
-msgstr "Esineen <link=\"DECOR\">Koristeellisuuden</link> vaikutusaluearvo."
+msgstr "Esineen <link=\"DECOR\">Koristeellisuuden</link> vaikutusalue."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.NAME"
@@ -30030,15 +29963,13 @@ msgid "Bad leftovers"
 msgstr "Pahentuneet tähteet"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.STALEFOOD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STALEFOOD.TOOLTIP"
-#| msgid "This Duplicant is in a bad mood from having to eat stale food"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STALEFOOD.TOOLTIP"
 msgid ""
 "This Duplicant is in a bad mood from having to eat stale <style=\"KKeyword"
 "\">Food</style>"
 msgstr ""
-"Tämä Jäljennäinen on pahalla päällä jouduttuaan syömään vanhentunutta ruokaa"
+"Tämä Jäljennäinen on pahalla päällä jouduttuaan syömään vanhentunutta <style="
+"\"KKeyword\">Ruokaa</style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.STARVING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STARVING.NAME"
@@ -30084,15 +30015,13 @@ msgid "Making a mess"
 msgstr "Tekee vahingon"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.STRESSFULYEMPTYINGBLADDER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSFULYEMPTYINGBLADDER.TOOLTIP"
-#| msgid "This Duplicant had no choice but to to empty their bladder"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSFULYEMPTYINGBLADDER.TOOLTIP"
 msgid ""
 "This Duplicant had no choice but to empty their <style=\"KKeyword\">Bladder</"
 "style>"
 msgstr ""
-"Tällä jäljennäisellä ei ollut muuta vaihtoehtoa kuin tyhjentää rakkonsa"
+"Tällä jäljennäisellä ei ollut muuta vaihtoehtoa kuin tyhjentää <style="
+"\"KKeyword\">Rakkonsa</style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION.NAME"
@@ -30118,6 +30047,9 @@ msgid ""
 "\n"
 "This Duplicant's <style=\"KKeyword\">Stress</style> is just melting away"
 msgstr ""
+"Kliiniset tilat parantavat tämän hieronnan tehokkuutta\n"
+"\n"
+"Tämän Jäljennäisen <style=\"KKeyword\">Ahdistus</style> kuin sulaa pois"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.NAME"
@@ -30131,6 +30063,8 @@ msgid ""
 "bonus to buffer the new <style=\"KKeyword\">Morale</style> system "
 "introduction"
 msgstr ""
+"Tämä Jäljennäinen saa väliaikaisen <style=\"KKeyword\">Moraali</style>lisän "
+"uuteen <style=\"KKeyword\">Moraali</style>järjestelmän alullesaamiseksi"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.NAME"
@@ -30138,18 +30072,13 @@ msgid "Intensely Bright"
 msgstr "Erittäin Kirkas"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.TOOLTIP"
-#| msgid ""
-#| "The bright light is significantly improving this Duplicant's mood, but "
-#| "prolonged exposure may result in burning"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.TOOLTIP"
 msgid ""
 "The bright <style=\"KKeyword\">Light</style> is significantly improving this "
 "Duplicant's mood, but prolonged exposure may result in burning"
 msgstr ""
-"Kirkas valo parantaa tämän Jäljennäisen mielialaa, mutta pitkään jatkuva "
-"altistus voi aiheuttaa palamista"
+"Kirkas <style=\"KKeyword\">Valo</style> parantaa tämän Jäljennäisen "
+"mielialaa, mutta pitkään jatkuva altistus voi aiheuttaa palamista"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_PLEASANT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_PLEASANT.NAME"
@@ -30157,15 +30086,13 @@ msgid "Bright and Cheerful"
 msgstr "Onnellinen ja Iloinen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_PLEASANT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_PLEASANT.TOOLTIP"
-#| msgid ""
-#| "The strong natural light is making this Duplicant feel light on their feet"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_PLEASANT.TOOLTIP"
 msgid ""
 "The strong natural <style=\"KKeyword\">Light</style> is making this "
 "Duplicant feel light on their feet"
-msgstr "Voimakas luonnonvalo saa tämän Jäljennäisen askeleet kevyiksi"
+msgstr ""
+"Voimakas luonnon<style=\"KKeyword\">valo</style> saa tämän Jäljennäisen "
+"askeleet kevyiksi"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TEMPEXCHANGE.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TEMPEXCHANGE.NAME"
@@ -30178,15 +30105,12 @@ msgid "Dead Tired"
 msgstr "Rättiväsynyt"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.TOOLTIP"
-#| msgid ""
-#| "This Duplicant didn't get any shuteye last night because of the racket"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.TOOLTIP"
 msgid ""
 "This Duplicant didn't get any shuteye last night because of all the racket "
 "from a friend's snoring"
-msgstr "Tämä Jäljennäinen ei saanut metelin takia nukuttua viimeyönä lainkaan"
+msgstr ""
+"Tämä Jäljennäinen ei saanut kuorsaavan kaverin metelöinnin takia yhtään unta"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING"
@@ -35919,17 +35843,6 @@ msgstr ""
 
 # Oikeasti lämmönjohtavuuden yksikkö on W/(K*m), mutta ei tähän muu sovi
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_THERMAL_CONDUCTIVITY
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_THERMAL_CONDUCTIVITY"
-#| msgid ""
-#| "This material disperses heat because energy transfers quickly through "
-#| "materials with high thermal conductivity\n"
-#| "\n"
-#| "Between two objects, the rate of heat transfer will be determined by the "
-#| "object with the lowest Thermal Conductivity\n"
-#| "\n"
-#| "Thermal Conductivity: {1} W per degree K difference (Oxygen: 0.024 W)"
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_THERMAL_CONDUCTIVITY"
 msgid ""
 "This material disperses <style=\"KKeyword\">Heat</style> because energy "
@@ -35942,23 +35855,17 @@ msgid ""
 "\n"
 "Thermal Conductivity: {1} W per degree K difference (Oxygen: 0.024 W)"
 msgstr ""
-"Tämä materiaali levittää lämpöä, koska energia siirtyy nopeasti korkean "
-"lämmönjohtavuuden omaavien materiaalien läpi\n"
+"Tämä materiaali levittää <style=\"KKeyword\">Lämpöä</style>, koska energia "
+"siirtyy nopeasti korkean <style=\"KKeyword\">Lämmönjohtavuuden</style> "
+"omaavien materiaalien läpi\n"
 "\n"
-"Lämmönsiirtonopeus kahden kappaleen välillä määräytyy alhaisimman "
-"Lämmönjohtavuuden omaavan kappaleen mukaan\n"
+"<style=\"KKeyword\">Lämmön</style>siirtonopeus kahden kappaleen välillä "
+"määräytyy <i>alhaisimman</i> <style=\"KKeyword\">Lämmönjohtavuuden</style> "
+"omaavan kappaleen mukaan\n"
 "\n"
-"Lämmönjohtavuus: {1} W/ K (Happi: 0.024 W)"
+"Lämmönjohtavuus: {1} W yhtä K-aste-eroa kohden (Happi: 0.024 W)"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_SPECIFIC_HEAT_CAPACITY
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_SPECIFIC_HEAT_CAPACITY"
-#| msgid ""
-#| "Thermally Reactive materials require little energy to raise in "
-#| "temperature, and therefore heat and cool quickly\n"
-#| "\n"
-#| "Specific Heat Capacity: {1} J to raise 1g by 1K"
 msgctxt ""
 "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_SPECIFIC_HEAT_CAPACITY"
 msgid ""
@@ -35968,23 +35875,13 @@ msgid ""
 "\n"
 "Specific Heat Capacity: {1} DTU to raise 1g by 1K"
 msgstr ""
-"Termisesti Reaktiiviset materiaalit vaativat vähän energiaa nostaakseen "
-"lämpötilaansa, minkä vuoksi ne lämpenevät ja jäähtyvät nopeasti\n"
+"<style=\"KKeyword\">Termisesti Reaktiiviset</style> materiaalit vaativat "
+"vähän energiaa nostaakseen <style=\"KKeyword\">Lämpötilaansa</style>, minkä "
+"vuoksi ne lämpenevät ja jäähtyvät nopeasti\n"
 "\n"
-"Ominaislämpökapasiteetti: {1} J/gK"
+"Ominaislämpökapasiteetti: {1} DTU nostamaan 1g ainetta 1K verran"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_THERMAL_CONDUCTIVITY
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_THERMAL_CONDUCTIVITY"
-#| msgid ""
-#| "This material retains heat because energy transfers slowly through "
-#| "materials with low thermal conductivity\n"
-#| "\n"
-#| "Between two objects, the rate of heat transfer will be determined by the "
-#| "object with the lowest Thermal Conductivity\n"
-#| "\n"
-#| "Thermal Conductivity: {1} W per degree K difference (Oxygen: 0.024 W)"
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_THERMAL_CONDUCTIVITY"
 msgid ""
 "This material retains <style=\"KKeyword\">Heat</style> because energy "
@@ -35997,25 +35894,24 @@ msgid ""
 "\n"
 "Thermal Conductivity: {1} W per degree K difference (Oxygen: 0.024 W)"
 msgstr ""
-"Tämä materiaali pitää lämpöä, koska energia siityy hitaasti alhaisen "
-"lämmönjohtavuuden omaavien materiaalien läpi\n"
+"Tämä materiaali pitää <style=\"KKeyword\">Lämpöä</style>, koska energia "
+"siirtyy hitaasti alhaisen <style=\"KKeyword\">Lämmönjohtavuuden</style> "
+"omaavien materiaalien läpi\n"
 "\n"
-"Lämmönsiirtonopeus kahden kappaleen välillä määräytyy alhaisimman "
-"Lämmönjohtavuuden omaavan kappaleen mukaan\n"
+"<style=\"KKeyword\">Lämmön</style>siirtonopeus kahden kappaleen välillä "
+"määräytyy <i>alhaisimman</i> <style=\"KKeyword\">Lämmönjohtavuuden</style> "
+"omaavan kappaleen mukaan\n"
 "\n"
-"Lämmönjohtavuus: {1} W/K (Happi: 0.024 W)"
+"Lämmönjohtavuus: {1} W yhtä K-aste-eroa kohti (Happi: 0.024 W)"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.OVERHEATTEMPERATURE
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.OVERHEATTEMPERATURE"
-#| msgid ""
-#| "This material will add {0} to the finished building's Overheat Temperature"
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.OVERHEATTEMPERATURE"
 msgid ""
 "This material will add <b>{0}</b> to the finished building's <style="
 "\"KKeyword\">Overheat Temperature</style>"
 msgstr ""
-"Tämä materiaali nostaa valmiin rakennuksen Ylikuumenemislämpötilaa {0} verran"
+"Tämä materiaali nostaa valmiin rakennuksen <style=\"KKeyword"
+"\">Ylikuumenenislämpötilaa</style> <b>{0}</b> verran"
 
 #. STRINGS.ELEMENTS.MERCURY.DESC
 msgctxt "STRINGS.ELEMENTS.MERCURY.DESC"
@@ -36751,6 +36647,9 @@ msgid ""
 "\n"
 "It can be used as a highly effective fuel source when burned."
 msgstr ""
+"(C<sub>2</sub>H<sub>6</sub>O) Etanoli on kehittynyt kemiallinen yhdiste.\n"
+"\n"
+"Sitä voidaan käyttää korkeatehoisena polttoaineena kun sitä poltetaan."
 
 #. STRINGS.ELEMENTS.SOLIDETHANOL.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDETHANOL.NAME"
@@ -37223,6 +37122,9 @@ msgid ""
 "surface tension, preventing typical liquid flow and allowing for unusual "
 "configurations."
 msgstr ""
+"Visko-Geeli on <link=\"ELEMENTSLIQUID\">Nestemäinen</link> polymeeri, jonka "
+"korkea pintajännitys estää tavallisen nestemäisen virtauksen ja mahdollistaa "
+"epätavallisen asettelun."
 
 #. STRINGS.ELEMENTS.VISCOGEL.NAME
 msgctxt "STRINGS.ELEMENTS.VISCOGEL.NAME"
@@ -37281,13 +37183,6 @@ msgid "Because breathing underwater is better than... not."
 msgstr "Koska veden alla hengittäminen on parempi kuin... ei ollenkaan."
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT"
-#| msgid ""
-#| "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in underwater "
-#| "environments.\n"
-#| "\n"
-#| "Must be refilled with oxygen at an Exosuit Recharger when depleted."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT"
 msgid ""
 "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in underwater "
@@ -37299,7 +37194,8 @@ msgstr ""
 "Antaa Jäljennäisille <style=\"oxygen\">Happea</style> vedenalaisiin "
 "ympäristöihin.\n"
 "\n"
-"Täytyy täyttää hapella Eksopukulataamossa tyhjennyttyään."
+"Täytyy täyttää <link=\"OXYGEN\">Hapella</link> Painepukutelakalla "
+"tyhjennyttyään."
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.NAME"
@@ -37316,23 +37212,13 @@ msgstr ""
 "ympäristöihin."
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.DESC"
-#| msgid "Make sure your Duplicants can breathe easy, anytime, anywhere."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.DESC"
 msgid "Ensures my Duplicants can breathe easy, anytime, anywhere."
 msgstr ""
-"Pidä huolta, että Jäljennäiseni pystyvät hengittämään helposti, milloin "
-"vaan, missä vaan."
+"Pitää huolen, että Jäljennäiseni voivat hengittää helposti, missä vain, "
+"milloin vain."
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT"
-#| msgid ""
-#| "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in toxic and "
-#| "low breathability environments.\n"
-#| "\n"
-#| "Must be refilled with oxygen at an Exosuit Recharger when depleted."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT"
 msgid ""
 "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in toxic and low "
@@ -37340,10 +37226,10 @@ msgid ""
 "\n"
 "Must be refilled with oxygen at an Atmo Suit Dock when depleted."
 msgstr ""
-"Antaa Jäljennäisille <style=\"oxygen\">Happea</style> myrkyllisiin ja "
-"ympäristöihin, joissa on vaikea hengittää.\n"
+"Antaa Jäljennäisille <style=\"oxygen\">Happea</style> ympäristöihin, joissa "
+"on myrkyllistä tai vaikea hengittää.\n"
 "\n"
-"Täytyy täyttää hapella Eksopukulataamossa tyhjennyttyään."
+"Täytyy täyttää hapella Painepukutelakalla tyhjennyttyään."
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.GENERICNAME"
@@ -37428,13 +37314,6 @@ msgid "Allows my Duplicants to take to the skies, for a time."
 msgstr "Mahdollistaa Jäljennäisteni liidon ilmojen halki. Hetkeksi."
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT"
-#| msgid ""
-#| "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in toxic and "
-#| "low breathability environments.\n"
-#| "\n"
-#| "Must be refilled with oxygen at an Exosuit Recharger when depleted."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.EFFECT"
 msgid ""
 "Supplies Duplicants with <link=\"OXYGEN\">Oxygen</link> in toxic and low "
@@ -37443,10 +37322,11 @@ msgid ""
 "Must be refilled with <link=\"OXYGEN\">Oxygen</link> and <link=\"PETROLEUM"
 "\">Petroleum</link> at a Jet Suit Dock when depleted."
 msgstr ""
-"Antaa Jäljennäisille <style=\"oxygen\">Happea</style> myrkyllisiin ja "
-"ympäristöihin, joissa on vaikea hengittää.\n"
+"Antaa Jäljennäisille <style=\"oxygen\">Happea</style> ympäristöihin, joissa "
+"on myrkyllistä tai vaikea hengittää.\n"
 "\n"
-"Täytyy täyttää hapella Eksopukulataamossa tyhjennyttyään."
+"Täytyy täyttää <link=\"OXYGEN\">Hapella</link> ja <link=\"PETROLEUM"
+"\">Petrolilla</link> Rakettipukutelakalla tyhjennyttyään."
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.GENERICNAME"
@@ -37560,13 +37440,6 @@ msgid "Keeps my Duplicants cool in case things heat up."
 msgstr "Pitää Jäljennäiseni viileinä siltä varalta, että paikat kuumenee."
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT"
-#| msgid ""
-#| "Provides insulation in regions with extreme <style=\"heat\">Temperatures</"
-#| "style>.\n"
-#| "\n"
-#| "Must be powered at an Exosuit Recharger when depleted."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.EFFECT"
 msgid ""
 "Provides insulation in regions with extreme <style=\"heat\">Temperatures</"
@@ -37576,15 +37449,12 @@ msgid ""
 msgstr ""
 "Antaa eristystä äärimmäisten <style=\"heat\">Lämpötilojen</style> alueilla.\n"
 "\n"
-"Täytyy ladata sähköllä Eksopukulataamossa tyhjentyessään."
+"Täytyy ladata sähköllä Lämpöpukutelakalla tyhjennyttyään."
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.NAME"
-#| msgid "<link=\"TEMPERATURECONTROLLEDSWITCH\">Thermo Switch</link>"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.NAME"
 msgid "<link=\"TEMPERATURESUIT\">Thermo Suit</link>"
-msgstr "<link=\"TEMPERATURECONTROLLEDSWITCH\">Lämpötilakytkin</link>"
+msgstr "<link=\"TEMPERATURESUIT\">Lämpöpuku</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.TEMPERATURE_SUIT.RECIPE_DESC"
@@ -37803,7 +37673,7 @@ msgstr "Nopeuta Kameran Siirtoa"
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANUP
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAPANUP"
 msgid "Cinematic Pan Up"
-msgstr ""
+msgstr "Elokuvakavera Siirto Ylös"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMATOGGLEEASING
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMATOGGLEEASING"
@@ -37828,12 +37698,12 @@ msgstr ""
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDMINUS
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDMINUS"
 msgid "Zoom Speed Decrease"
-msgstr ""
+msgstr "Hidasta Tarkennusta"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDPLUS
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDPLUS"
 msgid "Zoom Speed Increase"
-msgstr ""
+msgstr "Nopeuta Tarkennusta"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.NAME"
@@ -38823,6 +38693,10 @@ msgid ""
 "\n"
 "It's the only burger ever to be served cold."
 msgstr ""
+"<link=\"MEAT\">Lihaa</link> ja <link=\"LETTUCE\">Salaattia</link> "
+"jäähdytetyssä <link=\"COLDWHEATBREAD\">Kuurasämpylässä</link>.\n"
+"\n"
+"Se on ainoa viileänä tarjoiltu hampurilainen."
 
 #. STRINGS.ITEMS.FOOD.BURGER.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.NAME"
@@ -38835,6 +38709,8 @@ msgid ""
 "<link=\"MEAT\">Meat</link> and <link=\"LETTUCE\">Lettuce</link> on a chilled "
 "<link=\"COLDWHEATBREAD\">Frost Bun</link>."
 msgstr ""
+"<link=\"MEAT\">Lihaa</link> ja <link=\"LETTUCE\">Salaattia</link> "
+"jäähdytetyssä <link=\"COLDWHEATBREAD\">Kuurasämpylässä</link>."
 
 #. STRINGS.ITEMS.FOOD.COLDWHEATBREAD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATBREAD.DESC"

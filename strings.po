@@ -4140,17 +4140,6 @@ msgstr ""
 "ne tarvitsevat latausta."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT"
-#| msgid ""
-#| "Stores <link=\"POWER\">Power</link> from generators, then provides that "
-#| "<link=\"POWER\">Power</link> to buildings.\n"
-#| "\n"
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> or "
-#| "<b><color=#f44a47>Red Signal</b></color> based on the configuration of "
-#| "the Logic Activation Parameters.\n"
-#| "\n"
-#| "Very slightly loses charge over time."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT"
 msgid ""
 "Stores <link=\"POWER\">Power</link> from generators, then provides that "
@@ -4177,20 +4166,14 @@ msgid "Charge Parameters"
 msgstr "Muuta Parametrejä"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#f44a47>Red Signal</b></color> when the battery is more "
-#| "than <b>High Threshold</b> charged, until <b>Low Threshold</b> is reached "
-#| "again"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> when battery is less "
 "than <b>Low Threshold</b> charged, until <b>High Threshold</b> is reached "
 "again"
 msgstr ""
-"Lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>, akun "
-"ylittäessä latauksen <b>Enimmäiskynnyksen</b> siihen asti, kun "
+"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b>, akun "
+"alittaessa latauksen <b>Vähimmäiskynnyksen</b> siihen asti, kun "
 "<b>Vähimmäiskynnys</b> saavutetaan uudelleen"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE
@@ -4230,19 +4213,14 @@ msgid "Soak up some relaxing sun rays."
 msgstr "Ime itseesi rentouttavia auringonsäteitä."
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to play video games on their breaks.\n"
-#| "\n"
-#| "Increases Duplicant <link=\"MORALE\">Morale</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.EFFECT"
 msgid ""
 "Duplicants can relax by lounging in <link=\"LIGHT\">Sunlight</link>.\n"
 "\n"
 "Increases Duplicants <link=\"MORALE\">Morale</link>."
 msgstr ""
-"Mahdollistaa Jäljennäisten videopelien pelaamisen tauoillaan.\n"
+"Jäljennäiset voivat rentoutua lekottelemalla <link=\"LIGHT"
+"\">Auringonvalossa</link>.\n"
 "\n"
 "Nostaa Jäljennäisten <link=\"MORALE\">Mielialaa</link>."
 
@@ -4257,6 +4235,8 @@ msgid ""
 "Duplicants will gain {amount} {attrib} if this building is in at least {lux} "
 "light."
 msgstr ""
+"Jäljennäiset saavat {amount} {attrib} jos tämän rakennuksen valaistus on "
+"vähintään {lux}."
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW"
@@ -4269,6 +4249,8 @@ msgid ""
 "Duplicants will gain {amount} {attrib} if this building is in light dimmer "
 "than {lux}."
 msgstr ""
+"Jäljennäiset saavat {amount} {attrib} jos tämä rakennus on himmeämpi kuin "
+"{lux}."
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.NAME"
@@ -4618,25 +4600,20 @@ msgid "Duplicant Stop/Go"
 msgstr "Jäljennäinen Pysähdy/Mene"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Allow Duplicant passage"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_ACTIVE"
 msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Allow Duplicant passage"
 msgstr ""
-"<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Salli Jäljennäisten "
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>: Salli Jäljennäisten "
 "läpikulku"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: Prevent Duplicant passage"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_INACTIVE"
 msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b>: Prevent Duplicant passage"
 msgstr ""
-"<b><color=#f44a47>Punainen Signaali</b></color>: Estä Jäljennäisten läpikulku"
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Estä Jäljennäisten "
+"läpikulku"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.NAME"
@@ -4700,14 +4677,6 @@ msgstr ""
 "yksittäinen havaitsin."
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> to its automation "
-#| "circuit when it detects incoming objects from space.\n"
-#| "\n"
-#| "Can be configured to detect incoming meteor showers or returning space "
-#| "rockets."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> to its automation "
@@ -4716,8 +4685,8 @@ msgid ""
 "Can be configured to detect incoming meteor showers or returning space "
 "rockets."
 msgstr ""
-"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> loogiseen "
-"piiriin havaitessaan avaruudesta kohti tulevat kappaleet.\n"
+"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> "
+"automaatiopiiriin havaitessaan avaruudesta kohti tulevia kappaleet.\n"
 "\n"
 "Voidaan asettaa havaitsemaan saapuvat meteorisuihkut tai palaavat raketit."
 
@@ -4754,21 +4723,15 @@ msgid "Launch Rocket"
 msgstr "Laukaise Raketti"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_ACTIVE"
-#| msgid "<b><color=#57b95e>Green Signal</b></color>: Launch rocket"
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_ACTIVE"
 msgid "<b><style=\"logic_on\">Green Signal</style></b>: Launch rocket"
-msgstr "<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Laukaise raketti"
+msgstr "<b><style=\"logic_on\">Vihreä Signaali</style></b>: Laukaise raketti"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: Awaits launch command"
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Awaits launch command"
 msgstr ""
-"<b><color=#f44a47>Punainen Signaali</b></color>: Odottaa laukaisukäskyä"
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Odottaa laukaisukäskyä"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY"
@@ -4776,11 +4739,6 @@ msgid "Rocket Checklist"
 msgstr "Raketin Tarkistuslista"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> when its rocket launch "
-#| "checklist is complete"
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> when its rocket "
@@ -4790,9 +4748,6 @@ msgstr ""
 "raketin tarkistuslista on valmis"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_INACTIVE"
-#| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
 msgstr ""
@@ -5029,28 +4984,19 @@ msgid "<link=\"DESALINATOR\">Desalinator</link>"
 msgstr "<link=\"DESALINATOR\">Suolanerotin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.EFFECT"
-#| msgid "Runs on coffee"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC"
 msgid "Runs on coffee."
-msgstr "Toimii kahvilla"
+msgstr "Toimii kahvilla."
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.DESC"
-#| msgid "Generates infinite testing power"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.EFFECT"
 msgid "Generates testing power for late nights."
-msgstr "Tuottaa äärettömästi testaussähköä"
+msgstr "Tuottaa testivirtaa myöhäisiltoihin."
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
-#| msgid "DEV Generator"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
 msgid "Dev Generator"
-msgstr "DEV-Generaattori"
+msgstr "Dev-Generaattori"
 
 #. STRINGS.BUILDINGS.PREFABS.DININGTABLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DININGTABLE.DESC"
@@ -5228,7 +5174,8 @@ msgstr "<b><style=\"logic_on\">Vihreä Signaali</style></b>: Avaa"
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Close and lock"
-msgstr "<b><color=#f44a47>Punainen Signaali</b></color>: Sulje ja lukitse"
+msgstr ""
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Sulje ja lukitse"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.NAME"
@@ -7653,7 +7600,8 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.LOGIC_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Prevent Liquid flow"
-msgstr "<b><color=#f44a47>Punainen Signaali</b></color>: Estä Nesteen virtaus"
+msgstr ""
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Estä Nesteen virtaus"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.NAME"
@@ -8047,7 +7995,7 @@ msgid ""
 msgstr ""
 "Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b></color> tai "
 "<b><style=\"logic_off\">Punaista Signaalia</style></b> riippuen siitä onko "
-"Jäljennäinen tunnistimen ulottuvissa"
+"Jäljennäinen tunnistimen ulottuvissa."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDUPLICANTSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDUPLICANTSENSOR.LOGIC_PORT"
@@ -8249,7 +8197,7 @@ msgstr ""
 "Sisääntulo vastaanottaa <b><style=\"logic_on\">Vihreää Signaalia</style></"
 "b>.\n"
 "\n"
-"Jatkaa <b><color=#57b95e>Vihreää Signaalia</b></color> lähettämistä "
+"Jatkaa <b><style=\"logic_on\">Vihreää Signaalia</style></b> lähettämistä "
 "puskuriajan verran siitä lähtien kun Sisääntulo alkaa vastaanottaa <b><style="
 "\"logic_off\">Punaista Signaalia</style></b>."
 
@@ -8338,15 +8286,6 @@ msgstr ""
 "suodatusaika."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.EFFECT"
-#| msgid ""
-#| "Only lets a <b><color=#57b95e>Green Signal</b></color> through if the "
-#| "Input has received a <b><color=#57b95e>Green Signal</b></color> for "
-#| "longer than the selected filter time.\n"
-#| "\n"
-#| "Will continue outputting a <b><color=#f44a47>Red Signal</b></color> if "
-#| "the <b><color=#57b95e>Green Signal</b></color> did not last long enough."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.EFFECT"
 msgid ""
 "Only lets a <b><style=\"logic_on\">Green Signal</style></b> through if the "
@@ -8356,13 +8295,14 @@ msgid ""
 "Will continue outputting a <b><style=\"logic_off\">Red Signal</style></b> if "
 "the <b><style=\"logic_on\">Green Signal</style></b> did not last long enough."
 msgstr ""
-"Päästää <b><color=#57b95e>Vihreää Signaalia</b></color> läpi ainoastaan, jos "
-"Sisääntulo on vastaanottanut <b><style=\"logic_on\">Vihreää Signaalia</"
-"style></b> valittua suodatinaikaa kauemmin.\n"
+"Päästää <b><style=\"logic_on\">Vihreää Signaalia</style></b> läpi "
+"ainoastaan, jos Sisääntulo on vastaanottanut <b><style=\"logic_on\">Vihreää "
+"Signaalia</style></b> valittua suodatinaikaa kauemmin.\n"
 "\n"
 "\n"
-"Jatkaa <b><color=#f44a47>Punaisen Signaalin</b></color> lähettämistä, jos "
-"<b><color=#57b95e>Vihreä Signaali</b></color> ei ollut tarpeeksi pitkä."
+"Jatkaa <b><style=\"logic_off\">Punaisen Signaalin</style></b> lähettämistä, "
+"jos <b><style=\"logic_on\">Vihreä Signaali</style></b> ei ollut tarpeeksi "
+"pitkä."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.NAME"
@@ -8370,12 +8310,6 @@ msgid "<link=\"LOGICGATEFILTER\">FILTER Gate</link>"
 msgstr "<link=\"LOGICGATEFILTER\">SUODATIN-Portti</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.OUTPUT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.OUTPUT_ACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> after receiving "
-#| "<b><color=#57b95e>Green</b></color> for longer than the selected filter "
-#| "timer"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.OUTPUT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> after receiving "
@@ -8383,13 +8317,10 @@ msgid ""
 "timer"
 msgstr ""
 "Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> "
-"vastaanotettuaan <b><style=\"logic_on\">Vihreää Signaalia</style></b></"
-"color> valittua suodatinaikaa kauemmin"
+"vastaanotettuaan <b><style=\"logic_on\">Vihreää</style></b></color> valittua "
+"suodatinaikaa kauemmin"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.OUTPUT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.OUTPUT_INACTIVE"
-#| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.OUTPUT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>."
 msgstr ""
@@ -8406,6 +8337,8 @@ msgid ""
 "Signal Selectors can be used to select which automation signal is relevant "
 "to pass through to a given circuit"
 msgstr ""
+"Signaalivalitsimia voidaan käyttää valitsemaan mikä automaatiosignaali "
+"pääsee läpi annettuun piiriin"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.EFFECT"
@@ -8417,14 +8350,17 @@ msgid ""
 "\"logic_off\">Red Signal</style></b> to the two Control Inputs to determine "
 "which Input is selected."
 msgstr ""
+"Valitse Ohjaussisääntuloja käyttämällä, mikä yhdestä neljästä "
+"Sisääntulosignaalista lähetetään Ulostuloon.\n"
+"\n"
+"Lähetä <b><style=\"logic_on\">Vihreä Signaali</style></b> tai <b><style="
+"\"logic_off\">Punainen Signaali</style></b> kahdelle Ohjaussisääntulolle "
+"määrätäksesi mikä Sisääntulo valitaan."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.NAME"
-#| msgid "<link=\"LOGICSWITCH\">Signal Switch</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.NAME"
 msgid "<link=\"LOGICGATEMULTIPLEXER\">Signal Selector</link>"
-msgstr "<link=\"LOGICSWITCH\">Signaalikytkin</link>"
+msgstr "<link=\"LOGICGATEMULTIPLEXER\">Signaalivalitsin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_ACTIVE"
@@ -8432,6 +8368,8 @@ msgid ""
 "Receives a <b><style=\"logic_on\">Green</style></b> or <b><style=\"logic_off"
 "\">Red</style></b> signal from the selected input"
 msgstr ""
+"Vastaanottaa <b><style=\"logic_on\">Vihreää</style></b> tai <b><style="
+"\"logic_off\">Punaista</style></b> signaalia valitusta sisääntulosta"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_INACTIVE"
@@ -8453,14 +8391,6 @@ msgstr ""
 "Punaiseksi Signaaliksi ja päinvastoin."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.EFFECT"
-#| msgid ""
-#| "Outputs a <b><color=#57b95e>Green Signal</b></color> if the Input is "
-#| "receiving a <b><color=#f44a47>Red Signal</b></color>.\n"
-#| "\n"
-#| "Outputs a <b><color=#f44a47>Red Signal</b></color> when its Input is "
-#| "receiving a <b><color=#57b95e>Green Signal</b></color>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.EFFECT"
 msgid ""
 "Outputs a <b><style=\"logic_on\">Green Signal</style></b> if the Input is "
@@ -8536,26 +8466,16 @@ msgid "<link=\"LOGICGATEOR\">OR Gate</link>"
 msgstr "<link=\"LOGICGATEOR\">OR-Portti</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.OUTPUT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.OUTPUT_ACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> if any Input is "
-#| "receiving <b><color=#57b95e>Green</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.OUTPUT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if any Input is "
 "receiving <b><style=\"logic_on\">Green</style></b>"
 msgstr ""
 "Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b>, jos joku "
-"Sisääntuloista vastaanottaa <b><style=\"logic_on\">Vihreää Signaalia</"
-"style></b></color>"
+"Sisääntuloista vastaanottaa <b><style=\"logic_on\">Vihreää</style></b></"
+"color>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.OUTPUT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.OUTPUT_INACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#f44a47>Red Signal</b></color> if both Inputs are "
-#| "receiving <b><color=#f44a47>Red</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.OUTPUT_INACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_off\">Red Signal</style></b> if both Inputs are "
@@ -8579,14 +8499,6 @@ msgstr ""
 "vastaanottaa Vihreää Signaalia."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.EFFECT"
-#| msgid ""
-#| "Outputs a <b><color=#57b95e>Green Signal</b></color> if exactly one of "
-#| "its Inputs is receiving <b><color=#57b95e>Green</b></color>.\n"
-#| "\n"
-#| "Outputs a <b><color=#f44a47>Red Signal</b></color> if both or neither "
-#| "Inputs are receiving a <b><color=#57b95e>Green Signal</b></color>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.EFFECT"
 msgid ""
 "Outputs a <b><style=\"logic_on\">Green Signal</style></b> if exactly one of "
@@ -8596,8 +8508,8 @@ msgid ""
 "Inputs are receiving a <b><style=\"logic_on\">Green Signal</style></b>."
 msgstr ""
 "Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b>, jos tasan "
-"yksi sen Sisääntuloista vastaanottaa <b><style=\"logic_on\">Vihreää "
-"Signaalia</style></b></color>.\n"
+"yksi sen Sisääntuloista vastaanottaa <b><style=\"logic_on\">Vihreää</style></"
+"b></color>.\n"
 "\n"
 "Lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>, jos "
 "molemmat tai ei kumpikaan vastaanota <b><style=\"logic_on\">Vihreää "
@@ -8609,26 +8521,16 @@ msgid "<link=\"LOGICGATEXOR\">XOR Gate</link>"
 msgstr "<link=\"LOGICGATEXOR\">XOR-Portti</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.OUTPUT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.OUTPUT_ACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> if exactly one of its "
-#| "Inputs is receiving <b><color=#57b95e>Green</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.OUTPUT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if exactly one of "
 "its Inputs is receiving <b><style=\"logic_on\">Green</style></b>"
 msgstr ""
 "Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b>, jos tasan "
-"yksi sen Sisääntuloista vastaanottaa <b><style=\"logic_on\">Vihreää "
-"Signaalia</style></b></color>"
+"yksi sen Sisääntuloista vastaanottaa <b><style=\"logic_on\">Vihreää</style></"
+"b></color>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.OUTPUT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.OUTPUT_INACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#f44a47>Red Signal</b></color> if both Input signals "
-#| "match (any color)"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.OUTPUT_INACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_off\">Red Signal</style></b> if both Input signals "
@@ -8645,7 +8547,7 @@ msgstr "ULOSTULO"
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.DESC"
 msgid "The hammer makes neat sounds when it strikes buildings."
-msgstr ""
+msgstr "Vasara pitää siistiä ääntä kun se iskeytyy rakennuksiin."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.EFFECT"
@@ -8656,11 +8558,13 @@ msgid ""
 "Each building has a unique sound when struck by the hammer. The hammer does "
 "no damage when it strikes."
 msgstr ""
+"Oletusasennossa vasara iskee vasemmalla olevaa rakennusta kun se "
+"vastaanottaa <b><style=\"logic_on\">Vihreää Signaalia</style></b>.\n"
+"\n"
+"Kullakin rakennuksella on ainutlaatuinen ääni, kun niitä isketään vasaralla. "
+"Vasara ei tee vahinkoa iskeytyessään."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_NAME"
-#| msgid "INPUT"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_NAME"
 msgid "INPUT"
 msgstr "SISÄÄNTULO"
@@ -8669,27 +8573,22 @@ msgstr "SISÄÄNTULO"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_ACTIVE"
 msgid "<b><style=\"logic_on\">Green Signal</style></b>: Hammer strikes once"
 msgstr ""
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>: Vasara iskee kerran"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
-msgstr ""
+msgstr "<b><style=\"logic_off\">Punainen Signaali</style></b>: Ei Mitään"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.LOGIC_PORT
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.TOOL.ROTATEBUILDING"
-#| msgid "RotateBuilding"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.LOGIC_PORT"
 msgid "Resonating Buildings"
-msgstr "KäännäRakennusta"
+msgstr "Resonoivat Rakennukset"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME"
-#| msgid "<link=\"LOGICGATEOR\">OR Gate</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.NAME"
 msgid "<link=\"LOGICHAMMER\">Hammer</link>"
-msgstr "<link=\"LOGICGATEOR\">OR-Portti</link>"
+msgstr "<link=\"LOGICHAMMER\">Vasara</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.DESC"
@@ -8701,18 +8600,6 @@ msgstr ""
 "Nollausportti (R) vastaanottaa Vihreää Signaalia."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT"
-#| msgid ""
-#| "Contains an internal Memory, and will output whatever signal is stored in "
-#| "that Memory. Signals sent to the Inputs <i>only</i> affect the Memory, "
-#| "and do not pass through to the Output. \n"
-#| "\n"
-#| "Sending a <b><color=#57b95e>Green Signal</b></color> to the Set Port (S) "
-#| "will set the memory to <b><color=#57b95e>Green</b></color>. \n"
-#| "\n"
-#| "Sending a <b><color=#57b95e>Green Signal</b></color> to the Reset Port "
-#| "(R) will reset the memory back to <b><color=#f44a47>Red</b></color>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT"
 msgid ""
 "Contains an internal Memory, and will output whatever signal is stored in "
@@ -8730,12 +8617,12 @@ msgstr ""
 "Muistiin, eivätkä kulje läpi Ulostuloon. \n"
 "\n"
 "Lähettämällä <b><style=\"logic_on\">Vihreää Signaalia</style></b> "
-"Asetusporttiin (S) asettaa muistin <b><color=#57b95e>Vihreäksi</b></"
-"color>. \n"
+"Asetusporttiin (S) asettaa muistin <b><style=\"logic_on\">Vihreäksi</style>."
+"</b> \n"
 "\n"
 "Lähettämällä <b><style=\"logic_on\">Vihreää Signaalia</style></b> "
-"Nollausporttiin (R) nollaa muistin takaisin <b><color=#f44a47>Punaiseksi</"
-"b></color>."
+"Nollausporttiin (R) nollaa muistin takaisin <b><style=\"logic_off"
+"\">Punaiseksi</style></b>."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.NAME"
@@ -8748,32 +8635,22 @@ msgid "MEMORY OUTPUT"
 msgstr "MUISTIN ULOSTULO"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_ACTIVE"
-#| msgid ""
-#| "Outputs a <b><color=#57b95e>Green Signal</b></color> if the internal "
-#| "Memory is set to <b><color=#57b95e>Green</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_ACTIVE"
 msgid ""
 "Outputs a <b><style=\"logic_on\">Green Signal</style></b> if the internal "
 "Memory is set to <b><style=\"logic_on\">Green</style></b>"
 msgstr ""
-"Lähettää <b><color=#57b95e>Vihreää Signaalia</b></color>, jos sisäinen "
-"Muisti on asetettu <b><color=#57b95e>Vihreäksi</b></color>"
+"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b>, jos sisäinen "
+"Muisti on asetettu <b><style=\"logic_on\">Vihreäksi</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_INACTIVE"
-#| msgid ""
-#| "Outputs a <b><color=#f44a47>Red Signal</b></color> if the internal Memory "
-#| "is set to <b><color=#f44a47>Red</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_INACTIVE"
 msgid ""
 "Outputs a <b><style=\"logic_off\">Red Signal</style></b> if the internal "
 "Memory is set to <b><style=\"logic_off\">Red</style></b>"
 msgstr ""
 "Lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>, jos "
-"sisäinen Muisti on asetettu <b><color=#f44a47>Punaiseksi</b></color>"
+"sisäinen Muisti on asetettu <b><style=\"logic_off\">Punaiseksi</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT"
@@ -8781,26 +8658,18 @@ msgid "RESET PORT (R)"
 msgstr "NOLLAUSPORTTI (R)"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_ACTIVE"
-#| msgid ""
-#| "<b><color=#57b95e>Green Signal</b></color>: Reset the internal Memory to "
-#| "<b><color=#f44a47>Red</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_ACTIVE"
 msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Reset the internal Memory "
 "to <b><style=\"logic_off\">Red</style></b>"
 msgstr ""
 "<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Nollaa sisäinen Muisti "
-"<b><color=#f44a47>Punaiseksi</b></color>"
+"<b><style=\"logic_off\">Punaiseksi</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: No effect"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: No effect"
-msgstr "<b><color=#f44a47>Punainen Signaali</b></color>: Ei vaikutusta"
+msgstr "<b><style=\"logic_off\">Punainen Signaali</style></b>: Ei vaikutusta"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT"
@@ -8808,26 +8677,18 @@ msgid "SET PORT (S)"
 msgstr "ASETUSPORTTI (S)"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_ACTIVE"
-#| msgid ""
-#| "<b><color=#57b95e>Green Signal</b></color>: Set the internal Memory to "
-#| "<b><color=#57b95e>Green</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_ACTIVE"
 msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Set the internal Memory to "
 "<b><style=\"logic_on\">Green</style></b>"
 msgstr ""
-"<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Aseta sisäinen Muisti "
-"<b><color=#57b95e>Vihreäksi</b></color>"
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>: Aseta sisäinen Muisti "
+"<b><style=\"logic_on\">Vihreäksi</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_INACTIVE"
-#| msgid "<b><color=#f44a47>Red Signal</b></color>: No effect"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: No effect"
-msgstr "<b><color=#f44a47>Punainen Signaali</b></color>: Ei vaikutusta"
+msgstr "<b><style=\"logic_off\">Punainen Signaali</style></b>: Ei vaikutusta"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE"
@@ -8862,31 +8723,21 @@ msgid "Kill Power"
 msgstr "Tapa Virta"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "<b><color=#57b95e>Green Signal</b></color>: Allow <style=\"KKeyword"
-#| "\">Power</style> through connected circuits"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_ACTIVE"
 msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Allow <style=\"KKeyword"
 "\">Power</style> through connected circuits"
 msgstr ""
-"<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Salli <style=\"KKeyword"
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>: Salli <style=\"KKeyword"
 "\">Sähkö</style>virta yhdistettyjen piirien läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_INACTIVE"
-#| msgid ""
-#| "<b><color=#f44a47>Red Signal</b></color>: Prevent <style=\"KKeyword"
-#| "\">Power</style> from flowing through connected circuits"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_INACTIVE"
 msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b>: Prevent <style=\"KKeyword"
 "\">Power</style> from flowing through connected circuits"
 msgstr ""
-"<b><color=#f44a47>Punainen Signaali</b></color>: Estä <style=\"KKeyword"
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Estä <style=\"KKeyword"
 "\">Sähkö</style>virta yhdistettyjen piirien läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.NAME
@@ -8904,12 +8755,6 @@ msgstr ""
 "ylipaineistuminen."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.EFFECT"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> or a "
-#| "<b><color=#f44a47>Red Signal</b></color> when <link=\"ELEMENTSGAS\">Gas</"
-#| "link> pressure enters the chosen range."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.EFFECT"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> or a <b><style="
@@ -8926,27 +8771,19 @@ msgid "<link=\"ELEMENTSGAS\">Gas</link> Pressure"
 msgstr "<link=\"ELEMENTSGAS\">Kaasun</link> Paine"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> if Gas pressure is "
-#| "within the selected range"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if Gas pressure is "
 "within the selected range"
 msgstr ""
-"Lähettää  <b><style=\"logic_on\">Vihreää Signaalia</style></b>, jos Kaasun "
+"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b>, jos Kaasun "
 "paine on asetetulla alueella"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_INACTIVE"
-#| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
-msgstr "Muutoin lähettää <b><color=#f44a47>Punaisen Signaalin</b></color>"
+msgstr ""
+"Muutoin lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.NAME"
@@ -8963,14 +8800,6 @@ msgstr ""
 "sisältää liian vähän nestettä."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.EFFECT"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> or a "
-#| "<b><color=#f44a47>Red Signal</b></color> when <link=\"ELEMENTSLIQUID"
-#| "\">Liquid</link> pressure enters the chosen range.\n"
-#| "\n"
-#| "Must be submerged in <link=\"ELEMENTSLIQUID\">Liquid</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.EFFECT"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> or a <b><style="
@@ -8991,12 +8820,6 @@ msgid "<link=\"ELEMENTSLIQUID\">Liquid</link> Pressure"
 msgstr "<link=\"ELEMENTSLIQUID\">Nesteen</link> Paine"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> if Liquid pressure is "
-#| "within the selected range"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if Liquid pressure "
@@ -9006,14 +8829,11 @@ msgstr ""
 "paine on asetetulla alueella"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_INACTIVE"
-#| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
-msgstr "Muutoin lähettää <b><color=#f44a47>Punaisen Signaalin</b></color>"
+msgstr ""
+"Muutoin lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.NAME"
@@ -9026,6 +8846,8 @@ msgid ""
 "Logic ribbons use significantly less space to carry multiple automation "
 "signals."
 msgstr ""
+"Logiikkanauhat käyttävät huomattavasti vähemmän tilaa kantamaan useita "
+"automaatiosignaaleja."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBON.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBON.EFFECT"
@@ -9096,8 +8918,8 @@ msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Pass through the <b><style="
 "\"logic_on\">Green Signal</style></b>"
 msgstr ""
-"<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Kuljeta "
-"<b><color=#57b95e>Vihreä Signaali</b></color> läpi"
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Kuljeta <b><style="
+"\"logic_on\">Vihreä Signaali</style></b> läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_INACTIVE
 #, fuzzy
@@ -9110,8 +8932,8 @@ msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b>: Pass through the <b><style="
 "\"logic_off\">Red Signal</style></b>"
 msgstr ""
-"<b><color=#f44a47>Punainen Signaali</b></color>: "
-"Kuljeta<b><color=#f44a47>Punainen Signaali</b></color> läpi"
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Kuljeta<b><style="
+"\"logic_off\">Punainen Signaali</style></b> läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.NAME
 #, fuzzy
@@ -9382,7 +9204,8 @@ msgstr ""
 #| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
-msgstr "Muutoin lähettää <b><color=#f44a47>Punaisen Signaalin</b></color>"
+msgstr ""
+"Muutoin lähettää <b><style=\"logic_off\">Punaisen Signaalin</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.NAME"
@@ -9415,9 +9238,9 @@ msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b> schedule within one day-night "
 "cycle."
 msgstr ""
-"Asettaa automaattisen <b><color=#57b95e>Vihreää Signaalia</b></color> ja "
-"<b><color=#f44a47>Punaisen Signaalin</b></color> aikataulut ajastinta "
-"käyttäen."
+"Asettaa automaattisen <b><style=\"logic_on\">Vihreää Signaalia</style></b> "
+"ja <b><style=\"logic_off\">Punaisen Signaalin</style></b> aikataulut "
+"ajastinta käyttäen."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT"
@@ -9444,7 +9267,8 @@ msgstr ""
 #| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
-msgstr "Muutoin lähettää <b><color=#f44a47>Punaisen Signaalin</b></color>"
+msgstr ""
+"Muutoin lähettää <b><style=\"logic_off\">Punaisen Signaalin</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.NAME
 #, fuzzy
@@ -9618,8 +9442,8 @@ msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Pass through the <b><style="
 "\"logic_on\">Green Signal</style></b>"
 msgstr ""
-"<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Kuljeta "
-"<b><color=#57b95e>Vihreä Signaali</b></color> läpi"
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Kuljeta <b><style="
+"\"logic_on\">Vihreä Signaali</style></b> läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_INACTIVE
 #, fuzzy
@@ -9632,8 +9456,8 @@ msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b>: Pass through the <b><style="
 "\"logic_off\">Red Signal</style></b>"
 msgstr ""
-"<b><color=#f44a47>Punainen Signaali</b></color>: "
-"Kuljeta<b><color=#f44a47>Punainen Signaali</b></color> läpi"
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Kuljeta<b><style="
+"\"logic_off\">Punainen Signaali</style></b> läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.NAME"
@@ -32257,19 +32081,13 @@ msgid "Steam Powered"
 msgstr "Höyryllä Käyvä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SAUNA.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP"
-#| msgid ""
-#| "This Duplicant had delicious drink!\n"
-#| "\n"
-#| "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SAUNA.TOOLTIP"
 msgid ""
 "This Duplicant just had a relaxing time in a sauna\n"
 "\n"
 "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgstr ""
-"Tämä Jäljennäinen joi maukkaan juoman!\n"
+"Tämä Jäljennäinen rentoutui saunassa\n"
 "\n"
 "Vapaa-ajan toiminnat nostavat Jäljennäisten <style=\"KKeyword\">Mielialaa</"
 "style>"
@@ -32287,7 +32105,7 @@ msgstr "Tämä Jäljennäinen rentoutuu saunassa"
 #. STRINGS.DUPLICANTS.MODIFIERS.SAWSPARKLESTREAKER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SAWSPARKLESTREAKER.NAME"
 msgid "Sparkle Flattered"
-msgstr ""
+msgstr "Säihkeytynyt"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SAWSPARKLESTREAKER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SAWSPARKLESTREAKER.TOOLTIP"
@@ -32296,6 +32114,9 @@ msgid ""
 "\n"
 "This Duplicant has a spring in their step now!"
 msgstr ""
+"Säihkeviuhahtajan säihkeet lumosivat tämän Jäljennäisen\n"
+"\n"
+"Tällä jäljennäisellä on nyt kevättä askelissaan!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SEVEREWOUNDS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SEVEREWOUNDS.NAME"
@@ -32431,19 +32252,13 @@ msgid "Soda Filled"
 msgstr "Täynnä Soodaa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SODAFOUNTAIN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP"
-#| msgid ""
-#| "This Duplicant had delicious drink!\n"
-#| "\n"
-#| "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SODAFOUNTAIN.TOOLTIP"
 msgid ""
 "This Duplicant just enjoyed a bubbly beverage\n"
 "\n"
 "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgstr ""
-"Tämä Jäljennäinen joi maukkaan juoman!\n"
+"Tämä Jäljennäinen joi kuplivan juoman!\n"
 "\n"
 "Vapaa-ajan toiminnat nostavat Jäljennäisten <style=\"KKeyword\">Mielialaa</"
 "style>"
@@ -32787,19 +32602,13 @@ msgid "Wind Swept"
 msgstr "Tuulen Viemä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.VERTICALWINDTUNNEL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP"
-#| msgid ""
-#| "This Duplicant had delicious drink!\n"
-#| "\n"
-#| "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.VERTICALWINDTUNNEL.TOOLTIP"
 msgid ""
 "This Duplicant recently had an exhilarating wind tunnel experience\n"
 "\n"
 "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgstr ""
-"Tämä Jäljennäinen joi maukkaan juoman!\n"
+"Tällä Jäljennäisellä oli henkeäsalpaava tuulitunnelikokemus!\n"
 "\n"
 "Vapaa-ajan toiminnat nostavat Jäljennäisten <style=\"KKeyword\">Mielialaa</"
 "style>"
@@ -34340,13 +34149,9 @@ msgid "Balloon Artist"
 msgstr "Ilmapallotaiteilija"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTHANDINGOUT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MINGLING.TOOLTIP"
-#| msgid "This Duplicant is mingling with other Duplicants in the room"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTHANDINGOUT.TOOLTIP"
 msgid "This Duplicant is handing out balloons to other Duplicants"
-msgstr ""
-"Tämä Jäljennäinen hengailee muiden huoneessa olevien Jäljennäisten kanssa"
+msgstr "Tämä Jäljennäinen jakaa ilmapalloja muille Jäljennäisille"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.NAME"
@@ -34354,12 +34159,9 @@ msgid "Balloon Artist"
 msgstr "Ilmapallotaiteilija"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.ART.TOOLTIP"
-#| msgid "This Duplicant is going to work on their art"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.TOOLTIP"
 msgid "This Duplicant is planning to hand out balloons in their downtime"
-msgstr "Tämä Jäljennäinen on menossa työstämään taidettaan"
+msgstr "Tämä Jäljennäinen aikoo jakaa ilmapalloja vapaa-aikanaan"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BEDUNREACHABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BEDUNREACHABLE.NAME"
@@ -37169,18 +36971,13 @@ msgid "Sparkle Streaker"
 msgstr "Säihkeviuhahtelija"
 
 #. STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.BINGEEATER.DESC"
-#| msgid ""
-#| "This Duplicant will dangerously overeat when <style=\"KKeyword"
-#| "\">Stressed</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.DESC"
 msgid ""
 "This Duplicant will spontaneously redecorate a room when they are <style="
 "\"KKeyword\">Overjoyed</style>"
 msgstr ""
-"Tämä Jäljennäinen ylensyö vaarallisen paljon <style=\"KKeyword"
-"\">Ahdistuessaan</style>"
+"Jäljennäiset alkavat spontaanisti koristelemaan huonetta ollessaan <style="
+"\"KKeyword\">Riemuissaan</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.NAME"
@@ -37235,14 +37032,13 @@ msgid "Sunny Disposition"
 msgstr "Aurinkoinen Luonne"
 
 #. STRINGS.DUPLICANTS.TRAITS.SUPERPRODUCTIVE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.MUSH.TOOLTIP"
-#| msgid "This Duplicant is producing <style=\"KKeyword\">Food</style>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SUPERPRODUCTIVE.DESC"
 msgid ""
 "This Duplicant is super productive when they are <style=\"KKeyword"
 "\">Overjoyed</style>"
-msgstr "Tämä Jäljennäinen valmistaa <style=\"KKeyword\">Ruokaa</style>"
+msgstr ""
+"Tämä Jäljennäinen on supertehokas ollessaan <style=\"KKeyword\">Riemuissaan</"
+"style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.SUPERPRODUCTIVE.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SUPERPRODUCTIVE.NAME"
@@ -40345,52 +40141,34 @@ msgid "Cinema Pan Up"
 msgstr "Elokuvakavera Siirto Ylös"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMATOGGLEEASING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BINGE_EATING.NOTIFICATION_NAME"
-#| msgid "Binge Eating"
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMATOGGLEEASING"
 msgid "Cinema Toggle Easing"
-msgstr "Ylensyövät"
+msgstr "Valitse Elokuvakameran Hivuttaminen"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMATOGGLELOCK
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT"
-#| msgid "Signal Toggle"
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMATOGGLELOCK"
 msgid "Cinema Toggle Lock"
-msgstr "Signaalin Vaihto"
+msgstr "Elokuvan Lukituksen Vaihto"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMIN
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMIN"
-#| msgid "Cinematic Zoom In"
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMIN"
 msgid "Cinema Zoom In"
 msgstr "Elokuvakameran Lähennys"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMOUT
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMOUT"
-#| msgid "Cinematic Zoom Out"
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMOUT"
 msgid "Cinema Zoom Out"
 msgstr "Elokuvakameran Loitonnus"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDMINUS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMIN"
-#| msgid "Cinematic Zoom In"
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDMINUS"
 msgid "Cinema Zoom Speed Minus"
-msgstr "Elokuvakameran Lähennys"
+msgstr "Elokuvakameran Tarkennuksen Hidastus"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDPLUS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMOUT"
-#| msgid "Cinematic Zoom Out"
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDPLUS"
 msgid "Cinema Zoom Speed Plus"
-msgstr "Elokuvakameran Loitonnus"
+msgstr "Elokuvakameran Tarkennuksen Nopeutus"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.NAME"
@@ -40398,324 +40176,204 @@ msgid "Cinematic Camera"
 msgstr "Elokuvakamera"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCOLLECTGARBAGE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCOLLECTGARBAGE"
-#| msgid "DebugCollectGarbage"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCOLLECTGARBAGE"
 msgid "Debug Collect Garbage"
-msgstr "DebugKerääRoskat"
+msgstr "Debug Kerää Roskat"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCRASHSIM
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCRASHSIM"
-#| msgid "DebugCrashSim"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCRASHSIM"
 msgid "Debug Crash Sim"
-msgstr "DebugKaatumisSimulaatio"
+msgstr "Debug Kaatumissimulaatio"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDIG
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDIG"
-#| msgid "DebugDig"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDIG"
 msgid "Debug Dig"
-msgstr "DebugKaiva"
+msgstr "Debug Kaiva"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDISCOVERALLELEMENTS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDISCOVERALLELEMENTS"
-#| msgid "DebugDiscoverAllElements"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDISCOVERALLELEMENTS"
 msgid "Debug Discover All Elements"
-msgstr "DebugLöydäKaikkiElementit"
+msgstr "Debug Löydä Kaikki Alkuaineet"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPEVENTDATA
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPEVENTDATA"
-#| msgid "DebugDumpEventData"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPEVENTDATA"
 msgid "Debug Dump Event Data"
-msgstr "DebugDumppaaTapahtumatData"
+msgstr "Debug Dumppaa Tapahtuman Data"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGARBAGEREFERENCES
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGARBAGEREFERENCES"
-#| msgid "DebugDumpGarbageReferences"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGARBAGEREFERENCES"
 msgid "Debug Dump Garbage References"
-msgstr "DebugDumppaaRoskaViittaukset"
+msgstr "Debug Dumppaa Roskaviittaukset"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGCROOTS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGCROOTS"
-#| msgid "DebugDumpGCRoots"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGCROOTS"
 msgid "Debug Dump GC Roots"
-msgstr "DebugPudotaGCJuuret"
+msgstr "Debug Pudota GC-Juuret"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPSCENEPARITIONERLEAKDATA
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPSCENEPARITIONERLEAKDATA"
-#| msgid "DebugDumpSceneParitionerLeakData"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPSCENEPARITIONERLEAKDATA"
 msgid "Debug Dump Scene Paritioner Leak Data"
-msgstr "DebugDumpSceneParitionerLeakData"
+msgstr "Debug Dumppaa SceneParitionerLeakData"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGELEMENTTEST
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGELEMENTTEST"
-#| msgid "DebugElementTest"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGELEMENTTEST"
 msgid "Debug Element Test"
-msgstr "DebugElementtiTesti"
+msgstr "Debug Alkuainetesti"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGEXPLOSION
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGEXPLOSION"
-#| msgid "DebugExplosion"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGEXPLOSION"
 msgid "Debug Explosion"
-msgstr "DebugRäjähdys"
+msgstr "Debug Räjähdys"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFOCUS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFOCUS"
-#| msgid "DebugFocus"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFOCUS"
 msgid "Debug Focus"
-msgstr "DebugTarkennus"
+msgstr "Debug Kohdennus"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFORCELIGHTEVERYWHERE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFORCELIGHTEVERYWHERE"
-#| msgid "DebugForceLightEverywhere"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFORCELIGHTEVERYWHERE"
 msgid "Debug Force Light Everywhere"
-msgstr "DebugPakotaValoKaikkialle"
+msgstr "Debug Pakota Valoa Kaikkialle"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGAMESTEP
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGAMESTEP"
-#| msgid "DebugGameStep"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGAMESTEP"
 msgid "Debug Game Step"
-msgstr "DebugPeliVaihe"
+msgstr "Debug Pelivaihe"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGOTOTARGET
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGOTOTARGET"
-#| msgid "DebugGotoTarget"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGOTOTARGET"
 msgid "Debug Goto Target"
-msgstr "DebugMeneKohteeseen"
+msgstr "Debug Mene Kohteeseen"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINSTANTBUILDMODE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINSTANTBUILDMODE"
-#| msgid "DebugInstantBuildMode"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINSTANTBUILDMODE"
 msgid "Debug Instant Build Mode"
-msgstr "DebugVälitönRakennusTila"
+msgstr "Debug Välitön Rakennustila"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINVINCIBLE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINVINCIBLE"
-#| msgid "DebugInvincible"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINVINCIBLE"
 msgid "Debug Invincible"
-msgstr "DebugVoittamaton"
+msgstr "Debug Voittamaton"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGLOCKCURSOR
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGLOCKCURSOR"
-#| msgid "DebugLockCursor"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGLOCKCURSOR"
 msgid "Debug Lock Cursor"
-msgstr "DebugLukitseKursori"
+msgstr "Debug Lukitse Kursori"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNEXTCALL
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNEXTCALL"
-#| msgid "DebugNextCall"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNEXTCALL"
 msgid "Debug Next Call"
-msgstr "DebugSeuraavaKutsu"
+msgstr "Debug Seuraava Kutsu"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATION
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATION"
-#| msgid "DebugNotification"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATION"
 msgid "Debug Notification"
-msgstr "DebugIlmoitus"
+msgstr "Debug Ilmoitus"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATIONMESSAGE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATIONMESSAGE"
-#| msgid "DebugNotificationMessage"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATIONMESSAGE"
 msgid "Debug Notification Message"
-msgstr "DebugIlmoitusViesti"
+msgstr "Debug Ilmoitusviesti"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPATHFINDING
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPATHFINDING"
-#| msgid "DebugPathFinding"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPATHFINDING"
 msgid "Debug Path Finding"
-msgstr "DebugReitinHaku"
+msgstr "Debug Reitinhaku"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPLACE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPLACE"
-#| msgid "DebugPlace"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPLACE"
 msgid "Debug Place"
-msgstr "DebugPaikka"
+msgstr "Debug Aseta"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREFRESHNAVCELL
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREFRESHNAVCELL"
-#| msgid "DebugRefreshNavCell"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREFRESHNAVCELL"
 msgid "Debug Refresh Nav Cell"
-msgstr "DebugVirkistäNavCell"
+msgstr "Debug Virkistä NavCell"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREPORTBUG
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREPORTBUG"
-#| msgid "DebugReportBug"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREPORTBUG"
 msgid "Debug Report Bug"
-msgstr "DebugRaportoiBugi"
+msgstr "Debug Raportoi Bugi"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSELECTMATERIAL
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSELECTMATERIAL"
-#| msgid "DebugSelectMaterial"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSELECTMATERIAL"
 msgid "Debug Select Material"
-msgstr "DebugValitseMateriaali"
+msgstr "Debug Valitse Materiaali"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSIMSTEP
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSIMSTEP"
-#| msgid "DebugSimStep"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSIMSTEP"
 msgid "Debug Sim Step"
-msgstr "DebugSimuAskel"
+msgstr "Debug Simuaskel"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSLOWTESTMODE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSLOWTESTMODE"
-#| msgid "DebugSlowTestMode"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSLOWTESTMODE"
 msgid "Debug Slow Test Mode"
-msgstr "DebugHidasTestiTila"
+msgstr "Debug Hidas Testitila"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSPAWNMINION
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSPAWNMINION"
-#| msgid "DebugSpawnMinion"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSPAWNMINION"
 msgid "Debug Spawn Minion"
-msgstr "DebugSynnytäKätyri"
+msgstr "Debug Synnytä Kätyri"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSUPERSPEED
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSUPERSPEED"
-#| msgid "DebugSuperSpeed"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSUPERSPEED"
 msgid "Debug Super Speed"
-msgstr "DebugSuperNopeus"
+msgstr "Debug Supernopeus"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT"
-#| msgid "DebugTeleport"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT"
 msgid "Debug Teleport"
-msgstr "DebugKaukosiirto"
+msgstr "Debug Kaukosiirto"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTILETEST
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTILETEST"
-#| msgid "DebugTileTest"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTILETEST"
 msgid "Debug Tile Test"
-msgstr "DebugRuutuTesti"
+msgstr "Debug Ruututesti"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLE"
-#| msgid "DebugToggle"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLE"
 msgid "Debug Toggle"
-msgstr "DebugValitse"
+msgstr "Debug Valitse"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEFASTWORKERS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEMUSIC"
-#| msgid "DebugToggleMusic"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEFASTWORKERS"
 msgid "Debug Toggle Fast Workers"
-msgstr "DebugValitseMusiikki"
+msgstr "Debug Valitse Nopeat Työntekijät"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEMUSIC
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEMUSIC"
-#| msgid "DebugToggleMusic"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEMUSIC"
 msgid "Debug Toggle Music"
-msgstr "DebugValitseMusiikki"
+msgstr "Debug Valitse Musiikki"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEPERSONALPRIORITYCOMPARISON
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEPERSONALPRIORITYCOMPARISON"
-#| msgid "DebugTogglePersonalPriorityComparison"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEPERSONALPRIORITYCOMPARISON"
 msgid "Debug Toggle Personal Priority Comparison"
-msgstr "DebugValitseHenkKohtPrioriteettivertailu"
+msgstr "Debug Valitse HenkKoht Prioriteettivertailu"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLESELECTINEDITOR
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLESELECTINEDITOR"
-#| msgid "DebugToggleSelectInEditor"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLESELECTINEDITOR"
 msgid "Debug Toggle Select In Editor"
-msgstr "DebugValitseVaihdaEditorissa"
+msgstr "Debug Valitse Vaihda Editorissa"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEUI
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEUI"
-#| msgid "DebugToggleUI"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEUI"
 msgid "Debug Toggle UI"
-msgstr "DebugValitseKäyttöliittymä"
+msgstr "Debug Valitse Käyttöliittymä"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGERERROR
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGERERROR"
-#| msgid "DebugTriggerError"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGERERROR"
 msgid "Debug Trigger Error"
-msgstr "DebugLaukaiseVirhe"
+msgstr "Debug Laukaise Virhe"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGEREXCEPTION
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGEREXCEPTION"
-#| msgid "DebugTriggerException"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGEREXCEPTION"
 msgid "Debug Trigger Exception"
-msgstr "DebugLaukaisePoikkeus"
+msgstr "Debug Laukaise Poikkeus"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGULTRATESTMODE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGULTRATESTMODE"
-#| msgid "DebugUltraTestMode"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGULTRATESTMODE"
 msgid "Debug Ultra Test Mode"
-msgstr "DebugUltraTestiTila"
+msgstr "Debug Ultratestitila"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.NAME"
@@ -40723,124 +40381,79 @@ msgid "Debug"
 msgstr "Debug"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT1X
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT1X"
-#| msgid "SreenShot1x"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT1X"
 msgid "Screen Shot 1x"
-msgstr "Kuvakaappaus1x"
+msgstr "Kuvakaappaus 1x"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT2X
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT2X"
-#| msgid "SreenShot2x"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT2X"
 msgid "Screen Shot 2x"
-msgstr "Kuvakaappaus2x"
+msgstr "Kuvakaappaus 2x"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT32X
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT32X"
-#| msgid "SreenShot32x"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT32X"
 msgid "Screen Shot 32x"
-msgstr "Kuvakaappaus32x"
+msgstr "Kuvakaappaus 32x"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT8X
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT8X"
-#| msgid "SreenShot8x"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT8X"
 msgid "Screen Shot 8x"
-msgstr "Kuvakaappaus8x"
+msgstr "Kuvakaappaus 8x"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.TOGGLECHROMEPROFILER
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.TOGGLECHROMEPROFILER"
-#| msgid "ToggleChromeProfiler"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.TOGGLECHROMEPROFILER"
 msgid "Toggle Chrome Profiler"
-msgstr "ValitseKromiprofiloija"
+msgstr "Valitse Kromiprofiloija"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.TOGGLEPROFILER
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.TOGGLEPROFILER"
-#| msgid "ToggleProfiler"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.TOGGLEPROFILER"
 msgid "Toggle Profiler"
-msgstr "ValitseProfiloija"
+msgstr "Valitse Profiloija"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGECONSUMABLES
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGECONSUMABLES"
-#| msgid "ManageConsumables"
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGECONSUMABLES"
 msgid "Manage Consumables"
-msgstr "HallitseKäytettäviä"
+msgstr "Hallitse Käytettäviä"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEDATABASE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEDATABASE"
-#| msgid "ManageDatabase"
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEDATABASE"
 msgid "Manage Database"
-msgstr "HallitseTietokantaa"
+msgstr "Hallitse Tietokantaa"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEPRIORITIES
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEPRIORITIES"
-#| msgid "ManagePriorities"
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEPRIORITIES"
 msgid "Manage Priorities"
-msgstr "HallitseTärkeyksiä"
+msgstr "Hallitse Tärkeyksiä"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEREPORT
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEREPORT"
-#| msgid "ManageReport"
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEREPORT"
 msgid "Manage Report"
-msgstr "HallitseRaporttia"
+msgstr "Hallitse Raportointia"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGERESEARCH
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGERESEARCH"
-#| msgid "ManageResearch"
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGERESEARCH"
 msgid "Manage Research"
-msgstr "HallitseTutkimusta"
+msgstr "Hallitse Tutkimusta"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESCHEDULE
-#, fuzzy
-#| msgctxt "STRINGS.UI.ASTEROIDCLOCK.SCHEDULE_BUTTON_TOOLTIP"
-#| msgid "Manage Schedule"
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESCHEDULE"
 msgid "Manage Schedule"
 msgstr "Hallitse Aikataulua"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESKILLS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESKILLS"
-#| msgid "ManageSkills"
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESKILLS"
 msgid "Manage Skills"
-msgstr "HallitseTaitoja"
+msgstr "Hallitse Taitoja"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESTARMAP
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESTARMAP"
-#| msgid "ManageStarmap"
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESTARMAP"
 msgid "Manage Starmap"
-msgstr "HallitseTähtikarttaa"
+msgstr "Hallitse Tähtikarttaa"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEVITALS
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEVITALS"
-#| msgid "ManageVitals"
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEVITALS"
 msgid "Manage Vitals"
-msgstr "HallitseTärkeitä"
+msgstr "Hallitse Tärkeitä"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.NAME"
@@ -40848,84 +40461,54 @@ msgid "Management"
 msgstr "Hallinta"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV1
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV1"
-#| msgid "GotoUserNav1"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV1"
 msgid "Goto User Nav 1"
-msgstr "MeneKäyttäjäNav1"
+msgstr "Mene KäyttäjäNav 1"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV10
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV10"
-#| msgid "GotoUserNav10"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV10"
 msgid "Goto User Nav 10"
-msgstr "MeneKäyttäjäNav10"
+msgstr "Mene KäyttäjäNav 10"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV2
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV2"
-#| msgid "GotoUserNav2"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV2"
 msgid "Goto User Nav 2"
-msgstr "MeneKäyttäjäNav2"
+msgstr "Mene KäyttäjäNav 2"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV3
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV3"
-#| msgid "GotoUserNav3"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV3"
 msgid "Goto User Nav 3"
-msgstr "MeneKäyttäjäNav3"
+msgstr "Mene KäyttäjäNav 3"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV4
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV4"
-#| msgid "GotoUserNav4"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV4"
 msgid "Goto User Nav 4"
-msgstr "MeneKäyttäjäNav4"
+msgstr "Mene KäyttäjäNav 4"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV5
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV5"
-#| msgid "GotoUserNav5"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV5"
 msgid "Goto User Nav 5"
-msgstr "MeneKäyttäjäNav5"
+msgstr "Mene KäyttäjäNav 5"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV6
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV6"
-#| msgid "GotoUserNav6"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV6"
 msgid "Goto User Nav 6"
-msgstr "MeneKäyttäjäNav6"
+msgstr "Mene KäyttäjäNav 6"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV7
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV7"
-#| msgid "GotoUserNav7"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV7"
 msgid "Goto User Nav 7"
-msgstr "MeneKäyttäjäNav7"
+msgstr "Mene KäyttäjäNav 7"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV8
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV8"
-#| msgid "GotoUserNav8"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV8"
 msgid "Goto User Nav 8"
-msgstr "MeneKäyttäjäNav8"
+msgstr "Mene KäyttäjäNav 8"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV9
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV9"
-#| msgid "GotoUserNav9"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV9"
 msgid "Goto User Nav 9"
-msgstr "MeneKäyttäjäNav9"
+msgstr "Mene KäyttäjäNav 9"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.NAME"
@@ -40933,92 +40516,59 @@ msgid "Navigation"
 msgstr "Navigaatio"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV1
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV1"
-#| msgid "SetUserNav1"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV1"
 msgid "Set User Nav 1"
-msgstr "AsetaKäyttäjäNav1"
+msgstr "Aseta KäyttäjäNav 1"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV10
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV10"
-#| msgid "SetUserNav10"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV10"
 msgid "Set User Nav 10"
-msgstr "AsetaKäyttäjäNav10"
+msgstr "Aseta KäyttäjäNav 10"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV2
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV2"
-#| msgid "SetUserNav2"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV2"
 msgid "Set User Nav 2"
-msgstr "AsetaKäyttäjäNav2"
+msgstr "Aseta KäyttäjäNav 2"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV3
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV3"
-#| msgid "SetUserNav3"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV3"
 msgid "Set User Nav 3"
-msgstr "AsetaKäyttäjäNav3"
+msgstr "Aseta KäyttäjäNav 3"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV4
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV4"
-#| msgid "SetUserNav4"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV4"
 msgid "Set User Nav 4"
-msgstr "AsetaKäyttäjäNav4"
+msgstr "Aseta KäyttäjäNav 4"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV5
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV5"
-#| msgid "SetUserNav5"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV5"
 msgid "Set User Nav 5"
-msgstr "AsetaKäyttäjäNav5"
+msgstr "Aseta KäyttäjäNav 5"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV6
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV6"
-#| msgid "SetUserNav6"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV6"
 msgid "Set User Nav 6"
-msgstr "AsetaKäyttäjäNav6"
+msgstr "Aseta KäyttäjäNav 6"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV7
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV7"
-#| msgid "SetUserNav7"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV7"
 msgid "Set User Nav 7"
-msgstr "AsetaKäyttäjäNav7"
+msgstr "Aseta KäyttäjäNav 7"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV8
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV8"
-#| msgid "SetUserNav8"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV8"
 msgid "Set User Nav 8"
-msgstr "AsetaKäyttäjäNav8"
+msgstr "Aseta KäyttäjäNav 8"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV9
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV9"
-#| msgid "SetUserNav9"
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV9"
 msgid "Set User Nav 9"
-msgstr "AsetaKäyttäjäNav9"
+msgstr "Aseta KäyttäjäNav 9"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.ALTERNATEVIEW
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.ROOT.ALTERNATEVIEW"
-#| msgid "AlternateView"
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.ALTERNATEVIEW"
 msgid "Alternate View"
-msgstr "VaihtoehtoNäkymä"
+msgstr "Vaihtoehtoinen Näkymä"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.ATTACK
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.ATTACK"
@@ -41183,7 +40733,7 @@ msgstr "Siirrä Oikealle"
 #. STRINGS.INPUT_BINDINGS.ROOT.PANUP
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PANUP"
 msgid "Pan Up"
-msgstr ""
+msgstr "Siirrä Ylös"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.PLAN1
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PLAN1"
@@ -41377,15 +40927,6 @@ msgid "Care Package"
 msgstr "Huolenpitopakkaus"
 
 #. STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC"
-#| msgid ""
-#| "A seedless fruit with an upsettingly bland aftertaste.\n"
-#| "\n"
-#| "It cannot be replanted.\n"
-#| "\n"
-#| "Digging up <style=\"KKeyword\">Buried Objects</style> may uncover a <link="
-#| "\"BASICFORAGEPLANT\">Muckroot</link>."
 msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC"
 msgid ""
 "A seedless fruit with an upsettingly bland aftertaste.\n"
@@ -41399,8 +40940,8 @@ msgstr ""
 "\n"
 "Sitä ei voida uudelleenistuttaa.\n"
 "\n"
-" <style=\"KKeyword\">Hautatuneita Esineitä</style> ylös kaivamalla voidaan "
-"löytää <link=\"BASICFORAGEPLANT\">Liejujuuri</link>."
+" Hautatuneita Esineitä ylös kaivamalla voidaan löytää <link="
+"\"BASICFORAGEPLANT\">Liejujuuri</link>."
 
 #. STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.NAME"
@@ -41539,19 +41080,13 @@ msgid "Compost"
 msgstr "Komposti"
 
 #. STRINGS.ITEMS.FOOD.COOKEDEGG.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.COOKEDEGG.DESC"
-#| msgid ""
-#| "Fluffed and folded <style=\"KKeyword\">Egg</style> innards.\n"
-#| "\n"
-#| "It turns out you do, in fact, have to break a few eggs to make it."
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDEGG.DESC"
 msgid ""
 "Fluffed and folded Egg innards.\n"
 "\n"
 "It turns out you do, in fact, have to break a few eggs to make it."
 msgstr ""
-"Pehmennetty ja taitettu <style=\"KKeyword\">Munan</style> sisältö.\n"
+"Pehmennetty ja taitettu Munan sisältö.\n"
 "\n"
 "Vaikuttaa siltä, että sinun, itseasiassa, täytyy rikkoa muutama muna "
 "tehdäksesi se."
@@ -43639,15 +43174,6 @@ msgstr ""
 "parantuneet:"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
-#| msgid ""
-#| "Duplicants can only climb two tiles high and cannot fit into spaces "
-#| "smaller than two tiles, which I should keep in mind while placing "
-#| "errands.\n"
-#| "\n"
-#| "To check if an errand I've placed is accessible, I can select a Duplicant "
-#| "and click <b>Show Navigation</b> to view all areas within their reach."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
 msgid ""
 "Duplicants have limited jumping and climbing abilities. They can only climb "
@@ -43657,9 +43183,9 @@ msgid ""
 "To check if an errand I've placed is accessible, I can select a Duplicant "
 "and click <b>Show Navigation</b> to view all areas within their reach."
 msgstr ""
-"Jäljennäiset pystyvät kiipeämään ainoastaan kaksi ruutua korkeammalle, "
-"eivätkä mahdu kahta ruutua pienemmistä väliköistä, mikä on hyvä muistaa "
-"tehtäviä asettaessani.\n"
+"Jäljennäisillä on rajoittunut kiipeämis- ja hyppäämiskyky. He pystyvät "
+"kiipeämään ainoastaan kaksi ruutua korkeammalle, eivätkä mahdu kahta ruutua "
+"pienemmistä väliköistä, mikä on hyvä muistaa tehtäviä asettaessani.\n"
 "\n"
 "Tarkastaakseni, onko asettamani tehtävä saavutettavissa, voin valita "
 "Jäljennäisen ja painaa <b>Näytä Reitinhaku</b> nähdäkseni, mihin kaikkialle "
@@ -43763,17 +43289,6 @@ msgid "Notes on handling polluted materials"
 msgstr "Vinkkejä saastuneiden materiaalien käsittelyyn"
 
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY"
-#| msgid ""
-#| "The Foods, Rooms, Decor, and Recreation a Duplicant experiences will have "
-#| "an effect on their Morale. Good experiences improve their Morale and poor "
-#| "experiences drop it. When Morale is below their Expectations, Duplicants "
-#| "will become Stressed.\n"
-#| "\n"
-#| "As Duplicants are assigned to Jobs, they gain increased Expectations, and "
-#| "so the colony will have to be improved to keep up their Morale. An "
-#| "overview of Morale and Stress can be viewed on the Vitals screen."
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY"
 msgid ""
 "Food, Rooms, Decor, and Recreation all have have an effect on Duplicant "
@@ -43784,9 +43299,9 @@ msgid ""
 "colony will have to be improved to keep up their Morale. An overview of "
 "Morale and Stress can be viewed on the Vitals screen."
 msgstr ""
-"Ruuat, Huoneet, Koristukset ja Viihde, joita Jäljennäinen kokee vaikuttaa "
-"heidän Mielialaansa. Hyvät kokemukset parantavat heidän Mielialaaan ja "
-"huonot kokemukset laskevat sitä. Kun moraali on heidän Odotustensa "
+"Ruuat, Huoneet, Koristukset ja Viihde, joita Jäljennäinen kokee, vaikuttaa "
+"heidän Mielialaansa. Hyvät kokemukset parantavat heidän Mielialaansa ja "
+"huonot kokemukset laskevat sitä. Kun mieliala on heidän Odotustensa "
 "alapuolella, Jäljennäiset ahdistuvat.\n"
 "\n"
 "Kun Jäljennäiset nimitetään Töihin, heidän Odotuksensa kasvavat ja "
@@ -43899,6 +43414,8 @@ msgid ""
 "This building has a new automation port and is unintentionally connected to "
 "an existing <link=\"LOGICWIRE\">Automation Wire</link>"
 msgstr ""
+"Tällä rakennuksella on uusi automaatioportti ja on tahattomasti kytkettynä "
+"olemassaolevaan <link=\"LOGICWIRE\">Automaatiojohtoon</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME"
@@ -43998,6 +43515,15 @@ msgid ""
 "building through piping from the Output Pipe. The water can then be expelled "
 "through Liquid Vent or filtered through a Liquid Filter and reused."
 msgstr ""
+"Putkia yhdistäessä on hyvä pitää Putkistonäkymä <b><color=#F44A4A>[F6]</b></"
+"color> valittuna. Kullakin putkistoa vaativalla rakennuksella tulee olla "
+"Rakennuksen Sisäänotto yhdistettynä Nestepumpun Ulostuloputkeen. "
+"Nestepumppujen tulee olla upotettuna nesteeseen ja yhdistettynä "
+"virtalähteeseen toimiakseen.\n"
+"\n"
+"Rakennukset usein tuottavat saastunutta vettä, jonka on virrattava "
+"rakennuksesta ulos putkia pitkin Ulostuloputken kautta. Vesi voidaan laskea "
+"pois Nesteaukosta tai suodattaa Nestesuodattimessa ja käyttää uudelleen."
 
 #. STRINGS.MISC.NOTIFICATIONS.PLUMBING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PLUMBING.NAME"
@@ -44024,6 +43550,16 @@ msgid ""
 "these situations, I will need to reorganize my Consumers onto separate "
 "circuits."
 msgstr ""
+"Generaattorit tuottavat sähköä ja erilaiset rakennukset ja koneet ovat sen "
+"Kuluttajia. Kukin Kuluttaja ottaa tietyn määrän tehoa sähköverkosta, johon "
+"se on yhdistettynä.\n"
+"\n"
+"Voin käyttää Sähkövirtanäkymää <b><color=#F44A4A>[F2]</b></color> "
+"tarkastaakseni sähköverkkojeni tilan. Jos Kuluttajat kuluttavat enemmän "
+"tehoa kuin mitä Generaattorit tuottavat, Akut tyhjenevät ja seuraa "
+"sähkökatkoja. Lisäksi jos Kuluttajat kuluttavat enemmän tehoa, kuin Johdot "
+"pystyvät kantamaan, ne ylikuormittuvat ja palavat. Näiden tilanteiden "
+"korjaamiseksi minun on uudelleenjärjesteltävä Kuluttajani eri verkkoihin."
 
 #. STRINGS.MISC.NOTIFICATIONS.POWER.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.NAME"
@@ -45249,12 +44785,9 @@ msgid "Fiber"
 msgstr "Kuitu"
 
 #. STRINGS.MISC.TAGS.BUILDINGWOOD
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.WOODIE"
-#| msgid "Woodie"
 msgctxt "STRINGS.MISC.TAGS.BUILDINGWOOD"
 msgid "Wood"
-msgstr "Veijo"
+msgstr "Puu"
 
 #. STRINGS.MISC.TAGS.BURNS
 msgctxt "STRINGS.MISC.TAGS.BURNS"
@@ -45644,7 +45177,7 @@ msgstr "Myrkyllinen"
 #. STRINGS.MISC.TAGS.TOY
 msgctxt "STRINGS.MISC.TAGS.TOY"
 msgid "Toy"
-msgstr ""
+msgstr "Lelu"
 
 #. STRINGS.MISC.TAGS.TRANSPARENT
 msgctxt "STRINGS.MISC.TAGS.TRANSPARENT"
@@ -48169,15 +47702,12 @@ msgstr "<link=\"ANIMALCONTROL\">Eläintenkäsittely</link>"
 #. STRINGS.RESEARCH.TECHS.ARTIFICIALFRIENDS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ARTIFICIALFRIENDS.DESC"
 msgid "Sweeping advances in companion technology."
-msgstr ""
+msgstr "Lakaiseminen kehittyy kumppaniteknologiassa."
 
 #. STRINGS.RESEARCH.TECHS.ARTIFICIALFRIENDS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.AGRICULTURE.NAME"
-#| msgid "<link=\"AGRICULTURE\">Agriculture</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.ARTIFICIALFRIENDS.NAME"
 msgid "<link=\"ARTIFICIALFRIENDS\">Artificial Friends</link>"
-msgstr "<link=\"AGRICULTURE\">Maatalous</link>"
+msgstr "<link=\"ARTIFICIALFRIENDS\">Keinoystävät</link>"
 
 #. STRINGS.RESEARCH.TECHS.ARTISTRY.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ARTISTRY.DESC"
@@ -48364,26 +47894,18 @@ msgid "<link=\"ENGINESIII\">Cryofuel Combustion</link>"
 msgstr "<link=\"ENGINESIII\">Kryoaineen Poltto</link>"
 
 #. STRINGS.RESEARCH.TECHS.ENVIRONMENTALAPPRECIATION.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SHOWER.EFFECT"
-#| msgid ""
-#| "Improves Duplicant <link=\"MORALE\">Morale</link> and removes surface "
-#| "<link=\"DISEASE\">Germs</link>."
 msgctxt "STRINGS.RESEARCH.TECHS.ENVIRONMENTALAPPRECIATION.DESC"
 msgid ""
 "Improve <link=\"MORALE\">Morale</link> by lazing around in <link=\"LIGHT"
 "\">Light</link> with a high Lux value."
 msgstr ""
-"Parantaa Jäljennäisen <link=\"HYGIENE\">Hygieniaa</link> ja poistaa "
-"pinta<link=\"DISEASE\">Bakteereja</link>."
+"Paranna <link=\"MORALE\">Mielialaa</link> loikoilemalla korkean Luksitason "
+"<link=\"LIGHT\">Valossa</link>."
 
 #. STRINGS.RESEARCH.TECHS.ENVIRONMENTALAPPRECIATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.INVESTIGATIONS"
-#| msgid "<link=\"INVESTIGATIONS\">Investigations</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.ENVIRONMENTALAPPRECIATION.NAME"
 msgid "<link=\"ENVIRONMENTALAPPRECIATION\">Environmental Appreciation</link>"
-msgstr "<link=\"INVESTIGATIONS\">Tutkimukset</link>"
+msgstr "<link=\"ENVIRONMENTALAPPRECIATION\">Ympäristön arvostus</link>"
 
 #. STRINGS.RESEARCH.TECHS.FARMINGTECH.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.FARMINGTECH.DESC"
@@ -48444,6 +47966,8 @@ msgid ""
 "Balance on irrigated concave platforms for a <link=\"MORALE\">Morale</link> "
 "boost."
 msgstr ""
+"Tasapainoile ojitetuilla, kuperoilla tasanteilla saadaksesi <link=\"MORALE"
+"\">Mieliala</link>tehostuksen."
 
 #. STRINGS.RESEARCH.TECHS.FLOWREDIRECTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.FLOWREDIRECTION.NAME"
@@ -48451,18 +47975,13 @@ msgid "<link=\"FLOWREDIRECTION\">Flow Redirection</link>"
 msgstr "<link=\"FLOWREDIRECTION\">Virtaussuunta</link>"
 
 #. STRINGS.RESEARCH.TECHS.FOODREPURPOSING.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.EFFECT"
-#| msgid ""
-#| "Stores <link=\"FOOD\">Food</link> at an ideal <link=\"HEAT\">Temperature</"
-#| "link> to prevent spoilage."
 msgctxt "STRINGS.RESEARCH.TECHS.FOODREPURPOSING.DESC"
 msgid ""
 "Blend that leftover <link=\"FOOD\">Food</link> into a <link=\"MORALE"
 "\">Morale</link> boosting slurry."
 msgstr ""
-"Varastoi <link=\"FOOD\">Ruokaa</link> ihanteelliseen <link=\"HEAT"
-"\">Lämpötilaan</link> pilaantumisen estämiseksi."
+"Muserra <link=\"FOOD\">Ruuan</link>tähteet <link=\"MORALE\">Mielialaa</link> "
+"kohottavaksi pirtelöksi."
 
 #. STRINGS.RESEARCH.TECHS.FOODREPURPOSING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.FOODREPURPOSING.NAME"
@@ -48764,7 +48283,7 @@ msgstr "<link=\"MEDICINEIV\">Täsmälääkintä</link>"
 #. STRINGS.RESEARCH.TECHS.MULTIPLEXING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.MULTIPLEXING.DESC"
 msgid "More choices for Automation signal distribution."
-msgstr ""
+msgstr "Enemmän valintoja Automaatiosignaalijakeluun."
 
 #. STRINGS.RESEARCH.TECHS.MULTIPLEXING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.MULTIPLEXING.NAME"
@@ -48774,7 +48293,7 @@ msgstr "<link=\"MULTIPLEXING\">Multipleksointi</link>"
 #. STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.DESC"
 msgid "Get all the news you need to know about your complex colony."
-msgstr ""
+msgstr "Saa kaikki tarvitsemasi uutiset koskien monimutkaista siirtokuntaasi."
 
 #. STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.NAME"
@@ -48784,7 +48303,7 @@ msgstr "<link=\"NOTIFICATIONSYSTEMS\">Ilmoitusjärjestelmät</link>"
 #. STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC"
 msgid "Multi-wire automation at a fraction of the space."
-msgstr ""
+msgstr "Monijohtoautomaatiota tilan murto-osalla."
 
 #. STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.NAME"
@@ -48928,7 +48447,7 @@ msgstr "<link=\"SANITATIONSCIENCES\">Viemäröinti</link>"
 #. STRINGS.RESEARCH.TECHS.SCREENS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SCREENS.DESC"
 msgid "High tech displays with lots of pretty colors."
-msgstr ""
+msgstr "Korkean teknologian näyttöjä useilla näteillä väreillä."
 
 #. STRINGS.RESEARCH.TECHS.SCREENS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SCREENS.NAME"
@@ -48974,16 +48493,10 @@ msgid "<link=\"SMELTING\">Smelting</link>"
 msgstr "<link=\"SMELTING\">Sulatus</link>"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.DESC"
-#| msgid ""
-#| "Naphtha is a distilled hydrocarbon mixture in a <link=\"ELEMENTSSOLID"
-#| "\">Solid</link> state."
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.DESC"
 msgid "Make solid decisions in <link=\"ELEMENTSSOLID\">Solid</link> sorting."
 msgstr ""
-"Nafta on tislattua hiilivetyä <link=\"ELEMENTSSOLID\">Kiinteässä</link> "
-"olomuodossa."
+"Tee lujia päätöksiä <link=\"ELEMENTSSOLID\">Kiinteiden</link> lajittelussa."
 
 #. STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.NAME"
@@ -49186,6 +48699,11 @@ msgid ""
 "\">Liquid</link> debris and stores it in a <link=\"SWEEPBOTSTATION\">Sweepy "
 "Dock</link>."
 msgstr ""
+"Automaattinen lakaisurobotti.\n"
+"\n"
+"Poimii sekä <link=\"ELEMENTSSOLID\">Kiinteät</link> että <link="
+"\"ELEMENTSLIQUID\">Nestemäiset</link> törkyt ja varastoi ne<link="
+"\"SWEEPBOTSTATION\">Luutustelakalle</link>."
 
 #. STRINGS.ROBOTS.MODELS.SWEEPBOT.NAME
 msgctxt "STRINGS.ROBOTS.MODELS.SWEEPBOT.NAME"
@@ -49195,7 +48713,7 @@ msgstr "Luutunen"
 #. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.DESC"
 msgid "Something is blocking this robot from reaching its base station"
-msgstr ""
+msgstr "Jokin estää tätä robottia pääsemästä telakalleen"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.NAME"
@@ -49205,15 +48723,12 @@ msgstr "Luutustelakkaa ei voida saavuttaa"
 #. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.TOOLTIP"
 msgid "Something is blocking this robot from reaching its base station"
-msgstr ""
+msgstr "Jokin estää tätä robottia pääsemästä telakalleen"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CHARGING.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.EMERGING.TOOLTIP"
-#| msgid "This critter is leaving its burrow"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CHARGING.DESC"
 msgid "This robot is charging its battery"
-msgstr "Tämä otus on jättämässä kaivannaisensa"
+msgstr "Tämä robotti lataa akkujaan"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CHARGING.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CHARGING.NAME"
@@ -49221,17 +48736,14 @@ msgid "Charging"
 msgstr "Latautuu"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CHARGING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.EMERGING.TOOLTIP"
-#| msgid "This critter is leaving its burrow"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CHARGING.TOOLTIP"
 msgid "This robot is charging its battery"
-msgstr "Tämä otus on jättämässä kaivannaisensa"
+msgstr "Tämä robotti lataa akkujaan"
 
 #. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.DESC"
 msgid "This robot must return to its base station to unload"
-msgstr ""
+msgstr "Tämän robotin on palattava telakalleen tyhjennystä varten"
 
 #. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.NAME"
@@ -49241,133 +48753,97 @@ msgstr "Pölysäiliö Täysi"
 #. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.TOOLTIP"
 msgid "This robot must return to its base station to unload"
-msgstr ""
+msgstr "Tämän robotin on palattava telakalleen tyhjennystä varten"
 
 #. STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.DESC"
 msgid "This robot's battery is low and needs to recharge"
-msgstr ""
+msgstr "Tämän robotin akku on vähissä ja se pitää ladata"
 
 #. STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.NAME"
 msgid "Low Battery"
-msgstr "Akku Lopussa"
+msgstr "Akku Vähissä"
 
 #. STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.TOOLTIP"
 msgid "This robot's battery is low and needs to recharge"
-msgstr ""
+msgstr "Tämän robotin akku on vähissä ja se pitää ladata"
 
 #. STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.DESC"
 msgid "This robot is on its way to a battery recharge"
-msgstr ""
+msgstr "Tämä robotti on matkalla akun lataukseen"
 
 #. STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.NAME"
 msgid "Travelling to Sweepy Dock"
-msgstr ""
+msgstr "Matkaa Luutustelakalle"
 
 #. STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.TOOLTIP"
 msgid "This robot is on its way to a battery recharge"
-msgstr ""
+msgstr "Tämä robotti on matkalla akun lataukseen"
 
 #. STRINGS.ROBOTS.STATUSITEMS.REACTNEGATIVE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATE.TOOLTIP"
-#| msgid "This Duplicant is crafting something"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.REACTNEGATIVE.DESC"
 msgid "This robot is reacting negatively to something"
-msgstr "Tämä Jäljennäinen valmistaa jotakin"
+msgstr "Tämä robotti reagoi johonkin kielteisesti"
 
 #. STRINGS.ROBOTS.STATUSITEMS.REACTNEGATIVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.DECOR.LOWDECOR"
-#| msgid "Negative Decor"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.REACTNEGATIVE.NAME"
 msgid "Negative Reaction"
-msgstr "Negatiivinen Koristus"
+msgstr "Kielteinen Reaktio"
 
 #. STRINGS.ROBOTS.STATUSITEMS.REACTNEGATIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATE.TOOLTIP"
-#| msgid "This Duplicant is crafting something"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.REACTNEGATIVE.TOOLTIP"
 msgid "This robot is reacting negatively to something"
-msgstr "Tämä Jäljennäinen valmistaa jotakin"
+msgstr "Tämä robotti reagoi johonkin kielteisesti"
 
 #. STRINGS.ROBOTS.STATUSITEMS.REACTPOSITIVE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATE.TOOLTIP"
-#| msgid "This Duplicant is crafting something"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.REACTPOSITIVE.DESC"
 msgid "This robot is reacting positively to something"
-msgstr "Tämä Jäljennäinen valmistaa jotakin"
+msgstr "Tämä robotti reagoi johonkin myönteisesti"
 
 #. STRINGS.ROBOTS.STATUSITEMS.REACTPOSITIVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.BUILDING_DECOR_POSITIVE.NAME"
-#| msgid "Positive decor"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.REACTPOSITIVE.NAME"
 msgid "Positive Reaction"
-msgstr "Positiivinen koristusarvo"
+msgstr "Myönteinen Reaktio"
 
 #. STRINGS.ROBOTS.STATUSITEMS.REACTPOSITIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATE.TOOLTIP"
-#| msgid "This Duplicant is crafting something"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.REACTPOSITIVE.TOOLTIP"
 msgid "This robot is reacting positively to something"
-msgstr "Tämä Jäljennäinen valmistaa jotakin"
+msgstr "Tämä robotti reagoi johonkin myönteisesti"
 
 #. STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.EMPTYSTORAGE.TOOLTIP"
-#| msgid "This Duplicant is taking items out of storage"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.DESC"
 msgid "This robot is unloading its storage"
-msgstr "Tämä Jäljennäinen ottaa esineitä varastosta"
+msgstr "Tämä robotti tyhjentää säiliötään"
 
 #. STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_NAME"
-#| msgid "Flooding"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.NAME"
 msgid "Unloading"
-msgstr "Tulvii"
+msgstr "Tyhjentää"
 
 #. STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.TOOLTIP"
-#| msgid "This building is collapsing"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.TOOLTIP"
 msgid "This robot unloading its storage"
-msgstr "Tämä rakennus romahtaa"
+msgstr "Tämä robotti tyhjentää säiliötään"
 
 #. STRINGS.ROBOTS.STATUSITEMS.WORKING.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DIGESTING.TOOLTIP"
-#| msgid "This critter is working off a big meal"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.WORKING.DESC"
 msgid "This robot is working diligently"
-msgstr "Tämä otus työstää suurta ateriaa"
+msgstr "Tämä robotti työskentelee ahkerasti"
 
 #. STRINGS.ROBOTS.STATUSITEMS.WORKING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WORKING.NAME"
-#| msgid "Working"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.WORKING.NAME"
 msgid "Working"
 msgstr "Työskentelee"
 
 #. STRINGS.ROBOTS.STATUSITEMS.WORKING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DIGESTING.TOOLTIP"
-#| msgid "This critter is working off a big meal"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.WORKING.TOOLTIP"
 msgid "This robot is working diligently"
-msgstr "Tämä otus työstää suurta ateriaa"
+msgstr "Tämä robotti työskentelee ahkerasti"
 
 #. STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.DESCRIPTION"
@@ -49480,20 +48956,15 @@ msgid "Decor item: +{0} Decor"
 msgstr "Koriste: +{0} Koristeellisuuten"
 
 #. STRINGS.ROOMS.CRITERIA.DESTRESSING_BUILDING.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.REC_BUILDING.DESCRIPTION"
-#| msgid "Requires one or more recreational buildings"
 msgctxt "STRINGS.ROOMS.CRITERIA.DESTRESSING_BUILDING.DESCRIPTION"
 msgid "Requires one or more De-Stressing Building"
-msgstr "Tarvitsee yhden tai useamman virkistysrakennuksen"
+msgstr "Tarvitsee yhden tai useamman Ahdistuksenpoistorakennuksen"
 
+# ???
 #. STRINGS.ROOMS.CRITERIA.DESTRESSING_BUILDING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.STATUS"
-#| msgid "De-stressing"
 msgctxt "STRINGS.ROOMS.CRITERIA.DESTRESSING_BUILDING.NAME"
 msgid "De-Stressing Building"
-msgstr "Rahoittuu"
+msgstr "Ahdistuksenpoistorakennus"
 
 #. STRINGS.ROOMS.CRITERIA.FARM_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FARM_STATION.DESCRIPTION"
@@ -50649,12 +50120,9 @@ msgid "<link=\"HEAT\">Cooling factor</link>: {0}"
 msgstr "<link=\"HEAT\">Jäähtymiskerroin</link>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.MAX_BITS
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.EMITS_LIGHT_LUX"
-#| msgid "<link=\"LIGHT\">Brightness</link>: {0} Lux"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.MAX_BITS"
 msgid "<link=\"LOGIC\">Bit</link> Depth: {0}"
-msgstr "<link=\"LIGHT\">Kirkkaus</link>: {0} Luksia"
+msgstr "<link=\"LOGIC\">Bitti</link> Syvyys: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.MAX_WATTAGE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.MAX_WATTAGE"
@@ -51838,12 +51306,9 @@ msgid "ADDITIONAL INFORMATION"
 msgstr "LISÄTIEDOT"
 
 #. STRINGS.UI.CHARACTERCONTAINER_JOYTRAIT
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.OVER_PRESSURE_MASS"
-#| msgid "Overpressure: {0}"
 msgctxt "STRINGS.UI.CHARACTERCONTAINER_JOYTRAIT"
 msgid "Overjoyed Response: {0}"
-msgstr "Ylipaine: {0}"
+msgstr "Riemastunut Vaste: {0}"
 
 #. STRINGS.UI.CHARACTERCONTAINER_NEED
 msgctxt "STRINGS.UI.CHARACTERCONTAINER_NEED"
@@ -52080,31 +51545,21 @@ msgstr ""
 "Pilaantumisaika: {1}"
 
 #. STRINGS.UI.CODEX.FORWARD_BUTTON_NO_HISTORY_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.BACK_BUTTON_NO_HISTORY_TOOLTIP"
-#| msgid ""
-#| "Click to go back:\n"
-#| "N/A"
 msgctxt "STRINGS.UI.CODEX.FORWARD_BUTTON_NO_HISTORY_TOOLTIP"
 msgid ""
 "Click to go forward:\n"
 "N/A"
 msgstr ""
-"Klikkaa palatauksesi:\n"
+"Klikkaa mennäksesi eteenpäin:\n"
 "Ei Saatavilla"
 
 #. STRINGS.UI.CODEX.FORWARD_BUTTON_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.BACK_BUTTON_TOOLTIP"
-#| msgid ""
-#| "Click to go back:\n"
-#| "{0}"
 msgctxt "STRINGS.UI.CODEX.FORWARD_BUTTON_TOOLTIP"
 msgid ""
 "Click to go forward:\n"
 "{0}"
 msgstr ""
-"Klikkaa palataksesi:\n"
+"Klikkaa mennäksesi eteenpäin:\n"
 "{0}"
 
 #. STRINGS.UI.CODEX.GAME_SYSTEMS
@@ -52358,7 +51813,7 @@ msgstr "JATKA PELIÄ"
 #. STRINGS.UI.CRASHSCREEN.COPYTOCLIPBOARDBUTTON
 msgctxt "STRINGS.UI.CRASHSCREEN.COPYTOCLIPBOARDBUTTON"
 msgid "COPY TO CLIPBOARD"
-msgstr ""
+msgstr "KOPIOI LEIKEPÖYDÄLLE"
 
 #. STRINGS.UI.CRASHSCREEN.HEADER
 msgctxt "STRINGS.UI.CRASHSCREEN.HEADER"
@@ -52366,12 +51821,9 @@ msgid "OPTIONAL CRASH DESCRIPTION"
 msgstr "VALINNAINEN KAATUMISEN KUVAUS"
 
 #. STRINGS.UI.CRASHSCREEN.HEADER_MODS
-#, fuzzy
-#| msgctxt "STRINGS.UI.ACTIONS"
-#| msgid "ACTIONS"
 msgctxt "STRINGS.UI.CRASHSCREEN.HEADER_MODS"
 msgid "ACTIVE MODS"
-msgstr "TOIMINNOT"
+msgstr "AKTIIVISET MODIT"
 
 #. STRINGS.UI.CRASHSCREEN.LOADFAILED
 msgctxt "STRINGS.UI.CRASHSCREEN.LOADFAILED"
@@ -52387,7 +51839,7 @@ msgstr ""
 #. STRINGS.UI.CRASHSCREEN.MOREINFOBUTTON
 msgctxt "STRINGS.UI.CRASHSCREEN.MOREINFOBUTTON"
 msgid "MORE INFO"
-msgstr ""
+msgstr "LISÄTIETOJA"
 
 #. STRINGS.UI.CRASHSCREEN.QUITBUTTON
 msgctxt "STRINGS.UI.CRASHSCREEN.QUITBUTTON"
@@ -52402,7 +51854,7 @@ msgstr "ILMOITA KAATUMINEN"
 #. STRINGS.UI.CRASHSCREEN.REPORTEDERROR
 msgctxt "STRINGS.UI.CRASHSCREEN.REPORTEDERROR"
 msgid "Reported Error"
-msgstr ""
+msgstr "Raportoi Virheen"
 
 #. STRINGS.UI.CRASHSCREEN.REPORTING
 msgctxt "STRINGS.UI.CRASHSCREEN.REPORTING"
@@ -52426,14 +51878,6 @@ msgstr ""
 "Teet pelistämme paremman, kaatuminen kerrallaan."
 
 #. STRINGS.UI.CRASHSCREEN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.CRASHSCREEN.TITLE"
-#| msgid ""
-#| "Whoops! We're sorry, but it seems your game has encountered an error.\n"
-#| "It's okay though - these errors are how we find and fix problems to make "
-#| "our game more fun for everyone.\n"
-#| "If you use the box below to submit a crash report to us, we can use this "
-#| "information to get the issue sorted out."
 msgctxt "STRINGS.UI.CRASHSCREEN.TITLE"
 msgid ""
 "\"Whoops! We're sorry, but it seems your game has encountered an error. It's "
@@ -52441,12 +51885,11 @@ msgid ""
 "more fun for everyone. If you use the box below to submit a crash report to "
 "us, we can use this information to get the issue sorted out.\""
 msgstr ""
-"Hupsis! Olemme pahoillamme, mutta vaikuttaa siltä, että pelisi on kohdannut "
-"virheen.\n"
-"Ei se mitään tosin - Näiden virheiden avulla löydämme ja korjaamme ongelmat "
-"tehdäksemme pelistämme hauskemman kaikille.\n"
-"Jos lähetät meille kaatumisraportin alla olevalla ruudulla, voimme käyttää "
-"tätä tietoa selvittääksemme asian."
+"\"Hupsis! Olemme pahoillamme, mutta vaikuttaa siltä, että pelisi on "
+"kohdannut virheen. Mutta ei se mitään - Näiden virheiden avulla löydämme ja "
+"korjaamme ongelmat tehdäksemme pelistämme hauskemman kaikille. Jos lähetät "
+"meille kaatumisraportin alla olevalla ruudulla, voimme käyttää tätä tietoa "
+"selvittääksemme asian.\""
 
 #. STRINGS.UI.CRASHSCREEN.TITLE_MODS
 msgctxt "STRINGS.UI.CRASHSCREEN.TITLE_MODS"
@@ -52456,6 +51899,10 @@ msgid ""
 "next time this happens. Any mods that could be related to this error have "
 "already been unchecked.\""
 msgstr ""
+"\"Hupsistakeikkaa! Valitettavasti pelisi näyttää kohdanneen virheen. Jos "
+"otat kaikki alla olevien modien valinnat pois, voimme auttaa ensi kerralla "
+"kun näin tapahtuu. Kaikki modit, jotka voivat liittyä tähän virheeseen on jo "
+"valittu pois.\""
 
 #. STRINGS.UI.CRASHSCREEN.UPLOADINFO
 msgctxt "STRINGS.UI.CRASHSCREEN.UPLOADINFO"
@@ -52552,12 +51999,9 @@ msgid "Sample"
 msgstr "Näyte"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.STORE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.ARCHETYPE_NAME"
-#| msgid "Storer"
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.STORE"
 msgid "Store"
-msgstr "Varastoija"
+msgstr "Varastoi"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TEMPERATURE_KELVIN
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TEMPERATURE_KELVIN"
@@ -55836,15 +55280,6 @@ msgid "DATA COLLECTION"
 msgstr "DATANKERÄYS"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION"
-#| msgid ""
-#| "Collecting user data helps us improve the game.\n"
-#| "Players who opt out of data collection will no longer send crash reports "
-#| "and play data to the game team.\n"
-#| "\n"
-#| "For more details on our privacy policy and how we use the data we "
-#| "collect, please visit our <color=#ECA6C9><u><b>privacy center</b></u>."
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION"
 msgid ""
 "Collecting user data helps us improve the game.\n"
@@ -55924,10 +55359,11 @@ msgctxt "STRINGS.UI.FRONTEND.MINSPECSCREEN.TITLE"
 msgid "WARNING!"
 msgstr "VAROITUS!"
 
+# eh
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.ADDITIONAL_MOD_EVENTS
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.ADDITIONAL_MOD_EVENTS"
 msgid "(...additional entries omitted)"
-msgstr ""
+msgstr "(...lisää kohtia ohitettu)"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.INSTALL_INFO_INACCESSIBLE.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.INSTALL_INFO_INACCESSIBLE.MESSAGE"
@@ -56764,6 +56200,11 @@ msgid ""
 "unintentionally connected to existing <link=\"LOGICWIRE\">Automation Wire</"
 "link>s."
 msgstr ""
+"Seuraavat rakennukset ovat saaneet uusia automaatioportteja!\n"
+"\n"
+"Käytä hetki tarkastaaksesi ovatko nämä rakennukset siirtokunnassasi "
+"tahattomasti yhdistettyinä olemassaoleviin <link=\"LOGICWIRE"
+"\">Automaatiojohtoihin</link>."
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.NEWAUTOMATIONWARNING_TITLE
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.NEWAUTOMATIONWARNING_TITLE"
@@ -58180,7 +57621,8 @@ msgstr ""
 msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Disable building"
 msgstr ""
-"<b><color=#f44a47>Punainen Signaali</b></color>: Poista rakennus käytöstä"
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Poista rakennus "
+"käytöstä"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_ACTIVE
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_ACTIVE"
@@ -67814,8 +67256,8 @@ msgstr ""
 "Vihreän kesto määrää, mihin aikaan päivästä tunnistimen pitää alkaa lähettää "
 "<b><style=\"logic_on\">Vihreää Signaalia</style></b>\n"
 "------------------\n"
-"Tämä tunnistin lähettää <b><color=#57b95e>Vihreää Signaalia</b></color> {0} "
-"aikaan päivästä"
+"Tämä tunnistin lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> "
+"{0} aikaan päivästä"
 
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.MODE_LABEL_CYCLES
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.MODE_LABEL_CYCLES"

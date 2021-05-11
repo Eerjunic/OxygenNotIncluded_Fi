@@ -1165,7 +1165,7 @@ msgstr "Jäljennäisen Säilömisen Ohitus"
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.TOOLTIP"
 msgid "Explosive disabled due to close Duplicant proximity"
-msgstr "Räjähde poiskytketty Jäljennäisen lähelläolon vuoksi"
+msgstr "Räjähde kytketty pois Jäljennäisen lähelläolon vuoksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.EXPLODING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.EXPLODING.NAME"
@@ -1220,7 +1220,7 @@ msgstr "Valitse ohje valmistuksen aloittamiseksi"
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NAME"
 msgid "Building Flooded"
-msgstr "Rakennus Veden Vallassa"
+msgstr "Rakennus Tulvii"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_NAME"
@@ -1230,7 +1230,7 @@ msgstr "Tulvii"
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_TOOLTIP"
 msgid "These buildings are flooded:"
-msgstr "Nämä rakennukset ovat veden vallassa:"
+msgstr "Nämä rakennukset ovat veden tulvivat:"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.TOOLTIP"
@@ -2157,11 +2157,6 @@ msgid "Thrust Generation: {ActiveWattage}/{MaxWattage}"
 msgstr "Syntyvä Työntövoima: {ActiveWattage}/{MaxWattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORPOWERED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.TOOLTIP"
-#| msgid ""
-#| "This panel is generating <style=\"produced\">{Wattage}</style> of <style="
-#| "\"KKeyword\">Power</style>"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORPOWERED.TOOLTIP"
 msgid ""
 "Engine is extracting <style=\"produced\">{MaxWattage}</style> of <style="
@@ -2169,8 +2164,10 @@ msgid ""
 "\n"
 "It will continue generating power as long as it travels through space"
 msgstr ""
-"Tämä paneeli tuottaa <style=\"produced\">{Wattage}</style> of <style="
-"\"KKeyword\">Sähköä</style>"
+"Moottori tuottaa <style=\"produced\">{MaxWattage}</style> työntö<style="
+"\"KKeyword\">voimaa</style> \n"
+"\n"
+"Se jatkaa voiman tuottamista niin kauan kuin se kulkee avaruuden halki"
 
 #. STRINGS.BUILDING.STATUSITEMS.MODULESOLARPANELWATTAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MODULESOLARPANELWATTAGE.NAME"
@@ -2358,14 +2355,6 @@ msgid "No Conveyor Loader"
 msgstr "Ei Kuljettimen Lastaajaa"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
-#| msgid ""
-#| "Material cannot be fed onto this Conveyor system for transport\n"
-#| "------------------\n"
-#| "Enter the <b>Shipping Tab</b> <b><color=#F44A4A>[7]</b></color> of the "
-#| "Build Menu to build and connect a <link=\"SOLIDCONDUITINBOX\">Conveyor "
-#| "Loader</link>"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDIN.TOOLTIP"
 msgid ""
 "Material cannot be fed onto this Conveyor system for transport\n"
@@ -2373,8 +2362,7 @@ msgid ""
 "Enter the <b>Shipping Tab</b> <b><color=#F44A4A>[7]</b></color> of the Build "
 "Menu to build and connect a <style=\"KKeyword\">Conveyor Loader</style>"
 msgstr ""
-"Materiaaleja ei voida syöttää kuljetettavaksi tähän "
-"Kiskokuljetinjärjestelmään\n"
+"Materiaaleja ei voida syöttää kuljetettavaksi tähän Kuljettimeen\n"
 "------------------\n"
 "Mene Rakennusvalikon <b>Kuljetus-välilehteen</b> <b><color=#F44A4A>[7]</b></"
 "color>, jotta voit rakentaa ja yhdistää <link=\"SOLIDCONDUITINBOX"
@@ -2386,15 +2374,6 @@ msgid "No Conveyor Receptacle"
 msgstr "Ei Kuljettimen Vastaanottosastiaa"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
-#| msgid ""
-#| "Material cannot be offloaded from this Conveyor system and will backup "
-#| "the rails\n"
-#| "------------------\n"
-#| "Enter the <b>Shipping Tab</b> <b><color=#F44A4A>[7]</b></color> of the "
-#| "Build Menu to build and connect a <link=\"SOLIDCONDUITOUTBOX\">Conveyor "
-#| "Receptacle</link>"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSOLIDOUT.TOOLTIP"
 msgid ""
 "Material cannot be offloaded from this Conveyor system and will backup the "
@@ -2403,8 +2382,8 @@ msgid ""
 "Enter the <b>Shipping Tab</b> <b><color=#F44A4A>[7]</b></color> of the Build "
 "Menu to build and connect a <style=\"KKeyword\">Conveyor Receptacle</style>"
 msgstr ""
-"Materiaaleja ei voida purkaa tästä Kuljetinjärjestelmästä ja ne palaavat "
-"kiskoja pitkin takaisin\n"
+"Materiaaleja ei voida purkaa tästä Kuljettimesta ja ne palaavat kiskoja "
+"pitkin takaisin\n"
 "------------------\n"
 "Siirry Rakennusvalikon  <b>Kuljetusvälilehteen</b>  <color=#F44A47>[7]</"
 "color> rakentaaksesi ja yhdistääksesi <link=\"SOLIDCONDUITOUTBOX"
@@ -2550,20 +2529,14 @@ msgid "The selected <style=\"KKeyword\">Seed</style> is not available"
 msgstr "Valittua <style=\"KKeyword\">Siementä</style> ei ole saatavilla"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.NAME"
-#| msgid "No Cots"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.NAME"
 msgid "No Coolant"
-msgstr "Ei Pinnasänkyjä"
+msgstr "Ei Jäähdytinainetta"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.NO_DISEASE.TOOLTIP"
-#| msgid "This building is clean"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.TOOLTIP"
 msgid "This building needs coolant"
-msgstr "Tämä rakennus on puhdas"
+msgstr "Tämä rakennus tarvitsee jäähdytinainetta"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.NAME"
@@ -2751,12 +2724,9 @@ msgstr ""
 "link> vastakkaiselle puolelle"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOSURFACESIGHT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.NAME"
-#| msgid "No Line of Sight"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSURFACESIGHT.NAME"
 msgid "No Line of Sight"
-msgstr "Ei näköyhteyttä"
+msgstr "Ei Näköyhteyttä"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOSURFACESIGHT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSURFACESIGHT.TOOLTIP"
@@ -2765,6 +2735,9 @@ msgid ""
 "\n"
 "Ensure an unblocked view of the sky"
 msgstr ""
+"Tämä rakennus ei näe avaruuteen\n"
+"\n"
+"Varmista esteetön näkymä taivaalle"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME"
@@ -2837,23 +2810,18 @@ msgstr ""
 "täydellisen <style=\"KKeyword\">Huoneen</style> tilan"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED"
-#| msgid "Not Specified"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.NAME"
 msgid "Not Linked"
-msgstr "Ei Määritelty"
+msgstr "Ei Yhdistetty"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.WATER_REQUIREMENT_TOOLTIP"
-#| msgid ""
-#| "This building must be filled with {amount} {element} in order to function."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.TOOLTIP"
 msgid ""
 "This building must be built adjacent to a {headBuilding} or another "
 "{linkBuilding} in order to function"
-msgstr "Tässä rakennuksessa tulee olla {amount} {element} toimiakseen."
+msgstr ""
+"Tämän rakennuksen tulee olla rakennuksen {headBuilding} tai {linkBuilding} "
+"vieressä toimiakseen"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
@@ -3000,20 +2968,14 @@ msgstr ""
 "estämiseksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME"
-#| msgid "Unreachable Mop"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.NAME"
 msgid "Unreachable Module"
-msgstr "Saavuttamaton Moppausalue"
+msgstr "Saavuttamaton Moduuli"
 
 #. STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.PICKUPABLEUNREACHABLE.TOOLTIP"
-#| msgid "Duplicants cannot reach this object"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.TOOLTIP"
 msgid "Duplicants cannot reach this rocket module"
-msgstr "Jäljennäiset eivät pääse tämän kohteen luo"
+msgstr "Jäljennäiset eivät pääse tähän rakettimoduuliin"
 
 #. STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.NAME"
@@ -3026,13 +2988,6 @@ msgid "Solid {0}"
 msgstr "Kiinteä {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TOOLTIP"
-#| msgid ""
-#| "There are solid obstructions in this rocket's launch trajectory:\n"
-#| "    • {0}\n"
-#| "\n"
-#| "This rocket requires a clear flight path for launch"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TOOLTIP"
 msgid ""
 "There are obstructions in the launch trajectory of this rocket:\n"
@@ -3040,10 +2995,10 @@ msgid ""
 "\n"
 "This rocket requires a clear flight path for launch"
 msgstr ""
-"Tämän raketin laukaisun tiellä on kiinteitä esteitä:\n"
+"Tämän raketin laukaisureitin tiellä on esteitä:\n"
 "    • {0}\n"
 "\n"
-"Tämä raketti vaatii esteettömän radan laukaisuun"
+"Tämä raketti vaatii esteettömän lentoreitin laukaisua varten"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.NAME"
@@ -3120,12 +3075,9 @@ msgid "Building will be operated once a Duplicant is available"
 msgstr "Rakennusta aletaan käyttämään, kun Jäljennäinen on saatavilla"
 
 #. STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.USETOILET.STATUS"
-#| msgid "Going to use toilet"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.NAME"
 msgid "Switching to Autopilot"
-msgstr "Menossa Käyttämään Vessaa"
+msgstr "Vaihtaa Autopilotille"
 
 #. STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.TOOLTIP"
@@ -3133,6 +3085,8 @@ msgid ""
 "Autopilot will engage in {timeRemaining} if a Duplicant pilot does not "
 "assume control"
 msgstr ""
+"Autopilotti käynnistyy ajassa {timeRemaining}, mikäli Jäljennäinen ei ota "
+"ohjia"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPE.NAME"
@@ -3194,12 +3148,6 @@ msgid "Function Suspended"
 msgstr "Toiminto keskeytetty"
 
 #. STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.TOOLTIP"
-#| msgid ""
-#| "This building has been toggled off\n"
-#| "Press <style=\"KKeyword\">Enable Building</style> "
-#| "<b><color=#F44A4A>[ENTER]</b></color>to resume its use"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.TOOLTIP"
 msgid ""
 "This building has been toggled off\n"
@@ -3216,19 +3164,14 @@ msgid "Power Loop Detected"
 msgstr "Takaisinkytkentä Havaittu"
 
 #. STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.TOOLTIP"
-#| msgid ""
-#| "A Transformer's <style=\"KKeyword\">Power Output </style>should not be "
-#| "connected back to its own <style=\"KKeyword\">Input</style>"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.TOOLTIP"
 msgid ""
 "A <style=\"KKeyword\">Transformer's</style> <style=\"KKeyword\">Power "
 "Output</style> has been connected back to its own <style=\"KKeyword\">Input</"
 "style>"
 msgstr ""
-"Muuntajan <style=\"KKeyword\">Virran Ulostulon</style> ei tulisi olla "
-"kytkettynä sen omaan <style=\"KKeyword\">Sisääntuloon</style>"
+"<style=\"KKeyword\">Muuntajan</style> <style=\"KKeyword\">Virran Ulostulo</"
+"style> on kytkettynä sen omaan <style=\"KKeyword\">Sisääntuloon</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.PRESSUREOK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PRESSUREOK.NAME"
@@ -3276,34 +3219,21 @@ msgid "This pumping station has access to: {Liquids}"
 msgstr "Tällä pumppausasemalla on pääsy seuraaviin nesteisiin: {Liquids}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.NOCLEARLOCATIONSAVAILABLE.NAME"
-#| msgid "No Sweep Destination"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.NAME"
 msgid "No Delivery Destination"
-msgstr "Lakaistavilla Ei Päämäärää"
+msgstr "Ei Kuljetuspäämäärää"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.TOOLTIP"
 msgid "A delivery destination has not been set    • {0}"
-msgstr ""
+msgstr "Päämäärää kuljetukselle ei ole asetettu    • {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.NAME"
-#| msgid "Launch Path Blocked"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.NAME"
 msgid "Launch Path Blocked"
 msgstr "Laukaisureitti Tukittu"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TOOLTIP"
-#| msgid ""
-#| "There are solid obstructions in this rocket's launch trajectory:\n"
-#| "    • {0}\n"
-#| "\n"
-#| "This rocket requires a clear flight path for launch"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.TOOLTIP"
 msgid ""
 "There are obstructions in the launch trajectory of this <link=\"RAILGUN"
@@ -3312,32 +3242,29 @@ msgid ""
 "\n"
 "This launcher requires a clear path to launch payloads"
 msgstr ""
-"Tämän raketin laukaisun tiellä on kiinteitä esteitä:\n"
+"Tämän <link=\"RAILGUN\">Planeettojenvälisen Laukaisimen</link> "
+"laukaisureitin tiellä on esteitä:\n"
 "    • {0}\n"
 "\n"
-"Tämä raketti vaatii esteettömän radan laukaisuun"
+"Laukaisin vaatii esteettömän reitin laukaistakseen hyötykuormia"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.CLEANING.NAME"
-#| msgid "Cleaning {Target}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.NAME"
 msgid "Cleaning Rails: {timeleft}"
-msgstr "Siivoaa kohdetta {Target}"
+msgstr "Siivoaa Kiskoja: {timeleft}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.TOOLTIP"
 msgid ""
 "This building automatically performs routine maintenance every {x} launches"
 msgstr ""
+"Tämä rakennus suorittaa automaattisesti korjaustoimenpiteet aina {x} "
+"laukaisun välein"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION"
-#| msgid "Ready to land"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME"
 msgid "Ready To Unpack"
-msgstr "Valmis laskeutumaan"
+msgstr "Valmis Purkamaan"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.TOOLTIP"
@@ -3347,6 +3274,11 @@ msgid ""
 "It can be marked for unpacking manually, or automatically unpacked on "
 "arrival using a <link=\"RAILGUNPAYLOADOPENER\">Payload Opener</link>"
 msgstr ""
+"Hyötykuorma on saapunut päämääräänsä ja on valmis purkamista varten\n"
+"\n"
+"Se voidaan merkitä manuaalisesti tai automaattisesti purettavaksi "
+"saapuessaan käyttäen <link=\"RAILGUNPAYLOADOPENER\">Hyötykuorman Avaajaa</"
+"link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME"
@@ -3362,29 +3294,26 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.REACTORMELTDOWN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REACTORMELTDOWN.NAME"
 msgid "Reactor Meltdown"
-msgstr ""
+msgstr "Reaktorin Sulaminen"
 
 #. STRINGS.BUILDING.STATUSITEMS.REACTORMELTDOWN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REACTORMELTDOWN.TOOLTIP"
 msgid ""
 "This reactor is spilling dangerous radioactive waste and cannot be stopped"
 msgstr ""
+"Tämä reaktori vuotaa vaarallista radioaktiivista jätettä, eikä sitä voida "
+"pysäyttää"
 
 #. STRINGS.BUILDING.STATUSITEMS.REACTORREFUELDISABLED.NAME
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN."
-#| "TIMELAPSE_DISABLED_DESCRIPTION"
-#| msgid "Disabled"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REACTORREFUELDISABLED.NAME"
 msgid "Refuel Disabled"
-msgstr "Pois"
+msgstr "Tankkaus Pois Käytöstä"
 
 #. STRINGS.BUILDING.STATUSITEMS.REACTORREFUELDISABLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REACTORREFUELDISABLED.TOOLTIP"
 msgid ""
 "This building will not be refueled once its active fuel has been consumed"
-msgstr ""
+msgstr "Tätä rakennusta ei tankata kun sen aktiivinen polttoaine on ehtynyt"
 
 #. STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.NAME"
@@ -3423,34 +3352,23 @@ msgid "Research produced at this station will be invested in {Tech}"
 msgstr "Tässä pisteessä tuotettu tutkimustyö käytetään tutkimukseen {Tech}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_IDLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.IDLE.NAME"
-#| msgid "Idle"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_IDLE.NAME"
 msgid "Idle"
 msgstr "Toimeton"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_IDLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RESEARCH.TOOLTIP"
-#| msgid ""
-#| "This Duplicant is working on the current <style=\"KKeyword\">Research</"
-#| "style> focus"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_IDLE.TOOLTIP"
 msgid ""
 "This port is idle because there is no rocket on the connected <style="
 "\"KKeyword\">Rocket Platform</style>"
 msgstr ""
-"Tämä Jäljennäinen tutkii valittua <style=\"KKeyword\">Tutkimus</"
-"style>kohdetta"
+"Tämä portti on toimeton, koska sen <style=\"KKeyword\">Rakettialustalla</"
+"style> ei ole rakettia"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
-#| msgid "Research Complete"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.NAME"
 msgid "Cargo Transfer Complete"
-msgstr "Tutkimus Suoritettu"
+msgstr "Rahdin Siirto Suoritettu"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.TOOLTIP"
@@ -3458,41 +3376,34 @@ msgid ""
 "The connected rocket has either reached max capacity for this resource type, "
 "or lacks appropriate storage modules"
 msgstr ""
+"Yhdistetty raketti on joko saavuttanut täyden kapasiteettinsa tälle "
+"resurssityypille tai siitä puuttuu soveltuvat rahtimoduulit"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LAND_ROCKET"
-#| msgid "Land Rocket"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADING.NAME"
 msgid "Loading Rocket"
-msgstr "Laske Raketti"
+msgstr "Rakettia Lastataan"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADING.TOOLTIP"
 msgid ""
 "Resources are being loaded from the local network into the rocket's storage"
-msgstr ""
+msgstr "Resursseja lastataan paikallisesta verkosta raketin varastoon"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.NAME"
-#| msgid "Unloading"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.NAME"
 msgid "Unloading Rocket"
-msgstr "Tyhjentää"
+msgstr "Rakettia Tyhjennetään"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP"
 msgid "Resources are being unloaded from the rocket into the local network"
-msgstr ""
+msgstr "Resursseja puretaan raketista paikalliseen verkkoon"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.NAME"
-#| msgid "Unloading"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.NAME"
 msgid "Unloading Cargo"
-msgstr "Tyhjentää"
+msgstr "Rahtia Puretaan"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.TOOLTIP"
@@ -3502,14 +3413,14 @@ msgid ""
 "\n"
 "Loading of new cargo will begin once unloading is complete"
 msgstr ""
+"Raketin rahtia puretaan <style=\"KKeyword\">Rakettialustalle</style>\n"
+"\n"
+"Uuden rahdin lastaaminen alkaa kun purkaminen on valmista"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.LANDING"
-#| msgid "Landing"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.NAME"
 msgid "Loading Cargo"
-msgstr "Laskeutuminen"
+msgstr "Rahtia Lastataan"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.TOOLTIP"
@@ -3519,30 +3430,24 @@ msgid ""
 "\n"
 "Rocket cargo will be ready for launch once loading is complete"
 msgstr ""
+"Rahtia lastataan rakettiin <style=\"KKeyword\">Rakettialustalta</style>\n"
+"\n"
+"Raketin lasti on valmis laukaisua varten kun lastaaminen on valmista"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME"
-#| msgid "Lavatory Ready"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.NAME"
 msgid "Platform Ready"
-msgstr "Vessa Valmis"
+msgstr "Alusta Valmis"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MYLOG.BODY.CALCULATIONCOMPLETE.TITLE"
-#| msgid "Calculations Complete"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.TOOLTIP"
 msgid "All cargo operations are complete"
-msgstr "Laskennat Valmiita"
+msgstr "Kaikki rahtitoiminnot suoritettu"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.LAUNCHCHECKLIST"
-#| msgid "Launch Checklist"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.NAME"
 msgid "Launch Checklist Incomplete"
-msgstr "Laukaisun Tarkistusmuistio"
+msgstr "Laukaisun Tarkistusmuistio Vaillinnainen"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.TOOLTIP"
@@ -3551,6 +3456,9 @@ msgid ""
 "\n"
 "Refer to the Launch Checklist in the status panel"
 msgstr ""
+"Kriittisiä laukaisutoimenpiteitä suorittamatta\n"
+"\n"
+"Tarkista Laukaisun Tarkistuslista tilapaneelista"
 
 # Kertokaa joku suomen kielinen termi tälle
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.NAME
@@ -3566,41 +3474,31 @@ msgstr "Tämä moduuli kuuluu raketille: <style=\"KKeyword\">{0}</style>"
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETPLATFORMCLOSETOCEILING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETPLATFORMCLOSETOCEILING.NAME"
 msgid "Low Clearance: {distance} Tiles"
-msgstr ""
+msgstr "Alhainen Korkeus: {distance} Ruutua"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETPLATFORMCLOSETOCEILING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.COOK.TOOLTIP"
-#| msgid "This Duplicant is cooking <style=\"KKeyword\">Food</style>"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETPLATFORMCLOSETOCEILING.TOOLTIP"
 msgid ""
 "Tall rockets may not be able to land on this <style=\"KKeyword\">Rocket "
 "Platform</style>"
-msgstr "Tämä Jäljennäinen valmistaa <style=\"KKeyword\">Ruokaa</style>"
+msgstr ""
+"Korkeat raketit eivät pysty laskeutumaan tälle <style=\"KKeyword"
+"\">Rakettialustalle</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETSTRANDED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND7"
-#| msgid "Strained"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETSTRANDED.NAME"
 msgid "Stranded"
-msgstr "Rasittunut"
+msgstr "Juuttunut"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETSTRANDED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.TRAPPED.TOOLTIP"
-#| msgid "This critter has been contained and cannot escape"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETSTRANDED.TOOLTIP"
 msgid "This rocket has run out of fuel and cannot move"
-msgstr "Tämä otus on jäänyt satimeen, eikä pääse karkuun"
+msgstr "Tämän raketin polttoaine on ehtynyt, eikä se pysty liikkumaan"
 
 #. STRINGS.BUILDING.STATUSITEMS.SKILL_POINTS_AVAILABLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SKILL_POINTS_AVAILABLE.NAME"
-#| msgid "Skill Points available"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SKILL_POINTS_AVAILABLE.NAME"
 msgid "Skill Points Available"
-msgstr "Taitopisteitä saatavana"
+msgstr "Taitopisteitä Saatavana"
 
 #. STRINGS.BUILDING.STATUSITEMS.SKILL_POINTS_AVAILABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SKILL_POINTS_AVAILABLE.TOOLTIP"
@@ -3789,12 +3687,9 @@ msgid "Set this dock to store a suit or leave it empty"
 msgstr "Aseta tämä telakka varastoimaan puku tai pidä se tyhjänä"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_COOLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.NAME"
-#| msgid "Current Status: No Fuel"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_COOLANT.NAME"
 msgid "Current Status: No Coolant"
-msgstr "Tila: Ei Polttoainetta"
+msgstr "Tila: Ei Jäähdytysainetta"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_COOLANT.TOOLTIP
 #, fuzzy
@@ -3975,9 +3870,6 @@ msgstr ""
 "Päivän tunnetta"
 
 #. STRINGS.BUILDING.STATUSITEMS.TANNINGLIGHTSUFFICIENT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TANNINGLIGHTSUFFICIENT.NAME"
-#| msgid "Tanning Light available"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TANNINGLIGHTSUFFICIENT.NAME"
 msgid "Tanning Light Available"
 msgstr "Rusketusvalo Saatavilla"
@@ -3992,35 +3884,29 @@ msgstr ""
 "saamiseksi"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.NAME"
-#| msgid "Liquid Vent Obstructed"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.NAME"
 msgid "Line of Sight: Obstructed"
-msgstr "Nesteaukko Tukossa"
+msgstr "Näköyhteys: Estynyt"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.TOOLTIP"
 msgid "This device needs a clear view of space to operate"
-msgstr ""
+msgstr "Tämä laite tarvitsee esteettömän näköyhteyden avaruuteen toimiakseen"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DEATHS.DROWNED.DESCRIPTION"
-#| msgid "{Target} has drowned."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.NAME"
 msgid "Target: None"
-msgstr "{Target} hukkui."
+msgstr "Kohde: Ei mitään"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.TOOLTIP"
 msgid "\"Awaiting transmission of coordinates...\""
-msgstr ""
+msgstr "\"Odotetaan koordinaattien lähetystä...\""
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.NAME"
 msgid "Progress: {progress}"
-msgstr ""
+msgstr "Edistyminen: {progress}"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.TOOLTIP"
@@ -4391,12 +4277,9 @@ msgid "These materials will be delivered once a Duplicant is available"
 msgstr "Nämä materiaalit toimitetaan, kun Jäljennäinen on saatavilla"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME"
-#| msgid "Awaiting Bait"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.NAME"
 msgid "Awaiting Radbolts"
-msgstr "Odottaa Syöttiä"
+msgstr "Odottaa Sädenuolia"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.TOOLTIP
 #, fuzzy
@@ -4450,12 +4333,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.REPAIRWORKSTATUS.NAME"
-#| msgid "Repairing {Target}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.NAME"
 msgid "Recharging: {charge}"
-msgstr "Korjaa kohdetta {Target}"
+msgstr "Ladataan: {charge}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.TOOLTIP"

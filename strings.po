@@ -20114,39 +20114,19 @@ msgid "Pipedream"
 msgstr "Harhakuvitelma"
 
 #. STRINGS.CODEX.ARBORTREE.BODY.CONTAINER1
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.CODEX.ARBORTREE.BODY.CONTAINER1"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
-"Language-Team: \n"
-"Language: fi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.CODEX.ARBORTREE.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.WOOD.NAME"
-#| msgid "Lumber"
 msgctxt "STRINGS.CODEX.ARBORTREE.SUBTITLE"
 msgid "Lumber Tree"
-msgstr "Puutavara"
+msgstr "Rakennuspuu"
 
 #. STRINGS.CODEX.ARBORTREE.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.VERTICALWINDTUNNELFLYING.NAME"
-#| msgid "Airborne"
 msgctxt "STRINGS.CODEX.ARBORTREE.TITLE"
 msgid "Arbor Tree"
-msgstr "Ilmassa"
+msgstr "Lehtimajapuu"
 
 #. STRINGS.CODEX.AUTOMATION.HEADER_1
 msgctxt "STRINGS.CODEX.AUTOMATION.HEADER_1"
@@ -20169,24 +20149,6 @@ msgid "Gates"
 msgstr "Logiikkaportit"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_1
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_1"
-#| msgid ""
-#| "Automation is a tool for controlling the operation of buildings based on "
-#| "what sensors in the colony are detecting.\n"
-#| "\n"
-#| "A <link=\"CEILINGLIGHT\">Ceiling Light</link> could be configured to "
-#| "automatically turn on when a <link=\"DUPLICANTSENSOR\">Duplicant Motion "
-#| "Sensor</link>  detects a Duplicant in the room.\n"
-#| "\n"
-#| "A <link=\"LIQUIDPUMP\">Liquid Pump</link> might activate only when a "
-#| "<link=\"LOGICELEMENTSENSORLIQUID\">Liquid Element Sensor</link> detects "
-#| "water.\n"
-#| "\n"
-#| "A <link=\"AIRCONDITIONER\">Thermo Regulator</link> might activate only "
-#| "when the <link=\"LOGICTEMPERATURESENSOR\">Thermo Sensor</link> detects "
-#| "too much heat.\n"
-#| "\n"
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_1"
 msgid ""
 "Automation is a tool for controlling the operation of buildings based on "
@@ -20471,9 +20433,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.B10_AI.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.A1A_B111.SUBTITLE"
-#| msgid "ENCRYPTION LEVEL: THREE"
 msgctxt "STRINGS.CODEX.B10_AI.SUBTITLE"
 msgid "ENCRYPTION LEVEL: THREE"
 msgstr "KRYPTAUSTASO: KOLME"
@@ -20481,7 +20440,7 @@ msgstr "KRYPTAUSTASO: KOLME"
 #. STRINGS.CODEX.B10_AI.TITLE
 msgctxt "STRINGS.CODEX.B10_AI.TITLE"
 msgid "A Paradox"
-msgstr ""
+msgstr "Paradoksi"
 
 #. STRINGS.CODEX.B2_ELLIESBIRTHDAY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B2_ELLIESBIRTHDAY.BODY.CONTAINER1"
@@ -21871,9 +21830,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.BLISSBURST.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.BLUFFBRIAR.SUBTITLE"
-#| msgid "Decorative Plant"
 msgctxt "STRINGS.CODEX.BLISSBURST.SUBTITLE"
 msgid "Decorative Plant"
 msgstr "Koristekasvi"
@@ -21929,39 +21885,20 @@ msgid "Bluff Briar"
 msgstr "Hämytappura"
 
 #. STRINGS.CODEX.BOGBUCKET.BODY.CONTAINER1
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.CODEX.BOGBUCKET.BODY.CONTAINER1"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
-"Language-Team: \n"
-"Language: fi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.CODEX.BOGBUCKET.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.SUBTITLE"
-#| msgid "Edible Plant"
 msgctxt "STRINGS.CODEX.BOGBUCKET.SUBTITLE"
 msgid "Edible Plant"
 msgstr "Syötävä Kasvi"
 
+# Toinen suomennos "paskaämpäri"
 #. STRINGS.CODEX.BOGBUCKET.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ROCKET"
-#| msgid "Rocket"
 msgctxt "STRINGS.CODEX.BOGBUCKET.TITLE"
 msgid "Bog Bucket"
-msgstr "Raketti"
+msgstr "Jätössaavikas"
 
 #. STRINGS.CODEX.BRISTLEBLOSSOM.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.BODY.CONTAINER1"
@@ -22159,7 +22096,7 @@ msgstr ""
 #. STRINGS.CODEX.CRYOTANKWARNINGS.TITLE
 msgctxt "STRINGS.CODEX.CRYOTANKWARNINGS.TITLE"
 msgid "CRYOTANK SAFETY"
-msgstr ""
+msgstr "KRYOSÄILIÖTURVALLISUUS"
 
 #. STRINGS.CODEX.CRYSTAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.CRYSTAL.BODY.CONTAINER1"
@@ -22188,17 +22125,11 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.DASHASALTVINE.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.PINCHAPEPPERPLANT.SUBTITLE"
-#| msgid "Edible Spice Plant"
 msgctxt "STRINGS.CODEX.DASHASALTVINE.SUBTITLE"
 msgid "Edible Spice Plant"
 msgstr "Syötävä Maustekasvi"
 
 #. STRINGS.CODEX.DASHASALTVINE.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.BALMLILY.TITLE"
-#| msgid "Balm Lily"
 msgctxt "STRINGS.CODEX.DASHASALTVINE.TITLE"
 msgid "Balm Lily"
 msgstr "Balsamililja"
@@ -22536,12 +22467,9 @@ msgstr ""
 "ympäristön välisen paineen muuttuessa."
 
 #. STRINGS.CODEX.GASGRASS.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.CREATURE_FEEDER.NAME"
-#| msgid "Critter Feeder"
 msgctxt "STRINGS.CODEX.GASGRASS.SUBTITLE"
 msgid "Critter Feed"
-msgstr "Otuksenruokkija"
+msgstr "Otusrehu"
 
 #. STRINGS.CODEX.GASGRASS.TITLE
 msgctxt "STRINGS.CODEX.GASGRASS.TITLE"
@@ -22657,39 +22585,19 @@ msgid "Glossy Drecko"
 msgstr "Kiiltävä Drekko"
 
 #. STRINGS.CODEX.GRUBFRUITPLANT.BODY.CONTAINER1
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.BODY.CONTAINER1"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
-"Language-Team: \n"
-"Language: fi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.CODEX.GRUBFRUITPLANT.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.SUBTITLE"
-#| msgid "Edible Plant"
 msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.SUBTITLE"
 msgid "Edible Plant"
 msgstr "Syötävä Kasvi"
 
 #. STRINGS.CODEX.GRUBFRUITPLANT.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.SALTDESERTPLANET.NAME"
-#| msgid "Arid Planet"
 msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.TITLE"
 msgid "Grubfruit Plant"
-msgstr "Kuiva Planeetta"
+msgstr "Muonahedelmä"
 
 #. STRINGS.CODEX.HATCH.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.HATCH.BODY.CONTAINER1"
@@ -23089,9 +22997,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.HEXALENT.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.BLUFFBRIAR.SUBTITLE"
-#| msgid "Decorative Plant"
 msgctxt "STRINGS.CODEX.HEXALENT.SUBTITLE"
 msgid "Decorative Plant"
 msgstr "Koristekasvi"
@@ -23099,42 +23004,22 @@ msgstr "Koristekasvi"
 #. STRINGS.CODEX.HEXALENT.TITLE
 msgctxt "STRINGS.CODEX.HEXALENT.TITLE"
 msgid "Hexalent"
-msgstr ""
+msgstr "Heksalentti"
 
 #. STRINGS.CODEX.HYDROCACTUS.BODY.CONTAINER1
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.CODEX.HYDROCACTUS.BODY.CONTAINER1"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
-"Language-Team: \n"
-"Language: fi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.CODEX.HYDROCACTUS.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.GASGRASS.SUBTITLE"
-#| msgid "Plant"
 msgctxt "STRINGS.CODEX.HYDROCACTUS.SUBTITLE"
 msgid "Plant"
 msgstr "Kasvi"
 
 #. STRINGS.CODEX.HYDROCACTUS.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.OIL"
-#| msgid "Hydrocarbon"
 msgctxt "STRINGS.CODEX.HYDROCACTUS.TITLE"
 msgid "Hydrocactus"
-msgstr "Hiilivety"
+msgstr "Hydrokaktus"
 
 #. STRINGS.CODEX.JUMPINGJOYA.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.JUMPINGJOYA.BODY.CONTAINER1"
@@ -23253,11 +23138,13 @@ msgid ""
 "It is deadly when consumed, however creatures that mistakenly eat it are "
 "said to experience a state of extreme calm before death."
 msgstr ""
+"Rentomalva on sienityyppi, joka tunnetaan sen helposta leviämisestä sitä "
+"leikatessa.\n"
+"\n"
+"Syötynä se on tappava, mutta sitä vahingossa syöneiden olentojen sanotaan "
+"kokevan äärimmäistä tyyneyttä kuollessaan."
 
 #. STRINGS.CODEX.MELLOWMALLOW.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.BLUFFBRIAR.SUBTITLE"
-#| msgid "Decorative Plant"
 msgctxt "STRINGS.CODEX.MELLOWMALLOW.SUBTITLE"
 msgid "Decorative Plant"
 msgstr "Koristekasvi"
@@ -23265,7 +23152,7 @@ msgstr "Koristekasvi"
 #. STRINGS.CODEX.MELLOWMALLOW.TITLE
 msgctxt "STRINGS.CODEX.MELLOWMALLOW.TITLE"
 msgid "Mellow Mallow"
-msgstr ""
+msgstr "Rentmalva"
 
 #. STRINGS.CODEX.MIRTHLEAF.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MIRTHLEAF.BODY.CONTAINER1"
@@ -24043,9 +23930,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.MYLOG.BODY.RECBUILDINGS.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MORALE.HEADER_2"
-#| msgid "Recreation"
 msgctxt "STRINGS.CODEX.MYLOG.BODY.RECBUILDINGS.TITLE"
 msgid "Recreation"
 msgstr "Vapaa-aika"
@@ -24219,12 +24103,9 @@ msgid "Edible Plant"
 msgstr "Syötävä Kasvi"
 
 #. STRINGS.CODEX.NOSHBEAN.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.POWER_PLANT.NAME"
-#| msgid "Power Plant"
 msgctxt "STRINGS.CODEX.NOSHBEAN.TITLE"
 msgid "Nosh Bean Plant"
-msgstr "Voimalaitos"
+msgstr "Safkapapukasvi"
 
 #. STRINGS.CODEX.OXYFERN.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.OXYFERN.BODY.CONTAINER1"
@@ -24238,9 +24119,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.OXYFERN.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.GASGRASS.SUBTITLE"
-#| msgid "Plant"
 msgctxt "STRINGS.CODEX.OXYFERN.SUBTITLE"
 msgid "Plant"
 msgstr "Kasvi"
@@ -29298,12 +29176,9 @@ msgid "<link=\"OILFLOATERHIGHTEMP\">Molten Slickster</link>"
 msgstr "<link=\"OILFLOATERHIGHTEMP\">Sulalipsu</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.DESC
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.SPECIES.PROPANESPOUT.DESC"
-#| msgid "A rocky vent that spouts <link=\"PROPANE\">Propane</link>."
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.DESC"
 msgid "A rocky vent that spouts <link=\"CRUDEOIL\">Crude Oil</link>."
-msgstr "Kivinen aukko, josta suihkuaa <link=\"PROPANE\">Propaania</link>."
+msgstr "Kivinen aukko, josta suihkuaa <link=\"CRUDEOIL\">Raakaöljyä</link>."
 
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.NAME"
@@ -29697,12 +29572,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SAPTREE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.CEMENT.NAME"
-#| msgid "<link=\"CEMENT\">Cement</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SAPTREE.NAME"
 msgid "<link=\"SAPTREE\">Experiment 52B</link>"
-msgstr "<link=\"CEMENT\">Sementti</link>"
+msgstr "<link=\"SAPTREE\">Koe 52B</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEALETTUCE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEALETTUCE.DESC"
@@ -30382,20 +30254,14 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEEL.NAME"
-#| msgid "<link=\"STEEL\">Steel</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME"
 msgid "<link=\"STATERPILLAR\">Slug Egg</link>"
-msgstr "<link=\"STEEL\">Teräs</link>"
+msgstr "<link=\"STATERPILLAR\">Etanan Muna</link>"
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.STEEL.NAME"
-#| msgid "<link=\"STEEL\">Steel</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.NAME"
 msgid "<link=\"STATERPILLAR\">Plug Slug</link>"
-msgstr "<link=\"STEEL\">Teräs</link>"
+msgstr "<link=\"STATERPILLAR\">Töpselietana</link>"
 
 #. STRINGS.CREATURES.SPECIES.STEAMSPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.STEAMSPOUT.DESC"
@@ -71393,32 +71259,22 @@ msgid "Access your save file locations from here."
 msgstr "Pääse tallennustiedostosijainteihisi täältä."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_MISSING_CONTENT
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW"
-#| msgid ""
-#| "<b><color=#ff0000>Could not load file {0}. File is using build {1}. This "
-#| "build is {2}.</color></b>"
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_MISSING_CONTENT"
 msgid ""
 "<b><color=#ff0000>Could not load file {0}. File was saved with content that "
 "is not currently installed.</color></b>"
 msgstr ""
-"<b><color=#ff0000>Ei voitu ladata tiedostoa {0}. Tiedosto käyttää vedosta "
-"{1}. Tämä vedos on {2}.</color></b>"
+"<b><color=#ff0000>Ei voitu ladata tiedostoa {0}. Tallennustiedostossa on "
+"sisältöä, jota ei ole asennettu.</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW"
-#| msgid ""
-#| "<b><color=#ff0000>Could not load file {0}. File is using build {1}. This "
-#| "build is {2}.</color></b>"
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW"
 msgid ""
 "<b><color=#ff0000>Could not load file {0}. File is using build {1}, v{2}. "
 "This build is {3}, v{4}.</color></b>"
 msgstr ""
 "<b><color=#ff0000>Ei voitu ladata tiedostoa {0}. Tiedosto käyttää vedosta "
-"{1}. Tämä vedos on {2}.</color></b>"
+"{1}, v{2}. Tämä vedos on {3}. v{4}.</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVEDETAILS
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVEDETAILS"
@@ -71461,23 +71317,18 @@ msgstr ""
 "eikä sitä enää tueta.</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_VANILLA_TEMP
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_SAVE_VERSION"
-#| msgid ""
-#| "<b><color=#ff0000>This save file is from a previous version of the game "
-#| "and is no longer supported.</color></b>"
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_VANILLA_TEMP"
 msgid ""
 "<b><color=#ff0000>This save file is from the base version of the game and "
 "currently cannot be loaded while <i>Spaced Out!</i> is installed.</color></b>"
 msgstr ""
-"<b><color=#ff0000>Tämä tallennustiedosto on pelin edellisestä versiosta, "
-"eikä sitä enää tueta.</color></b>"
+"<b><color=#ff0000>Tämä tallennustiedosto on pelin perusversiosta, eikä sitä "
+"voida ladata kun <i>Spaced Out!</i>-lisäosan ollessa asennettuna.</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_CONTENT"
 msgid "Vanilla FIXME"
-msgstr ""
+msgstr "Vanilija KORJAAMINUT"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_RESTART
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_RESTART"
@@ -71485,6 +71336,8 @@ msgid ""
 "Loading this colony will require restarting the game with <i>Spaced Out!</i> "
 "content disabled"
 msgstr ""
+"Tämän siirtokunnan lataaminen vaatii pelin uudelleenkäynnistyksen <i>Spaced "
+"Out!</i>-sisällön ollessa pois päältä"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.WORLD_NAME
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.WORLD_NAME"
@@ -71511,6 +71364,8 @@ msgid ""
 "The game will need to restart in order to download and install <i>Spaced Out!"
 "</i>"
 msgstr ""
+"Peli täytyy käynnistää uudelleen, jotta <i>Spaced Out!</i> voidaan ladata ja "
+"asentaa."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1"
@@ -71523,6 +71378,8 @@ msgid ""
 "The game will need to restart in order to download and install the <i>Oxygen "
 "Not Included</i> base game."
 msgstr ""
+"Peli täytyy käynnistää uudelleen, jotta <i>Oxygen Not Included</i>in "
+"peruspeli voidaan ladata ja asentaa."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.LOADGAME
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.LOADGAME"
@@ -71705,6 +71562,9 @@ msgid ""
 "</i> into Early Access:\n"
 "{0}"
 msgstr ""
+"Modituki on väliaikaisesti keskeytetty <i>Spaced Out!</i>-lisäosan "
+"ensijulkaisun ajaksi Early Accessiin:\n"
+"{0}"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.TITLE"
@@ -71990,13 +71850,10 @@ msgid "Mod was active during a crash and may be the cause"
 msgstr "Tämä modi oli päällä kaatumisen aikaan ja voi olla siihen syynä"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.ALL_MODS_DISABLED_EARLY_ACCESS
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.DEACTIVATED"
-#| msgid "Deactivated due to errors"
 msgctxt ""
 "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.ALL_MODS_DISABLED_EARLY_ACCESS"
 msgid "Deactivated due to Early Access for <i>Spaced Out!</i>"
-msgstr "Poistettu käytöstä virheiden vuoksi"
+msgstr "Poistettu käytöstä <i>Spaced Out!</i>-lisäosan Early Accessin vuoksi"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.AVAILABLE_CONTENT_CHANGED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.AVAILABLE_CONTENT_CHANGED"
@@ -72168,7 +72025,7 @@ msgstr "Selaa"
 #. STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT"
 msgid " - <b>Not compatible with <i>{Content}</i></b>"
-msgstr ""
+msgstr " - <b>Ei yhteensopiva <i>{Content}</i> kanssa</b>"
 
 #. STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART
 msgctxt "STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART"
@@ -72209,7 +72066,7 @@ msgstr "STEAM WORKSHOP"
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
 msgid "PECULIAR PLANTS UPDATE"
-msgstr ""
+msgstr "ERIKOISET KASVIT -PÄIVITYS"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -72243,6 +72100,21 @@ msgid ""
 "\n"
 "Check out the full patch notes for more details!"
 msgstr ""
+"Tervetuloa <b>Erikoiset Kasvit -Päivitykseen!</b>\n"
+"\n"
+"   •<indent=20px>Satokasvit pudottavat nyt <b>Mutanttisiemeniä</b> ollessaan "
+"säteilylle altistuneita.</indent>\n"
+"\n"
+"   •<indent=20px>Ruuan pilaantumisen ja säilönnän tasapainoa on säädetty.</"
+"indent>\n"
+"\n"
+"   •<indent=20px>New <b>Mittariventtiilit</b> mahdollistavat tarkan "
+"pumppauksen.</indent>\n"
+"\n"
+"   •<indent=20px>Bugikorjauksia, animaatiopäivityksiä ja paljon muuta.</"
+"indent>\n"
+"\n"
+"Katso lisätiedot täydellisestä päivitysmuistiosta!"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -72250,23 +72122,9 @@ msgid "LAUNCHED!"
 msgstr "JULKAISTU!"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT_EXPANSION1
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT_EXPANSION1"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
-"Language-Team: \n"
-"Language: fi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.UI.FRONTEND.NEWGAMESETTINGS.BUTTONS.CANCEL
 msgctxt "STRINGS.UI.FRONTEND.NEWGAMESETTINGS.BUTTONS.CANCEL"
@@ -72478,13 +72336,6 @@ msgid "Coordinates: {0}"
 msgstr "Koordinaatit: {0}"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED_COPY_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED_COPY_TOOLTIP"
-#| msgid ""
-#| "Copy Coordinates to clipboard\n"
-#| "\n"
-#| "Share the Coordinates with a friend and they can start a colony on this "
-#| "same asteroid!"
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED_COPY_TOOLTIP"
 msgid ""
 "Copy Coordinates to clipboard\n"
@@ -72494,21 +72345,10 @@ msgid ""
 msgstr ""
 "Kopio Koordinaatit leikepöydälle\n"
 "\n"
-"Jaa Koordinaatit kaverillesi ja he voivat aloittaa siirtokuntansa samalla "
-"asteroidilla!"
+"Jaa Koordinaatit kavereillesi ja he voivat aloittaa siirtokuntansa "
+"identtisellä asteroidilla!"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED_TOOLTIP"
-#| msgid ""
-#| "Share the Coordinates with a friend and they can start a colony on this "
-#| "same asteroid!\n"
-#| "\n"
-#| "{0} - The asteroid\n"
-#| "\n"
-#| "{1} - The world seed\n"
-#| "\n"
-#| "{2} - Difficulty and Custom settings"
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED_TOOLTIP"
 msgid ""
 "Share coordinates with a friend and they can start a colony on an identical "
@@ -72520,8 +72360,8 @@ msgid ""
 "\n"
 "{2} - Difficulty and Custom settings"
 msgstr ""
-"Share the Coordinates with a friend and they can start a colony on this same "
-"asteroid!\n"
+"Jaa koordinaatit kavereillesi ja he voivat aloittaa siirtokuntansa "
+"identtisellä asteroidilla!\n"
 "\n"
 "{0} - Asteroidi\n"
 "\n"
@@ -72536,6 +72376,9 @@ msgid ""
 "Purchase <i>Spaced Out!</i> to support <i>Oxygen Not Included</i> and enjoy "
 "the new content!"
 msgstr ""
+"<i>Spaced Out!</i> DLC:tä ei ole vielä ostettu WeGame-kaupasta. Osta "
+"<i>Spaced Out!</i> tukeaksesi <i>Oxygen Not Included</i>ia ja päästäksesi "
+"nauttimaan uudesta sisällöstä!"
 
 #. STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT
 msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT"
@@ -72858,12 +72701,6 @@ msgstr ""
 "{0}"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.WORLD_GEN_FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.WORLD_GEN_FAILURE"
-#| msgid ""
-#| "A problem occurred while generating a world from this seed: {0}. \n"
-#| "\n"
-#| "Please try again with a different seed."
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.WORLD_GEN_FAILURE"
 msgid ""
 "A problem occurred while generating a world from this seed:\n"
@@ -72871,7 +72708,8 @@ msgid ""
 "\n"
 "Please try again with a different seed."
 msgstr ""
-"Ilmeni ongelma tätä siementä käytettäessä maailmanluonnissa: {0}.\n"
+"Ilmeni ongelma tätä siementä käytettäessä maailmanluonnissa:\n"
+"{0}.\n"
 "\n"
 "Yritä uudelleen toisella siemenellä."
 
@@ -73110,17 +72948,11 @@ msgid "NEW GAME"
 msgstr "UUSI PELI"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_NO_MIN_RADIATION_FMT
-#, fuzzy
-#| msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.NOW"
-#| msgid "Less than a day"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_NO_MIN_RADIATION_FMT"
 msgid "Less than {maxRads}"
-msgstr "Alle päivä"
+msgstr "Alle {maxRads}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_RADIATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.RADIATION"
-#| msgid "Ambient Radiation"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_RADIATION"
 msgid "Ambient Radiation"
 msgstr "Ympäristön Säteily"
@@ -73128,7 +72960,7 @@ msgstr "Ympäristön Säteily"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_RADIATION_FMT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_RADIATION_FMT"
 msgid "{minRads} - {maxRads}"
-msgstr ""
+msgstr "{minRads} - {maxRads}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.CALORIES
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.CALORIES"
@@ -73286,12 +73118,9 @@ msgid "Light"
 msgstr "Valo"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.MUTANT_STERILE
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_DIG_ONLY"
-#| msgid "Consumes 1 <link=\"PLANTS\">Seed</link>"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.MUTANT_STERILE"
 msgid "Doesn't Drop <link=\"PLANTS\">Seeds</link>"
-msgstr "Kuluttaa 1 kpl <link=\"PLANTS\">Siemeniä</link>"
+msgstr "Ei Pudota <link=\"PLANTS\">Siemeniä</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.PLANT_DO_NOT_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.PLANT_DO_NOT_HARVEST"
@@ -79206,7 +79035,7 @@ msgid ""
 "\"KKeyword\">Morale Requirements</style> from learning it"
 msgstr ""
 "{0} on saanut {1} Ominaisuuden johdosta, muttei saa <style=\"KKeyword"
-"\">Mieliala</style>bonusta sen opettelusta."
+"\">Mieliala</style>bonusta sen opettelusta"
 
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.STRESS_WARNING_MESSAGE
 msgctxt ""
@@ -82784,13 +82613,6 @@ msgstr ""
 "<b>Työpisteet-välilehdestä</b> <b><color=#F44A4A>[0]</b></color>"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_SKILL_STATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_RESEARCH"
-#| msgid ""
-#| "Build a Research Station to unlock this menu\n"
-#| "------------------\n"
-#| "The <link=\"RESEARCHCENTER\">Research Station</link> can be found in the "
-#| "<b>Stations Tab</b> <b><color=#F44A4A>[0]</b></color> of the Build Menu"
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_SKILL_STATION"
 msgid ""
 "Build a Printing Pod to unlock this menu\n"
@@ -82798,10 +82620,10 @@ msgid ""
 "The <link=\"HEADQUARTERS\">Printing Pod</link> can be found in the <b>Base "
 "Tab</b> <b><color=#F44A4A>[0]</b></color> of the Build Menu"
 msgstr ""
-"Rakenna Tutkimustyöpiste avataksesi tämän valikon\n"
+"Rakenna Tulostuskenno avataksesi tämän valikon\n"
 "------------------\n"
-"<link=\"RESEARCHCENTER\">Tutkimustyöpiste</link> löytyy Rakennusvalikon "
-"<b>Työpisteet-välilehdestä</b> <b><color=#F44A4A>[0]</b></color>"
+"<link=\"HEADQUARTERS\">Tulostuskenno</link> löytyy Rakennusvalikon "
+"<b>Tukikohta-välilehdestä</b> <b><color=#F44A4A>[0]</b></color>"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_TELESCOPE
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_TELESCOPE"
@@ -82822,12 +82644,9 @@ msgid "View the Research Tree {Hotkey}"
 msgstr "Näytä Tutkimuspuu {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESOURCES
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_PAUSEMENU"
-#| msgid "Open the game menu {Hotkey}"
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESOURCES"
 msgid "Open the resource management screen {Hotkey}"
-msgstr "Avaa pelivalikko {Hotkey}"
+msgstr "Avaa resurssienhallintaruutu {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE"
@@ -83151,32 +82970,22 @@ msgstr ""
 "Vallitseva <style=\"KKeyword\">Kaasun</style> paine on <b>{pressure}</b>"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP"
-#| msgid ""
-#| "This Duplicant is leaving an area where a <style=\"KKeyword\">Suit</"
-#| "style> was required"
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION"
 msgid ""
 "This plant is sitting in <b>{rads}</b> of ambient <style=\"KKeyword"
 "\">Radiation</style>. It needs at between {minRads} and {maxRads} to grow"
 msgstr ""
-"Tämä Jäljennäinen poistuu alueelta, jossa <style=\"KKeyword\">Puku</style> "
-"oli pakollinen"
+"Tämä kasvi on <b>{rads}</b> vahvuisessa <style=\"KKeyword\">Säteilyssä</"
+"style>. Säteilyn tulee olla {minRads} ja {maxRads}, jotta kasvi kasvaisi"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION_NO_MIN
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP"
-#| msgid ""
-#| "This Duplicant is leaving an area where a <style=\"KKeyword\">Suit</"
-#| "style> was required"
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION_NO_MIN"
 msgid ""
 "This plant is sitting in <b>{rads}</b> of ambient <style=\"KKeyword"
 "\">Radiation</style>. It needs less than {maxRads} to grow"
 msgstr ""
-"Tämä Jäljennäinen poistuu alueelta, jossa <style=\"KKeyword\">Puku</style> "
-"oli pakollinen"
+"Tämä kasvi on <b>{rads}</b> vahvuisessa <style=\"KKeyword\">Säteilyssä</"
+"style>. Säteilyn tulee olla alle {maxRads}, jotta kasvi kasvaisi"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL"
@@ -85504,12 +85313,9 @@ msgid "{Disease} Burst: {DiseaseAmount}"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_CONSTANT
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALDISEASE.TOOLTIP"
-#| msgid "Current disease: {Disease}"
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_CONSTANT"
 msgid "{Disease}: {DiseaseAmount}"
-msgstr "Tämänhetkinen sairaus: {Disease}"
+msgstr "{Disease}: {DiseaseAmount}"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_ON_HARVEST
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_ON_HARVEST"
@@ -85532,12 +85338,9 @@ msgid "<b>Life Cycle</b>:"
 msgstr "<b>Elinkaari</b>:"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NO_SPECIES_SELECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.SELECT_DESC"
-#| msgid "Select a seed to plant."
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NO_SPECIES_SELECTED"
 msgid "Select a seed species above..."
-msgstr "Valitse istutettava siemen."
+msgstr "Valitse siemenlaji yläpuolelta..."
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NUMBEROFHARVESTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NUMBEROFHARVESTS"
@@ -85612,14 +85415,10 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_DROPPER_CONSTANT
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.DISPLACEMENTEFFECT_TOOLTIP"
-#| msgid "This building will displace {amount} Gas while in use."
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_DROPPER_CONSTANT"
 msgid "This plant emits {DiseaseAmount} {Disease} while it is alive."
-msgstr "Tämä rakennus syrjäyttää {amount} verran Kaasua käytössä ollessaan."
+msgstr "Tämä kasvi päästää {DiseaseAmount} {Disease} ollessaan elossa."
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_ON_HARVEST
 msgctxt ""
@@ -85875,7 +85674,7 @@ msgstr "Valitse Tutkimus"
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.ADDMODULE.DESC
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.ADDMODULE.DESC"
 msgid "Add a new module above this one"
-msgstr ""
+msgstr "Lisää uusia moduuleja tämän päälle"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.ADDMODULE.INVALID
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.ADDMODULE.INVALID"
@@ -85897,22 +85696,16 @@ msgid "This module cannot be changed to a different type"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONREMOVEMODULE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.ROCKET_RENAME_BUTTON_TOOLTIP"
-#| msgid "Rename this rocket"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONREMOVEMODULE.DESC"
 msgid "Remove this module"
-msgstr "Nimeä tämä raketti uudelleen"
+msgstr "Poista tämä moduuli"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONREMOVEMODULE.INVALID
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SUFFOCATING.TOOLTIP"
-#| msgid "This Duplicant cannot breathe!"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONREMOVEMODULE.INVALID"
 msgid "This module cannot be removed"
-msgstr "Tämä Jäljennäinen ei pysty hengittämään!"
+msgstr "Tätä moduulia ei voi poistaa"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEDOWN.DESC
 msgctxt ""

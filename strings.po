@@ -3558,20 +3558,14 @@ msgstr ""
 "\"KKeyword\">Sähköä</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLIDCONDUITBLOCKEDMULTIPLES.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.NAME"
-#| msgid "Conveyor Rail Backup"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDCONDUITBLOCKEDMULTIPLES.NAME"
 msgid "Conveyor Rail Blocked"
-msgstr "Varakuljetinkisko"
+msgstr "Kuljetinkisko Tukossa"
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLIDCONDUITBLOCKEDMULTIPLES.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.TOOLTIP"
-#| msgid "Output <style=\"KKeyword\">Pipe</style> is blocked"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDCONDUITBLOCKEDMULTIPLES.TOOLTIP"
 msgid "Output <style=\"KKeyword\">Conveyor Rail</style> is blocked"
-msgstr "Ulostulo<style=\"KKeyword\">putki</style> on tukossa"
+msgstr "Ulosmenevä <style=\"KKeyword\">Kuljetinkisko</style> on tukittu"
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLIDPIPEOBSTRUCTED.NAME"
@@ -4756,7 +4750,7 @@ msgstr ""
 "\n"
 "Kuluttaa <link=\"WATER\">Vettä</link>.\n"
 "\n"
-"Nimetyillä Jäljennäisillä tulee olla <link=\"JUNIORRESEARCHER\">Kehittynyt "
+"Määrätyillä Jäljennäisillä tulee olla <link=\"JUNIORRESEARCHER\">Kehittynyt "
 "Tutkimus</link>-taito."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME
@@ -5749,7 +5743,7 @@ msgid ""
 msgstr ""
 "Paljastaa vierailtavat Planetoidit avaruudessa.\n"
 "\n"
-"Nimetyillä Jäljennäisillä tulee olla <link=\"SENIORRESEARCHER\">Astronomia</"
+"Määrätyillä Jäljennäisillä tulee olla <link=\"SENIORRESEARCHER\">Astronomia</"
 "link>taito.\n"
 "\n"
 "Rakennusten tulee olla alttiina avaruudelle toimiakseen."
@@ -6022,7 +6016,7 @@ msgstr ""
 "Kuluttaa <link=\"TELESCOPE\">Teleskooppien</link> ja <link=\"RESEARCHMODULE"
 "\">Tutkimusmoduulien</link> dataa.\n"
 "\n"
-"Nimetyillä Jäljennäisillä tulee olla <link=\"SENIORRESEARCHER\">Astronomia</"
+"Määrätyillä Jäljennäisillä tulee olla <link=\"SENIORRESEARCHER\">Astronomia</"
 "link>taito."
 
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.NAME
@@ -6171,12 +6165,9 @@ msgstr ""
 "Ääriviivat erottuvat juuri ja juuri lasin huurteen läpi."
 
 #. STRINGS.BUILDINGS.PREFABS.CRYOTANK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CRYOTANK.NAME"
-#| msgid "<link=\"CRYOTANK\">Cryotank</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRYOTANK.NAME"
 msgid "<link=\"CRYOTANK\">Cryotank 3000</link>"
-msgstr "<link=\"CRYOTANK\">Kryotankki</link>"
+msgstr "<link=\"CRYOTANK\">Kryosäiliö 3000</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.DESC"
@@ -6493,7 +6484,7 @@ msgstr ""
 "Hautoo <link=\"CRITTERS\">Otusten</link> munia kunnes ne ovat valmiita "
 "kuoriutumaan.\n"
 "\n"
-"Nimetyillä Jäljennäisillä täytyy olla <link=\"RANCHER\">Otuksenhallinta</"
+"Määrätyillä Jäljennäisillä täytyy olla <link=\"RANCHER\">Otuksenhallinta</"
 "link>taito."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.NAME
@@ -6652,7 +6643,7 @@ msgstr ""
 "Tuottaa <link=\"FARMSTATIONTOOLS\">Mikroravinnelannoitetta</link> "
 "parantamaan <link=\"PLANTS\">Kasvien</link> kasvamista.\n"
 "\n"
-"Nimetyillä Jäljennäisillä tulee olla <link=\"FARMER\">Sadonhoito</"
+"Määrätyillä Jäljennäisillä tulee olla <link=\"FARMER\">Sadonhoito</"
 "link>taito.\n"
 "\n"
 "Tämä rakennus on olennainen osa Kasvihuonetta."
@@ -7484,92 +7475,60 @@ msgid "Filters: {0}"
 msgstr "Suodattaa: {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.DESC"
-#| msgid ""
-#| "Valves control the amount of gas that moves through pipes, preventing "
-#| "waste."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.DESC"
 msgid ""
 "Meter Valves let an exact amount of gas pass through before shutting off."
 msgstr ""
-"Venttiilit säätelevät putkien läpi virtaavaa kaasumäärä, ehkäisten hukan."
+"Mittariventtiilit päästävät tarkan määrän kaasua lävitseen ennen kuin "
+"sulkeutuvat."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT"
-#| msgid ""
-#| "Connects to an <link=\"LOGIC\">Automation</link> grid to automatically "
-#| "turn <link=\"ELEMENTSGAS\">Gas</link> flow on or off."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.EFFECT"
 msgid ""
 "Connects to an <link=\"LOGIC\">Automation</link> grid to automatically turn "
 "<link=\"ELEMENTSGAS\">Gas</link> flow off when the specified amount has "
 "passed through it."
 msgstr ""
-"Yhdistää <link=\"LOGIC\">Automaatio</link>verkkoon käynnistääkseen tai "
-"pysäyttääkseen <link=\"ELEMENTSGAS\">Kaasu</link>virtauksen."
+"Yhdistyy <link=\"LOGIC\">Automaatio</link>verkkoon pysäyttääkseen "
+"automaattisesti <link=\"ELEMENTSGAS\">Kaasu</link>virtauksen, kun asetettu "
+"määrä kaasua on kulkenut sen lävitse."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.LOGIC_PORT_OUTPUT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT_OUTPUT"
-#| msgid "Number Reached"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.LOGIC_PORT_OUTPUT"
 msgid "Limit Reached"
-msgstr "Luku Saavutettu"
+msgstr "Raja Saavutettu"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.LOGIC_PORT_RESET
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT_RESET"
-#| msgid "Reset Counter"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.LOGIC_PORT_RESET"
 msgid "Reset Meter"
-msgstr "Nollaa laskuri"
+msgstr "Nollaa Mittari"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME"
-#| msgid "<link=\"GASVALVE\">Gas Valve</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.NAME"
 msgid "<link=\"GASLIMITVALVE\">Gas Meter Valve</link>"
-msgstr "<link=\"GASVALVE\">Kaasuventtiili</link>"
+msgstr "<link=\"GASLIMITVALVE\">Kaasumittariventtiili</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.OUTPUT_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the selected "
-#| "Gas is detected"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.OUTPUT_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if limit has been "
 "reached"
 msgstr ""
-"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b>, jos valittu "
-"Kaasu havaitaan"
+"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b>, jos raja on "
+"saavutettu"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.OUTPUT_PORT_INACTIVE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDINGS.PREFABS.CLUSTERCOMMANDMODULE.LOGIC_PORT_READY_INACTIVE"
-#| msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.OUTPUT_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
 msgstr ""
 "Muutoin lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_ACTIVE"
-#| msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset counter"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_ACTIVE"
 msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the amount"
-msgstr "<b><style=\"logic_on\">Vihreä Signaali</style></b>: Nollaa Laskuri"
+msgstr "<b><style=\"logic_on\">Vihreä Signaali</style></b>: Nollaa määrä"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE"
-#| msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
 msgstr "<b><style=\"logic_off\">Punainen Signaali</style></b>: Ei Mitään"
@@ -8993,26 +8952,13 @@ msgid "<link=\"LAUNCHPLATFORM\">Rocket Platform</link>"
 msgstr "<link=\"LAUNCHPLATFORM\">Rakettialusta</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LEADSUITLOCKER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.DESC"
-#| msgid ""
-#| "Jet Suit Docks can refill jet suits with air and fuel, or empty them of "
-#| "waste."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LEADSUITLOCKER.DESC"
 msgid "Lead suit docks can refill lead suits with air and empty them of waste."
 msgstr ""
-"Rakettipukutelakat voivat täyttää puvut ilmalla ja polttoaineella, tai "
-"tyhjentää ne jätteistä."
+"Lyijypukutelakat voivat täyttää lyijypuvut ilmalla ja ilmalla ja tyhjentää "
+"ne jätteistä."
 
 #. STRINGS.BUILDINGS.PREFABS.LEADSUITLOCKER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT"
-#| msgid ""
-#| "Stores and refuels <link=\"JETSUIT\">Jet Suits</link> with <link=\"OXYGEN"
-#| "\">Oxygen</link> and <link=\"PETROLEUM\">Petroleum</link>.\n"
-#| "\n"
-#| "Build next to a <link=\"JETSUITMARKER\">Jet Suit Checkpoint</link> to "
-#| "make Duplicants change into suits when passing by."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LEADSUITLOCKER.EFFECT"
 msgid ""
 "Stores <link=\"LEADSUIT\">Lead Suits</link> and refuels them  with <link="
@@ -9023,44 +8969,29 @@ msgid ""
 "Build next to a <link=\"LEADSUITMARKER\">Lead Suit Checkpoint</link> to make "
 "Duplicants change into suits when passing by."
 msgstr ""
-"Varastoi ja tankkaa <link=\"JETSUIT\">Rakettipukuja</link> <link=\"OXYGEN"
-"\">Hapella</link> and <link=\"PETROLEUM\">Petrolilla</link>.\n"
+"Varastoi <link=\"LEADSUIT\">Lyijypukuja</link> ja tankkaa ne <link=\"OXYGEN"
+"\">Hapella</link>.\n"
 "\n"
-"Rakenna <link=\"JETSUITMARKER\">Rakettipukutarkistuspisteen</link> viereen, "
+"Tyhjentää puvut <link=\"DIRTYWATER\">Saastuneesta Vedestä</link>.\n"
+"\n"
+"Rakenna <link=\"LEADSUITMARKER\">Lyijypukutarkistuspisteen</link> viereen, "
 "jotta Jäljennäiset vaihtaisivat pukuihin kulkiessaan ohi."
 
 #. STRINGS.BUILDINGS.PREFABS.LEADSUITLOCKER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.NAME"
-#| msgid "<link=\"JETSUITLOCKER\">Jet Suit Dock</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LEADSUITLOCKER.NAME"
 msgid "<link=\"LEADSUITLOCKER\">Lead Suit Dock</link>"
-msgstr "<link=\"JETSUITLOCKER\">Rakettipukutelakka</link>"
+msgstr "<link=\"LEADSUITLOCKER\">Lyijypukutelakka</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LEADSUITMARKER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.DESC"
-#| msgid ""
-#| "A checkpoint must have a jet suit dock built on the opposite side its "
-#| "arrow faces."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LEADSUITMARKER.DESC"
 msgid ""
 "A checkpoint must have a correlating dock built on the opposite side its "
 "arrow faces."
 msgstr ""
-"Tarkistuspisteelle täytyy olla rakennettuna suihkupukutelakka, sen nuolen "
+"Tarkistuspisteelle täytyy olla rakennettuna soveltuva telakka, sen nuolen "
 "suunnan vastakkaiselle puolelle."
 
 #. STRINGS.BUILDINGS.PREFABS.LEADSUITMARKER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.EFFECT"
-#| msgid ""
-#| "Marks a threshold where Duplicants must change into or out of <link="
-#| "\"JETSUIT\">Jet Suits</link>.\n"
-#| "\n"
-#| "Must be built next to a <link=\"JETSUITLOCKER\">Jet Suit Dock</link>\n"
-#| "\n"
-#| "Can be rotated before construction."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LEADSUITMARKER.EFFECT"
 msgid ""
 "Marks a threshold where Duplicants must change into or out of <link="
@@ -9071,33 +9002,23 @@ msgid ""
 "Can be rotated before construction."
 msgstr ""
 "Merkitsee kynnyksen, jonka kohdalla Jäljennäisten on vaihdettava <link="
-"\"JETSUIT\">Rakettipukuihin</link>.\n"
+"\"LEADSUIT\">Lyijypukuihin</link>.\n"
 "\n"
-"Täytyy rakentaa <link=\"JETSUITLOCKER\">Rakettipukutelakan</link> viereen.\n"
+"Täytyy rakentaa <link=\"LEADSUITLOCKER\">Lyijypukutelakan</link> viereen.\n"
 "\n"
 "Voidaan kääntää ennen rakentamista."
 
 #. STRINGS.BUILDINGS.PREFABS.LEADSUITMARKER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.NAME"
-#| msgid "<link=\"JETSUITMARKER\">Jet Suit Checkpoint</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LEADSUITMARKER.NAME"
 msgid "<link=\"LEADSUITMARKER\">Lead Suit Checkpoint</link>"
-msgstr "<link=\"JETSUITMARKER\">Rakettipukutarkistuspiste</link>"
+msgstr "<link=\"LEADSUITMARKER\">Lyijypukutarkistuspiste</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC"
 msgid "Holds more than a regular cargo tank."
-msgstr ""
+msgstr "Tilavampi kuin tavallinen rahtisäiliö."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to store any <link=\"ELEMENTSLIQUID\">Liquid</link> "
-#| "resources found during space missions.\n"
-#| "\n"
-#| "Stored resources become available to the colony upon the rocket's return."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT"
 msgid ""
 "Allows Duplicants to store most of the <link=\"ELEMENTSLIQUID\">Liquid</"
@@ -9105,32 +9026,22 @@ msgid ""
 "\n"
 "Stored resources become available to the colony upon the rocket's return."
 msgstr ""
-"Mahdollistaa Jäljennäisten varastoivan löytämiään  <link=\"ELEMENTSLIQUID"
-"\">Nestemäisiä</link> resursseja avaruustehtävien aikana.\n"
+"Mahdollistaa Jäljennäisten varastoivan avaruustehtävien aikana löytämiään "
+"<link=\"ELEMENTSLIQUID\">Nestemäisiä</link> resursseja.\n"
 "\n"
 "Varastoidut resurssit tulevat siirtokunnan saataville raketin palattua."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME"
-#| msgid "<link=\"LIQUIDCARGOBAY\">Liquid Cargo Tank</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME"
 msgid "<link=\"LIQUIDCARGOBAY\">Large Liquid Cargo Tank</link>"
-msgstr "<link=\"LIQUIDCARGOBAY\">Nesterahtisäiliö</link>"
+msgstr "<link=\"LIQUIDCARGOBAY\">Suuri Nesterahtisäiliö</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYCLUSTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYCLUSTER.DESC"
 msgid "Holds more than a regular cargo tank."
-msgstr ""
+msgstr "Tilavampi kuin tavallinen rahtisäiliö."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYCLUSTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to store any <link=\"ELEMENTSLIQUID\">Liquid</link> "
-#| "resources found during space missions.\n"
-#| "\n"
-#| "Stored resources become available to the colony upon the rocket's return."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYCLUSTER.EFFECT"
 msgid ""
 "Allows Duplicants to store most of the <link=\"ELEMENTSLIQUID\">Liquid</"
@@ -9138,41 +9049,26 @@ msgid ""
 "\n"
 "Stored resources become available to the colony upon the rocket's return."
 msgstr ""
-"Mahdollistaa Jäljennäisten varastoivan löytämiään  <link=\"ELEMENTSLIQUID"
-"\">Nestemäisiä</link> resursseja avaruustehtävien aikana.\n"
+"Mahdollistaa Jäljennäisten varastoivan avaruustehtävien aikana löytämiään "
+"<link=\"ELEMENTSLIQUID\">Nestemäisiä</link> resursseja.\n"
 "\n"
 "Varastoidut resurssit tulevat siirtokunnan saataville raketin palattua."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYCLUSTER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME"
-#| msgid "<link=\"LIQUIDCARGOBAY\">Liquid Cargo Tank</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYCLUSTER.NAME"
 msgid "<link=\"LIQUIDCARGOBAY\">Large Liquid Cargo Tank</link>"
-msgstr "<link=\"LIQUIDCARGOBAY\">Nesterahtisäiliö</link>"
+msgstr "<link=\"LIQUIDCARGOBAY\">Suuri Nesterahtisäiliö</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC"
-#| msgid ""
-#| "Duplicants will fill cargo tanks with whatever resources they find during "
-#| "space missions."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.DESC"
 msgid ""
 "Duplicants will fill cargo tanks with whatever resources they find during "
 "space missions."
 msgstr ""
-"Jäljennäiset täyttävät lastisäiliöitä millä tahansa avaruustehtävällään "
+"Jäljennäiset täyttävät rahtisäiliöitä millä tahansa avaruustehtävällään "
 "löytämillään resursseilla."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to store any <link=\"ELEMENTSLIQUID\">Liquid</link> "
-#| "resources found during space missions.\n"
-#| "\n"
-#| "Stored resources become available to the colony upon the rocket's return."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.EFFECT"
 msgid ""
 "Allows Duplicants to store some of the <link=\"ELEMENTSLIQUID\">Liquid</"
@@ -9180,18 +9076,15 @@ msgid ""
 "\n"
 "Stored resources become available to the colony upon the rocket's return."
 msgstr ""
-"Mahdollistaa Jäljennäisten varastoivan löytämiään  <link=\"ELEMENTSLIQUID"
-"\">Nestemäisiä</link> resursseja avaruustehtävien aikana.\n"
+"Mahdollistaa Jäljennäisten varastoivan jonkin verran avaruustehtävien "
+"löytämiään resursseja <link=\"ELEMENTSLIQUID\">Nestemäisiä</link>.\n"
 "\n"
 "Varastoidut resurssit tulevat siirtokunnan saataville raketin palattua."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME"
-#| msgid "<link=\"LIQUIDCARGOBAY\">Liquid Cargo Tank</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.NAME"
 msgid "<link=\"LIQUIDCARGOBAYSMALL\">Liquid Cargo Tank</link>"
-msgstr "<link=\"LIQUIDCARGOBAY\">Nesterahtisäiliö</link>"
+msgstr "<link=\"LIQUIDCARGOBAYSMALL\">Nesterahtisäiliö</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.DESC"
@@ -9559,11 +9452,6 @@ msgid "<link=\"LIQUIDFUELTANK\">Liquid Fuel Tank</link>"
 msgstr "<link=\"LIQUIDFUELTANK\">Nestepolttoainesäiliö</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDFUELTANKCLUSTER.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFUELTANK.DESC"
-#| msgid ""
-#| "Storing additional fuel increases the distance a rocket can travel before "
-#| "returning."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFUELTANKCLUSTER.DESC"
 msgid ""
 "Storing additional fuel increases the distance a rocket can travel before "
@@ -9614,23 +9502,14 @@ msgid "<link=\"LIQUIDHEATER\">Liquid Tepidizer</link>"
 msgstr "<link=\"LIQUIDHEATER\">Nestehaalennin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDVALVE.DESC"
-#| msgid ""
-#| "Valves control the amount of liquid that moves through pipes, preventing "
-#| "waste."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.DESC"
 msgid ""
 "Meter Valves let an exact amount of liquid pass through before shutting off."
 msgstr ""
-"Venttiilit säätelevät putkissa liikkuvan nesteen määrää, ehkäisten hävikin."
+"Mittariventtiilit päästävät tarkan määrän nestettä lävitseen ennen kuin "
+"sulkeutuvat."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.EFFECT"
-#| msgid ""
-#| "Connects to an <link=\"LOGIC\">Automation</link> grid to automatically "
-#| "turn <link=\"ELEMENTSLIQUID\">Liquid</link> flow on or off."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.EFFECT"
 msgid ""
 "Connects to an <link=\"LOGIC\">Automation</link> grid to automatically turn "
@@ -9638,69 +9517,45 @@ msgid ""
 "has passed through it."
 msgstr ""
 "Yhdistyy <link=\"LOGIC\">Automaatio</link>verkkoon kytkeäkseen "
-"automaattisesti <link=\"ELEMENTSLIQUID\">Nesteen</link> virtauksen päälle "
-"tai pois."
+"automaattisesti <link=\"ELEMENTSLIQUID\">Nesteen</link> virtauksen pois, kun "
+"asetettu määrä on mennyt sen läpi."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.LOGIC_PORT_OUTPUT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT_OUTPUT"
-#| msgid "Number Reached"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.LOGIC_PORT_OUTPUT"
 msgid "Limit Reached"
-msgstr "Luku Saavutettu"
+msgstr "Raja Saavutettu"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.LOGIC_PORT_RESET
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT_RESET"
-#| msgid "Reset Counter"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.LOGIC_PORT_RESET"
 msgid "Reset Meter"
-msgstr "Nollaa laskuri"
+msgstr "Nollaa Mittari"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDVALVE.NAME"
-#| msgid "<link=\"LIQUIDVALVE\">Liquid Valve</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.NAME"
 msgid "<link=\"LIQUIDLIMITVALVE\">Liquid Meter Valve</link>"
-msgstr "<link=\"LIQUIDVALVE\">Nesteventtiili</link>"
+msgstr "<link=\"LIQUIDLIMITVALVE\">Nestemittariventtiili</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.OUTPUT_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the selected "
-#| "Gas is detected"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.OUTPUT_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if limit has been "
 "reached"
 msgstr ""
-"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b>, jos valittu "
-"Kaasu havaitaan"
+"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b>, jos raja on "
+"saavutettu"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.OUTPUT_PORT_INACTIVE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDINGS.PREFABS.CLUSTERCOMMANDMODULE.LOGIC_PORT_READY_INACTIVE"
-#| msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.OUTPUT_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
 msgstr ""
 "Muutoin lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_ACTIVE"
-#| msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset counter"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_ACTIVE"
 msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the amount"
-msgstr "<b><style=\"logic_on\">Vihreä Signaali</style></b>: Nollaa Laskuri"
+msgstr "<b><style=\"logic_on\">Vihreä Signaali</style></b>: Nollaa määrä"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE"
-#| msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
 msgstr "<b><style=\"logic_off\">Punainen Signaali</style></b>: Ei Mitään"
@@ -11091,40 +10946,27 @@ msgid "Transmit Signal"
 msgstr "Lähetä Signaali"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "<b><color=#57b95e>Green Signal</b></color>: Pass through the "
-#| "<b><color=#57b95e>Green Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_ACTIVE"
 msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Pass through the <b><style="
 "\"logic_on\">Green Signal</style></b>"
 msgstr ""
-"<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Kuljeta <b><style="
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>: Lähetä <b><style="
 "\"logic_on\">Vihreä Signaali</style></b> läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_INACTIVE"
-#| msgid ""
-#| "<b><color=#f44a47>Red Signal</b></color>: Pass through the "
-#| "<b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_INACTIVE"
 msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b>: Pass through the <b><style="
 "\"logic_off\">Red Signal</style></b>"
 msgstr ""
-"<b><style=\"logic_off\">Punainen Signaali</style></b>: Kuljeta<b><style="
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Päästä <b><style="
 "\"logic_off\">Punainen Signaali</style></b> läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.NAME"
-#| msgid "<link=\"LOGICWIREBRIDGE\">Automation Wire Bridge</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.NAME"
 msgid "<link=\"LOGICRIBBONBRIDGE\">Automation Ribbon Bridge</link>"
-msgstr "<link=\"LOGICWIREBRIDGE\">Automaatiojohtosilta</link>"
+msgstr "<link=\"LOGICRIBBONBRIDGE\">Automaationauhasilta</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.DESC"
@@ -11132,6 +10974,8 @@ msgid ""
 "Inputs the signal from a single Bit in an <link=\"LOGICRIBBON\">Automation "
 "Ribbon</link> into an <link=\"LOGICWIRE\">Automation Wire</link>."
 msgstr ""
+"Syöttää yksittäisen <link=\"LOGICRIBBON\">Automaationauhan</link> Bitin "
+"signaalin <link=\"LOGICWIRE\">Automaatiojohtoon</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.EFFECT"
@@ -11141,6 +10985,10 @@ msgid ""
 "\"LOGICRIBBON\">Automation Ribbon</link> onto an <link=\"LOGICWIRE"
 "\">Automation Wire</link>."
 msgstr ""
+"Lukee <b><style=\"logic_on\">Vihreän Signaalin</style></b> tai <b><style="
+"\"logic_off\">Punaisen Signaalin</style></b> määrätystä <link=\"LOGICRIBBON"
+"\">Automaationauhan</link> Bitistä <link=\"LOGICWIRE\">Automaatiojohtoon</"
+"link>."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_NAME"
@@ -11153,6 +11001,8 @@ msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Reads a <b><style=\"logic_on"
 "\">Green Signal</style></b> from selected Bit"
 msgstr ""
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>: Lukee <b><style="
+"\"logic_on\">Vihreän Signaalin</style></b> valitusta Bitistä"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_PORT_INACTIVE"
@@ -11160,6 +11010,8 @@ msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b>: Reads a <b><style=\"logic_off"
 "\">Red Signal</style></b> from selected Bit"
 msgstr ""
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Lukee <b><style="
+"\"logic_off\">Punaisen Signaalin</style></b> valitusta Bitistä"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.LOGIC_PORT"
@@ -11188,6 +11040,9 @@ msgid ""
 "\">Green Signal</style></b> to attached <link=\"LOGICWIRE\">Automation Wire</"
 "link>"
 msgstr ""
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>: Lähettää <b><style="
+"\"logic_on\">Vihreän Signaalin</style></b> yhdistettyyn <link=\"LOGICWIRE"
+"\">Automaatiojohtoon</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.OUTPUT_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.OUTPUT_PORT_INACTIVE"
@@ -11196,6 +11051,9 @@ msgid ""
 "\">Red Signal</style></b> to attached <link=\"LOGICWIRE\">Automation Wire</"
 "link>"
 msgstr ""
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Lähettää <b><style="
+"\"logic_off\">Punaisen Signaalin</style></b> yhdistettyyn <link=\"LOGICWIRE"
+"\">Automaatiojohtoon</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.DESC"
@@ -11203,6 +11061,8 @@ msgid ""
 "Translates the signal from an <link=\"LOGICWIRE\">Automation Wire</link> to "
 "a single Bit in an <link=\"LOGICRIBBON\">Automation Ribbon</link>"
 msgstr ""
+"Muuntaa <link=\"LOGICWIRE\">Automaatiojohdon</link> yksittäiseksi Bitiksi "
+"<link=\"LOGICRIBBON\">Automaationauhalle</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.EFFECT"
@@ -11214,6 +11074,12 @@ msgid ""
 "<link=\"LOGICRIBBON\">Automation Ribbon</link> must be used as the output "
 "wire to avoid overloading."
 msgstr ""
+"Kirjoittaa <b><style=\"logic_on\">Vihreän Signaalin</style></b> tai "
+"<b><style=\"logic_off\">Punaisen Signaalin</style></b> määrätylle <link="
+"\"LOGICRIBBON\">Automaationauhan</link> Bitille \n"
+"\n"
+"<link=\"LOGICRIBBON\">Automaationauhan</link> tulee toimia ulostulojohtona "
+"ylikuormittumisen välttämiseksi."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.INPUT_NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.INPUT_NAME"
@@ -11226,6 +11092,8 @@ msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Receives <b><style="
 "\"logic_on\">Green Signal</style></b> to be written to selected Bit"
 msgstr ""
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>: Vastaanottaa <b><style="
+"\"logic_on\">Vihreän Signaalin</style></b> kirjoitettavaksi valitulle Bitille"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.INPUT_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.INPUT_PORT_INACTIVE"
@@ -11233,6 +11101,9 @@ msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b>: Receives <b><style="
 "\"logic_off\">Red Signal</style></b> to to be written selected Bit"
 msgstr ""
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Vastaanottaa "
+"<b><style=\"logic_off\">Punaisen Signaalin</style></b> kirjoitettavaksi "
+"valitulle Bitille"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.LOGIC_PORT"
@@ -11261,6 +11132,9 @@ msgid ""
 "\"logic_on\">Green Signal</style></b> to selected Bit of an <link="
 "\"LOGICRIBBON\">Automation Ribbon</link>"
 msgstr ""
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>: Kirjoittaa <b><style="
+"\"logic_on\">Vihreän Signaalin</style></b> <link=\"LOGICRIBBON"
+"\">Automaationauhan</link> valitulle Bitille"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.OUTPUT_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.OUTPUT_PORT_INACTIVE"
@@ -11269,6 +11143,9 @@ msgid ""
 "\"logic_off\">Red Signal</style></b> to selected Bit of an <link="
 "\"LOGICRIBBON\">Automation Ribbon</link>"
 msgstr ""
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Kirjoittaa <b><style="
+"\"logic_off\">Punaisen Signaalin</style></b> <link=\"LOGICRIBBON"
+"\">Automaationauhan</link> valitulle Bitille"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.DESC"
@@ -11280,14 +11157,6 @@ msgstr ""
 "mutta lisäävät lisäsignaalin."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.EFFECT"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> or a "
-#| "<b><color=#f44a47>Red Signal</b></color> on an <link=\"LOGIC"
-#| "\">Automation</link> grid.\n"
-#| "\n"
-#| "Must be manually toggled by a Duplicant."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.EFFECT"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> or a <b><style="
@@ -11296,9 +11165,7 @@ msgid ""
 msgstr ""
 "Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> tai <b><style="
 "\"logic_off\">Punaista Signaalia</style></b> <link=\"LOGIC\">Automaatio</"
-"link>verkkoon.\n"
-"\n"
-"Jäljennäisen on vaihdettava tämä Käsin."
+"link>verkkoon."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT"
@@ -11306,9 +11173,6 @@ msgid "Signal Toggle"
 msgstr "Signaalin Vaihto"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_ACTIVE"
-#| msgid "Sends a <b><color=#57b95e>Green Signal</b></color> if toggled ON"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_ACTIVE"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> if toggled ON"
 msgstr ""
@@ -11316,9 +11180,6 @@ msgstr ""
 "PÄÄLLE"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_INACTIVE"
-#| msgid "Sends a <b><color=#f44a47>Red Signal</b></color> if toggled OFF"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_INACTIVE"
 msgid "Sends a <b><style=\"logic_off\">Red Signal</style></b> if toggled OFF"
 msgstr ""
@@ -11345,12 +11206,6 @@ msgstr ""
 "niiden lähestyessä vaarallisia lämpötiloja."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.EFFECT"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> or a "
-#| "<b><color=#f44a47>Red Signal</b></color> when ambient <link=\"HEAT"
-#| "\">Temperature</link> enters the chosen range."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.EFFECT"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> or a <b><style="
@@ -11358,8 +11213,8 @@ msgid ""
 "\">Temperature</link> enters the chosen range."
 msgstr ""
 "Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> tai <b><style="
-"\"logic_off\">Punaista Signaalia</style></b> kun <link=\"HEAT\">Lämpötila</"
-"link> asettuu valitulle alueelle."
+"\"logic_off\">Punaista Signaalia</style></b> kun ympäristön <link=\"HEAT"
+"\">Lämpötila</link> asettuu valitulle alueelle."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT"
@@ -11367,28 +11222,19 @@ msgid "Ambient <link=\"HEAT\">Temperature</link>"
 msgstr "Ympäristön <link=\"HEAT\">Lämpötila</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> if ambient <link=\"HEAT"
-#| "\">Temperature</link> is within the selected range"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if ambient <link="
 "\"HEAT\">Temperature</link> is within the selected range"
 msgstr ""
-"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> kun ympäristön "
+"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> jos ympäristön "
 "<link=\"HEAT\">Lämpötila</link> on valitulla alueella"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_INACTIVE"
-#| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
 msgstr ""
-"Muutoin lähettää <b><style=\"logic_off\">Punaisen Signaalin</style></b>"
+"Muutoin lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.NAME"
@@ -11396,34 +11242,24 @@ msgid "<link=\"LOGICTEMPERATURESENSOR\">Thermo Sensor</link>"
 msgstr "<link=\"LOGICTEMPERATURESENSOR\">Lämpötilatunnistin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.DESC"
-#| msgid ""
-#| "Clock sensors ensure systems always turn on at the same time, day or "
-#| "night, every cycle."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.DESC"
 msgid ""
 "Cycle sensors ensure systems always turn on at the same time, day or night, "
 "every cycle."
 msgstr ""
-"Kellonaikatunnistimet varmistavat, että järjestelmät kytkeytyvät joka "
-"kierrolla aina päälle samaan aikaan päivin tai öin."
+"Kiertotunnistimet varmistavat, että järjestelmät kytkeytyvät aina päälle "
+"samaan aikaan päivin öin, joka kierrolla."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.EFFECT"
-#| msgid ""
-#| "Sets an automatic <b><color=#57b95e>Green Signal</b></color> and "
-#| "<b><color=#f44a47>Red Signal</b></color> schedule using a timer."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.EFFECT"
 msgid ""
 "Sets an automatic <b><style=\"logic_on\">Green Signal</style></b> and "
 "<b><style=\"logic_off\">Red Signal</style></b> schedule within one day-night "
 "cycle."
 msgstr ""
-"Asettaa automaattisen <b><style=\"logic_on\">Vihreää Signaalia</style></b> "
-"ja <b><style=\"logic_off\">Punaisen Signaalin</style></b> aikataulut "
-"ajastinta käyttäen."
+"Asettaa automaattisen aikataulun <b><style=\"logic_on\">Vihreälle "
+"Signaalille</style></b> ja <b><style=\"logic_off\">Punaiselle Signaalille</"
+"style></b> yhden päivä-yö-kierron aikana."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT"
@@ -11431,11 +11267,6 @@ msgid "Cycle Time"
 msgstr "Kiertoaika"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> if current time is "
-#| "within the selected <b><color=#57b95e>Green</b></color> range"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if current time is "
@@ -11445,21 +11276,15 @@ msgstr ""
 "hetkinen aika on valitulla <b><color=#57b95e>Vihreällä</b></color>alueella"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT_INACTIVE"
-#| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
 msgstr ""
-"Muutoin lähettää <b><style=\"logic_off\">Punaisen Signaalin</style></b>"
+"Muutoin lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.NAME"
-#| msgid "<link=\"LOGICTIMEOFDAYSENSOR\">Clock Sensor</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.NAME"
 msgid "<link=\"LOGICTIMEOFDAYSENSOR\">Cycle Sensor</link>"
-msgstr "<link=\"LOGICTIMEOFDAYSENSOR\">Kellonaikatunnistin</link>"
+msgstr "<link=\"LOGICTIMEOFDAYSENSOR\">Kiertotunnistin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.DESC"
@@ -11512,12 +11337,6 @@ msgstr ""
 "tai pois."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORGAS.EFFECT"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> or a "
-#| "<b><color=#f44a47>Red Signal</b></color> when <link=\"ELEMENTSGAS\">Gas</"
-#| "link> pressure enters the chosen range."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.EFFECT"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> or a <b><style="
@@ -11525,8 +11344,8 @@ msgid ""
 "consumed enters the chosen range."
 msgstr ""
 "Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> tai <b><style="
-"\"logic_off\">Punaista Signaalia</style></b>, kun <link=\"ELEMENTSGAS"
-"\">Kaasun</link> paine asettuu säädetylle alueelle."
+"\"logic_off\">Punaista Signaalia</style></b>, kun kulutettu <link=\"POWER"
+"\">Sähköteho</link> asettuu valitulle alueelle."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT"
@@ -11534,35 +11353,24 @@ msgid "Consumed <link=\"POWER\">Wattage</link>"
 msgstr "Consumed <link=\"POWER\">Teho</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#57b95e>Green Signal</b></color> if ambient <link=\"HEAT"
-#| "\">Temperature</link> is within the selected range"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if current <link="
 "\"POWER\">Wattage</link> is within the selected range"
 msgstr ""
-"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> kun ympäristön "
-"<link=\"HEAT\">Lämpötila</link> on valitulla alueella"
+"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> jos sen "
+"hetkinen <link=\"HEAT\">Sähköteho</link> on valitulla alueella"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_INACTIVE"
-#| msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
 msgstr ""
 "Muutoin lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.NAME"
-#| msgid "<link=\"LOGICDISEASESENSOR\">Germ Sensor</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.NAME"
 msgid "<link=\"LOGICWATTSENSOR\">Wattage Sensor</link>"
-msgstr "<link=\"LOGICDISEASESENSOR\">Mikrobitunnistin</link>"
+msgstr "<link=\"LOGICWATTSENSOR\">Sähkötehotunnistin</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIRE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIRE.DESC"
@@ -11615,31 +11423,21 @@ msgid "Transmit Signal"
 msgstr "Lähetä Signaali"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "<b><color=#57b95e>Green Signal</b></color>: Pass through the "
-#| "<b><color=#57b95e>Green Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_ACTIVE"
 msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Pass through the <b><style="
 "\"logic_on\">Green Signal</style></b>"
 msgstr ""
-"<b><style=\"logic_on\">Vihreä Signaali</style></b>:  Kuljeta <b><style="
+"<b><style=\"logic_on\">Vihreä Signaali</style></b>: Lähetä <b><style="
 "\"logic_on\">Vihreä Signaali</style></b> läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_INACTIVE"
-#| msgid ""
-#| "<b><color=#f44a47>Red Signal</b></color>: Pass through the "
-#| "<b><color=#f44a47>Red Signal</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT_INACTIVE"
 msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b>: Pass through the <b><style="
 "\"logic_off\">Red Signal</style></b>"
 msgstr ""
-"<b><style=\"logic_off\">Punainen Signaali</style></b>: Kuljeta<b><style="
+"<b><style=\"logic_off\">Punainen Signaali</style></b>: Päästä <b><style="
 "\"logic_off\">Punainen Signaali</style></b> läpi"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.NAME
@@ -12563,14 +12361,6 @@ msgid "Comes with a few ions thrown in, free of charge."
 msgstr "Muutama ioni tulee kaupan päälle, ilman varausta."
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
-#| msgid ""
-#| "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new "
-#| "technologies.\n"
-#| "\n"
-#| "Assigned Duplicants must possess the <link=\"JUNIORRESEARCHER\">Super "
-#| "Computer Researching</link> trait."
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Atomic Research</link> to unlock new "
@@ -12581,19 +12371,18 @@ msgid ""
 "Assigned Duplicants must possess the <link=\"ATOMICRESEARCHER\">Atomic "
 "Research</link> skill."
 msgstr ""
-"Tuottaa <link=\"RESEARCH\">Kehittynyttä Tutkimusta</link> uusien "
-"teknologioiden avaamiseksi.\n"
+"Tuottaa <link=\"RESEARCH\">Atomitutkimusta</link> uusien teknologioiden "
+"avaamiseksi.\n"
 "\n"
-"Nimetyillä Jäljennäisillä tulee olla <link=\"JUNIORRESEARCHER"
-"\">Supertietokonetutkimus</link>piirre."
+"Kuluttaa Sädevasamia.\n"
+"\n"
+"Määrätyillä Jäljeennäisillä <link=\"ATOMICRESEARCHER\">Atomitutkimus</"
+"link>taito."
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.NAME"
-#| msgid "<link=\"NUCLEARREACTOR\">Nuclear Reactor</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.NAME"
 msgid "<link=\"NUCLEARLABORATORY\">Atomic Collider</link>"
-msgstr "<link=\"NUCLEARREACTOR\">Ydinreaktori</link>"
+msgstr "<link=\"NUCLEARLABORATORY\">Atomitörmäytin</link>"
 
 # vai "Automaatit"?
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.DESC
@@ -12604,14 +12393,6 @@ msgstr ""
 "esineitä."
 
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.EFFECT"
-#| msgid ""
-#| "Stores any <link=\"ELEMENTSSOLID\">Solid Materials</link> delivered to it "
-#| "by Duplicants.\n"
-#| "\n"
-#| "Dumps stored materials back into the world when it receives a "
-#| "<b><color=#57b95e>Green Signal</b></color>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.EFFECT"
 msgid ""
 "Stores any <link=\"ELEMENTSSOLID\">Solid Materials</link> delivered to it by "
@@ -12699,6 +12480,8 @@ msgid ""
 "It's a generally good idea to pack some supplies when exploring unknown "
 "worlds."
 msgstr ""
+"On yleensä hyvä ajatus pakata jonkin verran tarvikkeita mukaan, kun lähtee "
+"tutkimaan tuntemattomia maita."
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.EFFECT"
@@ -12706,30 +12489,21 @@ msgid ""
 "Delivers cargo to the surface of Planetoids that do not yet have a <link="
 "\"LAUNCHPLATFORM\">Rocket Platform</link>."
 msgstr ""
+"Toimittaa rahtia Planetoidien pinnalle, joilla ei vielä ole <link="
+"\"LAUNCHPLATFORM\">Rakettialustaa</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.NAME"
-#| msgid "<link=\"TOURISTMODULE\">Sight-Seeing Module</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME"
 msgid "<link=\"ORBITALCARGOMODULE\">Orbital Cargo Module</link>"
-msgstr "<link=\"TOURISTMODULE\">Nähtävyysmoduuli</link>"
+msgstr "<link=\"ORBITALCARGOMODULE\">Kiertoratarahtimoduuli</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.DESC"
 msgid "Orbital Microlabs perform research from the orbit around a Planetoid."
 msgstr ""
+"Kiertoratamicrolabrat tuottavat tukimusta Planetoidin kiertoradalta käsin."
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.EFFECT"
-#| msgid ""
-#| "Conducts <link=\"RESEARCH\">Interstellar Research</link> using data from "
-#| "<link=\"TELESCOPE\">Telescopes</link> and <link=\"RESEARCHMODULE"
-#| "\">Research Modules</link>.\n"
-#| "\n"
-#| "Assigned Duplicants must possess the <link=\"SENIORRESEARCHER"
-#| "\">Planetarium Researching</link> trait."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Interstellar Research</link> to unlock new "
@@ -12741,11 +12515,13 @@ msgid ""
 "Assigned Duplicants must possess the <link=\"COSMICRESEARCHER\">Orbital "
 "Researcher</link> skill."
 msgstr ""
-"Tuottaa <link=\"RESEARCH\">Tähtienvälistä Tutkimusta</link> <link=\"TELESCOPE"
-"\">Teleskooppeja</link> ja <link=\"RESEARCHMODULE\">Tutkimusmoduuleita</"
-"link> käyttäen.\n"
+"Tuottaa <link=\"RESEARCH\">Tähtienvälistä Tutkimusta</link> uusien "
+"teknologioiden avaamiseksi.\n"
 "\n"
-"Nimetyillä Jäljennäisillä tulee olla <link=\"SENIORRESEARCHER"
+"Kuluttaa  <link=\"POLYPROPYLENE\">Muovia</link> ja <link=\"POWER\">Sähköä</"
+"link>.\n"
+"\n"
+"Määrätyillä Jäljennäisillä tulee olla <link=\"SENIORRESEARCHER"
 "\">Planetaariotutkimus</link>-piirre."
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.NAME
@@ -14081,7 +13857,7 @@ msgstr ""
 "Mahdollistaa nimetyn <link=\"RANCHER\">Paimenen</link> pitävän huolta <link="
 "\"CRITTERS\">Otuksista</link>.\n"
 "\n"
-"Nimetyillä Jäljennäisillä täytyy olla <link=\"RANCHER\">Otuspaimen</link>-"
+"Määrätyillä Jäljennäisillä täytyy olla <link=\"RANCHER\">Otuspaimen</link>-"
 "piirre.\n"
 "\n"
 "Tämä rakennus on olennainen osa Navetta-huonetta."
@@ -14292,7 +14068,7 @@ msgstr "Murskaa ainetta {0} aineeksi {1}."
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.DESC"
 msgid "Looks kinda fun."
-msgstr ""
+msgstr "Näyttää aika hauskalta."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.EFFECT"
@@ -14301,14 +14077,14 @@ msgid ""
 "\n"
 "Cargo rockets must possess a Rocket Cockpit in order to function."
 msgstr ""
+"Mahdollistaa Jäljennäisen raketin ohjaamisen.\n"
+"\n"
+"Rahtiraketeissa tulee olla Rakettiohjaamo toimiakseen."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.ROCKGAS.NAME"
-#| msgid "<link=\"ROCKGAS\">Rock Gas</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.NAME"
 msgid "<link=\"ROCKETCOMMANDCONSOLE\">Rocket Cockpit</link>"
-msgstr "<link=\"ROCKGAS\">Kivikaasu</link>"
+msgstr "<link=\"ROCKETCOMMANDCONSOLE\">Rakettiohjaamo</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.DESC"
@@ -14316,6 +14092,8 @@ msgid ""
 "Someone needs to be around to jiggle the controls when the screensaver comes "
 "on."
 msgstr ""
+"Jonkun täytyy olla paikalla vispatakseen ohjaimia, kun näytönsäästäjä menee "
+"päälle."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.EFFECT"
@@ -14325,58 +14103,50 @@ msgid ""
 "Assigned Duplicants must have the <link=\"PILOT\">Rocket Piloting</link> "
 "skill."
 msgstr ""
+"Mahdollistaa Jäljennäisten lentäjätoimisten rakettien käytön.\n"
+"\n"
+"Määrätyillä Jäljennäisillä tulee olla <link=\"PILOT\">Raketinohjaus</"
+"link>taito."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.NAME"
-#| msgid "<link=\"POWERCONTROLSTATION\">Power Control Station</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.NAME"
 msgid "<link=\"ROCKETCONTROLSTATION\">Rocket Control Station</link>"
-msgstr "<link=\"POWERCONTROLSTATION\">Voimansäätöasema</link>"
+msgstr "<link=\"ROCKETCONTROLSTATION\">Raketinohjausasema</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.DESC"
-#| msgid "Keeps the space out and the atmosphere in"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.DESC"
 msgid "Keeps the space out."
-msgstr "Pitää avaruuden ulkona ja ilmakehän sisällä"
+msgstr "Pitää avaruuden ulkona."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.EFFECT"
 msgid "The walls of a rocket."
-msgstr ""
+msgstr "Raketin seinät."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.FAMILY.DRECKO"
-#| msgid "<link=\"DRECKOSPECIES\">Drecko</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.NAME"
 msgid "<link=\"ROCKETENVELOPETILE\">Rocket</link>"
-msgstr "<link=\"DRECKOSPECIES\">Drekko</link>"
+msgstr "<link=\"ROCKETENVELOPETILE\">Raketti</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.DESC"
 msgid "I can see my asteroid from here!"
-msgstr ""
+msgstr "Voin nähdä asteroidini täältä!"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.EFFECT"
 msgid "The window of a rocket."
-msgstr ""
+msgstr "Raketin ikkuna."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME"
-#| msgid "<link=\"FACILITYBACKWALLWINDOW\">Window</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPEWINDOWTILE.NAME"
 msgid "<link=\"ROCKETENVELOPEWINDOWTILE\">Rocket Window</link>"
-msgstr "<link=\"FACILITYBACKWALLWINDOW\">Ikkuna</link>"
+msgstr "<link=\"ROCKETENVELOPEWINDOWTILE\">Raketin Ikkuna</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUT.DESC"
 msgid "It's basically central-vac."
-msgstr ""
+msgstr "Käytännössä keskuspölynimuri."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUT.EFFECT"
@@ -14388,19 +14158,22 @@ msgid ""
 "\n"
 "Must be built within the interior of a Rocket Module."
 msgstr ""
+"Mahdollistaa <link=\"ELEMENTSGAS\">Kaasujen</link> pumppaamisen raketin "
+"rahtitilaan <link=\"GASCONDUIT\">Putkia</link> pitkin.\n"
+"\n"
+"Lähettää kaasua ensimmäiseen Rakettimoduuliin, jossa on tilaa.\n"
+"\n"
+"Täytyy rakentaa Rakettimoduulin sisätiloihin."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASINPUT"
-#| msgid "<link=\"GASPIPING\">Gas Intake Pipe</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUT.NAME"
 msgid "<link=\"ROCKETINTERIORGASINPUT\">Gas Intake Fitting</link>"
-msgstr "<link=\"GASPIPING\">Kaasun sisääntuloputki</link>"
+msgstr "<link=\"ROCKETINTERIORGASINPUT\">Kaasun Sisäänottokiinnike</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.DESC"
 msgid "Refreshing breezes, on-demand."
-msgstr ""
+msgstr "Raikkaita tuulahduksia tilauksesta."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.EFFECT"
@@ -14412,19 +14185,23 @@ msgid ""
 "\n"
 "Must be built within the interior of a Rocket Module."
 msgstr ""
+"Mahdollistaa <link=\"ELEMENTSGAS\">Kaasujen</link> imemisen raketin "
+"rahtitilasta <link=\"GASCONDUIT\">Putkia</link> pitkin.\n"
+"\n"
+"Imee kaasua ensimmäisestä Rakettimoduulista, jossa on pyydettyä "
+"materiaalia.\n"
+"\n"
+"Täytyy rakentaa Rakettimoduulin sisätiloihin."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUT"
-#| msgid "<link=\"GASPIPING\">Gas Output Pipe</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.NAME"
 msgid "<link=\"ROCKETINTERIORGASOUTPUT\">Gas Output Fitting</link>"
-msgstr "<link=\"GASPIPING\">Kaasun Poistoputki</link>"
+msgstr "<link=\"ROCKETINTERIORGASOUTPUT\">Kaasun Poistokiinnike</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.DESC"
 msgid "Begone, foul waters!"
-msgstr ""
+msgstr "Häipykää, katalat vedet!"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.EFFECT"
@@ -16389,7 +16166,7 @@ msgid ""
 msgstr ""
 "Kartoittaa tähtikarttojen määränpäitä.\n"
 "\n"
-"Nimetyillä Jäljennäisillä tulee olla <link=\"RESEARCHER\">Maantieteellinen "
+"Määrätyillä Jäljennäisillä tulee olla <link=\"RESEARCHER\">Maantieteellinen "
 "Analyysi</link>-piirre.\n"
 "\n"
 "Rakennusten tulee olla alttiina avaruudelle toimiakseen."
@@ -32136,6 +31913,9 @@ msgid ""
 "This seed carries some unexpected genetic markers. Analyze it at the <link="
 "\"GENETICANALYSISSTATION\">Botanical Analyzer</link> to learn its secrets."
 msgstr ""
+"Tämä siemen kantaa joitakin odottamattomia geneettisiä merkintöjä. Analysoi "
+"se <link=\"GENETICANALYSISSTATION\">Kasvitieteellisessä Analysaattorissa</"
+"link> oppiaksesi sen salat."
 
 #. STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.NAME"
@@ -32143,11 +31923,6 @@ msgid "Unrefrigerated"
 msgstr "Ei Jäähdytetty"
 
 #. STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP"
-#| msgid ""
-#| "<style=\"KKeyword\">Temperatures</style> above <b>{RotTemperature}</b> "
-#| "spoil food more quickly"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP"
 msgid ""
 "This food is warm\n"
@@ -32155,7 +31930,9 @@ msgid ""
 "<style=\"KKeyword\">Temperatures</style> above <b>{RotTemperature}</b> spoil "
 "food more quickly"
 msgstr ""
-"{RotTemperature} korkeammat <style=\"KKeyword\">Lämpötilat</style> saavat "
+"Tämä ruoka on lämmintä\n"
+"\n"
+"Yli <b>{RotTemperature}</b> <style=\"KKeyword\">Lämpötilat</style> saavat "
 "ruuan pilaantumaan nopeammin"
 
 #. STRINGS.CREATURES.STATUSITEMS.WILTING.NAME
@@ -32515,7 +32292,7 @@ msgstr "Koristeellisuus"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.DESC"
 msgid "Change in Decor relative to the base crop"
-msgstr ""
+msgstr "Sisustuksen muutos suhteessa peruskasviin"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.NAME"
@@ -32632,14 +32409,12 @@ msgid ""
 "Fertilizer and irrigation amounts this plant requires relative to the base "
 "crop"
 msgstr ""
+"Lannoite- ja kastelumäärät, joita tämä kasvi tarvitsee suhteessa peruskasviin"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.FARMINGMATERIAL"
-#| msgid "Fertilizer"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.NAME"
 msgid "Fertilizer Usage"
-msgstr "Lannoitteet"
+msgstr "Lannoitteiden käyttö"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.DESC"
@@ -33117,44 +32892,32 @@ msgstr ""
 "nähdäksesi tämänhetkiset <style=\"KKeyword\">Koristeellisuus</style>values"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRECOVERY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.REDALERT.TOOLTIP"
-#| msgid ""
-#| "The <style=\"KKeyword\">Red Alert</style> is stressing this Duplicant out"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRECOVERY.DESC"
 msgid ""
 "The rate at which <style=\"KKeyword\">Radiation</style> is neutralized "
 "within a Duplicant body."
-msgstr "<style=\"KKeyword\">Punainen Hälytystila</style> ahdistaa Jäljennäisiä"
+msgstr ""
+"Nopeus, jolla <style=\"KKeyword\">Säteily</style> neutraloituu Jäljennäisen "
+"kehossa."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRECOVERY.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRECOVERY.NAME"
 msgid "Radiation Absorption"
-msgstr ""
+msgstr "Säteilyn absorptio"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRESISTANCE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.COOKING.DESC"
-#| msgid ""
-#| "Determines how quickly a Duplicant prepares <style=\"KKeyword\">Food</"
-#| "style>."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRESISTANCE.DESC"
 msgid ""
 "Determines how easily a Duplicant repels <style=\"KKeyword\">Radiation "
 "Sickness</style>."
 msgstr ""
-"Määrittää kuinka nopeasti Jäljennäinen valmistaa <link=\"FOOD\">Ruokaa</"
-"link>."
+"Määrittää kuinka helposti Jäljennäinen vastustaa <link=\"FOOD"
+"\">Säteilysairauden</link>."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRESISTANCE.NAME
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
-#| "STRONG.ATTRIBUTE_MODIFIER_NAME"
-#| msgid "Strong Germ Resistance"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRESISTANCE.NAME"
 msgid "Radiation Resistance"
-msgstr "Vahva Bakteeriensietokyky"
+msgstr "Säteilynkestävyys"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC"

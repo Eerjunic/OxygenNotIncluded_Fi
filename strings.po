@@ -33845,12 +33845,9 @@ msgid "Supplying ranching materials"
 msgstr "Toimittaa kasvatusmateriaaleja"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.FETCH.TOOLTIP"
-#| msgid "This Duplicant is delivering materials where they need to go"
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.TOOLTIP"
 msgid "This Duplicant is delivering materials for ranching activities"
-msgstr "Tämä Jäljennäinen toimittaa materiaaleja sinne, minne niitä tarvitaan"
+msgstr "Tämä Jäljennäinen toimittaa materiaaleja kasvatustoimintoja varten"
 
 #. STRINGS.DUPLICANTS.CHORES.FLEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLEE.NAME"
@@ -34419,7 +34416,7 @@ msgstr "{Duplicant} -- {Reason}"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_BALLOON_STALL_CELL
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_BALLOON_STALL_CELL"
 msgid "Has a location for a Balloon Stall"
-msgstr ""
+msgstr "Sisältää sijainnin Ilmapallokojulle"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_MINGLE_CELL
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_MINGLE_CELL"
@@ -36572,26 +36569,21 @@ msgid ""
 "\">Light</style> was left on where they were trying to sleep"
 msgstr ""
 "Tämä Jäljennäinen vääntelehti ja kääntelehti, koska <style=\"KKeyword"
-"\">Valo</style> oli jätetty päälle heidän nukkumapaikkaansa"
+"\">Valo</style> oli jätetty päälle hänen nukkumapaikkaansa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPAFRAIDOFDARK.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPAFRAIDOFDARK.NAME"
 msgid "Unrested: Afraid of Dark"
-msgstr ""
+msgstr "Ei Levännyt: Pelkää Pimeää"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPAFRAIDOFDARK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYLIGHT.TOOLTIP"
-#| msgid ""
-#| "This Duplicant can't sleep because the <style=\"KKeyword\">Lights</style> "
-#| "are still on"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPAFRAIDOFDARK.TOOLTIP"
 msgid ""
 "This Duplicant didn't get much sleep because they were too anxious about the "
 "lack of <style=\"KKeyword\">Light</style> to relax"
 msgstr ""
-"Tämä Jäljennäinen ei pysty nukkumaan, koska <style=\"KKeyword\">Valot</"
-"style> ovat edelleen päällä"
+"Tämä Jäljennäinen ei saanut juurikaan unta, koska hän on liian hermostunut "
+"<style=\"KKeyword\">Valon</style> puutteen vuoksi rentoutuakseen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BARRACKSSTAMINA.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BARRACKSSTAMINA.NAME"
@@ -36616,22 +36608,16 @@ msgstr "Perus Pilaantumisnopeus"
 #. STRINGS.DUPLICANTS.MODIFIERS.BEACHCHAIRLIT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEACHCHAIRLIT.NAME"
 msgid "Sun Kissed"
-msgstr ""
+msgstr "Saanut Aurinkoa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BEACHCHAIRLIT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP"
-#| msgid ""
-#| "This Duplicant had a chance to cut loose!\n"
-#| "\n"
-#| "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEACHCHAIRLIT.TOOLTIP"
 msgid ""
 "This Duplicant had an amazing experience at the Beach\n"
 "\n"
 "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgstr ""
-"Tällä Jäljennäisellä oli mahdollisuus irrotella!\n"
+"Tämä Jäljennäinen koki mahtavan Rantaelämyksen\n"
 "\n"
 "Vapaa-ajan toiminnat nostavat Jäljennäisten <style=\"KKeyword\">Mielialaa</"
 "style>"
@@ -36649,22 +36635,16 @@ msgstr "Tämä Jäljennäinen rentoutuu täysin rantatuolissa"
 #. STRINGS.DUPLICANTS.MODIFIERS.BEACHCHAIRUNLIT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEACHCHAIRUNLIT.NAME"
 msgid "Passably Relaxed"
-msgstr ""
+msgstr "Mukavasti Rentoutunut"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BEACHCHAIRUNLIT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP"
-#| msgid ""
-#| "This Duplicant had delicious drink!\n"
-#| "\n"
-#| "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEACHCHAIRUNLIT.TOOLTIP"
 msgid ""
 "This Duplicant just had a mediocre beach experience\n"
 "\n"
 "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgstr ""
-"Tämä Jäljennäinen joi maukkaan juoman!\n"
+"Tämä Jäljennäinen koki keskinkertaisen rantaelämyksen\n"
 "\n"
 "Vapaa-ajan toiminnat nostavat Jäljennäisten <style=\"KKeyword\">Mielialaa</"
 "style>"
@@ -36734,30 +36714,26 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSBUILDER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSBUILDER.NAME"
 msgid "Accomplished Builder"
-msgstr ""
+msgstr "Etevä Rakentaja"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSBUILDER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RELOCATE.TOOLTIP"
-#| msgid "This Duplicant is moving a building to a new location"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSBUILDER.TOOLTIP"
 msgid ""
 "This Duplicant has built many buildings and has a sense of accomplishment!"
-msgstr "Tämä Jäljennäinen siirtää rakennusta uuteen paikkaan"
+msgstr ""
+"Tämä Jäljennäinen on rakentanut useita rakennuksia ja kokee itsensä eteväksi!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDIGGING1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDIGGING1.NAME"
 msgid "Hot Diggity!"
-msgstr ""
+msgstr "Kaivattua Kokemusta!"
 
+# Sanaleikki vähän ontuu, muttei mahda minkään
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDIGGING1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.DESC"
-#| msgid ""
-#| "This Duplicant was a talented opera singer and a snorkeling instructor."
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDIGGING1.TOOLTIP"
 msgid "This Duplicant did a lot of excavating and is really digging digging"
-msgstr "Tämä Jäljennäinen oli taitava oopperalaulaja ja snorklausopettaja."
+msgstr ""
+"Tämä jäljennäinen on tehnyt paljon kaivamista, jollaista on aina kaivannut"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDOOR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDOOR.NAME"
@@ -36765,12 +36741,9 @@ msgid "Open and Shut"
 msgstr "Avaa ja Sulje"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDOOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FULLBLADDER.TOOLTIP"
-#| msgid "This Duplicant would really appreciate a toilet"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDOOR.TOOLTIP"
 msgid "This Duplicant closed a door and appreciates the privacy"
-msgstr "Tämä Jäljennäinen osaisi todella arvostaa vessaa"
+msgstr "Tämä Jäljennäinen sulki oven ja arvostaa yksityisyyttä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM1.NAME"
@@ -36778,13 +36751,9 @@ msgid "Good Dream"
 msgstr "Hyvä Uni"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM1.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.BEDSIDEMANNER.DESC"
-#| msgid "This Duplicant has good bedside manner and a healing touch"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM1.TOOLTIP"
 msgid "This Duplicant had a good dream and is feeling psyched!"
-msgstr ""
-"Tällä Jäljennäisellä on hyvät lääkärin käytöstavat ja parantava kosketus"
+msgstr "Tämä Jäljennäinen näki hyvän unen ja on täpinöissään!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM2.NAME"
@@ -36792,14 +36761,10 @@ msgid "Really Good Dream"
 msgstr "Todella Hyvä Uni"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM2.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.TOOLTIP"
-#| msgid "This Duplicant had a yummy home cooked meal and is totally stuffed"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM2.TOOLTIP"
 msgid "This Duplicant had a really good dream and is full of possibilities!"
 msgstr ""
-"Tämä Jäljennäinen söi herkullisen kotiruoka-aterian ja sillä on vatsa "
-"pinkeänä"
+"Tämä Jäljennäinen näki erittäin hyvän unen ja on täynnä mahdollisuuksia!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM3.NAME"
@@ -36819,30 +36784,25 @@ msgid "Dream Inspired"
 msgstr "Unen Inspiroima"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM4.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DAILYRATIONLIMITREACHED.TOOLTIP"
-#| msgid "This Duplicant has consumed their allotted rations for the day"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSDREAM4.TOOLTIP"
 msgid "This Duplicant is inspired from all the unforgettable dreams they had"
-msgstr "Tämä jäljennös on syönyt hänelle varatut annokset tältä päivältä"
+msgstr ""
+"Tämä Jäljennäinen on täynnä kimmokkeita näkemistään unohtumattomista unista"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSGENERATOR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSGENERATOR.NAME"
 msgid "Exercised"
-msgstr ""
+msgstr "Kuntoillut"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSGENERATOR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINED.TOOLTIP"
-#| msgid "This Duplicant has been isolated from the colony"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSGENERATOR.TOOLTIP"
 msgid "This Duplicant ran in a Generator and has benefited from the exercise"
-msgstr "Tämä Jäljennäinen on eristetty siirtokunnasta"
+msgstr "Tämä Jäljennäinen juoksi Generaattorissa ja hyötyi liikunnasta"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSHITTHEBOOKS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSHITTHEBOOKS.NAME"
 msgid "Hit the Books"
-msgstr ""
+msgstr "Nenä Kirjassa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSHITTHEBOOKS.TOOLTIP
 #, fuzzy
@@ -36854,25 +36814,20 @@ msgstr ""
 "Tällä Jäljennäisellä ei ole pääsyä yhdellekään keskeneräiselle tehtävälle"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSLITWORKSPACE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.LIGHT.HEADER_1"
-#| msgid "Light"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSLITWORKSPACE.NAME"
 msgid "Lit"
-msgstr "Valo"
+msgstr "Valaistunut"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSLITWORKSPACE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.TOOLTIP"
-#| msgid "This Duplicant isn't feeling well and is taking a rest"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSLITWORKSPACE.TOOLTIP"
 msgid "This Duplicant was in a well lit environment and is feeling lit"
-msgstr "Tämä Jäljennäinen ei voi hyvin ja on lepäämässä"
+msgstr ""
+"Tämä Jäljennäinen oli hyvin valaistussa ympäristössä ja tuntee valaistusta"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSOXYGEN.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSOXYGEN.NAME"
 msgid "Fresh Air"
-msgstr ""
+msgstr "Raitista Ilmaa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSOXYGEN.TOOLTIP
 #, fuzzy
@@ -36885,12 +36840,9 @@ msgstr ""
 "Tämä Jäljennäinen antaa lääkinnällistä hoitoa sairastavalle ystävälleen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSRESEARCH.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.INSPIRED.NAME"
-#| msgid "Inspired"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSRESEARCH.NAME"
 msgid "Inspired Learner"
-msgstr "Inspiroitunut"
+msgstr "Inspiroitunut Oppija"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSRESEARCH.TOOLTIP
 #, fuzzy
@@ -36901,12 +36853,9 @@ msgid "This Duplicant is looking forward to some learning"
 msgstr "Tämä Jäljennäinen on menossa työstämään taidettaan"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSSTORAGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTED.GENERIC"
-#| msgid "Something"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSSTORAGE.NAME"
 msgid "Something in Store"
-msgstr "Jokin"
+msgstr "Jotain Varastossa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSSTORAGE.TOOLTIP
 #, fuzzy
@@ -36938,12 +36887,9 @@ msgstr ""
 "Tämä Jäljennäinen kävi hiljattain suihkussa ja tuntee itsensä putipuhtaaksi!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_SMALL.NAME"
-#| msgid "Small Boulders"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET1.NAME"
 msgid "Small Comforts"
-msgstr "Pieniä Lohkareita"
+msgstr "Pieniä Mukavuuksia"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET1.TOOLTIP
 #, fuzzy
@@ -36955,12 +36901,9 @@ msgid ""
 msgstr "Tämä Jäljennäinen ei yksinkertaisesti osaa arvostaa taidetta"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.NAME"
-#| msgid "Great Food"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET2.NAME"
 msgid "Greater Comforts"
-msgstr "Erinomaista Ruokaa"
+msgstr "Suurempia Mukavuuksia"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET2.TOOLTIP
 #, fuzzy
@@ -36977,12 +36920,9 @@ msgstr ""
 "\"KKeyword\">Vessassa</style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.LUXURY"
-#| msgid "Luxury"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.NAME"
 msgid "Small Luxury"
-msgstr "Ylellinen"
+msgstr "Pientä Ylellisyyttä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.TOOLTIP
 #, fuzzy
@@ -36996,12 +36936,9 @@ msgstr ""
 "Tämä Jäljennäinen kävi avaruusmatkalla ja näki maailmankaikkeuden ihmeitä"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET4.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.CURIOUS"
-#| msgid "Curious"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET4.NAME"
 msgid "Luxurious"
-msgstr "Utelias"
+msgstr "Ylellinen"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET4.TOOLTIP
 #, fuzzy
@@ -37012,33 +36949,24 @@ msgid "This Duplicant feels endless luxury from the Private Bathroom"
 msgstr "Tästä jäljennäisestä tuntuu kuin joku tarkkailisi häntä..."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BOTMOPPING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOPPING.NAME"
-#| msgid "Mopping"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BOTMOPPING.NAME"
 msgid "Mopping"
 msgstr "Moppaa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BOTMOPPING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.ROBOTS.STATUSITEMS.CHARGING.DESC"
-#| msgid "This robot is charging its battery"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BOTMOPPING.TOOLTIP"
 msgid "This lil bot is clearing liquids from the ground"
-msgstr "Tämä robotti lataa akkujaan"
+msgstr "Tämä robotti luuttuaa nesteitä maasta"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BOTSWEEPING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.SLEEPING.NAME"
-#| msgid "Sleeping"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BOTSWEEPING.NAME"
 msgid "Sweeping"
-msgstr "Nukkuu"
+msgstr "Lakaisee"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BOTSWEEPING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BOTSWEEPING.TOOLTIP"
 msgid "This lil bot is picking up debris from the floor"
-msgstr ""
+msgstr "Tämä pikku botti poimii roskia lattioilta"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK1.NAME"
@@ -37140,12 +37068,13 @@ msgstr "Homeostaasi"
 #. STRINGS.DUPLICANTS.MODIFIERS.CARPETFEET.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CARPETFEET.NAME"
 msgid "Tickled Tootsies"
-msgstr ""
+msgstr "Hivellyt Varpahat"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CARPETFEET.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CARPETFEET.TOOLTIP"
 msgid "Walking on carpet has made this Duplicant's day a little more luxurious"
 msgstr ""
+"Matolla käveleminen on tehnyt tämän Jäljennäisen päivästä hieman ylellisemmän"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CATHETERIZED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CATHETERIZED.NAME"
@@ -38055,12 +37984,9 @@ msgstr ""
 "\">Generaattorin</style> pyörimään väliaikaisesti nopeammin"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.MINION_TOOLTIP"
-#| msgid "More information"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.NAME"
 msgid "Major Skin Irritation"
-msgstr "Lisätietoja"
+msgstr "Vakava Ihoärsytys"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.TOOLTIP"
@@ -52175,7 +52101,7 @@ msgid ""
 msgstr ""
 "Siemenetön kasvi, jolla on pehmeä, mehukas keskiosa ja kamala haju.\n"
 "\n"
-"Sitä ei voi uudelleenistuttaa"
+"Sitä ei voi uudelleenistuttaa."
 
 #. STRINGS.ITEMS.FOOD.SWAMPFORAGEPLANT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SWAMPFORAGEPLANT.NAME"

@@ -14550,11 +14550,6 @@ msgid "Separates {0} into its base elements."
 msgstr "Erottelee aineen {0} sen perusaineiksi."
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.DESC"
-#| msgid ""
-#| "Solid oxidizers allows rocket fuel to be efficiently burned in the vacuum "
-#| "of space."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.DESC"
 msgid ""
 "Solid oxidizers allows rocket fuel to be efficiently burned in the vacuum of "
@@ -14565,16 +14560,13 @@ msgstr ""
 
 # Sanalle "polttaa" ei nyt keksi tähän synonyymiä
 #. STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT"
-#| msgid "Stores <link=\"OXYROCK\">Oxylite</link> for burning rocket fuels."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.EFFECT"
 msgid ""
 "Stores <link=\"FERTILIZER\">Fertilizer</link> and <link=\"OXYROCK\">Oxylite</"
 "link> for burning rocket fuels."
 msgstr ""
-"Varastoi <link=\"OXYROCK\">Oksyliittiä</link> raketin polttoaineiden "
-"palamista varten."
+"Varastoi <link=\"FERTILIZER\">Lannoitetta</link> ja <link=\"OXYROCK"
+"\">Oksyliittiä</link> raketin polttoaineiden polttamiseen."
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.NAME"
@@ -14634,6 +14626,9 @@ msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> when reservoir is "
 "less than <b>{0}%</b> full, until it is <b>{1}% (High Threshold)</b> full"
 msgstr ""
+"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> säiliön "
+"ollessa alle <b>{0}%</b> täysi, kunnes se on <b>{1}% (Enimmäiskynnys)</b> "
+"täysi"
 
 #. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.DEACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.DEACTIVATE_TOOLTIP"
@@ -14641,6 +14636,8 @@ msgid ""
 "Sends a <b><style=\"logic_off\">Red Signal</style></b> when reservoir is "
 "<b>{0}%</b> full, until it is less than <b>{1}% (Low Threshold)</b> full"
 msgstr ""
+"Lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b> säiliön "
+"ollessa <b>{0}%</b> täysi, kunnes se on <b>{1}% (Alimmaiskynnys)</b> täysi"
 
 #. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT"
@@ -14648,37 +14645,25 @@ msgid "Refill Parameters"
 msgstr "Uudelleentäyttöparametrit"
 
 #. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#f44a47>Red Signal</b></color> when the battery is more "
-#| "than <b>High Threshold</b> charged, until <b>Low Threshold</b> is reached "
-#| "again"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> when reservoir is "
 "less than <b>Low Threshold</b> full, until <b>High Threshold</b> is reached "
 "again"
 msgstr ""
-"Lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>, akun "
-"ylittäessä latauksen <b>Enimmäiskynnyksen</b> siihen asti, kun "
-"<b>Vähimmäiskynnys</b> saavutetaan uudelleen"
+"Lähettää <b><style=\"logic_on\">Vihreää Signaalia</style></b> säiliön "
+"ollessa alle <b>Vähimmäiskynnyksen</b> verran täysi, kunnes "
+"<b>Enimmäiskynnys</b> jälleen saavutetaan"
 
 #. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE"
-#| msgid ""
-#| "Sends a <b><color=#f44a47>Red Signal</b></color> when the battery is more "
-#| "than <b>High Threshold</b> charged, until <b>Low Threshold</b> is reached "
-#| "again"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_INACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_off\">Red Signal</style></b> when reservoir is "
 "<b>High Threshold</b> full, until <b>Low Threshold</b> is reached again"
 msgstr ""
-"Lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>, akun "
-"ylittäessä latauksen <b>Enimmäiskynnyksen</b> siihen asti, kun "
-"<b>Vähimmäiskynnys</b> saavutetaan uudelleen"
+"Lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b> säiliön "
+"ollessa <b>Enimmäiskynnyksen</b> verran täysi, kunnes <b>Alimmaiskynnys</b> "
+"jälleen saavutetaan"
 
 #. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.SIDESCREEN_ACTIVATE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.SIDESCREEN_ACTIVATE"
@@ -14701,11 +14686,6 @@ msgid "Sparkling water puts a twinkle in a Duplicant's eye."
 msgstr "Kupliva vesi saa Jäljennäisen silmät säkenöimään."
 
 #. STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.EFFECT"
-#| msgid ""
-#| "Uses <link=\"WATER\">Water</link> to filter <link=\"CARBONDIOXIDE"
-#| "\">Carbon Dioxide</link> from the air."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.EFFECT"
 msgid ""
 "Creates soda from <link=\"WATER\">Water</link> and <link=\"CARBONDIOXIDE"
@@ -14713,13 +14693,16 @@ msgid ""
 "\n"
 "Consuming soda water increases Duplicant <link=\"MORALE\">Morale</link>."
 msgstr ""
-"Käyttää <link=\"WATER\">Vettä</link> <link=\"CARBONDIOXIDE\">Hiilidioksidin</"
-"link> suodattamiseen ilmasta."
+"Tuottaa kivennäisvettä <link=\"WATER\">Vedestä</link> ja <link="
+"\"CARBONDIOXIDE\">Hiilidioksidista</link>.\n"
+"\n"
+"Kivennäisveden juominen nostaa Jäljennäisten <link=\"MORALE\">Mielialaa</"
+"link>."
 
 #. STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.NAME"
 msgid "<link=\"SODAFOUNTAIN\">Soda Fountain</link>"
-msgstr "<link=\"SODAFOUNTAIN\">Soodavesiautomaatti</link>"
+msgstr "<link=\"SODAFOUNTAIN\">Kivennäisvesiautomaatti</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANEL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANEL.DESC"
@@ -14751,7 +14734,7 @@ msgstr "<link=\"SOLARPANEL\">Aurinkopaneeli</link>"
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANELMODULE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANELMODULE.DESC"
 msgid "Collect solar energy before takeoff and during flight."
-msgstr ""
+msgstr "Kerää aurinkoenergiaa ennen lähtöä ja lennon aikana."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANELMODULE.EFFECT
 #, fuzzy
@@ -14774,12 +14757,9 @@ msgstr ""
 "Vaatii näköyhteyden avaruuteen."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANELMODULE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANEL.NAME"
-#| msgid "<link=\"SOLARPANEL\">Solar Panel</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANELMODULE.NAME"
 msgid "<link=\"SOLARPANELMODULE\">Solar Panel Module</link>"
-msgstr "<link=\"SOLARPANEL\">Aurinkopaneeli</link>"
+msgstr "<link=\"SOLARPANELMODULE\">Aurinkopaneelimoduuli</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.DESC"
@@ -15198,17 +15178,11 @@ msgstr ""
 "Muutoin lähettää <b><style=\"logic_off\">Punaista Signaalia</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_ACTIVE"
-#| msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset counter"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_ACTIVE"
 msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the amount"
-msgstr "<b><style=\"logic_on\">Vihreä Signaali</style></b>: Nollaa Laskuri"
+msgstr "<b><style=\"logic_on\">Vihreä Signaali</style></b>: Nollaa määrä"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_INACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE"
-#| msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
 msgstr "<b><style=\"logic_off\">Punainen Signaali</style></b>: Ei Mitään"

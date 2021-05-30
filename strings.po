@@ -43178,7 +43178,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.TRAITS.DECORUP.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DECORUP.NAME"
 msgid "Innately Stylish"
-msgstr ""
+msgstr "Synnynnäisesti Tyylikäs"
 
 #. STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.DESC
 #, fuzzy
@@ -43359,17 +43359,14 @@ msgid "Teaches the most basic level of art skill"
 msgstr "Opettaa kaikista yksinkertaisimman taiteenluontitason"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME"
-#| msgid "<link=\"JUNIORARTIST\">Art Fundamentals</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.NAME"
 msgid "Skilled: <link=\"JUNIORARTIST\">Art Fundamentals</link>"
-msgstr "<link=\"JUNIORARTIST\">Taiteen Perusteet</link>"
+msgstr "Osaa: <link=\"JUNIORARTIST\">Taiteen Perusteet</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 1 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43395,17 +43392,14 @@ msgid "Allows moderately attractive art to be created"
 msgstr "Mahdollistaa kohtalaisen näyttävän taiteen luomisen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ARTIST.NAME"
-#| msgid "Aesthetic Design"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.NAME"
 msgid "Skilled: Aesthetic Design"
-msgstr "Esteettinen Suunnittelu"
+msgstr "Osaa: Esteettinen Suunnittelu"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43431,17 +43425,14 @@ msgid "Enables the painting and sculpting of masterpieces"
 msgstr "Mahdollistaa mestariteosten maalaamisen ja veistämisen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MASTER_ARTIST.NAME"
-#| msgid "<link=\"MASTERARTIST\">Masterworks</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.NAME"
 msgid "Skilled: <link=\"MASTERARTIST\">Masterworks</link>"
-msgstr "<link=\"MASTERARTIST\">Mestariteokset</link>"
+msgstr "Osaa: <link=\"MASTERARTIST\">Mestariteokset</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 3 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ARTING3.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43473,17 +43464,14 @@ msgstr ""
 "käyttämisen raketin ohjaamiseksi"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.NAME"
-#| msgid "<link=\"ASTRONAUTTRAINEE\">Rocket Piloting</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.NAME"
 msgid "Skilled: <link=\"ASTRONAUTTRAINEE\">Rocket Piloting</link>"
-msgstr "<link=\"ASTRONAUTTRAINEE\">Raketin Ohjaus</link>"
+msgstr "Osaa: <link=\"ASTRONAUTTRAINEE\">Raketin Ohjaus</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.SHORT_DESC"
 msgid "Starts with a Tier 4 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 4 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43509,17 +43497,14 @@ msgid "Improves the speed that space missions are completed"
 msgstr "Nopeuttaa avaruustehtävien suorittamiseen käytettyä aikaa"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUT.NAME"
-#| msgid "<link=\"ASTRONAUT\">Rocket Navigation</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.NAME"
 msgid "Skilled: <link=\"ASTRONAUT\">Rocket Navigation</link>"
-msgstr "<link=\"ASTRONAUT\">Raketin Navigointi</link>"
+msgstr "Osaa: <link=\"ASTRONAUT\">Raketin Navigointi</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.SHORT_DESC"
 msgid "Starts with a Tier 5 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 5 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ASTRONAUTING2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43545,17 +43530,14 @@ msgid "Minorly improves a Duplicant's physical strength"
 msgstr "Parantaa hieman Jäljennäisen fyysistä voimaa"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.NAME"
-#| msgid "<link=\"HANDYMAN\">Improved Strength</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.NAME"
 msgid "Skilled: <link=\"HANDYMAN\">Improved Strength</link>"
-msgstr "<link=\"HANDYMAN\">Parempi Voimakkuus</link>"
+msgstr "Osaa: <link=\"HANDYMAN\">Parempi Voimakkuus</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 1 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43587,17 +43569,14 @@ msgstr ""
 "sotkematta"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.PLUMBER.NAME"
-#| msgid "<link=\"PLUMBER\">Plumbing</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.NAME"
 msgid "Skilled: <link=\"PLUMBER\">Plumbing</link>"
-msgstr "<link=\"PLUMBER\">Putkimies</link>"
+msgstr "Osaa: <link=\"PLUMBER\">Putkimies</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43623,17 +43602,14 @@ msgid "Marginally improves a Duplicant's construction speeds"
 msgstr "Parantaa Jäljennäisen rakentamisnopeutta hiukan"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.NAME"
-#| msgid "<link=\"JUNIORBUILDER\">Improved Construction I</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.NAME"
 msgid "Skilled: <link=\"JUNIORBUILDER\">Improved Construction I</link>"
-msgstr "<link=\"JUNIORBUILDER\">Parempi Rakentaminen I</link>"
+msgstr "Osaa: <link=\"JUNIORBUILDER\">Parempi Rakentaminen I</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 1 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43659,17 +43635,14 @@ msgid "Further increases a Duplicant's construction speeds"
 msgstr "Nopeuttaa Jäljennäisen rakentamisnopeuksia entisestään"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.BUILDER.NAME"
-#| msgid "<link=\"BUILDER\">Improved Construction II</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.NAME"
 msgid "Skilled: <link=\"BUILDER\">Improved Construction II</link>"
-msgstr "<link=\"BUILDER\">Parempi Rakentaminen II</link>"
+msgstr "Osaa: <link=\"BUILDER\">Parempi Rakentaminen II</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43695,17 +43668,14 @@ msgid "Further increases a Duplicant's construction speeds"
 msgstr "Nopeuttaa Jäljennäisen rakentamisnopeuksia entisestään"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME"
-#| msgid "<link=\"SENIORBUILDER\">Improved Construction III</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.NAME"
 msgid "Skilled: <link=\"SENIORBUILDER\">Improved Construction III</link>"
-msgstr "<link=\"SENIORBUILDER\">Parempi Rakentaminen III</link>"
+msgstr "Osaa: <link=\"SENIORBUILDER\">Parempi Rakentaminen III</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 3 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43737,17 +43707,14 @@ msgstr ""
 "\">Sähkögrillillä</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_COOK.NAME"
-#| msgid "<link=\"JUNIORCOOK\">Grilling</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.NAME"
 msgid "Skilled: <link=\"JUNIORCOOK\">Grilling</link>"
-msgstr "<link=\"JUNIORCOOK\">Grillaus</link>"
+msgstr "Osaa: <link=\"JUNIORCOOK\">Grillaus</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 1 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43773,17 +43740,14 @@ msgid "Improves a Duplicant's cooking speed"
 msgstr "Parantaa Jäljennäisen Ruuanlaittonopeutta"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.COOK.NAME"
-#| msgid "<link=\"COOK\">Grilling II</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.NAME"
 msgid "Skilled: <link=\"COOK\">Grilling II</link>"
-msgstr "<link=\"COOK\">Grillaus II</link>"
+msgstr "Osaa: <link=\"COOK\">Grillaus II</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_COOKING2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43815,17 +43779,14 @@ msgstr ""
 "rakentamisen ja huollon"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MECHATRONIC_ENGINEER.NAME"
-#| msgid "<link=\"MECHATRONICENGINEER\">Mechatronics Engineering</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.NAME"
 msgid "Skilled: <link=\"MECHATRONICENGINEER\">Mechatronics Engineering</link>"
-msgstr "<link=\"MECHATRONICENGINEER\">Mekatroniikkateknikko</link>"
+msgstr "Osaa: <link=\"MECHATRONICENGINEER\">Mekatroniikkateknikko</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 3 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_ENGINEERING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43857,17 +43818,14 @@ msgstr ""
 "mahdollisuuksia kerätä uusia kasvien <style=\"KKeyword\">Siemeniä</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_FARMER.NAME"
-#| msgid "<link=\"JUNIORFARMER\">Improved Farming I</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.NAME"
 msgid "Skilled: <link=\"JUNIORFARMER\">Improved Farming I</link>"
-msgstr "<link=\"JUNIORFARMER\">Paranneltu Maanviljely I</link>"
+msgstr "Osaa: <link=\"JUNIORFARMER\">Paranneltu Maanviljely I</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 1 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43899,17 +43857,14 @@ msgstr ""
 "niiden kasvunopeutta"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.NAME"
-#| msgid "<link=\"FARMER\">Crop Tending</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.NAME"
 msgid "Skilled: <link=\"FARMER\">Crop Tending</link>"
-msgstr "<link=\"FARMER\">Sadonhoito</link>"
+msgstr "Osaa: <link=\"FARMER\">Sadonhoito</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43935,17 +43890,14 @@ msgid "Further increases a Duplicant's farming skills"
 msgstr "Kasvattaa Jäljennäisen viljelytaitoa entisestään"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.NAME"
-#| msgid "<link=\"SENIORFARMER\">Improved Farming II</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.NAME"
 msgid "Skilled: <link=\"SENIORFARMER\">Improved Farming II</link>"
-msgstr "<link=\"SENIORFARMER\">Parempi Viljely II</link>"
+msgstr "Osaa: <link=\"SENIORFARMER\">Parempi Viljely II</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 3 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING3.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -43971,17 +43923,14 @@ msgid "Minorly increase a Duplicant's strength and carrying capacity"
 msgstr "Parantaa hieman Jäljennäisen voimaa ja kantokykyä"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.HAULER.NAME"
-#| msgid "<link=\"HAULER\">Improved Carrying I</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.NAME"
 msgid "Skilled: <link=\"HAULER\">Improved Carrying I</link>"
-msgstr "<link=\"HAULER\">Parempi Kantaminen I</link>"
+msgstr "Osaa: <link=\"HAULER\">Parempi Kantaminen I</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 1 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44013,17 +43962,14 @@ msgstr ""
 "nopeampien toimitusten tekemiseksi"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.NAME"
-#| msgid "<link=\"MATERIALSMANAGER\">Improved Carrying II</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.NAME"
 msgid "Skilled: <link=\"MATERIALSMANAGER\">Improved Carrying II</link>"
-msgstr "<link=\"MATERIALSMANAGER\">Parempi Kantaminen II</link>"
+msgstr "Osaa: <link=\"MATERIALSMANAGER\">Parempi Kantaminen II</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_HAULING2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44055,17 +44001,14 @@ msgstr ""
 "\">Apteekissa</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MEDIC.NAME"
-#| msgid "<link=\"MEDIC\">Medicine Compounding</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.NAME"
 msgid "Skilled: <link=\"MEDIC\">Medicine Compounding</link>"
-msgstr "<link=\"MEDIC\">Lääkkeiden Valmistus</link>"
+msgstr "Osaa: <link=\"MEDIC\">Lääkkeiden Valmistus</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 1 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44097,17 +44040,14 @@ msgstr ""
 "\">Sairastuvalla</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MEDIC.NAME"
-#| msgid "<link=\"MEDIC\">Bedside Manner</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.NAME"
 msgid "Skilled: <link=\"MEDIC\">Bedside Manner</link>"
-msgstr "<link=\"MEDIC\">Potilaskäytös</link>"
+msgstr "Osaa: <link=\"MEDIC\">Potilaskäytös</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44139,17 +44079,14 @@ msgstr ""
 "\">Tautiklinikkaa</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.NAME"
-#| msgid "<link=\"MEDIC\">Advanced Medical Care</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.NAME"
 msgid "Skilled: <link=\"MEDIC\">Advanced Medical Care</link>"
-msgstr "<link=\"MEDIC\">Kehittynyt Lääkintä</link>"
+msgstr "Osaa: <link=\"MEDIC\">Kehittynyt Lääkintä</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 3 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44181,17 +44118,14 @@ msgstr ""
 "\">Graniitin</link> kaivuun"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME"
-#| msgid "<link=\"JUNIORMINER\">Hard Digging</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.NAME"
 msgid "Skilled: <link=\"JUNIORMINER\">Hard Digging</link>"
-msgstr "<link=\"JUNIORMINER\">Kova Kaivaminen</link>"
+msgstr "Osaa: <link=\"JUNIORMINER\">Kova Kaivaminen</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 1 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44219,17 +44153,14 @@ msgid ""
 msgstr "Mahdollistaa <link=\"KATAIRITE\">Abyssaliitin</link> kaivuun"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.NAME"
-#| msgid "<link=\"MINER\">Superhard Digging</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.NAME"
 msgid "Skilled: <link=\"MINER\">Superhard Digging</link>"
-msgstr "<link=\"MINER\">Tosi Kova Kaivaminen</link>"
+msgstr "Osaa: <link=\"MINER\">Tosi Kova Kaivaminen</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44262,17 +44193,14 @@ msgstr ""
 "link> ja <link=\"OBSIDIAN\">Obsidiuanin</link> kaivamisen"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME"
-#| msgid "<link=\"SENIORMINER\">Superduperhard Digging</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.NAME"
 msgid "Skilled: <link=\"SENIORMINER\">Super-Duperhard Digging</link>"
-msgstr "<link=\"SENIORMINER\">Superhyperkova Kaivaminen</link>"
+msgstr "Osaa: <link=\"SENIORMINER\">Superhyperkova Kaivaminen</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 3 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING3.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44304,17 +44232,14 @@ msgstr ""
 "\">Graniitin</link> kaivuun"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME"
-#| msgid "<link=\"JUNIORMINER\">Hard Digging</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.NAME"
 msgid "Skilled: <link=\"MASTERMINER\">Hazmat Digging</link>"
-msgstr "<link=\"JUNIORMINER\">Kova Kaivaminen</link>"
+msgstr "Osaa: <link=\"JUNIORMINER\">Kova Kaivaminen</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.SHORT_DESC"
 msgid "Starts with a Tier 4 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 4 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44345,17 +44270,14 @@ msgstr ""
 "huolenpidon."
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.NAME"
-#| msgid "<link=\"RANCHER\">Critter Ranching I</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.NAME"
 msgid "Skilled: <link=\"RANCHER\">Critter Ranching I</link>"
-msgstr "<link=\"RANCHING\">Otusten Paimentaminen I</link>"
+msgstr "Osaa: <link=\"RANCHING\">Otusten Paimentaminen I</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44381,17 +44303,14 @@ msgid "Improves a Duplicant's <style=\"KKeyword\">Ranching</style> skills"
 msgstr "Parantaa Jäljennäisten <style=\"KKeyword\">Paimennus</style>taitoja"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RANCHER.NAME"
-#| msgid "<link=\"SENIORRANCHER\">Critter Ranching II</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.NAME"
 msgid "Skilled: <link=\"SENIORRANCHER\">Critter Ranching II</link>"
-msgstr "<link=\"SENIORRANCHER\">Otusten Paimentaminen II</link>"
+msgstr "Osaa: <link=\"SENIORRANCHER\">Otusten Paimentaminen II</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 3 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44423,17 +44342,14 @@ msgstr ""
 "\"ADVANCEDRESEARCHCENTER\">Supertietokoneella</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.NAME"
-#| msgid "<link=\"JUNIORRESEARCHER\">Advanced Research</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.NAME"
 msgid "Skilled: <link=\"JUNIORRESEARCHER\">Advanced Research</link>"
-msgstr "<link=\"JUNIORRESEARCHER\">Kehittynyt Tutkiminen</link>"
+msgstr "Osaa: <link=\"JUNIORRESEARCHER\">Kehittynyt Tutkiminen</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 1 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44465,17 +44381,14 @@ msgstr ""
 "style> ja muille ilmiöille"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.RESEARCHER.NAME"
-#| msgid "<link=\"RESEARCHER\">Field Research</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.NAME"
 msgid "Skilled: <link=\"RESEARCHER\">Field Research</link>"
-msgstr "<link=\"RESEARCHER\">Kenttätutkimus</link>"
+msgstr "Osaa: <link=\"RESEARCHER\">Kenttätutkimus</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44507,17 +44420,14 @@ msgstr ""
 "\">Virtuaaliplanetaarion</link> avulla"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.NAME"
-#| msgid "<link=\"SENIORRESEARCHER\">Astronomy</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.NAME"
 msgid "Skilled: <link=\"SENIORRESEARCHER\">Astronomy</link>"
-msgstr "<link=\"SENIORRESEARCHER\">Tähtitiede</link>"
+msgstr "Osaa: <link=\"SENIORRESEARCHER\">Tähtitiede</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 3 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44551,12 +44461,12 @@ msgstr ""
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.NAME"
 msgid "Skilled: <link=\"NUCLEARRESEARCHER\">Atomic Research</link>"
-msgstr "Skilled: <link=\"NUCLEARRESEARCHER\">Ydintutkimus</link>"
+msgstr "Osaa: <link=\"NUCLEARRESEARCHER\">Ydintutkimus</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 3 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44582,17 +44492,14 @@ msgid "Eliminates the runspeed loss experienced while wearing exosuits"
 msgstr "Eliminoi eksopukujen käyttämisestä johtuvan juoksunopeuden laskun"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.NAME"
-#| msgid "<link=\"SUITEXPERT\">Exosuit Training</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.NAME"
 msgid "Skilled: <link=\"SUITEXPERT\">Exosuit Training</link>"
-msgstr "<link=\"SUITEXPERT\">Eksopukukoulutus</link>"
+msgstr "Osaa: <link=\"SUITEXPERT\">Eksopukukoulutus</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.SHORT_DESC"
 msgid "Starts with a Tier 3 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 3 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44618,17 +44525,14 @@ msgid "Marginally improves a Duplicant's tinkering speeds"
 msgstr "Parantaa vähäisesti Jäljennäisen näpertelynopeutta"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.NAME"
-#| msgid "<link=\"MACHINETECHNICIAN\">Improved Tinkering</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.NAME"
 msgid "Skilled: <link=\"MACHINETECHNICIAN\">Improved Tinkering</link>"
-msgstr "<link=\"MACHINETECHNICIAN\">Parempi Näpertely</link>"
+msgstr "Osaa: <link=\"MACHINETECHNICIAN\">Parempi Näpertely</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.SHORT_DESC"
 msgid "Starts with a Tier 1 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 1 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS1.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44660,19 +44564,14 @@ msgstr ""
 "väliaikaisesti kasvattaa <style=\"KKeyword\">Sähkön</style>tuottoa"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.NAME
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS."
-#| "TINKER_REQUIREMENT_NAME"
-#| msgid "Skill: <link=\"POWERTECHNICIAN\">Electrical Engineering</link>"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.NAME"
 msgid "Skilled: <link=\"POWERTECHNICIAN\">Electrical Engineering</link>"
-msgstr "Taito: <link=\"POWERTECHNICIAN\">Sähkötekniikka</link>"
+msgstr "Osaa: <link=\"POWERTECHNICIAN\">Sähkötekniikka</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC"
 msgid "Starts with a Tier 2 <b>Skill</b>"
-msgstr ""
+msgstr "Aloittaa Tason 2 <b>Taidolla</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC_TOOLTIP
 #, fuzzy
@@ -44704,12 +44603,9 @@ msgid "Grease Monkey"
 msgstr "Monttuapina"
 
 #. STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.TOOLTIP"
-#| msgid "This Duplicant recently had a chance to chat with a friend"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.DESC"
 msgid "This Duplicant regards every plant as a potential friend"
-msgstr "Tämä Jäljennäinen on hiljattain jutellut ystävän kanssa"
+msgstr "Tämä Jäljennäinen kohtelee kaikkia kasveja mahdollisena ystävänään"
 
 #. STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.NAME"
@@ -44962,12 +44858,9 @@ msgid "Requires light to sleep"
 msgstr "Vaatii valoa saadakseen unta"
 
 #. STRINGS.DUPLICANTS.TRAITS.NIGHTLIGHT.SHORT_DESC_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_DARKNESS"
-#| msgid "This plant requires complete darkness"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NIGHTLIGHT.SHORT_DESC_TOOLTIP"
 msgid "This Duplicant can't sleep in complete darkness"
-msgstr "Tämä kasvi vaatii täydellisen pimeyden"
+msgstr "Tämä Jäljennäinen ei pysty nukkumaan pilkkopimeässä"
 
 #. STRINGS.DUPLICANTS.TRAITS.NIGHTOWL.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NIGHTOWL.DESC"
@@ -45079,20 +44972,16 @@ msgid "Pacifist"
 msgstr "Pasifisti"
 
 #. STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TIRED.TOOLTIP"
-#| msgid "This Duplicant could use a nice nap"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC"
 msgid "This Duplicant could lick a Puft's backside and taste nothing"
-msgstr "Tälle Jäljennäiselle voisi maistua pikku tirsat"
+msgstr ""
+"Tämä Jäljennäinen voisi nuolla vaikka Pöhnön takapuolta, eikä maistaisi "
+"mitään"
 
 #. STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.NAME"
-#| msgid "Simple Tastes"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.NAME"
 msgid "Shrivelled Tastebuds"
-msgstr "Yksinkertainen Maku"
+msgstr "Kutistuneet Makunystyrät"
 
 #. STRINGS.DUPLICANTS.TRAITS.SLOWLEARNER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SLOWLEARNER.DESC"
@@ -58241,6 +58130,13 @@ msgid ""
 "Reek\n"
 "Ooz\n"
 msgstr ""
+"Räkä\n"
+"Näljä\n"
+"Lemu\n"
+"Haju\n"
+"Äklö\n"
+"Lieju\n"
+"Löyhkä\n"
 
 #. STRINGS.NAMEGEN.WORLD.ROOTS.TERRA
 msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.TERRA"
@@ -58253,6 +58149,13 @@ msgid ""
 "Pleth\n"
 "Vital\n"
 msgstr ""
+"Maa\n"
+"Hedelm\n"
+"Kamara\n"
+"Maaperä\n"
+"Elo\n"
+"Luonto\n"
+"Erä\n"
 
 #. STRINGS.NAMEGEN.WORLD.ROOTS.TUNDRA
 msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.TUNDRA"
@@ -58266,6 +58169,13 @@ msgid ""
 "Frig\n"
 "Frost\n"
 msgstr ""
+"Hyhmä\n"
+"Lumi\n"
+"Tuntur\n"
+"Pakkas\n"
+"Viile\n"
+"Kohme\n"
+"Kuura\n"
 
 #. STRINGS.NAMEGEN.WORLD.ROOTS.WATER
 msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.WATER"
@@ -58273,6 +58183,8 @@ msgid ""
 "Wat\n"
 "HydrAu\n"
 msgstr ""
+"Ves\n"
+"HydrAu\n"
 
 #. STRINGS.NAMEGEN.WORLD.SPACECRAFT_PREFIX
 msgctxt "STRINGS.NAMEGEN.WORLD.SPACECRAFT_PREFIX"
@@ -58523,12 +58435,9 @@ msgstr ""
 "\"SUITFABRICATOR\">Eksopukupajassa</link>"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.LEAD_SUIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.NAME"
-#| msgid "<style=\"KKeyword\">Jet Suit</style> Pattern"
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.LEAD_SUIT.NAME"
 msgid "<style=\"KKeyword\">Lead Suit</style> Pattern"
-msgstr "<style=\"KKeyword\">Rakettipuvun</style> Kaava"
+msgstr "<style=\"KKeyword\">Lyijypuvun</style> Kaava"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.ORBITAL_RESEARCH_POINT.DESC
 #, fuzzy
@@ -58545,12 +58454,9 @@ msgstr ""
 "kerryttämisen avaten korkeammat teknologiatasot."
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.ORBITAL_RESEARCH_POINT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.BETA_RESEARCH_POINT.NAME"
-#| msgid "<style=\"KKeyword\">Advanced Research</style> Capability"
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.ORBITAL_RESEARCH_POINT.NAME"
 msgid "<style=\"KKeyword\">Orbital Research</style> Capability"
-msgstr "<style=\"KKeyword\">Kehittynyt Tutkimus</style>kyky"
+msgstr "<style=\"KKeyword\">Kiertoratatutkimus</style>kyky"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.OXYGEN_MASK.DESC
 #, fuzzy
@@ -62845,11 +62751,6 @@ msgstr ""
 "    • lämmönjohtokyky"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATER_TARGETTEMPERATURE
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATER_TARGETTEMPERATURE"
-#| msgid ""
-#| "Stops heating when the surrounding average <style=\"KKeyword\">Tempature</"
-#| "style> is above <b>{0}</b>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATER_TARGETTEMPERATURE"
 msgid ""
 "Stops heating when the surrounding average <style=\"KKeyword\">Temperature</"
@@ -62882,16 +62783,6 @@ msgstr ""
 "    • lämmönjohtokyky"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_AIRCONDITIONER
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_AIRCONDITIONER"
-#| msgid ""
-#| "Generates <style=\"KKeyword\">Heat</style> based on the <style=\"KKeyword"
-#| "\">Volume</style>, <style=\"KKeyword\">Temperature</style>, and <style="
-#| "\"KKeyword\">Specific Heat Capacity</style> of the pumped <style="
-#| "\"KKeyword\">Gas</style>\n"
-#| "------------------\n"
-#| "Cooling 1 Kg of room temperature <link=\"OXYGEN\">Oxygen</link> will "
-#| "output <b>{0}</b> per second"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_AIRCONDITIONER"
 msgid ""
 "Generates <style=\"KKeyword\">Heat</style> based on the <style=\"KKeyword"
@@ -62905,22 +62796,11 @@ msgstr ""
 "\">Kaasun</style> <style=\"KKeyword\">Tilavuuden</style>, <style=\"KKeyword"
 "\">Lämpötilan</style> ja <style=\"KKeyword\">Ominaislämpökapasiteetin</"
 "style> mukaan\n"
-"------------------\n"
-"Jäähdyttämällä 1 kg huoneen lämpöistä <link=\"OXYGEN\">Happea</link>, syntyy "
-"<b>{0}</b> joka sekunti"
+"\n"
+"Jäähdyttämällä 1   kg <link=\"OXYGEN\">Happea</link> <b>{1}</b> ajan, syntyy "
+"<b>{0}</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDCONDITIONER
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDCONDITIONER"
-#| msgid ""
-#| "Generates <style=\"KKeyword\">Heat</style> based on the <style=\"KKeyword"
-#| "\">Volume</style>, <style=\"KKeyword\">Temperature</style>, and <style="
-#| "\"KKeyword\">Specific Heat Capacity</style> of the pumped <style="
-#| "\"KKeyword\">Liquid</style>\n"
-#| "------------------\n"
-#| "Cooling 1 Kg of room temperature <link=\"WATER\">Water</link> will output "
-#| "<style=\"consumed\">{0}</style> per second"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_LIQUIDCONDITIONER"
 msgid ""
 "Generates <style=\"KKeyword\">Heat</style> based on the <style=\"KKeyword"
@@ -62935,9 +62815,8 @@ msgstr ""
 "\">Lämpötilan</style> ja <style=\"KKeyword\">Ominaislämpökapasiteetin</"
 "style> mukaan\n"
 "\n"
-"------------------\n"
-"Jäähdyttämällä 1 kg huoneen lämpöistä <link=\"OXYGEN\">Vettä</link>, syntyy "
-"<b>{0}</b> joka sekunti"
+"Jäähdyttämällä 10   kg <link=\"OXYGEN\">Vettä</link> <b>{1}</b> ajan, syntyy "
+"<b>{0}</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS"
@@ -62965,34 +62844,24 @@ msgstr ""
 "\">Lämpötilan</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDCOOLING
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDCOOLING"
-#| msgid ""
-#| "Reduces the <style=\"KKeyword\">Temperature</style> of piped liquids by "
-#| "<b>{0}</b>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.LIQUIDCOOLING"
 msgid ""
 "Reduces the <style=\"KKeyword\">Temperature</style> of piped <style="
 "\"KKeyword\">Liquid</style> by <b>{0}</b>"
 msgstr ""
-"Alentaa putkessa olevien nesteiden <style=\"KKeyword\">Lämpötilaa</style> "
-"<b>{0}</b>"
+"Alentaa putkessa olevan <style=\"KKeyword\">Nesteen</style> <style=\"KKeyword"
+"\">Lämpötilaa</style> <b>{0}</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_BITS
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.TRANSFORMER_INPUT_WIRE"
-#| msgid ""
-#| "Connect a <style=\"KKeyword\">Wire</style> to the large <style=\"KKeyword"
-#| "\">Input</style> with any amount of <style=\"KKeyword\">Watts</style>."
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_BITS"
 msgid ""
 "Sending an <style=\"KKeyword\">Automation Signal</style> with a higher "
 "<style=\"KKeyword\">Bit Depth</style> than the connected <style=\"KKeyword"
 "\">Logic Wire</style> can result in damage to the circuit"
 msgstr ""
-"Jäljennäiset voivat saada tämän <style=\"KKeyword\">Taudin</style> syömällä "
-"näillä <style=\"KKeyword\">Bakteereilla</style> saastunutta <style=\"KKeyword"
-"\">Ruokaa</style>."
+"Lähettämällä <style=\"KKeyword\">Automaatiosignaalia</style>, jolla on "
+"suurempi <style=\"KKeyword\">Bittisyvyys</style> kuin yhdistetyllä <style="
+"\"KKeyword\">Logiikkajohdolla</style>, voi johtaa piirin vaurioitumiseen"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE"
@@ -63056,30 +62925,23 @@ msgid "Begins overheating at <b>{0}</b>"
 msgstr "Alkaa ylikuumeta lämpötilassa <b>{0}</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PARTICLE_PORT_INPUT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.AGGRESSIVE.NOREPAIR"
-#| msgid ""
-#| "• Will not repair buildings while above 60% <style=\"KKeyword\">Stress</"
-#| "style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PARTICLE_PORT_INPUT"
 msgid ""
 "A Radbolt Port on this building allows it to receive <style=\"KKeyword"
 "\">Radbolts</style>"
 msgstr ""
-"• Ei korjaa rakennuksia kun <style=\"KKeyword\">Ahdistus</style> on yli 60%:n"
+"Sädevasamaportti tässä rakennuksessa mahdollistaa sen <style=\"KKeyword"
+"\">Sädevasamien</style> vastaanottamisen"
 
+# emissio
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PARTICLE_PORT_OUTPUT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.TOOLTIP"
-#| msgid ""
-#| "This building has not been connected to a <style=\"KKeyword\">Power</"
-#| "style> grid"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PARTICLE_PORT_OUTPUT"
 msgid ""
 "This building has a configurable Radbolt Port for <style=\"KKeyword"
 "\">Radbolt</style> emission"
 msgstr ""
-"Tätä rakennusta ei ole yhdistetty <style=\"KKeyword\">Sähkö</style>verkkoon"
+"Tällä rakennuksella on säädettävä Sädevasamaportti <style=\"KKeyword"
+"\">Sädevasama</style>emissioille"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PLANTERBOX_PENTALTY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PLANTERBOX_PENTALTY"
@@ -63170,19 +63032,15 @@ msgid "{0}"
 msgstr "{0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVES_DISEASE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.WASHHANDS.TOOLTIP"
-#| msgid ""
-#| "Good hygiene removes <style=\"KKeyword\">Germs</style> and prevents the "
-#| "spread of <style=\"KKeyword\">Disease</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVES_DISEASE"
 msgid ""
 "The cooking process kills all <style=\"KKeyword\">Germs</style> present in "
 "the ingredients, removing the <style=\"KKeyword\">Disease</style> risk when "
 "eating the product"
 msgstr ""
-"Hyvä hygienia poistaa <style=\"KKeyword\">Bakteereja</style> ja ehkäisee "
-"<style=\"KKeyword\">Tautien</style> leviämistä"
+"Ruuanlaittoprosessi tappaa kaikki ainesosien <style=\"KKeyword\">Bakteerit</"
+"style> ehkäisten näin <style=\"KKeyword\">Sairastumis</style>riskiä tuotetta "
+"syötäessä"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVESEFFECTSUBTITLE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVESEFFECTSUBTITLE"
@@ -77798,12 +77656,9 @@ msgid "Fuel Tank"
 msgstr "Polttoainesäiliö"
 
 #. STRINGS.UI.STARMAP.COMPONENT.OXIDIZER_TANK
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
-#| msgid "Oxidizer tank full"
 msgctxt "STRINGS.UI.STARMAP.COMPONENT.OXIDIZER_TANK"
 msgid "Oxidizer Tank"
-msgstr "Hapetinsäiliö Täynnä"
+msgstr "Hapetinsäiliö"
 
 #. STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE
 msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
@@ -77848,14 +77703,6 @@ msgstr "Tämänhetkinen Massa"
 
 # helvetti
 #. STRINGS.UI.STARMAP.CURRENT_MASS_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.CURRENT_MASS_TOOLTIP"
-#| msgid ""
-#| "Warning: Destination has {0} resources available.\n"
-#| "The rocket has capacity for {1}.\n"
-#| "\n"
-#| "Missions to this destination will not return a full cargo load to avoid "
-#| "depleting the destination for future explorations."
 msgctxt "STRINGS.UI.STARMAP.CURRENT_MASS_TOOLTIP"
 msgid ""
 "Warning: Missions to this destination will not return a full cargo load to "
@@ -77864,11 +77711,11 @@ msgid ""
 "Destination: {0} Resources Available\n"
 "Rocket Capacity: {1}"
 msgstr ""
-"Varoitus: Tässä kohteessa on {0} resursseja saatavilla.\n"
-"Raketissa on tilaa {1}.\n"
+"Varoitus: Tähän määränpäähän lähetettävät raketit eivät palaa täydellä "
+"lastilla välttääkseen kohteen ehtymisen tulevilta tutkimusmatkoilta.\n"
 "\n"
-"Tähän määränpäähän suoritettavat tehtävät eivät tuop täyttä lastia "
-"välttääkseen kohteen ehtymisen tulevia retkiä varten."
+"Määränpää: {0} Resurssia Saatavilla\n"
+"Raketin Kantokyky: {1}"
 
 #. STRINGS.UI.STARMAP.DEFAULT_NAME
 msgctxt "STRINGS.UI.STARMAP.DEFAULT_NAME"
@@ -77876,36 +77723,24 @@ msgid "Rocket"
 msgstr "Raketti"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
-#| msgid "Destination selected"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
 msgid "Destination set"
-msgstr "Päämäärä valittu"
+msgstr "Päämäärä asetettu"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
-#| msgid "Destination selected"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
 msgid "Destination set"
-msgstr "Päämäärä valittu"
+msgstr "Päämäärä asetettu"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
-#| msgid "Destination selected"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE"
 msgid "Destination set"
-msgstr "Päämäärä valittu"
+msgstr "Päämäärä asetettu"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.TOOLTIP"
-#| msgid "Select a resource to use as bait"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED"
 msgid "Select the rocket's nosecone to set a destination"
-msgstr "Valitse syöttinä käytettävä materiaali"
+msgstr "Valitse raketin nokkakartio asettaaksesi päämäärän"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.REACHABLE
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.REACHABLE"
@@ -77958,9 +77793,6 @@ msgid "TOO FAR FOR THIS ROCKET"
 msgstr "LIIAN KAUKANA TÄLLE RAKETTILLE"
 
 #. STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME"
-#| msgid "Oxidizer tank not full"
 msgctxt "STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME"
 msgid "Oxidizer Tank not full"
 msgstr "Hapetinsäiliö ei täynnä"
@@ -77976,25 +77808,16 @@ msgid "Fuel Tank not full"
 msgstr "Polttoainesäiliö ei täynnä"
 
 #. STRINGS.UI.STARMAP.EMPTYTANK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.TOOLTIP"
-#| msgid "Fuel Tank must be filled before launch"
 msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.TOOLTIP"
 msgid "Fuel tank must be filled before launch"
 msgstr "Polttoainesäiliö tulee täyttää ennen laukaisua"
 
 #. STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
-#| msgid "Oxidizer tank full"
 msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
 msgid "Oxidizer Tank full"
-msgstr "Hapetinsäiliö Täynnä"
+msgstr "Hapetinsäiliö täynnä"
 
 #. STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP"
-#| msgid "Tank is full, ready to launch"
 msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP"
 msgid "Tank is full, ready for launch"
 msgstr "Tankki täynnä, valmiina laukaisemaan"
@@ -78005,9 +77828,6 @@ msgid "Fuel Tank full"
 msgstr "Polttoainesäiliö täynnä"
 
 #. STRINGS.UI.STARMAP.FULLTANK.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.FULLTANK.TOOLTIP"
-#| msgid "Tank is full, ready to launch"
 msgctxt "STRINGS.UI.STARMAP.FULLTANK.TOOLTIP"
 msgid "Tank is full, ready for launch"
 msgstr "Tankki täynnä, valmiina laukaisemaan"
@@ -78058,62 +77878,28 @@ msgid "Astronaut"
 msgstr "Astronautti"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CARGO_TRANSFER_COMPLETE.STATUS.FAILURE
-#, fuzzy
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CARGO_TRANSFER_COMPLETE.STATUS.FAILURE"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
-"Language-Team: \n"
-"Language: fi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CARGO_TRANSFER_COMPLETE.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
-#| msgid "Research Complete"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CARGO_TRANSFER_COMPLETE.STATUS.READY"
 msgid "Cargo Transfer Complete"
-msgstr "Tutkimus Suoritettu"
+msgstr "Rahdinsiirto Suoritettu"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CARGO_TRANSFER_COMPLETE.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
-#| msgid "Research Complete"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CARGO_TRANSFER_COMPLETE.STATUS.WARNING"
 msgid "Cargo Transfer Complete"
-msgstr "Tutkimus Suoritettu"
+msgstr "Rahdinsiirto Suoritettu"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CARGO_TRANSFER_COMPLETE.TOOLTIP.FAILURE
-#, fuzzy
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CARGO_TRANSFER_COMPLETE.TOOLTIP.FAILURE"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Eero Nikkari <eero.e.nikkari@gmail.com>\n"
-"Language-Team: \n"
-"Language: fi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CARGO_TRANSFER_COMPLETE.TOOLTIP.READY
 msgctxt ""
@@ -78133,61 +77919,49 @@ msgid ""
 msgstr "<link=\"ASTRONAUT\">Raketin Navigointi</link>"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDDIG.STATUS"
-#| msgid "Going to construction dig"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.FAILURE"
 msgid "No active construction"
-msgstr "Menee kaivamaan rakennusta varten"
+msgstr "Ei aktiivista rakentamista"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDDIG.STATUS"
-#| msgid "Going to construction dig"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.READY"
 msgid "No active construction"
-msgstr "Menee kaivamaan rakennusta varten"
+msgstr "Ei aktiivista rakentamista"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDDIG.STATUS"
-#| msgid "Going to construction dig"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.WARNING"
 msgid "No active construction"
-msgstr "Menee kaivamaan rakennusta varten"
+msgstr "Ei aktiivista rakentamista"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.FAILURE
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.FAILURE"
 msgid "In-progress module construction is preventing takeoff"
-msgstr ""
+msgstr "Käynnissä oleva moduulin rakentaminen estää lentoonlähdön"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.READY
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.READY"
 msgid "Construction of all modules is complete"
-msgstr ""
+msgstr "Kaikkien moduulien rakentaminen suoritettu"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDDIG.NAME"
-#| msgid "Construction Dig"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.WARNING"
 msgid "Construction warning"
-msgstr "Rakennuskaivuu"
+msgstr "Rakentamisvaroitus"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.FAILURE"
 msgid "All crew boarded"
-msgstr ""
+msgstr "Kaikki miehistö kyydissä"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.READY"
 msgid "All crew boarded"
-msgstr ""
+msgstr "Kaikki miehistö kyydissä"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE"
@@ -78227,22 +78001,22 @@ msgstr ""
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING"
 msgid "All crew boarded"
-msgstr ""
+msgstr "Kaikki miehistö kyydissä"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.FAILURE"
 msgid "Clear launch path"
-msgstr ""
+msgstr "Vapaa laukaisurata"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.READY"
 msgid "Clear launch path"
-msgstr ""
+msgstr "Vapaa laukaisurata"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.WARNING"
 msgid "Clear launch path"
-msgstr ""
+msgstr "Vapaa laukaisurata"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE"
@@ -78278,28 +78052,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.POWER_STATION.NAME"
-#| msgid "Power Control Station"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.FAILURE"
 msgid "Control Station"
-msgstr "Voimansäätöasema"
+msgstr "Ohjausasema"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.POWER_STATION.NAME"
-#| msgid "Power Control Station"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.READY"
 msgid "Control Station"
-msgstr "Voimansäätöasema"
+msgstr "Ohjausasema"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.POWER_STATION.NAME"
-#| msgid "Power Control Station"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.WARNING"
 msgid "Control Station"
-msgstr "Voimansäätöasema"
+msgstr "Ohjausasema"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.TOOLTIP.FAILURE"
@@ -78323,28 +78088,19 @@ msgid "Control Station warning"
 msgstr "Rakennuskaivuu"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
-#| msgid "Rocket Engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.FAILURE"
 msgid "Engine"
-msgstr "Rakettimoottori"
+msgstr "Moottori"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
-#| msgid "Rocket Engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.READY"
 msgid "Engine"
-msgstr "Rakettimoottori"
+msgstr "Moottori"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
-#| msgid "Rocket Engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.WARNING"
 msgid "Engine"
-msgstr "Rakettimoottori"
+msgstr "Moottori"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.FAILURE"
@@ -78360,33 +78116,21 @@ msgid "A suitable engine has been installed"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.NAME"
-#| msgid "Learning"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.WARNING"
 msgid "Engine warning"
-msgstr "Opettelu"
+msgstr "Moottorivaroitus"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
-#| msgid "Fuel Tank"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.FAILURE"
 msgid "Fuel Tank"
 msgstr "Polttoainesäiliö"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
-#| msgid "Fuel Tank"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.READY"
 msgid "Fuel Tank"
 msgstr "Polttoainesäiliö"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
-#| msgid "Fuel Tank"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.WARNING"
 msgid "Fuel Tank"
 msgstr "Polttoainesäiliö"
@@ -78405,36 +78149,24 @@ msgid "A fuel tank has been installed"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
-#| msgid "Fuel Tank"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.WARNING"
 msgid "Fuel tank warning"
-msgstr "Polttoainesäiliö"
+msgstr "Polttoainesäiliön varoitus"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.RECON"
-#| msgid "Recon"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.FAILURE"
 msgid "Nosecone"
-msgstr "Tiedustelu"
+msgstr "Nokkakartio"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.RECON"
-#| msgid "Recon"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.READY"
 msgid "Nosecone"
-msgstr "Tiedustelu"
+msgstr "Nokkakartio"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.RECON"
-#| msgid "Recon"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.WARNING"
 msgid "Nosecone"
-msgstr "Tiedustelu"
+msgstr "Nokkakartio"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.FAILURE"
@@ -78716,7 +78448,7 @@ msgstr "Lentäjän varoitus"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.WARNING"
 msgid "Pilot boarded"
-msgstr ""
+msgstr "Lentäjä kyydissä"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.STATUS.FAILURE"
@@ -78742,13 +78474,12 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_DARK"
-#| msgid "This plant is currently in the dark"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY"
 msgid ""
 "The rocket is sufficiently fueled for a roundtrip to its destination and back"
-msgstr "Tämä kasvi on pimeässä"
+msgstr ""
+"Tässä raketissa on riittävästi polttoainetta edestakaiselle matkalle "
+"määränpäähän"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY_NO_DESTINATION
 msgctxt ""
@@ -78777,11 +78508,6 @@ msgid "A {0} must be installed before launch"
 msgstr "{0} täytyy asentaa ennen laukaisua"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.RESOURCE_MASS_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.RESOURCE_MASS_TOOLTIP"
-#| msgid ""
-#| "{0} has {1} resources available.\n"
-#| "Rocket has capacity for {2}."
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.RESOURCE_MASS_TOOLTIP"
 msgid ""
 "{0} has {1} resources available\n"
@@ -78816,14 +78542,11 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_DARK"
-#| msgid "This plant is currently in the dark"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.READY"
 msgid ""
 "This rocket has sufficient oxidizer for a roundtrip to its destination and "
 "back"
-msgstr "Tämä kasvi on pimeässä"
+msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.WARNING
 msgctxt ""

@@ -8,3 +8,5 @@ Edistyminen 30.5.2021: 93 % valmis, 820 pätkää kääntämättä.
 Tiedoston käyttö pelissä:
 1. lataa strings.po
 2. kopioi kansioon OxygenNotIncluded\OxygenNotIncluded_Data\StreamingAssets\strings
+
+Strings_varmuus.po on varmuuskopio, ennen Spaced Out! -lisärin sapluunan yhdistämistä. Olemassa siltä varalta, että uudet versiot eivät ole yhteensopivia vanilijapelin kanssa.
